@@ -1,0 +1,49 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1776727501; x=1777332301; darn=orange.fr;
+        h=message-id:date:to:subject:mime-version:from:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=zwDcbXIcOwCVVAkgFxcqzFGJfUBX/rqtJsCjMl0XNaI=;
+        b=HZqDVB0zFpV2CJd0nwtU931Utgn2T55RotGsZ2sd9F8EzV45v7CnM4lN5BGCbRVHnj
+         OT7Kj11ZxuXCKaUFUE6im8dR1f5hvn31tfLmNgeiQXylhvj28cxpCc7e9mND7UKKUxre
+         AbD0WnFvaI+croqIUzZeNEKo5J9FLN59dnpSah6dXtq6ORDGNMOBENmcJXiZYJTkDJvs
+         dcTLd/+/fGvX/zs3sbbLlvUeq68IrG8FWjqROHdR+uO0xFgLYt2dzJ23ryVFtsqikzCQ
+         HqcDdNc+8IEzjWOPfY+FsbZCW+0kqoG8GGzB0aux3o6SXMtFSqWvhwYx6LSypph8UmhU
+         jfDA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1776727501; x=1777332301;
+        h=message-id:date:to:subject:mime-version:from:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=zwDcbXIcOwCVVAkgFxcqzFGJfUBX/rqtJsCjMl0XNaI=;
+        b=MWgkFoJe+Uw/0XYyehzUFD2mVqFN46CAITEOfrOKFc1p4JsA0xcVFxTlZZ7oD97zVU
+         w57UjOUw/Z0KaX9GCF62nKS+7vE2OXshd5D/PJfGMqva8O/dq+caCm0pDP8D3D1mPHJj
+         y5o4VhsfbfbWr8SLAU82B6YoE+ybC5SRFJcOHQHQnhtt3wFSGJLekqp7WX1xQZ1kvzaC
+         kY5Wm9m2QlYk4xnDuUqe6RggEKJRIh8DlXxFI2C1ZZWN54Oh3ZTWXkRylmjYS1LIp76r
+         Ohqm7txMnNuLyCybCOlsLWIP865PcpL9Mg7zh7d4ki7IQdchtqo+pZMNTyBhTrAFSxod
+         Gr8w==
+X-Gm-Message-State: AOJu0Ywx4wQkLNmlCdA9v+t+4F8deU9xsuAvUb3S+QyFy0dVdWxiZz+I
+	Igdj65wvgb2J29As3pFrp7wqcJ+VRHIqNqB9riKq6VzHktlB1yC24H7aQQwWX9+TMXw=
+X-Gm-Gg: AeBDietivgKzug4rdLiztOUPDxse9apodQvQrvyevg578Lpif1t24YMbNg6UOHvl1rs
+	FYQvOTIbd6FWM/nYEsuux+pliqIrs0SqD5nA1ouRI/9IeUHocFfn+Qtc276LtK/HeYpyqufo6gR
+	/Df11bodHffiH0K3sDjM8AsGqI/jK1ruHRcJKGckoL/hfUMGaH095aaGP9tgb0EE/+j/gwSGbEA
+	q2z4KK8SzZbGeWa6gXm8r9+78CP0EqhCjCoWJXUtnWBkFC0eh14G5Lb7tZPNn0Dtr3hnqeHBk8Z
+	NxmPXknymRror+KPNfG0KOSw9WaygcSCQASgc8bmjJrVV0TqN/M+SfrzfwDo9c/fwe8FXKlRp5o
+	pHUr1grih2xPhs4B0aSWdcHGqC9L+K6KXfUgmT58P5yiwLqqh69eSOwX8KrdcGGQuGxoGg3iezn
+	/DVnbTzv0yP63kY4x9E64+c2zdWx+A8SZq+eHm1t6TTVUOiTUQYAxT9DvfS5rDDoBTRX8BPbxNR
+	dKrIp1W
+X-Received: by 2002:a05:600c:888b:b0:485:4bd1:4c64 with SMTP id 5b1f17b1804b1-488fb796f95mr179237595e9.31.1776727500614;
+        Mon, 20 Apr 2026 16:25:00 -0700 (PDT)
+Return-Path: <superesolutions@gmail.com>
+Received: from [10.181.242.35] (82-64-15-220.subs.proxad.net. [82.64.15.220])
+        by smtp.gmail.com with ESMTPSA id 5b1f17b1804b1-488fc177dafsm396840825e9.4.2026.04.20.16.24.59
+        for <valerie.chevalier16@orange.fr>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 20 Apr 2026 16:25:00 -0700 (PDT)
+From: AVIS ORDRE DE DEBIT <superesolutions@gmail.com>
+X-Google-Original-From: AVIS ORDRE DE DEBIT <no-reply@harryji.com>
+Content-Type: multipart/alternative; boundary="===============5414856156467597977=="
+MIME-Version: 1.0
+Subject: =?utf-8?b?Vm90cmUgbWFuZGF0IGRlIHByw6lsw6h2ZW1lbnQgU0VQQSBhIMOpdMOpIGVucmVnaXN0csOpIGV0IHZhbGlkw6ku?=
+To: valerie.chevalier16@orange.fr
+Date: Tue, 21 Apr 2026 00:24:57 +0100
+Message-ID: <177672749706.7356.2654292040622034694@smtp.gmail.com>
+

@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20250723T013000
+DTEND;TZID=Asia/Kolkata:20250723T021500
+DTSTAMP:20250714T184637Z
+ORGANIZER;CN=Baby:mailto:bbabyy@xwf.google.com
+UID:7cov29mi1hv90pn7j4qsr7rm6a@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=superesolutions@gmail.com;X-NUM-GUESTS=0:mailto:superesolutions@gma
+ il.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Baby;X-NUM-GUESTS=0:mailto:bbabyy@xwf.google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wou-czaa-wpq
+X-MICROSOFT-CDO-OWNERAPPTID:232252251
+CREATED:20250708T192332Z
+DESCRIPTION:Contact: Harry Ji\nPhone: 1 6042533858\nEmail: superesolutions@
+ gmail.com\n\nEmail in case of rescheduling bbabyy@google.com\n\n-::~:~::~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::
+ -\nJoin with Google Meet: https://meet.google.com/wou-czaa-wpq\nOr dial: (I
+ N) +91 22 7127 9696 PIN: 8918566984250#\nMore phone numbers: https://tel.me
+ et/wou-czaa-wpq?pin=8918566984250&hs=7\n\nLearn more about Meet at: https:/
+ /support.google.com/a/users/answer/9282720\n\nPlease do not edit this secti
+ on.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~::~:~::-
+LAST-MODIFIED:20250714T184635Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Google // Xo Tours : Google Ads Consultation
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

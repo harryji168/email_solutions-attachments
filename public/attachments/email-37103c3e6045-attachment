@@ -1,0 +1,47 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1776600705; x=1777205505; darn=orange.fr;
+        h=mime-version:subject:to:from:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=4LBP6f4KhQDkeIhzFzKJaE5GTeEtdJPFRiH5cs2HZhw=;
+        b=YfjZh2Wj2ft8ejUKGRODkw1mnTYndC0v6QzpfvudacbahYkNWlR07nxkdfcMIWz9ut
+         IM7p5CQH6n26qAl3U4uffiKUXAqy80jn7/T9r90oKn8oGaesZpEy9vbnymtuitxV5ZnG
+         kXpimO4SBz2Ie5cEWh/pxSxuqb4Tt6J1gwBQ9PnhJNzYqzNdezrE3w6x+ub1vpHTwZT3
+         NGcSrQgvIDaK58Ype3fDkYzfoyepRRcPamj/7hqAf2+qCEk3Pn7yG4iI+CzoPnk10A9E
+         ENB9qaEUUGw2rKOdFJ/cyxWDnc9B99Q12eSpCizYtuLLI/2JQ+VfOSwznTU10maXVHky
+         oG4g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1776600705; x=1777205505;
+        h=mime-version:subject:to:from:date:message-id:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=4LBP6f4KhQDkeIhzFzKJaE5GTeEtdJPFRiH5cs2HZhw=;
+        b=LzU3lZedHtedl53j1X+OCdwi5QblbRncPMis1QGm0a/9OckcP1+d1qgnROSrzY5VEB
+         CCLYxfBYzHR/GAtUEZMOQ1lShlXymPTtvbZwt+/8TBqttIjZ4YoSR+KAG7oJJ3Ey1YQV
+         EGM1ziNGJ+qIY+lGNxySEbqC9GcAqVr5yBBdGTJhXAGi9NaADpJzNYTZIuMzHCW/ZHjw
+         C7tgU8p2qrbwkvX4KuteL4++vqTTeMupcKg/94izF6IMe31H6iU2t1UsfNbuw8SzGlGP
+         AXGT7PACBC76I/nAOrffa5l8s3TRErtOkmdrKRRAQpgKB/SdtBmPrXjWbHNxHdmgAZtZ
+         H3CQ==
+X-Gm-Message-State: AOJu0Ywmn0wbdyVYxFn/YaVRcYXDQSGcPb8Cl3YTFGmHQEYR0Yu0cHDn
+	Hc1Z5V271++FRF10s3uYNCwlF1Pi3dhEngS+2/vBA1Lk6uhluYLcvCTUYHEmB6/HIu0=
+X-Gm-Gg: AeBDietOsN3i7Br6mNLTtYp+lFpnPVLuUAzY+KAzJ/konONNtZlHScUTBPcVbNyDerF
+	/OLiSYnZjdLZpoC2ZVewme5fHj8eBUuvNoIcAVRECwgVSsGMT2vOc9lMR44YiUZGts8Jc4M05bs
+	Uwth2+7HDapR2K891fQvKmkmPpjgxzFeTmkHd+d+YrJySkZFm2vlwbfi50tXxOzPn3/1oSa5iqG
+	mpA2adAUJukf+IdTMQjcUECbfmVE5jhqsGeFSRtUnGSInsKH8MJC+3cM9tuxkEEeM1EFkHmF+8b
+	5OXcxIPUx9jffB7GfYBX6CjoyhOYc1mckGSHwfLRKodOORLxdFpXUcJebFfCBnkzwdKNhTwZX71
+	nJT2sORY8OCSNxG7+QbGTYOHuVtDAmCE2O5a++LQzJzlQLGaViBUrvaLBsApx7pTOTUIs5vE8Le
+	YBlQkai8sIyiViuGm4jQQaY6ilfZZ2+loxbB13gg==
+X-Received: by 2002:a17:907:e989:b0:b83:1433:78de with SMTP id a640c23a62f3a-ba41888220amr506277366b.12.1776600704746;
+        Sun, 19 Apr 2026 05:11:44 -0700 (PDT)
+Return-Path: <superesolutions@gmail.com>
+Received: from localhost ([93.123.109.247])
+        by smtp.gmail.com with UTF8SMTPSA id 4fb4d7f45d1cf-672c4d51820sm1566897a12.22.2026.04.19.05.11.43
+        for <alain.caraboeuf@orange.fr>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 19 Apr 2026 05:11:44 -0700 (PDT)
+Message-ID: <69e4c680.050a0220.15359c.8b52@mx.google.com>
+Date: Sun, 19 Apr 2026 05:11:44 -0700 (PDT)
+From: Billing Department <superesolutions@gmail.com>
+To: alain.caraboeuf@orange.fr
+Subject: Action Needed: Update Payment Method by April 9, 2026
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="40dfae16b430880ab01ef784adff284eee19ac810f2401d40e25ef10e183"
+

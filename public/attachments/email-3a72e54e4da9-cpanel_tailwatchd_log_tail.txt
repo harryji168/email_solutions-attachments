@@ -1,0 +1,58 @@
+spamd has failed. Contact your system administrator if the service does not automagically recover.
+	Sep 02 18:14:46 host.supere.ca systemd[1]: spamd.service failed.
+	Sep 02 18:14:46 host.supere.ca systemd[1]: Unit spamd.service entered failed state.
+	Sep 02 18:14:46 host.supere.ca systemd[1]: Failed to start Apache SpamAssassin™ deferral daemon.
+	Sep 02 18:14:35 host.supere.ca spamd[7307]: spamd: server killed by SIGTERM, shutting down
+	Sep 02 18:14:34 host.supere.ca systemd[1]: spamd.service start operation timed out. Terminating.
+	Sep 02 18:13:55 host.supere.ca spamd[7307]: zoom: able to use 1209/1210 'body_0' compiled rules (99.917%)
+	Sep 02 18:13:17 host.supere.ca systemd[1]: Can't open PID file /run/spamd.pid (yet?) after start: No such file or directory
+	Sep 02 18:13:03 host.supere.ca systemd[1]: Starting Apache SpamAssassin™ deferral daemon...
+Startup Log
+	(XID y5n5fb) The “spamd” service failed to start.
+Service Error
+	spamd (/usr/local/cpanel/3rdparty/perl/536/bin/perl -T -w /usr/local/cpanel/3rdparty/bin/spamd --allowed-ips=127.0.0.1,::1 --max-children=5 --pidfile=/var/run/spamd.pid --listen=5 --listen=6) is running as root with PID 10412 (systemd+/proc check method).
+Service Status
+Cpanel::Exception::Services::StartError
+Waiting for “spamd” to restart …………failed.
+[680] [2023-09-02 18:09:27 -0400] [Cpanel::TailWatch::Eximstats] [SQLERR] Could not execute query, logging SQL to /var/cpanel/sql
+[680] [2023-09-02 18:09:27 -0400] [Cpanel::TailWatch::Eximstats] [ERR] SQL Failed with error ((XID ds26ur) The system received an error from the “SQLite” database “/var/cpanel/eximstats_db.sqlite3”: SQLITE_BUSY (database is locked)): INSERT INTO sends (sendunixtime,msgid,processed,domain,email,user,size,host,ip,auth,localsender,spamscore,sender) VALUES('1693692500','1qcYjx-0001cK-1g','0','','bounce-2863_html-57436812-176668-510008616-1009@bounce.news.raditentailnews.com','-remote-','19756','gr73.mta.exacttarget.com','161.71.34.73','localdelivery','1','','')
+[680] [2023-09-02 18:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1693692000
+[680] [2023-09-02 17:15:40 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[680] [2023-09-02 17:15:40 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[680] [2023-09-02 17:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1693688400
+[680] [2023-09-02 16:39:02 -0400] [Cpanel::TailWatch::Eximstats] [SQLERR] Could not execute query, logging SQL to /var/cpanel/sql
+[680] [2023-09-02 16:39:02 -0400] [Cpanel::TailWatch::Eximstats] [ERR] SQL Failed with error ((XID gtz26b) The system received an error from the “SQLite” database “/var/cpanel/eximstats_db.sqlite3”: SQLITE_CONSTRAINT (UNIQUE constraint failed: smtp.sendunixtime, smtp.msgid, smtp.email, smtp.deliveredto, smtp.router)): INSERT INTO smtp (sendunixtime,msgid,email,processed,transport_method,transport_is_remote,host,ip,deliveredto,router,deliveryuser,deliverydomain,counteddomain,countedtime,countedhour) VALUES('1693687142','1qcXOQ-0006W6-1a','harry@supere.ca','2','dovecot_virtual_delivery','0','localhost','127.0.0.1','harry@supere.ca','virtual_user','supereca','supere.ca','','0','0')
+[680] [2023-09-02 16:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1693684800
+[680] [2023-09-02 15:17:36 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[680] [2023-09-02 15:17:36 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+spamd restarted successfully.
+	Sep 02 15:14:42 host.supere.ca spamd[10412]: prefork: child states: II
+	Sep 02 15:14:42 host.supere.ca spamd[10412]: prefork: child states: IS
+	Sep 02 15:14:42 host.supere.ca spamd[10412]: spamd: server successfully spawned child process, pid 10452
+	Sep 02 15:14:42 host.supere.ca spamd[10412]: spamd: server successfully spawned child process, pid 10450
+	Sep 02 15:14:42 host.supere.ca systemd[1]: Started Apache SpamAssassin™ deferral daemon.
+	Sep 02 15:14:42 host.supere.ca spamd[10412]: spamd: server pid: 10412
+	Sep 02 15:14:42 host.supere.ca spamd[10412]: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 3.4.6)
+	Sep 02 15:14:41 host.supere.ca spamd[10412]: rules: meta test NML_ADSP_CUSTOM_HIGH has dependency 'DKIM_ADSP_CUSTOM_HIGH' with a zero score
+	Sep 02 15:14:41 host.supere.ca spamd[10412]: rules: meta test KAM_AUTONEW2 has dependency 'KAM_NEWNOTICE' with a zero score
+	Sep 02 15:14:41 host.supere.ca spamd[10412]: rules: meta test FROM_BANK_NOAUTH has dependency 'NO_RELAYS' with a zero score
+Startup Log
+	spamd (/usr/local/cpanel/3rdparty/perl/536/bin/perl -T -w /usr/local/cpanel/3rdparty/perl/536/bin/spamd --allowed-ips=127.0.0.1,::1 --max-children=5 --pidfile=/var/run/spamd.pid --start-dormant) is running as root with PID 10412 (systemd+/proc check method).
+Service Status
+Waiting for “spamd” to restart ………waiting for “spamd” to initialize ………finished.
+[680] [2023-09-02 15:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1693681200
+[680] [2023-09-02 14:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1693677600
+[680] [2023-09-02 13:15:21 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[680] [2023-09-02 13:15:21 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[680] [2023-09-02 13:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1693674000
+[680] [2023-09-02 12:58:08 -0400] [Cpanel::TailWatch::Eximstats] [SQLERR] Could not execute query, logging SQL to /var/cpanel/sql
+[680] [2023-09-02 12:58:08 -0400] [Cpanel::TailWatch::Eximstats] [ERR] SQL Failed with error ((XID ga6bcz) The system received an error from the “SQLite” database “/var/cpanel/eximstats_db.sqlite3”: SQLITE_CONSTRAINT (UNIQUE constraint failed: smtp.sendunixtime, smtp.msgid, smtp.email, smtp.deliveredto, smtp.router)): INSERT INTO smtp (sendunixtime,msgid,email,processed,transport_method,transport_is_remote,host,ip,deliveredto,router,deliveryuser,deliverydomain,counteddomain,countedtime,countedhour) VALUES('1693673887','1qcTwb-0004vJ-1W','harry@supere.ca','2','dovecot_virtual_delivery','0','localhost','127.0.0.1','harry@supere.ca','virtual_user','supereca','supere.ca','','0','0')
+[680] [2023-09-02 12:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1693670400
+[680] [2023-09-02 11:45:09 -0400] [Cpanel::TailWatch::Eximstats] [SQLERR] Could not execute query, logging SQL to /var/cpanel/sql
+[680] [2023-09-02 11:45:09 -0400] [Cpanel::TailWatch::Eximstats] [ERR] SQL Failed with error ((XID u669mf) The system received an error from the “SQLite” database “/var/cpanel/eximstats_db.sqlite3”: SQLITE_CONSTRAINT (UNIQUE constraint failed: smtp.sendunixtime, smtp.msgid, smtp.email, smtp.deliveredto, smtp.router)): INSERT INTO smtp (sendunixtime,msgid,email,processed,transport_method,transport_is_remote,host,ip,deliveredto,router,deliveryuser,deliverydomain,counteddomain,countedtime,countedhour) VALUES('1693669508','1qcSo0-0001uC-2J','harry@supere.ca','2','dovecot_virtual_delivery','0','localhost','127.0.0.1','harry@supere.ca','virtual_user','supereca','supere.ca','','0','0')
+[680] [2023-09-02 11:00:04 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[680] [2023-09-02 11:00:04 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[680] [2023-09-02 11:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1693666800
+Use of uninitialized value $port in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN1> line 17254.
+Use of uninitialized value $ip in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN1> line 17254.
+Use of uninitialized value $port in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN1> line 17244.

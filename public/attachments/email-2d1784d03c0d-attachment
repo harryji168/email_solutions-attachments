@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Jakarta
+X-LIC-LOCATION:Asia/Jakarta
+BEGIN:STANDARD
+TZOFFSETFROM:+0700
+TZOFFSETTO:+0700
+TZNAME:GMT+7
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Jakarta:20260429T000000
+DTEND;TZID=Asia/Jakarta:20260429T010000
+DTSTAMP:20260429T163219Z
+ORGANIZER;CN=supervisor bmn:mailto:supervisor.bmn@polinela.ac.id
+UID:58f6sos7oke0s8t5vg1i0uuccj@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=harry@superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutio
+ ns.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rvd-gkmi-xxw
+X-MICROSOFT-CDO-OWNERAPPTID:-1542260621
+CREATED:20260429T163200Z
+DESCRIPTION:Dear Valued Customer\,\n\nThis email is to confirm that your re
+ cent transaction through PayPal has been successfully authorized. We are pl
+ eased to provide you with your digital invoice for the annual renewal of yo
+ ur security services.\n\nTransaction Overview\n\nInvoice Number: 2026_F2HYT
+ QK6ON579DK_HD\n\nService Name: McAfee+™️ Ultimate – Family Edition\n\nBilli
+ ng Date: 29 April 2026\n\nTotal Amount: $689.89 USD\n\nPayment Status: Comp
+ leted (via Auto-Pay)\n\nPlease Note:\nThe charge will appear on your statem
+ ent as *"PAYPAL MCAFEE SECURE" within the next 24 hours.\n\nSecurity Alert\
+ nIf you did not authorize this purchase or if you believe this is a clerica
+ l error\, please take immediate action. To ensure a seamless reversal and a
+ void a permanent charge to your bank account\, you must contact our Custome
+ r Protection Desk within the next 12 hours.\n\nFraud Prevention Hotline: +1
+  805 362 4633.\n\nOur specialized billing team is available 24/7 to assist 
+ with cancellations\, dispute resolutions\, and full refund processing.\n\nB
+ illing DepartmentEmail Support & Feedback: [No Reply]Priority Helpline: +1 
+ 805 362 4633.\n\nThis is an automated system-generated receipt. For your pr
+ ivacy\, do not share this invoice ID with anyone other than our verified su
+ pport agents.\n\n© 2026 Global Security Systems. All Rights Reserved.\n\n-:
+ :~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~::~:~::-\nBergabung dengan Google Meet: https://meet.google.com/rvd-gkmi-
+ xxw\nAtau telepon: (US) +1 413-369-1413 PIN: 248046227#\n\nPelajari Meet le
+ bih lanjut di: https://support.google.com/a/users/answer/9282720\n\nJangan 
+ edit bagian ini.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260429T163207Z
+LOCATION:https://meet.google.com/rvd-gkmi-xxw
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Dear Valued Customer\,  This email is to confirm that your recent t
+ ransaction through PayPal has been successfully authorized. We are pleased 
+ to provide you with your digital invoice for the annual renewal of your sec
+ urity services.  Transaction Overview  Invoice Number: 2026_F2HYTQK6ON579DK
+ _HD  Service Name: McAfee+™️ Ultimate – Family Edition  Billing Date: 29 Ap
+ ril 2026  Total Amount: $689.89 USD  Payment Status: Completed (via Auto-Pa
+ y)  Please Note: The charge will appear on your statement as *"PAYPAL MCAFE
+ E SECURE" within the next 24 hours.  Security Alert If you did not authoriz
+ e this purchase or if you believe this is a clerical error\, please take im
+ mediate action. To ensure a seamless reversal and avoid a permanent charge 
+ to your bank account\, you must contact our Customer Protection Desk within
+  the next 12 hours.  Fraud Prevention Hotline: +1 805 362 4633.  Our specia
+ lized billing team is available 24/7 to assist with cancellations\, dispute
+  resolutions\, and full refund processing.  Billing Department
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
