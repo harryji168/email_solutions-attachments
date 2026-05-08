@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260617T100108Z
+DTEND:20260618T100108Z
+DTSTAMP:20260508T190124Z
+ORGANIZER;CN=Annette Johnson:mailto:annette.j49944@influencerinsighthub.com
+UID:9kov58m9heqf6q5oojc39samrs@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260508T190109Z
+DESCRIPTION:Dear Customer\,\n\nWe hope you are having a great day.\n\nWe ar
+ e reaching out to inform you about the status of your mcafee ArmorGuardian 
+ subscription. Over the past few days\, our team attempted to contact you re
+ garding the upcoming renewal of your service\; however\, we have not yet re
+ ceived a response.\n\nAs the previous billing term has reached its renewal 
+ date\, your mcafee ArmorGuardian subscription has been successfully renewed
+  for the next 12 months according to the service agreement. The payment for
+  this renewal has been securely processed using your saved PayPal account t
+ o ensure uninterrupted access to your services.\n\n━━━━━━━━━━━━━━━━━━━━\n🧾
+  **Subscription Information**\n━━━━━━━━━━━━━━━━━━━━\n\nInvoice Number: #AB3
+ 45678\nTransaction Date: May 8\, 2026\nProduct: mcafee ArmorGuardian – Annu
+ al Subscription\nBilling Cycle: 1 Year\nAmount Charged: $399.00 USD\nPaymen
+ t Method: PayPal (Saved Account)\n\n✨ **What this renewal includes**\n\n• C
+ ontinued full access to all mcafee ArmorGuardian features\n• Ongoing produc
+ t improvements and updates\n• Priority customer assistance when needed\n• S
+ ecure and uninterrupted service for the next 12 months\n\nIf you have any q
+ uestions about this renewal or would like assistance reviewing your subscri
+ ption\, our support team will be happy to help.\n\n📞 **Customer Support (T
+ oll-Free):** + 1 (813) 263-7550\n\nOur representatives are available to ass
+ ist you with any billing inquiries or subscription requests.\n\nThank you f
+ or your continued trust in PayPal Technical Support. We value your support 
+ and look forward to providing you with reliable service.\n\nWarm regards\,\
+ n\nPayPal Technical Support\nBilling & Account Services\nCustomer Support T
+ eam
+LAST-MODIFIED:20260508T190111Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Your invoice and renewal details
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
