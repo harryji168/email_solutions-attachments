@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260423T192903Z
+DTEND:20260424T192903Z
+DTSTAMP:20260316T132923Z
+ORGANIZER;CN=Autumn Martinez:mailto:autumnmartinez22@arvobangla.com
+UID:vres2jurpebk0tiefa98prnqj8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260316T132905Z
+DESCRIPTION:Dear Customer\,\n\nWe hope you are doing well.\n\nOur records i
+ ndicate that your Fyno subscription has recently completed its previous ser
+ vice term. As outlined in the service agreement\, the subscription has now 
+ been renewed for the next 12 months.\n\nThe billing for this renewal has be
+ en successfully completed using your saved PayPal account so that your acce
+ ss to services remains active without interruption.\n\n📋 Transaction Summa
+ ry\n\nInvoice Number: #IJ345690\nTransaction Date: March 13\, 2026\nProduct
+ : Fyno – Annual Subscription\nBilling Cycle: 1 Year\nAmount Charged: $399.0
+ 0 USD\nPayment Method: PayPal (Saved Account)\n\nThis renewal provides cont
+ inued access to all Fyno services\, updates\, and customer support througho
+ ut the upcoming subscription period.\n\nIf you would like help reviewing yo
+ ur billing information or have questions about your account\, our team is a
+ vailable to assist.\n\n📞 Toll-Free Customer Support: +1 (864) 285-5658\n\n
+ Thank you for choosing paypal.\n\nKind regards\,\npaypal\nAccount & Billing
+  Department
+LAST-MODIFIED:20260316T132908Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Account Update: Renewal Complete
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

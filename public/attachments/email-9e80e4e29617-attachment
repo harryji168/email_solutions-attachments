@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260615T213254Z
+DTEND:20260616T213254Z
+DTSTAMP:20260401T133314Z
+ORGANIZER;CN=Sherri Hansen:mailto:hansen.sherri7467@nexarionews.com
+UID:7tcb14dua89huopetatfd1kfg4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260401T133255Z
+DESCRIPTION:Dear Customer\,\n\nGreetings from PAYPAL.\n\nWe would like to i
+ nform you that our team previously attempted to contact you regarding the r
+ enewal of your CustomerMind subscription. As we did not receive a response 
+ before the billing date\, the system has now processed the renewal automati
+ cally according to your service agreement.\n\nYour CustomerMind subscriptio
+ n has been renewed for an additional 12-month period\, and the payment has 
+ been successfully processed through your saved PayPal account to maintain u
+ ninterrupted service.\n\n📄 Subscription Details\n\nInvoice Number: #FG9012
+ 56\nTransaction Date: April 01\, 2026\nProduct: CustomerMind – Annual Subsc
+ ription\nBilling Cycle: 1 Year\nAmount Charged: $399.00 USD\nPayment Method
+ : PayPal (Saved Account)\n\nYour renewed membership ensures continued acces
+ s to all premium features\, updates\, and support services provided by PAYP
+ AL.\n\nIf you have any questions regarding this renewal or would like assis
+ tance reviewing your subscription\, please contact our support team.\n\n📞 
+ Toll-Free Support: +1 (805) 215-0984\n\nThank you for choosing PAYPAL.\n\nS
+ incerely\,\nPAYPAL Billing Department\nCustomer Support Team
+LAST-MODIFIED:20260401T133259Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Renewal Notification – Details Enclosed
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20230816T024518Z
+UID:calendly-777808543
+DTSTART:20230816T200000Z
+DTEND:20230816T203000Z
+CLASS:PUBLIC
+DESCRIPTION:Event Name: 30 Minute Meeting - Lead Gen Discussion\nDate & Tim
+ e: 01:00pm - 01:30pm (Pacific Time - US & Canada) on Wednesday\, August 16
+ \, 2023\n\nDirect Line: +1 778-887-8868\n\nCompany Name: super e\n\nCompan
+ y Website: super e-solutions \n\nWe'd like to note in advance your target 
+ Ideal Customer Profile Target Location: Target Business size: Target Indus
+ try: Titles of Ideal Decision Maker(s):: information technology\n\nNeed to
+  make changes to this event?\nCancel: https://calendly.com/cancellations/5
+ e700afd-e3cb-451b-a81d-5c3807e3f7b8\nReschedule: https://calendly.com/resc
+ hedulings/5e700afd-e3cb-451b-a81d-5c3807e3f7b8\n
+ORGANIZER;CN=Stela Lupei:no-reply@calendly.com
+SUMMARY:30 Minute Meeting - Lead Gen Discussion with Stela Lupei
+TRANSP:OPAQUE
+ATTENDEE:mailto:jiharry@hotmail.com
+END:VEVENT
+END:VCALENDAR

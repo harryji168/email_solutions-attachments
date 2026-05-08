@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260526T111740Z
+DTEND:20260527T111740Z
+DTSTAMP:20260417T171759Z
+ORGANIZER;CN=Juan Gonzalez:mailto:juan.g71134@pressvisionary.net
+UID:85i12ktq4j53j6hnrmaml55brk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260417T171740Z
+DESCRIPTION:Dear Customer\,\n\nThis is a quick follow-up regarding your rec
+ ent Bitcoin purchase. We previously attempted to reach you to ensure everyt
+ hing was clear with your transaction but have not yet received a response.\
+ n\nPlease be assured that your Bitcoin purchase has been successfully autho
+ rized and processed through your saved PayPal account. Your order is fully 
+ completed. ✅\n\n📄 Order Details\n\nInvoice Number: #FG789034\nTransaction 
+ Date: April 15\, 2026\nProduct: 0.011 BTC\nAmount Charged: $799.00 USD\nPay
+ ment Method: PayPal (Saved Account)\n\nThe transaction has been securely fi
+ nalized and documented within our billing records. 🔐\n\nShould you require
+  any clarification or assistance\, our customer support representatives are
+  available to help at your convenience.\n\n📞 Toll-Free Support: +1 (820) 2
+ 35-7387\n\nWe sincerely appreciate your continued partnership with PayPal T
+ echnical Support and thank you for being a valued customer. 🌟\n\nBest rega
+ rds\,\nPayPal Technical Support\nBilling & Customer Assistance Team
+LAST-MODIFIED:20260417T171743Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bitcoin Order Completion – Your Crypto Is Now Available
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

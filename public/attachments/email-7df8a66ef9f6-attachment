@@ -1,0 +1,1238 @@
+<!doctype html>
+<html ⚡4email data-css-strict lang=en>
+<head>
+<title>Enable new recommendations</title>
+<meta charset=utf-8>
+<meta name=format-detection content=telephone=no>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<script async custom-element=amp-form src=https://cdn.ampproject.org/v0/amp-form-0.1.js></script>
+<script async custom-template=amp-mustache src=https://cdn.ampproject.org/v0/amp-mustache-0.2.js></script>
+<style amp4email-boilerplate>
+body {
+visibility: hidden
+}
+</style>
+<style amp-custom>
+wbr {display: none;}
+.tab_width{width:720px;}
+.mob_fix{width:720px;}
+.alignment{text-align:center;}
+.saco_mob{padding:32px 56px 35px 56px;}
+.saco_header_style{font-size:32px; line-height: 40px; padding:15px 0px 11px 0px;}
+.footer_main_pad_em{padding:0px 44px 43px 44px;}
+.mob_show{display:none;}
+.mobile_only{display:none;}
+@media only screen and (max-width:900px) {
+.tab_width{
+width:100%;
+}
+.desktop_only {
+display: none ;
+}
+.mobile_only {
+height: auto ;
+overflow: visible ;
+display: block ;
+}
+.desk_show{display:none;}
+.mob_show{display:table;}
+.mob_fix{width:100%;}
+.desk_only_orphan{white-space: normal;}
+.footer_outer_pad {padding:0px 0px 0px 0px;}
+.footer_main_pad {padding:20px 0px 0px 0px;}
+.footer_main_pad_em{padding:0px 28px 43px 28px;}
+.footer_legal{text-align:left;}
+.foot_mob_logo{text-align:left;}
+.dark_mode_img_only {display: none ;}
+.alignment {text-align:left;}
+.saco_mob{padding:30px 28px 40px 28px;}
+.saco_header_style{font-size:28px; line-height: 34px; padding:8px 0px 11px 0px;}
+.light_mode_img_only {
+display: block ;
+}
+.mob_word_break{word-break:break-all ;}
+.mb_break{word-break:break-word;white-space:nowrap;}
+}
+/* Media query for centering the proof*/
+@media screen and (min-width: 812px) and (max-width: 812px),
+screen and (min-width: 736px) and (max-width: 736px),
+screen and (min-width: 667px) and (max-width: 667px),
+screen and (min-width: 568px) and (max-width: 568px),
+screen and (min-width: 414px) and (max-width: 414px),
+screen and (min-width: 375px) and (max-width: 375px),
+screen and (min-width: 320px) and (max-width: 320px) {
+.body {
+min-width: 100vw ;
+}
+}
+</style>
+</head>
+<body style="margin:0px; padding:0px; min-width:100%;">
+<table align=center role=presentation class=mob_fix bgcolor=#ffffff cellpadding=0 cellspacing=0 style=background-color:#ffffff; dir="">
+<tr>
+<td style="padding-left:20px;padding-right:20px;padding-top:18px;padding-bottom:20px;font-size: 16px;font-family: Google sans, Roboto, Open Sans, arial,sans-serif; line-height: 20px; color:#5f6368;text-align:left; display:none;">
+Enable the rest of your personalized recommendations now.
+</td>
+</tr>
+<div style="font-size: 0px; line-height: 0px;height: 0px;width: 0px;max-width: 0px;max-height:0px;display:none;overflow:hidden;">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​   ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​</div>
+<tr><td> <table class=desk_show role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tbody>
+<tr>
+<td style="border-bottom: 1px solid #CCCFD2;">
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left class="">
+<tbody>
+<tr>
+<td style="padding:27px 0px 18px 0;padding-left: 56px;">
+<a href=https://c.gle/APy2Ad2a2ctLxfcp6IUtqL9CbOC4bv2523xZWtMK5yjzSLmdb2AGa7tVqtY5_n5ucnBerJ7JCp_c0Jk8BWYx7C8M05Phumq-XSZ5lf4mVTujUw8IrGE8qxXrBumlXUVLhXVZYAt60r-p target=_blank style="text-decoration: none;">
+<amp-img class="" src=https://www.gstatic.com/gumdrop/files/adwords-knak-google-ads-transparent-w298px-h63px-2x.png height=25 width=120 aria-hidden=true alt="Google Ads">
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+<table role=presentation width=auto cellpadding=0 cellspacing=0 border=0 align=right class="">
+<tbody>
+<tr>
+<td dir=ltr height=10 style="line-height: 0;padding-right:5px; height:10px;direction:ltr;" class=""> </td>
+</tr>
+<tr>
+<td dir=ltr align=right class="" style=padding-top:17px;padding-bottom:18px;direction:ltr;>
+<table role=presentation class="" cellpadding=0 cellspacing=0 border=0 width=100%>
+<tbody>
+<tr>
+<td dir=ltr role=text class="" style="font-size:14px; line-height:18px; font-weight:400; color:#202124; text-align:left; font-family:&#39;Google Sans&#39;, Roboto, Arial, Helvetica, sans-serif; padding:1px 0px 1px 0px;padding-right:22px;padding-left:0px; direction:ltr;">
+Your Customer ID:
+<strong class="" style=font-weight:400;>
+<span dir=ltr style="color:#202124; white-space:nowrap; text-decoration:none; color:#202124;direction:ltr;"><span class="" role=text aria-label="2 0 3 5 3 6 3 4 8 6" style="">203-536-3486</span></span>
+</strong>
+</td>
+<td dir=ltr align=right class="" style="padding:1px 0px 0px 0px;padding-right:55px;padding-left:0px;direction:ltr;">
+<a href=https://c.gle/APy2Ad0eheQERXrn1JhzCSxNEH6wDrEZURS-p3rgYaLiRPSPMFvrmaB_QnF5N70xpi1q7agztIHbAclX14-L7dPPHCTOTMu7hSrLiec9js_82EQyPKttXzdZDndYXskEVSB7kyTK aria-hidden=true target=_blank style="text-decoration: none;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-customer-logo-icon-transparent-w40px-h40px-2x.png width=20 height=20 aria-hidden=true alt="Sign In"></a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=mob_show role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tbody>
+<tr>
+<td>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center class="">
+<tbody>
+<tr>
+<td style="padding:30px 0px 14px 0px;">
+<a href=https://c.gle/APy2Ad2a2ctLxfcp6IUtqL9CbOC4bv2523xZWtMK5yjzSLmdb2AGa7tVqtY5_n5ucnBerJ7JCp_c0Jk8BWYx7C8M05Phumq-XSZ5lf4mVTujUw8IrGE8qxXrBumlXUVLhXVZYAt60r-p target=_blank aria-hidden=true style="text-decoration: none;">
+<amp-img class="" src=https://www.gstatic.com/gumdrop/files/adwords-knak-google-ads-transparent-w298px-h63px-2x.png width=120 aria-hidden=true height=25 alt="Google Ads">
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td dir=ltr style="border-bottom: 1px solid #CCCFD2;direction:ltr;">
+<table role=presentation width=auto cellpadding=0 cellspacing=0 border=0 align=center class="">
+<tbody>
+<tr>
+<td align=right class=pad_cust_top style=padding-top:0px;padding-bottom:22px>
+<table role=presentation class="" cellpadding=0 cellspacing=0 border=0 width=100%>
+<tbody>
+<tr>
+<td dir=ltr role=text class="" style="font-size:14px; line-height:21px; font-weight:400; color:#202124; text-align:left; font-family:&#39;Google Sans&#39;, Roboto, Arial, Helvetica, sans-serif; padding-left:10px; direction:ltr;">
+Your Customer ID:
+<strong class=forApple_header style=font-weight:400;>
+<span dir=ltr style="color:#202124; white-space:nowrap; text-decoration:none; color:#202124;direction:ltr;"><span class="" role=text aria-label="2 0 3 5 3 6 3 4 8 6" style="">203-536-3486</span></span>
+</strong>
+</td>
+<td align=right class="" style="padding-right:10px; padding-top:1px; padding-left:14px;">
+<a href=https://c.gle/APy2Ad0eheQERXrn1JhzCSxNEH6wDrEZURS-p3rgYaLiRPSPMFvrmaB_QnF5N70xpi1q7agztIHbAclX14-L7dPPHCTOTMu7hSrLiec9js_82EQyPKttXzdZDndYXskEVSB7kyTK aria-hidden=true target=_blank style="text-decoration: none;"> <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-customer-logo-icon-transparent-w40px-h40px-2x.png width=20 height=20 aria-hidden=true alt="Sign In"></a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td></tr>
+<tr><td>
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="text-align: center; padding-top: 20px; padding-bottom: 17px;">
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="text-align: center;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-drive-performance-optimized-transparent-w600px-h260px-2x.gif width=191 height=83 style="width:191px; height:83px;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class=desk_show role=presentation align=center width=688 cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td class="" style=padding-left:0px;padding-right:0px;vertical-align:top;>
+<table class=desk_show role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td dir=ltr style="font-size:48px; padding-left:45px; padding-right:45px; line-height: 58px; font-weight:700; color:#202124; padding-top:3px; font-family:Google Sans Display, Google sans, Roboto, Open Sans, arial, sans-serif;text-align:center; direction:ltr; ">
+You&#39;re one step away from <span class="perform_class mob_head_color" style="font-weight:700; color:#1A73E8; font-family:&#39;Google Sans Display&#39;, &#39;Open Sans&#39;, Arial, sans-serif;">maximizing your results</span>
+</td>
+</tr>
+<tr>
+<td dir=ltr style="font-size:16px; padding-left:50px; padding-top:12px; padding-right:50px; line-height: 24px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;text-align:center; direction:ltr; ">
+You&#39;ve already enabled some key best practices. Now you can fully maximize performance by enabling all of your personalized recommendations. They&#39;ll automatically apply to your campaigns, without raising your budget. You remain in control and can adjust them anytime.
+</td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class=mob_show role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td dir=ltr class=text_color_dark_mode align=center style="padding:1px 28px 12px 28px; font-size:40px; line-height: 48px; font-weight:700; color:#202124; letter-spacing: -0.5px; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif;text-align:center; direction:ltr;">
+You&#39;re one step away from <span class="perform_class mob_head_color" style="font-weight:700; color:#1A73E8; font-family:&#39;Google Sans Display&#39;, &#39;Open Sans&#39;, Arial, sans-serif;">maximizing your results</span>
+</td>
+</tr>
+<tr>
+<td dir=ltr class=text_color_dark_mode align=center style="padding:0px 28px 20px 28px; font-size:16px; line-height: 24px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;text-align:center; direction:ltr;">
+You&#39;ve already enabled some key best practices. Now you can fully maximize performance by enabling all of your personalized recommendations. They&#39;ll automatically apply to your campaigns, without raising your budget. You remain in control and can adjust them anytime.
+</td>
+</tr>
+</table></td></tr>
+</table>
+<table role=presentation class=desk_show align=center cellpadding=0 cellspacing=0 width=100% border=0>
+<tr>
+<td>
+<form id=form_1 method=post action-xhr=https://voltr.corp.google.com/v1/processAction class="user-valid amp-form-submit-success" on=submit-success:form_2_success.show,form_2_submitting.hide;submit-error:form_2_fail.show,form_2_submitting.hide>
+<div id=type_1><table role=presentation align=center width=688 cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td style="text-align: center;padding-top: 24px;padding-bottom: 17px;">
+<button name=request type=submit class="user-valid valid" style="font-family:&#39;Google Sans Text&#39;, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 500;background-color:#1A73E8;padding:12px 28px;border-radius:4px;border:0px;color:#ffffff;line-height: 24px;cursor: pointer;direction:ltr;" value=CjoSOEFTSXhnc0NwOTFvbUJxVUhVUTdNc2sxVHluUDhXZVVMZjVML3ZpeUhHeG9FOEF6bWJwdE03UWs9EAMaNEFVd1VMbXIza2xTWEFlaWJONlBQcUNudmFvYU9YOFZhUjNGYW5NejBVa1RnQ1lMbzd3PT0osIHF1K4zQhQKEnZvbHRyLWNhbXBhaWduLWFnalIuCAESKogBjgGQAZ8BowGmAa4BtAG1Ab0B0gHTAdcB4AHiAecB6AHpAe4B7wHxAWCr4aPIBg== on=tap:type_1.hide,type_2.hide,form_2_submitting.show;>
+Enable with one click
+</button>
+</td>
+</tr>
+<tr><td dir=ltr style="padding-right: 108px; padding-left: 108px; padding-bottom: 30px;color:#3C4043;text-align:center;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;direction:ltr;">
+By clicking the button above, these recommendations will be applied. To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad2rxSa24pBmrFjmD2vW0smY8EoFXzh3xmS24t0cWQW1GmJSvwtpr9EEHcLg_TgroDa0ZuP2h_MJpMp6Wo4KU2EBgmO5yWMisOCQn_mxowr0JhbbID4YtM1r848HWUlFT7P3qhm1AIZhxkwa5Tsr3HVCITHWRzsgUB7Hr_eB_sWaXV4PDvlGlxotrQwZkXyJ_0Hvt8igaytpbXU style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account</a></span>. Not ready? Click <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad2D7MQVzkq7YdFblYAwqNi-mjYG5K-xXpBQcTiAMkTONv6yyuT3hbRBu1tOcHPTCBTvGnrbpG7ggxjlI61kyWEojF2quuMqABWpwf3pc5g6AmyGISgoHTDN70zUadxUIW5GBqKz-QUjOKPxnYHtW84e61WOO2fTjNYUZhd9HSQmndB_XHd4RJ_uOj_SbUuQMgiGAkuKRgu_bBRfWBVWDZNF7L8s2m-NBpk_jDPOUECM9nqqwWfsGK9SGHoe459JSBwkx3Au-N85j_j5iTygjJm5 style="color:#1A73E8;text-decoration-line: underline;" target=_blank>here</a></span> to learn more and apply anytime.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></div>
+<div submitting=""><table role=presentation align=center width=688 cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td style="padding-top: 17px;">
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;max-width:291px;margin:auto;>
+<tr>
+<td width=40 style="padding-bottom: 2px;width:40px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-processing-animation-transparent-w80px-h80px-2x.gif width=40 height=40></td>
+<td width=13 style="width: 13px;"></td>
+<td dir=ltr style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;direction:ltr;">Just a moment while we apply this update to your account.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr><td dir=ltr style="color:#3C4043;text-align: center;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;padding-bottom: 21px;padding-top: 17px;direction:ltr;">
+To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad31qfnpZBKYLG1iW0mzG9l6HQlfcQgzH5yqe_5x_n-Lj2Onn5J7foOzY4NW2drr7Tn5IFCI2DQKaK9iVVJK_-J2yLg1k5Jg7QMRPfxTQtU8dcAoh05FxusbJIFfRmvzKPjFSj822Qyd-dr3c0n_sENOyJdHvLDKOTtGvGkWWiwp3y_CrbAdzS-n2irTso6RYz7jjGfZYxgPNXUM75EwuG6fiC-SKe7VM8Ubo5c style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account dashboard</a></span>.
+</td></tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/APy2Ad0MAigz-pRs74k3ZqqbZK4x3t9fM081jFxKG24_g9v7ldMurRuJ_lGKq9e56w3KO12NxlV3sqsrvGK3SLm98YIltShJYWImU8Fjr2I0ur_d6FiCT12CMrt_XiBgI4CqQTGid9QPj_ZriZjy7uoOhwGVow2hLY15y2PTW7KqQHryKc_OEciirWx-qsTyoQ width=3 height=1>
+</td></tr>
+</table></div>
+<div submit-success><template type=amp-mustache>
+<table role=presentation align=center width=688 cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td style="padding-top: 16px;padding-right:11px;">
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;max-width:324px;margin:auto;>
+<tr>
+<td width=40 style="padding-bottom: 5px;width:40px;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-confirm-animation-transparent-w80px-h80px-2x.gif width=40 height=40></td>
+<td width=9 style="width: 9px;"></td>
+<td dir=ltr style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;width: 292px;direction:ltr;">Nice! These recommendations will be automatically applied to your account. </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr><td dir=ltr style="color:#3C4043;text-align: center;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;padding-bottom: 21px;padding-top: 13px;direction:ltr;">
+To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad110n25NhAWAoHNcvaV2M347i9BKD6UgUil2Ry-Pnm_y7i-lB_XER47C3hZ4HKqQr8RmWkk_wPtkc6etK6c02r-nXYqbdxocFe7qLtr2UpgYhgTX0C-s4ef0DzmyoLeKLpAUlAU3QOTyl5rjG2GsVgpNjjXBRFyPACARdVGexMQZV75aw7WoMCWNl_7b0OZ2H-0flupMos0WMsYZexHKjy2nNaGysm-1yGmZGE style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account dashboard</a></span>.
+</td></tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/APy2Ad3JnBzWz3Qsw6Axw2i8P9md85aV9S5YDrnP6TwLjBkaw56M62wHP-KRfgyDEEKTlqOQvqM4cQ6w6aD4A84jdiNptOo155zUcMo8bzkLJAwPepG7Z_v-P1VckDDz7A62cJ833eWfhMKbCMYf3Rlr3GQv55VCIw_WPtox7V9xvarMC8bUOo2XYyBkGsTBPvvE-jg width=3 height=1>
+</td></tr>
+</table></template></div>
+<div submit-error><table role=presentation align=center width=688 cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;max-width:450px;margin:auto;>
+<tr>
+<td style="padding-top: 16px;padding-bottom: 19px;">
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td width=40 style="padding-bottom: 4px;width:40px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-error-transparent-w80px-h80px-2x.png width=40 height=40></td>
+<td width=13 style=width:13px;></td>
+<td dir=ltr style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;width: 400px;direction:ltr;">Sorry, we couldn&#39;t automatically apply this update. <span style="color:#4285F4;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad3EduN29ukhuaTDwlGlekUG0KEJzVAxTw8Q1uqn8F7iOWnW3a9DkrAhE2WGZBzT_H3hJL4Za2A6dOQe7UL0T-IPSbtavKrOGdrEHGNZe4HXCsCxDK6DacMEgvTx_ONmKGPltaYGKxQ1kMlRiHb2u3MPyJkCnS9GT7z-FQagf70hQFJtksRa5XVA2vfC0HCMy8qaz0dPkjkwhnx7sj4VS6jT91lBvjZwDsZ0XEOwgXUqe23wqBpII_kt3LCmq5piUH_SD9FSvDFKiRc style="color:#4285F4;text-decoration-line: underline;" target=_blank>Enable it in your account</a></span> instead.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/APy2Ad1nATIfiP3rnQuNqBoYu_A992njwlTSfhbPya3224FLbeeMujfR4iKVsG9Tk_o3YJJaCKimg4KXI4t6U5foEFGPsPYDszcG2ux7knSW1uVVCVkygBFCmuuqzdpHiANDliCBwW04Oh3rNE-zniNM_7epyMhJC1yYUu20TrMSPH9Qq3RMr0XQEZbhMeRCQrbWeWA width=3 height=1>
+</td></tr>
+</table></div>
+</form>
+</td>
+</tr>
+</table>
+<table role=presentation class=mob_show align=center cellpadding=0 cellspacing=0 width=100% border=0>
+<tr>
+<td>
+<form id=form_3 method=post action-xhr=https://voltr.corp.google.com/v1/processAction class="user-valid amp-form-submit-success" on=submit-success:form_4_success.show,form_4_submitting.hide;submit-error:form_4_fail.show,form_4_submitting.hide>
+<div id=type_3>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%px;>
+<tr>
+<td dir=ltr align=center style="padding-bottom: 15px; text-align:center; padding-left:28px; padding-right:28px;direction:ltr;">
+<button name=request type=submit class="user-valid valid" style="font-family:&#39;Google Sans Text&#39;, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 500;background-color:#1A73E8;padding:14px 25px;border-radius:4px;border:0px;color:#ffffff;line-height: 24px;cursor: pointer;" value=CjoSOEFTSXhnc0NwOTFvbUJxVUhVUTdNc2sxVHluUDhXZVVMZjVML3ZpeUhHeG9FOEF6bWJwdE03UWs9EAMaNEFVd1VMbXIza2xTWEFlaWJONlBQcUNudmFvYU9YOFZhUjNGYW5NejBVa1RnQ1lMbzd3PT0osIHF1K4zQhQKEnZvbHRyLWNhbXBhaWduLWFnalIuCAESKogBjgGQAZ8BowGmAa4BtAG1Ab0B0gHTAdcB4AHiAecB6AHpAe4B7wHxAWCr4aPIBg== on=tap:type_3.hide,type_4.hide,form_4_submitting.show;>
+Enable with one click
+</button>
+</td>
+</tr>
+<tr><td style="padding-right: 28px;padding-left:28px;padding-bottom: 28px;color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;text-align:center;font-weight:400;line-height:15px;direction:ltr;">
+By clicking the button above, these recommendations will be applied. To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad2rxSa24pBmrFjmD2vW0smY8EoFXzh3xmS24t0cWQW1GmJSvwtpr9EEHcLg_TgroDa0ZuP2h_MJpMp6Wo4KU2EBgmO5yWMisOCQn_mxowr0JhbbID4YtM1r848HWUlFT7P3qhm1AIZhxkwa5Tsr3HVCITHWRzsgUB7Hr_eB_sWaXV4PDvlGlxotrQwZkXyJ_0Hvt8igaytpbXU style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account</a></span>. Not ready? Click <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad2D7MQVzkq7YdFblYAwqNi-mjYG5K-xXpBQcTiAMkTONv6yyuT3hbRBu1tOcHPTCBTvGnrbpG7ggxjlI61kyWEojF2quuMqABWpwf3pc5g6AmyGISgoHTDN70zUadxUIW5GBqKz-QUjOKPxnYHtW84e61WOO2fTjNYUZhd9HSQmndB_XHd4RJ_uOj_SbUuQMgiGAkuKRgu_bBRfWBVWDZNF7L8s2m-NBpk_jDPOUECM9nqqwWfsGK9SGHoe459JSBwkx3Au-N85j_j5iTygjJm5 style="color:#1A73E8;text-decoration-line: underline;" target=_blank>here</a></span> to learn more and apply anytime.
+</td>
+</tr>
+</table>
+</div>
+<div submitting="">
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center>
+<tr>
+<td dir=ltr style=padding-left:28px;padding-right:28px;direction:ltr;>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td width=40 style="width:40px;padding-bottom: 3px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-processing-animation-transparent-w80px-h80px-2x.gif width=40 height=40></td>
+<td width=9 style="width: 9px;"></td>
+<td style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;width: 237px;text-align:left;direction:ltr;">Just a moment while we apply this update to your account.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td style="padding-top: 10px;padding-right: 28px;padding-left: 28px;padding-bottom: 27px;color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;direction:ltr;text-align:center;">
+To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad31qfnpZBKYLG1iW0mzG9l6HQlfcQgzH5yqe_5x_n-Lj2Onn5J7foOzY4NW2drr7Tn5IFCI2DQKaK9iVVJK_-J2yLg1k5Jg7QMRPfxTQtU8dcAoh05FxusbJIFfRmvzKPjFSj822Qyd-dr3c0n_sENOyJdHvLDKOTtGvGkWWiwp3y_CrbAdzS-n2irTso6RYz7jjGfZYxgPNXUM75EwuG6fiC-SKe7VM8Ubo5c style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account dashboard</a></span>.
+</td>
+</tr>
+</table></td></tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/APy2Ad0VcomiHc20u4d0uUvI4aurfIKBWEPDetxpNckdWBBS79cd8-8eSfBJ5GeBbFwntfaDiJETqTBiqbomXze19Dyj8bj_W1cXDoieNpZZv6mTYje8oWEdTxg-z9j9hVJ9crbNKp3pMFjtCqzjqwmNmBPe2DgEoRB6VoGjTlQMTRNvg2fYVPu8JcMkFqwi width=3 height=1>
+</td></tr>
+</table>
+</div>
+<div submit-success><template type=amp-mustache>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style=padding-left:28px;padding-right:28px;>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center>
+<tr>
+<td width=40 style="padding-bottom: 7px;width:40px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-confirm-animation-transparent-w80px-h80px-2x.gif width=40 height=40></td>
+<td width=9 style="width: 9px;"></td>
+<td style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;direction:ltr;">Nice! These recommendations will be automatically applied to your account. </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td style="padding-top: 10px;padding-right: 28px;padding-left: 28px;padding-bottom: 27px;color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;direction:ltr;text-align:center;">
+To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad110n25NhAWAoHNcvaV2M347i9BKD6UgUil2Ry-Pnm_y7i-lB_XER47C3hZ4HKqQr8RmWkk_wPtkc6etK6c02r-nXYqbdxocFe7qLtr2UpgYhgTX0C-s4ef0DzmyoLeKLpAUlAU3QOTyl5rjG2GsVgpNjjXBRFyPACARdVGexMQZV75aw7WoMCWNl_7b0OZ2H-0flupMos0WMsYZexHKjy2nNaGysm-1yGmZGE style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account dashboard</a></span>.
+</td>
+</tr>
+</table></td></tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/APy2Ad0LbaDYCcIHtTl_x-OLXE8C5vTz7INzVBCVey7nF3d1fBVVXkECYSBwXi8hpcUbZYeI_cmaOShKBPMn6BOsp9j2rzUX0plC3rWnQ-ft2BZ43YyES4zGbuLhtl7k2UUL4j4PEY-AQRJ8kqdm_l8tMAbOEX2e80FUW8FbMK8ljZsioHms4FaJtUDEkrgXWw width=3 height=1>
+</td></tr>
+</table>
+</template></div>
+<div submit-error><table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="padding-bottom: 25px;padding-left:28px;padding-right:28px;">
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td width=40 style=width:40px;text-align:right;><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-error-transparent-w80px-h80px-2x.png width=40 height=40></td>
+<td width=9 style="width: 9px;"></td>
+<td style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;direction:ltr;">Sorry, we couldn&#39;t automatically apply this update. <span style="color:#4285F4;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad3EduN29ukhuaTDwlGlekUG0KEJzVAxTw8Q1uqn8F7iOWnW3a9DkrAhE2WGZBzT_H3hJL4Za2A6dOQe7UL0T-IPSbtavKrOGdrEHGNZe4HXCsCxDK6DacMEgvTx_ONmKGPltaYGKxQ1kMlRiHb2u3MPyJkCnS9GT7z-FQagf70hQFJtksRa5XVA2vfC0HCMy8qaz0dPkjkwhnx7sj4VS6jT91lBvjZwDsZ0XEOwgXUqe23wqBpII_kt3LCmq5piUH_SD9FSvDFKiRc style="color:#4285F4;text-decoration-line: underline;" target=_blank>Enable it in your account</a></span> instead.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td></tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/APy2Ad3z59_M4igPV_dk000-rcrxoOkNCPfb7x71_W08-kQmN6w7w_xDEdgV2p-Ytrpy77RuoFhI3r3DOhjwXkX0mcmtDCcFVWzyGz_yAU2KqTBZBHMUBGdA8Da8Vv7Rq86Es0iA7OZ8klJ0ufWlB7KVe8Tn7t8u5c6FJHZ-VIzZ6SXRyVr-qtGj_5-AM0mr9g width=3 height=1>
+</td></tr>
+</table>
+</div>
+</form>
+</td>
+</tr>
+</table>
+<table class=desk_show role=presentation align=center width=710 cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td align=center style="padding: 0px 30px 31px 30px;">
+<table class=desk_show role=presentation align=center width=606 cellpadding=0 cellspacing=0 border=0 style="width: 606px; margin: 0px; text-align: center;">
+<tr>
+<td dir=ltr align=center class=bundle_module_border_dark style="border:1px solid #D9DADA; border-radius:16px; text-align: center; padding: 32px 0px 27px 0px; padding-right:38px;padding-left:38px;direction:ltr;">
+<table role=presentation width=526 align=center cellpadding=0 cellspacing=0 border=0 style="width: 526px; margin: 0px; text-align: center; max-width: 526px;">
+<tr>
+<td class="" align=center style="padding:0px; text-align: center; vertical-align:top;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td dir=ltr align=center class=dark_mode_text style="padding:0px 0px 16px 0px;padding-right:4px;padding-left:4px; font-size:28px; line-height: 36px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: center; direction:ltr; ">
+Unlock a new level of <br class=desktop_only>performance
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="" align=center style="padding:0px; text-align: center; vertical-align:top;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td dir=ltr align=center class=dark_mode_subtext style="padding:0px 0px 13px 0px;padding-right:20px;padding-left:20px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: center; direction:ltr; ">
+Optimizations are already being applied to your campaigns – enable advanced best practices across these categories.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="" align=center style="padding:0px 0px 7px 0px; text-align: center; vertical-align:top; border:0px;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td class="" align=center style="padding:10px 0px 0px 0px; text-align: center; vertical-align:top; border:0px;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="width: 200px; margin: 0px; text-align: left; max-width: 200px;">
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=200 align=center style="width: 200px; margin: 0px; text-align: left; max-width: 200px;">
+<tr>
+<td width=52 style=width:52px;>
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-ads-and-assets-icon-transparent-w104px-h104px-2x.png width=52 height=52 alt="" style="width:52px; height:52px;">
+</td>
+<td class=dark_mode_text dir=ltr align=left style="padding:0px 0px 5px 0px;padding-left:15px; font-size:16px; line-height: 24px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Ads &amp; assets
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td align=right style="margin: 0px; text-align: right;">
+<table align=right style="margin: 0px; text-align: right;">
+<tr>
+<td style="width: 306px; margin: 0px; text-align: right; max-width: 306px;">
+<table role=presentation align=right cellspacing=0 cellpadding=0 width=300 align=center style="width: 300px; margin: 0px; text-align: left; max-width: 300px;">
+<tr>
+<td class=dark_mode_subtext dir=ltr align=left style="padding:8px 0px 0px 0px;padding-left:4px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; vertical-align: middle; direction:ltr; ">
+Reach the right customers by showing your best ads more often or adding responsive search ads.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=bundle_module_border_dark align=center style="padding: 0px 0px 11px 0px; text-align: center; vertical-align:top; border-top: 1px solid #D9DADA; border-bottom: 1px solid #D9DADA;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="width: 200px; margin: 0px; text-align: left; max-width: 200px; padding: 12px 0px 0px 0px">
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=200 align=center style="width: 200px; margin: 0px; text-align: left; max-width: 200px;">
+<tr>
+<td width=52 style=width:52px;>
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-bidding-transparent-w104px-h104px-2x.png width=52 height=52 alt="" style="width:52px; height:52px;">
+</td>
+<td class=dark_mode_text dir=ltr align=left style="padding:0px 0px 12px 0px;padding-left:15px; font-size:16px; line-height: 24px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Bidding
+</td>
+</tr>
+</table>
+</td>
+<td style="width: 306px; margin: 0px; text-align: right; max-width: 306px; padding-right: 4px;">
+<table role=presentation align=right cellspacing=0 cellpadding=0 width=300 align=center style="width: 300px; margin: 0px; text-align: left; max-width: 300px;">
+<tr>
+<td class=dark_mode_subtext dir=ltr align=left style="padding:15px 0px 0px 0px;padding-left:3px;padding-right:0px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; vertical-align: middle; direction:ltr; ">
+We&#39;ll help you find the right strategy for your goals, like Maximize conversion value, Target ROAS, or selecting a set CPA.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=bundle_module_border_dark align=center style="padding: 0px 0px 11px 0px; text-align: center; vertical-align:top; border-bottom: 1px solid #D9DADA;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="width: 200px; margin: 0px; text-align: left; max-width: 200px; padding: 6px 0px 0px 0px">
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=200 align=center style="width: 200px; margin: 0px; text-align: left; max-width: 200px;">
+<tr>
+<td width=52 style=width:52px;>
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-keywords-target-icon-transparent-w104px-h104px-2x.png width=52 height=52 alt="" style="width:52px; height:52px;">
+</td>
+<td class=dark_mode_text dir=ltr align=left style="padding:5px 0px 12px 0px;padding-left:15px; font-size:16px; line-height: 24px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Keywords &amp; targeting
+</td>
+</tr>
+</table>
+</td>
+<td style="width: 306px; margin: 0px; text-align: right; max-width: 306px; padding-right: 4px;">
+<table role=presentation align=right cellspacing=0 cellpadding=0 width=306 align=center style="width: 306px; margin: 0px; text-align: left; max-width: 306px;">
+<tr>
+<td class=dark_mode_subtext dir=ltr align=left style="padding:15px 0px 0px 0px;padding-left:7px;padding-right:10px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; vertical-align: middle; direction:ltr; ">
+Reach more ideal customers by updating audience segments, removing redundant keywords, and more.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="" align=center style="padding:5px 0px 0px 0px; text-align: center; vertical-align:top; border:0px;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td class="" align=center style="padding:8px 0px 0px 0px; text-align: center; vertical-align:top; border:0px;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="width: 200px; margin: 0px; text-align: left; max-width: 200px;">
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=200 align=center style="width: 200px; margin: 0px; text-align: left; max-width: 200px;">
+<tr>
+<td width=52 style=width:52px;>
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-measurement-icon-transparent-w104px-h104px-2x.png width=52 height=52 alt="" style="width:52px; height:52px;">
+</td>
+<td class=dark_mode_text dir=ltr align=left style="padding:1px 0px 3px 0px;padding-left:13px; font-size:16px; line-height: 24px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Measurement
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td align=right style="margin: 0px; text-align: right;">
+<table align=right style="margin: 0px; text-align: right;">
+<tr>
+<td style="width: 306px; margin: 0px; text-align: right; max-width: 306px;">
+<table role=presentation align=right cellspacing=0 cellpadding=0 width=300 align=center style="width: 300px; margin: 0px; text-align: left; max-width: 300px;">
+<tr>
+<td class=dark_mode_subtext dir=ltr align=left style="padding:9px 0px 0px 0px;padding-left:0px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; vertical-align: middle; direction:ltr; ">
+Upgrade your conversion tracking to measure conversions across multiple ad interactions.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td align=center style="text-align: center;padding-top: 16px;padding-bottom: 1px;">
+<table role=presentation class=desk_show align=center cellpadding=0 cellspacing=0 width=100% border=0>
+<tr>
+<td>
+<div id=form_2 class="user-valid amp-form-submit-success">
+<div id=type_2>
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:525;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:525;>
+<tr>
+<td style="text-align: center;padding-top: 0px;padding-bottom: 17px;">
+<button style="font-family:&#39;Google Sans Text&#39;, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 500;background-color:#1A73E8;padding:12px 28px;border-radius:4px;border:0px;color:#ffffff;line-height: 24px;cursor: pointer;direction:ltr;" on=tap:form_1.submit,type_1.hide,type_2.hide,form_2_submitting.show>
+Enable with one click
+</button>
+</td>
+</tr>
+<tr><td dir=ltr style="padding-right: 30px; padding-left: 30px; padding-bottom: 0px;color:#3C4043;text-align:center;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;direction:ltr;">
+By clicking the button above, these recommendations will be applied. To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad2rxSa24pBmrFjmD2vW0smY8EoFXzh3xmS24t0cWQW1GmJSvwtpr9EEHcLg_TgroDa0ZuP2h_MJpMp6Wo4KU2EBgmO5yWMisOCQn_mxowr0JhbbID4YtM1r848HWUlFT7P3qhm1AIZhxkwa5Tsr3HVCITHWRzsgUB7Hr_eB_sWaXV4PDvlGlxotrQwZkXyJ_0Hvt8igaytpbXU style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account</a></span>. Not ready? Click <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad2D7MQVzkq7YdFblYAwqNi-mjYG5K-xXpBQcTiAMkTONv6yyuT3hbRBu1tOcHPTCBTvGnrbpG7ggxjlI61kyWEojF2quuMqABWpwf3pc5g6AmyGISgoHTDN70zUadxUIW5GBqKz-QUjOKPxnYHtW84e61WOO2fTjNYUZhd9HSQmndB_XHd4RJ_uOj_SbUuQMgiGAkuKRgu_bBRfWBVWDZNF7L8s2m-NBpk_jDPOUECM9nqqwWfsGK9SGHoe459JSBwkx3Au-N85j_j5iTygjJm5 style="color:#1A73E8;text-decoration-line: underline;" target=_blank>here</a></span> to learn more and apply anytime.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></div> </div>
+<div hidden id=form_2_submitting class="user-valid amp-form-submit-success"><table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%>
+<tr>
+<td dir=ltr style="padding-top: 0px;direction:ltr;">
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;max-width:380px;margin:auto;>
+<tr>
+<td>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;max-width:291px;margin:auto;>
+<tr>
+<td width=40 style="padding-bottom: 2px;width:40px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-processing-animation-transparent-w80px-h80px-2x.gif width=40 height=40></td>
+<td width=13 style="width: 13px;"></td>
+<td dir=ltr style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;width: 237px;text-align:left;direction:ltr;">Just a moment while we apply this update to your account.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr><td dir=ltr style="color:#3C4043;text-align: center;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;padding-bottom: 0px;padding-top: 17px;direction:ltr;">
+To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad31qfnpZBKYLG1iW0mzG9l6HQlfcQgzH5yqe_5x_n-Lj2Onn5J7foOzY4NW2drr7Tn5IFCI2DQKaK9iVVJK_-J2yLg1k5Jg7QMRPfxTQtU8dcAoh05FxusbJIFfRmvzKPjFSj822Qyd-dr3c0n_sENOyJdHvLDKOTtGvGkWWiwp3y_CrbAdzS-n2irTso6RYz7jjGfZYxgPNXUM75EwuG6fiC-SKe7VM8Ubo5c style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account dashboard</a></span>.
+</td></tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></div>
+<!--on-success-start-->
+<div hidden id=form_2_success class="user-valid amp-form-submit-success"><div>
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td style="padding-top: 0px;">
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr style=padding-left:6px;direction:ltr;>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;max-width:345px;margin:auto;>
+<tr>
+<td width=40 style="padding-bottom: 5px;width:40px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-confirm-animation-transparent-w80px-h80px-2x.gif width=40 height=40>
+</td>
+<td width=9 style="width: 9px;"></td>
+<td dir=ltr style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;text-align:left;width: 292px;direction:ltr;">Nice! These recommendations will be automatically applied to your account. </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=padding-right:3px;><table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr><td style="color:#3C4043;text-align: center;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;padding-bottom:0px;padding-top: 13px;direction:ltr;">
+To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad110n25NhAWAoHNcvaV2M347i9BKD6UgUil2Ry-Pnm_y7i-lB_XER47C3hZ4HKqQr8RmWkk_wPtkc6etK6c02r-nXYqbdxocFe7qLtr2UpgYhgTX0C-s4ef0DzmyoLeKLpAUlAU3QOTyl5rjG2GsVgpNjjXBRFyPACARdVGexMQZV75aw7WoMCWNl_7b0OZ2H-0flupMos0WMsYZexHKjy2nNaGysm-1yGmZGE style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account dashboard</a></span>.
+</td></tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></div>
+</div>
+<!--on-error-->
+<div hidden id=form_2_fail class="user-valid amp-form-submit-success">
+<div>
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr style="padding-top:0px;padding-bottom: 0px;direction:ltr;">
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;max-width:450px;margin:auto;>
+<tr>
+<td width=40 style="padding-bottom: 2px;width:40px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-error-transparent-w80px-h80px-2x.png width=40 height=40></td>
+<td width=13 style="width: 13px;"></td>
+<td style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;width: 400px;text-align:left;direction:ltr;">Sorry, we couldn&#39;t automatically apply this update. <span style="color:#4285F4;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad3EduN29ukhuaTDwlGlekUG0KEJzVAxTw8Q1uqn8F7iOWnW3a9DkrAhE2WGZBzT_H3hJL4Za2A6dOQe7UL0T-IPSbtavKrOGdrEHGNZe4HXCsCxDK6DacMEgvTx_ONmKGPltaYGKxQ1kMlRiHb2u3MPyJkCnS9GT7z-FQagf70hQFJtksRa5XVA2vfC0HCMy8qaz0dPkjkwhnx7sj4VS6jT91lBvjZwDsZ0XEOwgXUqe23wqBpII_kt3LCmq5piUH_SD9FSvDFKiRc style="color:#4285F4;text-decoration-line: underline;" target=_blank>Enable it in your account</a></span> instead.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></div>
+</div>
+<!--on-error-end-->
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+<table class=mob_show role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td class="" align=center style="padding: 0px 0px 24px 0px;padding-right:28px;padding-left:28px; vertical-align:top;">
+<table class=mob_show role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style="width: 100%; margin: 0px; text-align: center;">
+<tr>
+<td dir=ltr align=center class=bundle_module_border_dark1 style="border:1px solid #D9DADA; border-radius:16px; text-align: center; padding: 23px 0px 38px 0px;padding-right:24px;padding-left:24px;direction:ltr;">
+<table role=presentation width=100% align=center cellpadding=0 cellspacing=0 border=0 style="width: 100%; margin: 0px; text-align: center;">
+<tr>
+<td class="" align=center style="padding:0px; text-align: center; vertical-align:top;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td dir=ltr colspan=2 align=left class=dark_mode_text style="padding:0px 0px 0px 0px; font-size:26px; line-height: 39px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Unlock a new level of <br class=desktop_only>performance
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="" align=center style="padding:0px; text-align: center; vertical-align:top;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td dir=ltr colspan=2 align=left class=dark_mode_subtext style="padding:10px 0px 0px 0px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Optimizations are already being applied to your campaigns – enable advanced best practices across these categories.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=bundle_module_border_dark align=center style="padding: 0px 0px 11px 0px; text-align: center; vertical-align:top;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="width: 100%; margin: 0px; text-align: left; padding: 21px 0px 0px 0px">
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=100% align=center style="width: 100%; margin: 0px; text-align: left;">
+<tr>
+<td>
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td width=52 style=width:52px;>
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-ads-and-assets-icon-transparent-w104px-h104px-2x.png width=52 height=52 alt="" style="width:52px; height:52px;">
+</td>
+<td width=14px></td>
+<td class=dark_mode_text dir=ltr align=left style="padding:7px 0px 15px 0px; font-size:16px; line-height: 24px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Ads &amp; assets
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=dark_mode_subtext dir=ltr align=left width=100% style="border-collapse:collapse; padding:8px 0px 0px 0px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; vertical-align: top; direction:ltr; ">
+Reach the right customers by showing your best ads more often or adding responsive search ads.
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=bundle_module_border_dark align=center style="padding: 0px 0px 11px 0px; text-align: center; vertical-align:top;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="width: 100%; margin: 0px; text-align: left; padding: 14px 0px 0px 0px">
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=100% align=center style="width: 100%; margin: 0px; text-align: left;">
+<tr>
+<td>
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td width=52 style=width:52px;>
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-bidding-transparent-w104px-h104px-2x.png width=52 height=52 alt="" style="width:52px; height:52px;">
+</td>
+<td width=14px></td>
+<td class=dark_mode_text dir=ltr align=left style="padding:12px 0px 15px 0px; font-size:16px; line-height: 24px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Bidding
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=dark_mode_subtext dir=ltr align=left width=100% style="border-collapse:collapse; padding:8px 0px 0px 0px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; vertical-align: top; direction:ltr; ">
+We&#39;ll help you find the right strategy for your goals, like Maximize conversion value, Target ROAS, or selecting a set CPA.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=bundle_module_border_dark align=center style="padding: 0px 0px 11px 0px; text-align: center; vertical-align:top;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="width: 100%; margin: 0px; text-align: left; padding: 14px 0px 0px 0px">
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=100% align=center style="width: 100%; margin: 0px; text-align: left;">
+<tr>
+<td>
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td width=52 style=width:52px;>
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-keywords-target-icon-transparent-w104px-h104px-2x.png width=52 height=52 alt="" style="width:52px; height:52px;">
+</td>
+<td width=14px></td>
+<td class=dark_mode_text dir=ltr align=left style="padding:12px 0px 15px 0px; font-size:16px; line-height: 24px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Keywords &amp; targeting
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=dark_mode_subtext dir=ltr align=left width=100% style="border-collapse:collapse; padding:8px 0px 0px 0px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; vertical-align: top; direction:ltr; ">
+Reach more ideal customers by updating audience segments, removing redundant keywords, and more.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=bundle_module_border_dark align=center style="padding: 0px 0px 3px 0px; text-align: center; vertical-align:top;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="width: 100%; margin: 0px; text-align: left; padding: 14px 0px 0px 0px">
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=100% align=center style="width: 100%; margin: 0px; text-align: left;">
+<tr>
+<td>
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100%>
+<tr>
+<td width=52 style=width:52px;>
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-measurement-icon-transparent-w104px-h104px-2x.png width=52 height=52 alt="" style="width:52px; height:52px;">
+</td>
+<td width=14px></td>
+<td class=dark_mode_text dir=ltr align=left style="padding:12px 0px 15px 0px; font-size:16px; line-height: 24px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction:ltr; ">
+Measurement
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=dark_mode_subtext dir=ltr align=left width=100% style="border-collapse:collapse; padding:8px 0px 0px 0px; font-size:14px; line-height: 22px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; vertical-align: top; direction:ltr; ">
+Upgrade your conversion tracking to measure conversions across multiple ad interactions.
+</td>
+</tr>
+<tr>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="" align=center style="padding:0px; text-align: center; vertical-align:top;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td align=center style="padding: 16px 0px 1px 0px; padding-left:2px;">
+<table role=presentation class=mob_show align=center cellpadding=0 cellspacing=0 width=100% border=0>
+<tr>
+<td>
+<div id=form_4 class="user-valid amp-form-submit-success">
+<div id=type_4>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%px;>
+<tr>
+<td align=center style="padding-bottom: 15px; text-align:center;">
+<button style="font-family:&#39;Google Sans Text&#39;, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 500;background-color:#1A73E8;padding:14px 25px;border-radius:4px;border:0px;color:#ffffff;line-height: 24px;cursor: pointer;direction:ltr;" on=tap:form_3.submit,type_3.hide,type_4.hide,form_4_submitting.show>
+Enable with one click
+</button>
+</td>
+</tr>
+<tr><td style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;text-align:center;line-height: 15px;direction:ltr;">
+By clicking the button above, these recommendations will be applied. To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad2rxSa24pBmrFjmD2vW0smY8EoFXzh3xmS24t0cWQW1GmJSvwtpr9EEHcLg_TgroDa0ZuP2h_MJpMp6Wo4KU2EBgmO5yWMisOCQn_mxowr0JhbbID4YtM1r848HWUlFT7P3qhm1AIZhxkwa5Tsr3HVCITHWRzsgUB7Hr_eB_sWaXV4PDvlGlxotrQwZkXyJ_0Hvt8igaytpbXU style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account</a></span>. Not ready? Click <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad2D7MQVzkq7YdFblYAwqNi-mjYG5K-xXpBQcTiAMkTONv6yyuT3hbRBu1tOcHPTCBTvGnrbpG7ggxjlI61kyWEojF2quuMqABWpwf3pc5g6AmyGISgoHTDN70zUadxUIW5GBqKz-QUjOKPxnYHtW84e61WOO2fTjNYUZhd9HSQmndB_XHd4RJ_uOj_SbUuQMgiGAkuKRgu_bBRfWBVWDZNF7L8s2m-NBpk_jDPOUECM9nqqwWfsGK9SGHoe459JSBwkx3Au-N85j_j5iTygjJm5 style="color:#1A73E8;text-decoration-line: underline;" target=_blank>here</a></span> to learn more and apply anytime.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div hidden id=form_4_submitting class="user-valid amp-form-submit-success">
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center>
+<tr>
+<td width=40 style="width:40px;padding-bottom: 3px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-processing-animation-transparent-w80px-h80px-2x.gif width=40 height=40></td>
+<td width=9 style="width: 9px;"></td>
+<td style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height:23px;text-align:left;width: 237px;direction:ltr;">Just a moment while we apply this update to your account.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td style="padding-top: 10px;color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;direction:ltr;text-align:center;">
+To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad31qfnpZBKYLG1iW0mzG9l6HQlfcQgzH5yqe_5x_n-Lj2Onn5J7foOzY4NW2drr7Tn5IFCI2DQKaK9iVVJK_-J2yLg1k5Jg7QMRPfxTQtU8dcAoh05FxusbJIFfRmvzKPjFSj822Qyd-dr3c0n_sENOyJdHvLDKOTtGvGkWWiwp3y_CrbAdzS-n2irTso6RYz7jjGfZYxgPNXUM75EwuG6fiC-SKe7VM8Ubo5c style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account dashboard</a></span>.
+</td>
+</tr>
+</table></td></tr>
+</table>
+</div>
+<!--on-success-start-->
+<div hidden id=form_4_success class="user-valid amp-form-submit-success">
+<div>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center>
+<tr>
+<td width=40 style="padding-bottom: 7px;width:40px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-confirm-animation-transparent-w80px-h80px-2x.gif width=40 height=40></td>
+<td width=9 style="width: 9px;"></td>
+<td style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;text-align:left;line-height: 23px;direction:ltr;">Nice! These recommendations will be automatically applied to your account. </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td style="padding-top: 10px;color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;direction:ltr;text-align:center;">
+To undo this change, sign in to your <span style="color:#1A73E8;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad110n25NhAWAoHNcvaV2M347i9BKD6UgUil2Ry-Pnm_y7i-lB_XER47C3hZ4HKqQr8RmWkk_wPtkc6etK6c02r-nXYqbdxocFe7qLtr2UpgYhgTX0C-s4ef0DzmyoLeKLpAUlAU3QOTyl5rjG2GsVgpNjjXBRFyPACARdVGexMQZV75aw7WoMCWNl_7b0OZ2H-0flupMos0WMsYZexHKjy2nNaGysm-1yGmZGE style="color:#1A73E8;text-decoration-line: underline;" target=_blank>account dashboard</a></span>.
+</td>
+</tr>
+</table></td></tr>
+</table>
+</div>
+</div>
+<!--on-error-->
+<div hidden id=form_4_fail class="user-valid amp-form-submit-success">
+<div>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td style="padding-bottom: 26px;">
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center>
+<tr>
+<td width=40 style=width:40px;text-align:right;><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-icon-error-transparent-w80px-h80px-2x.png width=40 height=40></td>
+<td width=9 style="width: 9px;"></td>
+<td style="color:#3C4043;font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;direction:ltr;text-align:left;">Sorry, we couldn&#39;t automatically apply this update. <span style="color:#4285F4;text-decoration-line: underline;"><a href=https://c.gle/APy2Ad3EduN29ukhuaTDwlGlekUG0KEJzVAxTw8Q1uqn8F7iOWnW3a9DkrAhE2WGZBzT_H3hJL4Za2A6dOQe7UL0T-IPSbtavKrOGdrEHGNZe4HXCsCxDK6DacMEgvTx_ONmKGPltaYGKxQ1kMlRiHb2u3MPyJkCnS9GT7z-FQagf70hQFJtksRa5XVA2vfC0HCMy8qaz0dPkjkwhnx7sj4VS6jT91lBvjZwDsZ0XEOwgXUqe23wqBpII_kt3LCmq5piUH_SD9FSvDFKiRc style="color:#4285F4;text-decoration-line: underline;" target=_blank>Enable it in your account</a></span> instead.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td></tr>
+</table>
+</div>
+</div>
+<!--on-error-end-->
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--<![endif]-->
+<table class=desk_show role=presentation align=center width=606 cellpadding=0 cellspacing=0 border=0 style="width: 606px; max-width: 606px;">
+<tr>
+<td align=center style="padding: 0px 0px 30px 0px;">
+<table class=desk_show role=presentation align=center width=606 cellpadding=0 cellspacing=0 border=0 style="width: 606px; max-width: 606px;">
+<tr>
+<td dir=ltr align=center class=case_study_module_bg_dark style="border: 0px; border-radius:16px; background-color: #E8F0FE; text-align: center; padding: 40px 0px 40px 0px; padding-left:22px;direction:ltr;">
+<table role=presentation width=100% align=center cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td class="" width=142 align=center style="width: 142px; padding:0px 0px 0px 0px; text-align: center; vertical-align:middle;">
+<table role=presentation align=center cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td dir=ltr align=center class=ten_hrs_dark style="padding:10px 4px 0px 0px; padding-left:0px; font-size:60px; line-height: 64px; font-weight:700; color:#1A73E8; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: center; direction: ltr; ">
+5.5x
+</td>
+</tr>
+<tr>
+<td dir=ltr align=center class=ten_hrs_dark style="padding:0px 0px 9px 0px; padding-right:8px; font-size:16px; line-height: 19px; font-weight:400; color:#1A73E8; font-family:Google Sans Display, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: center; direction: ltr; ">
+conversions¹
+</td>
+</tr>
+</table>
+</td>
+<td dir=ltr class="" width=400 align=left style="width: 400px; padding:0px 0px 0px 0px; padding-left:37px; text-align: left; vertical-align:middle;">
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=100% align=left style="">
+<tr>
+<td dir=ltr align=left class=case_study_module_head_dark style="padding:2px 0px 0px 0px; font-size:12px; line-height: 18px; font-weight:700; color:#1A73E8; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr; ">
+SUCCESS STORY
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=dark_mode_text style="padding:11px 0px 9px 0px; padding-right:20px; font-size:16px; line-height: 24px; font-weight:400; color:#202124; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr; ">
+Software company MathFLAT boosts conversions
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=dark_mode_text style="padding:0px 0px 0px 0px; padding-right:35px; font-size:16px; line-height: 24px; font-weight:700; color:#010101; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr; ">
+&quot;Automatically applying recommendations greatly helped our team earn more conversions at a lower CPA.&quot;
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=dark_mode_text style="padding:7px 0px 0px 0px; padding-right:35px; font-size:16px; line-height: 24px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr; ">
+Jaehyun Park
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=dark_mode_text style="padding:0px 0px 0px 0px; padding-right:35px; font-size:16px; line-height: 24px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr; ">
+Marketing Manager, MathFLAT
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+<table class=mob_show role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td class="" align=center style="padding: 3px 28px 26px 28px;vertical-align:top;">
+<table role=presentation cellspacing=0 cellpadding=0 width=100% align=center style="">
+<tr>
+<td dir=ltr align=center class=case_study_module_bg_dark style="border: 0px; border-radius:16px; background-color: #E8F0FE; text-align: left; padding: 32px 24px 32px 24px;direction:ltr;">
+<table role=presentation width=100% align=left cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr align=left class=case_study_module_head_dark style="padding:0px 0px 0px 0px; font-size:12px; line-height: 18px; font-weight:700; color:#1A73E8; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr;">
+SUCCESS STORY
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=dark_mode_text style="padding:15px 0px 0px 0px;padding-right:px;padding-left:px; font-size:16px; line-height: 24px; font-weight:400; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr;">
+Software company MathFLAT boosts conversions
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=ten_hrs_dark style="padding:18px 0px 0px 0px; font-size:60px; line-height: 64px; font-weight:700; color:#1A73E8; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif; text-align:left; direction: ltr;">
+5.5x
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=ten_hrs_dark style="padding:0px 0px 0px 0px; font-size:16px; line-height: 19px; font-weight:400; color:#1A73E8; font-family:Google Sans Display, Google sans, Roboto, Open Sans, arial, sans-serif; text-align:left; direction: ltr;">
+conversions¹
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=dark_mode_text style="padding:18px 0px 9px 0px;padding-right:px;padding-left:px; font-size:16px; line-height: 24px; font-weight:700; color:#010101; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr;">
+&quot;Automatically applying recommendations greatly helped our team earn more conversions at a lower CPA.&quot;
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=dark_mode_text style="padding:0px 0px 0px 0px;padding-right:0px;padding-left:0px; font-size:16px; line-height: 24px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr;">
+Jaehyun Park
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left class=dark_mode_text style="padding:0px 0px 0px 0px;padding-right:px;padding-left:px; font-size:16px; line-height: 24px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; text-align: left; direction: ltr;">
+Marketing Manager, MathFLAT
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--<![endif]-->
+<table class="mob_fix dark_mode_background" role=presentation align=center width=720 cellpadding=0 cellspacing=0 border=0 style=width:720px;background:#F8F9FA;>
+<tr>
+<td dir=ltr class="saco_mob dark_mode_border" style="padding:32px 0px 38px 0px;padding-right:56px;padding-left:56px; border-bottom: 1px solid #DADCE0;direction:ltr;">
+<table role=presentation align=center cellpadding=0 cellspacing=0 width=100% border=0>
+<tr>
+<td class="align_left blue_text_dark_mode" style="font-size:14px;line-height: 24px; font-weight:700; color:#1A73E8; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif;text-align:center; direction:ltr;letter-spacing: 1.4px;">
+QUESTIONS?</td>
+</tr>
+<tr>
+<td class="align_left saco_header_style dark_mode_text" style="font-size:28px;line-height: 36px; padding:15px 0px 11px 0px; font-weight:700; color:#202124; font-family:Google Sans, Roboto, Open Sans, arial, sans-serif;text-align:center; direction:ltr;">Your Google Ads Expert can help</td>
+</tr>
+<tr>
+<td class="align_left dark_mode_subtext" style="font-size:16px;line-height: 24px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;text-align:center; direction:ltr; ">Schedule a <span class="text_color mb_break" style=white-space:nowrap;word-break:break-word;>one-on-one</span> call with your <span class="text_color mb_break" style=white-space:nowrap;word-break:break-word;>Google Ads</span> Expert for help enabling automatically applied recommendations. Plus, learn about other personalized recommendations to help you achieve your business goals.</td>
+</tr>
+<tr>
+<td dir=ltr class=desk_show align=center style="padding-top: 7px;direction:ltr;">
+<table class="" role=presentation align=center cellpadding=0 cellspacing=0 width=auto border=0>
+<tr>
+<!--[if !mso]><!-->
+<td style="font-size:16px;line-height: 24px; font-weight:500; color:#1A73E8; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; vertical-align: middle; text-align:center; letter-spacing: 0.25px; padding-top: 4px; direction:ltr;">
+<!--<![endif]-->
+<!--[if mso]>
+<td style="font-size:16px;line-height: 24px; font-weight:500; color:#1A73E8; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; vertical-align: top; text-align:center; letter-spacing: 0.25px; padding-top: 4px; direction:ltr;">
+<![endif]-->
+<a style="text-decoration: none; color:#1A73E8;" href=https://c.gle/APy2Ad2jYPnQ-ezi3ttY2ljrTAB7I0oSaJT9N9w_ssAXcTsv6UbuhY6-Gs_1rHAsWS3tYeDlTLuBl3FP65FU_F-wkSYPTHD1rvd_Rx9xfHm35GJcScQLjZinXzzC1NCGyrE3JBZZuP2P1reR-pR0fRmscR-ML7OdBZrHuAz4XOUVtPlkkTW84wG9loGYvEgdyd9gyR7Dmftos0fj_OD1hOP03aT2ZtgaPv38THYtYrnmmlKxs0yll47RDib0wEzdfOeLVGg0mpe7g6lfGNDQu5D0xKlgh20aNf0gDLXZQodZwNcgotBXBuXPGoy8YQEBtY-E5iXNTnRsxkonMn-DKnKp4Be2kv-m7PWqwhKCMmdJGw target=_blank>Book your call</a></td>
+<!--[if !mso]><!-->
+<td style="padding-left:9px; padding-top: 9px; vertical-align: top;">
+<!--<![endif]-->
+<!--[if mso]>
+<td style="padding-left:9px; padding-top: 9px; vertical-align: bottom;">
+<![endif]-->
+<a href=https://c.gle/APy2Ad2jYPnQ-ezi3ttY2ljrTAB7I0oSaJT9N9w_ssAXcTsv6UbuhY6-Gs_1rHAsWS3tYeDlTLuBl3FP65FU_F-wkSYPTHD1rvd_Rx9xfHm35GJcScQLjZinXzzC1NCGyrE3JBZZuP2P1reR-pR0fRmscR-ML7OdBZrHuAz4XOUVtPlkkTW84wG9loGYvEgdyd9gyR7Dmftos0fj_OD1hOP03aT2ZtgaPv38THYtYrnmmlKxs0yll47RDib0wEzdfOeLVGg0mpe7g6lfGNDQu5D0xKlgh20aNf0gDLXZQodZwNcgotBXBuXPGoy8YQEBtY-E5iXNTnRsxkonMn-DKnKp4Be2kv-m7PWqwhKCMmdJGw target=_blank style="text-decoration: none;">
+<amp-img width=18 height=18 src=https://www.gstatic.com/gumdrop/files/merchant-center-arrow-transparent-w36px-h37px-2x.png style="width: 18px; height: 18px;">
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if !mso]><!-->
+<tr>
+<td dir=ltr class=mob_show align=left style="padding-top: 15px; display: none;direction:ltr;">
+<table class="" role=presentation align=left cellpadding=0 cellspacing=0 width=auto border=0>
+<tr>
+<td style="font-size:16px;line-height: 24px; font-weight:500; color:#1A73E8; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif;text-align:left; vertical-align: top; direction:ltr;"><a style="text-decoration: none; color:#1A73E8;" href=https://c.gle/APy2Ad2jYPnQ-ezi3ttY2ljrTAB7I0oSaJT9N9w_ssAXcTsv6UbuhY6-Gs_1rHAsWS3tYeDlTLuBl3FP65FU_F-wkSYPTHD1rvd_Rx9xfHm35GJcScQLjZinXzzC1NCGyrE3JBZZuP2P1reR-pR0fRmscR-ML7OdBZrHuAz4XOUVtPlkkTW84wG9loGYvEgdyd9gyR7Dmftos0fj_OD1hOP03aT2ZtgaPv38THYtYrnmmlKxs0yll47RDib0wEzdfOeLVGg0mpe7g6lfGNDQu5D0xKlgh20aNf0gDLXZQodZwNcgotBXBuXPGoy8YQEBtY-E5iXNTnRsxkonMn-DKnKp4Be2kv-m7PWqwhKCMmdJGw target=_blank>Book your call</a></td>
+<td style="padding-left:10px; vertical-align: middle;">
+<a href=https://c.gle/APy2Ad2jYPnQ-ezi3ttY2ljrTAB7I0oSaJT9N9w_ssAXcTsv6UbuhY6-Gs_1rHAsWS3tYeDlTLuBl3FP65FU_F-wkSYPTHD1rvd_Rx9xfHm35GJcScQLjZinXzzC1NCGyrE3JBZZuP2P1reR-pR0fRmscR-ML7OdBZrHuAz4XOUVtPlkkTW84wG9loGYvEgdyd9gyR7Dmftos0fj_OD1hOP03aT2ZtgaPv38THYtYrnmmlKxs0yll47RDib0wEzdfOeLVGg0mpe7g6lfGNDQu5D0xKlgh20aNf0gDLXZQodZwNcgotBXBuXPGoy8YQEBtY-E5iXNTnRsxkonMn-DKnKp4Be2kv-m7PWqwhKCMmdJGw target=_blank style="text-decoration: none;">
+<amp-img width=18 height=18 src=https://www.gstatic.com/gumdrop/files/merchant-center-arrow-transparent-w36px-h37px-2x.png style="width: 18px; height: 18px;">
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--<![endif]-->
+</table>
+</td>
+</tr>
+</table>
+</td></tr>
+<tr id=footer_wrapper>
+<td class=footer_main_pad width=100% align=center style="background:#F8F9FA; color:#3C4043; padding-top:28px;">
+<table role=presentation class="" border=0 cellpadding=0 cellspacing=0 align=center width=100% style=" color:#3C4043; width:100%; background:#F8F9FA;">
+<tbody>
+<tr>
+<td align=center valign=top class="footer_outer_pad footer_main_pad_em">
+<table class="" role=presentation id=footer width=100% border=0 cellpadding=0 cellspacing=0 style=" background:#F8F9FA; color:#3C4043; line-height:18px; width:100%; padding-top: 2px;">
+<tr>
+<td dir=ltr class="" valign=top style="border-collapse:collapse; color:#3C4043; font-family: Roboto, Arial, sans-serif; font-size:12px; font-weight:normal; line-height:18px; padding:0px 0px; vertical-align:top; direction:ltr;">
+<table role=presentation align=center class="mob_fix desk_show" cellpadding=0 width=100% cellspacing=0 border=0 style=" font-weight:normal; direction:ltr;padding-left:0px; padding-right:0px;margin:0px;width:100%;">
+<tr>
+<td dir=ltr align=center class=footer_legal colspan=2 style="border-collapse:collapse; color:#3C4043; font-family: &#39;Google Sans Text&#39;, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; font-weight:400; direction:ltr; line-height:15px; padding-bottom:10px; text-align:center;" valign=top width=100%>
+¹Individual results may vary.
+</td>
+</tr>
+<tr>
+<td dir=ltr align=center class=footer_legal colspan=2 style="border-collapse:collapse; color:#3C4043; font-family: &#39;Google Sans Text&#39;, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; font-weight:400; direction:ltr; line-height:15px; text-align:center; padding-bottom:22px;" valign=top width=100%>
+This email was sent to <span style=color:#1A73E8;text-decoration:none;><a href=mailto:superesolutions@gmail.com style=color:#1A73E8;text-decoration:none; target=_blank>superesolutions@gmail.com</a></span> to share occasional Google Ads account performance suggestions. If you don&#39;t want to receive such emails in the future, please unsubscribe <span style=word-wrap:break-word;><a href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/APy2Ad0mHbRjrBmA4Lol54AlRFkNIM01URcySGLmvKfJqrzqF6hWZATzVQEGt0jE53AhVJAqFlgXRHu8LZFV2AAk91dkM56aWThFS1JkjZ5yiMI9A3EAaaaJt7IZhdX6LnIPSw-2taEGqNy4u4vFfkcTv9lq_nSHJA6wP4ScbhW4gLIIISEOG3M98TqRBaJnF3EXuE6Waeh0s6W0OUuLtcmVIUmSqqMNYgK_MxPNM1b5_P36B8-8pJVKsZxh2R-IjFE?utm_source=gm&amp;utm_medium=email&amp;auto=true target=_blank style="text-decoration:none; color:#1A73E8; " class="">here</a></span>. You can also change your preferences on your account&#39;s Notification Settings page by logging into<a target=_blank href=https://c.gle/APy2Ad3NdntaK6OSN_BaBB0z6f_troz0cqagBHbGgCBj30hHnDvblhGYmo9Gauf1fdjUKOhzYjY1G9tFyBtxsv1wW_-3_pEAqNFZSLtJufVvoy7KH8HccWVLZ2upb1z06bJYMsmmCXlvDvQNedjhvXaKWQ style="color:#1A73E8; text-decoration: none;"> https://ads.google.com/aw/emailsubscriptions/users</a>
+</td>
+</tr>
+<tr style=border-width:0;>
+<td height=30 class=foot_mob_logo align=center style="height:30px; border-collapse:collapse; color:#3C4043; font-family: Roboto, Arial, sans-serif; font-size:12px; font-weight:normal; line-height:18px; " valign=middle>
+<amp-img class="" src=https://www.gstatic.com/gumdrop/files/adwords-google-logo-tm-light-transparent-w148px-h47px-2x.png width=79 height=25 alt="" style="display:block; outline:none; text-decoration:none;width:79px;">
+</td></tr><tr>
+<td class="" width=560 align=center style="padding:0;border-collapse:collapse; color:#3C4043;font-family: Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; font-size:10px; font-weight:400; line-height:15px; vertical-align:top; direction: ltr; text-align: center;padding-top:8px;" valign=top dir=ltr>
+<span style="font-size:inherit; color:inherit; font-weight:inherit; line-height:inherit; font-family:inherit;">Google LLC<br>1600 Amphitheatre Parkway,<br>Mountain View, CA 94043</span>
+</td>
+</tr>
+</table>
+<table role=presentation align=center class="mob_fix mob_show" cellpadding=0 cellspacing=0 border=0 style=" font-weight:normal; direction:ltr;">
+<tr>
+<td dir=ltr align=center class=footer_legal colspan=2 style="border-collapse:collapse; color:#3C4043; font-family: &#39;Google Sans Text&#39;, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; font-weight:400; direction:ltr; line-height:15px; padding-top:8px;" valign=top width=100%>
+¹Individual results may vary.
+</td>
+</tr>
+<tr>
+<td dir=ltr align=center class=footer_legal colspan=2 style="border-collapse:collapse; color:#3C4043; font-family: &#39;Google Sans Text&#39;, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; font-weight:400; direction:ltr; line-height:15px; padding-top:8px; padding-bottom:25px;" valign=top width=100%>
+This email was sent to <span style=color:#1A73E8;text-decoration:none;><a href=mailto:superesolutions@gmail.com style=color:#1A73E8;text-decoration:none; target=_blank>superesolutions@gmail.com</a></span> to share occasional Google Ads account performance suggestions. If you don&#39;t want to receive such emails in the future, please unsubscribe <span style=word-wrap:break-word;><a href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/APy2Ad0mHbRjrBmA4Lol54AlRFkNIM01URcySGLmvKfJqrzqF6hWZATzVQEGt0jE53AhVJAqFlgXRHu8LZFV2AAk91dkM56aWThFS1JkjZ5yiMI9A3EAaaaJt7IZhdX6LnIPSw-2taEGqNy4u4vFfkcTv9lq_nSHJA6wP4ScbhW4gLIIISEOG3M98TqRBaJnF3EXuE6Waeh0s6W0OUuLtcmVIUmSqqMNYgK_MxPNM1b5_P36B8-8pJVKsZxh2R-IjFE?utm_source=gm&amp;utm_medium=email&amp;auto=true target=_blank style="text-decoration:none; color:#1A73E8; " class="">here</a></span>. You can also change your preferences on your account&#39;s Notification Settings page by logging into<a target=_blank href=https://c.gle/APy2Ad3NdntaK6OSN_BaBB0z6f_troz0cqagBHbGgCBj30hHnDvblhGYmo9Gauf1fdjUKOhzYjY1G9tFyBtxsv1wW_-3_pEAqNFZSLtJufVvoy7KH8HccWVLZ2upb1z06bJYMsmmCXlvDvQNedjhvXaKWQ style="color:#1A73E8; text-decoration: none;"> https://ads.google.com/aw/emailsubscriptions/users</a>
+</td>
+</tr>
+<tr style=border-width:0;>
+<td class=foot_mob_logo align=center style="height:30px;padding-right:24px; border-collapse:collapse; color:#3C4043; font-family: Roboto, Arial, sans-serif; font-size:12px; font-weight:normal; line-height:18px; " valign=middle>
+<amp-img class=light_mode_img_only src=https://www.gstatic.com/gumdrop/files/adwords-google-logo-tm-light-transparent-w148px-h47px-2x.png width=79 height=25 alt="" style="display:block; outline:none; text-decoration:none;width:79px;">
+</td></tr><tr>
+<td class="" align=center style="padding:0;border-collapse:collapse; color:#3C4043;font-family: Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; font-size:10px; font-weight:400; letter-spacing:0.15px; padding-top:14px; padding-bottom:32px; line-height:15px; vertical-align:top; direction: ltr; text-align: left;" valign=top dir=ltr>
+<span style="font-size:inherit; color:inherit; font-weight:inherit; line-height:inherit; font-family:inherit;">Google LLC<br>1600 Amphitheatre Parkway,<br>Mountain View, CA 94043</span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/APy2Ad2xOFbS4hp1AB3dx2mmnPYnEXLz2vexPyJuRoYTqUQGVUI6BHill7YTHKE_uhwOOGbABRMA2J5fdC6zbjgBBQaMhOFlR0GNwlmANn25SqAkzPUWYzW85XzKQ4LYcCIRSseCHrirSiU1-6ayT5Wh023cg3PiGESrTeS_YjoxzzTMSRpcIDG08g width=3 height=1>
+</td></tr>
+</table>
+<div style="width: auto; line-height:0px; font-size: 0px; height:0px; overflow: hidden;display:none; "><amp-img alt="" height=1 src=https://notifications.google.com/g/img/APy2Ad2jSpxggf66rEj-00GDNX15KBsDi5P5mx_PQmctkXJ7ZPL-LBw8Yc3I19YXHJP6JchVom5Ie0Zom3rVOkfzr-C1-3q4J3a0XaHyCkMGJ9vTvFt4fxvQ06b5598-7I01UevJiA.gif width=3></div>
+</body>
+</html>

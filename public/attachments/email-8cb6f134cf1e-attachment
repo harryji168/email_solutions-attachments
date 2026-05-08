@@ -1,0 +1,1760 @@
+<!doctype html>
+<html ⚡4email data-css-strict>
+<head>
+<meta charset=utf-8>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<script async custom-element=amp-bind src=https://cdn.ampproject.org/v0/amp-bind-0.1.js></script>
+<script async custom-element=amp-accordion src=https://cdn.ampproject.org/v0/amp-accordion-0.1.js></script>
+<style amp4email-boilerplate>body{visibility:hidden}</style>
+<style amp-custom>
+.show{display:block;}
+.hide{display: none;}
+.bgtracker1_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5o4SJO7I3mVveVo1JTJzrw_OKLnPiZlLrahRolPkDUNzmVWnrYsxNqE_q_XOC3SxlzBFaNXSdSazpuEs0OxG0KK_3XPOuUBtWgRhBFJaiNfrRDMkO0ecl2q8-n5HDdZQ_hu8Yh03OyCMolT30TNiYeJl1dQ0wQIpPQKRV3cwsZJ0DPN1dBn6PQ5rn2Mq3st9BXQU3DL6XbT7kTdmk8v9osCK6B1p-9b1flKXsk41krDGv1k7kog6KNIWje-5zcJ0MWwzU-Gt7NwJ2Sq4UGjidcxCTZOTnIWvO54wePxjR3i6SicGAf1FQ');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker1_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5oLbSIgEb_wgz0l6c3jl3CbLEah6qwK__38hGKciLKyE6qXi9XklRYD8uD7CZ9RZjxM3YkObJmGNuobQ7fwh6hv7PAwlIFuqEx092w4yWh2OcNKRYKSYcB7sWtLaIcD_jzmm8pdLE6QFODisANMwB1CqHmnR_uQ9BCSrwYrWhKmerUBq28v16pyKC4FA1Eea5yyIX1JAfY9_z3k2xQU9HM7L18Pmblc5kQw7DuKO1vv5GbUrh_hGcVGxmsN0VEr34nm0U3hVIgvgEGBEXA6iKozn7A2HYWOE_BHlMxP6YEi8GngQZlXveI');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker2_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qZ3LAw6Ass6baee7bUsv7LvlFxxNV_6uM3SKfPreJC2Dn66scsanf5CZ19eHP0oIrfO4APwCNG3uNCimwpSwlVQMxkZ-Jt-6ORoavbXE9XjA0dw7J_uK9w1PoCQVWJtRxrL5ZEKmBVI19C_sceXpbRqcUL3DVpspOKOSrgvohX-cWFCJCrcyZcBZTeb0lpro3oPU0z6TNIsrBeJBIEjZGvtEQA_q5giDZdszr62UEWKyZ27xfF-K4rU1oaceBeHRS-5cAoPljIR6QDm5cv13l8AWKCvqitDoFazs1klle3Twq8oJ9BK-47wugELB4RXQ5jXNuxMg');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker2_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5oi9GAvSWfXfvZiX7nonXek0PHi5sly38R0S9o_lHRjOtS6iBLQclu_tAr7Qonhf-C0kV18BYgukQ2QwENocwGvvqrdQeIR4VMX4IRGB-K-Z_Fcm6EGqgS_uMqhusc0ER5Y1kTYlfgTGuJxC9Y8pt-qDyQKnjVjy_0qciM8XgGkmuRelPoqQ-fOxl9wSBLKpOlSYXzfUp1jCd3qZ4LVnPggm3zY7C8dr9T1Dzcku7ul3CvaXcTdZPchPBzO9Ei5XuAbbcFqadYorT65LkVlimU_zYLHcf04IKWc6kokdiAaWsCrah1P-_Yx0F3a_jYR0RfGwr-ArVY');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker3_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5rn17DWFST0DAgnD4W9pCgUJlzyE4PIXp-_ST4e5wMLJGlgbB4JcSQK_O5j8F3V7Ng69WTFeIlw1_Zw3bSDTpcN1fyI6lUYQYklOYb91jebF4mjMF1IX6O_3zBTlQKKKQ567DyV-4NNm62mNhWaQ1FpnuataQtV0RoTrcjhGTk3cEmZDxeekDK4gfkQSgXYz-sP7yaxV6UilTLVWtVfJ0nyhgkA4-fMP0hNfg988ehelqutBdcTyO3tCewGVhUrgtAoq94OApMjdAcs4wYRdy4iWpRqVfIsCI7HL2Zt1TQDBfGc4gAyx9ULNoOv0TSqeV3xEdv3F9GA5w');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker3_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pnTo3Pstj4sHvHKURysrtVBk3xWHsCI1PP9eUvt7AVp6LcwszpoYkASmoH-RN8K7z8GMqmAzt8huf9KYIw_YDXMP5g35zGqXtrAepGkO-ONHnGgDsHlkKKQn9I6-ArwLEj-TlHz36QzDp9BFDi3WsXZFUiqn1G7MWtNHTCHT-XiEaMdXMeTYWPF3RHpLrWIlzXYksVm1QhHq0dPjg53V5E5b7fT-xHn3CKBVTuNYDOgYWfAKi-xAiYe7njeaLVxBB-c57NLq-b-QGZSTrKeBV6MPRysIBz5fIWsSJXJuKUvYD6xVSwvQWEcBlTLwW8o1d20Yza4BRlAqs');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker4_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pYKGMU_M8flYE81o7_n3ZIRbFWqH1v0VnVKya8dxKD3L4Yjd1Jl2I8mh0ndtQdE98wcMQZ4s5DkzqSYzwW2G45MtRBZ1xdDtpcd-Bexp3_dVvXzkjeS8UNnepbZdn7qtYo7KqZ7L2TUvlGzsYgPnv0YcfMXKCeuZTx2e6a-hrwC6lkYsnDOZ00D_tI7AnA1g2tJ845Cu0MzNc4wudeqkvTlk1fX4rzAlt8MejQqjXNYsoMzAApry9s8TAziBFVyPAJ9eEk6ymdLojLylRnChXoQcv56hLk7Wq8w2D5VQvzo4AA1tU3qA');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker4_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pvZVQ4bjJM0HRQRLmNWiDHj2r1Pzbm-j5e1q4Uxz4M0itvZfq_PQMdKVy13NuxlZo355BmCiKzluYM60MTCYr5f2qFSfQlAmWmB9V6FF_Utn4fJCfz7QtVsaGqfGmoTC8TtDpH700apPMyFhAAmDPCfQDTfvwQksq6IFylsmm5SXEn0Cb-CkDCxh5KqHf1HqeJMA3rJXA9p1QeEKNJGRHgV_Tk5WArONcuRL1gSFdq_ENqE8X7mDJFrHFH3MSY0YOi7_I-K4jjEUBnXfP_4piJacv-LD-Hs7m0_eBNSG7_ZUIisWaFtDA');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker5_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pcI05vbUwevYs7ni9WZut4O8uqdrFyAIh6kQDvTi0fFzzuJ-kz6YOoZPIwDYpK315eWsUD1vkEHBbUH5tTo6wUeDDgWF5CEU_RY5qXlEmiO1Vn5KpPNvTb0hJxVEKKuXrTobZc21sIf1E2Rt1aR0ojdKTzkUMML3u9eWDHZNy_7XqlscsMa_hZqWrefyRyM-TQSLLLTYMxfBVq0g2Sv-iaw1jzao_xkcg_bxpW0JlRTxWp46YjXg-8x-Bfx7NpMREBv3rWAQlEv_iWGsKcdBjG9u6G-WCrHwmVr5Ya9CQLJGX8TTgaskcTBDEoOCVKHg');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker5_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5ojOKHOuaj5ar-f1_ZY5mCuUmFlXfrXI0NuoTAQBFXU6lrnLZYn73fiTzN24JDPXNPOIOfBnbHhM6kzUE7DIQM_9BVte5o971R3u8vuuyIko37-lfXowJFtr3sLWf4z4UmIs6zOHgks4fzi1jZ23AY_1Wtv80jF5NzfyJcLf5kce8Q2g64rCCRrwi1photVkC1ZXuvax6aPPjYZ2n4jsZ0yheDJ4_lxpYEhAhv7msk2Wj0fevuPi3DtyI5fEjpjzD3Mrj10fDStPeLeVbNzabBscIhf18yiTKVAgzfLbHd-J-_VXY9gtOOqnad0GI4ZrKQ');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker6_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5o_WKe-1dLMPR3GIzOPRpJKev_0oUJ909NpqsdOPvviVLRvYOY_cgFAZLhGldtNjedClUcKcpxn9ivjpizqnEZtta5q-HpipBTiUMaFwcTZ88Jo_mx5R9tcMJkykepkzQSkcguQ2Am6A8TlH3FUeVYvVKSzswK-2E35rzykSaDC0Jl_TyM156XHBNI6xDAegvy5Jvll_OYvto5taYlE_wNxvEpRVyoh6CDU25SIBODtBbjzxi1CjSMZl4Mito42mL3ca6UzprxK_63n_siypwXn6UNrYdNSjP25BPON199zvw');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker6_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5oZVG6DyVkEKbCehrsYUe2sdllnoc6ee7YfEMLRZCDOsdfRgiu7y-ba20Dpeh2rNu82eMq1FY9RPsFwznkk1g1lr4tD2TAnvUyF3YgZfEPgBX1BFk0TnGe0M9CSVjbXfHav0INnnKQRsxkagunI3-aIdYveautoLkYHVsRMLM5ueXWf5DYHXA5yDikYtouCPhrM8uiIqj5onyRXRvvZ2kpetIXQVEX0Y1-Z7_8BsN_N0LTEHrWePeUs8h-WOT9aV3wkfoldXX-CBmFqvP-PEg9c4Ji9TVXssUTFv3gnHL-rAUY');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker7_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5oQOTa8_sDm9tSnOtXLuQiZcGlkIVdtNUl7KfHGAZ08xqAfK4ED-KZxoU8R-WGY47zfB74xTY0pMZB9Codr5Hwm8a_-mzrXCx1-uoWlQQODqDlguVZza0dmcTpq3tNgc0qna97o1GRvNJPlyV17GfuTcoToucVIWAD2LYkM-KPkmHINpF4hdfC9YJj8shwZzXmypyYiL95AmYljYjDtA97j4KNUHupg0-gfJmjJ5otcBWgOcJbh8BAAWoNYEtXdi_g3xF_APuGdmsJg58jJoodMTf-G3dcAcRcb0CtTvHESTzeFxKJ4dJ_lZuztcas');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker7_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qRRPozILzzEmL2zQwdATYL3J2r3NUzFzFjElwF9HUWaIOp3Bt_zm3RumsnafXRcVy7nk_fQd8nRjCPc1q8BMhJe375Y7KYa6re4bcTykJGW4mBv4EHIby8vDZn8qEbHlzZON1hU18_s_VjebvipV0gPeb4OTilz5LOi_BFYSMVh5zI56FaVn9XK2CL1jRiRWTV7HRaJJeC25sFw35K2I7ScTZj9EqglrYANfDKw7lhpwKF5gXQXe2gOIznwefCY-zOLuoaO-u2_EXiIOfddHlKzjInCBTqJFwv96LMfpN_pr2YpHKHbnDoFHrARrdT');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker8_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5ofLzFSeqnqX9iE9EbWnWxUfhSjIBLdimmmUVS8YrgYCilvszvMb1_fIXFVtDXE0-19NCdBrUhe4uY65UdZv8AjCqMvUqKSv3yQPnkAM1I0epQ1jdMvkxVAmp0aCOKIzjOkgzVpKOqowU8iJ2DR7JAGQBH2TKgIa3zeweF9LmN4SI4pdWerSpNPUZhzDPK87l89SsWyRLEh6GqJgdd45gNTDy2VH084eeT6FL8xzIpwsbl7R0QHkmjrGbZiU0YWk6iVvaTaPglVa5QTQVDvniNPtUKbil03FgnLZI0kbGAM9OPockJnJFQ');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker8_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5oPC780pPFwtnwlnb4W2dMZ8lbMqAk8YztSxBxCU-4f6JpcTIFJZBO7q8f2Fk42LkZlFWua5BFQ0F7JlJ6djkhSj09cstboMwUI9nerOsfmfTleobZR03MkR7BvskflTfdWWuURhwP0pwlelcI2zbnvgfOxVJE6rVnGp0FTaF8kc71s2iZvNexb_ZtqHkWSVtw1zuo-IgU9DG6TaSNyi5YxaOWRyJ1rqjRJpKdDaJ62SuaHNKG1TyADTlgIkIkNZ_RNmBfjwIUy-RW-MvUHcUVsZv50XcDW_CPUt7RYe98-2gOKkzAkMoHQ');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker9_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5oOW30ZUyizRGskCQw3RJAEaaqhFnNj2u5srmhvMFk0nBm-diuCyvDhi-EcIOmdOq1U-bBfnzuCjiBfM8YSAVMKhFw0Y3zL8TXYuIkWUmM3Jr8ROyepfEFLFxbx39hmTiiTW__PtmvyYLoPgKYfyFcqSXPXv1OnM8lZSURzwJVWKZT0dfTLFEqIFhVpffhqCLtaHwMhKo9MMxddggB2vTyyMD39GeqYkIICalQLmBZaRPk_o1J_lPMDub0nDZ40MNX4NNxgg3sBLzeU8nIh3hPYZ7JZ94_KdJeCyWSCSi7DImHYb2QtpdI');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker9_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qvmSO1ZwkNJS-VsOTHJaGzKlPgyieuyRpo5M77bniaMC81dA09ewEXNU5YJWackNFMYWFEvFXy7OCK8Ao66Cd8GFSOQsHFXg71Gnyi1tIrtDxeEdunXF8FMkkk6XMS4-QnWLamMNzp9IKJWjnawnNiQ2un5pcF2tNrX31FDsJkgPwtdvcmqVaxBEyGoEZhNxH6_mDA2I49KgMPO_7BC0BVpVTR9E9-9qkbnOSnovnQpo0Qwj-Vz0866-BPLr1WF51rKTPQgbAU7SmcUEH0b0sC-k-kmcoDk1JxffSZ2kYiZeIbDu99PL-X');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker10_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5r8YUKVkSA1u1H41460nz2ofXs5XF99D3Edqu1qAazO_954P6VQ8vSgID5yWByFBLaJZU4HKmHNU5z9qIEQsvsTo37lUw7eNSfJQymlhW221DYp-uaidETBoM-vImm_dL0Kenas_1Lb6hWV-nr7QZWLpUTSme35q2d6GHGQeagJTBB2ju0XCM9XxxLaUiSB1uTnE7K9ZbCYpebXF9hcpabHLQd75YgOaqt7cN2gZlDHRirDDUukjJjvXgC-k9ZT9BA8TzeAvFo0eft7GJLVyxq1ZPmQeyptZa6vmSBbUwKJKxaGgxnuMh8-ZA');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker10_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qqik1VJ9fiEd83qY_2bgeaNUTE5fipjeI_EMzcivp2RHhVmAaGXWS3W1r4LraEB4tjBuLK6uw-8kAxy2CeyYCPuNh2373qk5N8rgEKRb_BpYYZzuwBUsZ4i8tb4KM4ncYkzrOUGt0yzN1umMykWPTOfTxJtYzc2mUObl27uXpi2ozlUf1U7bbtg0JLpLsRFnKXIYhraJ7BIeSf4oZH_t3IqxIKwCWpSaXrN4zmyfhEyV8Bk7Zq8PqEHv4wEP8NkAQw9OErhMEX3xm6rQUOp5seDYhP1Vr4V8XQ2YKruonDuZ7fjTJykx2GGu4');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker11_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qf8fg9f62pcMwOd2NIrbPn3kl5ysCQRE3a6z_AKHYohxbJ9EwolsgAhKdilqCSgBBpH5XTY3aNXWJyH_kzYVHHexmCp7XFfg0XOxLEhAbqcyLRGTtZM4h8M7tu_MEMH1tTfCNzwgrN29qZHOcYU1Iak1VeyuBnlIGrCUiFSUJpkhCl25-YNH992qzL8sZYtsyMRar74RQ7W0VcPilgLJWiMS6j6QW_9VtqNrt3XeA_OThxJhei-8tHeY4tQktOS9QX-t-VqocNeZYieos-oPMSnIwLRm7ZXvUG-ZmtIZcDvIOihpZfH2slesbr');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker11_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5q7t4N-dw9Lsw1Cdcc5Tb4YAnCT5k3RmcU-k4noj4QP6Ja77LAmI9EuOI8qhkgajH_DvXi_DYjbuksnkH-UghqFzpgUjP5qa2gNmQOgHD9CvtyVzxF7hyEeuhis_FkhURq4FqEndStzaXa01AbrJl4uTfOR1-zkkWdARxIKXq2rRVD0gHiY2tgW0u9VMRZ7iy79AbJo5XqFsY497zgtHU-tJ2cBF-wy1yi31gI-PAT1CzrPBnDa22iCDeZdgfYB5vgEX_dTgDQlyf0HS94MBQ');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker12_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5phXJzarqvh8aZvOWR79BEH6kg86XDHozvsSNyNcn_ybm2aqYnaP6WU6mn3iQ3r-88thhZOqBzx7h3RQBVzDXZv1qpXNzLoBurTQt4x-ZFQviSbEBnlTWNwikfnVHxu5-UqyuFSY9o_9DpGHBvIRmRDI32eR77O_6UH4xMbpvycPEP-FmMitIQ041-JBNrMKUm0PqU2Vhw_DPQIQg6x27JB1PYkUBk1VictryqyrV3V9SMHfhj-jAII2nkQPy6Dx7GLxj9v-6tc35ZoyNRi-dtxr3Hz4j4Bqq6sutAETmZ8');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker12_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5rmccQEwMB3ICEcegysk_EP-dXJ9wAFJjFsggphe-Xhp-0_3yK8DoZLA3uds9TMvJMh2X1EhfFtJ5_DwxUEE7bTPEvqgbXdKegQ8AaJShhnK1Rm0IzRF_NiAfZ6kEHSdB78JDf24AkJWQyJin5tUVTG4bH0-XfocGOeLory3KNYO8lCWfqTx8uiLn4Gyp1MmObLkgD8SMYtScJKbiy3kYRVT2YFmlGG64fR5yUSUPUpzQmQXdJTrJvm_3QFY8dIdutX5Gz0z9p4n5I0Jo2mOQXlk_ZsJ0k7cVy8HW_t144DdB-1CBZMPA');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker13_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qWJ8KJ7vRcLELGhxQlzNZgOuIg6U58m0R4wsm_dnoT56BpEn_vLCBzjZfDp4jV1SWogD-8w1qwNozZSf6XpK0lr2oJmYLW5vZiqFQEKYVphpv3Uwml3A1oWsYSYUztKJ7z73bYA00Si1UYUmBI-qyShoc6UKu3UPQwL07yjCpT3f9BcJZNLz3Ctzk9Pd8-694Od320KOL5pYTPIUEisoMz42M_-8CAlbiqQX2n5FwmMM_YrMP1KZSQrOJ0e4nNPgWLDcStDIuSx-AadsJefQn3sIN7D3VrPn1ILVPdo3nhUrWKW1ox');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker13_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5oJ9pUkfmDFMcUFjlVDhWINJSVQhGt0IQHwzS5D9UPdFUsYQoeT3d8h23YpbXwuB5Cp04Lu92iqEGt7zvuzByFy4t6OvkBAB7IkoUeQDrMb2xFC00RIxGLuZAE5EGJSu_rNBQ8r_Upqkr9O1rWlEnXN8tSIAMVKsN9VBP5I1_LHXxiO6LYdeX_rQAp2qV5VnEoHngH3N4KWLDewiWBqNrE_sT26rxVHJizBZpEn1jhSmzBLoivVQUEQb-VAFL79yPMgCDNBqD3LNfMxGytJKZXV5UBY6FeC_OOb5HRMpInscx66gO7vMQ');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker14_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qr1j1tgTJz-3QBwtHBV40vbC1kZxFQDFs8yS5vSoAMmVSBqN0SUp0gU-ZuQr4F-4SZQv-0-PyoyylNEqcgn5TJtWFPmZ-b_oHMfR4ZErean4_Gy8YEWR8mMq7brGUJ2CelvoJ6h1CUpdKwigsV3wBtqC1M0jkk_8DEGQQuuPx3goohcTQ47O981AbSQGEtMGX-z_dkE72B-0TEkmTTtoBd5v-GFmg-Lfc2joFnCaCFMyHAPRlZ2ZdXvEhA4bK5Yo3_6ufHDbLidAdqCmfLzDDtzAsyrznIoRZznD2Wi1g6sdQabEOEe8f11Idoyw');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker14_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qR59ig1jk5JCXzsjSsxxpxoFPKjv-kXRFs0OawBiNWlXTKGH4AnnelBXXXPXKUaL8UdPJxePD7FWgIYPAmi378YAcikpKGwjtEvvllJVcE4UbFnMUnNTI3ZSzKJV7OUazLDtMppvg-5raGiUOwTZ8La6EbyhMD-VgnjEp6OcKaJKTLDySnrWPAmKbUG1IAQFbmNG5tMFrEII-0nHwOjH8bbXHLzuZUNmEfQOmAq4KxB9-e6J_r5izVlBSNx9BRG4PuV55s-fcTL_dwXcj2ZZWmMOTSnbqoBTj7cD70yEmoFDAq_NBjBdI9Mz3pmyk');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker15_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qpwy-ySAEpXwk2G6XaG7lO08WGrkoKfnW00tBK9NE0TCyA_2xO1ffoqJ0gcVQ9EytGjPPs4kuhppjcg6e-UlnZwppxi5NAx3fGpL-gZ2NbpPUDs5RncRXGO98f1m3I7yAna3LTtbQNNmpOgXeCZ-RmHfP9BiWXpOTCUeRKQMaScx2Soh8m2kK8TRSDpuLrMSrclTd5CzQuIeuiSl0elyo-3zYo8IXarWpeUhiEXH0138GO_Rfu4sZHge5lPyRVmV0Ex0gh9DN9WackECamGjWSe3EqZAMxGpiVTzytC97neraLzcSyrjHHOA');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker15_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5o9ULQtDauv8g5xNXo-2RVSJpiu9ocsNPznT-lk6LjFu84ZsfXdykA4r782XnlrdR_56y8JlSloHalmIhl49w2p-OILS1UTE4S9CGcbF49feEgZD-ZBK9-4TtMVhI128hFbYpsQxQq62N1FWrsrdwhALEc-t2YLDSLLM_w1UKb5Yp3qjXGrZkq7YqdrufBBsryO2-hyKNxTJTzl8U2N-oubHzZT0K4oZ8q_P0HJrXZhj5suWkLBvPSS66ywLITsCg5noSCed50wESAWZpbHAsOtqCktbMcqP2727cDw66Su_9qc8_hZXE-ucck');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker16_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5r4rgycl7dYRZg5qvIenaDvwjymEZ1xgKe3dW5wf5JXYTTNdbaj_S2noEcMFOdIEsWj-lEsZwxwn70xmIBOsWBpnuFPlnPaRZvO5aYZxMWiFtagEEV-MbpMvKC-MwxixKECngu8KOgky2L1-pcAdFaZz4-gTpKPD-giUCQpmC-s-7Ls8s4jlgg9AYBqE4KcrYygFgfJNtdc2BfbLqqLRbHBjYK24IePgOqyKtJ3ww9IktMY2uYZHM0JASOJ-MbN6uv5xEFKIpYKfsmKCm2B1INcUdItuUaPx7Jg3iUWC5dV4lTiH2eOIKRRdg');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker16_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5oR0eN6rjKFhSBbgW0xSRROLM4samaHl1FCG80EvGGm5j1yfgZTn5LN3jUoxJw1LM7PeXWDF20s9GKtCVkqVYAmsjmEfPljF-pVAbJJF5CHeghJfzGwAioaUdhU7c_YrEsMSHJfYmjjNkx4DVlW1Zz9nChkxFFqBC-qtbEhI4idjuoRJOe2kbbahZ0WquzR_a5hIPZ2qEGP2KBqzbZCfl3nt93dcWflTiEsrMKn-fyJGQQ-B60_wXyo8oFHVf7AOmWoXdguOD9r1drBshMl_Q44pDn44cx-_KLIXi3odZ0RmpuaBjTeU8FvfA0');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker17_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pBdJzMgniHy4O0oIVVzpl12uQWoEiTuWFYf2DdnjUbBshF4m8Fk0pOaISGGLSooFVrMfH3IlAj0w3xOjpPIuHDRcT3xzLN8PJNuty60dgout4aQdAY5LUpTPTswNUFqc-meg808Hi-Mqaoq057pD2a4Jf0g_BqQoJPGwzazYXsXUtCP6i4iF8Ii1h0rhVolU463N3TiL08V56URGAmHR-4y6fEeGbf-VUG1BFKGdDAgc5l6XoJ4SR9DYQZnEcwqR_8Hlb3oYe5DnLXpUXb254GHX1jLHWXTryeRKq37gwBhshmJhxggh8sWEU');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker17_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5rK1b7AXg9JiPyv3fySqkl-RJp1QrVCVT2z86jj0BO_6ZnTjysTljJZ58oHZmciTkhgQifIvsLMN7ctmhxj8FpggWXVpb39XzU6_3yGPtt44Sd_iTPJs-hIS5LhA4-Q3MBMzuNO-BDEjaaHLxZHVk-aVG7dzfbwqA4QA5An7yYhpRACEb_yGWg2WTCrkqWCWfcE1ED24GkNuOFu4j69dhpwWVrxZ4xBVqjGTzOYwIjwEdVbvCxfNWwzJoxJe-KZXqhUtEYsCII35uOJoDxRBXvbkqYT0lLrMWLpvjRm2FAt4Cs8L1X3poq07nze');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker18_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pKfYXyN8ibNKdNFN6A4VUGZsQpEYXNciBZyVqXWZYWfS6zV86YmlaNWwrZaQ4JPzNifnuHCnEqAu5-RCE7z_7ttD_8z25_h8IPVgQ0ZwEXTPRBgfAqPb0y4GBKsYbS1CnvUf-gjFMvvQbtU7AQ3MW0O-RM6XE9eAI-PcJJK-QHYBdAe1RnwP55EqKkQOykyPvcRNueqTAxG9A_8Wk7rSSrgYPa6FoECWFlcGdFD5G_EMp8i1tA_iecmctsWl_rEr788y43MGcIh2YRfDdsCvPu6IW1tJ0Sl_Azf92u4CB9CodRSBty');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker18_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5orSdxRmiR4IO4P6jg6fyGRAEZ3e9HfVI2ShPFM6beaj9Xx7FC71m4eotsi_ycROcLkLpu_z6Bxl2w3UUPvV4qQKacWAQRu6xbff-ycylfPogc9RkXmkeQabMifkP4qawRbW8ujCD6ysw-jkMRKWE1B5IyEXU8Yi-wt89nSNoKXnY6SH7Q9WqHLWQhDc1lujozdB6a50jMZCHV3PCfAU7YoiEtgAD_gaR0ADGUXH7j3bGGamLP5PK0-gLJzpVTDlduLoqGR4hktyPNrAnaRA2vfMvbZskq2OKMc5aREyWqRj-UnT9U_2g');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker19_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qVbww9osBHBTA8ndVfogubpZXfuyiGAtqUBxInOStXhqmzUVDm_ywfTjZ0eUPxnqvx8k1tPlIKfzkyTu6GQK7hGbXbeujPe6N9qs7sYnWGtK0iAcUgmSNkPI-kIzBMelcoJgKYUF_s3gfHsOWpjzTpZiQQXs3p646z_6OA6ccbL3zUZFM_PqbLGEgbSSxKu5FlFXY-yhaCsPo9OMVGIAQj5JhzgL5O_vh_NaNXNMGu6IG7FhKAza_gA8l2xdLHq7BL1yjUioPJpkjLTN38HweyOSUDXQ5vfePq4-MxEXBKQGnFKg');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker19_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5raZRvOT5hvJwiYy9S1DxKVb0Cg7AHBNLTwSrIpPqo2QJkaP-Wk-RM3DSUkqtkyY_hNTDZQLAA0HSlaC3Ll4aRDgVcp0S4ydOug-ulT8xV-V4DqwNKbFN2nt2sclkW-sQr8mh0SIRBoesK2fl2NamATFIV0nJR5QZJjZ1KopTJxjluZ7ZLnE0VOhGnoHQd9TGJw2pY7i03KH8DiWGcVucVcfumWwu9OPN-EIiJUjfT8JJ__Oz9xagEIx0lTNlm8O6CNjMzWDudvIvTK0ag7LT0k7FUlS-_NdVCwjw5mS10_EQbmnj4');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker20_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pl2svLt7TMxLRbtn79wbRNnKP4mGVt6MREzJH10Izo9s-B3EIu95Tgiv4NTkbQwoc0ARg5dWolstnclAR-X_4KuLfY2BClFyCRkLnj9-nvUy5MuwzejLp2STZxOuBXkcB6XV-ekVyhPDZoKazXUK9A9TgfYmn94ej6F_c__bcZydxT2qdQwG-iskEOLNASmmqQXZmqdB9o_JX7OOO6I3HnilqdHBzHrv5D8cpLtQTFNxrhS31x0L_TNZFRVQsnk45k6aGsCdZfSC7WsC1eRWmGvG_NjNfNmG2d0heYJw');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker20_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5oucsRoxnfRurMlwHheQGoFoZ55fUZ9hIdB8EO4lX93Q75Rmr2weXTvtNVhILz50es1vgQrS8NYBNYXKhM6ZtC14edzoqYncksezKLkkgL0g5DhEs1bs5b-_-ePw5O3VBg-MFiGjNdMxOvZk9QS1FFMx0UrenYKUqmzSnQ8BKpWdEy8U7l7iAO4p272Q3_VGVi_qwUrqO2fF5fBtbKI6iDH3_OXK4RkmW_xkUaNRcCeX9bmglmmlhW4HiGgtzTsy4d42FLF0cFFyxrCO7UV5j0W0nhaaky5vQ0lLgd6fyE');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker21_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qgy9_dqslzXS5qik0QrW--Zh0ka5goIS_uFnmR410ujWRus-KUluMxk7qOSZdeNlfKjnlSTT-gLDMO5TvuT1xsupRZUb8oL_CmpQ-PlGRaiJg5_2CyiG8-LS-eWCh-1kkbwav16gxwaFThIIeNNSLqmy_By-Ed7Cv8roI7ZRpwsqW6Q5lmGIBxim1xGgz1cs49BqM_tNTdH6hMvDTQbe8H2K_aEfT3higXppbRE8AxfsJW--MsKdZBf0b8O8wkLo7jkwAm9GBQZdb5Nnl-UO4EoQHgbKNWCLmQdjD956LtPn6juP0y68IIQa9Dw_IwnLWGhQ');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker21_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5rhO8VF8t3Bn4rn4SkWIXgqBFtzAOoHpVRrWaTljx2UbCizi4KKzMCcVNtQ7Ruez3kjO7QNVKDR4JbpTx7nDv-X5NVvQupoorixuIvl-QBc7bW27sCAOExhcXSY3ECjw5mX-mMyKKfOm6HDkz6ziI0jp_TPocgo9hCc1aYo3-6C-HRZCbkyqb32hPOWesd_SvG8jmoIeOS_wgwopW7oz3MVlmA_wjygB5vKbneJC6_5SCp7XWBtp2aKAVzL2JlUs6piVNknAXC3FxmQ7Jho7eN-Wrnnv1_u1vUeIbRbEsaAYqtyMxARQjYQkoRX-K6xO0g7vfA');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker22_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pDjuC7OvXFUPZiE1kJEUBAj2IVt8mubb_-qIVlPxmz2WxQR8_CML3V6Jt-a0dYMPe_hXEilO994ueoOBU8tSfFaY6dSR1WLVa9fLORHHnyOjpa0h0nTZswwcwTAUvSgEdgZA1qSVGJafmNNueEY7Ss0BNm1o-cmqMCwmQttz--JZ0tFQAUKF3Yks9499H3oUQM8puW_eNI1X2EN-pQW8ahv4R3bvQi5eL3c9yENq7osmAS3PsDukaHPtfuHkT8R1pSPIyXSCzrqljsEOKycC5YnI4D3xuRsSU4erAL7-HHmLyX');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker22_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qJouc3Zt-KHK_dCPhPTX41MJubEZduY5xO0HrrSzuGpeRwyYOYK01XnOM0FdrvTp6y_X_9k3IoZILBFHpfdhR4CUOetoLF7JWdU4dJdf46rwWoxhQhRF0wpsXUk4Q0cgajWXB9-KWlS3W7gUfHOFjumV6EIkmunSiaa4jlEEaq5IlPw3hfpvJUrmcJjk5wMjjJqDNgdnk2Euq2T2VjsxHSLDeTKe0sze6-YvKzZpC-CX90xgy8hNBmfhbpcJxb0s7TIi68Bm6P1olbfDjHls5QgUVHvXEvLAtjTImWQvQ_-uEZDQ');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker23_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5p-PmGsLdzLsQRPqaZ5SRx24oK0nW-pDLnUdithlNzBBICqUCxrc-b3DT8Dq4bUKy076x-mukdw-WMTukztLWxW87HfM3ywQ_-dEshHUrq3nAlff923j9_gEhWXEAX4AZZTSRL9Efvg5aKXkl3ntD8aPFy2KQ2ZaEcKdpg1zTmu3LwM18O3C7SsPTI5GzvYzJ410GCN4FiMrsneT-INPsnWTDpp4HAMCk3j2GKSvSSW65F_yqi6HS89Jlycbzi4u_qVdB5HqX83-eExEa1pvt50gOFFKU6UxuTGdb7igRjL5tjZu05V');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker23_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5o5-rCO1xsrugJ2G_RDwLnD8kFwscei6CAUqecYlJcuzxJXwxmuDkDzJ4Vz3y1IYz5t3kcXrrQp-TERpanBWLyXun2uEFI8VE57sf8yzgwN6brK6VND9fJKjJRhZREHXd-Ua4-w3Dj77zhEHXMM8abOjQ_DNfdIS9SfIYbAAywNs-5QmtItLfwwzHbweo6o5zYJvYTq99NiAPsTqL6msOVPNzGwvdoIfwKmNkW1z8TDMNVHxqW1LqmQfq33c0UQZAleJlYBLXNs92GNTFuoSCTiHmHGd6IcPJlVG5w32JrXJTRxO45rLA');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker24_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5q8iBmXgybGJFkECFdOfyH6fpGrjYzhoWloQZ99NTd7TjyCmjXdn3QzmPOhskvh7Hi0UMrTYd3isXmXFgZ4mxw9yGzgXekqZywYGAhuNCUD35Mj5QZFzhN9cs1Kd5N3S2amWZefMQDCELcp7wmCzyHZFxywRQL1KpNZHWD9HidJ7XGIOsB_5zqPpZUeVQ3wR-CCbvlLM6PJmzYioVch0rL7pZxefV7b0tfMrgzYSUlz82mHolW0BVZRutpFrNlFmTB926vfn9NWLY2ISY_kwkytQRQC6NdCTPmrk57XSl0y4c1AgWGvDG1rUA');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker24_0 {
+background-image: url('https://notifications.google.com/g/p/ANiao5rdqDgT7eqBowbZQwairSJLuV1pNTzvl1aEx5gKwVgVZ7ITCBYfVhBcdjr7UBjs_laCbLBoA4drTbf5UwAjwWcO0_cchG91iLFoqlbQMHw32VcUjjG2dWzRjwVT4DAwiMKmutQltDsmO0JW6NgcgUy9T84xVXcmEnmK81-JXAUd01f4q6Te_epmw7yQCGhaibFbZ_Gmu2HtohII88YSZ4V9Oyg_QXbvzogjyGYL1lSKjXCvVu-a39dDeQ_ceilbB09NZrljWOQWvinhzbUptTegdzXjTspq5Ax_g4mzrsb21-WqBfcPqJHCXA0');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+@media only screen and (min-width:1024px){
+.w1024{width: 1024px;}
+}
+@media only screen and (max-width:1024px){
+.w1024{width: 800px;}
+}
+@media only screen and (max-width:800px){
+.w1024{width: 700px;}
+}
+@media only screen and (max-width:700px){
+.w1024{width: 640px;}
+}
+@media only screen and (min-width:640px){
+.hide{display: none;}
+.dnone{display: none;}
+.width94_mob{ width: 100%;}
+.pd_b_0{padding-bottom:4px;}
+}
+@media all and (max-width: 640px) {
+.pd_b_0{padding-bottom:0px;}
+.hide{display: none;}
+.width94_mob{ width: 94%;}
+.width_375{
+width: 375px ;
+}
+.width_328{
+width: 328px ;
+}
+.width_321{
+width: 321px ;
+}
+.width_265{
+width: 265px ;
+}
+.width_209{
+width: 209px ;
+}
+.width_202{
+width: 202px ;
+}
+.text_center{
+text-align: -webkit-center;
+}
+.text_left{
+text-align: left;
+}
+.d_block{
+display: block;
+}
+.d_none{
+display: none;
+}
+.height_40{
+height: 40px;
+line-height: 40px;
+}
+.height_32{
+height: 32px;
+line-height: 32px;
+}
+.height_20{
+height: 20px;
+line-height: 20px;
+}
+.height_4{
+height: 4px;
+line-height: 4px;
+}
+.height_9{
+height: 9px;
+}
+.width_284{width: 281px}
+}
+</style>
+</head>
+<body style="margin: 0 auto; padding:0px;">
+<div style="white-space: normal;">
+<!-- preview text starts -->
+<p aria-hidden=true style="padding-top:0; font-size:0px; line-height:0px; margin:0px; display: none;" align=center>Get higher rate limits, context coaching, and more.</p>
+<!-- preview text ends -->
+<!-- main table starts -->
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=100%>
+<tr>
+<td align=center valign=top>
+<!-- table width 1024 starts -->
+<table role=presentation cellpadding=0 cellspacing=0 width=1024 align=center class="w1024 width_375" bgcolor=#191A1C>
+<!-- view it online starts -->
+<tr>
+<td align=center valign=top class=pd_l_r_10 style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500;line-height: 18px; color: #80868B; padding: 20px 0px 16px;">
+Email not displaying correctly? <a href=https://notifications.google.com/g/vib/ANiao5qBZDoQ-IbXb8AiMHq_hL3s3W72qRlEzKOe5XAMPe47geb60_Jx2mJhoWGkl8QX2CXiM5xbWVKytmaQpBm_fjm5D-fF__HyQgm-46QdOvFaryOZNdoItgFWlVFLZSzUkCYbvRQn79Dr-TBm1ehUAJDr0jQo3_sn target=_blank style="text-decoration: underline; color: #80868B">View it online</a>
+</td>
+</tr>
+<!-- view it online ends -->
+<!-- gradient divider starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center>
+<tr>
+<td aria-hidden=true align=center valign=top>
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-divider-blue-color-transparent-w2048px-h24px-2x.png layout=responsive class="w1024 width_375" width=1024 height=12>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- gradient divider ends -->
+<!-- body starts -->
+<tr>
+<td align=center valign=top>
+<!-- table width 640 starts -->
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=640 class=width_375 bgcolor=#0F1012>
+<!-- body content starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=480 class=width_321>
+<!-- spacer starts -->
+<tr>
+<td height=28 align=left valign=top class=height_32 style="line-height: 28px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- logo starts -->
+<tr>
+<td aria-hidden=true align=left valign=top class=text_center>
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-new-google-ai-transparent-w246px-h34px-2x.png width=140 height=19 style="display: block;">
+</td>
+</tr>
+<!-- logo starts -->
+<!-- spacer starts -->
+<tr>
+<td height=32 align=left valign=top style="line-height: 32px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- headline starts -->
+<tr>
+<td align=center valign=top style="color: #E2E2E5; font-size: 36px; line-height: 44px; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+<a href=https://notifications.google.com/g/p/ANiao5p6fWrXDxcAwdxADMh-oHOokoqcWZfpAyj6CLw4GARktHb6IU2NmgN8bvChoRNiIQ177qzaOM8Nvjp59-OpVtIMiQgh_ep47TyA0HhyFMJvrBk7rUXnV7Qw2M_Dr9yf420W-fYkA8abcVHrWBMU4c5zcj05TsztRsbFsjUlFgmfsPXd9HMAdFZhaBGeQnPQC54SndmE_3_IJbDVnV_pIWdQx9wtvYSKaLaBJHVrkQiv2KOdASbGEFimHRvkKmunjIN3rh0JenfC_U535XhHFc-y9G8L-MdHF2rpGJUD_zVMs32vBlVOQ-rL3_L12-82coPrDnEXbain-MgWjWEUYlyZDpaSHSG4lwmwzADEEwJw target=_blank style="text-decoration: none; color: #E2E2E5;">
+Upgrade to maximize your <br>AI potential
+</a>
+</td>
+</tr>
+<!-- headline ends -->
+<!-- spacer starts -->
+<tr>
+<td height=32 align=left valign=top style="line-height: 32px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- sub-headline starts -->
+<tr>
+<td align=center valign=top style="color: #E2E2E5; font-size: 20px; line-height: 30px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Explore advanced features with paid Gemini plans
+</td>
+</tr>
+<!-- sub-headline ends -->
+<!-- spacer starts -->
+<tr>
+<td height=40 align=left valign=top style="line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- salutation module starts -->
+<tr>
+<td align=center valign=top class="">
+<table role=presentation cellpadding=0 cellspacing=0 align=center>
+<!-- salutation -->
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Hello Harry,
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style="line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- para 1 -->
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Ready to take your projects to the next level? Upgrade to a paid plan and unlock advanced features and higher limits.
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style="line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- para 2 -->
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Why upgrade?
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=32 align=left valign=top style="line-height: 32px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet Point 1 -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<!-- icon -->
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="padding-top: 6px;" class=padding_tp_icon>
+<a href=https://notifications.google.com/g/p/ANiao5obKe4YdYyun55JNit-Ay7hJYgGkS7mYgv9AsFMW0Pdj2t7GEQANpAuoSMLxvVxTS9roEroifVTZqG3_aSBqJB_ulWOMgt78q-fTYTwJoQdS1C63NC8cbR0iNGkEv8cLyZ1ZzIlLZ0xSx9XDwa4FxTsUJSdRCUkHHZybWHuaVSCPyTy_yZYPY1oLjgVkLKdgj2nc0cLJKkl35lw9THpnP6tN6GC3A7OC36s4FI8uK8QdpLyXeTvBxlkZEpmq1n_LPseoB9hNKrUtDyWVFdP__YNFQ target=_blank style="display: inline-block;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-billing-email-vector-speed-transparent-w40px-h33px-2x.png width=20 height=16 style="display: block;">
+</a>
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=20 align=left valign=top class=width_14 style="line-height: 20px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+<!-- content -->
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=437 class=width_284>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+<a href=https://notifications.google.com/g/p/ANiao5pAa-kFpHHPuW1AcRFTbJ8JURQNE3O_5gqPx3zAGHFQWeuyw3tcW9pA4veKfc5kWwZT9oDZqlwokM_q4xbaMRJK8bao6GmjoWPrf9nbD8FgbF3nsBJgBIT_NfBAq4Hb8H-IIc89XEXtZTbrUJ3_YxSkxbtr4EwhyWI9OerxnnEkJqJNxgLuFF4GbN-rfxcr0acJmkXwCfRBG_UMuNwCPWOIUZq8zyo3kMXbDb5IMWva20HYuleOqo8aNiPwO6eLQKMyeb91v9PqMAfiSzyX2nZV target=_blank style="text-decoration: none; color: #368EFE;">Higher rate limits</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Handle more requests per minute and per day, perfect for production-ready applications.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=32 align=left valign=top style="line-height: 32px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet Point 2 -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<!-- icon -->
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="padding-top: 6px;" class=padding_tp_icon>
+<a href=https://notifications.google.com/g/p/ANiao5ol6U-lXMQwOr0iemVsospJMrVU5HGkErY0H8unShrbluYOY1fuPxpdlDAHY-F_p1ky1GLRQduccTzMSca0x4XWXYRx5vGfFQczzXq05X0sbDs61PaDI03Uw35dN_9FuumLwubR4sho8uUzmzpsiUKbKeMie2PdaJBKzHMTlMsVHMLuH1UFIhJtaIMUVnL4yDd7PG1Y4Lua8s1molorqzN-Ri7_94c-zA-HFAIjnZWUDOkf5hakxa5r0YoCNS3VF9k4RPC_YZDR9qSInjzOAHSPYyBFYTG7j9-KdqSSYQPrWq2MsngVEPYLxrIUXsI7FkS-8Ekz9t3OBQgI6CJmMvUsmIHtIXdY0G6m2Q target=_blank style="display: inline-block;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-model-tuning-lc-transparent-w42px-h44px-2x.png width=19 height=19 style="display: block;">
+</a>
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=20 align=left valign=top class=width_14 style="line-height: 20px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+<!-- content -->
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=437 class=width_284>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+<a href=https://notifications.google.com/g/p/ANiao5qrMZaSRliBuHUt05HEiHrNPM0T9BoHqDr8RkAKjmDcpkr_2JrIZ7ps6eTOhcX17sFg-EHne6aTG1HTe7c59ubx_4ONv2LtB-5sdswxzDVpWhsBEvdMA-EO77NKpJMv2jlHHnkUZxBfy2SftA0rtQkx2HQKp01L7AW6oHOwdG1bRgNnZhQRLLWP0iPaZAhP1hI5-3M7JzWX8cj5AUsSqfIMOu0FxvYzbnyumSGybX7_9UF9a0HjcoEIkvr_OLSheo-VCZ45HCP1L-geZrafITAA05Z2WY8fcYSV8RYN1AmjVFEX_aGfaaXd9JV9pc0f1nlZdV-tceOxI6ZDsfmrSAl-1g8tj0_rNqrw target=_blank style="text-decoration: none; color: #368EFE;">Context caching</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Speed up response times and reduce costs by storing previous responses. This also reduces latency and improves performance.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=32 align=left valign=top style="line-height: 32px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet Point 3 -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<!-- icon -->
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="padding-top: 6px;" class=padding_tp_icon>
+<a href=https://notifications.google.com/g/p/ANiao5rA3QOJR3LmSip6vKZI883fyzvHDVcdbhs16mQyc4Dfd-HDrkREluN5c0vTqfdtRkQ-TPMZ4zr7_tbgBkt52Pe9GTCvTQJOEkvjP2ty2HIg3AAdtMbiFOj5srhjm8jFt59ZWcgFDNDhk5WdORCGC_Zu2Y3GT8yVVpzv9btN3vmqW0T-GGD7I_BZXAJjcqVUUrgqQIamprGlDQWd611L9yC64nNnTiUmOM-a8V9vuhr5JZChfuss1_7yuBN1tL7JF0MUhAkbRaTumoxQBlUBFJ-TNA target=_blank style="display: inline-block;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-billing-email-vector-lock-transparent-w40px-h52px-2x.png width=20 height=26 style="display: block;">
+</a>
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=20 align=left valign=top class=width_14 style="line-height: 20px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+<!-- content -->
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=437 class=width_284>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+<a href=https://notifications.google.com/g/p/ANiao5rq_YM3p0cJoBr04HiZbfJx-lZ7opRis9u89nQAMSlvKar_-q2EF_bYsUI4xJc3Kz7bUrnfAvRd9j0ApXBwlGldMOwjKeA0ba3SmXvtmO791tqGYSqRuA3-07c6bwBGkhaGq82VXeMRZym2bY32Lwu4hG2Am-rEd3MlWNo5pKFvOD9CDQ5S3fKvpdI_PHeHq3NSc9pLZ7QTa06ruCzEozGHjnCoK8FpJhdp2FmWGkAe1c_TzhQou3qg9tsi7hKMY012Kz_Z07Pf43bKSLQZoIJl target=_blank style="text-decoration: none; color: #368EFE;">Protected data usage</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Keep your sensitive data secure and compliant.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=32 align=left valign=top style="line-height: 32px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet Point 4 -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<!-- icon -->
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="padding-top: 6px;" class=padding_tp_icon>
+<a href=https://notifications.google.com/g/p/ANiao5rdBDrBharll18NYnCOsmq9YDFAxvPC5X1AZEhe-T8ImM016DqKycD0qkVnN78v6732gZpftjpc6_5KkL1PUDpMAdSQOyQ3RDzi_7KG5XCWqbVIS4qVA10SyaB3lFiUEWMi-lbRu0Er81RCtu1rZ8OQHW8RGpXYqHS6KRINS08sE08oDUJPplA9sUbmETtIs9_GiU02x89ZyiyJH-GH9uJvkIt5xg07lN3EeKUvE_7vO9lUQXyzk1HNL5hnsZ6CMiqPZid4Ei91jywDKh75uIqa2qAuxI1_1mHvZyzOPuDmY2d-ehlo-46MSJwwq5YKzSWDR7tMkdLt2qZG4iG7kNGcYemv target=_blank style="display: inline-block;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-more-transparent-w40px-h40px-2x.png width=20 height=20 style="display: block;">
+</a>
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=20 align=left valign=top class=width_14 style="line-height: 20px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+<!-- content -->
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=437 class=width_284>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+<a href=https://notifications.google.com/g/p/ANiao5qN0eB6PbYVLRfAg2UUzJg3SMNh2hWTszREnWpPX1SegnlcxbpVf0eo8wlOvtiIm9_MV5zoOi_mdJZMvG8br6oU_LqQUAVco0_t5SHX1a6xlnmi2UQcugUZ0sbCz2NwtYLOMqtYYa549BxOufGzR_Z5mP2nzoMFMIA4W2KF5lZK1s6xNtAtZ47YCZ3qBF51INQgbXXtFlfNuAatB7ppLIIGSdovWVsEXFq__6XgQDqKk8Kdjj_ICf4XxjO5-8V1NUe0REMJUNF_0RUjB2y-KLLNo-amOXQ_HSy8JfmtAdDaUXZof2mZCsOaZCIm0CrQxZC9fNhSHXB6ZoKvOQ2zr-IAJeY target=_blank style="text-decoration: none; color: #368EFE;">And more</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Access additional features like priority support and early access to new capabilities.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- salutation module ends -->
+<!-- Desktop spacer starts -->
+<tr>
+<td height=40 align=left valign=top class="" style="line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- Desktop spacer ends -->
+<!-- CTA top starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellspacing=0 cellpadding=0>
+<tr>
+<td align=center valign=top bgcolor=#161718 style="background-image: url(&#39;https://www.gstatic.com/gumdrop/files/play-apps-partners-primary-cta-bg-transparent-w372px-h96px-2x.png&#39;); background-repeat: no-repeat; background-size: 100% 100%; background-position: top center; border-radius: 40px;">
+<a href=https://notifications.google.com/g/p/ANiao5qo_HF4JqRqrGbxnDK_XrETUFNZ5C8F6DdRLjdXBrbSGgAN5sMUTOugVuLcMfd-J96-BL1U4EBfveILMazLT66XwNsx9ggjruxPw8tJFBAmJlx3reUbSYqnqIz8ebXiBcIHVPs7fAyhX6DXlW4fnJXvDfn7_tiduRrRHwE50vlRFEGGk2TtOuZp1ZRysvVcDvKbCEGP8cxY92f4XblZz68q1kXVRNVLtapTRY6CDBy-KpRqHh2rxFVJ3NFSLGZxSkqPGHk6hmyd6MVX3A8gLWv2u3V8n_XNL6qxozM9tnpu03eF871o-lSFUZazcPLYxtattGZncQ target=_blank class=outlook_cta_blue style="text-decoration:none; display: block;">
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+<tr>
+<td align=center valign=top style="text-decoration:none;font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px; line-height:24px; font-weight:500;color:#FFFFFF; display: block; padding: 14px 28px">
+View pricing
+</td>
+</tr>
+</table>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- CTA top starts -->
+<!-- spacer starts -->
+<tr>
+<td height=40 align=left valign=top style="line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- grey box starts -->
+<tr>
+<td align=center valign=top style="border-radius: 20px; border: 1px solid #5F6368;">
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=480 class=width_321>
+<tr>
+<td align=center valign=top style="border-radius: 20px">
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=424 class=width_265>
+<!-- spacer starts -->
+<tr>
+<td height=28 align=left valign=top style="line-height: 28px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 16px; line-height: 24px; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+How to set up billing:
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=20 align=left valign=top style="line-height: 20px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+1.
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+Open <a href=https://notifications.google.com/g/p/ANiao5pdLTmhm1OEIWjLbMdj-h7mChCx4p8KC9manguEE883srDBRJP6ju6szRo97OIbfs2_F8XZqiRSFsAM2CohdzkcC8qWRd1V34Wvyc85SAoSmsH7xL98hgZwSpboF6aYHXh4hqX38pigJVWPfL-52zz-b_sMbVPfJdN5pXLkRmaT_cJkT15jSDyjUWjojDpad1iFaDpMGCqTroVEWEOHLTUAgbKwI1tzp08PHC2_Au1w2hdehNZnu3GwTmP7CaCM9Fa-46J-DIfvGJfUaDEq2IKrRi5wvxKN7bhzBHc2C3xT96BE5b_upqwV9T0UXyoqZrVvCOnjWktuyQ target=_blank style="color: #368EFE;text-decoration:none;">Google AI Studio</a><span aria-hidden=true>.</span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style="line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+2.
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+Navigate to <span style="font-weight: 500;">Settings</span> in the bottom of the left sidebar.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style="line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+3.
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+Under <span style="font-weight: 500;">Account Settings</span>, click <span style="font-weight: 500;">Plan information</span>. This lists the Google Cloud projects associated with your account.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style="line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+4.
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+Click <span style="font-weight: 500;">Set up Billing</span> for your chosen project to enable Cloud Billing.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=28 align=left valign=top style="line-height: 28px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- grey box ends -->
+<!-- spacer starts -->
+<tr>
+<td height=40 align=left valign=top style="line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- Marketing Opt-In CTA box 2 starts -->
+<tr>
+<td align=center valign=top style="border-radius: 20px; border: 1px solid #076EFF;">
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=480 class=width_321>
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=424 class=width_265>
+<!-- spacer starts -->
+<tr>
+<td height=20 align=left valign=top style="line-height: 20px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Need enterprise-level features? Vertex AI is an enterprise-ready comprehensive platform for the entire ML lifecycle, from data preparation and model training to deployment and monitoring. Learn more about <a href=https://notifications.google.com/g/p/ANiao5pBziJKuBxem1suIWyLlRynsXmeyhRBNsA1lqH-Uph4-INyLKmtHFf0AWTr1rVmISrOAAVmZFVi2kfWImlEcUHwhZYz-AcNRcLHiiN9QwV3a5R3VnRYYSC3OuG5xRGgLiBSEu9lnjbrnazJBP4JccCEkUVYRYH-a02Mt9OxiJvbgW6iKlsxNGgk7MbWzDbe1hv1wjt6r7AJq_5JrhuG-RuWSNfyiIKYQIRbt8aVLJ1-iQpJQr1x7xJA8ENtVBrE39iBYR7ZVY2QZuVchxX0wAzx8fS8_df3gd4G-ycvPibjOFf3284UlI7k6f5r5FIFCGMozaR1QIF8OBAdkiEIZ0dvp7DUfMah3gQDGgIkWmu5 target=_blank style="color: #368EFE;text-decoration:none;">Vertex AI for enterprise</a><span aria-hidden=true>.</span>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=20 align=left valign=top style="line-height: 20px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Marketing Opt-In CTA box 2 ends -->
+<!-- spacer starts -->
+<tr>
+<td height=40 align=left valign=top style="line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- closing para -->
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+For more details, see <a href=https://notifications.google.com/g/p/ANiao5qf9mIWY0M0zld0oFXAcCy0MzGh3z2OHUyBUzc6TWZYmmkMH-UsQHW8qFEa76-E-yI-vyAe86jyNnwc8Z-p0ZBRrlsZ_5YGIYJbw4S3zX94r3wu9MNa8QZeEGMcLfOxmUuRq12jEToWd9-T-Y7XbD0iNLy5_q0IDGsr5lNyB_OSxgbb9XpHXXv3N-0QFq3ykCfuvQwE_V6NDnu4xIP1VIF73U-0Cdx7h_-KgecT2WWBxyywEfCP9PHmTnCq5m8tXQSDeQ target=_blank style="color: #368EFE;text-decoration:none;">Billing FAQs</a> or visit <a href=https://notifications.google.com/g/p/ANiao5rSCS-Xk_nG8dzgA0yexy_fOFHFjXE3fmises2tshET7l20K6gEaTT0BIsqF2tDfo5vq2IY3qMZeYm4JdhQSaUubcklljWFqdeSGrbmyBf7kLDr7EgMCgc2HCjvh5p80CnEbbA2L8aKtZEoJA3EL5ma8MQaasE4niwTMBNspy7LMHmpRW7QIcZvFMMnGBf-8vt7jx-z1wZIv695Qv1h-yHzZz7MK0qngxgIS5figtLFVsIU1xVYjuu6erQFFAYXaA38a6ukrWA93ueKVAIC9WMvK-K0kAwfdV6pLKWiQFibeAAnwPqamEkwWiDQ0EuxVbFLsda2WWNvZqYcsQL5Ftbie6HXdMAZm4E4 target=_blank style="color: #368EFE;text-decoration:none;">Cloud Billing support</a> to get help.
+</td>
+</tr>
+<!-- Desktop spacer starts -->
+<tr>
+<td height=40 align=left valign=top class="" style=" line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- Desktop spacer ends -->
+<!-- Explore Para -->
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 16px; line-height: 24px; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Explore more resources:
+</td>
+</tr>
+<!-- Logical dynamic cards starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=100%>
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=100%>
+<!-- spacer starts -->
+<tr>
+<td height=40 align=left valign=top style=" line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- Prompt dynamic module 3 SUMMARY starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=480 class=width_321>
+<!-- top gradient img starts -->
+<tr>
+<td aria-hidden=true align=center valign=top class=d_none>
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-grad-top-transparent-w960px-h60px-2x.png width=480 height=30 style="display: block;">
+</a>
+</td>
+<td aria-hidden=true align=center valign=top class="dnone d_block">
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-mob-grad-top-transparent-w643px-h61px-2x.png width=321 height=30 style="display: block;">
+</a>
+</td>
+</tr>
+<!-- top gradient img ends -->
+<!-- content table starts -->
+<tr>
+<td align=center valign=top>
+<table cellpadding=0 cellspacing=0 role=presentation width=424 class=width_265>
+<tbody>
+<tr>
+<td align=center valign=top>
+<div style="text-align: left;">
+<amp-state id=accordion_3 hidden="" aria-hidden=true>
+<script type=application/json> {"openbox3": 0} </script>
+</amp-state>
+<div on=tap:my-accordion3.toggle role=button tabindex=1 style="cursor: pointer;display: flex; justify-content: space-between;">
+<p style="font-size: 16px; line-height: 24px; display: contents;color: #E2E2E5; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif">
+<div style="width:100%; padding-right: 10px;">
+<p style="font-size: 16px; line-height: 24px; display: contents;color: #E2E2E5; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-right: 12px;">
+Prompting: Resources and tips for success
+</p>
+<!-- Terciary CTA -->
+<p style="text-align: left; color: #368EFE; font-size: 14px; line-height: 21px; font-weight: 700; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-top: 12px; margin: 0px;">
+<a href=https://notifications.google.com/g/p/ANiao5r2EVW8KuFr0KLkZLPbW0G61VAAB8yoLpr-0BPu2F-Mua483JR0zeYaRKdrhSZDjpb0EYYuSfJnmfYWrzJx8WJdFwy7bVBMWT4Gk6dgfNBz_ZDSCq-5UzK9aU1ZWtMvXzpmEF_8djSrclw7nHejgLmEJ_gImDKyBgPSmOlGJvtBcHK9Sfu_FLuxFjkNPWq0w86E3gxZEt1-J0xNfnF6vsUBItWegbcvm1C960C64IiNwEhI68qeKnvSAAiwwtnMlexsqrfc9n6Gn8SBUy1wcSrlGaevasqEAHKpgLrDesRFrt93O56APvBkHj4FJV9VNviEDjXq0-m3aqiJA4Hdja1liJMZB8P1-kzg_rCIPGuyMmb6VD3SrEoPQM53XnLb6rC5z3aHG2jUGn8uPzItUv88Gl7buZzDHggFvP7oCT9T target=_blank style="text-decoration: none; color: #368EFE;">
+Intro to prompting
+</a>
+</p>
+</div>
+<span class=show [class]="accordion_3.openbox3==0 ? &#39;show&#39; : &#39;hide&#39;">
+<amp-img height=7 src=https://www.gstatic.com/growthlab/api/K4lqoKWpY1Dm6DATYoAhNSUSpnZrpcPYYvSsM7O3.png width=12 class=mobarropossition>
+</span>
+<span class=hide [class]="accordion_3.openbox3==1 ? &#39;show&#39; : &#39;hide&#39;">
+<amp-img height=7 src=https://www.gstatic.com/growthlab/api/Qg9GyVbkm2nPqbRv9c1NvwD0EkWoKFYeFc5CaNWQ.png width=12 class=mobarropossition>
+</span>
+</p>
+</div>
+<amp-accordion id=my-accordion3 animate on="expand:AMP.setState({accordion_3:{openbox3: 1}});collapse:AMP.setState({accordion_3:{openbox3: 0}})">
+<section>
+<header style="margin: 0 auto;border: 0px;"></header>
+<div>
+<div [class]="accordion_3.openbox3==1 ? &#39;bgtracker3_1&#39; : &#39;bgtracker3_0&#39;"></div>
+<table align=left cellpadding=0 cellspacing=0 role=presentation>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<!-- spacer starts -->
+<tr>
+<td height=12 align=left valign=top style=" line-height: 12px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+To get the most out of prompting, be sure to give clear instructions, define the task, and specify your constraints and response format.
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=12 align=left valign=top style=" line-height: 12px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Check out these resources to find out more:
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=12 align=left valign=top style=" line-height: 12px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+•
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+Get started: <a href=https://notifications.google.com/g/p/ANiao5qhPsUqm2g70MGK0tV0vOojuLLaRez-mJ7-nTWcPznLiSShEdw-IislAEZiI5jAE12R2DsWZzyW-F69_GmzEXHDeBU4In9agvSy_7jRBlXQ_f3rndGq8lDDaUJ_cQwz1XN2jrtH4J6vI3XRfkOqZ0yi7YFg8o6lVneWw-tovp6P24P2WckiXDk-cYG88MnRCr9WHu1tmtW1efHdy_emYLkM7ZXTWEl2xmcf1pqlv2tKOSPVP5v5YY8g5ztga1aPzCc4o8P3VY8t8HLdB1DXkgRhyICqAOd3-AhFIqdciUANYuE3qO3Yn8MEnXkREMIsT76ce0tZM2F8jTJx9Tk_liqstyOhjgDeIigaG4FhOQ-mHF_CUS_6jIpJFso-9-cObP3Jf92xyIlk6LQFlFeFhTkOvSgrBiZm9zFx9pgAlxAWFA target=_blank style="color: #368EFE;text-decoration:none;">Intro to prompting</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style=" line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+•
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+For best practices: <a href=https://notifications.google.com/g/p/ANiao5oqxD3ykE2RFrrzyzh1u3YmJAJ2-UF8wjMZV1HH3rsb0cuDWMV3bzy6ceMjUDInGKFK_xSqBmk8T9eFG3Plnr3kMAcV1eUhKWCpP5rJg39a0Cc4XcUsSvcfKfsuzGhCb8jSCotXCSsVZPEsC6dZ3z4nd1IfLzmCe4G-OlQcQ6ePXTFo2jPKSPW1NAkcdfXhf_wyrtHrk5idF7XnvUK0vQKnU9sjsWpAV_15KlTSYLGri2YtAPl0sjQgE9XNY3vsToTfF6ws5Yo5rGkhWf9IS63KxVwb2bIzb_VtQh6jkg9HBJeL5bfakUJMu08sH21xcC1nqJWwui-WVHzx_rvNLt3Yi60QJ9aDT1CZ3hvlk1Y7C9N3sL7RvPs7aloBxjzVDQ0A2AG9TErviDYkFXmaj_QUB8Zdoyq6iEsBFctgxAtCOIMChN0 target=_blank style="color: #368EFE;text-decoration:none;">Prompt strategies</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style=" line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+•
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+For inspiration: <a href=https://notifications.google.com/g/p/ANiao5rAaAjCYP8lDM-CO7xmKpUzsGHcsVRntsZ3pN4ILRjlafiOU74pD2WiswUn4XfxJ3naULYLcbPIaAePoVO8mWj8AD5sa1PrWkwrqfpMrvjthDZiFUf7Z6XpwCDs3U3-ITHfmBhFl89k4QVbQfdKVPCDhBCXiVG_XMVj810bMU8R_YYNIlb7F6btXqPnoS09xEPR-pRknIKTwKJuxJhylROsKNsW6Nstfqtj8aaNDngL33pn816iTcge8qnJXD_BWFisCURyL7mTuWM6epEjaoVhuHi0_4cksHRO1wQ7yPX1Me8ips5H2ppSpGJo7N2htun5EQi8EKDvvexx8e9G20mCwqSrgYcJZRDfuUxN1d3EOX9dVv0H7DkpVTOkN1lF3wjzGyfjURj1Kmr7TaxuJQg target=_blank style="color: #368EFE;text-decoration:none;">Prompt Gallery</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style=" line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+•
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+Join the community: <a href=https://notifications.google.com/g/p/ANiao5onAwcUZ4LiLZgngHvGq-02tgz5wpoeHQqrkm7A80wkmwFZ-4sWcNMN-CFwPXYwKhANNu6GSL8psCJLXKyvONnFwIl9kfp4IhdAfM44BxX3pIwqZPORZ5rZySAsJG-eTG0wwxlZsWzF18fR85nJOhbAqYMKvf_npBbKGZTVTyOy8m3tJi8wmGrArDtHq7jpLmtImf-yS7jgAllvBt_9Ai-VYH3T-a3JQQ-tC0m9_vnjWaF4Z93OGQ6iC_y0nD6wSswFmQEotoS8onpvsJ1QkrIUW8mfYk0_krz1SBIna_FlHxliilxVPGgVTk-legWUNxbS9Bf1DwEy7sMJxAePX9UF4Ebw_pF5e7pw0biLBwtryqhGbhNpc1rIxTF0wPG5UpvhYtL-iRWvbrIyBhKT7w6n7Pc6Um7RBcG4iHWoSWw target=_blank style="color: #368EFE;text-decoration:none;">Google AI discussion forum</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer -->
+<tr>
+<td height=4 align=left valign=top class=height_4 style=" line-height: 4px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer -->
+</table>
+</td>
+</tr>
+<!-- spacer -->
+<tr>
+<td height=4 align=left valign=top class=height_4 style=" line-height: 4px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer -->
+</table>
+</div>
+</section>
+</amp-accordion>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- content table ends -->
+<!-- bottom gradient img starts -->
+<tr>
+<td aria-hidden=true align=center valign=top class=d_none>
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-grad-bottom-transparent-w960px-h60px-2x.png width=480 height=30 style="display: block;">
+</a>
+</td>
+<td aria-hidden=true align=center valign=top class="dnone d_block">
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-mob-grad-bottom-transparent-w643px-h61px-2x.png width=321 height=30 style="display: block;">
+</a>
+</td>
+</tr>
+<!-- bottom gradient img ends -->
+</table>
+</td>
+</tr>
+<!-- dynamic module 3 SUMMARY ends -->
+<!-- spacer starts -->
+<tr>
+<td height=40 align=left valign=top style=" line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- API Key dynamic module 3 SUMMARY starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=480 class=width_321>
+<!-- top gradient img starts -->
+<tr>
+<td aria-hidden=true align=center valign=top class=d_none>
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-grad-top-transparent-w960px-h60px-2x.png width=480 height=30 style="display: block;">
+</a>
+</td>
+<td aria-hidden=true align=center valign=top class="dnone d_block">
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-mob-grad-top-transparent-w643px-h61px-2x.png width=321 height=30 style="display: block;">
+</a>
+</td>
+</tr>
+<!-- top gradient img ends -->
+<!-- content table starts -->
+<tr>
+<td align=center valign=top>
+<table cellpadding=0 cellspacing=0 role=presentation width=424 class=width_265>
+<tbody>
+<tr>
+<td align=center valign=top>
+<div style="text-align: left;">
+<amp-state id=accordion_7 hidden="" aria-hidden=true>
+<script type=application/json> {"openbox7": 0} </script>
+</amp-state>
+<div on=tap:my-accordion7.toggle role=button tabindex=1 style="cursor: pointer;display: flex; justify-content: space-between;">
+<p style="font-size: 16px; line-height: 24px; display: contents;color: #E2E2E5; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif">
+<div style="width:100%; padding-right: 10px;">
+<p style="font-size: 16px; line-height: 24px; display: contents;color: #E2E2E5; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-right: 12px;">
+Harness power and flexibility with your API key
+</p>
+<!-- Terciary CTA -->
+<p style="text-align: left; color: #368EFE; font-size: 14px; line-height: 21px; font-weight: 700; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-top: 12px; margin: 0px;">
+<a href=https://notifications.google.com/g/p/ANiao5oFp2LhmYIRIPHEcA61CHR3vkl3NNQUYZ_M7b4gvYCT7_2CGarHQr8q1uj0idCEcbcKiCvxS7z0Zrec_oTsuew7KrwsIW2SiWbVHIMjFOmnKoiLLNjPlwjeOyPYFj-VNfevwgHZM5CZ96botduagIk3g0lTsTE2JvUm3kh5w881kJUtxgvu6vWTZiK82U5g9_19JOULHvl-OzKwvn0cro2OgaRQDputSjTCw9UPRo-PRnUsIxQo_VdPxM8leOTNwMWQBssmljSsgEounGuRuPu0cm-ZAXsyRmhb2FnFL3UZtuv6pocXlHhFeruC3KyAhFQv8AW6t30JszcExb5CFtAPWIuQh7O8Dej3khbIarJVcYi3NjWUESmBIdoa8UVCsurE9ND555ev4svoRGBR target=_blank style="text-decoration: none; color: #368EFE;">
+Create your API key
+</a>
+</p>
+</div>
+<span class=show [class]="accordion_7.openbox7==0 ? &#39;show&#39; : &#39;hide&#39;">
+<amp-img height=7 src=https://www.gstatic.com/growthlab/api/K4lqoKWpY1Dm6DATYoAhNSUSpnZrpcPYYvSsM7O3.png width=12 class=mobarropossition>
+</span>
+<span class=hide [class]="accordion_7.openbox7==1 ? &#39;show&#39; : &#39;hide&#39;">
+<amp-img height=7 src=https://www.gstatic.com/growthlab/api/Qg9GyVbkm2nPqbRv9c1NvwD0EkWoKFYeFc5CaNWQ.png width=12 class=mobarropossition>
+</span>
+</p>
+</div>
+<amp-accordion id=my-accordion7 animate on="expand:AMP.setState({accordion_7:{openbox7: 1}});collapse:AMP.setState({accordion_7:{openbox7: 0}})">
+<section>
+<header style="margin: 0 auto;border: 0px;"></header>
+<div>
+<div [class]="accordion_7.openbox7==1 ? &#39;bgtracker7_1&#39; : &#39;bgtracker7_0&#39;"></div>
+<table align=left cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td height=12 align=left valign=top style=" line-height: 12px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+<a href=https://notifications.google.com/g/p/ANiao5r7gesdUiuwOqI1StRPcq0lGj-lVbJqi9rcGb2sEHC4CAywgupQp7VwocwvZrramVkz3rSy3D4DdUuCg8IuINCv8NIF9H64ElC9ty-3kxH7249iIXZmRwOWXetb-hK5mrmI-2dTNF2Ssqp9fPyC9Qs8gtgqk1_m34ddGGt3FIbiQLw7P5pLIQpGp4rn9-5CwUR2cjCb9gUHVtJBvwJLRBy0BxxQ-DmKflNU83Tn_kCaJUDiHHniy-368wH3pjIfDc6zZvLIfQJFB8Stv9taXY-TRQyFpsvJl8B3Buz5aIk3zNt96POY9keHVxvh9-YNf9QIraw_E_eUG7aMJgAfCEDzK5zuwXk1DiekZwp8CMPfcrZryDSxzEVsvZGwzH6BBXJudDms6wJaCVmPuIeb6A target=_blank style=color:#368EFE;text-decoration:none;>Create your API key</a> with one click. With an API key you can:
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=12 align=left valign=top style=" line-height: 12px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+•
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+<span style=font-weight:500>Access the Gemini API</span>: Integrate Gemini&#39;s advanced AI models directly into your applications.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style=" line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+•
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+<span style=font-weight:500>Experiment with prompting</span>: Test and refine instructions to get the best results from the models.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style=" line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+•
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+<span style=font-weight:500>Explore the Code Cookbook</span>: Get started quickly with guides, examples, and tutorials.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style=" line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+•
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+<span style=font-weight:500>Export code</span>: Seamlessly incorporate the API into your projects.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style=" line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- bullet points -->
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+•
+</td>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left: 10px;">
+<span style=font-weight:500>Tune models</span>: Customize models for your specific tasks and data.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=4 align=left valign=top class=height_4 style=" line-height: 4px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+</table>
+</div>
+</section>
+</amp-accordion>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- content table ends -->
+<!-- bottom gradient img starts -->
+<tr>
+<td aria-hidden=true align=center valign=top class=d_none>
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-grad-bottom-transparent-w960px-h60px-2x.png width=480 height=30 style="display: block;">
+</a>
+</td>
+<td aria-hidden=true align=center valign=top class="dnone d_block">
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-mob-grad-bottom-transparent-w643px-h61px-2x.png width=321 height=30 style="display: block;">
+</a>
+</td>
+</tr>
+<!-- bottom gradient img ends -->
+</table>
+</td>
+</tr>
+<!-- API Key dynamic module 3 SUMMARY ends -->
+<!-- spacer starts -->
+<tr>
+<td height=40 align=left valign=top style=" line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- Tuning dynamic module 2 TEASER starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=480 class=width_321>
+<!-- top gradient img starts -->
+<tr>
+<td aria-hidden=true align=center valign=top class=d_none>
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-grad-top-transparent-w960px-h60px-2x.png width=480 height=30 style="display: block;">
+</a>
+</td>
+<td aria-hidden=true align=center valign=top class="dnone d_block">
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-mob-grad-top-transparent-w643px-h61px-2x.png width=321 height=30 style="display: block;">
+</a>
+</td>
+</tr>
+<!-- top gradient img ends -->
+<!-- content table starts -->
+<tr>
+<td align=center valign=top>
+<table cellpadding=0 cellspacing=0 role=presentation width=424 class=width_265>
+<tbody>
+<tr>
+<td align=center valign=top>
+<div style="text-align: left;">
+<amp-state id=accordion_18 hidden="" aria-hidden=true>
+<script type=application/json> {"openbox18": 0} </script>
+</amp-state>
+<div on=tap:my-accordion18.toggle role=button tabindex=1 style="cursor: pointer;display: flex; justify-content: space-between;">
+<p style="font-size: 16px; line-height: 24px; display: contents;color: #E2E2E5; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif">
+<div style="width:100%; padding-right: 10px;">
+<p style="font-size: 16px; line-height: 24px; display: contents;color: #E2E2E5; font-weight: 500; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-right: 12px;">
+Fine-tune your model to suit your needs
+</p>
+<!-- Terciary CTA -->
+<p style="text-align: left; color: #368EFE; font-size: 14px; line-height: 21px; font-weight: 700; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-top: 12px; margin: 0px;">
+<a href=https://notifications.google.com/g/p/ANiao5ovPyHAnCbUP51_vH0K7M0PPxebHsP-AJ4qaGhfncLheafKHX1ZHlcPeV1-mIN4SCODkVjypbL8V5qmzw_GtFAHDIFzaRuETpZQJSbDIAOKqAQ8rZhXCKt2flg6Dfy9Q1d7mezdVYBVqyCkIQKuk_l4IOVU9Bl1IKFrjchsrxbGoBXXIF4Oyy9CYfj-MAbII34SsZteck0VZyLEPgSeizhLepYLO0s7F3Mosscdu8rdk3r3W4yo_p9EiJFhL9J18K28dapij78Rg0YZysx-oQ9DXi6xKrX4aJhMj-87qLfvZX6Da7LVnably24y8TCSr6z5HrKAUQ3TwkzkxelA2QmR20aUdrIochWegi9JXwZbV9XayWfIFpDEAVtfMs9N4SDqfDbu1GbgChosZnuuQkzv2lOT8mg6 target=_blank style="text-decoration: none; color: #368EFE;">
+Intro to Fine-tuning
+</a>
+</p>
+</div>
+<span class=show [class]="accordion_18.openbox18==0 ? &#39;show&#39; : &#39;hide&#39;">
+<amp-img height=7 src=https://www.gstatic.com/growthlab/api/K4lqoKWpY1Dm6DATYoAhNSUSpnZrpcPYYvSsM7O3.png width=12 class=mobarropossition>
+</span>
+<span class=hide [class]="accordion_18.openbox18==1 ? &#39;show&#39; : &#39;hide&#39;">
+<amp-img height=7 src=https://www.gstatic.com/growthlab/api/Qg9GyVbkm2nPqbRv9c1NvwD0EkWoKFYeFc5CaNWQ.png width=12 class=mobarropossition>
+</span>
+</p>
+</div>
+<amp-accordion id=my-accordion18 animate on="expand:AMP.setState({accordion_18:{openbox18: 1}});collapse:AMP.setState({accordion_18:{openbox18: 0}})">
+<section>
+<header style="margin: 0 auto;border: 0px;"></header>
+<div>
+<div [class]="accordion_18.openbox18==1 ? &#39;bgtracker18_1&#39; : &#39;bgtracker18_0&#39;"></div>
+<table align=left cellpadding=0 cellspacing=0 role=presentation>
+<!-- spacer starts -->
+<tr>
+<td height=12 align=left valign=top style=" line-height: 12px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- para 1 -->
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Model tuning allows you to tailor Gemini to work with your unique dataset, and customize output to match your exact specifications.
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=15 align=left valign=top style=" line-height: 15px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- para 2 -->
+<tr>
+<td align=left valign=top style="color: #E2E2E5; font-size: 14px; line-height: 21px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Try the simple 3-step process to fine-tune your model. Or, if you&#39;re ready to experiment now, explore our <a href=https://notifications.google.com/g/p/ANiao5qMrIiZ8kyhLoUyKJf_qgWbuZhDfwm-jjF3jitOT-3xbW40bN_bHf8GWFidsF6pZuMQRGFlFIueip9lW6f0SyNal1zZet6An9oXHy1jFzRQHTlvWbiC7dhhG7sVzBRVLAt82S0rE_t37o4RCv62y2gruitqGFgZF6vemk_SnG8aVJXq5jYEn-KZbYCvoheGX_-hpDFSMfqZvqGgtXL7w1rmy5K2Vz6KMH-Wlyf5ja5esR9g6DLKh7W1a4HNPvgTzI-CE6jsH4CFy27OyOq15EqaUt7fMKuUqDAXE5bM4s4PMUB7euteuEEVJJP5J6Nx7p41NSzQ9C4BDkEfQHYW88-t_903y3jkigyfaEOxHYSA81dotV6wuNccU6vReOUgd88ZaIO54yj2N6Ra4dxTL7Rcs3xRF54 target=_blank style="color: #368EFE; text-decoration: none;">Model Tuning Guide</a><span aria-hidden=true>.</span>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=4 align=left valign=top class=height_4 style=" line-height: 4px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+</table>
+</div>
+</section>
+</amp-accordion>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- content table ends -->
+<!-- bottom gradient img starts -->
+<tr>
+<td aria-hidden=true align=center valign=top class=d_none>
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-grad-bottom-transparent-w960px-h60px-2x.png width=480 height=30 style="display: block;">
+</a>
+</td>
+<td aria-hidden=true align=center valign=top class="dnone d_block">
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-mob-grad-bottom-transparent-w643px-h61px-2x.png width=321 height=30 style="display: block;">
+</a>
+</td>
+</tr>
+<!-- bottom gradient img ends -->
+</table>
+</td>
+</tr>
+<!-- Tuning dynamic module 2 TEASER ends -->
+</table>
+</td>
+</tr> </table>
+</td>
+</tr>
+<!-- Logical dynamic cards ends -->
+<!-- spacer starts -->
+<tr>
+<td height=40 align=left valign=top style="line-height: 40px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+<!-- signoff -->
+<tr>
+<td align=center valign=top style="color: #E2E2E5; font-size: 16px; line-height: 24px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Thanks,
+</td>
+</tr>
+<!-- signature -->
+<tr>
+<td align=center valign=top class="" style="color: #E2E2E5; font-size: 16px; line-height: 24px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+Your Google AI Studio team
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=28 align=left valign=top class=height_40 style="line-height: 28px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- spacer ends -->
+</table>
+</td>
+</tr>
+<!-- body content ends -->
+<!-- footer links starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=100%>
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=100%>
+<!-- footer links starts -->
+<tr>
+<td align=center valign=top bgcolor=#0F1012 style="padding: 8px 0px;border-top: 1px solid #6c6c6c; border-bottom: 1px solid #6c6c6c;" class="ol_pad24 border_line">
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=473 class=width_202>
+<tr>
+<!-- create prompt -->
+<td align=left valign=top class="d_block text_center">
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<!-- icon -->
+<td aria-hidden=true align=left valign=middle class=outlk_pd style="padding-right: 12px;">
+<a href=https://notifications.google.com/g/p/ANiao5ork6M2tW2JnU8maRKRJSQRv8a98OMIbauVc1gBeto_khbcbnJr-fk58euPoRODti8VSQ91_8n2GyK4N2fc-aIJscAnG0U0m3bRiH8EHSld5aH8Tz0LCpipjS6ck9Fbabuy3lQfIVH_623DhxGoFA1WKe-jCaOZjj_ju7yyYz8WF6d_Ah7lQzzfJ9IpplBz9zlOTXXgv5j2CAgiT7OryV65X1xGRVLHBkfw5YTgwMj3O6KgYtUKsVupTOKCbLIb0FR8usw4jf_ptu5MsPyaWad5KQIOzaJGCvR4WdHLs3Y9F9NABVRer_tC57NxWnZFyIslE38p6AIc-Y4-4k9NGc8Qxsb0t40WqpdAQkprXgJ_Irk target=_blank style="text-decoration: none;">
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<td align=left valign=top style="font-size:14px;line-height:21px; padding: 16px 0px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-create-prompt-icon-transparent-w33px-h32px-2x.png width=16 height=16 style="display: block;">
+</td>
+</tr>
+</table>
+</a>
+</td>
+<!-- text -->
+<td align=left valign=middle>
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<td align=left valign=middle style="font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px;line-height:21px;font-weight:500;color:#80868B;">
+<a href=https://notifications.google.com/g/p/ANiao5rwdjVY2PTp69obhPR5WKJn-q7xTK1fbWaHUFH7vGBaOpm_E22f0DL46M4aZmRzuqAcKu9SslzH99aazr4XjqOqgXkFoIDdAHjTUnZErO7sOxEVuAY5R2Wjy6f42ce7sUQr71oqaATlOimXowM2uA3Uz-lsU5inKHlKyqCBU9wIdHcANvavvjG1CfR0Pt86CylESdCmgwusA5TOjMgJgOAP8_ZpjtRTFsNpgxazJOzZFd6HsF-O71S3Bqet7JDb4h0khjoptPTfVd1Jc7AnPqpuHHfauvX3v_84Ss2Lfr3ZmD34lu_NO-z0EitUjQ1EVjgPqmTuEftDFeNRqrJdoqUjpMm2hZ7sv8wLnWFK target=_blank style="text-decoration: none; color: #80868B;">
+Create Prompt
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<!-- get api key -->
+<td align=left valign=top class="d_block text_center">
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<!-- icon -->
+<td aria-hidden=true align=left valign=middle class=outlk_pd style="padding-right: 12px;">
+<a href=https://notifications.google.com/g/p/ANiao5p8JcsyQK0iXLwofPgdNSR3Yotnv3CMKQhEHvkpio5TzU_mxVRCCrdrkKsfTmiSg1cVPX8UcRh-XyXNFo33_ul_l0IJXLVJT1rot35HB7xBf7A5YZfRHlPGzcWcRD5eQ_6kK7Xmp5FN6wkZSLzxgkd06tiqTwDgGfKSKKuzDxoS4_SU87YY8I1f4_Qt2_9kS308JZ0HUDLQ4F5Zzyo4DYYQC7IwVLKzep1EfU9N2JPbqB7FgzMUp4zNDTLYPYiIk7L164VRtODhFlWlPT-9R8Hp_Km0W081wWVTQraYHlgWsw_5-SG4hRWBjlWub2r38SidFJv8HmQqN4LpVAVoIbJs71z7RiU target=_blank style="text-decoration: none;">
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<td align=left valign=top style="font-size:14px;line-height:21px; padding: 16px 0px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-api-key-transparent-w31px-h32px-2x.png width=16 height=16 style="display: block;">
+</td>
+</tr>
+</table>
+</a>
+</td>
+<!-- text -->
+<td align=left valign=middle>
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<td align=left valign=middle style="font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px;line-height:21px;font-weight:500;color:#80868B;">
+<a href=https://notifications.google.com/g/p/ANiao5qlMkIYWj54W99C7MoqU1MJvVKxZeHk_iEySkbzWA5d_Nr-13jWB-E81Z1UGwPjEPV9s8Rg6cvL2wbBc85MPh7WIlKOynvZRloZPcp-_Oc5oAoHFfs5lx8iR-y_ijzUEL2t20XorsoFhhnTgHeRAGz56S2YGAagEfohU_dH55u0BBG1i7aP4cbzfCltLOIyEO5poBM9K0PLS-XJmzDi80GIiNmiDGXaqhjhCqBMmwFJvKQaAvloxqslEEUPzFRsnnO1OMwES7sJh3eawKiml-jiExBAt_egkTl_Fpt-3G6qGFbgPzCV8hDpu3VQfu963FRgTQjIf99w9kD9TkzNvAfr target=_blank style="text-decoration: none; color: #80868B;">
+Get API Key
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<!-- read the docs -->
+<td align=left valign=top class="d_block text_center">
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<!-- icon -->
+<td aria-hidden=true align=left valign=middle class=outlk_pd style="padding-right: 12px;">
+<a href=https://notifications.google.com/g/p/ANiao5qhGaRwRyysLBwJIhbfmKnG8asLpqQ-sI8FqDiFnIHA-n-FU17VJt-UIdBZ7yidNo6jmOeaoiMGz7sn0-HtstgPC1pH1v57N5ypDY4Ns5oHNjjkech5sui7hhOuEd5FqlBDXJIO9mHMuyb29knIWndXQzZcgxoBz---NDOxRWdH4mhCLJCaH4BnsC4xCi7hYPIclFBy_t1wv4tJPqAP9EyRNegb9MMa88Fmn8cgYqzJADPFoxxS_AFKaMYmfaYnDfYybsSgnpW95Cw41UKp6mLuae5yq_luBE7mY75KNZ6HOSMSMbUGNE8vArgyVkQs21mN7WF3_12_aZiqtg target=_blank style="text-decoration: none;">
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<td align=left valign=top style="font-size:14px;line-height:21px; padding: 16px 0px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-doc-icon-1-transparent-w33px-h32px-2x.png width=16 height=16 style="display: block;">
+</td>
+</tr>
+</table>
+</a>
+</td>
+<!-- text -->
+<td align=left valign=middle>
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<td align=left valign=middle style="font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px;line-height:21px;font-weight:500;color:#80868B;">
+<a href=https://notifications.google.com/g/p/ANiao5oEtJ-fYkm4jLpt-DmaqfRCMr_Z86tHuI2QXJGuDf0AgIYrztef38iOGGeSTqw8p_pqYbCxHV-taBqpGAXj-T4WffufkLEeM8F8wOrC2HlKIBkO1PyRwAwHwTpzCY4iNH8BksTWXUsLHg5MV0vEuMWiWWh-soofhmghGZW3UoI6mfWEWW4S9x-zma6rQOoBhAHXG1VMmkCn0Rs0AZcYmz1BKCyYZ7zm4WJwLY6RPMSFzrk9sP8EMjMuaKI1dGzL9-niWzEooDmYFMeouYb6_0uj0BaS45tvhur3c65ZdCpO3mVKorBiK0htPTk74Zu3sT2-zb1YaOw target=_blank style="text-decoration: none; color: #80868B;">
+Read the docs
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- discord -->
+<tr>
+<td align=center valign=top class="pd_t_7 pd_b_32" bgcolor=#0F1012 style="padding: 10px 0px;">
+<table role=presentation border=0 cellspacing=0 cellpadding=0 align=center class=width_209>
+<tr>
+<!-- icon -->
+<td aria-hidden=true align=center valign=middle class="outlk_pd pd_l_20" style="padding-right: 12px;">
+<a href=https://notifications.google.com/g/p/ANiao5pCSYtB_to3HgPOnuazHQx1jEHLKc01qBuRKqvOfH4fxqH7T5v6T5kkwVy8OODtvtWJbBs-viCAJA5T5KaP086jXQW5Dmv3xTjF8Cx9wGom_eexis3SBt6BVah2CQAwXxNh2rSPmcGUagbx6bRjoGNjZ_hjf_ctzF4WiFMFskjcYg33_nfpoeeg-D41cvUJ9YJvNtD30Q1Q7XO5Xzd5qx0sontWrnoISM_ISNySYZrtTVuAaFQFr1ib5YVEMW2zG4jWMISlgCZHeffKt0w4dqvpRblzY1AtacSEJAQSkB9t22rRm_fMYjut target=_blank style="text-decoration: none; display: inline-block;">
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<td align=center valign=top style="font-size:14px;line-height:21px; padding: 16px 0px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-discord-icon-fill-w44px-h32px-2x.png width=21 height=16 style="display: block;">
+</td>
+</tr>
+</table>
+</a>
+</td>
+<!-- text -->
+<td align=center valign=middle>
+<table cellpadding=0 cellspacing=0 role=presentation border=0>
+<tr>
+<td align=center valign=middle class=pd_r_20 style="font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px;line-height:21px;font-weight:500;color:#80868B;">
+<a href=https://notifications.google.com/g/p/ANiao5o9b6fj-cz4jJr3IWocoFJ_cjzzj06XX7RFTLJ5mVRJaD-AclttVApTImiE7SyvJ48-Rj455dUR_Z5pc29qfa7y2wHUQ0lFxBgqkdrm5-Ho49exHNShKAB-t5mI69IXSRYly0dyL-emOgdsyqBIJFmi84JAGbeLyOMCODEsB_d60tDZdZcQEyPD5qBF2GQW-DRnKNe_uMc8UwgkkuT1XpxsALf_LCW00BMNNwJ1nFwdJklj2QWJk9m10E528mwCcjWLCBWKF7Z18uxfu2vPKOfSxy9jEI-5EMIpFa6vj8zscNQxZw target=_blank style="text-decoration: none; color: #80868B;">Join the conversation on the #gemini-api channel</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- footer links ends -->
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- footer links ends -->
+</table>
+<!-- table width 640 ends -->
+</td>
+</tr>
+<!-- body ends -->
+<!-- gradient divider starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=100%>
+<tr>
+<td aria-hidden=true align=center valign=top>
+<a target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-divider-blue-color-transparent-w2048px-h24px-2x.png layout=responsive class="w1024 width_375" width=1024 height=12>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- gradient divider ends -->
+<!-- footer starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=476 class=width_328>
+<!-- spacer starts -->
+<tr>
+<td height=32 align=left valign=top style="line-height: 32px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+<!-- google address -->
+<tr>
+<td align=center valign=top class="" style="color: #80868B; font-size: 12px; line-height: 18px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">
+© 2024 Google LLC <a target=_blank style="color: #80868B; text-decoration: none;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</a>
+</td>
+</tr>
+<!-- email preference -->
+<tr>
+<td align=center valign=top class="" style="color: #80868B; font-size: 12px; line-height: 18px; font-weight: 400; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-top: 10px;">
+This email was sent to <a target=_blank style="text-decoration:none; color: #80868B;">superesolutions@gmail.com</a> because you signed up to receive emails about Google AI. If you do not wish to receive these emails, please <a href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/ANiao5rWdJ_mnOYiCVSmmizI2KI2dONe_KfGlSu4BhOpXfgzUEuxTouTFFkbvgYO_djOcoq1OQQNKPuXU5CHu8hMuWU3mn3cz7Yt6pNkrYYgo8m35hImbjLoh9F7Zekc9H2I67oChGtjrt0dB8IfHE0hzjuFf17_5UBcHBqcuUyWpcU8qL8i60UbE4AfvXbU59Vb085yozajKencVvZpAe0PzoJ6rGk-Kwm0tQiPMBTd70scOZQETEqqn1nhZXHtnR2o7yVnhD9wNCavUCbNrxP2Nj0Y?utm_source=gm&amp;utm_medium=email&amp;auto=true target=_blank style="color:#80868B; text-decoration:underline;">unsubscribe</a><span aria-hidden=true>.</span>
+</td>
+</tr>
+<!-- spacer starts -->
+<tr>
+<td height=32 align=left valign=top style="line-height: 32px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- footer ends -->
+</table>
+<!-- table width 1024 ends -->
+</td>
+</tr>
+</table>
+<!-- main table ends -->
+</div>
+<amp-img alt="" height=1 width=3 src=https://notifications.google.com/g/img/ANiao5q49KAYnVzm5C8bFPfBfvll8zaQnHnq0X9p0ceKA9oVEtZHnp2NHRpozFA8tjzkOKKGVbf4Lk_tT036PzH5-2FCRJR529zHfEs6HOoyhUgTwlNyCVMTcsCB4fJy681tYLgFt1pLiAP4At-bJ7oZwVJZGeIV2xjJWnQ.gif></body>
+</html>

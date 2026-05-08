@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260514T220341Z
+DTEND:20260515T220341Z
+DTSTAMP:20260226T140348Z
+ORGANIZER;CN=Heidi Owen:mailto:anne.ross6rgf441ts62@st-edu.org
+UID:dbke8s6uuqlkt31dmm1v6ff4uc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260226T140342Z
+DESCRIPTION:Hello\,\n\nWe're so glad you're staying with us! Your SonicLens
+  AI subscription renewed successfully\, and your Five Years Coverage plan i
+ s now active.\n\nHere's your renewal info:\n\nService: SonicLens AI\nPlan: 
+ Five Years Coverage\nInvoice: #234567\nTotal: 707.92\n\nPayment is confirme
+ d—you're all set. If you have any questions\, our team is at +1 (810) 28844
+ 34.\n\nThanks again for trusting McAfee  Convert!\n\nBest regards\,\nAlexis
+  Bonifacio\nMcAfee  Convert\n+1 (810) 2884434
+LAST-MODIFIED:20260226T140343Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Join Us for the Annual Review
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

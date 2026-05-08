@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260520T151000Z
+DTEND:20260521T151000Z
+DTSTAMP:20260430T141037Z
+ORGANIZER;CN=Ronald Neal:mailto:r.neal@morningbriefnews.net
+UID:rtjabruodurelvvo09sud0ufko@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260430T141006Z
+DESCRIPTION:Dear Customer\,\n\nWe are writing to provide an update regardin
+ g your HybridHarbor subscription status.\n\nAs the previous billing cycle h
+ as concluded\, your subscription has been renewed for the upcoming 12-month
+  period. This renewal was processed through your saved PayPal account to en
+ sure uninterrupted access to your services.\n\n📑 Billing Record\n\nInvoice
+  Number: #WX789034\nTransaction Date: April 29\, 2026\nProduct: HybridHarbo
+ r – Annual Subscription\nBilling Cycle: 1 Year\nAmount Charged: $399.00 USD
+ \nPayment Method: PayPal (Saved Account)\n\nYour membership remains active 
+ and continues to include access to all HybridHarbor platform services\, fea
+ ture updates\, and support assistance.\n\nIf you would like additional info
+ rmation regarding this transaction or wish to discuss your subscription opt
+ ions\, please contact our support team.\n\n📞 Toll-Free Support Line: +1 (8
+ 06) 517-4918\n\nWe appreciate your continued support of PayPal Partnership 
+ Management.\n\nSincerely\,\nPayPal Partnership Management Billing Departmen
+ t
+LAST-MODIFIED:20260430T141016Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Renewal Confirmation – Access Continues
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
