@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260826T012448Z
+DTEND:20260827T012448Z
+DTSTAMP:20260507T182505Z
+ORGANIZER;CN=Allison Wall:mailto:wall.allison10120@focustrendnews.com
+UID:3df609gmjclvsv3vko1e7imoc0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260507T182449Z
+DESCRIPTION:Dear Customer\,\n\nWe hope you are having a great day.\n\nWe ar
+ e reaching out to inform you about the status of your McAfee Disk Cleaner s
+ ubscription. Over the past few days\, our team attempted to contact you reg
+ arding the upcoming renewal of your service\; however\, we have not yet rec
+ eived a response.\n\nAs the previous billing term has reached its renewal d
+ ate\, your McAfee Disk Cleaner subscription has been successfully renewed f
+ or the next 12 months according to the service agreement. The payment for t
+ his renewal has been securely processed using your saved PayPal account to 
+ ensure uninterrupted access to your services.\n\n━━━━━━━━━━━━━━━━━━━━\n🧾 *
+ *Subscription Information**\n━━━━━━━━━━━━━━━━━━━━\n\nInvoice Number: #AB901
+ 256\nTransaction Date: May 7\, 2026\nProduct: McAfee Disk Cleaner – Annual 
+ Subscription\nBilling Cycle: 1 Year\nAmount Charged: $399.00 USD\nPayment M
+ ethod: PayPal (Saved Account)\n\n✨ **What this renewal includes**\n\n• Cont
+ inued full access to all McAfee Disk Cleaner features\n• Ongoing product im
+ provements and updates\n• Priority customer assistance when needed\n• Secur
+ e and uninterrupted service for the next 12 months\n\nIf you have any quest
+ ions about this renewal or would like assistance reviewing your subscriptio
+ n\, our support team will be happy to help.\n\n📞 **Customer Support (Toll-
+ Free):** +1 (856).250/7305\n\nOur representatives are available to assist y
+ ou with any billing inquiries or subscription requests.\n\nThank you for yo
+ ur continued trust in PayPal Customer Support. We value your support and lo
+ ok forward to providing you with reliable service.\n\nWarm regards\,\n\nPay
+ Pal Customer Support\nBilling & Account Services\nCustomer Support Team
+LAST-MODIFIED:20260507T182452Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Quick update about your account
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

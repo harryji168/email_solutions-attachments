@@ -1,0 +1,1659 @@
+<!doctype html>
+<html ⚡4email data-css-strict lang=en>
+<head>
+<meta charset=utf-8>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<style amp4email-boilerplate>
+body {
+visibility: hidden
+}
+</style>
+<script async custom-element=amp-carousel src=https://cdn.ampproject.org/v0/amp-carousel-0.1.js></script>
+<script async custom-element=amp-accordion src=https://cdn.ampproject.org/v0/amp-accordion-0.1.js></script>
+<script async custom-element=amp-bind src=https://cdn.ampproject.org/v0/amp-bind-0.1.js></script>
+<style amp-custom>
+* {
+margin: 0px;
+padding: 0px;
+}
+.show{display: block;}
+.hide{display: none;}
+.amp-carousel-button{display: none;}
+.carotracking_1 {
+background-image: url('https://notifications.google.com/g/p/ANiao5ougn55cclKwfpy2wG9B_xXdgAqK4eVVoo85P7Q0tePpnQJeRY6KrsB-Zd1hrUDeDPtrdg3ozTSfEvrmsBEBdAfLsKIrPT40kwm9OrzgU_neQ3_DB0ffs3NpRZ2BriQKj7Ia0po_gtU1USEqI3ytvZLkaePy0ajd5o673mi8w0NK0mgrnCD');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_2 {
+background-image: url('https://notifications.google.com/g/p/ANiao5olH9vwOi3GNfIFd3mZ1zh1lxM0Cg3kL_o__7UJISnGmEvSiLdI4vdn-AuUt1uYsS183CjoTISzWinCHrKs7A8r47gwOQHMRCQGR8uhqRYMqBmrnIatpgp8M-4BhJxCDRFLWB4O7UCEHOa0exQzagaulsg4Xlki4m89LBrO2DlBlBYdfZw');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_3 {
+background-image: url('https://notifications.google.com/g/p/ANiao5qBGKfb2ULW-tXcAgF5hZrWuca4jvH3bR6ldZjODgLY2SEmLBINcteV3uYHZNDWsCPkuxrTc4lITP-C6fAYkUhDlCPPyRt1_bvYOOucqCmY0u-kvRij4xbnlWyZckE5_goAlU4EakweT6aXidBi1FucoX3XN1QuA93fl0UxOV6bm92QbZJg');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_4 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pduu7jZEj0azuGPAJLE5oJubx13Q9-u-au89Ztztq-90Mp8zPLAJzeGmfULSWnyldaKsc8xWRLY5Ilasa_I2V29J4uWc1cCMl7N26ygtiMMb8PAPpMghP8MV4VoAcfwxA3WygFWp_yGBJyZNw4E_MGnyeIw6pVqAcqnMkg662ueJaxuAs');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_5 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pd2w7aC6Av6tCWSfMLQZ5JJbgcWozqFJ3b50EpiAOK9C6RrS3Zs4qzfxzD5DcY1wCS_NiFfqlpf3DFYAdD7PYDG5P3FfNhlw3NI_XW_i64NnxsRK0Ph6FxipNiUciJtJDHyejHRYqGPMSrVkjfU20nELdvX3tk-IRlGimGKi1DXnITnYWb');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_6 {
+background-image: url('https://notifications.google.com/g/p/ANiao5p4IhnHyFasL0Sx5-QToPoTrsLCP2xYjmVmu4sgPn242Sa5WK5cFw9CFgAnyxdUr47870CTAhJUYWhEAFgXNtrznb7U-OCSZvOW6jlfZKurio1FZej6LkHIJxpxHIqVd3aRk_LIlpXhSTk7W_AlwdDU2bnWjsmcMlrjajmT2h7SRALTVz0');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_7 {
+background-image: url('https://notifications.google.com/g/p/ANiao5rKyUiaD3n1YkiOQAIGDCNoHurE_VNkwrjGUqKkKBvaMvesag6ziGpNPqcYnRcYKsz5z4nCZxeN8EkHa2QGMUFsT-m5HrFqCAbGi380eK5OsS5f04viYPPreSeCgFgOvcaGRWAQ0hiNE27A5IHao3qDeHg05BW0Mu9MouyYr-AmgbkmQMi5');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_8 {
+background-image: url('https://notifications.google.com/g/p/ANiao5osmIFJfkwuQip1AfdtS757HG6ss5w9Do47hGkC4ZcIJnjTrpPvbXpUqMFyEI8nrCUYZVGwTyPzrcn7mnXPyF_yaugW3cbNXUKXZT4l9Zau96xYEY8qzbLe6P31of7oNGq_Vs8vGb3qfY0VUfIyKGZRbqZlNbzyUBQ42dJQtdFs0W8ZHQU');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_9 {
+background-image: url('https://notifications.google.com/g/p/ANiao5pqJLb06leHPq6Tj45cDCSzvMjzhammsqMVT0Tc1Lg9XD9aafu2g4manEwRw8lbmTydOTsqKhNSGNZ4atPHhMs3-gV5dy7e_60CffKDpezu2Thtf4pyrA4iL1Dept2mUAaZhsAGL4ants3w3uBh00MENYJYFnvxYfrq26s2GURm6Lwuw_g');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.accordiontrack{
+background-image: url('https://notifications.google.com/g/p/ANiao5rzVa0AHRJgPMob2bqsEoA8aaypLnfpLbUuG58uzit541BrLduBMsYrfXnG9Bnma7x361cPF3j0l-8cHEvEe-LtCNLY2M_09v2th5Ohmbc7xoeqSlKHeNel5oOGEfStQRezAZGk1FXxWJizY1-wsk5GDcrDY1l3m7LiMqBQoIYN6BRGvkn9');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.amp-carousel-button:focus {
+border: none;
+outline: none;
+}
+.amp-carousel-button-prev {
+background-image: url(https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png);
+background-size: 32px 32px;
+left: 14px;
+outline: none;
+background-color: transparent;
+cursor: pointer;
+}
+.amp-carousel-button-next {
+background-image: url(https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png);
+background-size: 32px 32px;
+right: 14px;
+outline: none;
+background-color: transparent;
+cursor: pointer;
+}
+.old {
+background-color: #E2E2E2;
+cursor: pointer;
+}
+.current {
+background-color: #1A73E8;
+}
+.old1 {
+background-color: #F1F3F4;
+cursor: pointer;
+}
+.current1 {
+background-color: #1A73E8;
+}
+.click-trigger {
+background-color: #F8F9FA;
+height: 40px;
+cursor: pointer;
+}
+.triggerhead {
+border: 0px;
+background-color: transparent;
+}
+.down-arrow-round {
+position: relative;
+top: 18px;
+}
+.desk-padding {
+padding-top: 10px;
+}
+.hidenew2{
+display: none;
+}
+.shownew2{
+display: block;
+}
+@media only screen and (min-width:850px){
+.w700{width: 800px;}
+}
+@media only screen and (max-width:799px){
+.w700{width: 780px;}
+}
+@media only screen and (max-width:749px){
+.w700{width: 641px;}
+}
+@media only screen and (min-width: 640px) {
+.pd-b-28{padding-bottom: 28px;}
+.main-container-bg {
+background-image: url('https://www.gstatic.com/growthlab/api/WYFk0wO2Hw10sCtEY9vZGyYXlOXwHDpXpHVrJgyN.png');
+background-repeat: no-repeat;
+background-position: -40px 485px;
+background-size: 35%;
+}
+.pre-head-background {
+background-image: url('https://www.gstatic.com/growthlab/api/WYFk0wO2Hw10sCtEY9vZGyYXlOXwHDpXpHVrJgyN.png');
+background-repeat: no-repeat;
+background-position: 97% 60px;
+background-size: 35%;
+}
+.pre-head-background-new {
+background-image: url('https://www.gstatic.com/growthlab/api/WYFk0wO2Hw10sCtEY9vZGyYXlOXwHDpXpHVrJgyN.png');
+background-repeat: no-repeat;
+background-position: 97% 0px;
+background-size: 35%;
+}
+.learning_cta{padding:12px 36px;}
+.headings{
+font-size: 36px;
+line-height: 44px;
+}
+#slide_tips {
+width: 600px;
+height: 265px;
+}
+.common-slides {
+background-color: #F8F9FA;
+border: 1px solid #E8EAED;
+border-radius: 8px;
+height: 245px;
+}
+#slide_tips2{
+height: 285px;
+}
+.common-slides2 {
+background-color: #F8F9FA;
+border: 1px solid #E8EAED;
+border-radius: 8px;
+height: 265px;
+}
+.accordion {
+width: 540px;
+margin: 0 auto;
+}
+.pdt19{padding-top:19px;}
+.carousel-inner {
+width: 600px;
+margin: 0 auto;
+}
+.pdt26{padding-top:26px;}
+.w150 {
+width: 202px;
+height: 22px;
+}
+.common-width {
+width: 440px;
+}
+.showonmobile {
+display: none;
+}
+.noborder {
+border-right: 1px solid #E8EAED;
+}
+.headingmobile{
+font-size: 24px;
+line-height: 36px;
+}
+.bright{
+border-right: 1px solid #E8EAED;
+}
+.expoz{
+padding-top: 8px;
+}
+.colored-img{
+width: 150px;
+height: 109px;
+}
+.hear-block{padding: 19px 0px 25px 0px;}
+.deskborder{
+border-bottom: 1px solid #E8EAED;
+padding-bottom: 27px;
+}
+.subhead{
+font-size: 14px;
+line-height: 22px;
+}
+.pd-r-11-desktop{padding-right: 10px}
+.gemini_hero-image {
+width: 540px;
+height: 304px;
+}
+.left_img{
+width: 240px;
+height: 135px;
+}
+.right_img{
+width: 240px;
+height: 135px;
+}
+.left_arrow_position{left: 2%}
+.right_arrow_position{right: 2%}
+.carousle_top_padding{padding-top: 26px;}
+.alt_card_height{height: 135px; width: 240px;}
+.pd_b_22{padding-bottom: 22px;}
+.pd_b_21{padding-bottom: 21px;}
+.pd_r_20{padding-right: 20px;}
+.background_for_table{background-image: url('https://www.gstatic.com/gumdrop/files/play-apps-partners-bg-new-transparent-w1700px-h7700px-2x.png'); background-repeat: no-repeat; background-size: 100%; background-position: top center;}
+.show_in_mobile_only{display: none;}
+.show_in_desktop_only{display: block;}
+}
+@media only screen and (max-width: 640px) {
+.show_in_mobile_only{display: block;}
+.show_in_desktop_only{display: none;}
+.pdb20{padding-bottom: 20px}
+.animationtop{width: 320px; height: 180px}
+.w700{width: 360px}
+.alt_card_height{height: 180px; width: 320px;}
+.carousle_top_padding{padding-top: 26px;}
+.left_arrow_position{left: -1%}
+.right_arrow_position{right: -1%}
+.amp-carousel-button-prev {
+background-image: url(https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png);
+background-size: 32px 32px;
+left: 0px;
+outline: none;
+background-color: transparent;
+}
+.amp-carousel-button-next {
+background-image: url(https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png);
+background-size: 32px 32px;
+right: 0px;
+outline: none;
+background-color: transparent;
+}
+.headings{
+font-size: 30px;
+line-height: 36px;
+}
+.common-width {
+width: 220px;
+}
+.gemini_hero-image {
+width: 320px;
+height: 180px;
+}
+.left_img{
+width: 320px;
+height: 180px;
+}
+.right_img{
+width: 320px;
+height: 180px;
+}
+#slide_tips {
+width: 340px;
+height: 345px;
+}
+.common-slides {
+background-color: #F8F9FA;
+border: 1px solid #E8EAED;
+border-radius: 8px;
+height: 325px;
+}
+#slide_tips2{
+height: 380px;
+width: 340px;
+}
+.common-slides2 {
+background-color: #F8F9FA;
+border: 1px solid #E8EAED;
+border-radius: 8px;
+height: 360px;
+}
+.learning_cta{padding:12px 36px;}
+.w360 {
+width: 360px
+}
+.showonmobile {
+display: block;
+}
+.m_auto {
+margin: auto
+}
+.w360 {
+width: 360px
+}
+.pdt19{padding-top:0px;}
+.w300 {
+width: 320px
+}
+.dblock {
+display: block;
+}
+.w100 {
+width: 100%
+}
+.noborder {
+border-right: 0px;
+}
+.pd-t-25 {
+padding-top: 25px
+}
+.pd-t-20 {
+padding-top: 20px
+}
+.pd-t-28 {
+padding-top: 28px
+}
+.pd-b-30 {
+padding-bottom: 30px;
+}
+.pd-b-0{padding-bottom: 0px}
+.dnone {
+display: none;
+}
+.text-center {
+text-align: center;
+}
+.w200 {
+width: 200px;
+}
+.w260 {
+width: 260px
+}
+.w273 {
+width: 320px
+}
+.w150 {
+width: 150px;
+height: 16px;
+}
+.pd-r-10 {
+padding-right: 10px
+}
+.pd-l-0 {
+padding-left: 0px
+}
+.pd-l-r10 {
+padding-left: 10px;
+padding-right: 10px;
+}
+.headingmobile{
+font-size: 18px;
+line-height: 27px;
+}
+.mobilebg{
+background-color: #ffffff;
+}
+.expoz{
+padding-top: 0px;
+}
+.pd-b-25{
+padding-bottom: 25px;
+}
+.bbottom{
+border-bottom: 1px solid #E8EAED;
+}
+.eachm{
+width: 142px;
+}
+.colored-image-parent{
+width: 118px;
+}
+.colored-img{
+width: 102px;
+height: 74px;
+}
+.hear-block{padding: 19px 0px 25px 0px;}
+.subhead{
+font-size: 16px;
+line-height: 24px;
+}
+}
+</style>
+</head>
+<body>
+<amp-state id=reasonbox2>
+<script type=application/json> {"reasonboxopen2": 0} </script>
+</amp-state>
+<table role=presentation cellpadding=0 cellspacing=0 width=100%>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=850 class="w700 m_auto" bgcolor=#F1F3F4>
+<tbody>
+<tr>
+<td align=center valign=top class="" style=padding-top:10px>
+<table cellspacing=0 cellspacing=0 role=presentation width=100%>
+<tr>
+<td align=center valign=top class="w700 m_auto background_for_table">
+<table cellspacing=0 cellspacing=0 role=presentation width=600 class=w360>
+<tr>
+<td align=center valign=top class="w360 m_auto">
+<table cellspacing=0 role=presentation width=600 class=w300>
+<tbody>
+<tr>
+<td align=center class=preheader-text valign=top style="font-family:Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; padding: 22px 8px 22px; font-size: 14px;line-height:21px;">
+Email not displaying correctly? <a style="color:#3C4043; text-decoration:underline;" href=https://notifications.google.com/g/vib/ANiao5q8so9kncRrjj4_zhmv-oLsAkGrH_YtOIHyFs1IlK6M8hwUwMDTRjaufbcFIkqnCTO8VxJT__VSt7FXD1FvNKYJxK62tLW8LvC8n8ivw7zYqW-8gnhVBXA_eg5bY455tfA>View it online</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=top class=mobilebg>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w360 bgcolor=#ffffff>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w360 bgcolor=#ffffff>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellpadding=0 role=presentation width=560 class=w300>
+<tbody>
+<!-- Header start here -->
+<tr>
+<td align=center valign=top style="padding: 27px 9px 25px; border-bottom: 1px solid #E8EAED">
+<table cellspacing=0 cellpadding=0 role=presentation width=100%>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle class="pd-r-10 desk-padding">
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-google-for-developers-transparent-w1772px-h192px-2x.png layout=responsive height=22 width=202 class=w150 style="display: block;"></amp-img>
+</td>
+<td align=right valign=middle style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 12px; line-height: 18px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td align=right valign=middle style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 12px; line-height: 18px;"> April 2025 </td>
+</tr>
+<tr>
+<td align=right valign=middle style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 12px; line-height: 18px;">
+<a href=https://notifications.google.com/g/p/ANiao5piCygDrZorktao3AuCgwTPotHaBO8ro3kdzuZbhAu4mEOckFWQfigNPW5ZdhzT943AMEXupp7pXVL9EKzVrrQHpqdGsm5MrmLmYZtrb1JJCjnk3DRAy3DWJTzDmI9K7j49JLrHzBDMJ5B813L_6DPfAWIrpr4n0lyjSJL03GLigIrcVlkMg5o7T4z3OoPuSCCwXta7crcO9Jb-7pk2VnHEgyCyWaBTGEdJ3r4YTsVzEIn7GptmRZFIAWAemkM_N4-5xRcmIVhzo8OeWlKEf2_O01nmlHuoXgwgt-_s3H5tgKo target=_blank style="color: #1A73E8; text-decoration: underline;">Archive link</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Header end here -->
+<!-- module 1 start here -->
+<!-- module 1 end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- module 1 starts here -->
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellpadding=0 border=0 role=presentation>
+<tr>
+<!-- left container -->
+<!-- left container ends -->
+<td align=center valign=top>
+<table width=600 cellpadding=0 cellspacing=0 border=0 role=presentation bgcolor=#FFFFFF class=w360>
+<tr>
+<td align=center valign=top style="padding-top: 30px; padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation width=540 class=w300>
+<tbody>
+<!-- Top Banner starts here -->
+<tr>
+<td align=center valign=top style=padding-bottom:30px>
+<table cellspacing=0 cellpadding=0 role=presentation width=540 class=w300>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellpadding=0 role=presentation width=100%>
+<tbody>
+<tr>
+<td align=center valign=top width=480 class="dblock w100" style=background-color:#F1F3F4; bgcolor=#F1F3F4>
+<table cellspacing=0 cellpadding=0 role=presentation width=480 class=w260>
+<tbody>
+<!-- card 1 starts -->
+<tr>
+<td align=center valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; font-weight: 400; line-height: 21px;padding: 18px 0pc;text-align:center;">
+The big news: Gemini 2.5, our most intelligent AI model yet. Also not to miss: the launch of Firebase Studio bringing together critical tools for AI&nbsp;development.
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Top Banner ends here -->
+<tr>
+<td aria-hidden=true align=center valign=top>
+<a href=https://notifications.google.com/g/p/ANiao5pIUoKKSlu3KNqJPJDYIf00gr4EyCL43KqiwSymQHjFUmFUGGEiKKBLyXlNRC9KR6tajNaW7qM1f79ASxXNbBRxDa8j3nJKvIGWIErRTYPCerAz5y-79enRZ3YSApV6m0EkBwj1whTN2b0h0YTymdj4TGCNFctfSPg78uPbK-LqnQukugwNY8NSN9YTN8cWONk3_zPmBR41FLgwwFK4QFmGbatqUMi77Yu1bU9TpjPlNuQyhUWeb4L04Rrjl36hSan3hvX_jM474xxdntc5m28jtR0GvJRk3HviTFDxvLfPtjRaRw1xlcvNO4_IES6LmLj7gwykNY3SHrwmVTtXOhPctBlz_QXp7Yy1q9jM9rd26i8kCKSyfGShRwdw5S8VVOCWKZDuNx5_gvSVejltsGU target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-gfd-gemini-big-fill-w1919px-h1080px-2x.png class="dblock gemini_hero-image" width=540 height=225 style="display: block; border-radius: 12px;"></amp-img>
+</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 30px; line-height: 36px;font-weight: 500;padding-top:20px">Gemini 2.5: Our most intelligent AI model yet</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 10px;">Gemini 2.5 brings advanced reasoning and performance improvements, helping you build more capable apps, solve complex problems, and enhance user experience.</td>
+</tr>
+<!-- hyperlink 1 -->
+<!-- Cta starts -->
+<tr>
+<td align=left valign=top style=padding-top:11px;>
+<table role=presentation cellspacing=0 cellpadding=0>
+<tbody>
+<tr>
+<td align=left valign=top bgcolor=#1A73E8 style=border-radius:6px;>
+<a class=ctabor target=_blank href=https://notifications.google.com/g/p/ANiao5r-j1Qqy0VuOKUlsCfSac4z7L8qYkOiNyNdWvZzAmKzfihAMXyQdqUje7hMcVgLPubZHM0Onp_K6whwO9uo0paAVe3BbLHp_eJ4gj6q_Wmfje0qpNqy4t-TOqrJXhQKx24IOr4CHFAmc82eJJKgC0el00-VPgxe5L1lIDQEnfvW3kQPnFPDsSb-i3gUxUBAN8W3uzwgBtNAdBtvKjkb_No1J6RArcr3ZVrQKS8Cbxw8X3Yz6B8hQ3emGr-TGMbNJin5zJRaQPSfrtGK133fID5UHfrE1UpgkpBd9sDBQt_A-bSCOAKPZsNd71wsaW8_KGuF2jHQW7h6G4QqdDF6NeUMjsVhKri6jOZoxZx-cOXvIF2TtEChYJEvz6PNFfBXEq1HYsg3hVpBxApE style=" background-color:#1A73E8; border-radius:6px; color:#ffffff; display:block; font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 24px; font-weight:bold; padding: 12px 34px; text-decoration:none; ">Learn more
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- cta end -->
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<!-- right container start -->
+<!-- spacer -->
+<!-- spacer -->
+<!-- right container start -->
+</tr>
+</table>
+</td>
+</tr>
+<!-- module 1 ends here -->
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w360 bgcolor=#ffffff>
+<!-- Desktop only module 2 start here -->
+<tr>
+<td align=center valign=top class=show_in_desktop_only style="padding-top: 25px; padding-bottom: 29px;" bgcolor=#F8F9FA>
+<table cellspacing=0 cellpadding=0 role=presentation width=540>
+<tbody>
+<!-- Image Row -->
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<!-- col 1 -->
+<td align=left valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td aria-hidden=true align=center valign=top style=padding-bottom:20px>
+<a href=https://notifications.google.com/g/p/ANiao5or4BdQPBjU-G9cpFPULvbLp3_HhwQgl-0qOzajKVtHg5vUsHv1O8Xny_7Pcx0tAmRm7fpPT9HOePXlasgxDcqF4wEUgyznczD67R7ds-OUA0NXB1wAoFChh7vBCQfVrOnHmjwm-U2XbfWKhHQhAT6oSigMktTwyxg408_8RxHEskZPstDzeAiSTG7z3xueS42JWnXcSC_ko1bAA0laod9EUXjeGDYPEAodW4FWmz0fqB7jEj6r5KRKv5KJWhvFRL5D9Gryrc3hsPKdbWFGqB4tu9peRhQyPvLPgTMfqyh5t9xp6Ipp9by6rMkHpD9nnRGEvCtwtVryPgvFJf9Cwyufrq6qta6RdaHZ3NE6Vi4mW00vmpG9kAMNzynO target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-gfd-play-console-insights-fill-w1920px-h1080px-2x.png class=dblock width=240 height=135 style="display: block; border-radius: 12px; border: 1px solid #E8EAED;"></amp-img>
+</a>
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=29 class=dblock align=center valign=top aria-hidden=true style="border-right: 1px solid #E8EAED;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=29 height=1 style="display: block;"></amp-img>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=1 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<td align=right valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td aria-hidden=true align=center valign=top style=padding-bottom:20px>
+<a href=https://notifications.google.com/g/p/ANiao5p4BMZwn8__w1VZA9haerJDhAM6ymPDY7barUZd1Ef1IrNpr2NYZADMcNDigCigy_waujsFHj_5SWWD_e4DZ8JFEreugabDuWsNOTsUbYqjyf-aEpMizEV8XZ_jMQPkPvv2Va1Ua6i8IyZU8NfVUS7qH4at7PPJ7KQP4JpoqaR7v8OOdpDEUJuZ82S9V6k5ylqFz77Gc5qWJhQCKIjvbvVsrXnsyj6BxLm7DUl3rMPtC7oUobap-4tmdZVYq9vbezxNn4hf6DSK083rzxYqCHSfiXRQue09_JK9Fyb03cYkK_GC7BEvidRp target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-hero-gfd-feb-25-fill-w960px-h541px-2x.png class="dblock right_img" width=240 height=135 style="display: block;border-radius: 12px;"></amp-img>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Heading Row -->
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<!-- col 1 -->
+<td align=left valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; font-weight: bold; line-height: 21px;">
+Better app performance with new Play Console insights
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=29 class=dblock align=center valign=top aria-hidden=true style="border-right: 1px solid #E8EAED;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=29 height=1 style="display: block;"></amp-img>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=1 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<td align=right valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; font-weight: 700; line-height: 21px;">
+Google I/O schedule is now live
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Para Row -->
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<!-- col 1 -->
+<td align=left valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;font-weight: 400;">
+Discover the latest Play Console updates designed to give you more actionable insights into your app's performance. From a redesigned dashboard to new Android vitals metrics, learn how to proactively improve user experience.
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=29 class=dblock align=center valign=top aria-hidden=true style="border-right: 1px solid #E8EAED;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=29 height=1 style="display: block;"></amp-img>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=1 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<td align=right valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">
+On May 20-21 we'll livestream two days of sessions covering Android, AI, web, cloud, and more, giving you a front row seat to key announcements and demos. Then, deep dive with more on demand sessions and codelabs on May 22. Check out our program.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- CTA Row -->
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<!-- col 1 -->
+<td align=left valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="padding-top: 11px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=middle width=22>
+<a target=_blank href=https://notifications.google.com/g/p/ANiao5rFVuXUHUteKT7vU70RJIvwUcCQpFigQHV3SW9k_1BmRYCLT77IaCT501v13g7KXnQx3eGwbv3hsclYz3SCOnoZI9_-u5USvWjrOMh5iI22fuZDbFIJW3V9ByNh5QPGH3OYj-7nvRjMa_o_Ug1zM60mhgYJaB8E4gThZOlczqG-NGyjVtPt8hsmgCou-tz-xB_nyr5AWwCXezIc_V3hfydj8e6D8yhAKv1mBU4lRiJjRICjFMaNK8Kob2URnqgygs7QgzRgeByycRkxznefXa7uXaSaseOykJhL3iu-BWjIWvW-VOoFovZ3ODFvc8EwMtU4t5zn3KW5auNbz5DwE_UTJmfwZKTD4GYuNobjXnro6JE style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" width=16 height=16></amp-img>
+</a>
+</td>
+<td class=ol-height align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline;" target=_blank href=https://notifications.google.com/g/p/ANiao5pDnGARB8wzgWcDYWRgilKziwf3CaKFdnt-Cz1HmHT-nPI0g1jflZy_lkTc6nhjGrglX_QiyYWQf3lyJMPdPuLYDSCH1fLb9os6eo2YDrArQvJLUt9kn5Ys2gW0titJNpnv7sGU6bnboie0KPgiCXAf2hVteG5UGXakPDI7vHXb0ShOejkiDyR3eeZ2zXW04wPGo76LlRk9kN9brOpDFP5pj3vSUYtJ55mbErNUuHquLfjLQl84u9QOR58KMgrSjqHrMH7VmiPkpSxm7nX6qHTN-aPDa4K_sxbMayH1vZvsHIUNwf_IOnaf1KXGwJpxAFsBjKoEW6sENHzfcP6ieIwunfVJE3YOwrykwV1x>Learn more</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=29 class=dblock align=center valign=top aria-hidden=true style="border-right: 1px solid #E8EAED;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=29 height=1 style="display: block;"></amp-img>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=1 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<td align=right valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="padding-top: 11px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=middle width=22>
+<a target=_blank href=https://notifications.google.com/g/p/ANiao5rx5z23f8c12nTz915nW7SH1YP9oDyT4Wg3EXZN4hXq3spy9MxVeR-FYjJiy4st1K-X7Ead9lygL1-cEIF1lhnJlzd-3Ixmg9caw_pBUhQFd0d_Vce70CKx0sm9ZZHrb4Dp8hp0-ZU8c-TddySx3ryX3Y-e4xv8HiHrt9gV3u1nNNG5UoOooGuncUuGDNwrHxF3MTfSpVcpk2_AexqrZG1fNOPcsLjS7NuICDTrGHRE3QC-deJmQOcwK5XtrIJatNLrlLaWMWic828NzurDM0svhftqSnFaR1OEyRf3j4Grb--8NNpK1QcyTwfEYbWeLTA style="width: 16px; ">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" width=16 height=16></amp-img>
+</a>
+</td>
+<td class=ol-height align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline;" target=_blank href=https://notifications.google.com/g/p/ANiao5q2n6hEDFQzP2i_xZ_ojACx0tMcNZJaB5X7JMECkG7YwSGTeZKpme9tOoKl7Zz8kow48VwqcEgJekIRZnp2boJ2h04euyEENQC2blw7PsXx94MOI_T1X-s1REj1nkHIDv_yPWqyp_ofde4SjwoMhW4mgyoen5fMsrN_GHSodlGzUIPY4JaA6Xp8TnIIuRq9is_dNdggLYdB98OEQT5mPv7877ezPIkXJImRIs_Xi5VFSd9hB1t1PZWXxH0weGNGMj5tgZNDChLkW4GPHKan4fDrc113I_gO8RZJo-0MIkzErtcrF7Vc70606vdC>Explore the agenda</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Desktop only module 2 end here -->
+<!-- Mobile only module 2 start here -->
+<tr>
+<td align=center valign=top class=show_in_mobile_only style="padding-top: 25px; padding-bottom: 29px;" bgcolor=#F8F9FA>
+<table cellspacing=0 cellpadding=0 role=presentation width=540 class=w300>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<!-- col 1 -->
+<td width=270 class="dblock noborder w100" align=left valign=top>
+<table cellspacing=0 cellpadding=0 class=w100 width=240 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=top style=padding-bottom:20px>
+<a href=https://notifications.google.com/g/p/ANiao5or4BdQPBjU-G9cpFPULvbLp3_HhwQgl-0qOzajKVtHg5vUsHv1O8Xny_7Pcx0tAmRm7fpPT9HOePXlasgxDcqF4wEUgyznczD67R7ds-OUA0NXB1wAoFChh7vBCQfVrOnHmjwm-U2XbfWKhHQhAT6oSigMktTwyxg408_8RxHEskZPstDzeAiSTG7z3xueS42JWnXcSC_ko1bAA0laod9EUXjeGDYPEAodW4FWmz0fqB7jEj6r5KRKv5KJWhvFRL5D9Gryrc3hsPKdbWFGqB4tu9peRhQyPvLPgTMfqyh5t9xp6Ipp9by6rMkHpD9nnRGEvCtwtVryPgvFJf9Cwyufrq6qta6RdaHZ3NE6Vi4mW00vmpG9kAMNzynO target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-gfd-play-console-insights-fill-w1920px-h1080px-2x.png class="dblock left_img" width=240 height=135 style="display: block; border-radius: 12px;"></amp-img>
+</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top class=pd_b_21 style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; font-weight: bold; line-height: 21px;">
+Better app performance with new Play Console insights
+</td>
+</tr>
+<tr>
+<td align=left valign=top class=pd_b_22 style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;font-weight: 400;">
+Discover the latest Play Console updates designed to give you more actionable insights into your app's performance. From a redesigned dashboard to new Android vitals metrics, learn how to proactively improve user experience.
+</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 11px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=middle width=22>
+<a target=_blank href=https://notifications.google.com/g/p/ANiao5rFVuXUHUteKT7vU70RJIvwUcCQpFigQHV3SW9k_1BmRYCLT77IaCT501v13g7KXnQx3eGwbv3hsclYz3SCOnoZI9_-u5USvWjrOMh5iI22fuZDbFIJW3V9ByNh5QPGH3OYj-7nvRjMa_o_Ug1zM60mhgYJaB8E4gThZOlczqG-NGyjVtPt8hsmgCou-tz-xB_nyr5AWwCXezIc_V3hfydj8e6D8yhAKv1mBU4lRiJjRICjFMaNK8Kob2URnqgygs7QgzRgeByycRkxznefXa7uXaSaseOykJhL3iu-BWjIWvW-VOoFovZ3ODFvc8EwMtU4t5zn3KW5auNbz5DwE_UTJmfwZKTD4GYuNobjXnro6JE style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" width=16 height=16></amp-img>
+</a>
+</td>
+<td class=ol-height align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline;" target=_blank href=https://notifications.google.com/g/p/ANiao5pDnGARB8wzgWcDYWRgilKziwf3CaKFdnt-Cz1HmHT-nPI0g1jflZy_lkTc6nhjGrglX_QiyYWQf3lyJMPdPuLYDSCH1fLb9os6eo2YDrArQvJLUt9kn5Ys2gW0titJNpnv7sGU6bnboie0KPgiCXAf2hVteG5UGXakPDI7vHXb0ShOejkiDyR3eeZ2zXW04wPGo76LlRk9kN9brOpDFP5pj3vSUYtJ55mbErNUuHquLfjLQl84u9QOR58KMgrSjqHrMH7VmiPkpSxm7nX6qHTN-aPDa4K_sxbMayH1vZvsHIUNwf_IOnaf1KXGwJpxAFsBjKoEW6sENHzfcP6ieIwunfVJE3YOwrykwV1x>Learn more</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock height=25 align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=30 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<!-- spacer -->
+<td width=239 class="dblock w100" align=left valign=top>
+<table cellspacing=0 cellpadding=0 width=100% role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=top style=padding-bottom:20px>
+<a href=https://notifications.google.com/g/p/ANiao5p4BMZwn8__w1VZA9haerJDhAM6ymPDY7barUZd1Ef1IrNpr2NYZADMcNDigCigy_waujsFHj_5SWWD_e4DZ8JFEreugabDuWsNOTsUbYqjyf-aEpMizEV8XZ_jMQPkPvv2Va1Ua6i8IyZU8NfVUS7qH4at7PPJ7KQP4JpoqaR7v8OOdpDEUJuZ82S9V6k5ylqFz77Gc5qWJhQCKIjvbvVsrXnsyj6BxLm7DUl3rMPtC7oUobap-4tmdZVYq9vbezxNn4hf6DSK083rzxYqCHSfiXRQue09_JK9Fyb03cYkK_GC7BEvidRp target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-hero-gfd-feb-25-fill-w960px-h541px-2x.png class="dblock right_img" width=240 height=135 style="display: block;border-radius: 12px;"></amp-img>
+</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; font-weight: 700; line-height: 21px;">
+Google I/O schedule is now live
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">
+On May 20-21 we'll livestream two days of sessions covering Android, AI, web, cloud, and more, giving you a front row seat to key announcements and demos. Then, deep dive with more on demand sessions and codelabs on May 22. Check out our program.
+</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 11px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=middle width=22>
+<a target=_blank href=https://notifications.google.com/g/p/ANiao5rx5z23f8c12nTz915nW7SH1YP9oDyT4Wg3EXZN4hXq3spy9MxVeR-FYjJiy4st1K-X7Ead9lygL1-cEIF1lhnJlzd-3Ixmg9caw_pBUhQFd0d_Vce70CKx0sm9ZZHrb4Dp8hp0-ZU8c-TddySx3ryX3Y-e4xv8HiHrt9gV3u1nNNG5UoOooGuncUuGDNwrHxF3MTfSpVcpk2_AexqrZG1fNOPcsLjS7NuICDTrGHRE3QC-deJmQOcwK5XtrIJatNLrlLaWMWic828NzurDM0svhftqSnFaR1OEyRf3j4Grb--8NNpK1QcyTwfEYbWeLTA style="width: 16px; ">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" width=16 height=16></amp-img>
+</a>
+</td>
+<td class=ol-height align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline;" target=_blank href=https://notifications.google.com/g/p/ANiao5q2n6hEDFQzP2i_xZ_ojACx0tMcNZJaB5X7JMECkG7YwSGTeZKpme9tOoKl7Zz8kow48VwqcEgJekIRZnp2boJ2h04euyEENQC2blw7PsXx94MOI_T1X-s1REj1nkHIDv_yPWqyp_ofde4SjwoMhW4mgyoen5fMsrN_GHSodlGzUIPY4JaA6Xp8TnIIuRq9is_dNdggLYdB98OEQT5mPv7877ezPIkXJImRIs_Xi5VFSd9hB1t1PZWXxH0weGNGMj5tgZNDChLkW4GPHKan4fDrc113I_gO8RZJo-0MIkzErtcrF7Vc70606vdC>Explore the agenda</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Mobile only module 2 end here -->
+<!-- First Carousel starts here -->
+<tr>
+<td align=center valign=top style="padding-top: 26px;">
+<table cellspacing=0 cellspacing=0 role=presentation class=w300 width=540>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 24px; font-weight: bold; line-height: 36px;">Product updates </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=top class=carousle_top_padding>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w300>
+<tbody>
+<tr>
+<td align=center valign=top style="position: relative;">
+<div class=carousel-width>
+<div class=carousel-inner>
+<amp-state id=selected hidden="" aria-hidden=true>
+<script type=application/json>
+{
+"slide1": 0
+}
+</script>
+</amp-state>
+<amp-carousel id=slide_tips loop on="slideChange:AMP.setState({ selected: { slide1 : event.index } })" type=slides layout=responsive height=274 class=w300 width=540 controls data-next-button-aria-label="Go to next slide" data-previous-button-aria-label="Go to previous slide" role=region>
+<!-- Slide 1 Start -->
+<div>
+<div [class]="selected.slide1 == 0 ? 'carotracking_1' : ''" class=carotracking_1></div>
+<table role=presentation cellpadding=0 cellspacing=0 class=w273 width=540>
+<tr>
+<td align=center class=common-slides valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;"> ADK: Making it easy to build multi-agent applications </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;"> Google’s Agent Development Kit (ADK), a new open-source framework, empowers developers to build production-ready agentic applications with greater control. </td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://notifications.google.com/g/p/ANiao5rodoPHvyt04JbgYd-fH00R_POtImiDgtc62dUFl2xifVaLwN0xCb3vW2GPYi8ya91yss_9VvQzYnzjT7plEliq18lGO5kwte3Chh_RFP-8jrVWMGPqsOAiO2XmtQTfM2kGeQxkVxvS28LY3r6uAcmrf1F-Cokb8lxCdaB2SzM6I_yY0K8mwroktVz2yEQmbX72f9VGN2fV7MmgjLPP6HT4gl_gNCX1LP63JfG_7n1uMx__gcjSwNa-JrWurokFt6TESvSsg3-MUwRTK82gBgOP9nzEg2gINNrkJra0HXgWn1_2WpBZEWAPJLxZCO05fSKHS7m1I0XaF-PZEfn2iYERAKIIuYZHd7z4QhVeJpLjrv5S-ujqKq7OZkdarIf8E6TTY6M9MNpy target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline; " target=_blank href=https://notifications.google.com/g/p/ANiao5pfbxS731n9YPmxjt5SmmCQfECqM_x9QzeGt94jmngKJlrEoBh6ov0CD-WcYo4YcDnJZZrQdUqnyutRooPl-zYzKz12c28dlzl7f6vVLeBPbYaG66bpaQ68ip5ebaFQvukTDKW8jZJQxdX2kJOWj4-aRMkMo5ySC-I7kfa--KSvLczIwvRAfSttTtnZjYimPnviKjOOF3fjuAjfs6LBt-hopRQQWtSqDh0o6D8RcQoFGDJnHD0Z_5eYrixZiEH693ApSlr0aVPbV4V3qpbKe_anCTukxqlCGJGbcEl1SnTm6jwFuBOpbpvHbHAQJ5xsiGxkMLr4bdJtGqXcb_h0kDflsYvDKmPDIyy3JP7CJ8UWwkuUnaFAeKIQC5eVMNcCCzZhXQ> Learn more</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!-- Slide 1 End -->
+<!-- Slide 2 Start -->
+<div>
+<div [class]="selected.slide1 == 1 ? 'carotracking_2' : ''" class=carotracking_2></div>
+<table role=presentation cellpadding=0 cellspacing=0 width=540 class=w273>
+<tbody>
+<tr>
+<td align=center class=common-slides valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;">Meet Firebase Studio </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Firebase Studio brings together powerful tools like Genkit, Gemini in Firebase, and Project IDX so you can prototype, build, deploy and run full-stack AI apps all in one place.</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://notifications.google.com/g/p/ANiao5rSk7r29Kje9I9DHDUoAps_h74y7IFMi6glWrZQ6vHhpYFYVCoRiIUzFGVZb4we1BPAHgqn2HBB9QewdtE7IKkOca2hUglaXMlidhpfNvRuvKa3XIz4f6WAvm_RZ55g4GMZ9-oUGJ70jNHhYrsYSTyFKMdXwCxU924-GklRMnZ-qHve-fLxuIC4TnBjOoIANKMtv8uHIlbufBgElqAVv7I2r5lAqOU-qouaoXsr99Syy5WO1EuaZV9FMtdUSCNrBw7ailn2jvzwYz1uvj9K_CmSIJqmngRhR01ZZXrBDkh2qh6zCrmk4Q target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a target=_blank style="color: #166FE3; text-decoration: underline;" href=https://notifications.google.com/g/p/ANiao5rHbyYyRbWxbZ_ah-6Sih7JiH2uslgcCUBcIAL0oGhXQDP2uzugbBmuXBt2bFxclJdcP3zuL98qQFLVQ8domV1J3z4_uyg3cbmNevKxqSMnAColChABgf1_NnlH94tD6G3thOokpbimNd9-DMOM3wC4N0oAFtQYfKk0dAX1HN1fpU7CT6FoAqnF2UrfBQlforBRae39CkAyvlS6oranukTr3FOAQ88LrzDqwne6DQ6xO-sRyryfJsDOm7C1W_Qtssom2fTt7nTUpfQ58ws3_AWN2afLAD9Zfr7GXKONsZ9v9e0>Check out the preview</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Slide 2 End -->
+<!-- Slide 3 Start -->
+<div>
+<div [class]="selected.slide1 == 2 ? 'carotracking_3' : ''" class=carotracking_3></div>
+<table role=presentation cellpadding=0 cellspacing=0 width=540 class=w273>
+<tbody>
+<tr>
+<td align=center class=common-slides valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;">Chrome DevTools gets a makeover </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">
+Check out our shiny new homepage for Chrome DevTools. Find helpful tips for all of DevTools’ key features, from AI assistance to performance insights.
+</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://notifications.google.com/g/p/ANiao5qiv9TQSUXG70tH9irQnON1S46FtIN0Sad3sP3DU3ETfYC6nhvEORZlmqR7UAVMnkBQkDPJKhAuVjwwStKe_yP1Y94LvolXNE3w6jfOqv-9vWm4230MpJ-rK_J4z99_oY3nORYrdPdoUEOw2dUi2x7C1I93rRlS4xDclqTi22oUw-WEpKeXLKk9O60JkV-Vkt7V_PI99DGHkqC02yqXWbH9rBEVW2Bi5e_RB3Kyv6axcU3N4YFdOgDLHanySSTpWibRWUcRRggLwCDHXTcSTmUYQG3IXDDWCxQtVSnd-SFteqScHoVkVzgj-xOvV0w target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a target=_blank style="color: #166FE3; text-decoration: underline;" href=https://notifications.google.com/g/p/ANiao5p_CjR9AQxxsUxkYmjXjllXfqu1KTBpShAKSEqhmWN1QzorlYKQ0XJfl_1Ohf8zp8pxEQDTDKJh3Lf_JWZdP_ELplMw_f1Q-FYGrTrONtmhWoTs8QjYPybygtmr34n0TeHhx3wOVpPjGMrxzD6v0xh77UmnOYjPM41VORcZpSm5lKIg5WT-wigw8fTFN_IKwndYUYLEf4RfWMG_jiZMmrrAskcHBrLjgL1m43kLOu1CLnKZx1Zy6Quyfa8c5115VCOpDBM_Pu_io4nT2i3Mc3DER4Xtx5cvfqbbxjLHmnBS2o7u_6WqzS9g>Explore now</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Slide 3 End -->
+<!-- slide 4 starts -->
+<div>
+<div [class]="selected.slide1 == 3 ? 'carotracking_4' : ''" class=carotracking_4></div>
+<table role=presentation cellpadding=0 cellspacing=0 width=540 class=w273>
+<tbody>
+<tr>
+<td align=center class=common-slides valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;">Sign in with Google: Now on WordPress </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Sign in with Google has arrived on WordPress. Now you can create a passwordless, token-based authentication method for a faster and more secure sign up/sign in experience. </td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://notifications.google.com/g/p/ANiao5pGnNgLsSFqyFCDL9bIHgw7FzcEYnR2xOMxqw7ROy8YXzhUpt3XrTH973j5x0iHvLYITa7bWNwylvGGrxKtczYgIfqqBFOrHFjlGj1TlaGtSlyigFkYeCuWUt__AcSkPsNMwVMjXKChPG55iVfFBbALPCVlPNBZjJfCW_fjQGtvH2sEvgl8KdMrL3cuWW-IuAoRka5eEcyjYJdJaDyUyaBthSmddV9qVVpuH_VAFOqN5xCfIyBFtclTf8SHL6aQs9iOzOeCWlUVdJSeavDKQC07curUmAYyfZSmN7P341TB-JdQeTvI target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a target=_blank style="color: #166FE3; text-decoration: underline;" href=https://notifications.google.com/g/p/ANiao5qPh4HP-kdvvcmgoDMPLuDsrjFffABupCnGAnRe7AICS62IGjd1lID8xDZJvteyc_8tmVdvPhmX0cztuoyFgZTXZKC3BtpmAj3HUq5SsP9YF6UXKZwIBy02SHbVSnLfPE9DqK1-0nlUVirMzv-5XH7jx-mSjJa17zcEp-2hNXQ-Tl-T52VQve-DBSrAr2czkj_GoZbkpCtsC03AgBprAQ1DY8iT2_Z0zyLyVCtb-yNoyGu9t5ppx720T5TYPEiTQfUEzeYpU0P9D0fDEZOtCbOBZv2eLiv3qYD8Uk8cOiD6lw>Check it out</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- slide 4 ends -->
+</amp-carousel>
+</div>
+</div>
+<div style="flex-direction: row; justify-content: center; min-height: 22px;display: flex;">
+<div role="" tabindex="" on=tap:slide_tips.goToSlide(index=0) style="padding: 6px; ">
+<div [class]="selected.slide1 == 0 ? 'current1' : 'old1'" class=current1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+<div role="" tabindex="" on=tap:slide_tips.goToSlide(index=1) style="padding: 6px; ">
+<div [class]="selected.slide1 == 1 ? 'current1' : 'old1'" class=old1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+<div role="" tabindex="" on=tap:slide_tips.goToSlide(index=2) style="padding: 6px; ">
+<div [class]="selected.slide1 == 2 ? 'current1' : 'old1'" class=old1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+<div role="" tabindex="" on=tap:slide_tips.goToSlide(index=3) style="padding: 6px; ">
+<div [class]="selected.slide1 == 3 ? 'current1' : 'old1'" class=old1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+</div>
+<div style="position: absolute; top: 42%;width: 100%;">
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td align=center valign=top>
+<span [class]="selected.slide1 == 0 ? 'show left_arrow_position' : 'hide'" class="show left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=3) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<span [class]="selected.slide1 == 1 ? 'show left_arrow_position' : 'hide'" class="hide left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=0) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<span [class]="selected.slide1 == 2 ? 'show left_arrow_position' : 'hide'" class="hide left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=1) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<span [class]="selected.slide1 == 3 ? 'show left_arrow_position' : 'hide'" class="hide left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=2) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<!-- Right Arrow -->
+<span [class]="selected.slide1 == 0 ? 'show right_arrow_position' : 'hide'" class="show right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=1) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+<span [class]="selected.slide1 == 1 ? 'show right_arrow_position' : 'hide'" class="hide right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=2) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+<span [class]="selected.slide1 == 2 ? 'show right_arrow_position' : 'hide'" class="hide right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=3) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+<span [class]="selected.slide1 == 3 ? 'show right_arrow_position' : 'hide'" class="hide right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=0) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- First Carousel ends here -->
+<!-- Accordion starts here -->
+<tr>
+<td align=center valign=top style="padding-top: 27px;">
+<table cellspacing=0 cellspacing=0 role=presentation width=540 class=w300>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 24px; font-weight: bold; line-height: 36px; border-bottom: 1px solid #E8EAED; padding-bottom:16px;">Build your skills</td>
+</tr>
+<!-- first accord start here -->
+<tr>
+<td align=center valign=top style="padding-bottom: 20px; border-bottom: 1px solid #E8EAED;">
+<table cellspacing=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td width=329 class="w300 dblock pd-r-11-desktop" valign=top align=left>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 18px; font-weight: 500; line-height: 27px; padding-top: 19px;">Machine Learning Crash Course</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Learn about the most recent advances in AI with Google's popular, fast-paced, practical introduction to machine learning featuring animated videos, interactive visualizations, and hands-on practice. </td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="dblock text-center w100 pdt19" width=211 align=right valign=middle>
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<!-- cta start here -->
+<tr>
+<td align=left valign=top class=pd-t-20>
+<table role=presentation cellspacing=0 cellpadding=0>
+<tbody>
+<tr>
+<td align=left valign=top bgcolor=#ffffff style="border-radius: 24px; border: 1px solid #1A73E8;">
+<a href=https://notifications.google.com/g/p/ANiao5qdN0auAfgnzMKiyHscciHB9xfGK8jCDzDEiL4coDSpEVRlZnAG_IZKleJPgHVGR1iGyUM7TcBlpRKW35fFtRl1Uc3SrxD-RxGkidkSRwAXtBI0iEYcHpcUQVsZoSwD5Ll-SnLm2hxj6l0bwDWzN1_NWPQW_1J0XlsYsb6Oki1w7fFITwiWUo4zGWpoVdhZjvcokbF2hwhzOnL5XHowvlzoZHEr6GT6coetF8jhVH-kyQ1mxKCExESShaYfUNAx4etjw87M3HX_UlQmApTbBPOVTR17NSPo9onmjsCAvqgEnWeN9Rexd7TyqZoOiOCuytFmY8nooSbWG1bK7UCw2eNVhQ target=_blank style="background-color:#ffffff; border-radius:24px; color:#1A73E8; display:block; font-weight: 500;font-family: Google Sans, Roboto, Arial, sans-serif;font-size:14px; line-height: 21px; text-decoration:none; text-align: center;" class="out_cta_set_white learning_cta">Start crash course</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- first accord end here -->
+<!-- 2nd accord start here -->
+<tr>
+<td align=center valign=top style="padding-bottom: 20px; border-bottom: 1px solid #E8EAED;">
+<table cellspacing=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td width=329 class="w300 dblock pd-r-11-desktop" valign=top align=left>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 18px; font-weight: 500; line-height: 27px; padding-top: 19px;">Create your first 3D map in Maps Javascript </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family:Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Add 3D maps to your project with Google Maps JavaScript. This hands-on codelab guides you through loading the API, displaying a 3D map, and drawing custom features – in under 30 minutes. </td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="dblock text-center w100 pdt19" width=211 align=right valign=middle>
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<!-- cta start here -->
+<tr>
+<td align=left valign=top class=pd-t-20>
+<table role=presentation cellspacing=0 cellpadding=0>
+<tbody>
+<tr>
+<td align=left valign=top bgcolor=#ffffff style="border-radius: 24px; border: 1px solid #1A73E8;">
+<a href=https://notifications.google.com/g/p/ANiao5q01VzkOSN4yV-4mSkV_yRAegyy3kY4U7bIiFj6jpKeMxEuzB8D84sPNYsicMsXOCVTopIcNiQn3R6w0eE72MwzRBYy2_dX4hGLeu8DiHQlUyTsyzKcNYUZH0U-N4lHccxw7rlgfzSgzSeIqV7K0rs22H9YFPqkmrEeYVTXAVmnus8BsJuEdzvjOL5j6LJjOocpE-5iOcMQ5yQc3zJihjC6LwE8XIkkjHL-dkOMCBnnBkGu0uffwoc0CuS5xFLgdc19G-a475fJQM70ViTwLKmtcu4BqX3luBjK2CSF3EpIGBaSPmumZ954it9cRRgoKOcvegUlGJvYIrWnYNDZ8zV1oyiwkdPe4Cms3gvM4IrHV50AAWW88Ps style="background-color:#ffffff; border-radius:24px; color:#1A73E8; display:block; font-weight: 500;font-family: Google Sans, Roboto, Arial, sans-serif;font-size:14px; line-height: 21px; text-decoration:none; text-align: center;" class="out_cta_set_white learning_cta">Start now</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 2nd accord end here -->
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=w300 width=540>
+<tbody>
+<tr>
+<td align=center valign=top>
+<div class="accordion w300">
+<amp-accordion id=my-accordion animate>
+<section id=home on="expand:AMP.setState({reasonbox2: {reasonboxopen2: 1}});collapse:AMP.setState({reasonbox2: {reasonboxopen2: 0}})">
+<h2 class=triggerhead></h2>
+<div>
+<div [class]="reasonbox2.accordionslide == 0 ? 'accordiontrack' : ''" class=accordiontrack></div>
+<table role=presentation cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<!-- inner accordion first child start here -->
+<tr>
+<td align=center valign=top style="padding-bottom: 20px; border-bottom: 1px solid #E8EAED;">
+<table cellspacing=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td width=329 class="w300 dblock pd-r-11-desktop" valign=top align=left>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 18px; font-weight: 500; line-height: 27px; padding-top: 19px;"> Which Gemma version is the right one for you? </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Maximize your on-device AI with the right Gemma 3 model. Compare sizes and choose between pre-trained or instruction-tuned versions to optimize performance for your project. </td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="dblock text-center w100 pdt19" width=211 align=right valign=middle>
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<!-- cta start here -->
+<tr>
+<td align=left valign=top class=pd-t-20>
+<table role=presentation cellspacing=0 cellpadding=0>
+<tbody>
+<tr>
+<td align=left valign=top bgcolor=#ffffff style="border-radius: 24px; border: 1px solid #1A73E8;">
+<a href=https://notifications.google.com/g/p/ANiao5ox78suScCakHtsGKRdotQla1RRlY-oBkXsX6dB4HtGa_5APEMWsmDJ6k01inbhvsxArm0tuAHAzXD8K6cd8VzrAGUS2saa8JMrrNZN7wEhPqCh9TkvdbhHxtaXXOUQXzCEjSB1dj3EB8yszohI4_3-jcymMu2zKrbz_bB4e-GImhH1DYS3Uo_gjvu0A0qCeEbBPgp3Y9A2vAzErAKXyTilWcCMiboohK9yGmnLsb5F6qccsQ90xe6I0-pJ5C43bjDJE6uC40zG_wXV-hzBYDoMqWABlXlBP6BZimu7ZdeZM1Wx1O8MHJoEKgwQ_gf7KDj2ip1lJm134PKPKxB9IosbkXyMfFeLbaIy target=_blank style="background-color:#ffffff; border-radius:24px; color:#1A73E8; display:block; font-weight: 500;font-family: Google Sans, Roboto, Arial, sans-serif;font-size:14px; line-height: 21px; text-decoration:none; text-align: center;" class="out_cta_set_white learning_cta">Find out now</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- inner accordion first child end here -->
+</tbody>
+</table>
+</div>
+</section>
+</amp-accordion>
+<div on="tap:my-accordion.toggle(section='home')" class="click-trigger w300 m_auto" role="" tabindex=1>
+<span [class]="reasonbox2.reasonboxopen2 == 1 ? &#39;hidenew2&#39; : &#39;shownew2&#39;" class=shownew2>
+<amp-img class=down-arrow-round src=https://www.gstatic.com/growthlab/api/CqOGdtlZMjSoGWohifDwlbSX5hcw6xtAB6gLJ9J2.png width=32 height=32></amp-img>
+</span>
+<span [class]="reasonbox2.reasonboxopen2 == 0 ? &#39;hidenew2&#39; : &#39;shownew2&#39;" class=hidenew2>
+<amp-img class=down-arrow-round src=https://www.gstatic.com/growthlab/api/iqRxN8QFjcfidgbyPEMGgvp6vbOe3LLsOIKQ2zMS.png width=32 height=32></amp-img>
+</span>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- accordion ends here -->
+<!-- module 5 starts -->
+<!-- Second Carousel starts here -->
+<tr>
+<td align=center valign=top style="padding-top: 40px;">
+<table cellspacing=0 cellspacing=0 role=presentation class=w300 width=540>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 24px; font-weight: bold; line-height: 36px;">Community </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=top class=carousle_top_padding>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w300>
+<tbody>
+<tr>
+<td align=center valign=top style="position: relative;">
+<div class=carousel-width>
+<div class=carousel-inner>
+<amp-state id=selected hidden="" aria-hidden=true>
+<script type=application/json>
+{
+"slide2": 0
+}
+</script>
+</amp-state>
+<amp-carousel id=slide_tips2 loop on="slideChange:AMP.setState({ selected: { slide2 : event.index } })" type=slides layout=responsive height=274 class=w300 width=540 controls data-next-button-aria-label="Go to next slide" data-previous-button-aria-label="Go to previous slide" role=region>
+<!-- Slide 1 Start -->
+<div>
+<div [class]="selected.slide2 == 0 ? 'carotracking_6' : ''" class=carotracking_6></div>
+<table role=presentation cellpadding=0 cellspacing=0 class=w273 width=540>
+<tr>
+<td align=center class=common-slides2 valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;"> Announcing Google Developer Program Premium </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Unlock expanded access to AI-powered tools, the latest resources and more flexible access to Google Cloud – helping you build faster, smarter, and more effectively with Google technologies.</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://notifications.google.com/g/p/ANiao5or5WjqfWv6Fa4vj1swRqLs_CulCIiCsf2LPViFkfQ_CRqzgkEkyIsvM3Lkdec6ndRRWqInUw7BvAS7MeNS8Rmli4Dt48QD1Ownp_844Q9vgC5zzxW1fS8u8JP1nKbP0eP1z2tN9hsOQk1hn4jFJM_7vBriwrh7bxkaISn5z6H79IJpAS4uaglxmc5yAIsGK-zw2X9bbolALFKZ56HVJjWFeMEqo7iOIWwgWJHZAWCfiSaFjHsf0FoGo9YHQBu7KqPyyRj3IF1qCtk_sT9ze2U8dFryruU5XQ0IYjwYOIVD7VrJNV6S1enxk-Jh target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline; " target=_blank href=https://notifications.google.com/g/p/ANiao5o2MwwBFifZmdNKl96cCa5W1CM-3sm6teSUP_439YmIgpFwW5VbLcc86H0WH3uBctQMtMwzywacxyIZt6DYjO4mQJYdxzBEGyNrSHmiJaZH3MFcXZxATamlVfTug_oeSnXy90ZNTqlm4XEMjOKRE00sesjq7nPGCrHRtqSjAeK1pwGs7G9OZ4LGvBdgGL-6QPN_EM586z6TVax0IHGLTg_vkeORTaRx_CsL4uwevgg2MbRaLqO3UuylaL0QxsZeO1xk-NbgnSL2HukYittmBThKY_l6hzsM7Z3bpauonReTCtcrUNM_Aw> Register now</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!-- Slide 1 End -->
+<!-- Slide 2 Start -->
+<div>
+<div [class]="selected.slide2 == 1 ? 'carotracking_7' : ''" class=carotracking_7></div>
+<table role=presentation cellpadding=0 cellspacing=0 width=540 class=w273>
+<tbody>
+<tr>
+<td align=center class=common-slides2 valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;">Strengthening our app ecosystem </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Learn how Google Play's 2025 safety and security initiatives will further protect your business, users, and the Android ecosystem while empowering you with enhanced tools for secure and efficient development.</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://notifications.google.com/g/p/ANiao5pQAJcPVLv3KE1CE_Mc-qrZb_WnYFg2z7fvS8IuaSsoQDLIMULlg2cLQyNB4947CZ6ycUJiXxtkAM47fK_AKRP7b4DoKHDna0t7VFioWpZvlp8ofqQ79kEZDUKeqGhkoZllAYV5DeKFNMWZWZiSMVxYQIVpiafOFL7W1l1olQECfjKPSYiw2ytja9tx01wmn42X1Uk_TDth7QHYQrfiltnBO_aLoxC_bZIa0WLYezjEtdgRZLu8R5CUdj0qs-adze16tIzZunCnGVSkhVHzO7jQMdkkRZBQeZ8vhQKY3if_v-oCWY6zUb4nmdOARi8ZW_4UFVC0lScDPGFcJKCj65qgVv2bxDOMPNx_YF2SEVkSI89jRwJWvIFO7Psf6jWeru0 target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a target=_blank style="color: #166FE3; text-decoration: underline;" href=https://notifications.google.com/g/p/ANiao5rES8lGeLSub7AR3-b2tIbqrKhMRkB8PkLwpC01OgAUOewWlsvhvAgJmFcWNq7Z47hMrz2981QwTDSRzhEhbRNLonI84Jg9X5wb3u0H0b141XOfPq0Xhmuv4H-cjeqssCmnCG0K461Q6ar_QmwU3X8R09mq-hbqQsPtUa2OxFKybty1fObZnmu_7ze-a2BGk9M4E5IeBUa5cPNG9ub3C3e47TYzCp4DefM6feODb534ZHDxGemRiSq6-QcOBLg3ovhoBR5tuur6C7K1YChMvtpOEnRJICcP59zjglQ_kjhN1wtocdZK1vg7E8LKgmDXEJ09RFJQMsSTnwNLoOM7N-e5Pu3reIpZcJjtEsKPmvclDwNJzfwetaSBHI79>Check out the latest safety updates</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Slide 2 End -->
+</amp-carousel>
+</div>
+</div>
+<div style="flex-direction: row; justify-content: center; min-height: 22px;display: flex;">
+<div role="" tabindex="" on=tap:slide_tips2.goToSlide(index=0) style="padding: 6px; ">
+<div [class]="selected.slide2 == 0 ? 'current1' : 'old1'" class=current1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+<div role="" tabindex="" on=tap:slide_tips2.goToSlide(index=1) style="padding: 6px; ">
+<div [class]="selected.slide2 == 1 ? 'current1' : 'old1'" class=old1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+</div>
+<div style="position: absolute; top: 42%;width: 100%;">
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td align=center valign=top>
+<span [class]="selected.slide2 == 0 ? 'show left_arrow_position' : 'hide'" class="show left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips2.goToSlide(index=1) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<span [class]="selected.slide2 == 1 ? 'show left_arrow_position' : 'hide'" class="hide left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips2.goToSlide(index=0) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<!-- Right Arrow -->
+<span [class]="selected.slide2 == 0 ? 'show right_arrow_position' : 'hide'" class="show right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips2.goToSlide(index=1) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+<span [class]="selected.slide2 == 1 ? 'show right_arrow_position' : 'hide'" class="hide right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips2.goToSlide(index=0) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Second Carousel ends here -->
+<!-- social section starts here -->
+<tr>
+<td align=center valign=top class=pd-t-25 style="padding: 22px 0px 3px;">
+<table cellspacing=0 cellpadding=0 role=presentation width=540 class=w300>
+<tbody>
+<tr>
+<td align=left valign=top width="">
+<table role=presentation cellspacing=0 cellpadding=0 class=w200 width="">
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 8px;"> Connect with us </td>
+</tr>
+<tr>
+<td align=left valign=top style="padding-top: 5px;">
+<table cellspacing=0 cellpadding=0 role=presentation width=100%>
+<tbody>
+<tr>
+<!--Social Icon 2-->
+<td align=left valign=top width=41>
+<a href=https://notifications.google.com/g/p/ANiao5ruhDvRyiygzL6kU0Tl0XIx2mPPCTXivhu6ASwWDT-QWK2P2nCqo8woceA4GdcV1TqWyWlivQzQOj634FG8KC_q2pOl_MNaBnUqZR2syVV5f2CloQwLlXjoDzDH-xsEtDnLQZO7cYXvhK7RIi9NNNiKuYm1793CdM_Z0b-jxtAmIMOjGMujmD3wMgCPQPxL8fe1Dmzdis6WMeo target=_blank style="display: inline-block;padding-top: 10px;padding-bottom: 10px;">
+<amp-img src=https://www.gstatic.com/growthlab/api/oONqRzGKXPjIdhaPmDiKBE4vYzADDHSiZk1hfSSv.png width=28 alt=YouTube height=28 title=YouTube style=display:block;></amp-img>
+</a>
+</td>
+<!--Social Icon 3-->
+<td align=left valign=top width=39>
+<a href=https://notifications.google.com/g/p/ANiao5rQyiLjL0LIOnk8NRrfSd0hbUt_B11y3HWyRLqTUtNk2uF_M3ch1jgXVNv7nHNzzUggbnHBKFU4KIdN0TrIz0i4otRjJwJHNUY5Dgw53GfEg8z2oCHok0iL_In5YjXrp5JtdKWNwianqQIhF2DAX_ncjhFLCk3pj-t9ar_23dvgcL4mRfoq5ghgjg target=_blank style="display: inline-block;padding-top: 10px;padding-bottom: 10px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-twitter-dark-transparent-w2400px-h2453px-2x.png width=28 alt=X height=28 title=X style=display:block;></amp-img>
+</a>
+</td>
+<!--Social Icon 4-->
+<td align=left valign=top width=39 style="padding-left: 2px;">
+<a href=https://notifications.google.com/g/p/ANiao5o-24u4mNi4VjTGwhwiiF8jJQNEFCs1mVXHUMCh0P1eEuTqaWWMrslkI5APbkMjd9BURFdSlrhJYqT9QQyG98AZ04waaIbWrNC6R_RvWcKbriVH8F-DeAVF8iVuvsaEvAwCuBzutfFBX2S6pEr59kNGp7CDlMj5aZl18czmbwKwNx_ueoZj6u7cqAkYzwzo3QMaLHKzSSTzHHQQ target=_blank style="display: inline-block;padding-top: 10px;padding-bottom: 10px;">
+<amp-img src=https://www.gstatic.com/growthlab/api/gD4bL1um1ojFZRoZWk076AOWxtS9csqmDbsLoK3s.png width=28 alt=Instagram height=28 title=Instagram style=display:block;></amp-img>
+</a>
+</td>
+<!--Social Icon 4-->
+<td align=left valign=top width=39 style="padding-left: 2px;">
+<a href=https://notifications.google.com/g/p/ANiao5rWez8Yxi8fXmRsacFe3oy7SP4JcrTlUBtFg1Gy70kR2krZMHmteFzWYcX_RjpC0xdRf3hDmC-FBOgurp-td0la4sPPLIpppl2-3O8L2KFUa2XSsMvF0AtXZa2X0-e1NZRB78PR4DSlXqMfr-SZCr0X4V4lF4nXFcI5DIIVsgBGuexprLN6qc32W6f2L4JLrNb8SW81xC-pQ8mKHOoHGdwTmxQvwpM target=_blank style="display: inline-block;padding-top: 10px;padding-bottom: 10px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-link-round-transparent-w56px-h56px-2x.png width=28 height=28 alt=LinkedIn title=LinkedIn style=display:block;></amp-img>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Social icon Ends -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- social section ends here -->
+<!-- Footer Starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 bgcolor=#F8F9FA width=100% style="background-color: #F8F9FA;">
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=540 class=w300>
+<tr>
+<td align=center valign=top>
+<table role=presentation width=100% cellpadding=0 cellspacing=0>
+<tr>
+<td align=left valign=top width=88>
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=30%>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellspacing=0 cellpadding=0 align=left>
+<tr>
+<td aria-hidden=true align=center valign=top style="padding:48px 0px 0px;">
+<amp-img aria-hidden=true src=https://www.gstatic.com/gumdrop/files/20136643-google-footer-logo-grey.png height=26 width=80 alt="" title="" style=display:block;height:26px;></amp-img>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td align=left valign=top width=40>
+<table role=presentation cellspacing=0 cellpadding=0 align=left>
+<tr>
+<td align=left valign=middle style="padding-top: 34px; padding-left: 13px;">
+<table role=presentation align=left cellpadding=0 cellspacing=0 width=1>
+<tr>
+<td height=51 align=left valign=top bgcolor=#606368 width=1 style="line-height: 51px; border-right: 1px solid #E8EAED; font-size: 1px;"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td align=left valign=top>
+<table role=presentation cellspacing=0 cellpadding=0 align=left>
+<tr>
+<td align=left valign=top style="padding-top: 28px;">
+<table role=presentation cellpadding=0 cellspacing=0 width=100% align=center>
+<tr>
+<td style="padding-right:20px; font-family:Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; color:#6D7478;padding-top: 2px" align=left> &copy; 2025 <a style="text-decoration: none; color: #6D7478; ">Google LLC <br aria-hidden=true>1600 Amphitheatre Parkway <br aria-hidden=true> Mountain View, CA 94043 </a>
+<br aria-hidden=true>
+<a target=_blank style="color: #6D7478; text-decoration: none;" target=_blank>www.google.com</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td align=left valign=top style="color: #6D7478; font-family:Google Sans ,Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; padding-top: 28px; padding-bottom: 30px;">This message was sent to <a style="text-decoration: none; color: #6D7478;" target=_blank>superesolutions@gmail.com</a> because you indicated that you are willing to stay up to date with news from Google Developer Program. If you don't want to receive such emails in the future, please unsubscribe <a role=text href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/ANiao5p718oRaaqxD4JcfxWvKiWL5YVEGsxrCBTNetovNGK6hn-b-7m44REjUUVvDpfxKdooZcfEmACEwezoPoO-7aPeFsb0Fq-itkQ1ZnkSRkXiGKG6A77Yu3wlqYr56Mwa-vHenFy-WDZldinRDxcqk8FGnKURK67wgGiPWrjMSuvTQ3y7tBDniWWcuxXLAIV9UqiDru0bgi2aXWLhRGOElzlGhiK7IocP7YIcwOaCebvMiENn3a_kRC9il3El9a4?utm_source=gm&amp;utm_medium=email&amp;auto=true target=_blank style="text-decoration:underline; color:#166FE3;; font-weight:400;">here</a>. You can also change your preferences on your Google Developer Program email setting by logging in at <a role=text href=https://notifications.google.com/g/p/ANiao5ro4X9Cempcf1ON6W7YU6H2BEt27veDkzO7HjW4xlMxb6zwvbZQgWVMGNkYafdqF3DibtedBHp9JQmLScRBFpSCkOP9iIiRPsIYbMHa9NUdC6cUhorV48FZVg9o6BIA_bfpL4ghSOy6fI52hUKBSjlo_Id9M4FZsVpi519yk2sHOCAPJEdvawwrxIO3hzaPcOohin4vRu4Q77N8QyDFxMByMijTHF1A6C5h1Z9t010pHKA target=_blank style="text-decoration:underline; color:#166FE3; font-weight:400;">Google Developer Program</a>. </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--footer ends -->
+</tbody>
+</table>
+</td>
+</tr>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- spacer -->
+<tr>
+<td width=30 height=30 align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=25 style="display: block;"></amp-img>
+</td>
+</tr>
+<!-- spacer -->
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Manual Tracking Start -->
+<amp-img alt="" height=1 src=https://notifications.google.com/g/img/ANiao5opUHtjGpz3rr63tAfzEL6EJesNnbpXJ2CkNOoXdMd3T1_ZWlRuXZz6LF7MPKEJkBcC235KRHk-ewmYsVgWbjthddAzd6-8Bfrgz2wtVHMlQyQplV6lvM3SYJ_Kqwzmfkg1Aw.gif width=3>
+<!-- Manual Tracking End -->
+</body>
+</html>

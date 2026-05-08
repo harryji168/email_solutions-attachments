@@ -1,0 +1,1296 @@
+
+<!doctype html>
+<html ⚡4email data-css-strict lang=en>
+   <head>
+      <meta charset=utf-8>
+       <title>Referral rewards reminder</title>
+      <meta content="width=device-width, initial-scale=1">
+      <meta name=supported-color-schemes content="light dark">
+     <script async src=https://cdn.ampproject.org/v0.js></script>
+
+<script async custom-element=amp-accordion src=https://cdn.ampproject.org/v0/amp-accordion-0.1.js></script>
+
+      <script async custom-element=amp-bind src=https://cdn.ampproject.org/v0/amp-bind-0.1.js></script>
+  <script async custom-element=amp-selector src=https://cdn.ampproject.org/v0/amp-selector-0.1.js></script>
+        
+<style amp4email-boilerplate>body{visibility:hidden}</style>
+
+
+  <style amp-custom="" type=text/css>
+    amp-accordion section:not([expanded]) .right_img {
+transform: rotate(180deg);
+}
+    .border_radius, .amp-text2{
+      border-radius:30px;
+    }
+.accordion_left_width{
+width:72px;
+}
+.accordion_right_width{
+width:48px;
+}
+    
+     .mob_widthOuter_580{
+      width:580px;
+    }
+    .mob_widthOuter_560{
+      width:560px;
+    }
+ .amp-text1{
+font-size:16px;
+line-height:26px;
+padding:23px 30px 0px;
+}
+    .amp-text2{
+font-size:16px;
+line-height:26px;
+padding:23px 30px 0px;
+}
+    .amp-text3{
+font-size:16px;
+line-height:26px;
+padding:16px 30px 0px;
+}
+    .amp-text4{
+font-size:16px;
+line-height:26px;
+padding:23px 30px 0px;
+}
+    .amp-text5{
+font-size:16px;
+line-height:26px;
+padding:23px 30px 0px;
+}
+    .amp-text6 {
+font-size:16px;
+line-height:26px;
+padding:23px 30px 0px;
+}
+    .wrapper {
+        width: 720px ;
+    }
+    .wrapper_600 {
+        width: 600px ;
+    }
+    .mob_widthOuter_720{
+        width: 720px ;
+    }
+    
+    
+    .mob_widthOuter_250{
+      width:250px;
+    }
+
+  .mob_show{display:none;}
+          .mob_show {
+        display: none ;
+    }
+          .mob_show_table {
+        display: none ;
+    }
+    .desk_show_table{
+      display:table;
+    }
+    
+    .footer_padding_mob{
+      padding:40px 25px 0px 25px;
+       text-align:center;
+    }
+     .image_size{
+        vertical-align:top;
+          width:62px;
+       height:62px;
+       }
+    .only_desktop{
+      display: inline-block;
+    }
+     .only_mobile{
+      display: none;
+    }
+    .padding_40{
+      padding:0px 0px;
+    }
+
+     @media only screen and (max-width:948px) {
+       .only_mobile{
+      display: inline-block;
+    }
+    }
+   
+     @media only screen and (max-width:851px) {
+
+    .padding_40{
+      padding:0px 0px;
+    } 
+              
+       .amp-text1{
+font-size:16px;
+line-height:26px;
+padding:0px 30px 0px;
+}
+       .amp-text2{
+font-size:16px;
+line-height:26px;
+padding:0px 30px 0px;
+}
+       .amp-text3{
+font-size:16px;
+line-height:26px;
+padding:0px 30px 0px;
+}
+       .amp-text4{
+font-size:16px;
+line-height:26px;
+padding:0px 30px 0px;
+}
+       .amp-text5{
+font-size:16px;
+line-height:26px;
+padding:0px 30px 0px;
+}
+       .amp-text6{
+font-size:16px;
+line-height:26px;
+padding:0px 30px 0px;
+}
+       
+        .wrapper_600 {
+        width: 100%;
+    }
+       .only_desktop{
+      display:  none;
+    }
+     .only_mobile{
+      display: inline-block;
+    }
+       .image_size_1{
+        vertical-align:top;
+          width:42px;
+       height:42px;
+       }
+       
+    .wrapper {
+        width: 100% ;
+    }
+       
+    .footer_padding_mob{
+      padding:40px 30px 0px 0px;
+          text-align:left;
+  }
+  .desk_show{display:none;}
+  .mob_show{display:table;}
+        .desk_show_table{
+      display:none;
+    }
+          .mob_show {
+        display: block ;
+    }
+          .mob_show_table {
+        display: table ;
+    }
+          .font_size_class {
+        font-size: 40px ;
+        line-height: 48px ;
+        font-weight: 700 ;
+             padding: 30px 10px 20px ;
+    }
+              .padding_top_footer {
+        padding: 30px 0px 30px 0px ;
+    }
+       .mob_widthOuter_720{
+       width: 100% ;
+        max-width: 
+          100%;
+    }
+    .mob_widthOuter_560{
+    width: 100% ;
+        max-width: 624px ;
+    }
+     .mob_widthOuter_580{
+     width: 100% ;
+        max-width: 624px ;
+    }
+    .mob_widthOuter_250{
+   width: 100% ;
+        max-width: 624px ;
+    }
+           .desktop_only {
+        display: none ;
+    }
+  
+    }
+    
+    </style>
+
+
+
+ 
+   </head>
+<body class=body_wrapper style=" Margin-top:0;
+      Margin-bottom:0;
+      Margin-right:0;
+      Margin-left:0;
+      padding-top:0;
+      padding-bottom:0;
+      padding-right:0;
+      padding-left:0;
+      background-color:#F1F3F4;">
+
+<div style="display:none; font-size:1px; color:#333333; line-height:10px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">Invite businesses that you know to Google Ads and start earning rewards together.</div>
+      <section>
+         <div id=wrapper dir=ltr style="
+ Margin-top: 0;
+ Margin-bottom: 0;
+ Margin-right: auto;
+ Margin-left: auto;
+ margin-top: 0; margin-bottom: 0;margin-right: auto;margin-left: auto;background-color:#FFFFFF;" class=wrapper_app>
+      <table role=presentation bgcolor="" class=mob_widthOuter id=wrapper dir=ltr style=width:100%;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto; width=100% class=mob_widthOuter>
+<tr>
+
+<td bgcolor="" class=mob_pad_outer style="	Margin-top:0;
+  	Margin-bottom:0;
+  	Margin-right:0;
+  	Margin-left:0;
+	padding-top:0;
+  	padding-bottom:0;
+  	padding-right:0;
+  	padding-left:0;
+">
+
+        <table class="desk_show header_bkg_color" role=presentation width=720 align=center cellpadding=0 cellspacing=0 border=0 style="width:720px;border-bottom:1px solid #DADCE0;text-align:center;background-color: #FFFFFF;">
+               <tbody>
+                    <tr>
+                      <td class=foot style="">
+ <table role=presentation cellpadding=0 cellspacing=0 border=0 align=left class="">
+                            <tbody>
+                             <tr>
+                              <td style="padding-top:22px; padding-left:52px; padding-bottom:20px;">
+                                 <amp-img class="" src=https://www.gstatic.com/gumdrop/files/adwords-header-logo-desk-transparent-w256px-h48px-2x.png style="max-width: 128px;" height=24 width=128 aria-hidden=true />
+                                  </td>
+                            </tr>
+                          </tbody></table>
+    <table role=presentation width=auto cellpadding=0 cellspacing=0 border=0 align=right class="">
+                                          <!--[if mso]>
+<tr><td height="0" style="line-height: 0;padding-left:5px; height:0px;" class="">&nbsp;</td></tr>
+<![endif]-->
+                                          <!--[if !mso]><!-->
+     <tbody><tr><td height=5 style="line-height: 0;padding-left:5px; height:5px;" class="">&nbsp;</td></tr><!--<![endif]-->
+   <tr>
+                                            <!--[if mso]>
+                                            <td style="padding-top:10px;padding-bottom:17px;"> 
+                                            <![endif]-->
+                                            <!--[if !mso]><!-->
+                                            <td align=right class="" style="padding-left:32px; padding-left:8px;"> 
+                                             <!--<![endif]-->
+                                              <table role=presentation class="" cellpadding=0 cellspacing=0 border=0 width=100% dir=ltr>
+                                                <tbody><tr>
+                                                  <td role=text class="white_txt_color darkbg dark_search_count" style="font-size:14px; font-weight:400; letter-spacing: 0; line-height:21px; color:#202124; text-align:left; font-family: Google Sans, Roboto, Open Sans, arial,sans-serif;direction:ltr;padding-top:19px;padding-bottom:14px; "><!--[if mso]><font face="Arial,sans-serif"><![endif]--> Your customer ID: <span dir=ltr style="direction: ltr;white-space: nowrap;" class="forApple dark_search_count"><strong class=forApple style=font-weight:normal;><a class=white_dark style=" color: #444444; text-decoration: none;  " target=_blank><span dir=ltr style="color: #444444; white-space: nowrap; text-decoration: none;  color: #444444; direction:ltr;">203-536-3486</span></a></strong></span></td>
+
+             <!--<td style="width:20px;max-width:20px;" width="20">&nbsp;</td>-->
+                                               
+       <td valign=middle align=right class=icon_padd style="padding:20px 10px 14px 15px;">
+         <a aria-hidden=true class=width48 target=_blank style="padding:19px 12px 14px 0px; text-decoration: none;  cursor: pointer;">
+               <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-new-customer-icon-transparent-w83px-h83px-2x.png width=21.33px height=20.27 style=width:21.33px aria-hidden=true alt="" /></a>
+ </td>
+   </tr>
+     </tbody></table>
+            </td>
+                 </tr>
+                     </tbody></table>
+                      </td> </tr></tbody></table>
+  <!--[if !mso]><!-->
+         <table class="foot mob_show_table header_bkg_color" role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style="width:100%;border-bottom:1px solid #DADCE0;background-color: #FFFFFF;">
+
+                  <tbody>
+                    <tr>
+                      <td>
+
+                          <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center class="">
+                            <tbody>
+                             <tr>
+                              <td style="padding-top:31px; padding-left:0px; padding-bottom:12px;">
+                                  <amp-img class="" src=https://www.gstatic.com/gumdrop/files/adwords-header-logo-desk-transparent-w256px-h48px-2x.png style="max-width: 143px;" height=27 width=143 aria-hidden=true />
+                                  </td>
+                            </tr>
+                          </tbody></table>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>
+
+                                          <table role=presentation width=auto cellpadding=0 cellspacing=0 border=0 align=center class="">
+
+                                          <tbody>
+
+                                          <tr>
+                                            <td align=right class="" style=padding-top:0px;> 
+                                              <table role=presentation class="" cellpadding=0 cellspacing=0 border=0 width=100% dir=ltr>
+                                                <tbody><tr>
+                                                  <td role=text class="darkbg header_cid_color white_txt_color dark_search_count" style="font-size:14px; line-height:21px; font-weight:400;font-family: Google Sans, Roboto, Open Sans, arial,sans-serif;color:#202124; text-align:center; padding-bottom: 20px;padding-top:3px;direction:ltr;">Your customer ID: <span dir=ltr style="direction: ltr;white-space: nowrap;padding-left:2px;" class="forApple dark_search_count"><strong class=forApple style=font-weight:normal;><a class=white_dark style=" color: #444444; text-decoration: none;  " target=_blank><span dir=ltr style="color: #444444; white-space: nowrap; text-decoration: none;  color: #444444; direction:ltr;">203-536-3486</span></a></strong></span></td>
+
+ <td align=right class=cid_padding_mob style="padding-left: 14px;padding-top: 5px;padding-left: 0px;padding-bottom: 20px;">
+                                                    <a aria-hidden=true class="width48 mob_link_cid" target=_blank style="text-decoration: none; padding:19px 15px 15px;  cursor: pointer;">
+                                                      <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-new-customer-icon-transparent-w83px-h83px-2x.png height=20.27 width=20 style=width:20px aria-hidden=true alt="" /></a></td>
+                                                </tr>
+                                              </tbody></table>
+                                            </td>
+                                          </tr>
+                                          </tbody></table>
+                      </td> </tr></tbody></table>
+<!--<![endif]-->
+<table class="wrapper desk_show" role=presentation cellspacing=0 cellpadding=0 width=720 align=center style=" background-color: white; text-align: center;width:720px;">
+   
+<tr>
+
+<td class="wrapper spacing mob_padd_20 font_size_class  dark_search_count" style="font-family:Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;direction:ltr; text-align:center; font-size: 64px;font-weight:700;color: #202124; padding:50px 60px 20px;word-break: break-word;line-height:64px;width:628px;;letter-spacing:-0.68px;" dir=ltr>Refer <a aria-hidden=true target=_blank class=only_desktop style="text-decoration: none;  cursor: pointer;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-invite-4-desk-transparent-w300px-h282px-2x.gif width=62 height=62 aria-hidden=true alt="" class=image_size /></a>
+  
+<a aria-hidden=true class=only_mobile target=_blank style="text-decoration: none;  cursor: pointer;">
+  <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-invite-4-desk-transparent-w300px-h282px-2x.gif width=42 height=42 layout=fixed aria-hidden=true alt="" class="image_size_1 " /> 
+  </a>  
+your <br>  <a aria-hidden=true class=only_desktop target=_blank style="text-decoration: none;  cursor: pointer;">
+    <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-network-4-desk-transparent-w300px-h316px-2x.gif width=62 height=62 aria-hidden=true alt="" class=image_size />
+</a>
+  
+  <a aria-hidden=true class=only_mobile target=_blank style="text-decoration: none;  cursor: pointer;">
+  <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-network-4-desk-transparent-w300px-h316px-2x.gif width=42 height=42 layout=fixed aria-hidden=true alt="" class="image_size_1 " />
+  
+  </a>
+  
+network and <span style=white-space:nowrap;>earn rewards  <a aria-hidden=true class=only_desktop target=_blank style="text-decoration: none;  cursor: pointer;">
+  <amp-img src=https://www.gstatic.com/gumdrop/files//adwords-reward-4-desk-transparent-w248px-h248px-2x.gif width=62 height=62 layout=fixed aria-hidden=true alt="" class="image_size " />
+  </a>
+  
+    <a aria-hidden=true class=only_mobile target=_blank style="text-decoration: none;  cursor: pointer;">
+  <amp-img src=https://www.gstatic.com/gumdrop/files//adwords-reward-4-desk-transparent-w248px-h248px-2x.gif width=42 height=42 layout=fixed aria-hidden=true alt="" class="image_size_1 " />
+  
+  </a></span></td>
+
+  </tr>
+  <tr>
+
+<td class="wrapper spacing mob_padd_20 font_size_class_para dark_search_count" style="font-family:Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif ;direction:ltr; text-align:center; font-size: 16px;font-weight:400;color: #202124; padding: 0px 60px 25px;word-break: break-word;line-height:24px;width:628px;" dir=ltr>Invite businesses that you know to <span style=white-space:nowrap;>Google Ads.</span> You'll earn <span style=white-space:nowrap;>$250</span> in ad credit when they start spending on Ads, and they can earn ad <span style=white-space:nowrap;>credit too.</span></td>
+
+  </tr>
+</table>
+  <!--[if !mso]><!-->
+  <table class="wrapper mob_show_table" role=presentation cellspacing=0 cellpadding=0 width=100% align=center style=" background-color: white; text-align: center;width:100%;">
+   
+<tr>
+
+<td class="wrapper spacing mob_padd_20 font_size_class  dark_search_count" style="font-family:Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;direction:ltr; text-align:center; font-size: 40px;font-weight:700;color: #202124; padding:30px 10px 10px;word-break: break-word;line-height:48px;width:100%;;letter-spacing:-0.44px;" dir=ltr>Refer <a aria-hidden=true target=_blank class=only_desktop style="text-decoration: none;  cursor: pointer;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-invite-4-desk-transparent-w300px-h282px-2x.gif width=62 height=62 aria-hidden=true alt="" class=image_size /></a>
+  
+<a aria-hidden=true class=only_mobile target=_blank style="text-decoration: none;  cursor: pointer;">
+  <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-invite-4-desk-transparent-w300px-h282px-2x.gif width=42 height=42 layout=fixed aria-hidden=true alt="" class="image_size_1 " /> 
+  </a>  
+your <br>  <a aria-hidden=true class=only_desktop target=_blank style="text-decoration: none;  cursor: pointer;">
+    <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-network-4-desk-transparent-w300px-h316px-2x.gif width=62 height=62 aria-hidden=true alt="" class=image_size />
+</a>
+  
+  <a aria-hidden=true class=only_mobile target=_blank style="text-decoration: none;  cursor: pointer;">
+  <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-network-4-desk-transparent-w300px-h316px-2x.gif width=42 height=42 layout=fixed aria-hidden=true alt="" class="image_size_1 " />
+  
+  </a>
+  
+network and <span style=white-space:nowrap;>earn rewards  <a aria-hidden=true class=only_desktop target=_blank style="text-decoration: none;  cursor: pointer;">
+  <amp-img src=https://www.gstatic.com/gumdrop/files//adwords-reward-4-desk-transparent-w248px-h248px-2x.gif width=62 height=62 layout=fixed aria-hidden=true alt="" class="image_size " />
+  </a>
+  
+    <a aria-hidden=true class=only_mobile target=_blank style="text-decoration: none;  cursor: pointer;">
+  <amp-img src=https://www.gstatic.com/gumdrop/files//adwords-reward-4-desk-transparent-w248px-h248px-2x.gif width=42 height=42 layout=fixed aria-hidden=true alt="" class="image_size_1 " />
+  
+  </a></span></td>
+
+  </tr>
+  <tr>
+
+<td class="wrapper spacing mob_padd_20 font_size_class_para dark_search_count" style="font-family:Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif ;direction:ltr; text-align:center; font-size: 16px;font-weight:400;color: #202124; padding: 0px 30px 20px;word-break: break-word;line-height:24px;width:100%;" dir=ltr>Invite businesses that you know to <span style=white-space:nowrap;>Google Ads.</span> You'll earn <span style=white-space:nowrap;>$250</span> in ad credit when they start spending on Ads, and they can earn ad <span style=white-space:nowrap;>credit too.</span></td>
+
+  </tr>
+</table>
+  <!--<![endif]-->
+
+<table cellspacing=0 cellpadding=0 border=0 class="dashboard_button wrapper  desk_show_table" width=auto align=center role=presentation style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width: 720px; background-color: white; padding-bottom:0px;">
+  <tr>
+    <td align=center>
+      <table cellspacing=0 cellpadding=0 border=0 class=inner_blu_btn4 style="border-collapse:collapse; clear:both; padding:0; Margin:0;  table-layout:fixed;" role=presentation>
+        <tbody>
+          <tr>
+            <td class="buttonA padding_mob" style="border-collapse:collapse;word-break: break-word;padding: 0px 37px 0px 37px;direction:ltr;" align=center dir=ltr><div>
+<!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word"  style="height:48px;v-text-anchor:middle;width:136px;" arcsize="18%" strokecolor="#1A73E8" fillcolor="#1A73E8">
+<w:anchorlock/>
+<center style="color:#ffffff;font-family:Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size:16px;font-weight:500; ">Refer now</center>
+</v:roundrect>
+<![endif]-->
+              <!--[if !mso]><!-->
+     <a href=https://c.gle/APy2Ad1qjr5wdQNKtzAvTaC37yX3g-s0e5Fg45Dve_UcbUvxtxUIs8yT0TQzDSh1hICY8enw3lFpfbissXQpsIq7L4rv_6Pt77wf-PvKR8afIckf-kLfl7wEdZhfuvMhwW16K57KcJe_rMZjGNA6rofMNK-EPUL8RWmRcHQa-D9Y9aQ target=_blank class="mob_font_size1 button_box " style="direction:ltr;border-radius:37px;color:#ffffff;display:inline-block;font-size:16px; line-height:24px;font-weight:500;background-color:#1A73E8;text-align:center;text-decoration:none; padding: 12px 31px 12px 31px;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif ">Refer now</a>
+<!--<![endif]-->
+</div></td></tr></tbody></table></td></tr></table>
+   
+   <!--[if !mso]><!-->
+   
+   <table cellspacing=0 cellpadding=0 border=0 class=mob_show_table width=100% align=center role=presentation style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width: 100%; background-color: white; padding-bottom:0px;">
+  <tr>
+    <td align=center>
+      <table cellspacing=0 cellpadding=0 border=0 class=inner_blu_btn4 style="border-collapse:collapse; clear:both; padding:0; Margin:0;  table-layout:fixed;" role=presentation>
+        <tbody>
+          <tr>
+            <td class="buttonA padding_mob" style="border-collapse:collapse;word-break: break-word;padding: 0px 37px 0px 37px;direction:ltr;" align=center dir=ltr><div>
+
+     <a href=https://c.gle/APy2Ad1qjr5wdQNKtzAvTaC37yX3g-s0e5Fg45Dve_UcbUvxtxUIs8yT0TQzDSh1hICY8enw3lFpfbissXQpsIq7L4rv_6Pt77wf-PvKR8afIckf-kLfl7wEdZhfuvMhwW16K57KcJe_rMZjGNA6rofMNK-EPUL8RWmRcHQa-D9Y9aQ target=_blank class="mob_font_size1 button_box " style="direction:ltr;border-radius:37px;color:#ffffff;display:inline-block;font-size:16px; line-height:24px;font-weight:500;background-color:#1A73E8;text-align:center;text-decoration:none; padding: 12px 31px 12px 31px;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif ">Refer now</a>
+
+</div></td></tr></tbody></table></td></tr></table>
+    <!--<![endif]-->
+  
+    
+      <table align=center role=presentation cellpadding=0 cellspacing=0 border=0 width=720 style=background-color:#FFFFFF;width:720px; class=desk_show>
+        <tbody>
+<tr>
+        <td align=center style=padding-top:50px;>
+              <table width=100% border=0 cellpadding=0 cellspacing=0 role=presentation style="max-width: 600px; background-color:#F8F9FA; border-radius: 30px;">
+                  <tbody>
+  <tr>
+    <td>
+      <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=600 class=desk_show style="width:600px; background-color:#F8F9FA;border-radius:30px;">
+        <tr>
+          <td>
+            <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=600 style=padding-top:40px;>
+              <tr>
+                <td align=center class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 32px;font-style: normal;font-weight: 700;line-height: 40px;padding-bottom:0px;color: #202124;padding-right:5px;direction:ltr;">Get started with referrals</td>
+              </tr>
+            </table>
+            <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=600 dir=ltr style="padding:30px 0px 48px;width:600px">
+              <tr>
+                <td>
+                  <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center dir=ltr style=width:600px>
+                    <tr>
+                      <td valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 width=160 align=center dir=ltr style=padding-left:10px;>
+                          <tr>
+                            <td align=center style=padding-bottom:10px;>
+                              <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-1-desk-transparent-w46px-h81px-2x.png width=45 height=80 aria-hidden=true />
+                            </td>
+                          </tr>
+                          
+                          <tr>
+                    <td align=center class=dark_search_count style="font-family: Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 18px;font-style: normal;font-weight: 700;line-height: 30px;color: #3C4043;">Refer a business</td>
+                          </tr>
+                          <tr>
+<td align=center class=dark_search_count style="font-family: Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 14px;font-style: normal;line-height: 22px;color: #3C4043;padding:0px 0px 0px 0px;font-weight: 400;">Send out invites to Ads with your unique link.</td>
+                          </tr>
+                        </table>
+                      </td>
+
+                      <td width=10 style="border-right:1px solid #DADCE0;">&nbsp;</td>
+
+                      <td valign=top>
+                        <table role=presentation cellpadding=0 cellspacing=0 border=0 width=160 align=center dir=ltr>
+                          <tr>
+                            <td align=center style=padding-bottom:10px;>
+                              <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-2-desk-transparent-w46px-h81px-2x.png width=45 height=80 aria-hidden=true />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align=center class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 18px;font-style: normal;font-weight: 700;line-height: 30px;color: #3C4043;padding:0px 0px">They sign up</td>
+                          </tr>
+                          <tr>
+                    <td align=center class=dark_search_count style="font-family: Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 14px;font-style: normal;line-height: 22px;color: #3C4043;padding:0px 0px 0px 0px;font-weight: 400;">Your business contacts sign up and start advertising.                            
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+
+                      <td width=10 style="border-right:1px solid #DADCE0;">&nbsp;</td>
+
+                      <td valign=top>
+                                         <table role=presentation cellpadding=0 cellspacing=0 border=0 width=160 align=center dir=ltr style=padding-right:12px;>
+                          <tr>
+                            <td align=center style=padding-bottom:10px;>
+                              <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-3-desk-transparent-w46px-h81px-2x.png width=45 height=80 aria-hidden=true />
+                            </td>
+                          </tr>
+                          <tr>
+                                                <td align=center class=dark_search_count style="font-family: Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 18px;font-style: normal;font-weight: 700;line-height: 30px;color: #3C4043;">You both earn</td>
+                          </tr>
+                          <tr>
+                                                <td align=center class=dark_search_count style="font-family: Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 14px;font-style: normal;line-height: 22px;color: #3C4043;padding:0px 0px 0px 0px;font-weight: 400;">Both you and those that you referred start earning <span style=white-space:nowrap;>ad credit.</span></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table> 
+          </td>
+        </tr>
+      </table> 
+    </td>
+  </tr>
+                
+                </tbody>
+   
+   </table>
+           </td>
+          </tr>
+        </tbody>       
+     </table>
+ 
+      <!--[if !mso]><!-->
+      <table align=center role=presentation cellpadding=0 cellspacing=0 border=0 style=background-color:#FFFFFF class=mob_show_table dir=ltr width=100%>
+         <tbody>
+<tr>
+        <td align=center style="padding:40px 20px 0px">
+              <table width=100% border=0 cellpadding=0 cellspacing=0 role=presentation style="max-width: 100%; background-color:#F8F9FA; border-radius: 30px;">
+                  <tbody>
+  <tr>
+    <td>
+      <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=100% class="" dir=ltr style="width:100%; background-color:#F8F9FA;border-radius:30px;">
+        
+        <tr>
+        <td align=center style=padding-left:0px;padding-right:0px;>
+          <table align=center role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr width=100%>
+            <tr>
+            <td align=center class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 28px;font-style: normal;font-weight: 700;line-height: 36px;padding:30px 30px 20px 30px;color: #202124;direction:ltr;">Get started with referrals</td>
+            </tr>
+          </table>
+          </td></tr>
+     
+        <tr>
+        <td align=left style=padding-left:25px;padding-right:25px;>
+          <table class=mob_fix role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr width=100%>
+            <tr>
+            <td style=padding-bottom:18px; align=left>
+              <table role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr>
+                <tr>
+                <td valign=top style=padding-top:5px;>
+                  <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-1-desk-transparent-w46px-h81px-2x.png width=45 height=80 aria-hidden=true />
+                  </td>
+                  <td width=17>&nbsp;</td>
+                  <td>
+                  <table role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr>
+                    <tr>
+                    <td style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 38px;font-style: normal;font-weight: 700;line-height: 58px;color: #202124;text-align:left;direction:ltr;">
+
+                        </td>
+                    </tr>
+                    <tr>
+                    <td class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 16px;font-style: normal;font-weight:700;line-height: 24px;padding-bottom:5px;color: #3C4043;">Refer a business</td>
+                    </tr>
+                      <tr>
+                    <td class=dark_search_count align="" style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 14px;font-style: normal;line-height: 22px;color: #3C4043;padding:0px">Send out invites to Ads with your unique link.
+                      </td>
+                    </tr>
+                    
+                    </table>
+                  </td>
+                </tr>
+              </table>
+               
+              </td>
+            </tr>
+             <tr>
+                    <td style="border-top: 1px solid #BDC1C6;"></td>  
+                    </tr>
+          </table>
+          </td>
+           </tr>
+        <tr>
+        <td align=left style=padding-left:25px;padding-right:25px;>
+          <table class=mob_fix role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr width=100%>
+            <tr>
+            <td style=padding-bottom:18px; align=left>
+              <table role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr>
+                <tr>
+                <td valign=top style=padding-top:18px;>
+                  <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-2-desk-transparent-w46px-h81px-2x.png width=45 height=80 aria-hidden=true />
+                  </td>
+                  <td width=17>&nbsp;</td>
+                  <td>
+                  <table role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr>
+                    <tr>
+                    <td style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 38px;font-style: normal;font-weight: 700;line-height: 58px;color: #202124;text-align:left;direction:ltr;">
+
+                        </td>
+                    </tr>
+                    <tr>
+                    <td class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 16px;font-style: normal;font-weight:700;line-height: 24px;padding-bottom:5px;color: #3C4043;padding-top:18px;">They sign up</td>
+                    </tr>
+                      <tr>
+                    <td class=dark_search_count align="" style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 14px;font-style: normal;line-height: 22px;color: #3C4043;padding:0px">Your business contacts sign up and start advertising.
+                      </td>
+                    </tr>
+                     
+                    </table>
+                  </td>
+                </tr>
+              </table>
+               
+              </td>
+            </tr>
+             <tr>
+                    <td style="border-top: 1px solid #BDC1C6;"></td>  
+                    </tr>
+          </table>
+          </td>
+           </tr>
+        
+       <tr>
+        <td align=left style=padding-left:25px;padding-right:25px;padding-bottom:40px;>
+          <table class=mob_fix role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr width=100%>
+            <tr>
+            <td style=padding-bottom:0px; align=left>
+              <table role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr>
+                <tr>
+                <td valign=top style=padding-top:18px;>
+                  <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-3-desk-transparent-w46px-h81px-2x.png width=45 height=80 aria-hidden=true />
+                  </td>
+                  <td width=17>&nbsp;</td>
+                  <td>
+                  <table role=presentation cellpadding=0 cellspacing=0 border=0 dir=ltr>
+                    <tr>
+                    <td style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 38px;font-style: normal;font-weight: 700;line-height: 58px;color: #202124;text-align:left;direction:ltr;">
+
+                        </td>
+                    </tr>
+                    <tr>
+                    <td class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 16px;font-style: normal;font-weight:700;line-height: 24px;padding-bottom:5px;color: #3C4043;padding-top:18px;">You both earn</td>
+                    </tr>
+                      <tr>
+                    <td class=dark_search_count align="" style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 14px;font-style: normal;line-height: 22px;color: #3C4043;padding:0px">Both you and those that you referred start earning <span style=white-space:nowrap;>ad credit.</span>
+                      </td>
+                    </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+               
+              </td>
+            </tr>
+          </table>
+          </td>
+           </tr>  
+      </table>
+    </td>
+                    </tr>
+                </tbody>
+          </table>
+  </td>
+           </tr>
+        </tbody>
+   </table>
+      <!--<![endif]-->
+   <tr>
+    <td>
+      <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=720 class=desk_show dir=ltr>
+        <tr>
+        <td>
+          <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=600 dir=ltr style=padding-top:50px;padding-bottom:24px;>
+            <tr>
+            <td class=dark_search_count align=center style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 28px;font-style: normal;font-weight: 700;line-height: 36px;color: #202124;direction:ltr;">FAQs</td>
+            </tr>
+          </table>
+           <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=600 class="" dir=ltr style=padding-bottom:50px;>
+        <tr>
+             <td>
+<table bgcolor=#E8F0FE width=600 align=center cellspacing=0 cellpadding=0 style="width:600px; margin:0 auto; max-width:600px;border-radius:30px">
+ 
+  
+<tr>
+<td style=padding-bottom:15px>
+
+<amp-accordion animate>
+<section>
+ <h2 class=border_radius style="margin:0px; padding:0px; background-color:#E8F0FE; border:none; width:99.9%; margin-top:9px;">
+  <table cellpadding=0 cellspacing=0 border=0 dir=ltr>
+   <tbody>
+     
+     <tr>
+     
+      <td class="amp-text1 dark_search_count" style="color:#444444; font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; line-height:26px; font-weight:700;width:100%; text-align:left; padding-top:14px;   font-size: 18px; color: #3C4043; background-color: #E8F0FE; line-height: 28px;direction:ltr;
+">What is the referral programme?
+      </td>
+      <td align=right class=accordion_right_width style=" text-align:left; display:inline-block; font-size: 3px; color: #3C4043; background-color: #E8F0FE; padding-top:13px; padding-right:30px ;padding-bottom: 0px;
+">
+        <amp-img class=right_img src=https://www.gstatic.com/gumdrop/files/adwords-arrow-up-transparent-w97px-h96px-2x.png width=48 height=48 alt=Arrow></amp-img>
+      </td>
+     </tr>
+   </tbody>
+  </table>
+ </h2>
+ <table width=100% cellpadding=0 cellspacing=0 border=0 dir=ltr>
+  <tbody>
+   <tr>
+  
+     <td class="amp-text2 dark_search_count" valign=top style="color:#444444;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width:480px;text-align:left;line-height:24px;font-weight:400;  font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;padding:0px 30px 0px;direction:ltr;
+" width="" align=right> This programme lets you invite businesses that are new to <span style=white-space:nowrap;>Google Ads.</span> When a referred business signs up through your unique link and begins spending on <span style=white-space:nowrap;>Google Ads,</span> you'll earn ad credit for helping them get started.</td>
+ 
+   </tr>
+  
+  </tbody>
+ </table>
+  
+</section>
+<section>
+ <h2 class=border_radius style="margin:0px; padding:0px; background-color:#E8F0FE; border:none; width:99.9%; margin-top:10px; ">
+      <table cellpadding=0 cellspacing=0 border=0 width=100%>
+   <tbody>
+     <tr>
+           <td style="padding:14px 20px 0px">
+    <table role=presentation align=center border=0 cellpadding=0 cellspacing=0 style="text-align: center;width: 100%;">
+        <tbody><tr>
+          <td height=1 style="height: 1px;border-top: 1px solid #BDC1C6;"></td>  
+        </tr>
+    </tbody></table>
+</td>
+
+           </tr>
+      </tbody>
+   </table>
+  <table cellpadding=0 cellspacing=0 border=0 dir=ltr>
+   <tbody>
+     <tr>
+     
+      <td class="amp-text3 dark_search_count" style="color:#444444; font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; line-height:26px; font-weight:700;width:100%; text-align:left; padding-bottom:0px;  font-size: 18px; color: #3C4043; background-color: #E8F0FE; line-height: 28px;direction:ltr;">Who can I refer and how do I share my link?
+      </td>
+      <td align=right class=accordion_right_width style=" text-align:left; display:inline-block; font-size: 3px; color: #3C4043; background-color: #E8F0FE; padding-top:10px; padding-right:30px;
+">
+        <amp-img class=right_img src=https://www.gstatic.com/gumdrop/files/adwords-arrow-up-transparent-w97px-h96px-2x.png width=48 height=48 alt=Arrow></amp-img>
+      </td>
+     </tr>
+   </tbody>
+  </table>
+ </h2>
+ <table width=100% cellpadding=0 cellspacing=0 border=0 dir=ltr>
+  <tbody>
+   <tr>
+  
+     <td class="amp-text4 dark_search_count" valign=top style="color:#444444;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width:480px;text-align:left;line-height:24px;  font-size: 16px; color: #3C4043; background-color: #E8F0FE; font-weight:400;line-height: 24px;padding:0px 30px 0px;direction:ltr;
+" width="" align=right> You can refer any businesses that are completely new to <span style=white-space:nowrap;>Google Ads</span> and not connected to your own account. Simply select 'Refer your network' to get your unique link, then share it with the businesses that you'd like <span style=white-space:nowrap;>to invite.</span></td>
+ 
+   </tr>
+  
+  </tbody>
+ </table>
+</section>
+<section style="">
+ <h2 class="border_radius " style="margin:0px; padding:0px; background-color:#E8F0FE; border:none; width:99.9%;margin-bottom:10px; margin-top:10px; margin-top:15px;">
+      <table cellpadding=0 cellspacing=0 border=0 width=100%>
+   <tbody>
+     <tr>
+           <td style="padding:5px 20px 0px">
+    <table role=presentation align=center border=0 cellpadding=0 cellspacing=0 style="text-align: center;width: 100%;">
+        <tbody><tr>
+          <td height=1 style="height: 1px;border-top: 1px solid #BDC1C6;"></td>  
+        </tr>
+    </tbody></table>
+</td>
+
+           </tr>
+      </tbody>
+   </table>
+  <table cellpadding=0 cellspacing=0 border=0 dir=ltr>
+   <tbody>
+     <tr>
+   
+      <td class="amp-text4 dark_search_count" style="color:#444444; font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; line-height:26px; font-weight:700;width:100%; text-align:left; padding-bottom:0px;  font-size: 18px; color: #3C4043; background-color: #E8F0FE; line-height: 28px;direction:ltr;
+">When will I receive my ad credit? What is the maximum amount of credit that I can earn?
+      </td>
+      <td align=right class=accordion_right_width style=" text-align:left; display:inline-block; font-size:3px; color: #3C4043; background-color: #E8F0FE; padding-top:10px; padding-right:30px;
+">
+        <amp-img class=right_img src=https://www.gstatic.com/gumdrop/files/adwords-arrow-up-transparent-w97px-h96px-2x.png width=48 height=48 alt=Arrow></amp-img>
+      </td>
+     </tr>
+   </tbody>
+  </table>
+ </h2>
+ <table width=100% cellpadding=0 cellspacing=0 border=0 dir=ltr>
+  <tbody>
+   <tr>
+  
+     <td class="amp-text6 dark_search_count" valign=top style="color:#444444;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width:480px;text-align:left;line-height:24px;font-weight:400;  font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;padding:0px 30px 24px;border-radius:30px;direction:ltr;
+" width="" align=right> You will earn <span style=white-space:nowrap;>$250</span> in ad credit for each referral who signs up using your link and starts spending within their first <span style=white-space:nowrap;>60 days – up</span> to 10 referrals per calendar year, for a total <span style=white-space:nowrap;>of $2,500.</span></td>
+ 
+   </tr>
+  
+  </tbody>
+ </table>
+</section>
+
+</amp-accordion>
+
+</td>
+</tr>
+</table>
+          </td>
+             </tr>
+          </table>
+          </td>
+        </tr>
+      </table>
+      
+        <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=100% class=mob_show_table dir=ltr style="">
+        <tr>
+        <td>
+          <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=100% dir=ltr style=padding-top:40px;padding-bottom:24px;>
+            <tr>
+            <td align=center class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size: 28px;font-style: normal;font-weight: 700;line-height: 36px;color: #202124;direction:ltr;">FAQs</td>
+            </tr>
+          </table>
+           <table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=100% class="" dir=ltr style="padding:0px 20px 40px;">
+        <tr>
+             <td>
+<table bgcolor=#E8F0FE width=99.9% align=center cellspacing=0 cellpadding=0 style="width:99.9%; margin:0 auto; max-width:100%;border-radius:10px">
+ 
+  
+<tr>
+<td>
+
+<amp-accordion animate>
+<section>
+ <h2 class=border_radius style="margin:0px; padding:0px; background-color:#E8F0FE; border:none; width:99.9%; margin-top:10px; margin-top:15px;">
+  <table cellpadding=0 cellspacing=0 border=0 dir=ltr>
+   <tbody>
+     
+     <tr>
+     
+      <td class="amp-text1 dark_search_count" style="color:#444444; font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; line-height:26px; font-weight:700;width:100%; text-align:left; padding-top:5px; padding-top:0px;  font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;direction:ltr;
+">What is the referral programme?
+      </td>
+      <td align=right class=accordion_right_width style=" text-align:left; display:inline-block;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;padding-top:10px;
+">
+         <amp-img class=right_img src=https://www.gstatic.com/gumdrop/files/adwords-arrow-up-transparent-w97px-h96px-2x.png width=48 height=48 alt=Arrow></amp-img>
+      </td>
+     </tr>
+   </tbody>
+  </table>
+ </h2>
+ <table width=100% cellpadding=0 cellspacing=0 border=0 dir=ltr>
+  <tbody>
+   <tr>
+  
+     <td class="amp-text2 dark_search_count" valign=top style="color:#444444;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width:100%;text-align:left;line-height:26px;  font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;direction:ltr;
+" width="" align=right> This programme lets you invite businesses that are new to <span style=white-space:nowrap;>Google Ads.</span> When a referred business signs up through your unique link and begins spending on <span style=white-space:nowrap;>Google Ads,</span> you'll earn ad credit for helping them get started.</td>
+ 
+   </tr>
+   <tr>
+     <td class=accordion_left_width style="display:inline-block; text-align:center; font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;
+"></td>
+ 
+   </tr>
+  </tbody>
+ </table>
+</section>
+<section>
+ <h2 class=border_radius style="margin:0px; padding:0px; background-color:#E8F0FE; border:none; width:99.9%; margin-top:10px; margin-top:15px;">
+    <table cellpadding=0 cellspacing=0 border=0 width=100%>
+   <tbody>
+     <tr>
+           <td style="padding:0px 20px 20px 20px">
+    <table role=presentation align=center border=0 cellpadding=0 cellspacing=0 style="text-align: center;width: 100%;">
+        <tbody><tr>
+          <td height=1 style="height: 1px;border-top: 1px solid #BDC1C6;"></td>  
+        </tr>
+    </tbody></table>
+</td>
+
+           </tr>
+      </tbody>
+   </table>
+  <table cellpadding=0 cellspacing=0 border=0 dir=ltr>
+   <tbody>
+     <tr>
+     
+      <td class="amp-text1 dark_search_count" style="color:#444444; font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; line-height:26px; font-weight:700;width:100%; text-align:left; padding-top:5px; padding-top:0px;  font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;direction:ltr;
+">Who can I refer and how do I share my link?
+      </td>
+      <td align=right class=accordion_right_width style=" text-align:left; display:inline-block;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;
+">
+         <amp-img class=right_img src=https://www.gstatic.com/gumdrop/files/adwords-arrow-up-transparent-w97px-h96px-2x.png width=48 height=48 alt=Arrow></amp-img>
+      </td>
+     </tr>
+   </tbody>
+  </table>
+ </h2>
+ <table width=100% cellpadding=0 cellspacing=0 border=0 dir=ltr>
+  <tbody>
+   <tr>
+  
+     <td class="amp-text2 dark_search_count" valign=top style="color:#444444;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width:100%;text-align:left;line-height:26px;  font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;direction:ltr;
+" width="" align=right> You can refer any businesses that are completely new to <span style=white-space:nowrap;>Google Ads</span> and not connected to your own account. Simply select 'Refer your network' to get your unique link, then share it with the businesses that you'd like <span style=white-space:nowrap;>to invite.</span></td>
+ 
+   </tr>
+   <tr>
+     <td class=accordion_left_width style="display:inline-block; text-align:center; font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;
+"></td>
+  
+ 
+   </tr>
+  </tbody>
+ </table>
+</section>
+<section style="">
+ <h2 class=border_radius style="margin:0px; padding:0px; background-color:#E8F0FE; border:none; width:99.9%;margin-bottom:15px; margin-top:10px; margin-top:15px;">
+    <table cellpadding=0 cellspacing=0 border=0 width=100%>
+   <tbody>
+     <tr>
+           <td style="padding:0px 20px 20px 20px">
+    <table role=presentation align=center border=0 cellpadding=0 cellspacing=0 style="text-align: center;width: 100%;">
+        <tbody><tr>
+          <td height=1 style="height: 1px;border-top: 1px solid #BDC1C6;"></td>  
+        </tr>
+    </tbody></table>
+</td>
+
+           </tr>
+      </tbody>
+   </table>
+  <table cellpadding=0 cellspacing=0 border=0 dir=ltr>
+   <tbody>
+     <tr>
+   
+      <td class="amp-text1 dark_search_count" style="color:#444444; font-family:Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; line-height:26px; font-weight:700;width:100%; text-align:left; padding-top:5px; padding-top:0px;  font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;direction:ltr;
+">When will I receive my ad credit? What is the maximum amount of credit that I can earn?
+      </td>
+      <td align=right class=accordion_right_width style=" text-align:left; display:inline-block;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;
+">
+         <amp-img class=right_img src=https://www.gstatic.com/gumdrop/files/adwords-arrow-up-transparent-w97px-h96px-2x.png width=48 height=48 alt=Arrow></amp-img>
+      </td>
+     </tr>
+   </tbody>
+  </table>
+ </h2>
+ <table width=100% cellpadding=0 cellspacing=0 border=0 dir=ltr>
+  <tbody>
+   <tr>
+  
+     <td class="amp-text2 dark_search_count" valign=top style="color:#444444;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width:100%;text-align:left;line-height:26px;  font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;direction:ltr;
+" width="" align=right> You will earn <span style=white-space:nowrap;>$250</span> in ad credit for each referral who signs up using your link and starts spending within their first <span style=white-space:nowrap;>60 days – up</span> to 10 referrals per calendar year, for a total <span style=white-space:nowrap;>of $2,500.</span></td>
+   
+   </tr>
+   <tr>
+     <td class=accordion_left_width style="display:inline-block; text-align:center; font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 16px; color: #3C4043; background-color: #E8F0FE; line-height: 24px;
+"></td>
+  
+ 
+   </tr>
+  </tbody>
+ </table>
+</section>
+
+</amp-accordion>
+
+</td>
+</tr>
+</table>
+          </td>
+             </tr>
+          </table>
+          </td>
+        </tr>
+      </table>
+     </td>
+  </tr>
+           
+         
+      <table align=center role=presentation cellpadding=0 cellspacing=0 border=0 width=720 style="background-color:#FFFFFF;width:720px; " class="desk_show " dir=ltr>
+        <tbody>
+<tr>
+        <td align=center style="padding-bottom:50px; ">
+              <table width=100% class=dark_box border=0 cellpadding=0 cellspacing=0 role=presentation style="max-width: 600px; background-color:#F8F9FA; border-radius: 30px;">
+                  <tbody>
+  <tr>
+    <td>
+     <table align=center width=100% border=0 cellpadding=0 cellspacing=0 role=presentation style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width: 600px; background-color: #F8F9FA; border-radius: 30px;" class="desk_show dark_box" dir=ltr>
+       <tr>
+         
+               <td class="" align=center style=padding-bottom:5px;padding-top:30px;>
+                              <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-refer-4-desk-transparent-w248px-h248px-2x.gif width=48 height=48 aria-hidden=true />
+                            </td>
+         
+                          </tr>
+  <tr>
+    <td align=center class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 28px; font-weight: 700; color: #202124; padding: 0px 10px 14px 10px; line-height: 36px; width: 628px;direction:ltr;">
+      Save time referring
+    </td>
+  </tr>
+        <tr>
+    <td align=center class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 16px; font-weight: 400; color: #202124; padding: 0px 44px 14px 40px; line-height: 24px; width: 628px;direction:ltr;">
+      Save time with referral message templates for text, email and social media – available when you generate your referrer link.
+    </td>
+  </tr>
+       <tr>
+       <td>
+
+<table cellspacing=0 cellpadding=0 border=0 class="dashboard_button wrapper_600 cta_pad dark_box" width=auto align=center role=presentation style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;  background-color: #F8F9FA; padding-bottom:40px; border-radius: 30px;">
+  <tr>
+    <td align=center>
+      <table cellspacing=0 cellpadding=0 border=0 class=inner_blu_btn4 style="border-collapse:collapse; clear:both; padding:0; Margin:0;  table-layout:fixed;" role=presentation>
+        <tbody>
+          <tr>
+            <td class="buttonA padding_mob" style="border-collapse:collapse;word-break: break-word;padding: 0px 37px 0px 37px;direction:ltr;" align=center dir=ltr><div>
+<!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://c.gle/APy2Ad1qjr5wdQNKtzAvTaC37yX3g-s0e5Fg45Dve_UcbUvxtxUIs8yT0TQzDSh1hICY8enw3lFpfbissXQpsIq7L4rv_6Pt77wf-PvKR8afIckf-kLfl7wEdZhfuvMhwW16K57KcJe_rMZjGNA6rofMNK-EPUL8RWmRcHQa-D9Y9aQ" style="height:48px;v-text-anchor:middle;width:136px;" arcsize="18%" strokecolor="#1A73E8" fillcolor="#1A73E8">
+<w:anchorlock/>
+<center style="color:#ffffff;font-family:Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size:16px;font-weight:500; ">Refer now</center>
+</v:roundrect>
+<![endif]-->
+              <!--[if !mso]><!-->
+     <a href=https://c.gle/APy2Ad1qjr5wdQNKtzAvTaC37yX3g-s0e5Fg45Dve_UcbUvxtxUIs8yT0TQzDSh1hICY8enw3lFpfbissXQpsIq7L4rv_6Pt77wf-PvKR8afIckf-kLfl7wEdZhfuvMhwW16K57KcJe_rMZjGNA6rofMNK-EPUL8RWmRcHQa-D9Y9aQ target=_blank class="mob_font_size1 button_box " style="direction:ltr;border-radius:37px;color:#ffffff;display:inline-block;font-size:16px; line-height:24px;font-weight:700;background-color:#1A73E8;text-align:center;text-decoration:none; padding: 12px 31px 12px 31px;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif ">Refer now</a>
+<!--<![endif]-->
+</div></td></tr></tbody></table></td></tr></table>
+         </td></tr>
+</table>
+        </td>
+  </tr>
+                
+                </tbody>
+   
+   </table>
+           </td>
+          </tr>
+        </tbody>       
+     </table>
+  <!--[if !mso]><!-->
+           <table align=center role=presentation cellpadding=0 cellspacing=0 border=0 width=100% style=background-color:#FFFFFF;width:100%; class="mob_show_table " dir=ltr>
+        <tbody>
+<tr>
+        <td align=center style=padding-bottom:50px;padding-left:20px;padding-right:20px;>
+              <table class="dark_box wrapper_600" border=0 cellpadding=0 cellspacing=0 role=presentation style=" background-color:#F8F9FA; border-radius: 30px;">
+                  <tbody>
+  <tr>
+    <td>
+<table align=center width=100% border=0 cellpadding=0 cellspacing=0 role=presentation style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; width: 100%; background-color: #F8F9FA; border-radius: 30px;" class="mob_show_table dark_box" dir=ltr>
+     <tr>
+                            <td align=center style="padding-bottom:10px; padding-top: 36px;">
+                              <amp-img src=https://www.gstatic.com/gumdrop/files/adwords-refer-4-mob-transparent-w168px-h168px-2x.gif width=48 height=48 aria-hidden=true />
+                            </td>
+                          </tr>
+  <tr>
+    <td width=100% align=center class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 26px; font-weight: 700; color: #202124; padding: 0px 0px 15px 0px;line-height: 39px;direction:ltr;">
+      Save time referring
+    </td>
+  </tr>
+    <tr>
+    <td align=center class=dark_search_count style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif; font-size: 16px; font-weight: 400; color: #202124; padding: 0px 40px 15px 40px; line-height: 24px; direction:ltr;">
+      Save time with referral message templates for text, email and social media – available when you generate your referrer link.
+    </td>
+  </tr>
+   <tr>
+       <td>
+
+<table cellspacing=0 cellpadding=0 border=0 class="dashboard_button wrapper_600 cta_pad_mob dark_box" width=auto align=center role=presentation style="font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;  background-color: #F8F9FA; padding-bottom:60px; border-radius: 30px;">
+  <tr>
+    <td align=center>
+      <table cellspacing=0 cellpadding=0 border=0 class=inner_blu_btn4 style="border-collapse:collapse; clear:both; padding:0; Margin:0;  table-layout:fixed;" role=presentation>
+        <tbody>
+          <tr>
+            <td class="buttonA padding_mob" style="border-collapse:collapse;word-break: break-word;padding: 0px 37px 0px 37px;direction:ltr;" align=center dir=ltr><div>
+<!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://c.gle/APy2Ad1qjr5wdQNKtzAvTaC37yX3g-s0e5Fg45Dve_UcbUvxtxUIs8yT0TQzDSh1hICY8enw3lFpfbissXQpsIq7L4rv_6Pt77wf-PvKR8afIckf-kLfl7wEdZhfuvMhwW16K57KcJe_rMZjGNA6rofMNK-EPUL8RWmRcHQa-D9Y9aQ" style="height:48px;v-text-anchor:middle;width:136px;" arcsize="18%" strokecolor="#1A73E8" fillcolor="#1A73E8">
+<w:anchorlock/>
+<center style="color:#ffffff;font-family:Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size:16px;font-weight:500; ">Refer now</center>
+</v:roundrect>
+<![endif]-->
+              <!--[if !mso]><!-->
+     <a href=https://c.gle/APy2Ad1qjr5wdQNKtzAvTaC37yX3g-s0e5Fg45Dve_UcbUvxtxUIs8yT0TQzDSh1hICY8enw3lFpfbissXQpsIq7L4rv_6Pt77wf-PvKR8afIckf-kLfl7wEdZhfuvMhwW16K57KcJe_rMZjGNA6rofMNK-EPUL8RWmRcHQa-D9Y9aQ target=_blank class="mob_font_size1 button_box " style="direction:ltr;border-radius:37px;color:#ffffff;display:inline-block;font-size:16px; line-height:24px;font-weight:700;background-color:#1A73E8;text-align:center;text-decoration:none; padding: 12px 31px 12px 31px;font-family: Google Sans Display, Google Sans, Roboto, Open Sans, arial,sans-serif ">Refer now</a>
+<!--<![endif]-->
+</div></td></tr></tbody></table></td></tr></table>
+         </td></tr>
+</table>  
+    </td>
+  </tr>
+                
+                </tbody>
+   
+   </table>
+           </td>
+          </tr>
+        </tbody>       
+     </table>
+     <!--<![endif]-->
+
+    <tr><td style="padding: 0px 30px 40px 30px"></td></tr>
+
+
+<table role=presentation dir=ltr align=center class="mob_widthOuter_720 " border=0 cellpadding=0 cellspacing=0 style=background-color:#F8F9FA;width:; bgcolor=#F8F9FA>
+<tr>
+<td style="	padding-top:0;
+  	padding-bottom:0;
+  	padding-right:0;
+  	padding-left:0;
+	Margin-top:0;
+  	Margin-bottom:0;
+  	Margin-right:0;
+  	Margin-left:0;
+">
+
+<table role=presentation class="mob_widthOuter_720 " dir=ltr border=0 cellpadding=0 cellspacing=0 width="" align=center>
+<tr id=footer_wrapper>
+<td width="" class=mob_widthOuter_720 align=center style=background-color:#F8F9FA;>
+<table role=presentation dir=ltr class="mob_widthOuter_720 " border=0 cellpadding=0 cellspacing=0 align=center width="" style=color:#fff;background-color:#F8F9FA;>
+<tbody>
+<tr>
+<td align=center valign=top class=padding_top_footer style="padding-top:40px;padding-bottom:32px;padding-left: 26px;  ">
+<table role=presentation id=footer class="mob_widthOuter_580 " width="" bgcolor=#F8F9FA border=0 cellpadding=0 cellspacing=0 style="background-color:#F8F9FA;color:#3C4043;line-height:19px; ">
+<tr>
+<td class="" valign=top style="border-collapse:collapse;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif;font-size:10px;font-weight:normal;line-height:19px;padding:0 0px 0px 0px;vertical-align:top;">
+<table role=presentation dir=ltr align=center class="" cellpadding=0 cellspacing=0 border=0 style=font-weight:normal;>
+  <tr>
+  <td>
+  <table role=presentation dir=ltr align=center class="" cellpadding=0 cellspacing=0 border=0 style=font-weight:normal;>
+    <tr><td>
+
+
+  <table role=presentation class="mob_widthOuter_560 " width="" cellpadding=0 cellspacing=0 style="">
+  <tr>
+      <td colspan=2 class=mob_legal_foot1 style="line-height:15px;direction:ltr;padding-top:0px;padding-left:0px;padding-right:30px;padding-bottom: 15px;font-size:10px;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; font-weight:700; " dir=ltr>Terms and Conditions for this offer:
+    </td></tr>
+  <tr>
+  <td class=mob_legal_foot1 style="line-height:20px;direction:ltr;padding: 0px;font-size:8px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; vertical-align:top; width:15px; " dir=ltr>1.</td>
+  <td class="" style="line-height:20px;direction:ltr;padding-top:0px;padding-bottom: 0px;font-size:12px;padding-left:0px;padding-right:30px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word;  " dir=ltr>The businesses that you refer ('Referred Advertiser') must be new to <span style=white-space:nowrap;>Google Ads</span> and must not have any prior or existing accounts.
+    </td>
+        </tr>
+  <tr>
+  <td class=mob_legal_foot1 style="line-height:20px;direction:ltr;padding: 0px;font-size:8px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; vertical-align:top; width:15px; " dir=ltr>2.</td>
+    <td class="" style="line-height:20px;direction:ltr;padding-top:0px;padding-bottom: 0px;font-size:12px;padding-left:0px;padding-right:30px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; " dir=ltr>You cannot refer to yourself, an existing <span style=white-space:nowrap;>Google Ads</span> account or an account that you manage, own, are employed by or are contracted by to manage their online advertising. You may not share a billing address or payment profile with the Referred Advertiser.
+    </td></tr>
+  <tr>
+  <td class=mob_legal_foot1 style="line-height:20px;direction:ltr;padding: 0px;font-size:8px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; vertical-align:top; width:15px; " dir=ltr>3.</td>
+    <td class="" style="line-height:20px;direction:ltr;padding-top:0px;padding-bottom: 0px;font-size:12px;padding-left:0px;padding-right:30px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; " dir=ltr>Your account and the Referred Advertiser must have a billing address in the same country.
+    </td></tr>
+  <tr>
+  <td class=mob_legal_foot1 style="line-height:20px;direction:ltr;padding: 0px;font-size:8px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; vertical-align:top; width:15px; " dir=ltr>4.</td>
+    <td class="" style="line-height:20px;direction:ltr;padding-top:0px;padding-bottom: 0px;font-size:12px;padding-left:0px;padding-right:30px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; " dir=ltr>You are solely responsible for ensuring that you have the necessary permission to send referral communications to people in your network. You agree that you will not engage in spamming or other prohibited marketing activities. <span style=white-space:nowrap;>Google</span> disclaims all liability for your communications.
+    </td></tr>
+  <tr>
+  <td class=mob_legal_foot1 style="line-height:20px;direction:ltr;padding: 0px;font-size:8px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; vertical-align:top; width:15px; " dir=ltr>5.</td>
+<td class="" style="line-height:20px;direction:ltr;padding-top:0px;padding-bottom: 0px;font-size:12px;padding-left:0px;padding-right:30px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; " dir=ltr>Before receiving your ad credit, the Referred Advertiser must sign up for <span style=white-space:nowrap;>Google Ads</span> using the ad credit code sent to their email. After signing up, they must be confirmed as a new advertiser to <span style=white-space:nowrap;>Google Ads</span> and begin spending within 60 days of creating their account. A referral is only considered 'successful' once all these conditions are met.
+    </td></tr>
+  <tr>
+  <td class=mob_legal_foot1 style="line-height:20px;direction:ltr;padding: 0px;font-size:8px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; vertical-align:top; width:15px; " dir=ltr>6.</td>
+<td class="" style="line-height:20px;direction:ltr;padding-top:0px;padding-bottom: 0px;font-size:12px;padding-left:0px;padding-right:30px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; " dir=ltr>The Referred Advertiser must be in good standing and must not participate in any fraudulent activity in order for you to receive your ad credit.
+    </td></tr>
+  <tr>
+  <td class=mob_legal_foot1 style="line-height:20px;direction:ltr;padding: 0px;font-size:8px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; vertical-align:top; width:15px; " dir=ltr>7.</td>
+<td class="" style="line-height:20px;direction:ltr;padding-top:0px;padding-bottom: 0px;font-size:12px;padding-left:0px;padding-right:30px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; " dir=ltr>You can earn a maximum of 10 referral credits per calendar year.
+    </td></tr>
+  <tr>
+  <td class=mob_legal_foot1 style="line-height:20px;direction:ltr;padding: 0px;font-size:8px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; vertical-align:top; width:15px; " dir=ltr>8.</td>
+<td class="" style="line-height:20px;direction:ltr;padding-top:0px;padding-bottom: 0px;font-size:12px;padding-left:0px;padding-right:30px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; " dir=ltr>The Referred Advertiser will receive their own, separate promotional offer upon sign-up. The terms, conditions and spend requirements of their offer are independent of this referral promotion.
+    </td></tr>
+  <tr>
+  <td class=mob_legal_foot1 style="line-height:20px;direction:ltr;padding: 0px;font-size:8px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; vertical-align:top; width:15px; " dir=ltr>9.</td>
+<td class="" style="line-height:20px;direction:ltr;padding-top:0px;padding-bottom: 0px;font-size:12px;padding-left:0px;padding-right:30px; font-weight:400; letter-spacing:0;color:#3C4043;font-family:Google Sans, Roboto, Open Sans, arial,sans-serif; text-align:left; word-break:normal; word-break:break-word; " dir=ltr><span style=white-space:nowrap;>Google</span> reserves the right to remove the promotional offer from your account if a payment fails, an offer was mistakenly applied, you breach these terms or your account otherwise falls out of good standing. In such cases, if the promotional credit has already been granted, <span style=white-space:nowrap;>Google</span> reserves the right to nullify that credit.
+    </td></tr>
+
+</table>
+      </td>
+    </tr>
+  </table>
+ </td>
+      </tr>
+  <tr>
+  <td align=center dir=ltr colspan=2 class="footer_legal_mob_pad footer_padding_mob" style="border-collapse:collapse;color:#3C4043;font-family:Google Sans Text, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size:10px;font-weight:400; letter-spacing:0;line-height:15px;vertical-align:top;" valign=top><!--[if mso]><font face="Arial,sans-serif"><![endif]-->This email was sent to superesolutions@gmail.com to share <span style=white-space:nowrap;>Google Ads</span> promotions and special offers. If you don't want to receive such emails in the future, please unsubscribe <a href=https://c.gle/APy2Ad1MEehCryNL3wil6Iu0ZqdSRTwnJ0831XZVfcPJhNAW34w2ZKJimxm0u0TS2EC3_uiwEGweII_lKV7VVLqVqiYpvRhwCmWfa-15LhOkYdplOc6dFCm9wyP_x6HCJLJ2vUcozurdhLwVsp-AX41QuV_kuWMWA8DTt8vOMWBpWxxzGxt1n4FEOOrbJ_zIrOwZCqpUdkvD2igGFKekvQOTzffTWmvmSRbjljZ1909rV9ZOQzGvHDsuDzC-jVnpywHCcKaly-OuY_nF7xHCyH0lc9zOzHmnVzlP7uVwcv2VsnXatHko0l__5AmcHyEEErR6Dlsg2o2XjndggwQ9n9hflDxoR99qrqQC8zTwm2NrF1hWyGhEqKM94TCdUpKqqhFoD5yDGGdwsvQ4mR3l3yEkcpp92KbMWu9vNF1iQ5vl3BtkYggNDVNPkjgY7ojRcGHkKoGnL0TAKt-fTuOifK0i3BeGrNIeJPojbdAkUWf6mvqPEs6zngXWXSG0XzA0C4u5_k3mAv7UARb9Jz6PspEMoFKa32XGbL9BghWynvnhoJhdtZx9BAe6fRCnBdzFDjcbnubLo5Pncewl style="text-decoration:none;color:#1A73E8;word-break: break-all;" target=_blank>here</a>. You can also change your preferences on your account's Notification Settings page by logging into
+<span style="font-size:14px; line-height:23px; font-size:10px;line-height:15px;"><a href=https://c.gle/APy2Ad0U9_AmlDUDA9UIDxAtM1KIfizjXiBa9QjFred2rI9OYWdI0lWyBkAjHPanyNTdPsGzFkuDBDwIwd3WSKPB6Hhgip7ZA3Oykw7AKQJOOrRnhIOFuHursm4p1AthHRn-k5j3zkCJueBWeuS-NxNoUIXpDaCTD5U0VQ class=span_color style="color: #1a73e8; text-decoration:none; font-size:10px;line-height:15px;" target=_blank>https://ads.google.com/aw/emailsubscriptions/users</a></span></td>
+    
+     
+  </tr>
+  
+<tr>
+  <td style="" class=desk_show>
+  	<table role=presentation cellpadding=0 cellspacing=0 border=0 class=footer_logo_left_mob style="text-align: center;padding: 0px 220px;" align=center>
+                                       <tr style="font-size:0px; line-height:0px; border-collapse: collapse;">
+
+                                             <td class=mob_pad_header_logo style="	padding-top:0;
+  	padding-bottom:0;
+  	padding-right:0;
+  	padding-left:0;
+padding-right: 32px; padding-left: 32px; padding-top:24px; padding-bottom:10px;"><amp-img alt="" src=https://www.gstatic.com/gumdrop/files/adwords-google-logo-tm-light-transparent-w148px-h47px-2x.png style="" width=79 height=25 />
+
+                                          </td>
+                                       </tr>
+                                    </table>
+  </td>
+  <!--[if !mso]><!-->
+  <td style="" class=mob_show>
+  	<table role=presentation cellpadding=0 cellspacing=0 border=0 class="footer_logo_left_mob padding_40" style="text-align: left;" align=left>
+                                       <tr style="font-size:0px; line-height:0px; border-collapse: collapse;">
+                                             <td class=mob_pad_header_logo style="	padding-top:0;
+  	padding-bottom:0;
+  	padding-right:0;
+  	padding-left:0;
+padding-right: 32px; padding-left: 0px; padding-top:24px; padding-bottom:10px;"><amp-img alt="" class="" src=https://www.gstatic.com/gumdrop/files/adwords-google-logo-tm-light-transparent-w148px-h47px-2x.png style="" height=25 width=79 />
+
+                                          </td>
+                                       </tr>
+                                    </table>
+  </td>
+  <!--<![endif]-->
+</tr>
+  
+  <tr>
+    <td class=desk_show>
+      <table role=presentation width=100% dir=ltr class=mob_pad_outer cellpadding=0 cellspacing=0 border=0 style="font-weight:normal;width:100%; padding:0px 165px;">
+<tr>
+<td>
+
+<table role=presentation align=center class=mob_widthOuter_250 width="" cellpadding=0 cellspacing=0 style="">
+<tr>
+<td dir=ltr class="mob_widthOuter_250 mob_legal_address" width="" style="padding:0px 25px 0px 25px;border-collapse:collapse;text-align:center;color:#3C4043;font-family:Google Sans Text, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size:10px;font-weight:400;line-height:15px;vertical-align:top;" valign=top><!--[if mso]><font face="Arial,sans-serif"><![endif]-->
+      <span style="font-size:inherit; color:inherit; font-weight:inherit; line-height:inherit; font-family:inherit;">&copy; 2025 Google LLC<br />1600 Amphitheatre Parkway,<br />Mountain View, CA 94043</span>
+   
+   
+</td>
+</tr>
+</table>
+</td>
+
+        </tr></table>
+    </td>
+    <!--[if !mso]><!-->
+     <td class=mob_show style="">
+      <table align=left role=presentation width=100% dir=ltr class="mob_pad_outer padding_40" cellpadding=0 cellspacing=0 border=0 style="font-weight:normal;width:100%; text-align: left;">
+<tr>
+<td>
+
+<table role=presentation align=center class=mob_widthOuter_250 width="" cellpadding=0 cellspacing=0 style="">
+<tr>
+<td dir=ltr class="mob_widthOuter_250 mob_legal_address" width="" style="padding:0px 0px 0px 0px;border-collapse:collapse;text-align:center;color:#3C4043;font-family:Google Sans Text, Google Sans, Roboto, Open Sans, arial,sans-serif;font-size:10px;font-weight:400;line-height:15px;vertical-align:top;text-align:left;" valign=top><!--[if mso]><font face="Arial,sans-serif"><![endif]-->
+      <span style="font-size:inherit; color:inherit; font-weight:inherit; line-height:inherit; font-family:inherit;">&copy; 2025 Google LLC<br />1600 Amphitheatre Parkway,<br />Mountain View, CA 94043</span>
+   
+   
+</td>
+</tr>
+</table>
+</td>
+
+        </tr></table>
+    </td>
+    <!--<![endif]-->
+  </tr>
+
+  
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+     
+        </td>
+           </tr>
+        </table>
+</div>
+      </section>
+   </body>
+</html>
