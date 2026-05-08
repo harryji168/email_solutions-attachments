@@ -1,0 +1,47 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1771593385; x=1772198185; dara=google.com;
+        h=to:from:subject:mime-version:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=wvKlP+0LGAGOXLjSwqqkNGQrFluc4Ph2ecjUrHn9mc4=;
+        b=G7sBCsbiWhlShnzWGOflUv0xz7+950HwMrCGBZdm/sJDIHIvSQEY8aKLO6+A7WXz/x
+         ROVXdhB38LiLO4PqZIqPRRM/aMmXTYR3dtGxTlkiJ59DOa0Io4GIQAt8PV1k4933dql/
+         /d8MxsPB26txNkIFdgE+LdGNaueCMEP3tnlXcx+4ihBNP0Q5JWJfqvfnUrbl2qkYNvpM
+         EgmD9fNJm5834YoRJ8GsUrt9XdCA+/2RKBx65L494kI/O2aqucXiMNGXrkTCw7JZCelb
+         2f9c/zcIgpGr3XE+GAxIJ5W+qH4VGqRbVWMKaDCgxFm3/ka5mBsd5EQDcTyw7Q0cu6db
+         eDNw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1771593385; x=1772198185;
+        h=to:from:subject:mime-version:date:message-id:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=wvKlP+0LGAGOXLjSwqqkNGQrFluc4Ph2ecjUrHn9mc4=;
+        b=F5dDYSMKO0REzpq39PwiBIYKBJticIdliegDMytuOmp0LHRC40mdEHEroiltn68Wsa
+         zmGMMFw2ae+YAMA6rpY9plwHQiRLaPMfIeHH6vR7jTS2jw/P86h8kgZR6PE1rJYkyvaV
+         pd6Q07ZsiHpvVe6EZx/TqylIpizqwJlQxkXI34ZWsElNHXRG3OguuS5N5b1CN8yRn3Fh
+         T75dpYwogCnFJbGoUSKWOVPxp2eP1Rad+m9qZOj9ALOh/l11lFdgKBvzCt7vMaei/ksK
+         6GgHbdkEQsqcSxdQzMP6wzTE6TT3ILg3IEvn6Z/sPedaT1I42RKQ5o5tcqP0QcxLg5Lr
+         3sCQ==
+X-Gm-Message-State: AOJu0YwfbfPxkiRLF7XQAhnOL/jT0FIamssD2MR2BlWP92ooBUa0Wh0F
+	tWbwRjw5znxem5eOBE/knPTdeAh91FACduu4iqOEa1RHrJ61SBR1cyYvRO4Cf064CgE=
+X-Gm-Gg: AZuq6aKXNP5rSuAzvTen22NowDGSeBiB+8Vwjov3O5vqYPKuYJ+sGcLF1tDhhf08EkZ
+	I7FCSUSnGID+6VJ11g/PLKcQg5pcjDroROvDUmiLwN/CVpLuOJCV3sHvAjnk5yRER3FW/xxf5zQ
+	wwxeQCz5gas/jO6VMWxCdw2rTp+R/Wpr437C1I5y0483QzfhluPafh6XekQoGvdweKUYhOi138i
+	DxX2I1ZZL7GXCPEaip7MX53YtLhskf1MKf9dUGtnjCEMUGxVqP64KakwNydgaGNVJAlDi7kRT0M
+	BL0iNtfJ7hBIO0/HjDyNUU14UKMAE7xBUwXisoa22bprm3JSJmi4HBcHpjOBwyFlfpO5pyVNwlg
+	PeWd1FwuDjskSiP4UHs5bKna5hN57ibRzULNhT09y0VpwA+22eMItLYqkejoz9HJ1iNRvDZZu+d
+	78IkZR9aoPT/guNrDysnkxeEYoDaiOy9pDJYaINvcvifoOrA==
+X-Received: by 2002:a17:906:208f:b0:b90:77bb:5aa3 with SMTP id a640c23a62f3a-b9077bb6fe2mr42481566b.16.1771586763060;
+        Fri, 20 Feb 2026 03:26:03 -0800 (PST)
+Return-Path: <superesolutions@gmail.com>
+Received: from [10.156.170.222] ([45.134.79.113])
+        by smtp.gmail.com with ESMTPSA id a640c23a62f3a-b8fc735d516sm676735766b.5.2026.02.20.03.25.59
+        for <torvic.gauthier28190@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 20 Feb 2026 03:26:02 -0800 (PST)
+Message-ID: <699844ca.170a0220.b6543.f228@mx.google.com>
+Date: Fri, 20 Feb 2026 03:26:02 -0800 (PST)
+Content-Type: multipart/alternative; boundary="===============0280457617941667919=="
+MIME-Version: 1.0
+Subject: Votre Carte Avantage SNCF Connect
+From: SNCF Connect <superesolutions@gmail.com>
+To: torvic.gauthier28190@gmail.com
+

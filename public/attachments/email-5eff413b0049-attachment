@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260429T154923Z
+DTEND:20260430T154923Z
+DTSTAMP:20260312T154945Z
+ORGANIZER;CN=Kimberly Reid:mailto:kimberlydreid317934@j2go.io
+UID:5q1ouqnhuei4eg4cgmfe4dkbe8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260312T154926Z
+DESCRIPTION:Dear Customer\,\n\nWe are writing to provide an update regardin
+ g your TeamNest subscription status.\n\nAs the previous billing cycle has c
+ oncluded\, your subscription has been renewed for the upcoming 12-month per
+ iod. This renewal was processed through your saved PayPal account to ensure
+  uninterrupted access to your services.\n\n📑 Billing Record\n\nInvoice Num
+ ber: #DE567890\nTransaction Date: March 12\, 2026\nProduct: TeamNest – Annu
+ al Subscription\nBilling Cycle: 1 Year\nAmount Charged: $399.00 USD\nPaymen
+ t Method: PayPal (Saved Account)\n\nYour membership remains active and cont
+ inues to include access to all TeamNest platform services\, feature updates
+ \, and support assistance.\n\nIf you would like additional information rega
+ rding this transaction or wish to discuss your subscription options\, pleas
+ e contact our support team.\n\n📞 Toll-Free Support Line: +1 (812) 266-5465
+ \n\nWe appreciate your continued support of Papagoite.\n\nSincerely\,\nPapa
+ goite Billing Department
+LAST-MODIFIED:20260312T154939Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Quick update about your account
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

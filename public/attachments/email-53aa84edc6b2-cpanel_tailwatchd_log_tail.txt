@@ -1,0 +1,78 @@
+spamd started successfully.
+	Oct 17 16:03:18 host.supere.ca spamd[932]: spamd: checking message <1140720765924.1102662752155.1178492857.0.1221600JL.2002@synd.ccsend.com> for xotours:1055
+	Oct 17 16:03:18 host.supere.ca spamd[933]: spamd: checking message <1140720765924.1102662752155.1428516117.0.1221600JL.2002@synd.ccsend.com> for xotours:1055
+	Oct 17 16:03:16 host.supere.ca spamd[933]: spamd: setuid to xotours succeeded
+	Oct 17 16:03:16 host.supere.ca spamd[933]: spamd: connection from localhost [127.0.0.1]:49080 to port 783, fd 6
+	Oct 17 16:03:16 host.supere.ca spamd[932]: spamd: setuid to xotours succeeded
+	Oct 17 16:03:16 host.supere.ca spamd[932]: spamd: connection from localhost [127.0.0.1]:49074 to port 783, fd 6
+	Oct 17 16:03:16 host.supere.ca spamd[778]: prefork: child states: BI
+	Oct 17 16:03:16 host.supere.ca spamd[778]: spamd: server successfully spawned child process, pid 933
+	Oct 17 16:03:16 host.supere.ca spamd[778]: spamd: server successfully spawned child process, pid 932
+	Oct 17 16:03:16 host.supere.ca spamd[778]: spamd: server pid: 778
+Startup Log
+	spamd (/usr/local/cpanel/3rdparty/perl/536/bin/perl -T -w /usr/local/cpanel/3rdparty/perl/536/bin/spamd --allowed-ips=127.0.0.1,::1 --max-children=5 --pidfile=/var/run/spamd.pid --start-dormant) is running as root with PID 778 (systemd+/proc check method).
+Service Status
+……finished.
+Waiting for “spamd” to start ……Waiting for spamd,spamd -d to shutdown ... not running.
+[1673] [2023-10-17 16:02:15 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-17 16:02:11 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[1673] [2023-10-17 16:00:16 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697572800
+spamd has failed. Contact your system administrator if the service does not automagically recover.
+	Oct 17 15:51:10 host.supere.ca systemd[1]: spamd.service failed.
+	Oct 17 15:51:10 host.supere.ca systemd[1]: Unit spamd.service entered failed state.
+	Oct 17 15:51:10 host.supere.ca systemd[1]: Failed to start Apache SpamAssassin™ deferral daemon.
+	Oct 17 15:51:08 host.supere.ca spamd[31265]: spamd: cannot unlink /var/run/spamd.pid: No such file or directory
+	Oct 17 15:51:08 host.supere.ca spamd[31265]: spamd: server killed by SIGTERM, shutting down
+	Oct 17 15:51:08 host.supere.ca systemd[1]: spamd.service start operation timed out. Terminating.
+	Oct 17 15:49:58 host.supere.ca systemd[1]: Can't open PID file /run/spamd.pid (yet?) after start: No such file or directory
+	Oct 17 15:49:38 host.supere.ca systemd[1]: Starting Apache SpamAssassin™ deferral daemon...
+Startup Log
+	(XID seez7c) The “spamd” service failed to start.
+Service Error
+	spamd (/usr/local/cpanel/3rdparty/perl/536/bin/perl -T -w /usr/local/cpanel/3rdparty/bin/spamd --allowed-ips=127.0.0.1,::1 --max-children=5 --pidfile=/var/run/spamd.pid --listen=5 --listen=6) is running as root with PID 384 (systemd+/proc check method).
+Service Status
+Cpanel::Exception::Services::StartError
+Waiting for “spamd” to restart …………failed.
+[1673] [2023-10-17 15:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697569200
+Use of uninitialized value $port in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN2> line 30221.
+Use of uninitialized value $ip in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN2> line 30221.
+[1673] [2023-10-17 14:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697565600
+Use of uninitialized value $port in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN2> line 28592.
+Use of uninitialized value $ip in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN2> line 28592.
+Use of uninitialized value $port in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN2> line 27969.
+Use of uninitialized value $ip in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN2> line 27969.
+[1673] [2023-10-17 13:07:59 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-17 13:07:59 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[1673] [2023-10-17 13:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697562000
+[1673] [2023-10-17 12:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697558400
+[1673] [2023-10-17 11:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697554800
+[1673] [2023-10-17 10:51:42 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-17 10:51:42 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[1673] [2023-10-17 10:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697551200
+[1673] [2023-10-17 09:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697547600
+Use of uninitialized value $port in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN2> line 15430.
+Use of uninitialized value $ip in concatenation (.) or string at /usr/local/cpanel/Cpanel/TailWatch/Eximstats.pm line 314, <GEN2> line 15430.
+[1673] [2023-10-17 08:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697544000
+[1673] [2023-10-17 07:09:17 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-17 07:09:17 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[1673] [2023-10-17 07:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697540400
+[1673] [2023-10-17 06:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697536800
+[1673] [2023-10-17 05:11:12 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-17 05:11:12 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[1673] [2023-10-17 05:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697533200
+[1673] [2023-10-17 04:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697529600
+[1673] [2023-10-17 03:12:06 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-17 03:12:06 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[1673] [2023-10-17 03:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697526000
+[1673] [2023-10-17 02:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697522400
+[1673] [2023-10-17 01:13:32 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-17 01:13:32 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[1673] [2023-10-17 01:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697518800
+[1673] [2023-10-17 00:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1697515200
+[1673] [2023-10-16 23:52:09 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-16 23:52:08 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1697511600 - 1697515200
+[1673] [2023-10-16 23:52:08 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[1673] [2023-10-16 23:14:48 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-16 23:14:48 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[1673] [2023-10-16 23:07:33 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[1673] [2023-10-16 23:07:33 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1697511600 - 1697515200

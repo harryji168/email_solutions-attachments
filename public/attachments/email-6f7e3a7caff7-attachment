@@ -1,0 +1,659 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang=en ⚡4email data-css-strict>
+<head>
+<meta charset=utf-8>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<script async custom-element=amp-bind src=https://cdn.ampproject.org/v0/amp-bind-0.1.js></script>
+<style amp4email-boilerplate>
+body {
+visibility: hidden
+}
+</style>
+<style amp-custom>
+* {
+outline: none;
+}
+div {
+display: flex;
+flex-direction: column;
+}
+#carousel-with-preview > div {
+flex-direction: row;
+}
+p, a {
+margin: 0;
+text-align: center;
+font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.amp-carousel-button:focus {
+outline: none;
+border: none;
+}
+.current {
+background-color: #858585;
+}
+.old {
+background-color: #E2E2E2;
+}
+.milestone_1{
+background-image: url('https://notifications.google.com/g/p/ANiao5oNa4MYr4-MVWSrP5DyquysIGrW96UV8OUYauSteZVzQIA_Nzf6lucVhlaltgq_lQHFrf6PsFRiRWirp0MGTklJ92DiTEmjP0Tc67-ndOLEqvL5bFtuYcTOU-u31R4OungkHEuOODOuSauUTbjdhIdx8u2YNyk_ffQk8YVfLjZKR6Ub-B5s2dJIrIk4YNi_49s9f2wD2RZfZqBrwvKEOXgkhGlDU5jCNUqcQje-2MmpLjedtQDK9dw8tnJvxNhxfdnlc66aTA9o0EFaxRanybsZq1RM-FK8Y_Y');
+background-size: 1px;
+height: 1px;
+background-position: top left;
+background-repeat: no-repeat;
+display: none;
+}
+.milestone_2{
+background-image: url('https://notifications.google.com/g/p/ANiao5oFIUNiTnAr5yMLuCbGXKxSsyrRiyxZK_vRjoeFUvJvr9R5fOFKZg_WqaGa-7BZz2BCWNuGrmqPuq0DcMgBvwwoTm-tmshjigZaC1XYi5gjmobQ5p8iSC1c8MNzuWS1QsxWTpSXhO_u7XWKHLzDLklGArQJzlckHEAj6wC6h1sqJtldNn3E-4dKt60Ei_IJIaK6sHZ-_heXgawofq5bBZK-e4xjZXV4Pg7QXz9aBRkQK1MY0mjnI4Dn8Y8Hbzyghw51Y-YHynQtkM6QQr4-0ctCVxxFGslSVm8');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+display: none;
+}
+.milestone_3{
+background-image: url('https://notifications.google.com/g/p/ANiao5rcntohnz1h2UV1DBnwlPQF7x7QBwELatfprDBdr3Ti5dCZE5TsVq5mk4W5eW4iU9WsDTuou57Y2gcHl0YLiji9GQpLj3N9MZjmp_Wl2cx2jQvM7bl7T5siEJ7RLLLTeA_vpu34GEVfRnVb8S1ZXMlMNbxNPPNX00ned5PNhetc2k49v9INOpKcGZ2UoMMRXFwO27H9I4iNsCQmS4REyBciriSL9PCWX6xBDVsMRoz4ShW5cN3Hf9VeSTSS_aCfvhbYi8Z5gCW9t6F2JtoyhLjVBKrXg8xN1Dw');
+background-size: 1px;
+height: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+display: none;
+}
+@media (min-width: 721px) {
+.timestemp{width: 93px; }
+.placeword{padding-bottom: 13px;}
+.bluelinks{padding-top: 24px;}
+.addedclass{padding-top: 25px;}
+.eye-parent{padding: 10px 0px 0 0; width: 22px;}
+.placeword{font-size: 24px; line-height: 36px; letter-spacing: -0.3px}
+.bluecount{font-size: 72px; line-height: 90px; letter-spacing: -3.6px}
+.headerwidth{width: 350px}
+.headerwidthimg{width: 350px; height: 240px}
+.card-cta {
+padding: 30px 0 0;
+}
+.pdt3m{
+width: 22px;
+padding: 0px 8px 0 0;
+}
+.amp-carousel-button-next {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-nav-right-transparent-w100px-h100px-2x.png');
+background-size: 50px 50px;
+right: 20px;
+outline: none;
+}
+.amp-carousel-button-prev {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-nav-left-transparent-w100px-h100px-2x.png');
+background-size: 50px 50px;
+left: 20px;
+outline: none;
+}
+.amp-carousel-button {
+background-color: transparent;
+top: 45%;
+height: 50px;
+width: 50px;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+border-radius: 50%;
+cursor: pointer;
+}
+.desk_hide {
+display: none;
+}
+.pld_0 {
+padding-left: 0px;
+}
+.prd_0 {
+padding-right: 0px;
+}
+.wid_d_560 {
+width: 560px;
+}
+.margin_0 {
+margin: 0 auto;
+}
+.flex-d-r {
+flex-direction: row;
+}
+.content_justify, .single_row {
+justify-content: center;
+margin: 0 auto;
+}
+.single_row {
+display: flex;
+flex-direction: row;
+}
+.w-360 {
+width: 720px;
+}
+.hero-bg {
+background-image: url('https://www.gstatic.com/gumdrop/files/lg-bg-desk-transparent-w1440px-h816px-2x.png');
+background-position:0px -21px;
+min-height: 464px;
+}
+.hero-heading {
+font-size: 72px;
+line-height: 72px;
+}
+.hero-subheading {
+font-size: 24px;
+line-height: 36px;
+}
+.d-width-bg{
+width: 720px;
+}
+.hero-container {
+width: 350px;
+margin: 15px 0 4px;
+}
+.hero-container-inner {
+padding: 11px 20px 11px;
+}
+.profile-icon {
+width: 35px;
+height: 35px;
+}
+.profile-name {
+font-size: 16px;
+line-height: 30px;
+padding: 7px 0 0 9px;
+}
+.post-date {
+font-size: 14px;
+line-height: 30px;
+padding: 7px 0 0;
+}
+.sec1-container {
+width: 540px;
+}
+.cta2_new1-pad {
+padding: 17px 0 0;
+}
+.sec1-para1 {
+padding: 19px 0 0;
+font-size: 24px;
+line-height: 36px;
+}
+.w-296 {
+width: 618px;
+}
+.sec2-para1 {
+padding: 41px 0 0;
+}
+.car-container {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-amp-background-transparent-w1440px-h1146px-2x.png');
+min-height: 573px;
+}
+.flex-col {
+flex-direction: row;
+width: 618px;
+}
+.sec3-icon {
+padding: 71px 0 0;
+}
+.sec3-para1 {
+padding: 11px 40px 0;
+}
+.w-294 {
+width: 256px;
+}
+.sec3-para2 {
+padding: 4px 10px 0;
+}
+.sec3-card {
+margin: 40px 0 4px;
+}
+.sec4-container {
+width: 572px;
+}
+.sec4-img {
+padding: 28px 0 0;
+}
+.sec4-para3 {
+padding: 6px 0 0;
+}
+.w-308 {
+width: 636px;
+}
+.smiley-space {
+width: 4px;
+}
+.w-330 {
+width: 636px;
+}
+.text-pref {
+padding: 5px 0 62px;
+}
+.w-292 {
+width: 636px;
+}
+.text-address {
+padding: 20px 0 90px;
+}
+.car-wid {
+width: 720px;
+height: 357px;
+}
+.car-spa {
+width: 43px;
+}
+.car-main-cont {
+width: 560px;
+padding: 34px 0 39px;
+}
+.inc-para {
+padding: 4px 10px 0
+}
+.card-spacer {
+width: 1px;
+}
+.card-rev {
+padding: 19px 34px 0;
+}
+.card-cta2_new {
+padding: 30px 0 0;
+}
+.card-post {
+padding: 17px 0 0;
+}
+.post-dim {
+width: 249px;
+height: 143px;
+}
+.review-main {
+padding: 8px 20px 30px;
+min-height: 88px;
+}
+.review-rate {
+padding: 0 20px;
+}
+.review-imp-card {
+width: 278px;
+}
+.mobile {
+display: none;
+}
+.w-560{
+width: 595px;
+}
+.keep-space{height: 30px; width: 1px;}
+.dnone_d {display: none;} }
+@media (max-width: 720px) {
+.timestemp{width: 93px; }
+.placeword{padding-bottom: 13px; padding-left: 4px}
+.bluelinks{padding-top: 19px;}
+.eyepara{
+padding-bottom: 6px;
+}
+.addedclass{padding-top: 26px;}
+.eye-parent{padding: 8px 0px 0 0; width: 17px;}
+.placeword{font-size: 20px; line-height: 36px; letter-spacing: -0.25px}
+.bluecount{font-size: 62px; line-height: 72px; letter-spacing: -3.1px;; padding-top: 4px;}
+.headerwidthimg{width: 328px; height: 225px}
+.headerwidth{width: 328px;}
+.card-cta {
+padding: 20px 0 20px;
+}
+.pdt3m{
+width: 17px;
+padding: 3px 8px 0 0;
+}
+.amp-carousel-button-next {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-nav-right-transparent-w100px-h100px-2x.png');
+background-size: 50px 50px;
+right: 4px;
+outline: none;
+}
+.amp-carousel-button-prev {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-nav-left-transparent-w100px-h100px-2x.png');
+background-size: 50px 50px;
+left: 4px;
+outline: none;
+}
+.eyepara{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 0 auto;
+padding-bottom: 5px;
+}
+.amp-carousel-button {
+background-color: transparent;
+top: 45%;
+height: 50px;
+width: 50px;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+border-radius: 50%;
+cursor: pointer;
+}
+.mob_show {
+display: block;
+}
+.m-width-bg{
+width: 360px;
+}
+.mob_hide {
+display: none;
+}
+.single_row_mob {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.wid-284 {
+width: 284px;
+}
+.pl_22 {
+padding-left: 22px;
+}
+.pr_22 {
+padding-right: 22px;
+}
+.flex-d-r {
+flex-direction: column;
+align-items: center;
+}
+.margin_0 {
+margin: 0 auto;
+}
+.w-360 {
+width: 360px;
+}
+.hero-bg {
+background-image: url('https://www.gstatic.com/growthlab/api/Grn5HHgPkkgaNDMsfYRoj4FkSPSbSIC2zkdCIFhv.png');
+background-position:0px 50px;
+min-height: 370px;
+}
+.hero-heading {
+font-size: 62px;
+line-height: 62px;
+}
+.hero-subheading {
+font-size: 20px;
+line-height: 28px;
+}
+.hero-container {
+width: 252px;
+margin: 23px 0 4px;
+}
+.hero-container-inner {
+padding: 8px 15px 9px;
+}
+.profile-icon {
+width: 25px;
+height: 25px;
+}
+.profile-name {
+font-size: 13px;
+line-height: 21px;
+padding: 4px 0 0 8px;
+}
+.post-date {
+font-size: 13px;
+line-height: 21px;
+padding: 4px 0 0;
+}
+.sec1-container {
+width: 282px;
+}
+.cta2_new1-pad {
+padding: 14px 0 0;
+}
+.sec1-para1 {
+padding: 24px 22px 0;
+font-size: 24px;
+line-height: 32px;
+}
+.w-296 {
+width: 296px;
+}
+.sec2-para1 {
+padding: 31px 0 0;
+}
+.car-container {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-amp-background-transparent-w720px-h1586px-2x.png');
+min-height: 793px;
+}
+.flex-col {
+flex-direction: column;
+align-items: center;
+width: 320px;
+}
+.sec3-icon {
+padding: 31px 0 0;
+}
+.sec3-para1 {
+padding: 8px 0 0;
+}
+.w-294 {
+width: 294px;
+}
+.sec3-para2 {
+padding: 4px 0 0;
+}
+.sec3-card {
+margin: 30px 0 4px;
+}
+.sec4-container {
+width: 296px;
+}
+.sec4-img {
+padding: 24px 0 0;
+}
+.sec4-para3 {
+padding: 3px 0 0;
+}
+.w-308 {
+width: 308px;
+}
+.smiley-space {
+width: 14px;
+}
+.w-330 {
+width: 330px;
+}
+.text-pref {
+padding: 5px 0 30px;
+}
+.w-292 {
+width: 292px;
+}
+.text-address {
+padding: 20px 0 36px;
+}
+.car-wid {
+width: 360px;
+height: 586px;
+}
+.car-spa {
+width: 17px;
+}
+.car-main-cont {
+width: 294px;
+padding: 20px 0 0;
+min-height: 544px;
+}
+.inc-para {
+padding: 0 10px 0
+}
+.card-spacer {
+width: 234px;
+height: 1px;
+margin: 17px 0 9px;
+}
+.card-rev {
+padding: 19px 27px 0;
+}
+.card-cta2_new {
+padding: 20px 0 0;
+}
+.card-post {
+padding: 10px 0 0;
+}
+.post-dim {
+width: 249px;
+height: 143px;
+}
+.w343 {
+width: 294px;
+}
+.review-main {
+padding: 8px 15px 24px;
+min-height: 100px;
+}
+.review-rate {
+padding: 0 15px;
+}
+.review-imp-card {
+width: 100%;
+}
+.desktop {
+display: none;
+}
+.keep-space{height: 40px; width: 1px;}
+.dnone{display: none;}
+.dblock {display: block;}
+.bottom-fix{background-position: top;}
+.bottom-space{padding-bottom: 53px}
+.bottom-fix{background-position: bottom;}
+.pd-l-r10{padding-left: 10px; padding-right: 10px;}
+}
+</style>
+</head>
+<body style="text-align: center; padding: 10px 0; background-color: #ffffff;">
+<!-- Manual Tracking Start -->
+<amp-img alt="" height=1 src=https://notifications.google.com/g/img/ANiao5oLz9NLTSYPF73b-sZg2d0TFbgYZ4jetKH_6syVf3_BcXPh_ljm1Vyy7VdvsHiWfjH8jp-u56zxlEFRS4PjcXw0irxCu4NKcSxOMGsKAGJCiHOufBpnlu_Ikk1AMvwFFSFFdHgk05naFxC-rVmFwxyfKlZiEamrdA.gif width=3></amp-img>
+<!-- Manual Tracking End -->
+<amp-state id=selected>
+<script type=application/json> {"slide": 0} </script>
+</amp-state>
+<p style="padding-top:0; font-size:0px; line-height:0px; display: none;">harry, this is amazing! 4,000 views of the place you modified! You changed the location of 新聯華假期, and it’s now been seen over 4,000 times! Thanks for making such an impactful edit on Google Maps!</p>
+<div class=w-360 style="margin: 0 auto; background-color: #ffffff;">
+<!-- Header Starts -->
+<div style="align-items: center; padding: 12px 0;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/local-guides-google-maps-logo-transparent-w314px-h62px-2x.png alt="" width=155 height=30 layout=responsive style="width: 155px; height: 30px;"></amp-img>
+</div>
+<!-- Header Ends -->
+<!-- body start -->
+<div style=background-color:#ffffff;>
+<!-- module start 1-->
+<div class="m-width-bg d-width-bg">
+<div class="w-360 hero-bg" align=center style="background-repeat: no-repeat; background-size:100%;">
+<div align=center class=addedclass style="font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;font-style: normal;font-weight: 500;font-size: 14px;line-height: 22px;text-align: center;color: #5F6368;padding-right: 2px;">
+Your updated location has
+</div>
+<div align=center class=bluecount style="font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;font-style: normal;font-weight: 500;text-align: center;color: #1A73E8;padding-right: 3px;">
+4,000
+</div>
+<div align=center class="single_row eyepara">
+<div align=center class=pdt3m>
+<div align=center class=eye-parent style="" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/growthlab/api/K8s6VJjvgKg8o5CVrO6xWXX0UAXZtPHGXZAHodlF.png style="width: 22px; height: 15px;" height=15 width=22></amp-img>
+</div>
+</div>
+<div>
+<p class="margin_0 placeword" align=center style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: bold; color: #666666;">
+total views
+</p>
+</div>
+</div>
+<!-- hero section start -->
+<div class=headerwidth style="border: 1px solid #EAE8ED; box-shadow: 1px 1px 6px #e1e1e1; margin: auto; border-radius: 6px;">
+<div class=w-310 style="padding: 11px 20px 7px; flex-direction: row; background-color: #ffffff;border-top-left-radius: 6px; border-top-right-radius: 6px;">
+<div align=left style="justify-content: center; width: 35px">
+<table class=pad_img align=center aria-hidden=true style="background:url('https://lh3.googleusercontent.com/a/ACg8ocI0F4m49-KmfDJo6aBNhHFSBzHoOR79Hwt29vf6RxCdcLdS'); background-repeat: no-repeat; vertical-align:top; background-size: 100%; background-color: #ffffff;" width=35>
+<tbody>
+<tr>
+<td class=pad_top0 align=center valign=top>
+<table role=presentation border=0 cellspacing=0 cellpadding=0>
+<tbody>
+<tr>
+<!--[if (gte mso 9)|(IE)]><td width="6"></td><![endif]-->
+<td aria-hidden=true class=out-padstar align=center valign=top style="border-radius: 100%;padding-top:7px;">
+<amp-img src=https://services.google.com/fh/files/emails/test-star-orange.png class=w-30 width=27 height=27 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=out-prof align=left style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 30px; font-weight: bold; color: #666666; padding: 7px 0 0 9px; align-items: flex-start; width: 190px;">
+<a style="text-decoration: none; color: #666666; text-align: left" target=_blank href=https://notifications.google.com/g/p/ANiao5pNZEMfBwV3qVTHzm9t3xEyplYIeUNOv7Ziyqy68wgnCw5S36dAMhGNTzh908sBJmLUA058_kNuKDtKXf4_9bfaZzcPoQ79j5Q2LHPZ8IucPKDKzgr1tSC4mcFo5dosdj6pmlqJdqG2k1iGkmTNdea8B636JDPTcZXbUyhxp8NcfkDRHHEDzV2qMVKIsU2TWb28yTUbu_IBd2y4FTq3GbfPdSsM6U8CWVb6qzL1iSVMoMiOb5iJVF5oGHbjYhz72Djg2hFppUGsO3ywsKe1TATQWt1H8t5hHsl-Rk0Om_e0rBFdZ_37y-ds3D8ePXbzio5eQqY_uP692VFMyNcNdXBvCuG6ioclNW1_otVAmsk_KYdKYgB4bb2dygELIQFEwLVDyvbUBEC9qKMCjdTtOYhtZ2fPP8YG>新聯華假期</a>
+</div>
+<div class=timestemp style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 30px; color: #666666; padding: 7px 0 0; align-items: flex-end;">7/21/23</div>
+</div>
+<div aria-hidden="true " class=headerwidth style="margin:auto;border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;">
+<a style="text-decoration: none;
+">
+<amp-img aria-label=" " class="headerwidthimg border_radius_trbl" width=350 layout=responsive height=240 src=https://maps.googleapis.com/maps/api/staticmap?maptype=roadmap&amp;style=feature:poi.business%7Cvisibility:off&amp;style=feature:poi.park%7Celement:labels.text%7Cvisibility:off&amp;markers=icon:https%3A%2F%2Fservices.google.com%2Ffh%2Ffiles%2Femails%2Fmapsactivities_poi_icons_red_pin.png%7C49.2040559,-123.1330812&amp;markers=icon:https%3A%2F%2Fservices.google.com%2Ffh%2Ffiles%2Femails%2Fimpact-emails-lg-pin48-lightred.png%7C49.2114573,-123.1400566&amp;size=300x221&amp;key=AIzaSyDa4iz3jtPdhm9TbosAa1obfDXn9GlGATo&amp;signature=2u5fOQnkwvzXCCaTmrNxwOE6mgY= style="display: block;border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;"></amp-img></a>
+</div>
+</div>
+<!-- hero section end-->
+</div>
+</div>
+<!-- module ends 1-->
+<!-- module starts 2-->
+<div align=center style="margin: auto;" class="w343 w-560">
+<div align=center class=bluelinks style="font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;font-style: normal;font-weight: 700;font-size: 15px;line-height: 23px;text-align: center;color: #1A73E8; display: inline;"><a href=https://notifications.google.com/g/p/ANiao5puK8s1UT7NYhwmBv2LLE34DQgxsyNAN-ariZ2jPehWOfKlKF6SvJzvUuTpobAcr_3hSaHI1wjGvAFU2PNvDBDcnqqj1ADHAUeQXgHBoOd75_6UeUcCTQnmd_dznAmVjlQqbqbYXmG5yQHOcKPHMhvIQuZ46O0Zt0BL1n_CydxvFyBU6mkDbqMQFVv9llrmwLmRUnUyl25gsO4dYLcbz5jBuGL3Zsy7YP7y8QLFlc-M98AkqKMy0xi69CeFOh-UxsjfgfDpmWUyvGJySObAkORJfU7afVEbYLR6B6-7H5bED8Aw8pRsmFPbXTrboCpQKTmKp64 style=text-decoration:none;color:#1A73E8; target=_blank aria-label="Visit your contributions to see the place you’ve added.">
+See your edits >
+</a>
+</div>
+<div align=center class="pl-0 pr-0" style="font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;font-style: normal;font-weight: 700;font-size: 24px;line-height: 36px;text-align: center;color: #666666;padding-top:25px;">
+Your update is helping in a big way
+</div>
+<div align=center style="font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;font-style: normal;font-weight: 400;font-size: 14px;line-height: 22px;text-align: center;color: #666666;padding-top: 8px;">
+You changed the location of 新聯華假期 which has now been seen over 4,000 times. Thanks for making such a valuable edit to the map.
+</div>
+<div align=center style="padding: 23px 0 40px;">
+<div align=center style="display: inline-block;">
+<a aria-label="Visit Google Maps to contribute
+" href=https://notifications.google.com/g/p/ANiao5osEUKFACCPEAZOXJgfLdkJi4mhJMrUJaw3ZKwu-h17qqPjDE1TEaomrseDOCZP-9Z8Tz7_vDKasyPuabNVflXNM7GnmYrtl3-uM3uLC1lZsFLFboOWcuXjTUmVZdo-KM4vzqsE7keLdEbt0HA3mRMTU2fBVEdVGxi6KE4UUhISq69kaWFekoqAxT5oEkR0KykVr6fADLOKaUmkueuTWENCeBfzEEcRsvcbbCQRQqQ9PGrdyoUSYe4ec-xmC6BELuQOpJXSPJcXutKB_95z-f70xLw2k9BoGiHmq_QBMEaMTdUg1iFYMxmCI_VhRhcnbY_-5S6BTB7EhR71 target=_blank style="padding: 13px 24px 13px 24px;background:#1A73E8; border-radius:4px; color:#ffffff;display: inline-block; font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px;line-height: 24px; font-weight:500; text-decoration:none" class=outbor><!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->Contribute more
+<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--></a>
+</div>
+</div>
+</div>
+<!-- module ends 2-->
+<!-- module start 3-->
+<!-- footer starts -->
+<div style="align-items: center;">
+<div class=w-330>
+<div>
+<p style="font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368; font-size: 12px; line-height: 16px; letter-spacing: 0.3px; padding: 20px 0;">You received this email because you contributed user content to Google. If you don’t want these updates anymore, you can <a href=https://notifications.google.com/g/optout/ANiao5pYzyVTeLvS5VZPvnbDxETnKLk4NT6lwL-mjTrrSykGFlJ-YFyjlDdJuVQCeLluua-DbMo7dZWzBOJ09nxw4PLBdI0ITE_dwOMushJYMV9eGc_2yKTfERZWoawr5CNR_ttv4LA4nEYwwiTMDW0bRnYd6QPnkP1lGMAID6isyuUOOjXkeoVmWhkHI4xM2MCZeidNuzBijpkUpx_uA4Gxq-HAFzMooB66bF7oF2-wXN-q34C0tX38FnVENDFvRLMHyCjT_RJyXtv0i3u1EM6pmUsaBy__Bf6NU4JuR-1ZMQ?hl=en style="text-decoration: none; color: #1A73E8;" target=_blank>unsubscribe</a> here.</p>
+</div>
+</div>
+</div>
+<div style="align-items: center;">
+<div class=w-308 style="height: 1px; background-color: #DADCE0;"></div>
+</div>
+<div style="align-items: center;">
+<div class=w-292>
+<div style="padding: 20px 0 0; align-items: center;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-partners-google-transparent-w158px-h52px-2x.png alt="" width=80 height=26 layout=responsive style="width: 80px; height: 26px;"></amp-img>
+</div>
+<div>
+<p class=text-address style="font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #202124; font-size: 10px; line-height: 16px; letter-spacing: 0.17px;">&copy; 2023 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043</p>
+</div>
+</div>
+</div>
+<!-- footer ends -->
+</div>
+<!-- body end -->
+</div>
+</body>
+</html>

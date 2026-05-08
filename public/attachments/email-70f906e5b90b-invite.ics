@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20261207T140050Z
+DTEND:20261208T140050Z
+DTSTAMP:20260507T190109Z
+ORGANIZER;CN=Wanda Novak:mailto:wanda.novak90753@dailynewsbriefing.com
+UID:psap2hic6tv5gfcls652ph4vbc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260507T190051Z
+DESCRIPTION:Dear Customer\,\n\nThank you for being a valued member of paypa
+ l.\n\nThis message is to notify you that your McAfee ScanGuard Security Sui
+ te subscription has reached its renewal date. As part of your active servic
+ e agreement\, the subscription has been automatically renewed to ensure con
+ tinuous access to your services.\n\nThe renewal payment has been securely p
+ rocessed through your saved PayPal billing account.\n\n🧾 Billing Informati
+ on\n\nInvoice Number: #QR901234\nTransaction Date: May 4\, 2026\nProduct: M
+ cAfee ScanGuard Security Suite – Annual Subscription\nBilling Cycle: 1 Year
+ \nAmount Charged: $399.00 USD\nPayment Method: PayPal (Saved Account)\n\nYo
+ ur renewed subscription allows you to continue enjoying all available featu
+ res\, updates\, and dedicated support services.\n\nIf you would like to rev
+ iew this transaction or require assistance with your account\, please conta
+ ct our support team.\n\n📞 Customer Assistance: +1 (856) 236-1804\n\nWe app
+ reciate your continued trust in paypal.\n\nBest regards\,\npaypal\nBilling 
+ & Subscription Services
+LAST-MODIFIED:20260507T190055Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Plan renewed successfully
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

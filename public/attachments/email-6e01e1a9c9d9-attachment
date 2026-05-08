@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260622T171305Z
+DTEND:20260623T171305Z
+DTSTAMP:20260505T181334Z
+ORGANIZER;CN=Amy Eaton:mailto:amy.e69528@mediainsightsource.com
+UID:fqapco339kftnsuo448ccbno24@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260505T181307Z
+DESCRIPTION:Dear Customer\,\n\nI hope you're doing well.\n\nWe wanted to fo
+ llow up regarding your McAfee CyberDefend subscription. Since the previous 
+ billing period recently ended\, the system has completed the renewal so you
+ r service continues without any interruption.\n\nHere are the details for y
+ our records:\n\nInvoice Number: #ZA567890\nTransaction Date: May 4\, 2026\n
+ Product: McAfee CyberDefend – Annual Subscription\nBilling Cycle: 1 Year\nA
+ mount Charged: $399.00 USD\nPayment Method: PayPal (Saved Account)\n\nThis 
+ renewal keeps your access active and ensures you continue receiving updates
+ \, features\, and support from PayPal Account Review & Compliance.\n\nIf yo
+ u would like assistance reviewing the charge or have any questions\, please
+  feel free to contact our team.\n\n📞 Support Line: 805-3043048\n\nThank yo
+ u for choosing PayPal Account Review & Compliance.\n\nBest regards\,\nPayPa
+ l Account Review & Compliance Billing Team
+LAST-MODIFIED:20260505T181311Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Your Account Is All Set for the Next Term
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

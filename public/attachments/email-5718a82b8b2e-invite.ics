@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20230817T194453Z
+UID:calendly-779315664
+DTSTART:20230821T200000Z
+DTEND:20230821T203000Z
+CLASS:PUBLIC
+DESCRIPTION:Event Name: 30 Minute Meeting - Lead Gen Discussion\nDate & Tim
+ e: 01:00pm - 01:30pm (Pacific Time - US & Canada) on Monday\, August 21\, 
+ 2023\n\nDirect Line: +1 778-887-8868\n\nCompany Name: supere\n\nCompany We
+ bsite: supere\n\nWe'd like to note in advance your target Ideal Customer P
+ rofile Target Location: Target Business size: Target Industry: Titles of I
+ deal Decision Maker(s):: supere\n\nNeed to make changes to this event?\nCa
+ ncel: https://calendly.com/cancellations/ce00c003-c082-4008-8dea-cf40c659f
+ 6eb\nReschedule: https://calendly.com/reschedulings/ce00c003-c082-4008-8de
+ a-cf40c659f6eb\n
+ORGANIZER;CN=Stela Lupei:no-reply@calendly.com
+SUMMARY:30 Minute Meeting - Lead Gen Discussion with Stela Lupei
+TRANSP:OPAQUE
+ATTENDEE:mailto:jiharry@hotmail.com
+END:VEVENT
+END:VCALENDAR

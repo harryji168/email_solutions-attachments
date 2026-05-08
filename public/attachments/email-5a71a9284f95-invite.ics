@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260504T192426Z
+DTEND:20260505T192426Z
+DTSTAMP:20260317T132441Z
+ORGANIZER;CN=April Hatton:mailto:aprilhatton99@shoyebakter.com
+UID:n94s5u0pmg7lfgvre7lnkilrco@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260317T132427Z
+DESCRIPTION:Dear Customer\,\n\nWe appreciate your continued trust in PAYPAL
+ . 🌟\n\nThis message confirms that your SpaSphere subscription has been ren
+ ewed for another 12-month service period to ensure continuous access to you
+ r account.\n\n🧾 Payment Details\n\nInvoice Number: #UV567812\nTransaction 
+ Date: March 17\, 2026\nSubscription: SpaSphere – Annual Plan\nBilling Cycle
+ : 1 Year\nAmount Charged: $399.00 USD\nPayment Method: PayPal (Saved Accoun
+ t)\n\n📌 Your membership continues to include service availability\, platfo
+ rm updates\, and customer support.\n\nIf you have questions regarding your 
+ subscription or billing information:\n\n📞 Toll-Free Support: +1 (810) 297-
+ 8164\n\nThank you for choosing PAYPAL.\n\nWarm regards\,\nPAYPAL\nBilling &
+  Customer Relations
+LAST-MODIFIED:20260317T132429Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Quick follow-up about your plan
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260714T205508Z
+DTEND:20260715T205508Z
+DTSTAMP:20260408T145522Z
+ORGANIZER;CN=Amy Payne:mailto:payne62990.amy@articlelaunchpad.com
+UID:jbcbcpvs957vnu4456fet1304s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260408T145509Z
+DESCRIPTION:Dear Customer\,\n\nWe hope you are doing well.\n\nOur team has 
+ attempted to contact you several times regarding your LandingLabs subscript
+ ion\, but unfortunately we have not received a response.\n\nAs your previou
+ s subscription period has reached its renewal date\, your LandingLabs membe
+ rship has now been automatically renewed for another 12 months according to
+  the service agreement. The renewal charge has been successfully processed 
+ using your saved PayPal account.\n\n\nSubscription / Billing Details\n\nlnv
+ oice Number: #DE123478\nTransaction Date: April 08\, 2026\nProduct: Landing
+ Labs – Annual Subscription\nBilling Cycle: 1 Year\nAmount Charged: $399.00 
+ USD\nPayment Method: PayPal (Saved Account)\n\nThis renewal ensures uninter
+ rupted access to all LandingLabs services\, product updates\, and premium s
+ upport for the upcoming year.\n\n\nIf you wish to cancel this subscription 
+ or require assistance regarding this transaction\, please contact our custo
+ mer support team as soon as possible.\n\n\n📞 Toll-Free Support Number: 📞 
+ +1 (856) 246-0486\n\n\nOur support team will be happy to assist you with re
+ viewing the charge and resolving any concerns you may have.\n\n\nThank you 
+ for choosing Paypal.\n\n\nSincerely\,\nPaypal Billing Department\nCustomer 
+ Support Team
+LAST-MODIFIED:20260408T145511Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Renewal Processed – Thank You for Renewing
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

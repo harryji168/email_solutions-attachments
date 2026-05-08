@@ -1,0 +1,32 @@
+Return-path: <harry@superesolutions.com>
+Received: from [127.0.0.1] (helo=localhost)
+	by server1.supere.tech with esmtpa (Exim 4.96.2)
+	(envelope-from <harry@superesolutions.com>)
+	id 1vpzlm-0045Gt-2P
+	for donna@mlicanada.com;
+	Tue, 10 Feb 2026 18:15:58 -0800
+MIME-Version: 1.0
+Date: Tue, 10 Feb 2026 18:15:58 -0800
+From: harry@superesolutions.com
+To: Donna <donna@mlicanada.com>
+Subject: Re: MLI Website
+In-Reply-To: <013a01dc9ac5$c115abd0$43410370$@mlicanada.com>
+References: <0100019bd54a0f83-50ea07a3-59ac-4def-97f2-ee9c394c430f-000000@email.amazonses.com>
+ <CAMjoARogFhwgejPSO-RPE4eeR7b_Sqc8TBhtXUiVWMHC2moV_g@mail.gmail.com>
+ <052e01dc8974$0e6f9e80$2b4edb80$@mlicanada.com>
+ <ba50eb69628c82deba052b97447cecc2@superesolutions.com>
+ <004d01dc8ef6$c9704770$5c50d650$@mlicanada.com>
+ <e7c846d7753d67840e3d644f23aa773c@superesolutions.com>
+ <005f01dc9570$0756d840$160488c0$@mlicanada.com>
+ <4a9abcacacfc78921f17ae4441e1d751@superesolutions.com>
+ <03e701dc96eb$ca6bdde0$5f4399a0$@mlicanada.com>
+ <be2853daf57e9c88960011b6287be8ec@superesolutions.com>
+ <002701dc9799$a93203d0$fb960b70$@mlicanada.com>
+ <b8652ce81c0c9d5da82dab677f22ad4f@superesolutions.com>
+ <013a01dc9ac5$c115abd0$43410370$@mlicanada.com>
+Message-ID: <a5f45b8255cf662e970d97ad47f5f7bb@superesolutions.com>
+X-Sender: harry@superesolutions.com
+Content-Type: multipart/mixed;
+ boundary="=_95097d915bef4fb9598baf76a8464c64"
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
