@@ -1,0 +1,142 @@
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1691867192; x=1692471992;
+        h=content-transfer-encoding:subject:from:to:content-language
+         :user-agent:mime-version:date:message-id:dkim-signature:resent-from
+         :delivered-to:x-forwarded-for:x-forwarded-to:x-gm-message-state:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        b=is//g2MOiz+91FpxvMqr/83vL+q+RKZ8c8GNUuiavEI2GGsjJDgan+UxsnstkAh7ZG
+         ob09kgxsZH/fMxJd8jFpIisrAhpSm/7ngb544Dnm4pdmADs6wAAPOGfWbRFPCjZ/Klt5
+         j0geIKufi19ZxpyEsG6znkq0e4eUB67E0wYSi6VTX4hS5d6tY3jIxf2jt0ozTlFTSr86
+         rei/vJvhag+McWfHjLQ+7X/O8poQIAg3HbGO/UaPxLmCqL6RF0ekPf4b8JWoQtvIRp9Q
+         GQPwM28Cauw05ZH1Wc4c11h1lIXLYguZl/+5BKOjvj9f+BrFaChoQ8xfHQxhiKuJvi5h
+         m6wg==
+X-Gm-Message-State: AOJu0YzCZqIhliwru9oCwDEhjqyirq1gkako/n8bvBc1bhe0emhlZGc9
+	BztRax1ynJps735UPITX8D8UexDIskIM0OMOosTqW4GsOBgFZRr/Aw==
+X-Received: by 2002:a17:903:2342:b0:1bb:3979:d467 with SMTP id c2-20020a170903234200b001bb3979d467mr5209756plh.63.1691867192256;
+        Sat, 12 Aug 2023 12:06:32 -0700 (PDT)
+X-Forwarded-To: harry@superesolutions.com
+X-Forwarded-For: superesolutions@gmail.com harry@superesolutions.com
+Delivered-To: superesolutions@gmail.com
+Received: by 2002:a05:6a20:4e05:b0:136:ee92:14f5 with SMTP id gk5csp1888168pzb;
+        Sat, 12 Aug 2023 12:06:31 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHZO2DowNpQLvq9sabzFUD8cvVO2acSS9wZvcJpqYE2pCIRXswSWzUwFjFrIp9lmnbaFcAP
+X-Received: by 2002:adf:f150:0:b0:314:15a8:7879 with SMTP id y16-20020adff150000000b0031415a87879mr3868260wro.34.1691867190835;
+        Sat, 12 Aug 2023 12:06:30 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1691867190; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Sa6A78fyKue2EVk8J6jDisjiM4nn6Lw/KaU4OFvQaXd/R5ngbkGONtlimqNXBqkIaO
+         CMARVKuBfy4uYnAxc10KLo3ctv2H1+g1TQ2pdhXjlCKDmaWcd5LyYsGi6zePMJ8ZVVDN
+         xr7e123YSvYsa7nfVBpGtwXIgjUS8RSMMEDaPmE4M7mNK4t2heS/2j8tc/GwtBKySMBW
+         3ZCndbKydddBLq0v/h1hMs/r4DF6SM+a5d3QJZcvSW+o+kPk9Yb2+gVM9Bb3oJrP8+TS
+         A/YqtWlRw3zGgCwYZMCCee8I5YXLSHzb6zKXL+UUSMAwZjk/rMjeQlF8ZB+cj/I9Xx0T
+         aWSA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:subject:from:to:content-language
+         :user-agent:mime-version:date:message-id:dkim-signature:resent-from;
+        bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        fh=kYeHE0zcpQYw4XA72SJD1ima2nZnFfse4nOT1yThV5g=;
+        b=stcG3gcm31ZCsHzZWvpYDY1rlVKS0q/u7Y9FKwLGXw+hKbFis8i0fzSlBsVEMn4JbM
+         YCJvgWjNEIxaWz7eSRHyJp3ld6CkqY50AyaIrMS5GESGOkelqpja57b4prvZKEVgPRrp
+         5EoL21U7tt/1dMGqyooZWAdFo4+Vpm5WRLJpYQSMUaLDRj/+uJcFi/PJ1xokNmB/X4/A
+         gjmC8ni4w8TTyVvTwIVqZiMmr+BCAUKYA6WCRX+4s4RY0NngpiODqTn0+3s/+ylKkeHI
+         5DFZ50yP1xrvh+g4JkDud3VJKmNFq6qOoyWXDQ/t6+D2PoRChKYjbO4cQaV60DvLXorF
+         5Rkw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=fail header.i=@superesolutions.com header.s=default header.b=kaLrvkFM;
+       spf=pass (google.com: domain of jiharry+srs=ymknb=d5=superesolutions.com=harry@hotmail.com designates 2a01:111:f400:7e89::208 as permitted sender) smtp.mailfrom="jiharry+SRS=YmKNb=D5=superesolutions.com=harry@hotmail.com";
+       dmarc=fail (p=QUARANTINE sp=NONE dis=NONE) header.from=superesolutions.com
+Return-Path: <jiharry+SRS=YmKNb=D5=superesolutions.com=harry@hotmail.com>
+Received: from NAM10-MW2-obe.outbound.protection.outlook.com (mail-mw2nam10lp20208.outbound.protection.outlook.com. [2a01:111:f400:7e89::208])
+        by mx.google.com with ESMTPS id bo15-20020a0564020b2f00b0052376a808d2si5392143edb.85.2023.08.12.12.06.30
+        for <superesolutions@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 12 Aug 2023 12:06:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jiharry+srs=ymknb=d5=superesolutions.com=harry@hotmail.com designates 2a01:111:f400:7e89::208 as permitted sender) client-ip=2a01:111:f400:7e89::208;
+Authentication-Results: mx.google.com;
+       dkim=fail header.i=@superesolutions.com header.s=default header.b=kaLrvkFM;
+       spf=pass (google.com: domain of jiharry+srs=ymknb=d5=superesolutions.com=harry@hotmail.com designates 2a01:111:f400:7e89::208 as permitted sender) smtp.mailfrom="jiharry+SRS=YmKNb=D5=superesolutions.com=harry@hotmail.com";
+       dmarc=fail (p=QUARANTINE sp=NONE dis=NONE) header.from=superesolutions.com
+Received: from PH0PR10MB5893.namprd10.prod.outlook.com (2603:10b6:510:149::11)
+ by PH7PR10MB6966.namprd10.prod.outlook.com (2603:10b6:510:277::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6678.22; Sat, 12 Aug
+ 2023 19:06:28 +0000
+Resent-From: <jiharry@hotmail.com>
+Received: from PH0PR10MB5893.namprd10.prod.outlook.com ([::1]) by
+ PH0PR10MB5893.namprd10.prod.outlook.com ([fe80::c8cc:6b72:bfbf:fccb%5]) with
+ Microsoft SMTP Server id 15.20.6678.022; Sat, 12 Aug 2023 19:06:28 +0000
+Authentication-Results: spf=pass (sender IP is 98.142.108.205)
+ smtp.mailfrom=superesolutions.com; dkim=pass (signature was verified)
+ header.d=superesolutions.com;dmarc=pass action=none
+ header.from=superesolutions.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of superesolutions.com
+ designates 98.142.108.205 as permitted sender)
+ receiver=protection.outlook.com; client-ip=98.142.108.205;
+ helo=98-142-108-205.static.hostdime.com; pr=C
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:92ECBE7AD464A5C8B01D0801EABE478427FFE5CE8234BEC0181422A3ECB1AB1E;UpperCasedChecksum:84A90FDB83E671F691BAD48BA283F02A49BC22EE4CA1C0AEC34A319B8947D8D4;SizeAsReceived:2116;Count:22
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=superesolutions.com; s=default; h=Content-Transfer-Encoding:Content-Type:
+	Subject:From:To:MIME-Version:Date:Message-ID:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=; b=kaLrvkFMLBVJ0heU0ELjdjsyB1
+	bAG/hxh9LIhYiKpaQjG1FChg81updONtEd9HfXf7vDel/Rf91Cdh2b5VxmdjbQRWf9ogwvkxKYpZO
+	HaVXqBxz/QeFinCVcEEZnQUoppn26YSBhAM87DCn6o9ig13Bd2AOFGP0j6xj18arY7MkG0Wd+JATV
+	vUIO1MuOIrdb6ziej4/xfSQyu7a8XDER4f9uBbNSisRHBDKSZJQDU2sqGs5Kv43hKS4Yntmz2N1mz
+	Mx12xC83NhWLWlx5zfhoF4HZeZGGDRsLEDTtlbIc0TW4sq654bSDUKMPG3aNvCoyTJzMm/i7xDxMY
+	gc1FrrAQ==;
+Message-ID: <e5b3357f-04b0-10b4-4d7d-b094a0d24047@superesolutions.com>
+Date: Sat, 12 Aug 2023 12:06:19 -0700
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101
+ Thunderbird/102.14.0
+Content-Language: en-US
+To: harry Ji <jiharry@hotmail.com>
+From: Harry Ji <harry@superesolutions.com>
+Subject: 08-12
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.supere.ca
+X-AntiAbuse: Original Domain - hotmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - superesolutions.com
+X-Get-Message-Sender-Via: host.supere.ca: authenticated_id: harry@superesolutions.com
+X-Authenticated-Sender: host.supere.ca: harry@superesolutions.com
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+X-IncomingHeaderCount: 22
+Return-Path: harry@superesolutions.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+	DM6NAM12FT024:EE_|PH8PR10MB6573:EE_|PH0PR10MB5893:EE_|PH7PR10MB6966:EE_
+X-MS-UserLastLogonTime: 8/12/2023 7:03:13 PM
+X-MS-Office365-Filtering-Correlation-Id: 331fa6d1-1d7d-4fe4-8de3-08db9b673ac4
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 98.142.108.205
+X-SID-PRA: HARRY@SUPERESOLUTIONS.COM
+X-SID-Result: PASS
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Aug 2023 19:06:27.1391
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 331fa6d1-1d7d-4fe4-8de3-08db9b673ac4
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ DM6NAM12FT024.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH8PR10MB6573
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.1700817
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6678.022
+X-MS-Exchange-Inbox-Rules-Loop: jiharry@hotmail.com
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-28291.templateTenant
+
+

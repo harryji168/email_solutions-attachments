@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20250811T220000
+DTEND;TZID=Asia/Kolkata:20250811T225000
+DTSTAMP:20250808T190502Z
+ORGANIZER;CN=Baby:mailto:bbabyy@xwf.google.com
+UID:cmjoa9vbqd7r04ctmmh35lkeh0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=superesolutions@gmail.com;X-NUM-GUESTS=0:mailto:superesolutions@gma
+ il.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Baby;X-NUM-GUESTS=0:mailto:bbabyy@xwf.google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/uoa-bdud-ron
+X-MICROSOFT-CDO-OWNERAPPTID:-234193511
+CREATED:20250808T190458Z
+DESCRIPTION:Our upcoming meeting is scheduled for account(s) 2035363486 on 
+ Mon\, Aug 11 and I will contact you at +1 7788878868. If this time no longe
+ r works for you\, email directly at bbabyy@xwf.google.com. I look forward t
+ o reviewing/discussing solutions in Google Ads to optimize your campaigns!\
+ n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/uoa-bdud-ro
+ n\nOr dial: (IN) +91 22 7127 9696 PIN: 8040306293817#\nMore phone numbers: 
+ https://tel.meet/uoa-bdud-ron?pin=8040306293817&hs=7\n\nLearn more about Me
+ et at: https://support.google.com/a/users/answer/9282720\n\nPlease do not e
+ dit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20250808T190501Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Super E-solutions: Google Ads Consultation
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
