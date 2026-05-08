@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260428T121412Z
+DTEND:20260429T121412Z
+DTSTAMP:20260407T141449Z
+ORGANIZER;CN=Aimee Barnes:mailto:a.barnes75270@artiklio.com
+UID:ubi8hr4gstffq69mh81o0vp8k8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260407T141414Z
+DESCRIPTION:Dear Customer\,\n\nWe hope you're having a good day.\n\nThis em
+ ail confirms that your ComplyCoin subscription has been renewed to keep you
+ r account services active for the upcoming year.\n\nBilling Details\n\nInvo
+ ice Number: #VW123456\nTransaction Date: April 07\, 2026\nProduct: ComplyCo
+ in – Annual Subscription\nBilling Cycle: 1 Year\nAmount Charged: $399.00 US
+ D\nPayment Method: PayPal (Saved Account)\n\nYour subscription remains acti
+ ve and continues to include all available features and customer support fro
+ m Paypal.\n\nIf you have any questions regarding this renewal\, please cont
+ act our team.\n\n📞 Assistance Line: +1 (812) 266-3622\n\nKind regards\,\nP
+ aypal Billing Services
+LAST-MODIFIED:20260407T141417Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Renewal Processed – No Further Action Needed
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

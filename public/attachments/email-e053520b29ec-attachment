@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260314T190410Z
+DTEND:20260315T190410Z
+DTSTAMP:20260313T190433Z
+ORGANIZER;CN=Carolyn Haley:mailto:carolyndhaley3179941239@carryminate.com
+UID:2fu5iq21rem2gcni71nhblt560@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260313T190412Z
+DESCRIPTION:Dear Customer\,\n\nI hope you're doing well.\n\nWe wanted to fo
+ llow up regarding your Fluxa subscription. Since the previous billing perio
+ d recently ended\, the system has completed the renewal so your service con
+ tinues without any interruption.\n\nHere are the details for your records:\
+ n\nInvoice Number: #UV567890\nTransaction Date: March 13\, 2026\nProduct: F
+ luxa – Annual Subscription\nBilling Cycle: 1 Year\nAmount Charged: $399.00 
+ USD\nPayment Method: PayPal (Saved Account)\n\nThis renewal keeps your acce
+ ss active and ensures you continue receiving updates\, features\, and suppo
+ rt from Scapolite.\n\nIf you would like assistance reviewing the charge or 
+ have any questions\, please feel free to contact our team.\n\n📞 Support Li
+ ne: +1 (812) 266-5796\n\nThank you for choosing Scapolite.\n\nBest regards\
+ ,\nScapolite Billing Team
+LAST-MODIFIED:20260313T190413Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:One quick idea
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

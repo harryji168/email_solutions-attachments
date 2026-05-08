@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260806T222124Z
+DTEND:20260807T222124Z
+DTSTAMP:20260309T142136Z
+ORGANIZER;CN=Millie Cabrera:mailto:millie.cabrera941@listickedu.win
+UID:2t6uspokn82kuuvf0m4habuk04@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260309T142124Z
+DESCRIPTION:PayPal Helpdesk\nOrder Id: #EF901234\nTransaction Date: 03-06-2
+ 026\n\nHelpdesk: +1 (828) 407-7100\n\n\nDear \,\nThank you for your recent 
+ transaction.\nWe appreciate your payment via PayPal On 03-06-2026\, for you
+ r recent transaction\, order. We would like to inform you that\nUS$699.00 h
+ as been deducted from your payment method using your email address. This ch
+ arge will\nappear on your account statement within 24 hours.\n\nPayment Inf
+ ormation\n\nYou've bought: 0.0096 BTC\nMerchant Information\nBTC Value: USD
+ $699.00\n\nDigital Currency.\,\n\nTransaction Fee: 0.00\nYour Invoice: #EF9
+ 01234\nTotal: USD$699.00\n\n\nNeed Assistance?\nPlease contact us if there 
+ are any concerns regarding this transaction to review or discuss this trans
+ action. Call\nthe our support line below to reach PayPal Support.\n\nContac
+ t Support at: +1 (828) 407-7100 (tollfree)\n\nCopyright 1999-2026\n\n\nYou 
+ are receiving this transactional email because your have recently made a tr
+ ansaction on your account linked with this email\naddress.\nKeep this e-mai
+ l safe for future reference.\nThis is an automated email\; replies are not 
+ monitored.
+LAST-MODIFIED:20260309T142126Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Check your balance: Your Bitcoin has arrived
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

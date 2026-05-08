@@ -1,0 +1,591 @@
+
+
+
+<!doctype html>
+<html lang=en ⚡4email data-css-strict>
+<head>
+<meta charset=utf-8>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<script async custom-element=amp-bind src=https://cdn.ampproject.org/v0/amp-bind-0.1.js></script>
+<style amp4email-boilerplate>body{visibility:hidden}</style>
+<style amp-custom>
+* {
+outline: none;
+}
+div {
+display: flex;
+flex-direction: column;
+}
+#carousel-with-preview > div {
+flex-direction: row;
+}
+p, a {
+margin: 0;
+text-align: center;
+font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.amp-carousel-button:focus {
+outline: none;
+border: none;
+}
+.current {
+background-color: #858585;
+}
+.old {
+background-color: #E2E2E2;
+}
+@media (min-width: 721px) {
+.showonmobile{display:none;}
+.hideonmobile{display:block;}
+.amp-carousel-button-next {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-nav-right-transparent-w100px-h100px-2x.png');
+background-size: 50px 50px;
+right: 20px;
+outline: none;
+}
+.amp-carousel-button-prev {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-nav-left-transparent-w100px-h100px-2x.png');
+background-size: 50px 50px;
+left: 20px;
+outline: none;
+}
+.amp-carousel-button {
+background-color: transparent;
+top: 45%;
+height: 50px;
+width: 50px;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+border-radius: 50%;
+cursor: pointer;
+}
+.flex-d-r {
+flex-direction: row;
+}
+.w-360 {
+width: 720px;
+}
+.hero-bg {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-impact-header-background-transparent-w1440px-h760px-2x.png');
+min-height: 400px;
+}
+.hero-heading {
+font-size: 72px;
+line-height: 72px;
+}
+.hero-subheading {
+font-size: 24px;
+line-height: 36px;
+}
+.hero-container {
+width: 350px;
+margin: 15px 0 4px;
+}
+.hero-container-inner {
+padding: 11px 20px 11px;
+}
+.profile-icon {
+width: 35px;
+height: 35px;
+}
+.profile-name {
+font-size: 16px;
+line-height: 30px;
+padding: 7px 0 0 9px;
+}
+.post-date {
+font-size: 14px;
+line-height: 30px;
+padding: 7px 0 0;
+}
+.sec1-container {
+width: 540px;
+}
+.cta1-pad {
+padding: 16px 0 0;
+}
+.sec1-para1 {
+padding: 19px 0 0;
+font-size: 24px;
+line-height: 36px;
+}
+.w-296 {
+width: 618px;
+}
+.sec2-para1 {
+padding: 41px 0 0;
+}
+.car-container {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-amp-background-transparent-w1440px-h1146px-2x.png');
+min-height: 573px;
+}
+.flex-col {
+flex-direction: row;
+width: 618px;
+}
+.sec3-icon {
+padding: 71px 0 0;
+}
+.sec3-para1 {
+padding: 11px 40px 0;
+}
+.w-294 {
+width: 256px;
+}
+.sec3-para2 {
+padding: 4px 10px 0;
+}
+.sec3-card {
+margin: 40px 0 4px;
+}
+.sec4-container {
+width: 572px;
+}
+.sec4-img {
+padding: 28px 0 0;
+}
+.sec4-para3 {
+padding: 6px 0 0;
+}
+.w-308 {
+width: 636px;
+}
+.smiley-space {
+width: 4px;
+}
+.w-330 {
+width: 636px;
+}
+.text-pref {
+padding: 5px 0 62px;
+}
+.w-292 {
+width: 636px;
+}
+.text-address {
+padding: 20px 0 90px;
+}
+.car-wid {
+width: 720px;
+height: 357px;
+}
+.car-spa {
+width: 43px;
+}
+.car-main-cont {
+width: 560px;
+padding: 34px 0 39px;
+}
+.inc-para {
+padding: 4px 10px 0
+}
+.card-spacer {
+width: 1px;
+}
+.card-rev {
+padding: 19px 34px 0;
+}
+.card-cta {
+padding: 30px 0 0;
+}
+.card-post {
+padding: 16px 0 0;
+}
+.post-dim {
+width: 249px;
+height: 143px;
+}
+.review-main {
+padding: 8px 20px 30px;
+}
+.review-rate {
+padding: 0 20px;
+}
+.review-imp-card {
+width: 278px;
+}
+.mobile {
+display: none;
+}
+}
+@media (max-width: 720px) {
+.width330{width: 320px}
+.mauto{margin: 0 auto;}
+.wid-294{width: 294px}
+.wid-100-per{width: 100%}
+.dblock{display:block;}
+.textcenter{text-align: center;}
+.showonmobile{display:block;}
+.hideonmobile{display:none;}
+.mob-padd{padding: 0px 8px}
+.amp-carousel-button-next {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-nav-right-transparent-w100px-h100px-2x.png');
+background-size: 50px 50px;
+right: 4px;
+outline: none;
+}
+.amp-carousel-button-prev {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-nav-left-transparent-w100px-h100px-2x.png');
+background-size: 50px 50px;
+left: 4px;
+outline: none;
+}
+.amp-carousel-button {
+background-color: transparent;
+top: 45%;
+height: 50px;
+width: 50px;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+border-radius: 50%;
+cursor: pointer;
+}
+.flex-d-r {
+flex-direction: column;
+align-items: center;
+}
+.w-360 {
+width: 360px;
+}
+.hero-bg {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-impact-header-background-transparent-w720px-h798px-2x.png');
+min-height: 420px;
+}
+.hero-heading {
+font-size: 62px;
+line-height: 62px;
+}
+.hero-subheading {
+font-size: 20px;
+line-height: 28px;
+}
+.hero-container {
+width: 252px;
+margin: 23px 0 4px;
+}
+.hero-container-inner {
+padding: 8px 15px 9px;
+}
+.profile-icon {
+width: 25px;
+height: 25px;
+}
+.profile-name {
+font-size: 13px;
+line-height: 21px;
+padding: 4px 0 0 8px;
+}
+.post-date {
+font-size: 13px;
+line-height: 21px;
+padding: 4px 0 0;
+}
+.sec1-container {
+width: 282px;
+}
+.cta1-pad {
+padding: 14px 0 0;
+}
+.sec1-para1 {
+padding: 24px 22px 0;
+font-size: 24px;
+line-height: 32px;
+}
+.w-296 {
+width: 296px;
+}
+.sec2-para1 {
+padding: 31px 0 0;
+}
+.car-container {
+background-image: url('https://www.gstatic.com/gumdrop/files/local-guides-amp-background-transparent-w720px-h1586px-2x.png');
+min-height: 793px;
+}
+.flex-col {
+flex-direction: column;
+align-items: center;
+width: 320px;
+}
+.sec3-icon {
+padding: 31px 0 0;
+}
+.sec3-para1 {
+padding: 8px 0 0;
+}
+.w-294 {
+width: 294px;
+}
+.sec3-para2 {
+padding: 4px 0 0;
+}
+.sec3-card {
+margin: 30px 0 4px;
+}
+.sec4-container {
+width: 296px;
+}
+.sec4-img {
+padding: 24px 0 0;
+}
+.sec4-para3 {
+padding: 3px 0 0;
+}
+.w-308 {
+width: 308px;
+}
+.smiley-space {
+width: 14px;
+}
+.w-330 {
+width: 330px;
+}
+.text-pref {
+padding: 5px 0 30px;
+}
+.w-292 {
+width: 292px;
+}
+.text-address {
+padding: 20px 0 36px;
+}
+.car-wid {
+width: 360px;
+height: 586px;
+}
+.car-spa {
+width: 17px;
+}
+.car-main-cont {
+width: 294px;
+padding: 20px 0 0;
+min-height: 544px;
+}
+.inc-para {
+padding: 0 10px 0
+}
+.card-spacer {
+width: 234px;
+height: 1px;
+margin: 17px 0 9px;
+}
+.card-rev {
+padding: 19px 27px 0;
+}
+.card-cta {
+padding: 20px 0 0;
+}
+.card-post {
+padding: 10px 0 0;
+}
+.post-dim {
+width: 249px;
+height: 143px;
+}
+.review-main {
+padding: 8px 15px 24px;
+}
+.review-rate {
+padding: 0 15px;
+}
+.review-imp-card {
+width: 100%;
+}
+.desktop {
+display: none;
+}
+}
+</style>
+</head>
+<body style="text-align: center; padding: 10px 0; background-color: #f5f5f5;">
+<!-- Manual Tracking Start -->
+<amp-img alt="" height=1 src=https://notifications.google.com/g/img/APy2Ad0f_71Cv3M4q1FqWZOYCwTilMZ57c_FSsE0RNzSnLmrcRBJIpMWKh51jzwLlfo2vp8jUjEt5GnV5xCl1L_98w0k-9tH6xhl3rfFd0cswzLTeoyYKA8rFgTEnDwHIpeYyxA.gif width=3></amp-img>
+<!-- Manual Tracking Start-->
+<amp-state id=selected>
+<script type=application/json> {"slide": 0} </script>
+</amp-state>
+<div class=w-360 style="margin: 0 auto; background-color: #ffffff;">
+<!-- Header Starts -->
+<div style="align-items: center; padding: 12px 0;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/local-guides-google-maps-logo-transparent-w314px-h62px-2x.png alt="" width=155 height=30 layout=responsive style="width: 155px; height: 30px;"></amp-img>
+</div>
+<!-- Header Ends -->
+<!-- Body Starts -->
+<div>
+<div class=hero-bg style="background-repeat: no-repeat; background-size: 100%; align-items: center;">
+<div>
+<p class=hero-heading style="font-weight: 500; color: #1A73E8; letter-spacing: -3.6px; padding: 36px 0 0;">50</p>
+<p class=hero-subheading style="font-weight: bold; color: #666666; letter-spacing: -0.3px">review views</p>
+</div>
+<div class=hero-container style="border: 1px solid #EAE8ED; box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); border-radius: 5px;">
+<div class=hero-container-inner style="flex-direction: row; background-color: #ffffff; justify-content: space-between; border-top-left-radius: 4px; border-top-right-radius: 4px;">
+<div style="flex-direction: row;">
+<div>
+<amp-img class=profile-icon src=https://lh3.googleusercontent.com/a/ACg8ocJCz1LCwuwxbi3wALy3OLoGM5b2OQwGd3HIcTQb3c-8zGkhTp79Kg alt="" width=35 height=35 layout=responsive style="border-radius: 50px;"></amp-img>
+</div>
+<div>
+<p class=profile-name style="font-weight: bold; color: #666666; text-align: left;"><a href=https://c.gle/APy2Ad1UG_93-NoktsJu7gW1lBc6KHlAvj_vqSHNhoMNdZBtvBOVVhBvylQMIu9wSn4Z_Q611h9UTwYCopkR78q5XCG-NHc1eZKmxGDdtHsP_puYXfR6qAXU0khQbX4uAbWbBCcAx62fgHw-63nffTw8MyF7muPNG5kdNnaEZnDr05X_DGcCZxJ0OJKYm2wsVJgPfDRBwlNtMuuvG68n73XfFxY7 target=_blank style="text-decoration: none; color: #666666;"><span class=desktop>Bank of China</span><span class=mobile>Bank of China</span></a></p>
+</div>
+</div>
+<div>
+<p class=post-date style="color: #666666;">9/8/25</p>
+</div>
+</div>
+<div style="background-color: #ffffff; border-radius: 5px;">
+<div class=review-rate>
+<amp-img src=https://www.gstatic.com/gumdrop/files/local-guides-impact-5-star-transparent-w168px-h32px-2x.png alt="" width=84 height=16 layout=responsive style="width: 84px; height: 16px;"></amp-img>
+</div>
+<div class=review-main style="border-radius: 5px;">
+<p style="color: #666666; font-size: 14px; line-height: 22px; text-align: left;">服務態度非常好，工作人員耐心細心，辦理業務效率高，給人很安心的感覺。無論是櫃台還是線上服務，都很專業，體驗非常滿意！</p>
+</div>
+</div>
+</div>
+<div>
+<p class=cta1-pad style="font-size: 15px; line-height: 22px; font-weight: bold;">
+<a aria-label="Visit your review contributions to see your impact" href=https://c.gle/APy2Ad2BfpT_Z40iIEPthcSPVa7oTB5RX0gqbdGa88LxnqG_e5TSRFjr0OxZ8yRFtMDh_YqCt6Mni3pzaXD3dfgNZUbrevDOlQ9uChIYP7bDdsgMGvCIw76mgzfMUEt5OLG1N0FTWLdR7DyOR0MR_ik5_gWWa2PzL6F6JbM-IFIV style="text-decoration: none; color: #1A73E8;" target=_blank>See your reviews  <amp-img src=https://www.gstatic.com/gumdrop/files/local-guides-arrow-blue-transparent-w12px-h20px-2x.png alt="" width=8 height=12 layout=responsive style="display: inline-block; width: 8px; height: 12px; vertical-align: middle;"></amp-img></a>
+</p>
+</div>
+</div>
+<div style="align-items: center;">
+<div class=sec1-container>
+<div style="align-items: center;">
+<div>
+<p class=sec1-para1 style="font-weight: bold; color: #666666;">Your review is helping in a big way</p>
+<p style="color: #666666; font-size: 14px; line-height: 22px; padding: 8px 0 0px;">Congrats! Your post just reached a new milestone. It’s now been viewed over 50 times, helping lots of people get the information they need.</p>
+</div>
+<div style="padding: 30px 0 40px;">
+<a aria-label="Visit Google Maps to contribute" href=https://c.gle/APy2Ad2Yj6BKQXEZNAR6LD73CMT9F0F9yN0HOzyW5DseR4cDgyckqCU3WeTq14y-qwVXPIRx9RvgWG7hLxhEZokr5co1wI3BXFGyEwS_r92KgmegRdQ7ul55ubomJ2CDLf0huODmgwBCjhuk35D3dNXOYpjQpBwf7Fxfp4bJ2XmKamXp3oZt_8fV-NWElzyKuGJtaFKj1jXw4NVxdLnrVnHv7NTy3AF80cGfflU9300f7jzz8Y4 target=_blank style="border-radius: 4px; text-decoration:none; background-color: #1A73E8; color: #ffffff; font-weight:500; text-align: center; padding: 13px 20px 13px; font-size: 16px; line-height: 22px;">Contribute more</a>
+</div>
+<!-- <p style="font-weight: bold; color: #666666; font-size: 14px; line-height: 22px; padding: 20px 0 0;">Share your achievement</p> -->
+</div>
+<!-- <div style="flex-direction: row; justify-content: center; padding: 14px 0 38px;">
+<div>
+<a href="https://www.google.com" style="text-decoration: none; border-radius: 50%">
+<amp-img src="https://services.google.com/fh/files/emails/local_guides_impact_twitter_share.png" alt="" width="50" height="50" layout="responsive" style="width: 50px; height: 50px; border-radius: 50%;"></amp-img>
+</a>
+</div>
+<div style="width: 14px;"></div>
+<div>
+<a href="https://www.google.com" style="text-decoration: none; border-radius: 50%">
+<amp-img src="https://services.google.com/fh/files/emails/local_guides_impact_instagram_share.png" alt="" width="50" height="50" layout="responsive" style="width: 50px; height: 50px; border-radius: 50%;"></amp-img>
+</a>
+</div>
+<div style="width: 14px;"></div>
+<div>
+<a href="https://www.google.com" style="text-decoration: none; border-radius: 50%">
+<amp-img src="https://services.google.com/fh/files/emails/local_guides_impact_facebook_share.png" alt="" width="50" height="50" layout="responsive" style="width: 50px; height: 50px; border-radius: 50%;"></amp-img>
+</a>
+</div>
+<div style="width: 14px;"></div>
+<div>
+<a href="https://www.google.com" style="text-decoration: none; border-radius: 50%">
+<amp-img src="https://services.google.com/fh/files/emails/local_guides_impact_email_share.png" alt="" width="50" height="50" layout="responsive" style="width: 50px; height: 50px; border-radius: 50%;"></amp-img>
+</a>
+</div>
+</div> -->
+</div>
+</div>
+<div>
+<table cellpadding=0 cellspacing=0 role=presentation style=width:100%>
+<tbody>
+<!--opt-in test module starts-->
+<div>
+<table cellpadding=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td align=center valign=top style="padding-bottom: 40px;">
+<table cellpadding=0 cellspacing=0 role=presentation width=680 class=width330>
+<tbody>
+<tr>
+<td align=center valign=top bgcolor=#FEF7E0 style="background-color: #FEF7E0; border-radius: 16px; padding-top: 29px; padding-bottom: 29px">
+<table cellpadding=0 cellspacing=0 role=presentation width=640 class=width330>
+<tbody>
+<tr>
+<td width=331 align=center valign=top class="dblock wid_320">
+<table cellpadding=0 cellspacing=0 role=presentation width=269>
+<tbody>
+<tr>
+<td align=left aria-hidden=true valign=top class=hideonmobile>
+<a><amp-img src=https://services.google.com/fh/files/emails/lg-optin-module-new-transparent-w440px-h440px-2x.png width=220 height=220></a></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=309 align=left valign=top class="dblock wid-100-per">
+<table cellpadding=0 cellspacing=0 role=presentation width=309 class="wid-294 mauto">
+<tbody>
+<tr>
+<td align=left class=textcenter valign=top style="font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:20px; line-height:30px; color:#202124; padding-top: 25px; font-weight: bold;">
+Sign up for more on the latest
+</td>
+</tr>
+<tr>
+<td align=left class=textcenter valign=top style="font-family:Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px; line-height:22px; color:#5F6368; padding-top: 4px">
+Subscribe to receive email news and updates from Google Maps, and for additional details about your contributions.
+</td>
+</tr>
+<!--CTA start-->
+<tr>
+<td align=left style="padding-top:25px; padding-bottom: 20px;"><table role=presentation border=0 cellpadding=0 cellspacing=0 class=mauto>
+<tr>
+<td align=left dir=ltr valign=top><table role=presentation border=0 cellpadding=0 cellspacing=0 align=left>
+<tr>
+<td style=border-radius:4px;background-color:#1A73E8; align=center>
+<a class="outbor cta_style" aria-label="Sign up for email updates" style="display:block; color:#FFFFFF; text-decoration:none; font-family:Google Sans,Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:500; border-radius:4px; padding: 12px 24px; font-size: 16px; line-height: 24px" target=_blank href=https://c.gle/APy2Ad0uuhYuZv_ftyV36L64KMHmfLkVGlZH25n67P3gjF6T86oDYVDF6ZsVtOd5QIO12Lq6lsaRoDC2NgQBN8B01rBtJn8XC9U7QPnB2rmJxxhhiQmQZVIKGAiJXGrFqfXPweSJ7lZ-nI4>Subscribe now </a>
+</td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+<!--CTA end-->
+<!--[if !mso]><!-->
+<tr>
+<td align=center aria-hidden=true valign=top class=showonmobile style=padding-top:30px>
+<a><amp-img src=https://services.google.com/fh/files/emails/lg-optin-module-new-transparent-w440px-h440px-2x.png width=242 height=242></a></amp-img>
+</td>
+</tr>
+<!--<![endif]-->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--opt-in test module ends-->
+</tbody>
+</table>
+</div>
+<div style="align-items: center;">
+<div class=w-330>
+<div>
+<p style="font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368; font-size: 12px; line-height: 16px; letter-spacing: 0.3px; padding: 20px 0;">You received this email because you contributed user content to Google. If you don’t want these updates anymore, you can <a href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/APy2Ad2me1OEeDQvEc7GmEDqWD5MDpQp7JcNcvc1ZpAP0LHMjeBSOetPAzUBrlpLREGsMuxitruNpWht3zIjPynuNcejGHdWzs_4kkl3KhLNaWBhQHLGgCEi7VGJ_bMaPIFMCwsYsYTnWbLlw90CitFESDqW-_VyAEiU8AlnjU4PIlv53r8rtn82br1B_m-I5YWG33ga4vsQs0K9UE1Quwts1OC08VNrcThrY_qcX1yE0f2Qv2padNEHELpJjn5c_GV6Jq7abg?utm_source=gm&amp;utm_medium=email&amp;auto=true style="text-decoration: none; color: #1A73E8;" target=_blank>unsubscribe</a> here.</p>
+</div>
+</div>
+</div>
+<div style="align-items: center;">
+<div class=w-308 style="height: 1px; background-color: #DADCE0;"></div>
+</div>
+<div style="align-items: center;">
+<div class=w-292>
+<div style="padding: 20px 0 0; align-items: center;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/adwords-partners-google-transparent-w158px-h52px-2x.png alt="" width=80 height=26 layout=responsive style="width: 80px; height: 26px;"></amp-img>
+</div>
+<div>
+<p class=text-address style="font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #202124; font-size: 10px; line-height: 16px; letter-spacing: 0.17px;">© 2025 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043</p>
+</div>
+</div>
+</div>
+<!-- Body Ends -->
+<!-- Footer Starts -->
+<!-- Footer Ends -->
+</div>
+</body>
+</html>

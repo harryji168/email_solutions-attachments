@@ -1,0 +1,49 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1776728493; x=1777333293; darn=club-internet.fr;
+        h=message-id:date:to:subject:mime-version:from:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=5LzH+SfRRN29NVd6Dtrx84IzJArsINFMPx0KT2oezVw=;
+        b=qU5k2XrRIW3enCcWHxyhHzmP6/RbU/Tsi6gFvJo41IFcfXgFq8mnt8sg+deTWYe+61
+         Ahr3ZGm9qDeqCeiNgXGg/9tP8BS6v3P55k2JXHHvN1efGKSmA8z9KcMDlOW0cj4PRSwP
+         trW/NnooTU7XQ3E9PqChIogJky81cxL5451iiN5/LY9nvmgFgCpiJnh+VC6ekJ/ufhKf
+         vqjU9NgUJ2OIVJAWWl6gsQZcctrK1fHU2CrtHn0qwtLn//iS0rxuWS5McH/BVyFG36kh
+         Ik8C7dDSlgnhCnDxXlHn0MaU6LQ9dLp2PAAniUaAHEnmqJVxmyTefo8y58rQACNBvTTw
+         lJrg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1776728493; x=1777333293;
+        h=message-id:date:to:subject:mime-version:from:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=5LzH+SfRRN29NVd6Dtrx84IzJArsINFMPx0KT2oezVw=;
+        b=ID7EHxku2OTK4CAm2rwp7dNXrIHU+SwR+47ZW4H1CWTIJNoPKmtaaJwmgVwFWesz/N
+         uJVOaCvVcvqfdixIrhMM5OhYCOZINwjiweZ6zsmVF1lZOw+sTaSnjziliF5h4wh89cSM
+         4PaluLgx2KYfaH5wH/iG4gIio1ZIgGOSDNCDyz5JXBUmuZ9juLnybeOjKPU01bvFANAK
+         tmnvNk4Xt5VXtz7dcbCZG4tFomjsE/PZGT8O4MllAfIr2i3ok8TnEhmrGxpNrkOlk7aM
+         ewbhUlnx2zz200A8NGdCsWmm5mdvqLDWCtifGYrWsxrTDIZ4qIwjAziNWYXf7QhG1a9a
+         4Myg==
+X-Gm-Message-State: AOJu0YxY7+mjfRmzlvbO1etNgtCmTNAq+5wWtVTNesTF+SnIvLKfW0hG
+	D/Z0SaWsfTsloRCSnxXPTBjinXLDiBmfXVIp6ZTImwxTsLx7hG4Br2Ru6qF86Uy++puUBA==
+X-Gm-Gg: AeBDiesIGTuxIeZa5yOkvV7bm9SscK+NNRjftz/foNETfVXnRyeLKJzJ0ARJ6IvVG6h
+	mjS5Es2MLAHyK5v7w5TjbfvblF6AxkCOhG7RBcg9cTXbR4N6wqIuKxzgpmNBkClHJ0syklHl+PL
+	XJHkKhXBa4ySB0mkFDJewzayNt6ZtSC3z9cUHoRJAoOlBP0HeTBf4hdhmR+zavgKwohIAzI1/84
+	9xaLvDzzytHf6eWB8gM9VahLqTXTVON3ZAhMKeGyR3zdNGyaTKS9NnL9R4LaDK0PtIyMIe4f6wZ
+	2rF4EtuYx6LBW0kxPl50ha1EtMu2Kh/E4UmM7J9w6xrQAJr/iKLQUSsmfBpvnre+rqGOJhv4QlI
+	t1+xgw/fKFnJefu92ixgdAao4rahB5errfICmrzBlYc3f0FNxiUmncSBFP0AK1OEUDTfq8dy3+U
+	pAk969jbNwacb16QlqBq0/FtbDroM6dnfnYhzbBRO3xzxctERN+EOn3ICH0zemHU+Q5XtEaCeRR
+	NXFWfHp
+X-Received: by 2002:a5d:64c4:0:b0:43d:7c6c:a0dd with SMTP id ffacd0b85a97d-43fe3e1603dmr23876700f8f.35.1776728492681;
+        Mon, 20 Apr 2026 16:41:32 -0700 (PDT)
+Return-Path: <superesolutions@gmail.com>
+Received: from [10.181.242.35] (82-64-15-220.subs.proxad.net. [82.64.15.220])
+        by smtp.gmail.com with ESMTPSA id ffacd0b85a97d-43fe4dc26a3sm36957832f8f.15.2026.04.20.16.41.31
+        for <nathalie.barraud@club-internet.fr>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 20 Apr 2026 16:41:32 -0700 (PDT)
+From: AVIS ORDRE DE DEBIT <superesolutions@gmail.com>
+X-Google-Original-From: AVIS ORDRE DE DEBIT <no-reply@harryji.com>
+Content-Type: multipart/alternative; boundary="===============6524043991636164930=="
+MIME-Version: 1.0
+Subject: =?utf-8?b?Vm90cmUgbWFuZGF0IGRlIHByw6lsw6h2ZW1lbnQgU0VQQSBhIMOpdMOpIGVucmVnaXN0csOpIGV0IHZhbGlkw6ku?=
+To: nathalie.barraud@club-internet.fr
+Date: Tue, 21 Apr 2026 00:41:29 +0100
+Message-ID: <177672848911.7356.4424290632379531426@smtp.gmail.com>
+

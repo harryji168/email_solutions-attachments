@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20260626T021537Z
+DTEND:20260627T021537Z
+DTSTAMP:20260219T161541Z
+ORGANIZER;CN=Heather Ruiz:mailto:anne.slater@edu-adui.org
+UID:5fhtl80akihplneg3uojhp379k@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=harry@superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutio
+ ns.com
+X-MICROSOFT-CDO-OWNERAPPTID:-1931879902
+CREATED:20260219T161538Z
+DESCRIPTION:Support Contact: +1 (810) 288 4175\n\nHello\n\n\nWe would like 
+ to inform you that your 48 Months membership renewal under the PayPal Plan 
+ has been processed successfully as per our agreement. A total charge of $52
+ 0.58 has been applied to your account. All subscribers whose memberships ha
+ ve automatically renewed are receiving this notification.\n\nAccount and Pa
+ yment Details:\n\n- Item: IntelligentClean Pro\n- Quantity: 1\n- Invoice: #
+ 012345\n- Membership Duration: 48 Months\n- Payment Mode: Confirmed\n- Amou
+ nt Charged: $520.58\n\nTo manage your subscription or cancel future auto-re
+ newals\, please access your account settings on your computer or contact us
+  at +1 (810) 288 4175 for immediate assistance.\n\nBest Regards\,\,\nTeam K
+ eystone PayPal\nPhone: +1 (810) 288 4175\nCopyright © 2026 All Rights Reser
+ ved\nBilling Manager: Madeline Williams\nOur Mailing Address: 835 Main Stre
+ et - - Redwood City Encinitas Ca 92024 Usa
+LAST-MODIFIED:20260219T161539Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Important Announcement
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

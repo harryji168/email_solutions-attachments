@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260518T023717Z
+DTEND:20260519T023717Z
+DTSTAMP:20260311T163741Z
+ORGANIZER;CN=Mavis Hulbert:mailto:mavis.hulbert@hypeconsert.uk
+UID:tchsmh7tdh8cnhgjgfbd6a65kk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260311T163719Z
+DESCRIPTION:Pay-Pal Helpdesk\nOrder Id: #EF901234\nTransaction Date: 03-11-
+ 2026\n\nHelpdesk: +1 405 308.9513\n\nTo Our Valued Customer\,\n\nPlease fin
+ d below the confirmation details for your recent PayPal transaction. On 03-
+ 11-2026\, payment of US$669.00 was processed for order ##EF901234. The fund
+ s have been deducted from your payment method associated with your email ad
+ dress. Please note that this charge will be reflected on your account state
+ ment within 24 hours.\n\nTransaction Details\n\nDescription: 0.0096 BTC\nBT
+ C Amount: USD$669.00\nTransaction Fee: 0.00\nInvoice Number: #EF901234\nTot
+ al Amount: USD$669.00\n\n\nMerchant\nDigital Currency Services\n\nCustomer 
+ Support\nShould you require assistance regarding this transaction\, please 
+ contact our support team.\n\nSupport Line: +1 405 308.9513 (toll-free)\n\nC
+ opyright 1999-2026 PayPal \n\nThis is a transactional email regarding recen
+ t account activity associated with this email address. Kindly retain this c
+ onfirmation for future reference. Please note that this is an automated mes
+ sage and replies are not monitored.
+LAST-MODIFIED:20260311T163723Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Purchase confirmed: Your BTC via PayPal is now in your wallet
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1010 @@
+<!doctype html>
+<html ⚡4email data-css-strict>
+<head>
+<meta charset=utf-8>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<style amp4email-boilerplate>
+body {
+visibility: hidden
+}
+</style>
+<script async custom-element=amp-accordion src=https://cdn.ampproject.org/v0/amp-accordion-0.1.js></script>
+<script async custom-element=amp-bind src=https://cdn.ampproject.org/v0/amp-bind-0.1.js></script>
+<style amp-custom>
+.bgtracker1_1{
+background-image: url('https://notifications.google.com/g/p/ANiao5qNTH5zfUb7Welonf1YZ4LAK-OuWtZ5S1LZmpj8NUlrTilqDX7drj5_Uv4afRzkela5elZ_llxVXfJnnkiK5hoW6BfLDAUegw837bGam9QQqrwNmm_9p01bvNdi97M4Oa_NwdbItfgXOUpwZECI12A2xnFh_LQCQ9YvyqlvXNQ7wVKAHoveBg');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker1_0{
+background-image: url('https://notifications.google.com/g/p/ANiao5o5SB-f2NolYYA9CT63rk2Dyk_Rkf0_EhjGvbjBUGF0yjNZTZ3apVepFY-KYVXHd3XgTP4xz1Cx5Q9kntqICdDZVPzAiHoEG_mFFg0QRHua5hkvIQqjBVzOmx36HbRM8DxEk3aV2-aM3mc-6eoYBLxVDG11MCO3GfqEZtJmOgcUffwZkNtfg6B5');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker3_1{
+background-image: url('https://notifications.google.com/g/p/ANiao5pv2tXnJ71Ee0rbiUipCy6OfTILtJcyMvxTBEWIxAtVqpasPAPulJ9te3_Hqv3D1W-fDwQlgOFqvQGuQ7dxKcL_annMucmeGFU6jUR_esv-jj1sEPif3ClPFVsf_sKoE6mUO3Y704hBmexyP0BaDLg0REvACCE4smH06GxqNtE4MEEEMBfJ9Asn');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker3_0{
+background-image: url('https://notifications.google.com/g/p/ANiao5ro-9nM5ooNvIeN9dLgd8LWcrZLkpaEfUoH2iSrKIUJM7_sspE0abXFm5WsvGAeD9UCrw8F4osbw0UTlzqvg0I_O3M1yQgfXbEz5XaVWx46RpBmX7JGV95x6RScnI_xJaFw0PrqNGtkgXrPaJ9NNgBYxt3Hhv11NVyxhSO2NH9ih-1VB-70ieaE');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker4_1{
+background-image: url('https://notifications.google.com/g/p/ANiao5pt5YW-HPaOKEGFSvJiempSZeHNbKgNpMCX0p1wn114A5SwCarLAylNKstTHKY97fUdeDmnw7r7G6lwYd6hHNzYy0u5oI9A1C1pd1YpDAyPP5_Vai8sYLeYz7PiVPUiYb7fITPDnh_WApTvzgPzZG3g1cYwNTYB4VlNN3elmxPJcZUSrejUM_-X');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker4_0{
+background-image: url('https://notifications.google.com/g/p/ANiao5pAlNIsBAmsji1uIYevmXutkpkhIlGul3jr4Ul3B4VMRByNJKIM8HvSKKD5AXpGNZa3xXoPXV9qooZ4tDBaOlMSqmOmqJ7qP8LkKnFFhbgUfh3Ig2ht2EG9tqJS50VXZLd8IAMZKZ8mgq48jR_ufa9qd0B-d-v31gc95OhKWZJtyXZiupMiQPDN');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker5{
+background-image: url('https://notifications.google.com/g/p/ANiao5q4zM_eAeELCytzq7686yDFDD2HEkmX_CneyhnlStIshSIPBXoq-zLQeruj3Kt3Ia3S7IUatKUfmzzovFpUa_vzDMu8uR4_pK8N7U27p5UjAivnlQAFq0xo9Pz3p1cP8lbPKcfhROZLS4erezNbB5h4Hv3J0HGY1XP01IKdRh_FA-4RWqJ6zHZG');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.bgtracker5_0{
+background-image: url('https://notifications.google.com/g/p/ANiao5rAHuzNq6XYKix6HApJgeAXXVbT9Yu83d4aG9BLmIoLDLdHLAsJmvTU3xlGlRKCFHraELN_HXmX_vhkRvYca2oTKamri3HFX_wL4rHQAFGBv3UTf-jctGvMybjR41TX66i9AX_7FFKZfx2twTQf89yrbUc2FdfvTDlm6t2nDiSE-HmSJ5GDp8Gx');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.show{display: block;}
+.hide{display: none}
+/* .accor_up_icon_color{background-color: red}*/
+@media all and (min-width: 800px)
+{
+.only_desk_show{display: none;}
+.w_480{width: 800px;}
+.w_430{width: 500px;}
+.w_380{width:700px;}
+.w_375{width: 450px }
+.w_276{width:322px;}
+.w_229{width:275px;}
+.right_img{width:178px;height:353px;}
+.dnone{display: none;}
+.hideonmobile{display: block;}
+}
+.listitems{font-family: Google Sans, Arial, sans-serif;font-size: 16px;color: #202124;line-height: 24px; text-align: left; cursor: pointer; margin-bottom: 5px; display: flex; padding: 0px 10px;}
+.greybg{background-color: #F5F5F5; padding: 10px 10px 2px 10px; border-radius: 20px}
+.bluebg{background-color: #4285F4; color: #ffffff; border-top-left-radius: 20px; border-top-right-radius: 20px; padding: 10px 10px 2px 10px;}
+@media (max-width: 800px) {
+.only_mob_hide{display: none;}
+.w_480 {
+width: 750px;
+}
+.hideonmobile{display: block;}
+.right_img {
+width: 178px;
+height: 318px;
+}
+w_380{width:700px;}
+}
+@media (max-width: 750px) {
+.w_480 {
+width: 700px;
+}
+.hideonmobile{display: block;}
+.right_img {
+width: 178px;
+height: 318px;
+}
+.w_380{width:650px;}
+}
+@media (max-width: 700px) {
+.w_480 {
+width: 650px;
+}
+.hideonmobile{display: block;}
+.right_img {
+width: 178px;
+height: 318px;
+}
+.w_380{width:600px;}
+}
+@media (max-width: 649px) {
+.w_480 {
+width: 600px;
+}
+.hideonmobile{display: block;}
+.right_img {
+width: 178px;
+height: 318px;
+}
+.w_380{width:550px;}
+}
+@media all and (max-width: 600px)
+{
+.greybg{background-color: #F5F5F5; padding: 10px 10px 2px 10px; border-radius: 20px}
+.gradientmob{
+width: 320px;
+height: 46px;
+margin: 0 auto;
+}
+.hideonmobile{display: none;}
+.width_265{width:230px;}
+.right_img{width:178px;height:318px;}
+.w_480{width: 360px;}
+.w_430{width: 320px;}
+.w_380{width:300px;}
+.w_375{width: 290px }
+.w_276{width:276px;}
+.w_229{width:229px;}
+.accordiontrack{
+background-image: url('https://notifications.google.com/g/p/ANiao5pT9dl0iR8p5Ghk8sz-wiqBcXoSZkvyWTac-aimU6VoL3BNhKWvCeW1s7KGAu7qrXmUnJsX4Y1vUWdEzOTgTdy42cbysiAnwqkRe3BetA6Ync_81wllVQo2JNVDkJeZU358hK_0ej3XkVTPQ17YNF4m_zDUhXSez27XOXPxLoJ8YfvD0m4L');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.accordiontrack2{
+background-image: url('https://notifications.google.com/g/p/ANiao5rKsg7JMkb-1S3k8Tq71R9yzCP9ULUWkylqDNNvMhcgvnDaYQNKEx6i0Bw2i7a0f2xD00OmdWKhK1zGQ0MYo4RWYkr2rLBV1Wkdzoy-cPYWMMENzmRSKdDcH2QkauQBE5C4tlT9tgCnDfE6wL2g0tMD9SeZeb3tb2nu2fwLgj37bM1ambWTCg');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.accordiontrack3{
+background-image: url('https://notifications.google.com/g/p/ANiao5rZwoH1IrC4HpSkw59qTNJi1xjHfA14qrV-K6GfscUu9ftzr6WfMKQvuGURuBftUZsOmiVnIHN8n4kXfO-fN88LOMiIEY4fwZr7buedkhc2VWSojoR7ZPW-cb7U_yY1wjJSxcGlgWhunm0swX08HE5SpqxobS3geGXeBjnCbU2VBj44gfX7Ew');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.accordiontrack4{
+background-image: url('https://notifications.google.com/g/p/ANiao5rZwoH1IrC4HpSkw59qTNJi1xjHfA14qrV-K6GfscUu9ftzr6WfMKQvuGURuBftUZsOmiVnIHN8n4kXfO-fN88LOMiIEY4fwZr7buedkhc2VWSojoR7ZPW-cb7U_yY1wjJSxcGlgWhunm0swX08HE5SpqxobS3geGXeBjnCbU2VBj44gfX7Ew');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.accordion {
+width: 540px;
+margin: 0 auto;
+}
+}
+.content {
+padding: 20px;
+}
+.radio-group {
+/* margin-bottom: 10px;*/
+margin-top: 10px;
+}
+.button {
+padding: 10px 20px;
+background-color: #007bff;
+color: white;
+text-align: center;
+border-radius: 5px;
+cursor: pointer;
+}
+.show {
+display: block;
+}
+.modal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+justify-content: center;
+align-items: center;
+z-index: 2;
+}
+.modal-content {
+background-color: white;
+/* padding: 20px; */
+border-radius: 5px;
+width: 154px;
+height: 64px;
+text-align: center;
+position: absolute;
+bottom: 30px;
+left: 25px;
+border: 1px solid #BDC1C6;
+}
+.close-btn {
+border-radius: 5px;
+cursor: pointer;
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+padding: 0px;
+background: none;
+}
+.box_hide {
+display: none;
+}
+.box_show {
+display: block;
+height: 500px;
+width: 500px;
+background-color: #ffffff;
+border: 1px solid #BDC1C6;
+}
+.text_res {
+color: red;
+}
+.accor_open{background-color: #4285F4;;padding: 11px 8px 2px 13px;border-radius: 20px 20px 0px 0px;color: #ffffff}
+.accor_close{background-color: #F5F5F5;padding: 11px 8px 2px 13px;border-radius: 20px 20px 0px 0px;}
+.accordion-container {
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
+}
+.accordion-item {
+color: #202124;
+background-color: #F3F3F3;
+border: 1px solid #D9D9D9;
+padding: 5px 5px 5px 5px;
+/* margin-bottom: 5px;*/
+cursor: pointer;
+/* display: flex;*/
+/* justify-content: space-between;*/
+align-items: center;
+/* flex-direction: row-reverse;*/
+}
+.accordion-item3{
+color: #202124;
+background-color: #F3F3F3;
+border-top: 1px solid #D9D9D9;
+border-radius: 0px 0px 10px 10px;
+padding: 5px 5px 5px 5px;
+/* margin-bottom: 5px;*/
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row-reverse;
+}
+/**/
+#lightbox{
+width: 156px;
+position: absolute;
+top: 10px;
+background-color: white;
+height: 66px;
+border: 1px solid black;
+left: 50px;
+top: 50px;
+}
+.amp-lightbox {
+display: block;
+background-color: rgba(0, 0, 0, 0.5);
+padding: 20px;
+top: 110;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 2;
+}
+.not_select{
+display: none;
+}
+.popup-content{
+font-size: 15px;
+padding: 7px;
+text-align: center;
+}
+.popup {
+position: absolute;
+background-color: #333;
+color: white;
+padding: 10px;
+border-radius: 4px;
+visibility: hidden;
+opacity: 0; /* Initially invisible */
+transition: opacity 0.3s ease-in-out;
+z-index: 1;
+max-width: 150px; /* Limit width */
+font-size: 14px;
+}
+.show-popup {
+visibility: visible;
+opacity: 1;
+position: absolute;
+bottom: 50px;
+width: 224px;
+height: 78px;
+left: 20px;
+border: 1px solid #BDC1C6;
+/* padding-top: 10px; */
+/* padding-left: 10px; */
+background-color: #FFFFFF;
+text-align: center;
+align-content: center;
+}
+.hide-popup {
+visibility: hidden;
+opacity: 0;
+}
+.accordion-container .accordion-item {
+position: relative;
+}
+.popup {
+top: 0;
+left: 100%;
+margin-left: 10px;
+}
+.selected {
+color: #4CAF50;
+}
+.not_select {
+color: #E2E2E5;
+}
+.dnone{display: none;}
+</style>
+</head>
+<body style="margin:0 auto;padding:0;">
+<!-- Goto action CTA Start -->
+<!-- Goto action CTA End -->
+<p style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; color:#ffffff;" align=center>I/O is back. Join us online.</p>
+<table width=100% border=0 role=presentation cellspacing=0 cellpadding=0 align=center>
+<tr>
+<td align=center valign=top>
+<table width=800 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_480>
+<!-- view it online starts -->
+<tr>
+<td align=center valign=top style="font-family: Google Sans, Arial, sans-serif;font-size: 12px;color: #1967D2;line-height: 18px;font-weight: 400;padding: 18px 0px 16px 0px;">
+<a href=https://notifications.google.com/g/vib/ANiao5qtb0oocDji4skraiGnrLBG17c4F9FR535hTV9KbjiLq0Rl83SGMOa9j2LSJoeaUeG5dv3DobpD3z-_WTOMOr4HBMTgbwn9A7xtaQQBK4ZeI6jcWUqN38MzDXu52FDXpz8 style="font-family: Google Sans, Arial, sans-serif;font-size: 12px;color: #1967D2;line-height: 18px;font-weight: 400;text-decoration:none">
+Email not displaying correctly? View it online
+</a>
+</td>
+</tr>
+<!-- view it online ends -->
+<!-- main section starts -->
+<tr>
+<td align=center valign=top class=only_mob_hide>
+<table width=800 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_480>
+<tr>
+<td align=center valign=top style="background-color:#BCE0F7;background-image: url('https://www.gstatic.com/gumdrop/files/google-play-developers-desk-cloud-bg-io-cold-fill-w1600px-h2708px-2x.png');background-repeat: no-repeat;background-size: 100%">
+<table width=800 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_480>
+<tr>
+<td align=center valign=top style=padding-top:18px;padding-bottom:29px aria-hidden=true>
+<table width=157 cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td align=center valign=top aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5q7SEaSAx7yNcKLN2mPMF3ZMKrQvdJwhpH7lIab9vujKB4YqowW5pd4_hX7Ezbhv4Ufm-wvdwmbLUZ28wToyZF81oLm21uFMu4ycY2N0Gjt3YNL0a-FAA40yDdf5dMjzcDcmr3VgCKBQtjy8N1jrIYmHxlIfogUdlZsP2U16rr3tYItWJtiIIjaCWzYQEqDlG7VPCfyzBSzdSif8IKrdKxaCqFQ2sP0SlFpd3j4DpB4mWPjirF1L9rVxE4spNWUAsu5gxU4K-hp5PXoP3npYA target=_blank aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-google-io-cold-logo-25-transparent-w311px-h67px-2x.png width=157 height=33 style="display: block;" aria-hidden=true />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- card 1 starts -->
+<tr>
+<td align=center valign=top style="padding-bottom: 30px;">
+<table width=500 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_430>
+<tr>
+<td align=center valign=top style="padding-top: 45px;padding-bottom: 34px;background-color: #ffffff;border-radius: 20px;">
+<table width=450 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_375>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Arial, sans-serif;font-size: 40px;color: #202124;line-height: 48px;font-weight: 500;">
+Google&nbsp;I/O registration is now open!
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Arial, sans-serif;font-size: 22px;color: #202124;line-height: 33px;font-weight: 700;padding: 0px 0px 16px 0px;">
+Tune in live May 20th and 21st
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td align=left valign=top>
+<a href=https://notifications.google.com/g/p/ANiao5pL5HvWN7a28bQw84luonlw-j-GY2KurFV1e31FgSwI6eZFv493tAMGNrLLBcni4EWzehBRphWAqzfNFlEOL3x4zMYkXk3Myolv5h5CetVXloNgNkoFj_bQumyIhmRgwC5v5nQy5oM72El_oyxmRX0LtLcZPM3XnNKhScKbqleu0CYAmpZst4ERAH2EWG7XtwvWXNeKWV25b25pba1fJKNVlKVQ2syea1Xnt_rT49ZVuGx325rxsaCT7esGxy4Lq_oe1DNKu1CF97Yx target=_blank style="color:#ffffff;font-size:16px;line-height: 24px;text-decoration: none;">
+<table cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td height=2 align=left valign=top style="line-height: 12px;" aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5pL5HvWN7a28bQw84luonlw-j-GY2KurFV1e31FgSwI6eZFv493tAMGNrLLBcni4EWzehBRphWAqzfNFlEOL3x4zMYkXk3Myolv5h5CetVXloNgNkoFj_bQumyIhmRgwC5v5nQy5oM72El_oyxmRX0LtLcZPM3XnNKhScKbqleu0CYAmpZst4ERAH2EWG7XtwvWXNeKWV25b25pba1fJKNVlKVQ2syea1Xnt_rT49ZVuGx325rxsaCT7esGxy4Lq_oe1DNKu1CF97Yx target=_blank style="display: block;" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=2 alt="" style="display: block;" />
+</a>
+</td>
+</tr>
+<tr>
+<td align=center valign=top style="background-color: #1967D2;padding: 10px 27px;border-radius:45px;font-size: 16px;height:24px; font-family: Google Sans, Arial, sans-serif; font-weight: bold;" class=cta_outlook>
+<a href=https://notifications.google.com/g/p/ANiao5pL5HvWN7a28bQw84luonlw-j-GY2KurFV1e31FgSwI6eZFv493tAMGNrLLBcni4EWzehBRphWAqzfNFlEOL3x4zMYkXk3Myolv5h5CetVXloNgNkoFj_bQumyIhmRgwC5v5nQy5oM72El_oyxmRX0LtLcZPM3XnNKhScKbqleu0CYAmpZst4ERAH2EWG7XtwvWXNeKWV25b25pba1fJKNVlKVQ2syea1Xnt_rT49ZVuGx325rxsaCT7esGxy4Lq_oe1DNKu1CF97Yx target=_blank style="color:#ffffff;font-size:16px;line-height: 24px;text-decoration: none;">
+Register now
+</a>
+</td>
+</tr>
+<tr>
+<td height=2 align=left valign=top aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5pL5HvWN7a28bQw84luonlw-j-GY2KurFV1e31FgSwI6eZFv493tAMGNrLLBcni4EWzehBRphWAqzfNFlEOL3x4zMYkXk3Myolv5h5CetVXloNgNkoFj_bQumyIhmRgwC5v5nQy5oM72El_oyxmRX0LtLcZPM3XnNKhScKbqleu0CYAmpZst4ERAH2EWG7XtwvWXNeKWV25b25pba1fJKNVlKVQ2syea1Xnt_rT49ZVuGx325rxsaCT7esGxy4Lq_oe1DNKu1CF97Yx target=_blank style="display: block;" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=2 alt="" style="display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color:#202124;font-size:36px;line-height:43px;font-family: Google Sans, Arial, sans-serif;font-weight: 500;padding-top: 39px;">
+Hi Harry,
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color:#202124;font-size:16px;line-height:24px;font-family: Google Sans, Arial, sans-serif;font-weight: 400;padding-top: 20px;">
+Get ready to tune into Google&nbsp;I/O, where you can explore the latest innovations from Google! Join us online May 20-21 for live streamed keynotes and sessions covering what’s new in AI, Android, web, cloud, and more.
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color:#202124;font-size:16px;line-height:24px;font-family: Google Sans, Arial, sans-serif;font-weight: 400;padding-top: 20px;">
+<a href=https://notifications.google.com/g/p/ANiao5rfSyZCvefuOVGQ-fi7DqYM5ZXAgxj0oCxcCMb7gQsW3vrYT51yk11jI-VAjtx9Alpl0pkRPzbWJLCxgyo-ev7gHROC4NR9C-DviceLZdmOk7cPIBF1Eaiog8FeuH4nHwACdtIP1CgBloWRNUYdN3Zntihy8CVFy4RyDCADcgxJNWX65CFss5SytHdBex6gNiDv3E1BF9Q8YgvUQJLMHhW2pfhuHmdLEEdMzikhTjWjOGPTdUhtrl7ScT9NLZQRLN1KZlAs865_HBpdUyiZFXWO8d0 target=_blank style="text-decoration:underline; color:#1967D2;">Register now</a> at no cost and receive your exclusive I/O 2025 badge.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- card 1 ends -->
+<!-- second card starts -->
+<!-- first accordion start here -->
+<tr>
+<td align=center valign=top style="padding-bottom: 7px;">
+<table width=500 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_430>
+<tr>
+<td align=left valign=top aria-hidden=true>
+<amp-img style="display: block;" src=https://services.google.com/fh/files/emails/gredient-new-top-updated.png width=500 height=73 layout=responsive class=gradientmob>
+</td>
+</tr>
+<tr>
+<td align=center valign=top style="background-color: #ffffff;border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+<table width=500 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_430>
+<tr>
+<!-- left column starts -->
+<td align=center valign=top>
+<table width=445 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_375>
+<tr>
+<td align=center valign=top>
+<table width=445 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_375>
+<tr>
+<td align=left valign=top style="color:#202124;font-size:36px;line-height:43px;font-family: Google Sans, Arial, sans-serif;font-weight: 500;padding-top: 20px;">
+Trivia Time!
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color:#202124;font-size: 18px; line-height: 27px;font-family: Google Sans, Arial, sans-serif;font-weight: 400;padding-top: 20px;">
+What year did the first Google&nbsp;I/O developer conference take place?
+</td>
+</tr>
+<!-- accordian starts -->
+<tr>
+<td align=left valign=top style=padding-top:20px;>
+<div id=dropbox style="text-align: center; width: 264px; position: relative;">
+<div id=correctpopup hidden style="position: absolute; top: 0; left: 0; height: 177px; width: 262px; z-index: 10;">
+<div style="background-color: #ffffff; width: 100%; margin: 40px auto 0px; border: 1px solid #BDC1C6; border-radius: 6px; position: relative; height: 130px; box-shadow: 1px 1px 6px #e1e1e1;">
+<div style="width: 230px; margin: 0 auto; font-family: Google Sans, Arial, sans-serif;font-size: 16px;color: #000000;line-height: 24px; text-align: center; padding: 8px 4px; box-sizing: border-box; margin-top: 30px;">
+<span tabindex=10 role=button on="tap:correctpopup.hide, imgshow.hide"><amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-closing-btn-io-cold-transparent-w32px-h32px-2x.png width=16 height=16 style="position: absolute; top: 6px; right: 6px; cursor: pointer; " /></span>
+Correct!
+</div>
+</div>
+</div>
+<div id=incorrectpopup hidden style="position: absolute; top: 0; left: 0; height: 177px; width: 262px; z-index: 10;">
+<div style="background-color: #ffffff; width: 100%; margin: 40px auto 0px; border: 1px solid #BDC1C6; border-radius: 6px; position: relative; height: 130px; box-shadow: 1px 1px 6px #e1e1e1;">
+<div style="width: 230px; margin: 0 auto; font-family: Google Sans, Arial, sans-serif;font-size: 16px;color: #000000;line-height: 24px; text-align: center; padding: 8px 4px; box-sizing: border-box; margin-top: 30px;">
+<span tabindex=11 role=button on=tap:incorrectpopup.hide><amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-closing-btn-io-cold-transparent-w32px-h32px-2x.png width=16 height=16 style="position: absolute; top: 6px; right: 6px; cursor: pointer; "></span>
+Incorrect. Try again!
+</div>
+</div>
+</div>
+<amp-state id=accordone hidden="" aria-hidden=true>
+<script type=application/json> {"openbox": 0} </script>
+</amp-state>
+<div class=greybg [class]="accordone.openbox==0 ? 'greybg' : 'bluebg'" role=button on=tap:my-accordion.toggle role=button tabindex=1 style="cursor: pointer;display: flex; justify-content: space-between;padding-right: 0px; ">
+<p style="font-size: 16px; line-height: 24px; font-family: Google Sans, Arial, sans-serif; display: contents;">Click to answer <span class=show [class]="accordone.openbox==0 ? 'show' : 'hide'"><amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-accor-down-icon-cold-io-transparent-w42px-h48px-2x.png width=24 height=24></span><span class=hide [class]="accordone.openbox==1 ? 'show' : 'hide'"><amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-accor-up-icon-now-transparent-w48px-h48px-2x.png width=24 height=24></span></p>
+</div>
+<amp-accordion id=my-accordion animate on="expand:AMP.setState({accordone:{openbox: 1}});collapse:AMP.setState({accordone:{openbox: 0}})">
+<section>
+<header style="margin: 0 auto;border: 0px;"></header>
+<div style="background-color: #F5F5F5; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; ">
+<div [class]="accordone.openbox==1 ? 'bgtracker1' : 'bgtracker1_0"></div>
+<div>
+<div [class]="accordone.openbox == 1 ? 'bgtracker1' : 'bgtracker1_0'"></div>
+<table align=left cellpadding=0 cellspacing=0 role=presentation>
+<!-- Spacer -->
+<tr>
+<td height=1 align=left valign=top style="line-height: 1px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;"></amp-img>
+</td>
+</tr>
+<!-- Accordion Items -->
+<div class=accordion-container style="width: 264px; ">
+<div class=listitems tabindex=13 style="border-bottom: 1px solid #D9D9D9;" role=button on=tap:incorrectpopup.show>
+<div style="float: left; width: 17px; "><amp-img hidden id=imgshow1 src=https://services.google.com/fh/files/emails/blue-tick.png width=12 height=9></div>
+<div style="float: left; width: 219px">2006</div>
+</div>
+<div class=listitems tabindex=14 style="clear: both; border-bottom: 1px solid #D9D9D9;" role=button on=tap:incorrectpopup.show,imgshow.show>
+<div style="float: left; width: 17px;"><amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=12 height=9></div><div style="float: left; width: 219px">2007</div>
+</div>
+<div class=listitems tabindex=15 style="border-bottom: 1px solid #D9D9D9;" role=button on=tap:correctpopup.show>
+<div style="float: left; width: 17px;"><amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=12 height=9></div><div style="float: left; width: 219px">2008</div>
+</div>
+<div class=listitems tabindex=16 style="padding-bottom: 0px;" role=button on=tap:incorrectpopup.show>
+<div style="float: left; width: 17px;"><amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=12 height=9></div><div style="float: left; width: 219px">2009</div>
+</div>
+</div>
+<!-- Spacer -->
+</table>
+</div>
+</div>
+</section>
+</amp-accordion>
+</div>
+</td>
+</tr>
+<!-- accordian ends -->
+<tr>
+<td align=left valign=top style=padding-top:20px;padding-bottom:38px>
+<table cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td align=left valign=top>
+<a href=https://notifications.google.com/g/p/ANiao5q7kIlcUkq1_u5Wyp1m4f3IDmHhE5zM1QpDIzjjYRKC9-mw3up3OcRFmiNyvwmGGwGISIpIWtuYFdxD2v8qi5nf0J93e7ms6_98nSQbpT-nk9KSgH_ItByOcBUQogkMqK3V5cxjpArXlGKurj-oItsxvTpTHJ7f49-jUlYFvEHm_EheyQXIPQpLSG45m6BClPBcMuBXwrJXsmlTZGHQfi6FQJa2mIwVkdW9KYTqRnjwcR9c-qOyiXWS2E-TNEPvXXUWM9j6Z2oi5RJMVg target=_blank style="color:#ffffff;font-size:16px;line-height: 24px;text-decoration: none;">
+<table cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td height=2 align=left valign=top style="line-height: 12px;" aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5q7kIlcUkq1_u5Wyp1m4f3IDmHhE5zM1QpDIzjjYRKC9-mw3up3OcRFmiNyvwmGGwGISIpIWtuYFdxD2v8qi5nf0J93e7ms6_98nSQbpT-nk9KSgH_ItByOcBUQogkMqK3V5cxjpArXlGKurj-oItsxvTpTHJ7f49-jUlYFvEHm_EheyQXIPQpLSG45m6BClPBcMuBXwrJXsmlTZGHQfi6FQJa2mIwVkdW9KYTqRnjwcR9c-qOyiXWS2E-TNEPvXXUWM9j6Z2oi5RJMVg target=_blank style="display: block;" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=2 alt="" style="display: block;" />
+</a>
+</td>
+</tr>
+<tr>
+<td align=center valign=top style="background-color: #1967D2;padding: 10px 27px;border-radius:45px;font-size: 16px;height:24px; font-family: Google Sans, Arial, sans-serif; font-weight: bold;" class=cta_outlook>
+<a href=https://notifications.google.com/g/p/ANiao5q7kIlcUkq1_u5Wyp1m4f3IDmHhE5zM1QpDIzjjYRKC9-mw3up3OcRFmiNyvwmGGwGISIpIWtuYFdxD2v8qi5nf0J93e7ms6_98nSQbpT-nk9KSgH_ItByOcBUQogkMqK3V5cxjpArXlGKurj-oItsxvTpTHJ7f49-jUlYFvEHm_EheyQXIPQpLSG45m6BClPBcMuBXwrJXsmlTZGHQfi6FQJa2mIwVkdW9KYTqRnjwcR9c-qOyiXWS2E-TNEPvXXUWM9j6Z2oi5RJMVg target=_blank style="color:#ffffff;font-size:16px;line-height: 24px;text-decoration: none;">
+Register now
+</a>
+</td>
+</tr>
+<tr>
+<td height=2 align=left valign=top aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5q7kIlcUkq1_u5Wyp1m4f3IDmHhE5zM1QpDIzjjYRKC9-mw3up3OcRFmiNyvwmGGwGISIpIWtuYFdxD2v8qi5nf0J93e7ms6_98nSQbpT-nk9KSgH_ItByOcBUQogkMqK3V5cxjpArXlGKurj-oItsxvTpTHJ7f49-jUlYFvEHm_EheyQXIPQpLSG45m6BClPBcMuBXwrJXsmlTZGHQfi6FQJa2mIwVkdW9KYTqRnjwcR9c-qOyiXWS2E-TNEPvXXUWM9j6Z2oi5RJMVg target=_blank style="display: block;" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=2 alt="" style="display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<!-- left col ends -->
+</tr>
+<!-- first accordion ends here -->
+<!-- 2nd accordion start here -->
+<!-- 2nd accordion end here -->
+<!-- 3rd accordion start here -->
+<!-- 3rd accordion end here -->
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- second card ends -->
+<!-- 2nd module strart -->
+<!-- 2nd module end -->
+<tr>
+<td align=center valign=top aria-hidden=true>
+<a style="" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-tent-google-io-cold-transparent-w1600px-h391px-2x.png width=800 height=195 style=display:block; class=w_480 layout=responsive>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- main section ends -->
+<!-- main section mobile starts -->
+<tr>
+<td align=center valign=top class=only_desk_show>
+<table width=800 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_480>
+<tr>
+<td align=center valign=top style="background-color:#BCE0F7;background-image: url('https://www.gstatic.com/gumdrop/files/google-play-developers-mob-cloud-io-cold-25-fill-w1600px-h2708px-2x.png');background-repeat: no-repeat;background-size: 100% 70%">
+<table width=800 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_480>
+<tr>
+<td align=center valign=top style=padding-top:18px;padding-bottom:29px aria-hidden=true>
+<table width=157 cellpadding=0 cellspacing=0 border=0 role=presentation class="">
+<tr>
+<td align=center valign=top aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5q7SEaSAx7yNcKLN2mPMF3ZMKrQvdJwhpH7lIab9vujKB4YqowW5pd4_hX7Ezbhv4Ufm-wvdwmbLUZ28wToyZF81oLm21uFMu4ycY2N0Gjt3YNL0a-FAA40yDdf5dMjzcDcmr3VgCKBQtjy8N1jrIYmHxlIfogUdlZsP2U16rr3tYItWJtiIIjaCWzYQEqDlG7VPCfyzBSzdSif8IKrdKxaCqFQ2sP0SlFpd3j4DpB4mWPjirF1L9rVxE4spNWUAsu5gxU4K-hp5PXoP3npYA target=_blank aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-google-io-cold-logo-25-transparent-w311px-h67px-2x.png width=157 height=33 style="display: block;" aria-hidden=true />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- card 1 starts -->
+<tr>
+<td align=center valign=top style="padding-bottom: 30px;">
+<table width=500 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_430>
+<tr>
+<td align=center valign=top style="padding-top: 45px;padding-bottom: 34px;background-color: #ffffff;border-radius: 20px;">
+<table width=450 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_375>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Arial, sans-serif;font-size: 40px;line-height: 48px;color: #202124;font-weight: 500;">
+Google&nbsp;I/O registration is now open!
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Arial, sans-serif;font-size: 22px;color: #202124;line-height: 33px;font-weight: 700;padding: 0px 0px 16px 0px;">
+Tune in live May 20th and 21st
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td align=left valign=top>
+<a href=https://notifications.google.com/g/p/ANiao5pL5HvWN7a28bQw84luonlw-j-GY2KurFV1e31FgSwI6eZFv493tAMGNrLLBcni4EWzehBRphWAqzfNFlEOL3x4zMYkXk3Myolv5h5CetVXloNgNkoFj_bQumyIhmRgwC5v5nQy5oM72El_oyxmRX0LtLcZPM3XnNKhScKbqleu0CYAmpZst4ERAH2EWG7XtwvWXNeKWV25b25pba1fJKNVlKVQ2syea1Xnt_rT49ZVuGx325rxsaCT7esGxy4Lq_oe1DNKu1CF97Yx target=_blank style="color:#ffffff;font-size:16px;line-height: 24px;text-decoration: none;">
+<table cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td height=2 align=left valign=top style="line-height: 12px;" aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5pL5HvWN7a28bQw84luonlw-j-GY2KurFV1e31FgSwI6eZFv493tAMGNrLLBcni4EWzehBRphWAqzfNFlEOL3x4zMYkXk3Myolv5h5CetVXloNgNkoFj_bQumyIhmRgwC5v5nQy5oM72El_oyxmRX0LtLcZPM3XnNKhScKbqleu0CYAmpZst4ERAH2EWG7XtwvWXNeKWV25b25pba1fJKNVlKVQ2syea1Xnt_rT49ZVuGx325rxsaCT7esGxy4Lq_oe1DNKu1CF97Yx target=_blank style="display: block;" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=2 alt="" style="display: block;" />
+</a>
+</td>
+</tr>
+<tr>
+<td align=center valign=top style="background-color: #1967D2;padding: 10px 27px;border-radius:45px;font-size: 16px;height:24px; font-family: Google Sans, Arial, sans-serif; font-weight: bold;" class=cta_outlook>
+<a href=https://notifications.google.com/g/p/ANiao5pL5HvWN7a28bQw84luonlw-j-GY2KurFV1e31FgSwI6eZFv493tAMGNrLLBcni4EWzehBRphWAqzfNFlEOL3x4zMYkXk3Myolv5h5CetVXloNgNkoFj_bQumyIhmRgwC5v5nQy5oM72El_oyxmRX0LtLcZPM3XnNKhScKbqleu0CYAmpZst4ERAH2EWG7XtwvWXNeKWV25b25pba1fJKNVlKVQ2syea1Xnt_rT49ZVuGx325rxsaCT7esGxy4Lq_oe1DNKu1CF97Yx target=_blank style="color:#ffffff;font-size:16px;line-height: 24px;text-decoration: none;">
+Register now
+</a>
+</td>
+</tr>
+<tr>
+<td height=2 align=left valign=top aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5pL5HvWN7a28bQw84luonlw-j-GY2KurFV1e31FgSwI6eZFv493tAMGNrLLBcni4EWzehBRphWAqzfNFlEOL3x4zMYkXk3Myolv5h5CetVXloNgNkoFj_bQumyIhmRgwC5v5nQy5oM72El_oyxmRX0LtLcZPM3XnNKhScKbqleu0CYAmpZst4ERAH2EWG7XtwvWXNeKWV25b25pba1fJKNVlKVQ2syea1Xnt_rT49ZVuGx325rxsaCT7esGxy4Lq_oe1DNKu1CF97Yx target=_blank style="display: block;" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=2 alt="" style="display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color:#202124;font-size:36px;line-height:43px;font-family: Google Sans, Arial, sans-serif;font-weight: 500;padding-top: 39px;">
+Hi Harry,
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color:#202124;font-size:16px;line-height:24px;font-family: Google Sans, Arial, sans-serif;font-weight: 400;padding-top: 20px;">
+Get ready to tune into Google&nbsp;I/O, where you can explore the latest innovations from Google! Join us online May 20-21 for live streamed keynotes and sessions covering what’s new in AI, Android, web, cloud, and more.
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color:#202124;font-size:16px;line-height:24px;font-family: Google Sans, Arial, sans-serif;font-weight: 400;padding-top: 20px;">
+<a href=https://notifications.google.com/g/p/ANiao5rfSyZCvefuOVGQ-fi7DqYM5ZXAgxj0oCxcCMb7gQsW3vrYT51yk11jI-VAjtx9Alpl0pkRPzbWJLCxgyo-ev7gHROC4NR9C-DviceLZdmOk7cPIBF1Eaiog8FeuH4nHwACdtIP1CgBloWRNUYdN3Zntihy8CVFy4RyDCADcgxJNWX65CFss5SytHdBex6gNiDv3E1BF9Q8YgvUQJLMHhW2pfhuHmdLEEdMzikhTjWjOGPTdUhtrl7ScT9NLZQRLN1KZlAs865_HBpdUyiZFXWO8d0 target=_blank style="text-decoration:underline; color:#1967D2;">Register now</a> at no cost and receive your exclusive I/O 2025 badge.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- card 1 ends -->
+<!-- second card starts -->
+<!-- first accordion start here -->
+<tr>
+<td align=center valign=top style="padding-bottom: 7px;">
+<table width=500 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_430>
+<tr>
+<td align=left valign=top aria-hidden=true>
+<amp-img style="display: block;" src=https://services.google.com/fh/files/emails/gredient-new-top-updated.png width=500 height=73 layout=responsive class=gradientmob>
+</td>
+</tr>
+<tr>
+<td align=center valign=top style="background-color: #ffffff;border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+<table width=500 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_430>
+<tr>
+<!-- left column starts -->
+<td align=center valign=top>
+<table width=445 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_375>
+<tr>
+<td align=center valign=top>
+<table width=445 cellpadding=0 cellspacing=0 border=0 role=presentation class=w_375>
+<tr>
+<td align=left valign=top style="color:#202124;font-size:36px;line-height:43px;font-family: Google Sans, Arial, sans-serif;font-weight: 500;padding-top: 20px;">
+Trivia Time!
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color:#202124;font-size: 18px; line-height: 27px;font-family: Google Sans, Arial, sans-serif;font-weight: 400;padding-top: 20px;padding-bottom: 20px;">
+What year did the first Google&nbsp;I/O developer conference take place?
+</td>
+</tr>
+<!-- accordian starts -->
+<tr>
+<td align=left valign=top style=padding-top:20px;>
+<div id=dropboxx style="text-align: center; width: 264px; position: relative;">
+<div id=correctpopupp hidden style="position: absolute; top: 0; left: 0; height: 177px; width: 262px; z-index: 10;">
+<div style="background-color: #ffffff; width: 100%; margin: 40px auto 0px; border: 1px solid #BDC1C6; border-radius: 6px; position: relative; height: 130px; box-shadow: 1px 1px 6px #e1e1e1;">
+<div style="width: 230px; margin: 0 auto; font-family: Google Sans, Arial, sans-serif;font-size: 16px;color: #000000;line-height: 24px; text-align: center; padding: 8px 4px; box-sizing: border-box; margin-top: 30px;">
+<span tabindex=10 role=button on="tap:correctpopupp.hide, imgshoww.hide"><amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-closing-btn-io-cold-transparent-w32px-h32px-2x.png width=16 height=16 style="position: absolute; top: 6px; right: 6px; cursor: pointer; " /></span>
+Correct!
+</div>
+</div>
+</div>
+<div id=incorrectpopupp hidden style="position: absolute; top: 0; left: 0; height: 177px; width: 262px; z-index: 10;">
+<div style="background-color: #ffffff; width: 100%; margin: 40px auto 0px; border: 1px solid #BDC1C6; border-radius: 6px; position: relative; height: 130px; box-shadow: 1px 1px 6px #e1e1e1;">
+<div style="width: 230px; margin: 0 auto; font-family: Google Sans, Arial, sans-serif;font-size: 16px;color: #000000;line-height: 24px; text-align: center; padding: 8px 4px; box-sizing: border-box; margin-top: 30px;">
+<span tabindex=11 role=button on=tap:incorrectpopupp.hide><amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-closing-btn-io-cold-transparent-w32px-h32px-2x.png width=16 height=16 style="position: absolute; top: 6px; right: 6px; cursor: pointer; "></span>
+Incorrect. Try again!
+</div>
+</div>
+</div>
+<amp-state id=accordonee hidden="" aria-hidden=true>
+<script type=application/json> {"openbox": 0} </script>
+</amp-state>
+<div class=greybg [class]="accordonee.openbox==0 ? 'greybg' : 'bluebg'" role=button on=tap:my-accordionn.toggle role=button tabindex=1 style="cursor: pointer;display: flex; justify-content: space-between;padding-right: 0px; ">
+<p style="font-size: 16px; line-height: 24px; font-family: Google Sans, Arial, sans-serif; display: contents;">Click to answer <span class=show [class]="accordonee.openbox==0 ? 'show' : 'hide'"><amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-accor-down-icon-cold-io-transparent-w42px-h48px-2x.png width=24 height=24></span><span class=hide [class]="accordonee.openbox==1 ? 'show' : 'hide'"><amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-accor-up-icon-now-transparent-w48px-h48px-2x.png width=24 height=24></span></p>
+</div>
+<amp-accordion id=my-accordionn animate on="expand:AMP.setState({accordonee:{openbox: 1}});collapse:AMP.setState({accordonee:{openbox: 0}})">
+<section>
+<header style="margin: 0 auto;border: 0px;"></header>
+<div style="background-color: #F5F5F5; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; ">
+<div [class]="accordonee.openbox==1 ? 'bgtracker1_1' : 'bgtracker1_0'"></div>
+<div>
+<div [class]="accordonee.openbox == 1 ? 'bgtracker1_1' : 'bgtracker1_0'"></div>
+<table align=left cellpadding=0 cellspacing=0 role=presentation>
+<!-- Spacer -->
+<tr>
+<td height=1 align=left valign=top style="line-height: 1px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 alt="" style="display: block;"></amp-img>
+</td>
+</tr>
+<!-- Accordion Items -->
+<div class=accordion-container style="width: 264px; ">
+<div class=listitems tabindex=13 style="border-bottom: 1px solid #D9D9D9;" role=button on=tap:incorrectpopupp.show>
+<div style="float: left; width: 17px; "><amp-img hidden id=imgshow1 src=https://services.google.com/fh/files/emails/blue-tick.png width=12 height=9></div>
+<div style="float: left; width: 219px">2006</div>
+</div>
+<div class=listitems tabindex=14 style="clear: both; border-bottom: 1px solid #D9D9D9;" role=button on=tap:incorrectpopupp.show,imgshow.show>
+<div style="float: left; width: 17px;"><amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=12 height=9></div><div style="float: left; width: 219px">2007</div>
+</div>
+<div class=listitems tabindex=15 style="border-bottom: 1px solid #D9D9D9;" role=button on=tap:correctpopupp.show>
+<div style="float: left; width: 17px;"><amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=12 height=9></div><div style="float: left; width: 219px">2008</div>
+</div>
+<div class=listitems tabindex=16 style="padding-bottom: 0px;" role=button on=tap:incorrectpopupp.show>
+<div style="float: left; width: 17px;"><amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=12 height=9></div><div style="float: left; width: 219px">2009</div>
+</div>
+</div>
+<!-- Spacer -->
+</table>
+</div>
+</div>
+</section>
+</amp-accordion>
+</div>
+</td>
+</tr>
+<!-- accordian ends -->
+<tr>
+<td align=left valign=top style=padding-top:20px;padding-bottom:38px>
+<table cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td align=left valign=top>
+<a href=https://notifications.google.com/g/p/ANiao5q7kIlcUkq1_u5Wyp1m4f3IDmHhE5zM1QpDIzjjYRKC9-mw3up3OcRFmiNyvwmGGwGISIpIWtuYFdxD2v8qi5nf0J93e7ms6_98nSQbpT-nk9KSgH_ItByOcBUQogkMqK3V5cxjpArXlGKurj-oItsxvTpTHJ7f49-jUlYFvEHm_EheyQXIPQpLSG45m6BClPBcMuBXwrJXsmlTZGHQfi6FQJa2mIwVkdW9KYTqRnjwcR9c-qOyiXWS2E-TNEPvXXUWM9j6Z2oi5RJMVg target=_blank style="color:#ffffff;font-size:16px;line-height: 24px;text-decoration: none;">
+<table cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td height=2 align=left valign=top style="line-height: 12px;" aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5q7kIlcUkq1_u5Wyp1m4f3IDmHhE5zM1QpDIzjjYRKC9-mw3up3OcRFmiNyvwmGGwGISIpIWtuYFdxD2v8qi5nf0J93e7ms6_98nSQbpT-nk9KSgH_ItByOcBUQogkMqK3V5cxjpArXlGKurj-oItsxvTpTHJ7f49-jUlYFvEHm_EheyQXIPQpLSG45m6BClPBcMuBXwrJXsmlTZGHQfi6FQJa2mIwVkdW9KYTqRnjwcR9c-qOyiXWS2E-TNEPvXXUWM9j6Z2oi5RJMVg target=_blank style="display: block;" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=2 alt="" style="display: block;" />
+</a>
+</td>
+</tr>
+<tr>
+<td align=center valign=top style="background-color: #1967D2;padding: 10px 27px;border-radius:45px;font-size: 16px;height:24px; font-family: Google Sans, Arial, sans-serif; font-weight: bold;" class=cta_outlook>
+<a href=https://notifications.google.com/g/p/ANiao5q7kIlcUkq1_u5Wyp1m4f3IDmHhE5zM1QpDIzjjYRKC9-mw3up3OcRFmiNyvwmGGwGISIpIWtuYFdxD2v8qi5nf0J93e7ms6_98nSQbpT-nk9KSgH_ItByOcBUQogkMqK3V5cxjpArXlGKurj-oItsxvTpTHJ7f49-jUlYFvEHm_EheyQXIPQpLSG45m6BClPBcMuBXwrJXsmlTZGHQfi6FQJa2mIwVkdW9KYTqRnjwcR9c-qOyiXWS2E-TNEPvXXUWM9j6Z2oi5RJMVg target=_blank style="color:#ffffff;font-size:16px;line-height: 24px;text-decoration: none;">
+Register now
+</a>
+</td>
+</tr>
+<tr>
+<td height=2 align=left valign=top aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5q7kIlcUkq1_u5Wyp1m4f3IDmHhE5zM1QpDIzjjYRKC9-mw3up3OcRFmiNyvwmGGwGISIpIWtuYFdxD2v8qi5nf0J93e7ms6_98nSQbpT-nk9KSgH_ItByOcBUQogkMqK3V5cxjpArXlGKurj-oItsxvTpTHJ7f49-jUlYFvEHm_EheyQXIPQpLSG45m6BClPBcMuBXwrJXsmlTZGHQfi6FQJa2mIwVkdW9KYTqRnjwcR9c-qOyiXWS2E-TNEPvXXUWM9j6Z2oi5RJMVg target=_blank style="display: block;" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=2 alt="" style="display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<!-- left col ends -->
+</tr>
+<!-- first accordion ends here -->
+<!-- 2nd accordion start here -->
+<!-- 2nd accordion end here -->
+<!-- 3rd accordion start here -->
+<!-- 3rd accordion end here -->
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- second card ends -->
+<!-- 2nd module strart -->
+<!-- 2nd module end -->
+<tr>
+<td align=center valign=top aria-hidden=true>
+<a style="" aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-tent-google-io-cold-transparent-w1600px-h391px-2x.png width=800 height=195 style=display:block; class=w_480 layout=responsive>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- main section mobile ends -->
+<!-- footer starts -->
+<tr>
+<td align=center valign=top style="background-color: #FFFFFF;">
+<table width=700 role=presentation border=0 cellpadding=0 cellspacing=0 class=w_380 bgcolor=#FFFFFF style="background-color: #ffffff;">
+<tr>
+<td align=left valign=top style="padding-top: 23px;padding-bottom: 27px;" class="pdt33 pdb19">
+<table cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td class="" align=left valign=top width=39 style="" aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5q5SNUyRx6IWLqHO6ROOXEzto78YcvwYKppRM_pwH7_JmQHQltD66hO8uuWLeTo9D61V1LP4O4Es5gjoofEAbTAtNdyNnqul8E9IdDYQKwayQhsa4-EnW8l9iiIq2lEfO_2-kvMc393wU0edpjVRSNfyYMdgZNlEiIRfllAXio target=_blank style="display:block;padding-top: 5px;padding-bottom: 5px;">
+<amp-img src=https://www.gstatic.com/growthlab/api/EaYdn0UP8vupoOEdZhC8V8dz1JjwwnbI9RvVrCpa.png width=39 height=39 alt=YouTube title=YouTube style=display:block; aria-label=YouTube>
+</a>
+</td>
+<td class="" align=left valign=top width=39 style="" aria-hidden=true>
+<a href=https://notifications.google.com/g/p/ANiao5q-N2hLA64_pK1kTae0G4SdYgvFkCSp65IHmysYhcNJiYFSNFi7WGUuW0ZvqqB2lRH-9qDXPY2GJCOYvl_9mnNEm1Ucg36zke2pkputB5bI7qrqCn9OMLXrdiYh9ezhiS_mLrrqO-zH_0g_QUH-pIn45KZitIs8PW6M50JpmJ6r target=_blank style="display:block;padding-top: 5px;padding-bottom: 4px;">
+<amp-img src=https://www.gstatic.com/growthlab/api/y2JKPqTgXuGSrJpsmKUkzHx0PCJuh1MMhnPKgj3X.png width=39 height=39 alt=Instagram title=Instagram style=display:block aria-label=Instagram>
+</a>
+</td>
+<td class="" align=center valign=top width=39 aria-hidden=true style=padding-left:6px>
+<a href=https://notifications.google.com/g/p/ANiao5q_PjCtniPu5Q_Q_-UWhdqRnJHsqq7q3ov2JBdjKtPHazrXNJRfZ-c1JhI10t4ytATQSphDdC01sGk_nGMDkDRBGMUHOW6PTPerQKD28lvVAIEru_XXiTbt-wgmTyw09UVk1o0KrsL4_U48ZZ0t59nqQbBjPilD9c8b9GjtW4G9LRRzZBIn75rbEbY target=_blank style="display:block;padding-top: 15px;padding-bottom: 10px;">
+<table width=39 cellpadding=0 cellspacing=0 border=0 role=presentation>
+<tr>
+<td align=center valign=top class=ol_pdt_10 style="">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-linkedin-fb-transparent-w55px-h55px-2x.png width=20 height=20 alt=LinkedIn title=LinkedIn style=display:block; aria-label=LinkedIn>
+</td>
+</tr>
+</table>
+</a>
+</td>
+<!--Social Icon 2-->
+<td class="" align=left valign=top width=39 style="">
+<a href=https://notifications.google.com/g/p/ANiao5rDTbe6ncjedmuEgHDPp8ACqoaVk_wm5wzSllE18WWxUEhgt1HHwBiYoC2dNMWD4BpwCToSuwWOVPJfWdHI3sbrLQsN39GGxRJA7-oZRnnoOWHhqoGJoR_vVs_n9RfyDnVsAQzceftyNQ target=_blank style="display:block;padding-top: 5px;padding-bottom: 4px;padding-left:6px">
+<amp-img src=https://www.gstatic.com/growthlab/api/DtxOwbzedcd7Si2y75Astn491GvNc74MtI4KGxxZ.png width=39 height=39 alt=X title=X style=display:block; aria-label=X>
+</a>
+</td>
+<!--Social Icon 3-->
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 bgcolor=#FFFFFF width=100% style="background-color: #FFFFFF;">
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 width=700 class=w_380>
+<tr>
+<td align=center valign=top>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td align=left valign=top width=88>
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=30%>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellspacing=0 cellpadding=0 align=left border=0>
+<tr>
+<td aria-hidden=true align=center valign=top style="padding:15px 0px 0px;">
+<amp-img aria-hidden=true src=https://services.google.com/fh/files/emails/io_2k25_google_logo.png width=92 height=23 alt="" title="" style=display:block;height:23px;>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td align=left valign=top width=40>
+<table role=presentation cellspacing=0 cellpadding=0 align=left border=0>
+<tr>
+<td align=left valign=middle style=" padding-left: 13px;">
+<table role=presentation align=left cellpadding=0 cellspacing=0 border=0 width=1>
+<tr>
+<td height=61 align=left valign=top bgcolor=#5F6368 width=1 style="line-height: 51px; border-right: 1px solid #5F6368; font-size: 1px;"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td align=left valign=top>
+<table role=presentation cellspacing=0 cellpadding=0 align=left border=0>
+<tr>
+<td align=left valign=top style="">
+<table role=presentation border=0 cellpadding=0 cellspacing=0 width=100% align=center>
+<tr>
+<td style="padding-right:20px; font-family:Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; line-height:15px; color:#5F6368;padding-top: 2px" align=left>
+<a style="text-decoration: none; color: #6D7478; ">Google LLC<br>1600 Amphitheatre Parkway<br> Mountain View, CA 94043</a><br>
+<a href=https://notifications.google.com/g/p/ANiao5rFEXsKy5qyTnHEh-r9yqiH74al8aXmg5by0zgBBQ7TNNXEccQAGowwkH8ePvOXQ5D4hFl0ic9YNSs1ZCWk6rG3FoWhV_cSa7Idzq6ZnJoXO9MZ6cwfh4ZrJdYZSMXDZgstZva8t36oeA target=_blank style="color: #6D7478; text-decoration: none;" target=_blank>www.google.com</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td align=left valign=top style="color: #5F6368; font-family:Google Sans Text,Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; line-height:15px; padding-top: 32px; padding-bottom: 30px;">This email was sent to <a style="text-decoration: none; color: #5F6368; ">superesolutions@gmail.com</a> because you indicated that you want Google developer program newsletter-related emails. If you don't want to receive emails in the future, please <a href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/ANiao5rezAV0SD15KLvq3SpaLLYJEiRAyzw5L9NUOn-7p4BTs77rBEiMvdutAIrVxog5QOfWc0s0HRy9PA1U1PR8zTWS2VcHhToi6RBmsKXs0T_Q1DTETzsjlPkINuZrj35MsL8NVdsPbTOND9Jq2V1au_6hveyV9QNZZAM5-twfkMvF9Ojo7oVSdQf9901Ou8U3aJfXht4aMuHd0ptRS4vao3Fu8wAb0L84E_pjBjpuYXgXpqSMxWrrrd3devqKeGQ?utm_source=gm&amp;utm_medium=email&amp;auto=true style="text-decoration: none; color: #5F6368; ">unsubscribe</a><span aria-hidden=true>.</span> </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- footer ends -->
+</table>
+</td>
+</tr>
+</table>
+<!-- Manual Tracking Start -->
+<amp-img alt="" height=1 src=https://notifications.google.com/g/img/ANiao5oo3fvkwBEnercQGShUNVOxrbbVSMcuDfUh6CoJqByH7rVQLmeYnRYFaYL1VKr5_ldOD-rs_d1Dd2bfkNTULbCk-6eJHaeWTjcWsTJlo5RalwxovUH1lF662A_pe6OdpEEQHw.gif width=3>
+<!-- Manual Tracking End -->
+</body>
+</div>
+</html>

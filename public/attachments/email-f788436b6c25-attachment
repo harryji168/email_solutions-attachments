@@ -1,0 +1,49 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1776728835; x=1777333635; darn=wanadoo.fr;
+        h=message-id:date:to:subject:mime-version:from:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=AH1Ii4zkUum1qWwJNhcyLMgfhXfmX+pTlDm0hmADp4c=;
+        b=WnF8o+HpwEKfr/9BGXG8NL4k/N9UtKRvkmD7Iv9laAcpv4r4FOGEyFJ8bUtGfHVYmd
+         RRcMCAtXohp22q5c/kSkaEEVnkK5LLYkRnwLcFwcirw0eE/V56FZEUtE11Yxl/oQTkAu
+         CBuB5Jbh21qqMCtVI4Fk1qItaPthQBoqTf1g4LoHVRccoeLILLqCvlqBXq2fxMUYp1nX
+         jdM4FHgoio9OnUbvwD8yzC3OO8WRKWKb9K96+thPeuC6hurlKJcVTyccBJZPuYdUPwtO
+         OeY5OOqLoCzyJl0po1HqtXIBVTaVGsXRcxFKacfrezG+3FXQG+WLn2KnE5Yyq3SWROTn
+         LWLw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1776728835; x=1777333635;
+        h=message-id:date:to:subject:mime-version:from:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=AH1Ii4zkUum1qWwJNhcyLMgfhXfmX+pTlDm0hmADp4c=;
+        b=ic3VHwDFyDUv2PgPvM4ux60CRMRmh/us946mZuNOpgQsf+W+kWQvTyHz3wqZPcSzz0
+         pJbe/J9E8mwLcXVxlDWVRTSjsAV6wYUYZjFU6eH1AIrHck9FZFqCPfosoAl5uvlgk6cq
+         lS2hs6D7CedpxzdTONcqaTH4qjzh0XEgaRnLraCImPM9qdSEQt2Q1hT2BnX1ixusQzVm
+         7vOeFLc4GvmfojaETWmQ9cHVAazMXjg/s9yXIePi7sXtl3BvCNjmwmDhpFtL30dK4Kmd
+         zW5TCWnH3Hmv72cqvKPySsNIw6sGVZm2u8wMsIlYOccfJ6Rv0l7VTeHQ6VWhcyoR69Yv
+         ojSA==
+X-Gm-Message-State: AOJu0YwJrAxsyIK7nAkD27+lF2c6+W2gGVGfcYiUlgo7+1rRsWWHkxd/
+	8zT8TALvjI0xCcWyHkjQylA9IZFGCeXnoMzszA45qWsumBp77Hg1zjNyT3NGMWBKfOCseg==
+X-Gm-Gg: AeBDieuChkjxgKbFbCLMOg9/GvJjlv3tJmhiM8D/skPrMc7aGboLXrLjDoP50HkD40z
+	9tB/bUyqMAbkmXW6FZ1197v1RnZ+zkdgJ/SO9mUxsfMb987Aq97pR14CDsVCQg0kaLbm5QBpTSQ
+	dxcn/tHAMbvXLBdNdWRKCgr6/gTJHN+7fO4JowhHUEDtASJSQ+dgV+6WsBEUJov9qsWZHjOfz6+
+	LmKBnLeYI+Ev3E2Vej8SAXlu4yvbkeDeqewm+aqzERS03XtK8QfdJPoZW7BN3DUkg1qzxrZqkdr
+	ix3Xb+JLCP6JR19vA0iEvhlURHkFBzu/2nLlq1/Ce1m7EpK/XVTWBENgOo6OUqWTqGgQ4XEEOsg
+	pXIHIhEHJb7oW2dCm/3DKCZeqitFkMig1uSfVB1ycppdns8lMeDf1s1vDLVPJZXtLwdbvl05iNn
+	EwOAHZnyPcCCjJMljaeVVL9Na93VJD/p7jr1w4fasSxfzKUnPSVMU35Xc1IUHeiNMRrRT5fJhg7
+	AzkpjCdceWKip217t4=
+X-Received: by 2002:a05:600c:4ec8:b0:485:7f02:afd5 with SMTP id 5b1f17b1804b1-488fb755caamr237357445e9.13.1776728834606;
+        Mon, 20 Apr 2026 16:47:14 -0700 (PDT)
+Return-Path: <superesolutions@gmail.com>
+Received: from [10.181.242.35] (82-64-15-220.subs.proxad.net. [82.64.15.220])
+        by smtp.gmail.com with ESMTPSA id ffacd0b85a97d-43fe4dc24cfsm32963822f8f.16.2026.04.20.16.47.13
+        for <fabrice.semt@wanadoo.fr>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 20 Apr 2026 16:47:14 -0700 (PDT)
+From: AVIS ORDRE DE DEBIT <superesolutions@gmail.com>
+X-Google-Original-From: AVIS ORDRE DE DEBIT <no-reply@harryji.com>
+Content-Type: multipart/alternative; boundary="===============0010766400838201668=="
+MIME-Version: 1.0
+Subject: =?utf-8?b?Vm90cmUgbWFuZGF0IGRlIHByw6lsw6h2ZW1lbnQgU0VQQSBhIMOpdMOpIGVucmVnaXN0csOpIGV0IHZhbGlkw6ku?=
+To: fabrice.semt@wanadoo.fr
+Date: Tue, 21 Apr 2026 00:47:10 +0100
+Message-ID: <177672883099.7356.6369381911045567234@smtp.gmail.com>
+

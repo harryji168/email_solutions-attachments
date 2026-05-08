@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+X-LIC-LOCATION:America/Vancouver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Vancouver:20250819T130000
+DTEND;TZID=America/Vancouver:20250819T133000
+DTSTAMP:20250819T183915Z
+ORGANIZER;CN=Upendra Singh:mailto:singhupendra@xwf.google.com
+UID:2cpiuqgqsegt20id4i8nu8c8et@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=superesolutions@gmail.com;X-NUM-GUESTS=0:mailto:superesolutions@gma
+ il.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Upendra Singh;X-NUM-GUESTS=0:mailto:singhupendra@xwf.google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/tpt-vshf-opb
+X-MICROSOFT-CDO-OWNERAPPTID:-1154667740
+CREATED:20250818T190831Z
+DESCRIPTION:Contact: Harry Ji\nPhone: 1 6042533858\nEmail: superesolutions@
+ gmail.com\n\nEmail in case of rescheduling singhupendra@google.com\n\n-::~:
+ ~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ :~:~::-\nJoin with Google Meet: https://meet.google.com/tpt-vshf-opb\nOr di
+ al: (IN) +91 22 7127 9696 PIN: 5276096475116#\nMore phone numbers: https://
+ tel.meet/tpt-vshf-opb?pin=5276096475116&hs=7\n\nLearn more about Meet at: h
+ ttps://support.google.com/a/users/answer/9282720\n\nPlease do not edit this
+  section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20250819T183914Z
+LOCATION:
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Google // Xo Tours : Google Ads Consultation
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

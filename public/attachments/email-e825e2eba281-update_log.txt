@@ -1,0 +1,657 @@
+----------------------------------------------------------------------------------------------------
+=> Log opened from cPanel Update (upcp) - Slave (29402) at Mon Oct  9 22:52:05 2023
+[2023-10-09 22:52:05 -0400]   Detected cron=1 (cron mode set from command line)
+[2023-10-09 22:52:05 -0400]   1% complete
+[2023-10-09 22:52:05 -0400]   Running Standardized hooks
+[2023-10-09 22:52:05 -0400]   2% complete
+[2023-10-09 22:52:05 -0400]   mtime on upcp is 1663210406 (Wed Sep 14 22:53:26 2022)
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/updatenow (29407) at Mon Oct  9 22:52:14 2023
+[2023-10-09 22:52:14 -0400]   Running version '11.110.0.12' of updatenow.
+[2023-10-09 22:52:14 -0400]   Detected version '11.110.0.12' from version file.
+[2023-10-09 22:52:14 -0400]   Successfully verified signature for cpanel (key types: release).
+[2023-10-09 22:52:14 -0400]   Target version set to '11.114.0.7'
+[2023-10-09 22:52:14 -0400]   Switching to version 11.114.0.7 of updatenow to determine if we can reach that version without failure.
+[2023-10-09 22:52:14 -0400]   Retrieving and staging /cpanelsync/11.114.0.7/cpanel/scripts/updatenow.static.bz2
+[2023-10-09 22:52:14 -0400]   Using mirror '198.49.71.177' for host 'cpanel-mirror01.mco2.hostdime.com'.
+[2023-10-09 22:52:14 -0400]   Become an updatenow.static for version: 11.114.0.7
+=> Log closed Mon Oct  9 22:52:14 2023
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/updatenow.static-cpanelsync (29407) at Mon Oct  9 22:52:25 2023
+[2023-10-09 22:52:25 -0400]   Running version '11.114.0.7' of updatenow.static.
+[2023-10-09 22:52:25 -0400]   Detected version '11.110.0.12' from version file.
+[2023-10-09 22:52:25 -0400]   Target version set to '11.114.0.7'
+[2023-10-09 22:52:25 -0400] E Blocker found: Newer releases of cPanel & WHM are not compatible with your operating system. Upgrade your OS, or use the Update Preferences screen to select a Long-Term Support release for use with your OS. cPanel & WHM 11.114.0.7 supports AlmaLinux 8/9, CloudLinux® 8, Rocky Linux&trade; 8/9, Ubuntu 20 only. Please see our OS End of Life policy for more information. 
+[2023-10-09 22:52:25 -0400] W An attempt to upgrade to 11.114.0.7 was blocked. Please review blockers.
+[2023-10-09 22:52:25 -0400] E The install encountered a fatal error: An attempt to upgrade to 11.114.0.7 was blocked. Please review blockers.
+=> Log closed Mon Oct  9 22:52:25 2023
+=> Log closed Mon Oct  9 22:52:25 2023
+[2023-10-09 22:52:25 -0400]   17% complete
+=> Log closed Mon Oct  9 22:52:25 2023
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/maintenance (29523) at Mon Oct  9 22:52:26 2023
+[2023-10-09 22:52:28 -0400]   Processing: Assuring needed symlinks in 3rdparty/bin are in place.
+[2023-10-09 22:52:28 -0400]    - Processing command `/usr/local/cpanel/scripts/link_3rdparty_binaries`
+[2023-10-09 22:52:29 -0400]    - Finished command `/usr/local/cpanel/scripts/link_3rdparty_binaries` in 0.147 seconds
+[2023-10-09 22:52:29 -0400]   21% complete
+[2023-10-09 22:52:29 -0400]   Processing: Setting clock
+[2023-10-09 22:52:29 -0400]   22% complete
+[2023-10-09 22:52:29 -0400]    - Processing command `/usr/local/cpanel/scripts/rdate`
+[2023-10-09 22:52:29 -0400]      [/usr/local/cpanel/scripts/rdate] The 'ntpd' daemon is running on PID '583'. Exiting.
+[2023-10-09 22:52:29 -0400]    - Finished command `/usr/local/cpanel/scripts/rdate` in 0.351 seconds
+[2023-10-09 22:52:29 -0400]   23% complete
+[2023-10-09 22:52:29 -0400]    - Finished in 0.009 seconds
+[2023-10-09 22:52:29 -0400]   Processing: Setting up resolver workarounds
+[2023-10-09 22:52:29 -0400]    - Finished in 0.250 seconds
+[2023-10-09 22:52:29 -0400]   24% complete
+[2023-10-09 22:52:29 -0400]    - Finished in 0.251 seconds
+[2023-10-09 22:52:29 -0400]    - Finished in 0.036 seconds
+[2023-10-09 22:52:29 -0400]   Processing: Checking RPM DB for corruption
+[2023-10-09 22:52:29 -0400]    - Processing command `/usr/local/cpanel/scripts/find_and_fix_rpm_issues`
+[2023-10-09 22:52:31 -0400]      [/usr/local/cpanel/scripts/find_and_fix_rpm_issues]   glibc-2.17-326.el7_9.x86_64
+[2023-10-09 22:52:31 -0400]      [/usr/local/cpanel/scripts/find_and_fix_rpm_issues]   Testing if rpm_is_working RPM is installed
+[2023-10-09 22:52:32 -0400]      [/usr/local/cpanel/scripts/find_and_fix_rpm_issues]   Testing if it's possible to install a simple RPM
+[2023-10-09 22:52:33 -0400]      [/usr/local/cpanel/scripts/find_and_fix_rpm_issues]   Preparing...                          ########################################
+[2023-10-09 22:52:33 -0400]      [/usr/local/cpanel/scripts/find_and_fix_rpm_issues]   Updating / installing...
+[2023-10-09 22:52:33 -0400]      [/usr/local/cpanel/scripts/find_and_fix_rpm_issues]   rpm_is_working-1.0-0                  ########################################
+[2023-10-09 22:52:45 -0400]   25% complete
+[2023-10-09 22:52:45 -0400]    - Finished in 15.521 seconds
+[2023-10-09 22:52:45 -0400]   Processing: Running update-packages
+[2023-10-09 22:52:45 -0400]    - Processing command `/usr/local/cpanel/scripts/update-packages`
+[2023-10-09 22:52:46 -0400]      [/usr/local/cpanel/scripts/update-packages] checkyum version 22.3  (excludes: bind-chroot)
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Loaded plugins: fastestmirror, universal-hooks
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Loading mirror speeds from cached hostfile
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  * EA4: 209.133.199.70
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  * cpanel-addons-production-feed: 209.133.199.70
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  * cpanel-plugins: 209.133.199.70
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  * base: volico.mm.fcix.net
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  * centos-sclo-rh: nyc.mirrors.clouvider.net
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  * epel: volico.mm.fcix.net
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  * extras: ftp.usf.edu
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  * updates: mirror.umd.edu
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Resolving Dependencies
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] --> Running transaction check
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] ---> Package cpanel-analytics.noarch 0:1.4.44-11.11.1.cpanel will be updated
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] ---> Package cpanel-analytics.noarch 0:1.4.44-12.12.1.cpanel will be an update
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] --> Finished Dependency Resolution
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] 
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Dependencies Resolved
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] 
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] ================================================================================
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  Package             Arch      Version                  Repository         Size
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] ================================================================================
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Updating:
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  cpanel-analytics    noarch    1.4.44-12.12.1.cpanel    cpanel-plugins    105 k
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] 
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Transaction Summary
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] ================================================================================
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Upgrade  1 Package
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] 
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Total download size: 105 k
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Downloading packages:
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] No Presto metadata available for cpanel-plugins
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Running transaction check
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Running transaction test
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Transaction test succeeded
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Running transaction
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]   Updating   : cpanel-analytics-1.4.44-12.12.1.cpanel.noarch                1/2
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]    Cleanup    : cpanel-analytics-1.4.44-11.11.1.cpanel.noarch                2/2
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]    Verifying  : cpanel-analytics-1.4.44-12.12.1.cpanel.noarch                1/2
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]    Verifying  : cpanel-analytics-1.4.44-11.11.1.cpanel.noarch                2/2
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]  
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] 
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Updated:
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages]   cpanel-analytics.noarch 0:1.4.44-12.12.1.cpanel                               
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] 
+[2023-10-09 22:54:20 -0400]      [/usr/local/cpanel/scripts/update-packages] Complete!
+[2023-10-09 22:54:20 -0400]    - Finished command `/usr/local/cpanel/scripts/update-packages` in 95.087 seconds
+[2023-10-09 22:54:20 -0400]   26% complete
+[2023-10-09 22:54:20 -0400]    - Finished in 95.088 seconds
+[2023-10-09 22:54:21 -0400]   27% complete
+[2023-10-09 22:54:21 -0400]    - Finished in 1.226 seconds
+[2023-10-09 22:54:21 -0400]   Processing: Purging cpupdate.conf of invalid entries
+[2023-10-09 22:54:21 -0400]   28% complete
+[2023-10-09 22:54:21 -0400]    - Finished in 0.027 seconds
+[2023-10-09 22:54:21 -0400]   Purging upcp logs older than 45 days.
+[2023-10-09 22:54:21 -0400]   29% complete
+[2023-10-09 22:54:21 -0400]    - Finished in 0.057 seconds
+[2023-10-09 22:54:21 -0400]   Processing: Updating cPanel signing keys.
+[2023-10-09 22:54:21 -0400]    - Processing command `/usr/local/cpanel/scripts/updatesigningkey`
+[2023-10-09 22:54:23 -0400]    - Finished command `/usr/local/cpanel/scripts/updatesigningkey` in 1.642 seconds
+[2023-10-09 22:54:23 -0400]   30% complete
+[2023-10-09 22:54:23 -0400]   Processing: Updating system packages: sysup
+[2023-10-09 22:54:23 -0400]    - Processing command `/usr/local/cpanel/scripts/sysup`
+[2023-10-09 22:54:24 -0400]      [/usr/local/cpanel/scripts/sysup] checkyum version 22.3  (excludes: bind-chroot)
+[2023-10-09 22:54:29 -0400]      [/usr/local/cpanel/scripts/sysup]   All Needed Packages are already installed.
+[2023-10-09 22:54:29 -0400]    - Finished command `/usr/local/cpanel/scripts/sysup` in 6.032 seconds
+[2023-10-09 22:54:29 -0400]   31% complete
+[2023-10-09 22:54:29 -0400]    - Finished in 6.033 seconds
+[2023-10-09 22:54:29 -0400]   Processing: Restarting any outdated services
+[2023-10-09 22:54:29 -0400]   32% complete
+[2023-10-09 22:54:29 -0400]    - Processing command `/usr/local/cpanel/scripts/find_outdated_services --auto`
+[2023-10-09 22:57:06 -0400]      [/usr/local/cpanel/scripts/find_outdated_services] Looking for outdated services …
+[2023-10-09 22:57:06 -0400]      [/usr/local/cpanel/scripts/find_outdated_services] Loaded plugins: fastestmirror, universal-hooks
+[2023-10-09 22:57:06 -0400]      [/usr/local/cpanel/scripts/find_outdated_services] Cleaning repos: EA4 cpanel-addons-production-feed cpanel-plugins DimeNOC
+[2023-10-09 22:57:06 -0400]      [/usr/local/cpanel/scripts/find_outdated_services]               : MariaDB106 base centos-sclo-rh epel extras imunify360 kernelcare
+[2023-10-09 22:57:06 -0400]      [/usr/local/cpanel/scripts/find_outdated_services]               : nodesource pgdg-common pgdg11 pgdg12 pgdg13 pgdg14 pgdg15
+[2023-10-09 22:57:06 -0400]      [/usr/local/cpanel/scripts/find_outdated_services]               : updates
+[2023-10-09 22:57:06 -0400]      [/usr/local/cpanel/scripts/find_outdated_services] Cleaning up list of fastest mirrors
+[2023-10-09 22:57:06 -0400]      [/usr/local/cpanel/scripts/find_outdated_services] Other repos take up 19 M of disk space (use --verbose for details)
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] STDERR: failure: repodata/f123ea06834675570ffbe22edff4a2ac6d0fae0ceeed79c4cfa98746d2e30d79-filelists.sqlite.bz2 from imunify360: [Errno 256] No more mirrors to try.
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] https://repo.imunify360.cloudlinux.com/defense360//el/7/updates/x86_64/repodata/f123ea06834675570ffbe22edff4a2ac6d0fae0ceeed79c4cfa98746d2e30d79-filelists.sqlite.bz2: [Errno 12] Timeout on https://repo.imunify360.cloudlinux.com/defense360//el/7/updates/x86_64/repodata/f123ea06834675570ffbe22edff4a2ac6d0fae0ceeed79c4cfa98746d2e30d79-filelists.sqlite.bz2: (28, 'Connection timed out after 30001 milliseconds')
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] https://repo.imunify360.cloudlinux.com/defense360//el/7/updates/x86_64/repodata/f123ea06834675570ffbe22edff4a2ac6d0fae0ceeed79c4cfa98746d2e30d79-filelists.sqlite.bz2: [Errno 14] curl#35 - "TCP connection reset by peer"
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] Cpanel::Exception::ProcessFailed::Error/(XID 7ee8am) “/usr/local/cpanel/bin/needs-restarting-cpanel” reported error code “1” when it ended: failure: repodata/f123ea06834675570ffbe22edff4a2ac6d0fae0ceeed79c4cfa98746d2e30d79-filelists.sqlite.bz2 from imunify360: [Errno 256] No more mirrors to try.
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] https://repo.imunify360.cloudlinux.com/defense360//el/7/updates/x86_64/repodata/f123ea06834675570ffbe22edff4a2ac6d0fae0ceeed79c4cfa98746d2e30d79-filelists.sqlite.bz2: [Errno 12] Timeout on https://repo.imunify360.cloudlinux.com/defense360//el/7/updates/x86_64/repodata/f123ea06834675570ffbe22edff4a2ac6d0fae0ceeed79c4cfa98746d2e30d79-filelists.sqlite.bz2: (28, 'Connection timed out after 30001 milliseconds')
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] https://repo.imunify360.cloudlinux.com/defense360//el/7/updates/x86_64/repodata/f123ea06834675570ffbe22edff4a2ac6d0fae0ceeed79c4cfa98746d2e30d79-filelists.sqlite.bz2: [Errno 14] curl#35 - "TCP connection reset by peer"
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services]  at /usr/local/cpanel/Cpanel/ChildErrorStringifier.pm line 161.
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 	Cpanel::ChildErrorStringifier::to_exception(Cpanel::SafeRun::Object=HASH(0x1a214e8)) called at /usr/local/cpanel/Cpanel/ChildErrorStringifier.pm line 140
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 	Cpanel::ChildErrorStringifier::die_if_error(Cpanel::SafeRun::Object=HASH(0x1a214e8)) called at /usr/local/cpanel/Cpanel/SafeRun/Object.pm line 680
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 	Cpanel::SafeRun::Object::die_if_error(Cpanel::SafeRun::Object=HASH(0x1a214e8)) called at /usr/local/cpanel/Cpanel/ProcessCheck/Outdated.pm line 274
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 	Cpanel::ProcessCheck::Outdated::_outdated_services_default() called at /usr/local/cpanel/Cpanel/ProcessCheck/Outdated.pm line 68
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 	Cpanel::ProcessCheck::Outdated::outdated_services() called at /usr/local/cpanel/scripts/find_outdated_services line 88
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 	scripts::find_outdated_services::__ANON__() called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/Try/Tiny.pm line 100
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/Try/Tiny.pm line 91
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 	Try::Tiny::try(CODE(0x1359920), Try::Tiny::Catch=REF(0xe9f398)) called at /usr/local/cpanel/scripts/find_outdated_services line 108
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] 	scripts::find_outdated_services::run(scripts::find_outdated_services=HASH(0xe75470)) called at /usr/local/cpanel/scripts/find_outdated_services line 73
+[2023-10-09 22:57:07 -0400] E    [/usr/local/cpanel/scripts/find_outdated_services] The “/usr/local/cpanel/scripts/find_outdated_services --auto” command (process 29850) reported error number 255 when it ended.
+[2023-10-09 22:57:07 -0400]   The Administrator will be notified to review this output when this script completes
+[2023-10-09 22:57:07 -0400]    - Finished command `/usr/local/cpanel/scripts/find_outdated_services --auto` in 157.797 seconds
+[2023-10-09 22:57:07 -0400]   Processing: Running platform specific optimizations
+[2023-10-09 22:57:07 -0400]   33% complete
+[2023-10-09 22:57:07 -0400]    - Processing command `/usr/local/cpanel/scripts/vps_optimizer`
+[2023-10-09 22:57:07 -0400]      [/usr/local/cpanel/scripts/vps_optimizer] [*] This script is not meant to be run on standard environments
+[2023-10-09 22:57:07 -0400]    - Finished command `/usr/local/cpanel/scripts/vps_optimizer` in 0.776 seconds
+[2023-10-09 22:57:07 -0400]   34% complete
+[2023-10-09 22:57:07 -0400]   Processing: Checking for a valid C Compiler.
+[2023-10-09 22:57:07 -0400]    - Processing command `/usr/local/cpanel/scripts/checkccompiler`
+[2023-10-09 22:57:09 -0400]      [/usr/local/cpanel/scripts/checkccompiler] C compiler (/usr/bin/gcc) OK
+[2023-10-09 22:57:09 -0400]      [/usr/local/cpanel/scripts/checkccompiler] Tuned C compiler not available because it is not enabled
+[2023-10-09 22:57:09 -0400]    - Finished command `/usr/local/cpanel/scripts/checkccompiler` in 1.671 seconds
+[2023-10-09 22:57:09 -0400]   35% complete
+[2023-10-09 22:57:09 -0400]   Processing: Ensuring locale databases are up to date
+[2023-10-09 22:57:09 -0400]   36% complete
+[2023-10-09 22:57:09 -0400]   37% complete
+[2023-10-09 22:57:09 -0400]    - Finished in 0.020 seconds
+[2023-10-09 22:57:09 -0400]   Processing: Migrating feature lists to current version (if needed)
+[2023-10-09 22:57:09 -0400]    - Processing command `/usr/local/cpanel/bin/migrate_all_feature_lists_to_current`
+[2023-10-09 22:57:09 -0400]      [/usr/local/cpanel/bin/migrate_all_feature_lists_to_current] Migrated 0 feature list(s)
+[2023-10-09 22:57:09 -0400]    - Finished command `/usr/local/cpanel/bin/migrate_all_feature_lists_to_current` in 0.329 seconds
+[2023-10-09 22:57:09 -0400]   38% complete
+[2023-10-09 22:57:09 -0400]   Processing: Checking for main IP changes
+[2023-10-09 22:57:09 -0400]   39% complete
+[2023-10-09 22:57:09 -0400]    - Processing command `/usr/local/cpanel/scripts/mainipcheck`
+[2023-10-09 22:57:11 -0400]    - Finished command `/usr/local/cpanel/scripts/mainipcheck` in 1.242 seconds
+[2023-10-09 22:57:11 -0400]   Processing: Updating neighbor netblocks
+[2023-10-09 22:57:11 -0400]   40% complete
+[2023-10-09 22:57:11 -0400]    - Processing command `/usr/local/cpanel/scripts/update_neighbor_netblocks`
+[2023-10-09 22:57:11 -0400]    - Finished command `/usr/local/cpanel/scripts/update_neighbor_netblocks` in 0.460 seconds
+[2023-10-09 22:57:11 -0400]   41% complete
+[2023-10-09 22:57:11 -0400]   Processing: Updating known proxy ips
+[2023-10-09 22:57:11 -0400]   42% complete
+[2023-10-09 22:57:11 -0400]    - Processing command `/usr/local/cpanel/scripts/update_known_proxy_ips`
+[2023-10-09 22:57:12 -0400]    - Finished command `/usr/local/cpanel/scripts/update_known_proxy_ips` in 0.652 seconds
+[2023-10-09 22:57:12 -0400]   Processing: Validating server hostname
+[2023-10-09 22:57:12 -0400]   43% complete
+[2023-10-09 22:57:12 -0400]    - Processing command `/usr/local/cpanel/scripts/check_valid_server_hostname --notify`
+[2023-10-09 22:57:12 -0400]      [/usr/local/cpanel/scripts/check_valid_server_hostname] OK
+[2023-10-09 22:57:12 -0400]    - Finished command `/usr/local/cpanel/scripts/check_valid_server_hostname --notify` in 0.643 seconds
+[2023-10-09 22:57:12 -0400]   44% complete
+[2023-10-09 22:57:12 -0400]   Processing: Validating cPanel system users
+[2023-10-09 22:57:12 -0400]    - Processing command `/usr/local/cpanel/scripts/checkusers`
+[2023-10-09 22:57:12 -0400]      [/usr/local/cpanel/scripts/checkusers] Homedir: /var/cpanel/userhomes/cpanel
+[2023-10-09 22:57:12 -0400]    - Finished command `/usr/local/cpanel/scripts/checkusers` in 0.045 seconds
+[2023-10-09 22:57:12 -0400]   45% complete
+[2023-10-09 22:57:12 -0400]   Processing: Checking and repairing nameserver config
+[2023-10-09 22:57:12 -0400]   46% complete
+[2023-10-09 22:57:12 -0400]    - Processing command `/usr/local/cpanel/scripts/fixrndc`
+[2023-10-09 22:57:14 -0400]    - Finished command `/usr/local/cpanel/scripts/fixrndc` in 1.464 seconds
+[2023-10-09 22:57:14 -0400]   47% complete
+[2023-10-09 22:57:14 -0400]   Processing: Setting up IP aliases startup
+[2023-10-09 22:57:14 -0400]    - Processing command `/usr/local/cpanel/whostmgr/bin/setupipaliases`
+[2023-10-09 22:57:15 -0400]    - Finished command `/usr/local/cpanel/whostmgr/bin/setupipaliases` in 1.125 seconds
+[2023-10-09 22:57:15 -0400]   48% complete
+[2023-10-09 22:57:15 -0400]   Processing: Checking cPanel packages (with no digest check or broken check)
+[2023-10-09 22:57:15 -0400]    - Processing command `/usr/local/cpanel/scripts/check_cpanel_pkgs --list-only --long-list --notify --no-digest --no-broken`
+[2023-10-09 22:57:20 -0400]    - Finished command `/usr/local/cpanel/scripts/check_cpanel_pkgs --list-only --long-list --notify --no-digest --no-broken` in 4.668 seconds
+[2023-10-09 22:57:20 -0400]   49% complete
+[2023-10-09 22:57:20 -0400]    - Finished in 4.671 seconds
+[2023-10-09 22:57:20 -0400]   Processing: Running env auto repair
+[2023-10-09 22:57:20 -0400]    - Processing command `/usr/local/cpanel/scripts/vzzo-fixer`
+[2023-10-09 22:57:20 -0400]    - Finished command `/usr/local/cpanel/scripts/vzzo-fixer` in 0.034 seconds
+[2023-10-09 22:57:20 -0400]   50% complete
+[2023-10-09 22:57:20 -0400]    - Processing command `/usr/local/cpanel/scripts/quota_auto_fix`
+[2023-10-09 22:57:20 -0400]      [/usr/local/cpanel/scripts/quota_auto_fix] quota test: check passed
+[2023-10-09 22:57:20 -0400]    - Finished command `/usr/local/cpanel/scripts/quota_auto_fix` in 0.159 seconds
+[2023-10-09 22:57:20 -0400]   51% complete
+[2023-10-09 22:57:20 -0400]    - Processing command `/usr/local/cpanel/scripts/clear_orphaned_virtfs_mounts --inactiveonly`
+[2023-10-09 22:57:21 -0400]    - Finished command `/usr/local/cpanel/scripts/clear_orphaned_virtfs_mounts --inactiveonly` in 1.333 seconds
+[2023-10-09 22:57:21 -0400]   52% complete
+[2023-10-09 22:57:21 -0400]    - Processing command `/usr/local/cpanel/scripts/disable_prelink`
+[2023-10-09 22:57:24 -0400]    - Finished command `/usr/local/cpanel/scripts/disable_prelink` in 2.374 seconds
+[2023-10-09 22:57:24 -0400]   Processing: Cleaning up orphaned filesystem quotas
+[2023-10-09 22:57:24 -0400]   53% complete
+[2023-10-09 22:57:24 -0400]    - Processing command `/usr/local/cpanel/scripts/cleanquotas`
+[2023-10-09 22:57:24 -0400]    - Finished command `/usr/local/cpanel/scripts/cleanquotas` in 0.674 seconds
+[2023-10-09 22:57:24 -0400]   54% complete
+[2023-10-09 22:57:24 -0400]    - Processing command `/usr/local/cpanel/scripts/autorepair autorepair`
+[2023-10-09 22:57:25 -0400]      [/usr/local/cpanel/scripts/autorepair] Requesting script ... Done
+[2023-10-09 22:57:26 -0400]      [/usr/local/cpanel/scripts/autorepair] Auto Repair is running...Running Auto Repair routines
+[2023-10-09 22:57:26 -0400]      [/usr/local/cpanel/scripts/autorepair] Finished running Auto Repair routines
+[2023-10-09 22:57:26 -0400]      [/usr/local/cpanel/scripts/autorepair] ...Auto Repair is done.
+[2023-10-09 22:57:26 -0400]    - Finished command `/usr/local/cpanel/scripts/autorepair autorepair` in 1.425 seconds
+[2023-10-09 22:57:26 -0400]    - Processing command `/usr/local/cpanel/scripts/purge_old_config_caches`
+[2023-10-09 22:57:26 -0400]    - Finished command `/usr/local/cpanel/scripts/purge_old_config_caches` in 0.199 seconds
+[2023-10-09 22:57:26 -0400]   55% complete
+[2023-10-09 22:57:26 -0400]    - Processing command `/usr/local/cpanel/scripts/cleansessions`
+[2023-10-09 22:57:26 -0400]    - Finished command `/usr/local/cpanel/scripts/cleansessions` in 0.374 seconds
+[2023-10-09 22:57:26 -0400]   56% complete
+[2023-10-09 22:57:26 -0400]    - Processing command `/usr/local/cpanel/scripts/checkbashshell`
+[2023-10-09 22:57:26 -0400]    - Finished command `/usr/local/cpanel/scripts/checkbashshell` in 0.055 seconds
+[2023-10-09 22:57:26 -0400]   57% complete
+[2023-10-09 22:57:26 -0400]    - Finished in 0.000 seconds
+[2023-10-09 22:57:26 -0400]   Setting up cronjobs
+[2023-10-09 22:57:26 -0400]   Setting Up update_db_cache Crontab
+[2023-10-09 22:57:26 -0400]   Setting Up update_maiman_cache Crontab
+[2023-10-09 22:57:26 -0400]   Setting Up dcpumon Crontab
+[2023-10-09 22:57:26 -0400]   58% complete
+[2023-10-09 22:57:26 -0400]    - Finished in 0.047 seconds
+[2023-10-09 22:57:26 -0400]    - Processing command `/usr/local/cpanel/scripts/dnsqueuecron`
+[2023-10-09 22:57:26 -0400]    - Finished command `/usr/local/cpanel/scripts/dnsqueuecron` in 0.034 seconds
+[2023-10-09 22:57:26 -0400]   59% complete
+[2023-10-09 22:57:26 -0400]   Processing: Rebuild WHM chrome cache
+[2023-10-09 22:57:26 -0400]    - Processing command `/usr/local/cpanel/scripts/rebuild_whm_chrome`
+[2023-10-09 22:57:36 -0400]    - Finished command `/usr/local/cpanel/scripts/rebuild_whm_chrome` in 9.835 seconds
+[2023-10-09 22:57:36 -0400]   60% complete
+[2023-10-09 22:57:36 -0400]   Processing: Scheduling task to check service default SSL/TLS certificates
+[2023-10-09 22:57:36 -0400]   61% complete
+[2023-10-09 22:57:36 -0400]    - Finished in 0.032 seconds
+[2023-10-09 22:57:36 -0400]   Processing: Purging invalid or soon-to-expire Domain TLS entries for service domains
+[2023-10-09 22:57:36 -0400]   62% complete
+[2023-10-09 22:57:36 -0400]    - Processing command `/usr/local/cpanel/scripts/check_domain_tls_service_domains.pl --prune`
+[2023-10-09 22:57:38 -0400]    - Finished command `/usr/local/cpanel/scripts/check_domain_tls_service_domains.pl --prune` in 1.892 seconds
+[2023-10-09 22:57:38 -0400]   63% complete
+[2023-10-09 22:57:38 -0400]   Processing: Cleaning up temporary wheel/sudo users
+[2023-10-09 22:57:38 -0400]   64% complete
+[2023-10-09 22:57:38 -0400]    - Processing command `/usr/local/cpanel/scripts/clean_up_temp_wheel_users`
+[2023-10-09 22:57:39 -0400]    - Finished command `/usr/local/cpanel/scripts/clean_up_temp_wheel_users` in 0.817 seconds
+[2023-10-09 22:57:39 -0400]   Processing: Rebuilding sprites
+[2023-10-09 22:57:39 -0400]    - Finished in 0.019 seconds
+[2023-10-09 22:57:39 -0400]   65% complete
+[2023-10-09 22:57:39 -0400]    - Finished in 0.020 seconds
+[2023-10-09 22:57:39 -0400]   Processing: Updating Reverse DNS Cache
+[2023-10-09 22:57:39 -0400]    - Finished in 0.095 seconds
+[2023-10-09 22:57:39 -0400]   66% complete
+[2023-10-09 22:57:39 -0400]    - Finished in 0.096 seconds
+[2023-10-09 22:57:39 -0400]   Processing: Updating services and databases
+[2023-10-09 22:57:39 -0400]    - Processing command `/usr/local/cpanel/scripts/listcheck`
+[2023-10-09 22:57:39 -0400]    - Finished command `/usr/local/cpanel/scripts/listcheck` in 0.042 seconds
+[2023-10-09 22:57:39 -0400]   67% complete
+[2023-10-09 22:57:39 -0400]    - Processing command `/usr/local/cpanel/scripts/purge_modsec_log`
+[2023-10-09 22:57:40 -0400]    - Finished command `/usr/local/cpanel/scripts/purge_modsec_log` in 1.023 seconds
+[2023-10-09 22:57:40 -0400]   68% complete
+[2023-10-09 22:57:40 -0400]    - Processing command `/usr/local/cpanel/scripts/ftpquotacheck`
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Ftp Quota Check v2.0
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] [ftpquotacheck] Setting I/O priority to reduce system load: best-effort: prio 6
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "sk": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "joebellachi": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   joebellachi : webupdate@shinetours.net ... skipped (not expired)
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "jinwu": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   jinwu : alexw6750@mlicanada.com ... skipped (not expired)
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   jinwu : harry@mlicanada.com ... skipped (not expired)
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "harryji": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   harryji : 2021@harryji.com ... skipped (not expired)
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   harryji : soccer@harryji.com ... skipped (not expired)
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   harryji : harry@harryji.com ... skipped (not expired)
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "superes": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "supereso": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "acegemini": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   acegemini : videos@acegemini.com ... skipped (not expired)
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "cosmosim": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   cosmosim : harry@cosmosim.com ... skipped (not expired)
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "lilychan": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   lilychan : harry@lilychan.ca ... skipped (not expired)
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "xotours": 
+[2023-10-09 22:57:41 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   xotours : test@xotours.net ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   xotours : jameslee@xotours.net ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   xotours : showtime@xotours.net ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   xotours : grandfair@xotours.net ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   xotours : harry@xotours.net ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "ramin": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   ramin : harry@raminandsons.com ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "wtt": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   wtt : harry@wttcorp.com ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "drnosil": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   drnosil : 3rdparty@dentalphantoms.com ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "xotourst": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   xotourst : tw@xotourstaiwan.com ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   xotourst : showtime@xotourstaiwan.com ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   xotourst : showtimenow@xotourstaiwan.com ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "maxtec": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   maxtec : harry@maxtec-inc.com ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "apceo": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   apceo : harry@apceocanada.org ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "jnosil": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   jnosil : harry@drnosil.com ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "wedoyouw": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   wedoyouw : harry@wedoyouwant.com ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "flyingfr": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Processing cPanel Account "wcsmpa": 
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck]   wcsmpa : harry@wcsmpa.org ... skipped (not expired)
+[2023-10-09 22:57:42 -0400]      [/usr/local/cpanel/scripts/ftpquotacheck] Done
+[2023-10-09 22:57:42 -0400]    - Finished command `/usr/local/cpanel/scripts/ftpquotacheck` in 1.987 seconds
+[2023-10-09 22:57:42 -0400]   69% complete
+[2023-10-09 22:57:42 -0400]    - Processing command `/usr/local/cpanel/scripts/updateuserdomains`
+[2023-10-09 22:57:44 -0400]    - Finished command `/usr/local/cpanel/scripts/updateuserdomains` in 1.462 seconds
+[2023-10-09 22:57:44 -0400]    - Processing command `/usr/local/cpanel/bin/empty_user_trash --quiet --all`
+[2023-10-09 22:57:45 -0400]    - Finished command `/usr/local/cpanel/bin/empty_user_trash --quiet --all` in 0.947 seconds
+[2023-10-09 22:57:45 -0400]   70% complete
+[2023-10-09 22:57:45 -0400]    - Processing command `/usr/local/cpanel/bin/empty_user_horde_temp_files --quiet --all`
+[2023-10-09 22:57:45 -0400]    - Finished command `/usr/local/cpanel/bin/empty_user_horde_temp_files --quiet --all` in 0.822 seconds
+[2023-10-09 22:57:45 -0400]   71% complete
+[2023-10-09 22:57:45 -0400]    - Processing command `/usr/local/cpanel/scripts/build_maxemails_config`
+[2023-10-09 22:57:46 -0400]    - Finished command `/usr/local/cpanel/scripts/build_maxemails_config` in 0.457 seconds
+[2023-10-09 22:57:46 -0400]    - Processing command `/usr/local/cpanel/scripts/updateuserdatacache --force`
+[2023-10-09 22:57:49 -0400]    - Finished command `/usr/local/cpanel/scripts/updateuserdatacache --force` in 3.441 seconds
+[2023-10-09 22:57:49 -0400]   72% complete
+[2023-10-09 22:57:49 -0400]   Processing: Checking system maxmem setting
+[2023-10-09 22:57:49 -0400]   73% complete
+[2023-10-09 22:57:49 -0400]    - Processing command `/usr/local/cpanel/scripts/check_maxmem_against_domains_count --always-fix`
+[2023-10-09 22:57:50 -0400]      [/usr/local/cpanel/scripts/check_maxmem_against_domains_count] Minimum “maxmem” value: 4096
+[2023-10-09 22:57:50 -0400]      [/usr/local/cpanel/scripts/check_maxmem_against_domains_count] Current “maxmem” value: 4096
+[2023-10-09 22:57:50 -0400]      [/usr/local/cpanel/scripts/check_maxmem_against_domains_count] 
+[2023-10-09 22:57:50 -0400]      [/usr/local/cpanel/scripts/check_maxmem_against_domains_count] Your system’s “maxmem” setting meets the minimum requirements for the number of cPanel accounts on the system.
+[2023-10-09 22:57:50 -0400]    - Finished command `/usr/local/cpanel/scripts/check_maxmem_against_domains_count --always-fix` in 0.596 seconds
+[2023-10-09 22:57:50 -0400]   74% complete
+[2023-10-09 22:57:50 -0400]   Processing: Running various cleanup scripts
+[2023-10-09 22:57:50 -0400]    - Processing command `/usr/local/cpanel/scripts/resetmailmanurls`
+[2023-10-09 22:57:51 -0400]    - Finished command `/usr/local/cpanel/scripts/resetmailmanurls` in 0.580 seconds
+[2023-10-09 22:57:51 -0400]   75% complete
+[2023-10-09 22:57:51 -0400]   Processing: Checking MySQL to ensure we can connect
+[2023-10-09 22:57:51 -0400]   76% complete
+[2023-10-09 22:57:51 -0400]    - Processing command `/usr/local/cpanel/scripts/mysqlconnectioncheck`
+[2023-10-09 22:57:51 -0400]    - Finished command `/usr/local/cpanel/scripts/mysqlconnectioncheck` in 0.973 seconds
+[2023-10-09 22:57:51 -0400]   Processing: Updating Apache SpamAssassin™ rules
+[2023-10-09 22:57:52 -0400]    - Finished in 0.029 seconds
+[2023-10-09 22:57:52 -0400]   77% complete
+[2023-10-09 22:57:52 -0400]    - Finished in 0.031 seconds
+[2023-10-09 22:57:52 -0400]   Processing: Checking PostgreSQL to ensure we can connect
+[2023-10-09 22:57:52 -0400]   78% complete
+[2023-10-09 22:57:52 -0400]    - Processing command `/usr/local/cpanel/bin/postgrescheck --check-auth --reset-pass-on-fail`
+[2023-10-09 22:57:53 -0400]    - Finished command `/usr/local/cpanel/bin/postgrescheck --check-auth --reset-pass-on-fail` in 1.396 seconds
+[2023-10-09 22:57:53 -0400]   79% complete
+[2023-10-09 22:57:53 -0400]   Processing: Repairing Mailman Permissions
+[2023-10-09 22:57:53 -0400]    - Processing command `./check_perms -f --noarchives`
+[2023-10-09 22:57:54 -0400]      [./check_perms] No problems found
+[2023-10-09 22:57:54 -0400]    - Finished command `./check_perms -f --noarchives` in 0.965 seconds
+[2023-10-09 22:57:54 -0400]    - Finished in 0.975 seconds
+[2023-10-09 22:57:54 -0400]   Processing: Running sanity checks and notifications
+[2023-10-09 22:57:54 -0400]   80% complete
+[2023-10-09 22:57:54 -0400]    - Processing command `/usr/local/cpanel/scripts/chkpaths`
+[2023-10-09 22:57:54 -0400]    - Finished command `/usr/local/cpanel/scripts/chkpaths` in 0.028 seconds
+[2023-10-09 22:57:54 -0400]   81% complete
+[2023-10-09 22:57:54 -0400]    - Processing command `/usr/local/cpanel/scripts/hackcheck`
+[2023-10-09 22:57:54 -0400]    - Finished command `/usr/local/cpanel/scripts/hackcheck` in 0.090 seconds
+[2023-10-09 22:57:54 -0400]    - Processing command `/usr/local/cpanel/scripts/oopscheck`
+[2023-10-09 22:57:54 -0400]    - Finished command `/usr/local/cpanel/scripts/oopscheck` in 0.386 seconds
+[2023-10-09 22:57:54 -0400]   82% complete
+[2023-10-09 22:57:54 -0400]    - Processing command `/usr/local/cpanel/scripts/fixetchosts`
+[2023-10-09 22:57:55 -0400]    - Finished command `/usr/local/cpanel/scripts/fixetchosts` in 0.270 seconds
+[2023-10-09 22:57:55 -0400]   83% complete
+[2023-10-09 22:57:55 -0400]    - Processing command `/usr/local/cpanel/scripts/check_unreliable_resolvers --notify`
+[2023-10-09 22:57:56 -0400]      [/usr/local/cpanel/scripts/check_unreliable_resolvers] OK
+[2023-10-09 22:57:56 -0400]    - Finished command `/usr/local/cpanel/scripts/check_unreliable_resolvers --notify` in 1.273 seconds
+[2023-10-09 22:57:56 -0400]   84% complete
+[2023-10-09 22:57:56 -0400]    - Processing command `/usr/local/cpanel/bin/is_script_stuck --script=autossl_check --time=3h --kill --notify=root`
+[2023-10-09 22:57:56 -0400]      [/usr/local/cpanel/bin/is_script_stuck] The script “autossl_check” is not stuck
+[2023-10-09 22:57:56 -0400]    - Finished command `/usr/local/cpanel/bin/is_script_stuck --script=autossl_check --time=3h --kill --notify=root` in 0.294 seconds
+[2023-10-09 22:57:56 -0400]    - Processing command `/usr/local/cpanel/scripts/quotacheck`
+[2023-10-09 22:57:58 -0400]      [/usr/local/cpanel/scripts/quotacheck] [quotacheck] Setting I/O priority to reduce system load: best-effort: prio 6
+[2023-10-09 22:57:58 -0400]    - Finished command `/usr/local/cpanel/scripts/quotacheck` in 2.237 seconds
+[2023-10-09 22:57:58 -0400]   85% complete
+[2023-10-09 22:57:58 -0400]    - Processing command `/usr/local/cpanel/scripts/email_archive_maintenance`
+[2023-10-09 22:57:59 -0400]    - Finished command `/usr/local/cpanel/scripts/email_archive_maintenance` in 0.391 seconds
+[2023-10-09 22:57:59 -0400]   86% complete
+[2023-10-09 22:57:59 -0400]    - Processing command `/usr/local/cpanel/scripts/email_hold_maintenance`
+[2023-10-09 22:57:59 -0400]    - Finished command `/usr/local/cpanel/scripts/email_hold_maintenance` in 0.333 seconds
+[2023-10-09 22:57:59 -0400]    - Processing command `/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage`
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Checking for expired certificates for all users.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'superes'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'joebellachi'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'supereso'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'shopsupere'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'rvadmin'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'wtt'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'r777'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'waynezhang'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'ecom158net'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'nbaapi'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'mythos'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'joydimsu'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'sits'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'jinwu'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'ecom1'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'xotourst'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'maxtec'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'harryji'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'jihy'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'canadasea'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'wedoyouw'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'flyingfr'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'ytccorp'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'prestademo'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'xotours'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'renee'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'plbc'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'bodyspir'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'ec'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'pdesign'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'supereinfo'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'wcsmpa'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'cosmosim'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 1 expired certificates for 'sesols'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'acegemini'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'lilychan'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'graceji'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'alotustraveltech'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'superetech'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'supereca'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'networks'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'supereai'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'rainbowshome7'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'sk'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'csmpa'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'wofchina'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'catsmiao'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'drnosil'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'wecandothese'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'findthe'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'apceo'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'xotourca'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'fc'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'ccttf'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'tidyup'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'jnosil'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'joeyhan'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'unisourc'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'ramin'.
+[2023-10-09 22:58:03 -0400]      [/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage] Found and expunged 0 expired certificates for 'root'.
+[2023-10-09 22:58:03 -0400]    - Finished command `/usr/local/cpanel/scripts/expunge_expired_certificates_from_sslstorage` in 3.971 seconds
+[2023-10-09 22:58:03 -0400]   87% complete
+[2023-10-09 22:58:03 -0400]    - Processing command `/usr/local/cpanel/scripts/notify_expiring_certificates`
+[2023-10-09 22:58:07 -0400]    - Finished command `/usr/local/cpanel/scripts/notify_expiring_certificates` in 4.199 seconds
+[2023-10-09 22:58:07 -0400]   88% complete
+[2023-10-09 22:58:07 -0400]    - Processing command `/usr/local/cpanel/scripts/notify_expiring_certificates_on_linked_nodes`
+[2023-10-09 22:58:09 -0400]    - Finished command `/usr/local/cpanel/scripts/notify_expiring_certificates_on_linked_nodes` in 1.140 seconds
+[2023-10-09 22:58:09 -0400]   89% complete
+[2023-10-09 22:58:09 -0400]    - Processing command `/usr/local/cpanel/scripts/expunge_expired_transfer_sessions`
+[2023-10-09 22:58:09 -0400]    - Finished command `/usr/local/cpanel/scripts/expunge_expired_transfer_sessions` in 0.754 seconds
+[2023-10-09 22:58:09 -0400]    - Processing command `/usr/local/cpanel/scripts/expunge_expired_pkgacct_sessions`
+[2023-10-09 22:58:10 -0400]    - Finished command `/usr/local/cpanel/scripts/expunge_expired_pkgacct_sessions` in 0.461 seconds
+[2023-10-09 22:58:10 -0400]   90% complete
+[2023-10-09 22:58:10 -0400]    - Processing command `/usr/local/cpanel/scripts/smartcheck`
+[2023-10-09 22:58:11 -0400]      [/usr/local/cpanel/scripts/smartcheck] Using smartcheck version profile "default" for smartctl (unknown)
+[2023-10-09 22:58:11 -0400]      [/usr/local/cpanel/scripts/smartcheck] Checking /dev/sda....Ok
+[2023-10-09 22:58:11 -0400]      [/usr/local/cpanel/scripts/smartcheck] Checking /dev/sdb....Ok
+[2023-10-09 22:58:11 -0400]    - Finished command `/usr/local/cpanel/scripts/smartcheck` in 1.590 seconds
+[2023-10-09 22:58:11 -0400]   91% complete
+[2023-10-09 22:58:11 -0400]    - Processing command `/usr/local/cpanel/scripts/compilerscheck`
+[2023-10-09 22:58:11 -0400]    - Finished command `/usr/local/cpanel/scripts/compilerscheck` in 0.151 seconds
+[2023-10-09 22:58:11 -0400]    - Processing command `/usr/local/cpanel/scripts/check_mount_procfs`
+[2023-10-09 22:58:12 -0400]    - Finished command `/usr/local/cpanel/scripts/check_mount_procfs` in 0.517 seconds
+[2023-10-09 22:58:12 -0400]   92% complete
+[2023-10-09 22:58:12 -0400]    - Processing command `/usr/local/cpanel/scripts/setup_modsec_db`
+[2023-10-09 22:58:12 -0400]    - Finished command `/usr/local/cpanel/scripts/setup_modsec_db` in 0.368 seconds
+[2023-10-09 22:58:12 -0400]   93% complete
+[2023-10-09 22:58:12 -0400]    - Processing command `/usr/local/cpanel/scripts/modsec_vendor update --auto`
+[2023-10-09 22:58:16 -0400]    - Finished command `/usr/local/cpanel/scripts/modsec_vendor update --auto` in 3.560 seconds
+[2023-10-09 22:58:16 -0400]   94% complete
+[2023-10-09 22:58:16 -0400]    - Processing command `/usr/local/cpanel/bin/check_cpstore_in_sync_with_local_storage`
+[2023-10-09 22:58:17 -0400]    - Finished command `/usr/local/cpanel/bin/check_cpstore_in_sync_with_local_storage` in 0.665 seconds
+[2023-10-09 22:58:17 -0400]   Processing: Purging old comet files
+[2023-10-09 22:58:17 -0400]   95% complete
+[2023-10-09 22:58:17 -0400]    - Processing command `/usr/local/cpanel/bin/purge_dead_comet_files --quiet`
+[2023-10-09 22:58:18 -0400]    - Finished command `/usr/local/cpanel/bin/purge_dead_comet_files --quiet` in 0.906 seconds
+[2023-10-09 22:58:18 -0400]   Processing: Updating virus patterns
+[2023-10-09 22:58:18 -0400]    - Finished in 0.021 seconds
+[2023-10-09 22:58:18 -0400]    - Finished in 0.052 seconds
+[2023-10-09 22:58:18 -0400]   Processing: Restoring compiler permissions
+[2023-10-09 22:58:18 -0400]    - Processing command `/usr/local/cpanel/scripts/compilers restore`
+[2023-10-09 22:58:18 -0400]      [/usr/local/cpanel/scripts/compilers] Compilers are enabled for unprivileged users.
+[2023-10-09 22:58:18 -0400]    - Finished command `/usr/local/cpanel/scripts/compilers restore` in 0.698 seconds
+[2023-10-09 22:58:18 -0400]   Processing: Cleaning up mailbox trash
+[2023-10-09 22:58:18 -0400]    - Processing command `/usr/local/cpanel/scripts/dovecot_maintenance --background`
+[2023-10-09 22:58:22 -0400]    - Finished command `/usr/local/cpanel/scripts/dovecot_maintenance --background` in 3.269 seconds
+[2023-10-09 22:58:22 -0400]   Processing: Checking MySQL Version
+[2023-10-09 22:58:22 -0400]   “MariaDB” version “10.6” is greater than or equal to the recommended minimum version, “10.2”.
+[2023-10-09 22:58:22 -0400]    - Finished in 0.006 seconds
+[2023-10-09 22:58:22 -0400]   Processing: Cleaning up root datastores and caches
+[2023-10-09 22:58:22 -0400]    - Processing command `/usr/local/cpanel/bin/clean-datastores --background root`
+[2023-10-09 22:58:23 -0400]    - Finished command `/usr/local/cpanel/bin/clean-datastores --background root` in 1.619 seconds
+[2023-10-09 22:58:23 -0400]    - Finished in 0.000 seconds
+[2023-10-09 22:58:23 -0400]   Processing: Recovering data stored in /var/cpanel/sql/eximstats.sql
+[2023-10-09 22:58:23 -0400]    - Processing command `/usr/local/cpanel/scripts/restartsrv_eximstats`
+[2023-10-09 22:58:28 -0400]      [/usr/local/cpanel/scripts/restartsrv_eximstats] Waiting for “tailwatchd” to restart gracefully ………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………waiting for “tailwatchd” to initialize ………finished.
+[2023-10-09 22:58:28 -0400]      [/usr/local/cpanel/scripts/restartsrv_eximstats] 
+[2023-10-09 22:58:28 -0400]      [/usr/local/cpanel/scripts/restartsrv_eximstats] Service Status
+[2023-10-09 22:58:28 -0400]      [/usr/local/cpanel/scripts/restartsrv_eximstats] 	tailwatchd (tailwatchd) is running as root with PID 1673 (systemd+/proc check method).
+[2023-10-09 22:58:28 -0400]      [/usr/local/cpanel/scripts/restartsrv_eximstats] 
+[2023-10-09 22:58:28 -0400]      [/usr/local/cpanel/scripts/restartsrv_eximstats] Startup Log
+[2023-10-09 22:58:28 -0400]      [/usr/local/cpanel/scripts/restartsrv_eximstats] 	Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+[2023-10-09 22:58:28 -0400]      [/usr/local/cpanel/scripts/restartsrv_eximstats] 
+[2023-10-09 22:58:28 -0400]      [/usr/local/cpanel/scripts/restartsrv_eximstats] tailwatchd restarted successfully.
+[2023-10-09 22:58:28 -0400]    - Finished command `/usr/local/cpanel/scripts/restartsrv_eximstats` in 5.051 seconds
+[2023-10-09 22:58:28 -0400]    - Finished in 5.052 seconds
+[2023-10-09 22:58:28 -0400]    - Finished in 0.005 seconds
+[2023-10-09 22:58:32 -0400]    - Finished in 3.663 seconds
+[2023-10-09 22:58:32 -0400]   Processing: Cleaning Signature Timestamp Cache
+[2023-10-09 22:58:32 -0400]    - Finished in 0.008 seconds
+[2023-10-09 22:58:32 -0400]    - Finished in 0.013 seconds
+[2023-10-09 22:58:32 -0400]   Processing: Cleaning SpamAssassin DBM files
+[2023-10-09 22:58:32 -0400]    - Processing command `/usr/local/cpanel/scripts/spamassassin_dbm_cleaner`
+[2023-10-09 22:58:33 -0400]      [/usr/local/cpanel/scripts/spamassassin_dbm_cleaner] /usr/local/cpanel/scripts/spamassassin_dbm_cleaner: version 1.0
+[2023-10-09 22:58:37 -0400]      [/usr/local/cpanel/scripts/spamassassin_dbm_cleaner] Checking SpamAssassin dbm databases....Done
+[2023-10-09 22:58:37 -0400]      [/usr/local/cpanel/scripts/spamassassin_dbm_cleaner] Checked 48 files for 59 user(s), 48 ok, 0 broken
+[2023-10-09 22:58:37 -0400]    - Finished command `/usr/local/cpanel/scripts/spamassassin_dbm_cleaner` in 4.848 seconds
+[2023-10-09 22:58:37 -0400]   Processing: Cleaning Roundcube attachment directory
+=> Log closed Mon Oct  9 22:58:37 2023
+[2023-10-09 22:58:37 -0400]    - Finished in 0.606 seconds
+[2023-10-09 22:58:37 -0400]   Processing: Checking for new security advice
+[2023-10-09 22:58:37 -0400]    - Processing command `/usr/local/cpanel/scripts/check_security_advice_changes --notify --background`
+[2023-10-09 22:58:38 -0400]    - Finished command `/usr/local/cpanel/scripts/check_security_advice_changes --notify --background` in 1.049 seconds
+[2023-10-09 22:58:38 -0400]   Processing: Running former postinstall scripts
+[2023-10-09 22:58:38 -0400]    - Processing command `/usr/local/cpanel/bin/dcpumon --killproc`
+[2023-10-09 22:58:39 -0400]      [/usr/local/cpanel/bin/dcpumon] Added Contact jiharry@hotmail.com,harry@superesolutions.com,superesolutions@gmail.com
+[2023-10-09 22:58:39 -0400]    - Finished command `/usr/local/cpanel/bin/dcpumon --killproc` in 0.387 seconds
+[2023-10-09 22:58:39 -0400]    - Processing command `/usr/local/cpanel/bin/setupdbmap`
+[2023-10-09 22:58:39 -0400]    - Finished command `/usr/local/cpanel/bin/setupdbmap` in 0.119 seconds
+[2023-10-09 22:58:39 -0400]    - Processing command `/usr/local/cpanel/bin/fix_userdata_perms`
+[2023-10-09 22:58:39 -0400]    - Finished command `/usr/local/cpanel/bin/fix_userdata_perms` in 0.346 seconds
+[2023-10-09 22:58:39 -0400]    - Processing command `/usr/local/cpanel/scripts/detect_env_capabilities`
+[2023-10-09 22:58:39 -0400]    - Finished command `/usr/local/cpanel/scripts/detect_env_capabilities` in 0.219 seconds
+[2023-10-09 22:58:39 -0400]   Processing: Updating cPGreyList Common Mail Providers
+[2023-10-09 22:58:39 -0400]    - Processing command `/usr/local/cpanel/scripts/manage_greylisting --init --update_common_mail_providers`
+[2023-10-09 22:58:41 -0400]      [/usr/local/cpanel/scripts/manage_greylisting] [*] Initializing database for the cPanel Greylist service.
+[2023-10-09 22:58:41 -0400]      [/usr/local/cpanel/scripts/manage_greylisting] [+] Initializing database successfully completed.
+[2023-10-09 22:58:41 -0400]      [/usr/local/cpanel/scripts/manage_greylisting] [!] Greylisting is disabled. Skipping common mail providers update.
+[2023-10-09 22:58:41 -0400]    - Finished command `/usr/local/cpanel/scripts/manage_greylisting --init --update_common_mail_providers` in 1.310 seconds
+[2023-10-09 22:58:41 -0400]   Processing: Checking for deprecated PHP local.ini
+[2023-10-09 22:58:41 -0400]    - Processing command `/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini --run --verbose`
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php54 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php55 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php56 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php70 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php71 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php72 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php73 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php74 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php80 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] Processing ea-php81 …
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini] 	No local.ini.
+[2023-10-09 22:58:42 -0400]      [/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini]  … done!
+[2023-10-09 22:58:42 -0400]    - Finished command `/usr/local/cpanel/scripts/migrate_local_ini_to_php_ini --run --verbose` in 1.152 seconds
+[2023-10-09 22:58:42 -0400]   Processing: Ensuring an "Active" MySQL profile is set
+[2023-10-09 22:58:42 -0400]    - Finished in 0.213 seconds
+[2023-10-09 22:58:42 -0400]    - Processing command `/usr/local/cpanel/scripts/check_mysql`
+[2023-10-09 22:58:44 -0400]      [/usr/local/cpanel/scripts/check_mysql] “check_mysql” will complete in the background (process ID 30824).
+[2023-10-09 22:58:44 -0400]    - Finished command `/usr/local/cpanel/scripts/check_mysql` in 1.503 seconds
+[2023-10-09 22:58:44 -0400]   Processing: Checking CloudLinux installation
+[2023-10-09 22:58:44 -0400]    - Processing command `/usr/local/cpanel/bin/cloudlinux_update`
+[2023-10-09 22:58:45 -0400]    - Finished command `/usr/local/cpanel/bin/cloudlinux_update` in 1.107 seconds
+[2023-10-09 22:58:45 -0400]   Processing: Updating plugins data cache
+[2023-10-09 22:58:45 -0400]    - Processing command `/usr/local/cpanel/bin/refresh_plugin_cache`
+[2023-10-09 22:58:45 -0400]    - Finished command `/usr/local/cpanel/bin/refresh_plugin_cache` in 0.398 seconds
+[2023-10-09 22:58:45 -0400]   Processing: Ensuring SSL certificate information for CCS is up to date.
+[2023-10-09 22:58:45 -0400]    - Processing command `/usr/local/cpanel/scripts/ccs-check --run --ssl`
+[2023-10-09 22:58:45 -0400]    - Finished command `/usr/local/cpanel/scripts/ccs-check --run --ssl` in 0.093 seconds
+[2023-10-09 22:58:45 -0400]   Processing: Ensure cpanel-plugins yum repo exists
+[2023-10-09 22:58:46 -0400]    - Finished in 0.383 seconds
+[2023-10-09 22:58:46 -0400]   Processing: Checking Addon Licenses
+[2023-10-09 22:58:46 -0400]    - Finished in 0.041 seconds
+[2023-10-09 22:58:46 -0400]   Processing: Updating Public Suffix List
+[2023-10-09 22:58:46 -0400]   Processing: Checking End Of Life for current version.
+[2023-10-09 22:58:47 -0400]    - Finished in 1.435 seconds
+[2023-10-09 22:58:47 -0400]   Processing: 
+[2023-10-09 22:58:47 -0400] Maintenance complete.
+=> Log closed Mon Oct  9 22:58:47 2023
+----------------------------------------------------------------------------------------------------
+=> Log opened from cPanel Update (upcp) - Slave (29402) at Mon Oct  9 22:58:47 2023

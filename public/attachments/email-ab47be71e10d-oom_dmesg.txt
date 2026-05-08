@@ -1,0 +1,164 @@
+[11226168.773895] lfd - (child) c invoked oom-killer: gfp_mask=0x201da, order=0, oom_score_adj=0
+[11226168.773925] lfd - (child) c cpuset=/ mems_allowed=0
+[11226168.773934] CPU: 0 PID: 6327 Comm: lfd - (child) c Kdump: loaded Tainted: G           OE  ------------   3.10.0-1160.90.1.el7.x86_64 #1
+[11226168.773939] Hardware name: Supermicro X6DVL/X6DVL, BIOS 080010  01/19/2007
+[11226168.773962] Call Trace:
+[11226168.774018]  [<ffffffff8bbb1bec>] dump_stack+0x19/0x1f
+[11226168.774117]  [<ffffffff8bbacb4f>] dump_header+0x90/0x22d
+[11226168.774130]  [<ffffffff8b50d482>] ? ktime_get_ts64+0x52/0xf0
+[11226168.774180]  [<ffffffff8b5668ef>] ? delayacct_end+0x8f/0xc0
+[11226168.774218]  [<ffffffff8b5cd335>] oom_kill_process+0x2d5/0x4a0
+[11226168.774244]  [<ffffffff8b5cccfd>] ? oom_unkillable_task+0xcd/0x120
+[11226168.774285]  [<ffffffff8b5cda3a>] out_of_memory+0x31a/0x500
+[11226168.774351]  [<ffffffff8b5d4844>] __alloc_pages_nodemask+0xae4/0xbf0
+[11226168.774474]  [<ffffffff8b6259d8>] alloc_pages_current+0x98/0x110
+[11226168.774509]  [<ffffffff8b5c8c57>] __page_cache_alloc+0x97/0xb0
+[11226168.774540]  [<ffffffff8b5cbce0>] filemap_fault+0x270/0x420
+[11226168.774719]  [<ffffffffc0130a06>] ext4_filemap_fault+0x36/0x50 [ext4]
+[11226168.774752]  [<ffffffff8b5fa15a>] __do_fault.isra.61+0x8a/0x100
+[11226168.774796]  [<ffffffff8b5fa70c>] do_read_fault.isra.63+0x4c/0x1b0
+[11226168.774852]  [<ffffffff8b602113>] handle_mm_fault+0xa33/0x1190
+[11226168.774943]  [<ffffffff8bbbf7d3>] __do_page_fault+0x213/0x510
+[11226168.774982]  [<ffffffff8bbbfb05>] do_page_fault+0x35/0x90
+[11226168.775042]  [<ffffffff8bbbb7b8>] page_fault+0x28/0x30
+[11226168.775107] Mem-Info:
+[11226168.775138] active_anon:679698 inactive_anon:202996 isolated_anon:0
+ active_file:139 inactive_file:215 isolated_file:0
+ unevictable:0 dirty:0 writeback:0 unstable:0
+ slab_reclaimable:25362 slab_unreclaimable:13267
+ mapped:1717 shmem:5741 pagetables:9033 bounce:0
+ free:21076 free_pcp:455 free_cma:0
+[11226168.775166] Node 0 DMA free:15332kB min:276kB low:344kB high:412kB active_anon:4kB inactive_anon:444kB active_file:0kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15980kB managed:15896kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:48kB slab_unreclaimable:36kB kernel_stack:0kB pagetables:0kB unstable:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? yes
+[11226168.775198] lowmem_reserve[]: 0 3324 3770 3770
+[11226168.775207] Node 0 DMA32 free:61040kB min:59336kB low:74168kB high:89004kB active_anon:2537244kB inactive_anon:629964kB active_file:636kB inactive_file:760kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:3653440kB managed:3406792kB mlocked:0kB dirty:0kB writeback:0kB mapped:6968kB shmem:21860kB slab_reclaimable:85028kB slab_unreclaimable:37576kB kernel_stack:5440kB pagetables:29400kB unstable:0kB bounce:0kB free_pcp:984kB local_pcp:116kB free_cma:0kB writeback_tmp:0kB pages_scanned:2095 all_unreclaimable? yes
+[11226168.775238] lowmem_reserve[]: 0 0 446 446
+[11226168.775263] Node 0 Normal free:7932kB min:7968kB low:9960kB high:11952kB active_anon:181544kB inactive_anon:181576kB active_file:0kB inactive_file:100kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:524288kB managed:457228kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:1104kB slab_reclaimable:16372kB slab_unreclaimable:15456kB kernel_stack:1344kB pagetables:6732kB unstable:0kB bounce:0kB free_pcp:836kB local_pcp:120kB free_cma:0kB writeback_tmp:0kB pages_scanned:437 all_unreclaimable? yes
+[11226168.775297] lowmem_reserve[]: 0 0 0 0
+[11226168.775322] Node 0 DMA: 3*4kB (UM) 3*8kB (UM) 6*16kB (UEM) 3*32kB (UEM) 0*64kB 2*128kB (UE) 2*256kB (UE) 2*512kB (EM) 3*1024kB (UEM) 1*2048kB (E) 2*4096kB (M) = 15332kB
+[11226168.775387] Node 0 DMA32: 508*4kB (UEM) 625*8kB (UEM) 883*16kB (UEM) 486*32kB (UEM) 218*64kB (UEM) 54*128kB (UE) 12*256kB (UEM) 1*512kB (E) 0*1024kB 0*2048kB 0*4096kB = 61160kB
+[11226168.775453] Node 0 Normal: 60*4kB (UEM) 143*8kB (UEM) 58*16kB (UEM) 32*32kB (UEM) 20*64kB (UEM) 6*128kB (EM) 0*256kB 2*512kB (EM) 1*1024kB (M) 0*2048kB 0*4096kB = 7432kB
+[11226168.775520] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[11226168.775525] 22942 total pagecache pages
+[11226168.775548] 16584 pages in swap cache
+[11226168.775553] Swap cache stats: add 295233419, delete 295212052, find 11849820926/11942613552
+[11226168.775556] Free swap  = 0kB
+[11226168.775576] Total swap = 1953120kB
+[11226168.775580] 1048427 pages RAM
+[11226168.775583] 0 pages HighMem/MovableOnly
+[11226168.775586] 78448 pages reserved
+[11226168.775606] [ pid ]   uid  tgid total_vm      rss nr_ptes swapents oom_score_adj name
+[11226168.775652] [  376]     0   376     9869      738      24       69             0 systemd-journal
+[11226168.775679] [  403]     0   403    11339        2      23      122         -1000 systemd-udevd
+[11226168.775703] [  409]     0   409    29161        0      28       77             0 lvmetad
+[11226168.775713] [  526]     0   526    38194       10      30      127             0 pure-authd
+[11226168.775737] [  529]   997   529   153060      104      61     1549             0 polkitd
+[11226168.775743] [  532]     0   532     6139       38      16       54             0 systemd-logind
+[11226168.775766] [  534]     0   534    13213        8      29      196             0 smartd
+[11226168.775772] [  539]     0   539     5385       20      15       40             0 irqbalance
+[11226168.775779] [  548]    28   548   502086      335      85      231             0 nscd
+[11226168.775803] [  552]    81   552    14599      122      34       97          -900 dbus-daemon
+[11226168.775811] [  589]    38   589     6409       39      17      109             0 ntpd
+[11226168.775839] [  599]     0   599    48801        0      37      129             0 gssproxy
+[11226168.775863] [  629]     0   629     6052        1      17       48             0 atd
+[11226168.775870] [  643]     0   643    27073        1       9       25             0 agetty
+[11226168.775895] [ 1072]     0  1072    38350       20      28      168             0 pure-ftpd
+[11226168.775902] [ 1078]     0  1078   101483      687      89     1006             0 rsyslogd
+[11226168.775925] [ 1089]     0  1089    63928     1176      80     4212             0 cpsrvd (SSL) - 
+[11226168.775933] [ 1611]     0  1611    41862      196      39      147             0 dnsadmin - dorm
+[11226168.775956] [ 1617]     0  1617    65723     4632      85        5             0 cpdavd - accept
+[11226168.775962] [ 1618]     0  1618    47542      864      51     1379             0 cPhulkd - proce
+[11226168.775969] [ 1639]     0  1639    50100      116      30      182             0 axond
+[11226168.775993] [ 2103]     0  2103    53323    15731     105    12640             0 puppetd
+[11226168.776000] [30722]     0 30722    45710        0      46      242             0 crond
+[11226168.776058] [30724]     0 30724    45710        0      46      244             0 crond
+[11226168.776082] [ 2041]     0  2041    45710        0      45      241             0 crond
+[11226168.776089] [  680]     0   680    52623     2258      59     2467             0 tailwatchd
+[11226168.776096] [ 3899]     0  3899    13199       47      29      126             0 dovecot
+[11226168.776120] [ 3903]    97  3903     2578       32      10       24             0 anvil
+[11226168.776127] [11455]     0 11455    45764        0      46      244             0 crond
+[11226168.776150] [ 4733]     0  4733    45710        0      47      242             0 crond
+[11226168.776156] [31107]     0 31107    45710        0      45      241             0 crond
+[11226168.776180] [10646]     0 10646   143094      106      97     2745             0 tuned
+[11226168.776186] [24444]     0 24444    45709        0      47      241             0 crond
+[11226168.776210] [18463]     0 18463    45710        1      46      240             0 crond
+[11226168.776216] [ 4200]     0  4200    45711        0      47      243             0 crond
+[11226168.776223] [18619]    25 18619   121326     1572     109    33463             0 named
+[11226168.776245] [22569]     0 22569    45710        1      47      240             0 crond
+[11226168.776251] [17264]     0 17264    45709        1      45      240             0 crond
+[11226168.776275] [32201]     0 32201    56172      774      66     2180             0 queueprocd - wa
+[11226168.776281] [  610]     0   610    32602      162      16      132             0 cpanellogd - wa
+[11226168.776305] [  613]     0   613    74428      124      78     1133             0 cpanel_php_fpm
+[11226168.776311] [  625]     0   625    38250      956      32     1137             0 cPhulkd - dbpro
+[11226168.776318] [ 1477]    47  1477    22215       41      45     1806             0 exim
+[11226168.776341] [24111]     0 24111    28120       26      57      229         -1000 sshd
+[11226168.776348] [24137]    26 24137    99247       18      71      337         -1000 postmaster
+[11226168.776371] [24140]    26 24140    62547        2      58      347             0 postmaster
+[11226168.776378] [24142]    26 24142    99276       24      64      348             0 postmaster
+[11226168.776401] [24143]    26 24143    99247       22      64      340             0 postmaster
+[11226168.776407] [24144]    26 24144    99247       20      63      339             0 postmaster
+[11226168.776431] [24145]    26 24145    99384       75      65      374             0 postmaster
+[11226168.776439] [24146]    26 24146    62895       28      58      327             0 postmaster
+[11226168.776445] [24147]    26 24147    99356       52      63      379             0 postmaster
+[11226168.776473] [ 8171]     0  8171    65327      743     129    29525             0 spamd
+[11226168.776498] [  851]   995   851   680236    41945     925   280576             0 mariadbd
+[11226168.776505] [12414]     0 12414    83265     3075     164    21809             0 httpd
+[11226168.776528] [12645]     0 12645    69347       21     119     1264             0 php-fpm
+[11226168.776534] [14184]     0 14184    31649       38      20      129             0 crond
+[11226168.776541] [20107]   996 20107    12036      219      29      273             0 pop3-login
+[11226168.776564] [20108]   996 20108    12689      525      29      555             0 imap-login
+[11226168.776571] [20109]     0 20109     2611       57      11       45             0 log
+[11226168.776594] [20110]   996 20110    11935      218      29      202             0 pop3-login
+[11226168.776600] [20111]   996 20111    12677      514      29      552             0 imap-login
+[11226168.776623] [20112]     0 20112     5986      453      16     2021             0 config
+[11226168.776630] [20113]    97 20113     3445       94      12       59             0 stats
+[11226168.776636] [20118]    97 20118    10373      191      26       81             0 auth
+[11226168.776684] [20137]     0 20137     3215       55      11       29             0 splitlogs
+[11226168.776709] [20138]     0 20138     3232       72      11       31             0 splitlogs
+[11226168.776716] [20142]    99 20142    83265     2261     158    21830             0 httpd
+[11226168.776739] [20143]     0 20143    13313        0      32     2369             0 leechprotect
+[11226168.776746] [20144]    99 20144   621938    10891     616    26285             0 httpd
+[11226168.776752] [20259]    99 20259   624704    14796     774    37195             0 httpd
+[11226168.776775] [20542]  1055 20542    11318      539      26       61             0 imap
+[11226168.776782] [20698]    97 20698     2581       39      11       30             0 imap-hibernate
+[11226168.776805] [21486]  1055 21486    10457      319      25      151             0 imap
+[11226168.776811] [21548]  1055 21548     9648      248      24       59             0 imap
+[11226168.776834] [21612]  1055 21612    11992      603      27      221             0 imap
+[11226168.776840] [21684]  1055 21684     9827      201      22      155             0 imap
+[11226168.776846] [21729]  1055 21729     9678      222      24      100             0 imap
+[11226168.776871] [24962]     0 24962    43645     1882      43     4868             0 lfd - sleeping
+[11226168.776878] [13333]     0 13333    80824    32991     160     9265             0 spamd child
+[11226168.776901] [22639]     0 22639    69826    23348     137    10193             0 spamd child
+[11226168.776908] [29631]    99 29631   619879     8797     249    19806             0 httpd
+[11226168.776933] [ 2089]  1042  2089     9695      335      23        0             0 imap
+[11226168.776941] [ 2091]  1042  2091     9617      262      22        0             0 imap
+[11226168.776964] [ 2447]  1042  2447     9457      162      23        0             0 imap
+[11226168.776971] [ 2849]  1048  2849     9610      236      23        0             0 imap
+[11226168.776994] [ 2850]  1048  2850     9588      196      24        0             0 imap
+[11226168.777000] [ 2863]     0  2863    50782     8320      55       40             0 cpanellogd - wa
+[11226168.777037] [ 5281]  1025  5281    50782     8320      50       39             0 cpanellogd - ht
+[11226168.777061] [ 5286]  1025  5286     1089       25       7        0             0 logrunner
+[11226168.777070] [ 5287]  1025  5287   350675   348577     690       62             0 analog
+[11226168.777094] [ 5834]     0  5834   407169   344579     745        7             0 clamd
+[11226168.777101] [ 6248]    47  6248    22307      552      44     1334             0 exim
+[11226168.777125] [ 6291]     0  6291    21068      689      42        0             0 exim
+[11226168.777131] [ 6293]  1008  6293    49151      513      81        0             0 php-cgi
+[11226168.777155] [ 6302]     0  6302    47575     1461      46      996             0 cPhulkd - proce
+[11226168.777162] [ 6303]     0  6303    47575     1461      46      996             0 cPhulkd - proce
+[11226168.777185] [ 6304]  1050  6304    76969      590      83        0             0 php-cgi
+[11226168.777193] [ 6305]     0  6305    43645     2592      39     4158             0 lfd - (child) c
+[11226168.777218] [ 6306]     0  6306    43645     2584      39     4166             0 lfd - (child) c
+[11226168.777225] [ 6307]     0  6307    47542     1203      46     1157             0 /usr/local/cpan
+[11226168.777251] [ 6308]     0  6308    47542     1203      46     1157             0 /usr/local/cpan
+[11226168.777259] [ 6311]  1033  6311     9616      216      23        0             0 imap
+[11226168.777283] [ 6317]  1033  6317     9621      270      25        0             0 imap
+[11226168.777290] [ 6318]     0  6318    21074      703      40        0             0 exim
+[11226168.777315] [ 6320]     0  6320    43645     2608      39     4142             0 lfd - (child) c
+[11226168.777321] [ 6321]     0  6321    43645     2576      39     4174             0 lfd - (child) c
+[11226168.777345] [ 6323]     0  6323    43645     2209      39     4541             0 lfd - (child) c
+[11226168.777352] [ 6324]     0  6324    43645     2196      39     4554             0 lfd - (child) c
+[11226168.777375] [ 6325]     0  6325    43645     2214      39     4536             0 lfd - (child) c
+[11226168.777381] [ 6326]     0  6326    43645     2260      39     4490             0 lfd - (child) c
+[11226168.777387] [ 6327]     0  6327    43645     2245      39     4505             0 lfd - (child) c
+[11226168.777413] [ 6328]     0  6328    43645     2396      39     4354             0 lfd - (child) c
+[11226168.777437] Out of memory: Kill process 5287 (analog) score 239 or sacrifice child
+[11226168.777860] Killed process 5287 (analog), UID 1025, total-vm:1402700kB, anon-rss:1394308kB, file-rss:0kB, shmem-rss:0kB

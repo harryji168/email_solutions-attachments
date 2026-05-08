@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260909T200950Z
+DTEND:20260910T200950Z
+DTSTAMP:20260306T181012Z
+ORGANIZER;CN=Lia Russell:mailto:lia.russell712@bestchooseedu.win
+UID:duj5tu3hcr84l2i10o8r03n6c0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260306T180951Z
+DESCRIPTION:PayPal Helpdesk\n\nOrder Id: #567890\nTransaction Date: 03-06-2
+ 026\n\nHelpdesk: +1 (812) 262-0870\n\n\nDear \,\nThank you for your recent 
+ transaction.\nWe appreciate your payment via PayPal On 03-06-2026\, for you
+ r recent transaction\, order. We would like to inform you that\nUS$699.00 h
+ as been deducted from your payment method using your email address. This ch
+ arge will\nappear on your account statement within 24 hours.\n\nPayment Inf
+ ormation\n\nYou've bought: 0.0096 BTC\nMerchant Information\nBTC Value: USD
+ $699.00\n\nDigital Currency.\,\n\nTransaction Fee: 0.00\nYour Invoice: #567
+ 890\nTotal: USD$699.00\n\n\nNeed Assistance?\nPlease contact us if there ar
+ e any concerns regarding this transaction to review or discuss this transac
+ tion. Call\nthe our support line below to reach PayPal Support.\n\nContact 
+ Support at: +1 (812) 262-0870 (tollfree)\n\nCopyright 1999-2026\n\n\nYou ar
+ e receiving this transactional email because your have recently made a tran
+ saction on your account linked with this email\naddress.\nKeep this e-mail 
+ safe for future reference.\nThis is an automated email\; replies are not mo
+ nitored.
+LAST-MODIFIED:20260306T180953Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Transaction complete: Your BTC order summary
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

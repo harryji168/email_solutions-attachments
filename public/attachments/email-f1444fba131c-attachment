@@ -1,0 +1,47 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1776627075; x=1777231875; darn=wanadoo.fr;
+        h=mime-version:subject:to:from:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=UeU1OLmJpLFxH1zTnvDj3zUR14CdpVOuXha5GmFYtIU=;
+        b=ZaAIHp2rz1pUCtMwiSC0uhe8laGdy0BpV4fXKJ5nD52fJXwU30ZwFMnCXWAtRH0zLC
+         4YIFraFkKMLfmUHK0F4+SRvWQ329DRCxY1EhN+NtpxvX4tcOHh3SX2J7148QAiIl9t/8
+         PDW5gpzmzoBiFng1KW85JALZPre/AygjhcW8SjT6YVjDH2DJAVosHd2f3Cbc029STs/Q
+         fS2WqgScuZDMg+q9+LPtdPbEbnDExPs4aRoctQN9rgMQB+yQLeeirMxeEgY7SNWBvhLw
+         SajSH6XkH5aQ+vVTCqOedQZWcDmzN4Z9RoOPIVamQzYSsn5JcJkpufnlp1/BpsVJbe74
+         oYyg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1776627075; x=1777231875;
+        h=mime-version:subject:to:from:date:message-id:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=UeU1OLmJpLFxH1zTnvDj3zUR14CdpVOuXha5GmFYtIU=;
+        b=daarlHFs+TojlSUlrw9hhyufET4o3suu8shazaSceWPMuBqfhkMWwi0acH30SiekFL
+         18Fx3Yy9C4Qv+VEkEBEA9GwIjBYhy2fRQRYIRyut2fYaD/kGsgxuYs3JoQX7BYFXE/c4
+         U1WqM3aw0mOT12GEHGFKt52Af958FKECPcAlq81SDEXc+BUH+g/awgZqSJYkmChhr5E/
+         WJwo2rgwgsObWvVkfLHSuUJp23ERj/Dt4AVlsu2eEil9NUEH8Ceu3cW9b8+rU1NxHaE2
+         huCINUbYYVaK6Od8BbUMnu4dFkAqP/Ldrp/ac2hOVpipXTPbKi2NnuZwquZmz/ao/TqT
+         1NrA==
+X-Gm-Message-State: AOJu0YxdBwl71ECMSKztbq4ggEV60RSIoN9LIP0aLOjzhU7Nbcp6noM2
+	pH8tc0XSjEDqK38MBLf+9eG0X9QO+x9Sskdu/ukdl/YU8GSsWgaSFMCMLqgAJErgpJbI9g==
+X-Gm-Gg: AeBDiesoFmUw4Ldp253S4krcI5QBq/eBL+oxwIlgxmpXIS2Mkh2EiW7Q8SZC2VO+K7R
+	826yP/8K+8Fmwwa+4p767OEh2sj5fTYKrk8Kew9pgwaox+IczFLR9rlo5C7t0z7fXby03kB1RNP
+	5SqSlUYnlfquUwcJcfczAZmNfm8SG3VjjDGQrjJVLk6Ew1MqW9bAQSU6jC78RuAfAcMi6y8KaFF
+	+Hq7SN364yznMLnmgz1U87sVjqBjJt1tW6MtLtMeK+mH/RUokIg0q5JvT9mUhMrovo8s5bmI84F
+	dGQLkVnys3/XBauyEK735K8Oey5oCwdQAY7gx4/vTjsI2JK8ZMZJxcgxIXBlnLK4eQrBrJoJ72G
+	f4OH7rrK34JV13KvveZi5ncY4633EKH7paGRctlQhwjOZG9ir5vbMzoCCE7KEtFPmCT1D6dWiJo
+	wZHurTkuiw5zzjl2MMgz+Yud4q24RB97l/0uLtPg==
+X-Received: by 2002:a17:907:6d2a:b0:ba7:9cf3:449a with SMTP id a640c23a62f3a-ba79cf34e1amr52087166b.31.1776627075060;
+        Sun, 19 Apr 2026 12:31:15 -0700 (PDT)
+Return-Path: <superesolutions@gmail.com>
+Received: from localhost ([93.123.109.247])
+        by smtp.gmail.com with UTF8SMTPSA id a640c23a62f3a-ba455045652sm276329266b.51.2026.04.19.12.31.13
+        for <abdelmadjid.meliani@wanadoo.fr>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 19 Apr 2026 12:31:13 -0700 (PDT)
+Message-ID: <69e52d81.170a0220.26cbb.883f@mx.google.com>
+Date: Sun, 19 Apr 2026 12:31:13 -0700 (PDT)
+From: =?UTF-8?B?U0cgLSBTw6ljdXJpdMOp?= <superesolutions@gmail.com>
+To: abdelmadjid.meliani@wanadoo.fr
+Subject: =?UTF-8?B?VsOpcmlmaWNhdGlvbiBkZSB0cmFuc2FjdGlvbiBlbiBjb3VycyAtIFNvY2nDqXTDqSBHw6luw6lyYWxl?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="053d5674b761126b634a9dc133f944b56caf424366d506a0d190cbdc2908"
+

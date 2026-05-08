@@ -1,0 +1,13 @@
+Reporting-MTA: dns; server1.supere.tech
+
+Action: failed
+Final-Recipient: rfc822;landp0201@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.25 [209.188.7.162] The IP address sending this message does not have a
+ 550-5.7.25 PTR record setup, or the corresponding forward DNS entry does not
+ 550-5.7.25 match the sending IP. As a policy, Gmail does not accept messages
+ 550-5.7.25 from IPs with missing PTR records. For more information, go to
+ 550-5.7.25  https://support.google.com/a?p=sender-guidelines-ip
+ 550-5.7.25 To learn more about Gmail requirements for bulk senders, visit
+ 550 5.7.25  https://support.google.com/a?p=sender-guidelines. 5a478bee46e88-2be079d0534si30954385eec.44 - gsmtp

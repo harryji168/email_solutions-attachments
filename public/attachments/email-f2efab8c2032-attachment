@@ -1,0 +1,1449 @@
+<!doctype html>
+<html ⚡4email data-css-strict lang=en>
+<head>
+<meta charset=utf-8>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<style amp4email-boilerplate>
+body {
+visibility: hidden
+}
+</style>
+<script async custom-element=amp-carousel src=https://cdn.ampproject.org/v0/amp-carousel-0.1.js></script>
+<script async custom-element=amp-accordion src=https://cdn.ampproject.org/v0/amp-accordion-0.1.js></script>
+<script async custom-element=amp-bind src=https://cdn.ampproject.org/v0/amp-bind-0.1.js></script>
+<style amp-custom>
+* {
+margin: 0px;
+padding: 0px;
+}
+.show{display: block;}
+.hide{display: none;}
+.amp-carousel-button{display: none;}
+.carotracking_1 {
+background-image: url('https://c.gle/ANiao5qUiQFLX-0ijVygGiZTvhYaQiPlVFSTxxRLxHzf5tkh6YyGMBIEZX9m9AvOWaQlfzoXpJORIzleqJdOQs5hVJF373dsmXgtWaXSgTwja-8YWH2GAECJZcLnEQxcuHTCRcl6Nnl-VbhJh0DXF0DNLGAAvLePjV_E9JGliiMePj_8iieOZ1xp');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_2 {
+background-image: url('https://c.gle/ANiao5r9Mgh-w_8SUAtyNrfKgfZnIy7taKXIticB6XsjZmBih00qGSRa1LKqn6igKLCGGtP-Zd_GBFhyv0RixjJxn4di4Mj8alcntZcGtXQ83DCLbWXZVHj08UQDbQbm3FrEu5HriD7b1mNZfZA55Os7te6d4NjgapgnUnvOfi3DDa9YwUh8Xs4');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_3 {
+background-image: url('https://c.gle/ANiao5pfIQsKr-yEZSlX8-8CWwm3Un1n2qVDxw3YLZ_B45qfvZPy6Ey92qoUlj52dCvh5mlNIl5WOYAqPKyRHiQ9D4m3Menf5BibibhEvduTz8JgIrVRCFlfgXeRMT0HONLj7W1LnwZDP42i0SQU3w304IznnnxaiqjODMIHbyXxVBBizQA3rkEn');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_4 {
+background-image: url('https://c.gle/ANiao5qzni7eN8wBhlRSAHfZsRONMEml5Wa0ACyOOjvuyRV1B_J5da_45Amx35I2KNwGJTqy3aVKaE9HlLWKgbaJ4jlThXvWfSEUzq77VnHyKEwBMizBcxvsjj4F4pSb4MYUIr3276bfr8wlYmdrRh9HyjrqCOTsXGqqoBqJfegx7kGZnYzH6ik');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_5 {
+background-image: url('https://c.gle/ANiao5p4Y5wT3BSsooxsFbl0v2cC2tJGLWos3EETZIgwmZZkdEYOaMmlxRTbo2xXnzAnhC1Xya14Lz2nKvyUgOV9jBRPYURvFwMHS1zpZxHta3pWaxJ7hNxSh0_-THpyXcGaHIyAI-J8nuEkLu6OJMF6KDHm98r_IDoiQ-yYpdgtNBX-FPtxW8sE');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_6 {
+background-image: url('https://c.gle/ANiao5qKTTb-lq_Ih9d0RQEZf6gVYBOiIAh9cA3sIPHLTEWNzpnQiEjSZ1APHWKg5dwQlTfTxgvG-79Pf35smR76cR_e8f6Ox6gxnG9XIKiGDnmYI0gGpi_sRLdlicAu2d9s_O2REppQcHStyMoHBcH_3k-2-QboaVUkwrPLFQx70m5JPTeXToA');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_7 {
+background-image: url('https://c.gle/ANiao5ozfqs-LdW7ApX1CF62hJ2x6jQ5pRTcLEXq4yVIjeII6joJIGW18D8BiEhfL6HYnk4C_aNjZDRaEayos8J5wy3g4rY4N5Xf5Sj-dUjXV1wSR40908_GGMGQBtnyNpSkIpkJ02WiJ8oLWsdml3qQyS0iWrZXp-hq1lI-0D63nlQFJV-hKAif');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_8 {
+background-image: url('https://c.gle/ANiao5pM-VIEN50bghQZRqkHq2DIzHGiOWfOqc40yM2NArpp4IMTs9sAY-ZevnqyIT580xjiJvE1aqQt1EoNNhVCtlCzwadMuOdkXmyQbAcjJ6p-JHE2MPTeau6DXMd8rUltAq997W7AYMq43jkmCBdqBolwmDrxM4HMBIpLfYfgUKt4u6wkE9g');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.carotracking_9 {
+background-image: url('https://c.gle/ANiao5ojLpsVua4RJgZBFb6NtVTbjQdo2_IKxEEMTWQw1g7UPTbc4JKQmQO5Hb8cRDNb4eKzW5YVvYfq5Z62RYvdV5Y8et3fFUaXtL2NV8XSqTQ4MQR9oRI52fH5i_h7N3HK5bd6zWQBJdq6SnoRwp9NwW5s8ZyEVfuX15GK0pZglXXmLk14-HM');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.accordiontrack{
+background-image: url('https://c.gle/ANiao5oHmcknJKAdMfeKX0zvnQElGSZcpEGEjWq56bY2EVnJXJVm8z31ruW6p1aRyKWnUf3cSZp-YaGOH02MWXNzqB8iiZVQOpiiUqDqbTP-kwJfVjDJ_-8UNcOkfixwylNYt78d6cX9p8xsngCzsQ8R1h7-HvOrkYH6I-k-Fpa_7HsNYH0GQL4N');
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.amp-carousel-button:focus {
+border: none;
+outline: none;
+}
+.amp-carousel-button-prev {
+background-image: url(https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png);
+background-size: 32px 32px;
+left: 14px;
+outline: none;
+background-color: transparent;
+cursor: pointer;
+}
+.amp-carousel-button-next {
+background-image: url(https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png);
+background-size: 32px 32px;
+right: 14px;
+outline: none;
+background-color: transparent;
+cursor: pointer;
+}
+.old {
+background-color: #E2E2E2;
+cursor: pointer;
+}
+.current {
+background-color: #1A73E8;
+}
+.old1 {
+background-color: #F1F3F4;
+cursor: pointer;
+}
+.current1 {
+background-color: #1A73E8;
+}
+.click-trigger {
+background-color: #F8F9FA;
+height: 40px;
+cursor: pointer;
+}
+.triggerhead {
+border: 0px;
+background-color: transparent;
+}
+.down-arrow-round {
+position: relative;
+top: 18px;
+}
+.desk-padding {
+padding-top: 10px;
+}
+.hidenew2{
+display: none;
+}
+.shownew2{
+display: block;
+}
+@media only screen and (min-width:850px){
+.w700{width: 800px;}
+}
+@media only screen and (max-width:799px){
+.w700{width: 780px;}
+}
+@media only screen and (max-width:749px){
+.w700{width: 641px;}
+}
+@media only screen and (min-width: 640px) {
+.pd-b-28{padding-bottom: 28px;}
+.main-container-bg {
+background-image: url('https://www.gstatic.com/growthlab/api/WYFk0wO2Hw10sCtEY9vZGyYXlOXwHDpXpHVrJgyN.png');
+background-repeat: no-repeat;
+background-position: -40px 485px;
+background-size: 35%;
+}
+.pre-head-background {
+background-image: url('https://www.gstatic.com/growthlab/api/WYFk0wO2Hw10sCtEY9vZGyYXlOXwHDpXpHVrJgyN.png');
+background-repeat: no-repeat;
+background-position: 97% 60px;
+background-size: 35%;
+}
+.pre-head-background-new {
+background-image: url('https://www.gstatic.com/growthlab/api/WYFk0wO2Hw10sCtEY9vZGyYXlOXwHDpXpHVrJgyN.png');
+background-repeat: no-repeat;
+background-position: 97% 0px;
+background-size: 35%;
+}
+.learning_cta{padding:12px 36px;}
+.headings{
+font-size: 36px;
+line-height: 44px;
+}
+#slide_tips {
+width: 600px;
+height: 251px;
+}
+.common-slides {
+background-color: #F8F9FA;
+border: 1px solid #E8EAED;
+border-radius: 8px;
+height: 231px;
+}
+#slide_tips2{
+height: 285px;
+}
+.common-slides2 {
+background-color: #F8F9FA;
+border: 1px solid #E8EAED;
+border-radius: 8px;
+height: 265px;
+}
+.accordion {
+width: 540px;
+margin: 0 auto;
+}
+.pdt19{padding-top:19px;}
+.carousel-inner {
+width: 600px;
+margin: 0 auto;
+}
+.pdt26{padding-top:26px;}
+.w150 {
+width: 202px;
+height: 22px;
+}
+.common-width {
+width: 440px;
+}
+.showonmobile {
+display: none;
+}
+.noborder {
+border-right: 1px solid #E8EAED;
+}
+.headingmobile{
+font-size: 24px;
+line-height: 36px;
+}
+.bright{
+border-right: 1px solid #E8EAED;
+}
+.expoz{
+padding-top: 8px;
+}
+.colored-img{
+width: 150px;
+height: 109px;
+}
+.hear-block{padding: 19px 0px 25px 0px;}
+.deskborder{
+border-bottom: 1px solid #E8EAED;
+padding-bottom: 27px;
+}
+.subhead{
+font-size: 14px;
+line-height: 22px;
+}
+.pd-r-11-desktop{padding-right: 10px}
+.gemini_hero-image {
+width: 540px;
+height: 304px;
+}
+.left_img{
+width: 240px;
+height: 128px;
+}
+.right_img{
+width: 240px;
+height: 135px;
+}
+.left_arrow_position{left: 2%}
+.right_arrow_position{right: 2%}
+.carousle_top_padding{padding-top: 26px;}
+.alt_card_height{height: 135px; width: 240px;}
+.pd_b_22{padding-bottom: 22px;}
+.pd_b_21{padding-bottom: 21px;}
+.pd_r_20{padding-right: 20px;}
+.background_for_table{background-image: url('https://www.gstatic.com/gumdrop/files/play-apps-partners-bg-new-transparent-w1700px-h7700px-2x.png'); background-repeat: no-repeat; background-size: 100%; background-position: top center;}
+.show_in_mobile_only{display: none;}
+.show_in_desktop_only{display: block;}
+}
+@media only screen and (max-width: 640px) {
+.show_in_mobile_only{display: block;}
+.show_in_desktop_only{display: none;}
+.pdb20{padding-bottom: 20px}
+.animationtop{width: 320px; height: 180px}
+.w700{width: 360px}
+.alt_card_height{height: 180px; width: 320px;}
+.carousle_top_padding{padding-top: 26px;}
+.left_arrow_position{left: -1%}
+.right_arrow_position{right: -1%}
+.amp-carousel-button-prev {
+background-image: url(https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png);
+background-size: 32px 32px;
+left: 0px;
+outline: none;
+background-color: transparent;
+}
+.amp-carousel-button-next {
+background-image: url(https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png);
+background-size: 32px 32px;
+right: 0px;
+outline: none;
+background-color: transparent;
+}
+.headings{
+font-size: 30px;
+line-height: 36px;
+}
+.common-width {
+width: 220px;
+}
+.gemini_hero-image {
+width: 320px;
+height: 180px;
+}
+.left_img{
+width: 320px;
+height: 170px;
+}
+.right_img{
+width: 320px;
+height: 180px;
+}
+#slide_tips {
+width: 340px;
+height: 360px;
+}
+.common-slides {
+background-color: #F8F9FA;
+border: 1px solid #E8EAED;
+border-radius: 8px;
+height: 340px;
+}
+#slide_tips2{
+height: 340px;
+width: 340px;
+}
+.common-slides2 {
+background-color: #F8F9FA;
+border: 1px solid #E8EAED;
+border-radius: 8px;
+height: 320px;
+}
+.learning_cta{padding:12px 36px;}
+.w360 {
+width: 360px
+}
+.showonmobile {
+display: block;
+}
+.m_auto {
+margin: auto
+}
+.w360 {
+width: 360px
+}
+.pdt19{padding-top:0px;}
+.w300 {
+width: 320px
+}
+.dblock {
+display: block;
+}
+.w100 {
+width: 100%
+}
+.noborder {
+border-right: 0px;
+}
+.pd-t-25 {
+padding-top: 25px
+}
+.pd-t-20 {
+padding-top: 20px
+}
+.pd-t-28 {
+padding-top: 28px
+}
+.pd-b-30 {
+padding-bottom: 30px;
+}
+.pd-b-0{padding-bottom: 0px}
+.dnone {
+display: none;
+}
+.text-center {
+text-align: center;
+}
+.w200 {
+width: 200px;
+}
+.w260 {
+width: 260px
+}
+.w273 {
+width: 320px
+}
+.w150 {
+width: 150px;
+height: 16px;
+}
+.pd-r-10 {
+padding-right: 10px
+}
+.pd-l-0 {
+padding-left: 0px
+}
+.pd-l-r10 {
+padding-left: 10px;
+padding-right: 10px;
+}
+.headingmobile{
+font-size: 18px;
+line-height: 27px;
+}
+.mobilebg{
+background-color: #ffffff;
+}
+.expoz{
+padding-top: 0px;
+}
+.pd-b-25{
+padding-bottom: 25px;
+}
+.bbottom{
+border-bottom: 1px solid #E8EAED;
+}
+.eachm{
+width: 142px;
+}
+.colored-image-parent{
+width: 118px;
+}
+.colored-img{
+width: 102px;
+height: 74px;
+}
+.hear-block{padding: 19px 0px 25px 0px;}
+.subhead{
+font-size: 16px;
+line-height: 24px;
+}
+}
+</style>
+</head>
+<body>
+<amp-state id=reasonbox2>
+<script type=application/json> {"reasonboxopen2": 0} </script>
+</amp-state>
+<table role=presentation cellpadding=0 cellspacing=0 width=100%>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=850 class="w700 m_auto" bgcolor=#F1F3F4>
+<tbody>
+<tr>
+<td align=center valign=top class="" style=padding-top:10px>
+<table cellspacing=0 cellspacing=0 role=presentation width=100%>
+<tr>
+<td align=center valign=top class="w700 m_auto background_for_table">
+<table cellspacing=0 cellspacing=0 role=presentation width=600 class=w360>
+<tr>
+<td align=center valign=top class="w360 m_auto">
+<table cellspacing=0 role=presentation width=600 class=w300>
+<tbody>
+<tr>
+<td align=center class=preheader-text valign=top style="font-family:Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; padding: 22px 8px 22px; font-size: 14px;line-height:21px;">
+Email not displaying correctly? <a style="color:#3C4043; text-decoration:underline;" href=https://notifications.google.com/g/vib/ANiao5rmfLFrQMa_8XfJsAB41B6KvTBvQlngU9q5IdWT1dr0sAE0RHjF7fQSlR0sU4cpF_Y3AJ2l6I7oTnYka_p0VBusf6y8Lzfdk8IjBd0sqgL9KybcaVM5EhwWhNb8uqIoQS0 target=_blank>View it online</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=top class=mobilebg>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w360 bgcolor=#ffffff>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w360 bgcolor=#ffffff>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellpadding=0 role=presentation width=560 class=w300>
+<tbody>
+<!-- Header start here -->
+<tr>
+<td align=center valign=top style="padding: 27px 9px 25px; border-bottom: 1px solid #E8EAED">
+<table cellspacing=0 cellpadding=0 role=presentation width=100%>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle class="pd-r-10 desk-padding">
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-google-for-developers-transparent-w1772px-h192px-2x.png layout=responsive height=22 width=202 class=w150 style="display: block;"></amp-img>
+</td>
+<td align=right valign=middle style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 12px; line-height: 18px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td align=right valign=middle style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 12px; line-height: 18px;"> July 2025 </td>
+</tr>
+<tr>
+<td align=right valign=middle style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 12px; line-height: 18px;">
+<a href=https://c.gle/ANiao5ph-sRIx8FzeFcKVwihrB9MVSxek1zDS4ASX51cONxOGPxUnk101jVcd2gQ8q2KpZMzywT8P5dWVru4OAFguvzcSF8LkNeH6JBmMAHiLca4KRbW1-TG322z6hbTR8Y3QV3Dsmj_SSHcHE0vBEuaedJxfq05RMAoRlg0VGUIwqxRjrM0YKeG6T9weSsJpNKg3q360Jczf-AmahZqUzpmYruzrho9bDiEWTAWZd2aUI3kYn4l0gW2paCMJR6emsehdxVQNdiWIhPfj2HO2JbMxyVppZ8_5pbx54b7x5M7CEplVQ target=_blank style="color: #1A73E8; text-decoration: underline;">Archive link</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Header end here -->
+<!-- module 1 start here -->
+<!-- module 1 end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- module 1 starts here -->
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellpadding=0 border=0 role=presentation>
+<tr>
+<!-- left container -->
+<!-- left container ends -->
+<td align=center valign=top>
+<table width=600 cellpadding=0 cellspacing=0 border=0 role=presentation bgcolor=#FFFFFF class=w360>
+<tr>
+<td align=center valign=top style="padding-top: 30px; padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation width=540 class=w300>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=top>
+<a href=https://c.gle/ANiao5o16ovldLTNQR5XkgXoKL1a_xjtO6hyP8Gc7nxOc-T4x3QmgR30LZ_6In6na7S8qgJDF2ewFANiajc5UiUcXDFKLLvd0DDwZRHhK3JYKBQnp1ujAhUmGaFukKahLN2fOoxCsVJsJOHl8WOJ4KxulO5Ya3FIw_cmUEoZIbWLB6WRoM5nHfcpqnP3T7QIn1Fffkut5zzyfiQCw-uZlLWVqxPtROfo0ZYtBZJtggbWZIhudnCrPhTS1rMPD2hByWmLL9K_vb3a6z-4Bp-fDvKGb3Ca43sJ3aOtqEnApMd9Y17JhP1Sugs0n9SZMKHJYw7D9MmxvavcmyfSNFXQNYFtX3lZvOjPBkiLSaZzqMsWm_zJSOCJhoRVUR9ihsPChySTzDWsCXfXWbvLjBbHZCnkxKIt5ukmRT05z2-kRrq6 target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-agentic-ai-socialloop-whitebackground-w800px-h450px-2x.gif class="dblock gemini_hero-image" width=540 height=225 style="display: block; border-radius: 12px;"></amp-img>
+</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 30px; line-height: 36px;font-weight: 500;padding-top:20px">Try the new Agent Mode for Gemini in Android Studio</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 10px;">Available in preview, Agent Mode is designed to handle complex development tasks. By delegating routine tasks to Gemini through Agent Mode, you’ll be able to focus on more innovative and enjoyable aspects of app development and accelerate your productivity.</td>
+</tr>
+<!-- hyperlink 1 -->
+<!-- Cta starts -->
+<tr>
+<td align=left valign=top style=padding-top:11px;>
+<table role=presentation cellspacing=0 cellpadding=0>
+<tbody>
+<tr>
+<td align=left valign=top bgcolor=#1A73E8 style=border-radius:6px;>
+<a class=ctabor target=_blank href=https://c.gle/ANiao5p5DDQJwAfGWH4BrJu9I-IjfBDf4TPAPtyKmpQDmC4pUHCbI4txPeF7V3TLhjjhd8gBqKspR4AI-5SXxMxdqHuxuGTQJgjf8y90WrLMY8j1l5iagUb2gyYZYEPDlBknr2dzxiYIqegxK82mNkyreh5m-cRURJwTkkAW2dWO3wx-krcqR185GLNiMX_J7NgUCZq236mecJK3pbIegST3zdYV89-mjK41wOdYGqwaDrNL2V5UHtgnVWdYHa4jmAEJPsPXBvaTg7_jBp-1vA2qboj2AXGwVkCsvtdGHru71M09XMQXpSWntnFgcIoBL6IE3fOLgPHs9UmtzH03McYiFQcRxZjjcsctAMbNr55HObWbkAr4R_YIBSe1u2cRy4ckdRM-UQ_l_PYEDACBj2tZlT9uAUU style=" background-color:#1A73E8; border-radius:6px; color:#ffffff; display:block; font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 24px; font-weight:bold; padding: 12px 34px; text-decoration:none; ">Explore Agent Mode
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- cta end -->
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<!-- right container start -->
+<!-- spacer -->
+<!-- spacer -->
+<!-- right container start -->
+</tr>
+</table>
+</td>
+</tr>
+<!-- module 1 ends here -->
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w360 bgcolor=#ffffff>
+<!-- Desktop only module 2 start here -->
+<tr>
+<td align=center valign=top class=show_in_desktop_only style="padding-top: 25px; padding-bottom: 29px;" bgcolor=#F8F9FA>
+<table cellspacing=0 cellpadding=0 role=presentation width=540>
+<tbody>
+<!-- Image Row -->
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<!-- col 1 -->
+<td align=left valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td aria-hidden=true align=center valign=top style=padding-bottom:20px>
+<a href=https://c.gle/ANiao5rZ-Nt6et9vv7injonX1UqWQyOoV1UW1ud-A4VYrioBZ0-6DJcr9TG9SszzXId7Y9ftH5vA2pDIdyMcbUCW9ZE1pXYCCdJrypLbGhEsAyFrFSdpE7_m_jTJxmsY-BC79SjKJTSSJKqufMbDjdWLiJD6Esii-A5gndhXUlRDiArQ9WJKw0P3k5x6TVs2_QJYSfsKO05wn0xW1SKmAA_h3y4gyzdjkNnkqJLz_S7Ae8RviReVUTM4d3CPevSPLHHThUyIxjhRDJirTs26zljgFDm_VmvkAy9AxLxZOCD6qFdaTDgC8m_YoNq2KJ2lZACAp0vXjN0ijf1aBR7TBD9ejMKN4V_DydM target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-left-gfd-july-25-fill-w512px-h272px-2x.png class=dblock width=240 height=135 style="display: block; border-radius: 12px; border: 1px solid #E8EAED;"></amp-img>
+</a>
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=29 class=dblock align=center valign=top aria-hidden=true style="border-right: 1px solid #E8EAED;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=29 height=1 style="display: block;"></amp-img>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=1 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<td align=right valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td aria-hidden=true align=center valign=top style=padding-bottom:20px>
+<a href=https://c.gle/ANiao5qtvN6yZjYOaDqflzcFVfyoiy0pEmrcrZkrPBIfFi739kj4lUS1qICn9jnF1kK4JjvKJoEMM9zrkWFPpahVLjNB1YFmihbzhfyRuv7UKx-HDXMNTHtri2TdI5IDvTEJNRaFpLtNDSef435OYBaWnvOmeuNq1iDDqkqFrTHngvvv1C5hiGq4dxkwPmYcEFBXs6acKfB65vUQ6ZdFKvmNAczKOahMDSkoYGVGb_55FDvHUMbAEeBYRlLCrBoOx3Js3jqgHWM7JuE0J0MnQMTSjzAOWEJa0v2CjHWTz8aHLeL4qbLx25wovNNniCbgRBn8LckdXNjf0h2vCt6A_JjoNf2sWT50eO2LIy7Vllh0XNuhZzacRF4Kfbo47sY target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-right-gfd-july-25-fill-w1999px-h1128px-2x.png class="dblock right_img" width=240 height=135 style="display: block;border-radius: 12px;"></amp-img>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Heading Row -->
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<!-- col 1 -->
+<td align=left valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; font-weight: bold; line-height: 21px;">
+Major expansion of <a target=_blank style="color:#3C4043; text-decoration:none;">webstatus.dev</a>
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=29 class=dblock align=center valign=top aria-hidden=true style="border-right: 1px solid #E8EAED;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=29 height=1 style="display: block;"></amp-img>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=1 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<td align=right valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; font-weight: 700; line-height: 21px;">
+Gemini Code Assist adds Gemini 2.5 and more
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Para Row -->
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<!-- col 1 -->
+<td align=left valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;font-weight: 400;">
+Learn about the new enhanced web platform dashboard on <a style="color:#1967d2; text-decoration:none;" href=https://c.gle/ANiao5r7_ZKYT23GHJMU5-FQ0hNveLBRKy1J0YSOuGeehfwOGwbJoMpKFYVOISGtm-Px7pbm_BoYCkp0tW7krRJjZrX_M0PnlpcHWR9dpe6d2QIsj1xz8yMS7b4maYmMGTSCx9OEsIKEXRLdznocZhUBc5jUx1zCCVDfsB9q-0tGFbgACthU81ESyV8-Gih96-ldcW5pRKb_dtovariGwTkIBTc1Ri80Wjv-52MRbiBYB8eF6J0FlVx0_V6gy6xMvOy_JOXowOG4c7IRtxZfoX3GYaM target=_blank>webstatus.dev</a> covering virtually all web platform features, integrating data for mobile browsers, and providing useful statistics about the progress of the web platform with more powerful sorting and filtering.
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=29 class=dblock align=center valign=top aria-hidden=true style="border-right: 1px solid #E8EAED;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=29 height=1 style="display: block;"></amp-img>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=1 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<td align=right valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">
+Enhance your coding workflow with the latest Gemini Code Assist updates. Now with Gemini 2.5 support, it offers improved coding capabilities, custom commands, and chat history so you can continue where you left off.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- CTA Row -->
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<!-- col 1 -->
+<td align=left valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="padding-top: 11px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=middle width=22>
+<a target=_blank href=https://c.gle/ANiao5rnDzyElpgwr033gUtAS8yfUg8x9o2dQJnbUO40kqiGzkziNpXuPBUjl4MuU7xWEUJjbRw06CGH-Pgy-sNEF4IeogqeKFAOWw77PbMUk1pcOts0mK3Wjd-5ftW1zmFbUhmtqW5vutzs-dLOQyC__J4FNEyYAxrIfdFu7R_DtYHSoGqXBEwytsG4r05rhVD4fQKTLKvuV8LWwGyfORZfRjZJnwt8LeZw4uV187vI1vThu-1OpmgEWuVa1ktmhjEtfmgOAxexN34P9qip5Ik9PxdL-WXRxTgIDjTZDzausmws6vXPMolr8vZk9lOdyq6g3I-3P1Ev5Le661h-pbBwHDxxGCmM6Ig style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" width=16 height=16></amp-img>
+</a>
+</td>
+<td class=ol-height align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline;" target=_blank href=https://c.gle/ANiao5qjpcFSfF_it53TapsuNsihMe47p9Rwxqi1r8iixU2G1gnrevtJm6HVzHBVJEO0dhN09H40M5jN9vft6s-kgdx0J62tcuIHAB-8I3DuvjOOnbaeyeKVnqSs2mY3Xzn6tEaXZLa-p-chnVdYcHsbD2iyH2WnVqTt6Vtd94BiHofXGg5-DAFZkkr4k9LF-K35dxW4xeJ7xAXY2BGVdx4a83O4TXsEL5KPtu7RZqXrQ4ae9iYHqMXx-k7FDh0SA4rumIWxnCtaMLZjywTNBR54d9D778Zo9-4D3KlD0RvOJSzWyFMqnk6CSAcltRc30hq-Lc3_8hdVslRViVW8GXmBjiwc>Discover the new dashboard</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<!-- spacer -->
+<td width=29 class=dblock align=center valign=top aria-hidden=true style="border-right: 1px solid #E8EAED;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=29 height=1 style="display: block;"></amp-img>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=1 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<td align=right valign=top>
+<table width=240 cellpadding=0 cellspacing=0 role=presentation>
+<tr>
+<td align=left valign=top style="padding-top: 11px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=middle width=22>
+<a target=_blank href=https://c.gle/ANiao5qrRlCUUWMsQMWJDIY4q3MIf5hHaY39Zfizw5_61JacVPbkg4rF1QdNONY-ZImVxhc7hho9JiZYMEroE3OuAvz6sbfTmMQ23fxSlbNlcqXsu4WeysUEhuChUIn9NglK0TWQGpYT6Tk0c8H0Cnbej-V1xKmkzmmlnnQT3am4TVirm-WBtMdOgqt1WNlUEgOHgF1T-boFppqdKkhWdDNrN6wUDL2-wPcMvhXvb13mA0eCLeAfBlK3w9Y-9gXDACJvL-lUSyQg6ypAUrvpZE4G3d5_wbBh7Im-AlQButc9wnHkvwH414cN9zHp_w5LF3DfGEIeUp-eSgEoA8gpnQE1IdNl8RUCx0j1igySKbQZp8SqZTztRVU style="width: 16px; ">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" width=16 height=16></amp-img>
+</a>
+</td>
+<td class=ol-height align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline;" target=_blank href=https://c.gle/ANiao5oMBXp3b1Rk-U_RsHbYYYXz2HB7tea1yncA4rYF37hqUT-8PoO_fQvZSYDaj8XRrlVpblxb7BiIFh4e5mmIR-hLoIXlrH3po7xEg6n2O6iYeeU2UMCYn1YrRW0QgkRZIGptjsop4SZXkJX-OgzWm4IETqr4bvY8SdLo3J2N-u5LPg5cS28sX7d03NWpnxehVV24b8eTIHEsMxnObrCFe8ASq2tfXnWPkTMe7bqh7UlL0ZqD8NVrULv56mTMylKdAhksIECdwqxUUILIfnHsOWEwAQshNXbKVmEE48HmHkDCUYFEN3RHSvzYVQvE5LhdTVdzUSQ6loYOPzldqD4Eih6yuKdQanawED3X4EcHy3MA>Check it out</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Desktop only module 2 end here -->
+<!-- Mobile only module 2 start here -->
+<tr>
+<td align=center valign=top class=show_in_mobile_only style="padding-top: 25px; padding-bottom: 29px;" bgcolor=#F8F9FA>
+<table cellspacing=0 cellpadding=0 role=presentation width=540 class=w300>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<!-- col 1 -->
+<td width=270 class="dblock noborder w100" align=left valign=top>
+<table cellspacing=0 cellpadding=0 class=w100 width=240 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=top style=padding-bottom:20px>
+<a href=https://c.gle/ANiao5rZ-Nt6et9vv7injonX1UqWQyOoV1UW1ud-A4VYrioBZ0-6DJcr9TG9SszzXId7Y9ftH5vA2pDIdyMcbUCW9ZE1pXYCCdJrypLbGhEsAyFrFSdpE7_m_jTJxmsY-BC79SjKJTSSJKqufMbDjdWLiJD6Esii-A5gndhXUlRDiArQ9WJKw0P3k5x6TVs2_QJYSfsKO05wn0xW1SKmAA_h3y4gyzdjkNnkqJLz_S7Ae8RviReVUTM4d3CPevSPLHHThUyIxjhRDJirTs26zljgFDm_VmvkAy9AxLxZOCD6qFdaTDgC8m_YoNq2KJ2lZACAp0vXjN0ijf1aBR7TBD9ejMKN4V_DydM target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-left-gfd-july-25-fill-w512px-h272px-2x.png class="dblock left_img" width=240 height=135 style="display: block; border-radius: 12px;"></amp-img>
+</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top class=pd_b_21 style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; font-weight: bold; line-height: 21px;">
+Major expansion of <a target=_blank style="color:#3C4043; text-decoration:none;">webstatus.dev</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top class=pd_b_22 style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;font-weight: 400;">
+Learn about the new enhanced web platform dashboard on <a style="color:#1967d2; text-decoration:none;" href=https://c.gle/ANiao5r7_ZKYT23GHJMU5-FQ0hNveLBRKy1J0YSOuGeehfwOGwbJoMpKFYVOISGtm-Px7pbm_BoYCkp0tW7krRJjZrX_M0PnlpcHWR9dpe6d2QIsj1xz8yMS7b4maYmMGTSCx9OEsIKEXRLdznocZhUBc5jUx1zCCVDfsB9q-0tGFbgACthU81ESyV8-Gih96-ldcW5pRKb_dtovariGwTkIBTc1Ri80Wjv-52MRbiBYB8eF6J0FlVx0_V6gy6xMvOy_JOXowOG4c7IRtxZfoX3GYaM target=_blank>webstatus.dev</a> covering virtually all web platform features, integrating data for mobile browsers, and providing useful statistics about the progress of the web platform with more powerful sorting and filtering.
+</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 11px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=middle width=22>
+<a target=_blank href=https://c.gle/ANiao5rnDzyElpgwr033gUtAS8yfUg8x9o2dQJnbUO40kqiGzkziNpXuPBUjl4MuU7xWEUJjbRw06CGH-Pgy-sNEF4IeogqeKFAOWw77PbMUk1pcOts0mK3Wjd-5ftW1zmFbUhmtqW5vutzs-dLOQyC__J4FNEyYAxrIfdFu7R_DtYHSoGqXBEwytsG4r05rhVD4fQKTLKvuV8LWwGyfORZfRjZJnwt8LeZw4uV187vI1vThu-1OpmgEWuVa1ktmhjEtfmgOAxexN34P9qip5Ik9PxdL-WXRxTgIDjTZDzausmws6vXPMolr8vZk9lOdyq6g3I-3P1Ev5Le661h-pbBwHDxxGCmM6Ig style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" width=16 height=16></amp-img>
+</a>
+</td>
+<td class=ol-height align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline;" target=_blank href=https://c.gle/ANiao5qjpcFSfF_it53TapsuNsihMe47p9Rwxqi1r8iixU2G1gnrevtJm6HVzHBVJEO0dhN09H40M5jN9vft6s-kgdx0J62tcuIHAB-8I3DuvjOOnbaeyeKVnqSs2mY3Xzn6tEaXZLa-p-chnVdYcHsbD2iyH2WnVqTt6Vtd94BiHofXGg5-DAFZkkr4k9LF-K35dxW4xeJ7xAXY2BGVdx4a83O4TXsEL5KPtu7RZqXrQ4ae9iYHqMXx-k7FDh0SA4rumIWxnCtaMLZjywTNBR54d9D778Zo9-4D3KlD0RvOJSzWyFMqnk6CSAcltRc30hq-Lc3_8hdVslRViVW8GXmBjiwc>Discover the new dashboard</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+<!-- spacer -->
+<td width=30 class=dblock height=25 align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=30 style="display: block;"></amp-img>
+</td>
+<!-- col 2 -->
+<!-- spacer -->
+<td width=239 class="dblock w100" align=left valign=top>
+<table cellspacing=0 cellpadding=0 width=100% role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=top style=padding-bottom:20px>
+<a href=https://c.gle/ANiao5qtvN6yZjYOaDqflzcFVfyoiy0pEmrcrZkrPBIfFi739kj4lUS1qICn9jnF1kK4JjvKJoEMM9zrkWFPpahVLjNB1YFmihbzhfyRuv7UKx-HDXMNTHtri2TdI5IDvTEJNRaFpLtNDSef435OYBaWnvOmeuNq1iDDqkqFrTHngvvv1C5hiGq4dxkwPmYcEFBXs6acKfB65vUQ6ZdFKvmNAczKOahMDSkoYGVGb_55FDvHUMbAEeBYRlLCrBoOx3Js3jqgHWM7JuE0J0MnQMTSjzAOWEJa0v2CjHWTz8aHLeL4qbLx25wovNNniCbgRBn8LckdXNjf0h2vCt6A_JjoNf2sWT50eO2LIy7Vllh0XNuhZzacRF4Kfbo47sY target=_blank>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/play-apps-partners-right-gfd-july-25-fill-w1999px-h1128px-2x.png class="dblock right_img" width=240 height=135 style="display: block;border-radius: 12px;"></amp-img>
+</a>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; font-weight: 700; line-height: 21px;">
+Gemini Code Assist adds Gemini 2.5 and more
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">
+Enhance your coding workflow with the latest Gemini Code Assist updates. Now with Gemini 2.5 support, it offers improved coding capabilities, custom commands, and chat history so you can continue where you left off.
+</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 11px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=middle width=22>
+<a target=_blank href=https://c.gle/ANiao5qrRlCUUWMsQMWJDIY4q3MIf5hHaY39Zfizw5_61JacVPbkg4rF1QdNONY-ZImVxhc7hho9JiZYMEroE3OuAvz6sbfTmMQ23fxSlbNlcqXsu4WeysUEhuChUIn9NglK0TWQGpYT6Tk0c8H0Cnbej-V1xKmkzmmlnnQT3am4TVirm-WBtMdOgqt1WNlUEgOHgF1T-boFppqdKkhWdDNrN6wUDL2-wPcMvhXvb13mA0eCLeAfBlK3w9Y-9gXDACJvL-lUSyQg6ypAUrvpZE4G3d5_wbBh7Im-AlQButc9wnHkvwH414cN9zHp_w5LF3DfGEIeUp-eSgEoA8gpnQE1IdNl8RUCx0j1igySKbQZp8SqZTztRVU style="width: 16px; ">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" width=16 height=16></amp-img>
+</a>
+</td>
+<td class=ol-height align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline;" target=_blank href=https://c.gle/ANiao5oMBXp3b1Rk-U_RsHbYYYXz2HB7tea1yncA4rYF37hqUT-8PoO_fQvZSYDaj8XRrlVpblxb7BiIFh4e5mmIR-hLoIXlrH3po7xEg6n2O6iYeeU2UMCYn1YrRW0QgkRZIGptjsop4SZXkJX-OgzWm4IETqr4bvY8SdLo3J2N-u5LPg5cS28sX7d03NWpnxehVV24b8eTIHEsMxnObrCFe8ASq2tfXnWPkTMe7bqh7UlL0ZqD8NVrULv56mTMylKdAhksIECdwqxUUILIfnHsOWEwAQshNXbKVmEE48HmHkDCUYFEN3RHSvzYVQvE5LhdTVdzUSQ6loYOPzldqD4Eih6yuKdQanawED3X4EcHy3MA>Check it out</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Mobile only module 2 end here -->
+<!-- First Carousel starts here -->
+<tr>
+<td align=center valign=top style="padding-top: 26px;">
+<table cellspacing=0 cellspacing=0 role=presentation class=w300 width=540>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 24px; font-weight: bold; line-height: 36px;">Product updates </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=top class=carousle_top_padding>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w300>
+<tbody>
+<tr>
+<td align=center valign=top style="position: relative;">
+<div class=carousel-width>
+<div class=carousel-inner>
+<amp-state id=selected hidden="" aria-hidden=true>
+<script type=application/json>
+{
+"slide1": 0
+}
+</script>
+</amp-state>
+<amp-carousel id=slide_tips loop on="slideChange:AMP.setState({ selected: { slide1 : event.index } })" type=slides layout=responsive height=274 class=w300 width=540 controls data-next-button-aria-label="Go to next slide" data-previous-button-aria-label="Go to previous slide" role=region>
+<!-- Slide 1 Start -->
+<div>
+<div [class]="selected.slide1 == 0 ? 'carotracking_1' : ''" class=carotracking_1></div>
+<table role=presentation cellpadding=0 cellspacing=0 class=w273 width=540>
+<tr>
+<td align=center class=common-slides valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;"> Get ready for Play Games Services v2 </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;"> With PGS v2, increase player engagement and retention via achievement-based quests and targeted promotional content with PGS v2. Migrate by May 2026 to access the latest advancements and ensure functionality. </td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://c.gle/ANiao5pAZ-8X_r3UZ5yPIUInvziguCXIEFZSUf0iCMuAKypL-GmLHs6mh5Z5xYsKrH5Kau5lyqvQC_xSEwp4ECN5IvF9iqljSjQQOoqXjWe4QJ_iDRKoVxGsuJmxGH2D953KLUyihHQZjPkzTGj1rmhRsfFyxDvtVmFiFGxzqM2m0ERTroLO7kN5D_xVcJlWMGPsb_F7D3DJ29YiUeYNtqKOezjPpSQ4KCJ54VNT5MAQpEExEs4Bo4xxyVsqbeNFMqKZEI1g3BPEVodFPQg-meB2iC85y920tdbtF0-AWRFqPbCJ-X0rBCLfJza7HhCI5zEJ46tZRLGzOYDTl1XyRB-pR2SMDP6HM5fn_5fJx54kSnWQ_DZ-rPlpvzmR1-NyDtNkXY5kEE7-GmYhglo7DnipWmRM0CrPJFZc5UMGe2elBw target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline; " target=_blank href=https://c.gle/ANiao5ozj_ZZ-D5mBHIvHkG-Kp5dTOUHEl1S5m0TLku2iuCT3npnigXVYJIX14sdgsQoCQri1qAFIKItk7NOJtBaAio2yIHBZ6poXHktftEvZtEtm5GGplBbfOfFZ5mNazXBMS6Z_aMyIG2uqkgt77T9rz6hhB3vp4f9zP5w1fIL4nxigHwLiwF6d5rEWoSX8ntkLp4k5hrYChmMfj8kWwd4Pk8UOoo8iDTpYHAHfxL5ne2ESDq2rNkCWefP1lbv2i1wjTK2SFUubZVAymAg1ytHCfZ-kve2BrWsA3yOsT_QkADL4HWKyJJoE_avpHnKgVwepBdoEHzFHokNrFqG3eLibVn3iQta00oEZPoYO9QsZ4-59KYfzBajd53C5KNhra2RbQelOW_HSzBxdgfippddF5G9tbzM4NqGM5o> Get started with PGS</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!-- Slide 1 End -->
+<!-- Slide 2 Start -->
+<div>
+<div [class]="selected.slide1 == 1 ? 'carotracking_2' : ''" class=carotracking_2></div>
+<table role=presentation cellpadding=0 cellspacing=0 width=540 class=w273>
+<tbody>
+<tr>
+<td align=center class=common-slides valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;">Prepare your apps for 16KB pages </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">On November 1st, 2025, all new apps and updates to existing apps submitted to Google Play and targeting Android 15+ devices must support 16 KB page sizes. Achieve faster launches, improved battery usage, and more.</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://c.gle/ANiao5qi_gp7tiWJrJ0vzygQpuV5MT0sohqFBC2TEQRK8VaLhU1jFSbcZcGhWF1UOZlMmR5mLZFvtMk-T-Hp21IUKd0ZPcs4eV9OSriq1DOWMWR1hlK6U6cB8ZX1Jg1P6m440b75dTmRASWUemCgsDKsgsxDeHw-bZUvfGtlkViYJlTZqJU7irlDF03chDi6nu-wdka-MqkLFefyU6_jIRfNFbOGvnWd_8YKKqRxTPjjmLp3yxvf8v9_Gm45MNGD8VqhZxPLZ3BLGpZJ8zCUkhWEmhm0kPidUijl7GFckr0qDA5Qrg8Ouw9JIJrf6AkE0oQZCBmL5pintWnktN5ECH-Np0yZ_CJXbkeaVBeg87O5RXn36CrWtg0ZwmtBFONSdIA8gJCusjlDdGnkWU-8DhI target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a target=_blank style="color: #166FE3; text-decoration: underline;" href=https://c.gle/ANiao5oWdPtzXUaJ_KZ6fUxVEeGlMm0Kzwb2lvKCK2C994iKp3YztjpbgybgXF3E-Wii0AjPd5_qUpVg0pMmkeJcxmkZZQxeC9GDceRXMf6X_c6WLNESYAFsYOvI-Buk_rfVUiHIYJNsQblLhK-PjTthp37F-r1DjxH-RItuJ8nbBzOlunaVT4E5YVugj2HSEwRhnASb-ZFx-torPLkvv5XiM_RJuNLMqBqGvkO3s4o-AI84ZdcKrKDS7_Va37eMq_IYVA546uwzQjiwQtA0-rbdbten5AA2adEu-SbYOb4jmX4ZIXQ5EjkSeoi_3Avsp9G9-qJ8Dt957vJIA0uIgoOKZzDfY3NibgjIEvVkdR7RUwkVTYP0WFl0Mv8VGEp7zpNsGP3Bw09bkCCU>Learn more</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Slide 2 End -->
+</amp-carousel>
+</div>
+</div>
+<div style="flex-direction: row; justify-content: center; min-height: 22px;display: flex;">
+<div role="" tabindex="" on=tap:slide_tips.goToSlide(index=0) style="padding: 6px; ">
+<div [class]="selected.slide1 == 0 ? 'current1' : 'old1'" class=current1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+<div role="" tabindex="" on=tap:slide_tips.goToSlide(index=1) style="padding: 6px; ">
+<div [class]="selected.slide1 == 1 ? 'current1' : 'old1'" class=old1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+</div>
+<div style="position: absolute; top: 42%;width: 100%;">
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td align=center valign=top>
+<!-- left -->
+<span [class]="selected.slide1 == 0 ? 'show left_arrow_position' : 'hide'" class="show left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=1) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<span [class]="selected.slide1 == 1 ? 'show left_arrow_position' : 'hide'" class="hide left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=0) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<!-- Right Arrow -->
+<span [class]="selected.slide1 == 0 ? 'show right_arrow_position' : 'hide'" class="show right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=1) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+<span [class]="selected.slide1 == 1 ? 'show right_arrow_position' : 'hide'" class="hide right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips.goToSlide(index=0) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- First Carousel ends here -->
+<!-- Accordion starts here -->
+<tr>
+<td align=center valign=top style="padding-top: 27px;">
+<table cellspacing=0 cellspacing=0 role=presentation width=540 class=w300>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 24px; font-weight: bold; line-height: 36px; border-bottom: 1px solid #E8EAED; padding-bottom:16px;">Learn</td>
+</tr>
+<!-- first accord start here -->
+<tr>
+<td align=center valign=top style="padding-bottom: 20px; border-bottom: 1px solid #E8EAED;">
+<table cellspacing=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td width=329 class="w300 dblock pd-r-11-desktop" valign=top align=left>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 18px; font-weight: 500; line-height: 27px; padding-top: 19px;">Getting started with the Gemini API and Web apps</td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Walk through how to prototype generative AI for web apps using the Gemini API and Google Gen AI SDK for JavaScript and TypeScript. </td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="dblock text-center w100 pdt19" width=211 align=right valign=middle>
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<!-- cta start here -->
+<tr>
+<td align=left valign=top class=pd-t-20>
+<table role=presentation cellspacing=0 cellpadding=0>
+<tbody>
+<tr>
+<td align=left valign=top bgcolor=#ffffff style="border-radius: 24px; border: 1px solid #1A73E8;">
+<a href=https://c.gle/ANiao5pOqDScSmMInKxBkEH0Gv4eBIG1k0mMnPH7LlBW_SQn9jQF-NQZVqdu-rzfkupp_lYqhkhg9ShC7kXi3aChjlKdYC8KNiqh99kezPEy_ydjfHd6VMfbkhRdOq0WLwt1vQHikYImL1Vd5n3BnJLv7ZnQBXhM4UXG6M8MruJGSef5vFiNDXUK8WKDqQUz6djMFrAOP_c4cwvkQgR3MszuCa-Fg6BJJoEz17gTBC7VJ6GxscOmUngA00k1uYZYdCE0SG6lemz-ppLXEj8FrxR-e9I-HKMhNHDxCnXUVr8cwbovbYOwncI0fg3Kdtn8zWxe8HoRR8zDrZUrp1qzH_N4SVhtssfupKCjB_IF_0z4yq-ASCvV4NWMeQ target=_blank style="background-color:#ffffff; border-radius:24px; color:#1A73E8; display:block; font-weight: 500;font-family: Google Sans, Roboto, Arial, sans-serif;font-size:14px; line-height: 21px; text-decoration:none; text-align: center;" class="out_cta_set_white learning_cta">Start now</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- first accord end here -->
+<!-- 2nd accord start here -->
+<tr>
+<td align=center valign=top style="padding-bottom: 20px; border-bottom: 1px solid #E8EAED;">
+<table cellspacing=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td width=329 class="w300 dblock pd-r-11-desktop" valign=top align=left>
+<table width=100% cellpadding=0 cellspacing=0 role=presentation>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 18px; font-weight: 500; line-height: 27px; padding-top: 19px;">Build agentic apps with Firebase and Google Cloud </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family:Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Use specialized agents, multimodal inputs with Gemini, and external tool calling to create a powerful, interactive application. </td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="dblock text-center w100 pdt19" width=211 align=right valign=middle>
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<!-- cta start here -->
+<tr>
+<td align=left valign=top class=pd-t-20>
+<table role=presentation cellspacing=0 cellpadding=0>
+<tbody>
+<tr>
+<td align=left valign=top bgcolor=#ffffff style="border-radius: 24px; border: 1px solid #1A73E8;">
+<a href=https://c.gle/ANiao5rlzmCztkSY_EBhhSTqvgwqxa-MauR-DNn_MH3D501Vhqw3lcn2XcumXzMfr_nABLFnONNUz2YxhNR_rbV4T2pwgoIlz8OJgcMNBylOtifijt_3TZucEf367fC7IBJSMbLsi_bljK5ntTsPEYQ2R6yaDI-sGE3w5--VYjqt-Kt37__pRSqVX5-ESqnM_Y5C_K8CX2a2R3yvK_-6T9g50-OXkhtf5K3RUJtBlnT9EhzgxOWYiF3-4EdmzMK2rye-IlnmhxYXQ9sNLIfcQp4wGZgFJZuWHEw4IwpWKZSmyxZp65LLpSWlJ7AIT3P3YbnQz21WYwQ target=_blank style="background-color:#ffffff; border-radius:24px; color:#1A73E8; display:block; font-weight: 500;font-family: Google Sans, Roboto, Arial, sans-serif;font-size:14px; line-height: 21px; text-decoration:none; text-align: center;" class="out_cta_set_white learning_cta">Watch now</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 2nd accord end here -->
+</tbody>
+</table>
+</td>
+</tr>
+<!-- module 5 starts -->
+<!-- Second Carousel starts here -->
+<tr>
+<td align=center valign=top style="padding-top: 40px;">
+<table cellspacing=0 cellspacing=0 role=presentation class=w300 width=540>
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 24px; font-weight: bold; line-height: 36px;">Community </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=top class=carousle_top_padding>
+<table cellspacing=0 cellpadding=0 role=presentation width=600 class=w300>
+<tbody>
+<tr>
+<td align=center valign=top style="position: relative;">
+<div class=carousel-width>
+<div class=carousel-inner>
+<amp-state id=selected hidden="" aria-hidden=true>
+<script type=application/json>
+{
+"slide2": 0
+}
+</script>
+</amp-state>
+<amp-carousel id=slide_tips2 loop on="slideChange:AMP.setState({ selected: { slide2 : event.index } })" type=slides layout=responsive height=274 class=w300 width=540 controls data-next-button-aria-label="Go to next slide" data-previous-button-aria-label="Go to previous slide" role=region>
+<!-- Slide 1 Start -->
+<div>
+<div [class]="selected.slide2 == 0 ? 'carotracking_6' : ''" class=carotracking_6></div>
+<table role=presentation cellpadding=0 cellspacing=0 class=w273 width=540>
+<tr>
+<td align=center class=common-slides2 valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;"> Google Cloud transfers A2A to Linux Foundation </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Learn how Google Cloud is collaborating closely to foster an open and interoperable ecosystem for AI agents with the Agent2Agent (A2A) protocol and other interoperability technology.</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://c.gle/ANiao5o20VfbvyIfgdYlw5zJ__0IQjRyQXv8KFdj3qkGtoRNsjbcXrmE00m-XTDqbfRoGa6_-vIWcx80Q2sda_zedGyNlQzPvr54gfjHgAvh6mEJPGYPTAKvG7qYOzGOPM0XKBcAHfZmlvZPKeAX7XPMlL_HLA2QEWjsC87D8Uzy7q4OCZJLG3-gC4EoAzSWfm-NI-79VO8WJ8VLgP2THG37gsIzAJlEPteW91LFn85C4ZVqzItbwQFN6gO5O_uefFGPNt0CANg99KpDuDnQ7SD6v2EGnt4RoByDPzbfFtU77Sf9hPEmSmaBahc7SMnpUhhkdMmKz_Qe9V565gBiZE-ju3ArlP97UNjoz3EFKD9hH1mRsOc1mShMcQ target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a style="color: #166FE3; text-decoration: underline; " target=_blank href=https://c.gle/ANiao5pUgKpKs8c8Al34EBvpeNyrGy7Vd4jh60i5xvn-YKSBWD8Y52FcBRvrbutVWB3YvWqeckHAUjKpel3x4y6LwPmoYkYzdbGhefVGoiE70njLM79H7zP-9zjOGq_tkEqNUhkJpVtzVLCfJx1WQNWBR0dEx8b6I0g2PB-d1haFlbfpnVIVN5GHOc7WmTNo_UwxZWROlng2yNViO6aTkEy0B6jaCQFGyfVYorDHRsUYXw-ux6N1Yi1Xkt6AIGZBSHVHTY96-cCCfEZUeQbE_KUtPZ8Dkp8ZNB-Ya9YumoKK8jDDvZsR8c_K299u74ZdFd9dM_aS7BfnCnP8BBFZj7OY0MATsE0fdOhmiv3bjDnSfMAc77U> Learn more</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!-- Slide 1 End -->
+<!-- Slide 2 Start -->
+<div>
+<div [class]="selected.slide2 == 1 ? 'carotracking_7' : ''" class=carotracking_7></div>
+<table role=presentation cellpadding=0 cellspacing=0 width=540 class=w273>
+<tbody>
+<tr>
+<td align=center class=common-slides2 valign=top>
+<table cellspacing=0 cellspacing=0 role=presentation class=common-width>
+<tbody>
+<tr>
+<td class=headingmobile align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #3C4043; font-weight: bold; padding-top: 24px;">New Google Developer Program forums </td>
+</tr>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 6px;">Get expert advice, connect with peers, and provide direct feedback to Google teams in the new Google Developer Program forums.</td>
+</tr>
+<!-- secondry cta start here -->
+<tr>
+<td align=left valign=top style="padding-top: 21px;padding-bottom: 30px;">
+<table cellspacing=0 cellpadding=0 role=presentation>
+<tbody>
+<tr>
+<td aria-hidden=true align=left valign=middle width=22>
+<a href=https://c.gle/ANiao5qJ1H0_UsBp8P1TZHL-tKIX0rW1fl7Qmd-EMzsYzpXFN4gQrChPvqeSVxlqB8kU4VkXvEcp2i3Ui6Pp5CqiwAJ7mcVN0tBXwx_ocNSwAfo8tOpnCsebIp5pR7KDZGAxhX_eiAr49hB-2AZ0YkLoe0aw6xARo4st866im9qf03eUGPKuQAgMx4qx-aXitKscz2nkUA5iiRrqf4Zp4ZXAbP9z4homxWK6O3hf3Y6n_rHmovLPfBMji3KJAfdHJ0zxHLw-O-Vvs5vcdga1WCqRP2Cyanrqg26YD1q01rN2 target=_blank style="width: 16px; display: block;">
+<amp-img src=https://www.gstatic.com/growthlab/api/OWbZuRTlEOdQUH5ZIqfcsKiWZDeqtvEUC2HZrRYc.png style="display: block;" height=16 width=16></amp-img>
+</a>
+</td>
+<td align=left valign=top style="font-family: Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #166FE3;font-size: 14px; line-height: 24px; padding-left: 4px;">
+<a target=_blank style="color: #166FE3; text-decoration: underline;" href=https://c.gle/ANiao5q8iZSyKIB0Bt2Wnzd73xhHgbk0lxJDgEpQsSpoSDhZAsZBzrQwFZx5sjXVKdK8UiN5MknmjBOahrft4aYwjbvwvmfiqrZIHR2-zE3Ma8biHcSCh-BLr-FyKvnfQQbZQ_ZXhAIyzOxR0z6d85di6wQ8V69Dvk_e8v8Iq-rWIr-2-XzGespcQL_pwPlvCxp2zvxIV8aAPUtToiLERLss33KSr9ZYCP3WJ9-UKIdnbgxbI9xD2uU4zW0uspnwd4QinI05cCNFon3CHlOvPzDXCQBCzKc4TF2PYA>Join the discussion</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- secondry cta end here -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Slide 2 End -->
+</amp-carousel>
+</div>
+</div>
+<div style="flex-direction: row; justify-content: center; min-height: 22px;display: flex;">
+<div role="" tabindex="" on=tap:slide_tips2.goToSlide(index=0) style="padding: 6px; ">
+<div [class]="selected.slide2 == 0 ? 'current1' : 'old1'" class=current1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+<div role="" tabindex="" on=tap:slide_tips2.goToSlide(index=1) style="padding: 6px; ">
+<div [class]="selected.slide2 == 1 ? 'current1' : 'old1'" class=old1 style="width: 8px; height: 8px; border-radius: 10px;"></div>
+</div>
+</div>
+<div style="position: absolute; top: 42%;width: 100%;">
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td align=center valign=top>
+<!-- left arrow -->
+<span [class]="selected.slide2 == 0 ? 'show left_arrow_position' : 'hide'" class="show left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips2.goToSlide(index=1) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<span [class]="selected.slide2 == 1 ? 'show left_arrow_position' : 'hide'" class="hide left_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips2.goToSlide(index=0) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/hrYWBa5aMsUGd7tECNcJwP9At1R05xcQaaTaZPaq.png></amp-img>
+</span>
+<!-- Right Arrow -->
+<span [class]="selected.slide2 == 0 ? 'show right_arrow_position' : 'hide'" class="show right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips2.goToSlide(index=1) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+<span [class]="selected.slide2 == 1 ? 'show right_arrow_position' : 'hide'" class="hide right_arrow_position" role="" tabindex="" aria-disabled=false on=tap:slide_tips2.goToSlide(index=0) style="position: absolute; z-index: 1;cursor: pointer;">
+<amp-img width=32 height=32 src=https://www.gstatic.com/growthlab/api/KrzGlg6aXzCGV4OZJ6WMavfIg7vAYsSGjdWDy6rM.png></amp-img>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Second Carousel ends here -->
+<!-- social section starts here -->
+<tr>
+<td align=center valign=top class=pd-t-25 style="padding: 22px 0px 3px;">
+<table cellspacing=0 cellpadding=0 role=presentation width=540 class=w300>
+<tbody>
+<tr>
+<td align=left valign=top width="">
+<table role=presentation cellspacing=0 cellpadding=0 class=w200 width="">
+<tbody>
+<tr>
+<td align=left valign=top style="font-family: Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; color: #5F6368;font-size: 14px; line-height: 22px; padding-top: 8px;"> Connect with us </td>
+</tr>
+<tr>
+<td align=left valign=top style="padding-top: 5px;">
+<table cellspacing=0 cellpadding=0 role=presentation width=195>
+<tbody>
+<tr>
+<!--Social Icon 2-->
+<td align=left valign=top width=39>
+<a href=https://c.gle/ANiao5p23eme40cr3g8QcUMsDDiWommatJhMDtJvG1m8GDzZwaiFBpKxDy61SYGQXpzq1RhGLNdimJOdHgjVP_c5nkQUeZUGS_3kAXWlDmw3HKGZxa4NuV9ktcvXFnWK_tY064jv0bkLRayVOYRWy3manjaSg9xIeeMc1k0NPftQiwSUnnJIKwzMtHqh31A6-HxbaTIrJcxjVrxEzk0 target=_blank style="display: inline-block;padding-top: 10px;padding-bottom: 10px;">
+<amp-img src=https://www.gstatic.com/growthlab/api/oONqRzGKXPjIdhaPmDiKBE4vYzADDHSiZk1hfSSv.png width=28 alt=YouTube height=28 title=YouTube style=display:block;></amp-img>
+</a>
+</td>
+<!--Social Icon 3-->
+<td align=left valign=top width=39 style="padding-left: 2px;">
+<a href=https://c.gle/ANiao5pm4_KNajFTzABYD8Ji__2beqG9DwOkpmnKE4705v_J_qEXXpCdiJkpQpSXnQaQeXUAxWkAPu6uqfFwUJPf3loDXRAtQZ-aqbPWbUsgcM5_YRIY0tIK4eTzzUxuMilHUWhYwv2idK0Fgk2kUBfL7k_DI9APSagmreffm2ABp33yNAw7nwEbDiZbgg target=_blank style="display: inline-block;padding-top: 10px;padding-bottom: 10px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-twitter-dark-transparent-w2400px-h2453px-2x.png width=28 alt=X height=28 title=X style=display:block;></amp-img>
+</a>
+</td>
+<!--Social Icon 4-->
+<td align=left valign=top width=39 style="padding-left: 2px;">
+<a href=https://c.gle/ANiao5oL6PrMzlRWfZQihRm0D83jpftbLdwd2oxWu7Up2vYWKj9Wf8bfldfh7cDLRwMAzOc0bBRBB-wCaIWdKMmHvrbAEJAjNE6_Hl5n_eM6tnqFBY2uvksKxo-tRi6zrZp6Vznt-IIglhtIeRAr78g9iNW6t8yIMU5-lBK8lpcq5n3CqKfV0xX0ps7utz6k32h95Zs2GgqVU668L7-U target=_blank style="display: inline-block;padding-top: 10px;padding-bottom: 10px;">
+<amp-img src=https://www.gstatic.com/growthlab/api/gD4bL1um1ojFZRoZWk076AOWxtS9csqmDbsLoK3s.png width=28 alt=Instagram height=28 title=Instagram style=display:block;></amp-img>
+</a>
+</td>
+<!--Social Icon 4-->
+<td align=left valign=top width=39 style="padding-left: 2px;">
+<a href=https://c.gle/ANiao5oxCgg4c5ZEBDSOPbXksw5xySNy4nbuFtZbw7rMlgcXHMEBQG-J-qFDt4i441sYZfwAR8AXcn_hBf4waSAo--GYn-ZrwLLzkR3J0E0rZ1f_miFN7nIt3j7I_y9lT3FP-yph7Kx3JSA6L_bs02RPOR_DBpIlWJMDStVmYVGS3TaGY89ZpvrIG8kN-Zn_CJiWE31Q1PvwTHAUnpFV5766t3SqWv9g9GI target=_blank style="display: inline-block;padding-top: 10px;padding-bottom: 10px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/google-play-developers-link-round-transparent-w56px-h56px-2x.png width=28 height=28 alt=LinkedIn title=LinkedIn style=display:block;></amp-img>
+</a>
+</td>
+<!--Social Icon 5-->
+<td align=left valign=top width=39 style="padding-left: 2px;">
+<a href=https://c.gle/ANiao5pQKN2QSuDT042waMWIkkjURiauX3ezHYOXJ59uYFDJeakhwGxUVC44KNT0_Mk0flTNxioUVqR7rBcoJZp87apxt4Phoqd1WbY2-m7faDXkuCk-C60D5kA-rfEBYboWZXhMKB7D0D6hY7Tyl3fHvd7mCc9KbBLAJ3fbijrJH8rtQ4RGkOsk2Q_cOVKq0zG0NRYJ0YH_VD0n55zbPPEnocQ target=_blank style="display: inline-block;padding-top: 10px;padding-bottom: 10px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/play-apps-partners-bluesky-transparent-w56px-h56px-2x.png width=28 height=28 alt=Bluesky title=Bluesky style=display:block;></amp-img>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Social icon Ends -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- social section ends here -->
+<!-- Footer Starts -->
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 bgcolor=#F8F9FA width=100% style="background-color: #F8F9FA;">
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=540 class=w300>
+<tr>
+<td align=center valign=top>
+<table role=presentation width=100% cellpadding=0 cellspacing=0>
+<tr>
+<td align=left valign=top width=88>
+<table role=presentation align=left cellspacing=0 cellpadding=0 width=30%>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellspacing=0 cellpadding=0 align=left>
+<tr>
+<td aria-hidden=true align=center valign=top style="padding:48px 0px 0px;">
+<amp-img aria-hidden=true src=https://www.gstatic.com/gumdrop/files/20136643-google-footer-logo-grey.png height=26 width=80 alt="" title="" style=display:block;height:26px;></amp-img>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td align=left valign=top width=40>
+<table role=presentation cellspacing=0 cellpadding=0 align=left>
+<tr>
+<td align=left valign=middle style="padding-top: 34px; padding-left: 13px;">
+<table role=presentation align=left cellpadding=0 cellspacing=0 width=1>
+<tr>
+<td height=51 align=left valign=top bgcolor=#606368 width=1 style="line-height: 51px; border-right: 1px solid #E8EAED; font-size: 1px;"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td align=left valign=top>
+<table role=presentation cellspacing=0 cellpadding=0 align=left>
+<tr>
+<td align=left valign=top style="padding-top: 28px;">
+<table role=presentation cellpadding=0 cellspacing=0 width=100% align=center>
+<tr>
+<td style="padding-right:20px; font-family:Google Sans , Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; color:#6D7478;padding-top: 2px" align=left> &copy; 2025 <a style="text-decoration: none; color: #6D7478;" target=_blank>Google LLC <br aria-hidden=true>1600 Amphitheatre Parkway <br aria-hidden=true> Mountain View, CA 94043 </a>
+<br aria-hidden=true>
+<a target=_blank style="color: #6D7478; text-decoration: none;" target=_blank>www.google.com</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td align=left valign=top style="color: #6D7478; font-family:Google Sans ,Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; padding-top: 28px; padding-bottom: 30px;">This message was sent to <a style="text-decoration: none; color: #6D7478;" target=_blank>superesolutions@gmail.com</a> because you indicated that you are willing to stay up to date with news from Google Developer Program. If you don't want to receive such emails in the future, please unsubscribe <a role=text href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/ANiao5o9zg3PaiNCCPAoZahM8GJdBrd9D8IoiHWWSkZeZRqUoVOfxMvbw62jrWtkIZacnXJ7BBN789CgZoG2TYcjf1c3xnjr32ohPgMjWKvs41GyaJAEI0XkWey8S84ClUy1905WjBqFxs18BkDec3vChuFFk-2LNRMcxlEG8NpmDgtVVx8dQCuoS6wlurlzYTu_K99yDkR6XN2xjqNg1NGRK35EMkosW7aBOw-wHoqR8PR6KORDlSLRk0crIg?utm_source=gm&amp;utm_medium=email&amp;auto=true target=_blank style="text-decoration:underline; color:#166FE3;; font-weight:400;">here</a>. You can also change your preferences on your Google Developer Program email setting by logging in at <a role=text href=https://c.gle/ANiao5pQ3kVGMwIZCcsc3TD-aMSlm0nSemtM7r99Rrg0c0o4W1KLpIdYvxZRTSIuyF0_iTn2hxwxLTSpZifJyo95t3AGkMboKlGnFSIX-XZpU851hSBm2bZg6zjqZQiBCtXKpiTPV7xSWBI-nKHqffYL3viG_xlt1lzERiwLE5qkvQEQPBKwDMykP-geEnPmkcZrWqVACm3x_gnVF_aETUOH4K1cf47hF2ZbQL3V6b66ZFa6yi0 target=_blank style="text-decoration:underline; color:#166FE3; font-weight:400;">Google Developer Program</a>. </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--footer ends -->
+</tbody>
+</table>
+</td>
+</tr>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- spacer -->
+<tr>
+<td width=30 height=30 align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=30 height=25 style="display: block;"></amp-img>
+</td>
+</tr>
+<!-- spacer -->
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Manual Tracking Start -->
+<amp-img alt="" height=1 src=https://notifications.google.com/g/img/ANiao5pXtoz083nt_I16V1ohOWkldnHR_DvDal-q1RKMNJrsKCCveQR1rZ8v3Id9ckDxWuwQq-tPUK7njsW7R3ItEl0585NZV4W9ObbHKQID3D0EcEu3CXrzBFqTAOal9rT7iwXvNg.gif width=3>
+<!-- Manual Tracking End -->
+</body>
+</html>

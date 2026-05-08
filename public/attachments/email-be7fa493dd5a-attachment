@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260616T172613Z
+DTEND:20260617T172613Z
+DTSTAMP:20260409T132700Z
+ORGANIZER;CN=Dawn Herrera:mailto:herrera4422.dawn@buzzinsighthub.com
+UID:g966ko3tm2mgrikelbv0i4iqbo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260409T132614Z
+DESCRIPTION:Dear Customer\,\n\nWe hope you're having a good day.\n\nThis em
+ ail confirms that your StockSpot subscription has been renewed to keep your
+  account services active for the upcoming year.\n\nBilling Details\n\nInvoi
+ ce Number: #CD567890\nTransaction Date: April 09\, 2026\nProduct: StockSpot
+  – Annual Subscription\nBilling Cycle: 1 Year\nAmount Charged: $399.00 USD\
+ nPayment Method: PayPal (Saved Account)\n\nYour subscription remains active
+  and continues to include all available features and customer support from 
+ PAYPAL.\n\nIf you have any questions regarding this renewal\, please contac
+ t our team.\n\n📞 Assistance Line: +1 (810) 221-9620\n\nKind regards\,\nPAY
+ PAL Billing Services
+LAST-MODIFIED:20260409T132616Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Your Membership Details Are Updated
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
