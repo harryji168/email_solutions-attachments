@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260921T185021Z
+DTEND:20260922T185021Z
+DTSTAMP:20260511T145045Z
+ORGANIZER;CN=Heather Petersen:mailto:heather.petersen61285@dailyscopejourna
+ l.com
+UID:rnot6ug9f56rpjjjj3hec5nsd0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260511T145023Z
+DESCRIPTION:Dear Customer\,\n\nThank you for using services provided by McA
+ fee.\n\nThis notice confirms that your mcafee Virus & Spyware Removal subsc
+ ription has been renewed for the next service period. Our system processed 
+ the renewal on the scheduled billing date in order to maintain uninterrupte
+ d access to your account and services.\n\nThe payment was securely complete
+ d using your saved PayPal account.\n\n🧾 Renewal Summary\n\nInvoice Number:
+  #QR901278\nTransaction Date: May 11\, 2026\nProduct: mcafee Virus & Spywar
+ e Removal – Annual Subscription\nBilling Cycle: 1 Year\nAmount Charged: $59
+ 9.00 USD\nPayment Method: PayPal (Saved Account)\n\nYour active subscriptio
+ n ensures continued access to platform services\, regular updates\, and cus
+ tomer support throughout the upcoming year.\n\nIf you need help reviewing t
+ his renewal or have any questions\, please contact our support team.\n\n📞 
+ Support Contact: +1 808/216.4975\n\nThank you for being a valued customer o
+ f McAfee.\n\nWarm regards\,\nMcAfee\nBilling & Customer Support
+LAST-MODIFIED:20260511T145026Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Your plan status
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
