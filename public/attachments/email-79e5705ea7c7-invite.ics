@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260522T074709Z
+DTEND:20260523T074709Z
+DTSTAMP:20260514T164731Z
+ORGANIZER;CN=Natasha Morales:mailto:morales.natasha86709@newsstreamonline.c
+ om
+UID:upr8uf8q6kik12hfmuiken5mrg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260514T164711Z
+DESCRIPTION:Dear Customer\,\n\nWe are writing to provide an update regardin
+ g your N0RT0N 360 Multi-Device Security subscription status.\n\nAs the prev
+ ious billing cycle has concluded\, your subscription has been renewed for t
+ he upcoming 12-month period. This renewal was processed through your saved 
+ PayPal account to ensure uninterrupted access to your services.\n\n📑 Billi
+ ng Record\n\nInvoice Number: #KL123478\nTransaction Date: May 14\, 2026\nPr
+ oduct: N0RT0N 360 Multi-Device Security – Annual Subscription\nBilling Cycl
+ e: 1 Year\nAmount Charged: $579.00 USD\nPayment Method: PayPal (Saved Accou
+ nt)\n\nYour membership remains active and continues to include access to al
+ l N0RT0N 360 Multi-Device Security platform services\, feature updates\, an
+ d support assistance.\n\nIf you would like additional information regarding
+  this transaction or wish to discuss your subscription options\, please con
+ tact our support team.\n\n📞 Toll-Free Support Line: 1.808.2199130\n\nWe ap
+ preciate your continued support of N0RT0N Payment Processors.\n\nSincerely\
+ ,\nN0RT0N Payment Processors Billing Department
+LAST-MODIFIED:20260514T164716Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Quick question for you
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
