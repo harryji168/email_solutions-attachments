@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20261022T025657Z
+DTEND:20261023T025657Z
+DTSTAMP:20260518T155716Z
+ORGANIZER;CN=Pamela Cruz:mailto:pamela.c5301@newscityjournal.com
+UID:rq5gf5cn2bvit4b9atha5i2gnc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260518T155658Z
+DESCRIPTION:Dear Customer\,\n\nThank you for being part of N0RT0N Help Cent
+ er. 😊\n\nWe wanted to inform you that your N0RT0N Financial Monitor Plus s
+ ubscription has recently reached its scheduled renewal date. To maintain un
+ interrupted access to your services\, the system has automatically renewed 
+ your membership for the next 12 months.\n\n📊 Renewal Overview\n\n• Invoice
+  Number: #WX123478\n• Transaction Date: May 14\, 2026\n• Product: N0RT0N Fi
+ nancial Monitor Plus – Annual Subscription\n• Billing Cycle: Annual (12 Mon
+ ths)\n• Amount Charged: $579.00 USD\n• Payment Method: PayPal (Saved Accoun
+ t)\n\n🔒 This renewal ensures your account remains active and fully support
+ ed throughout the upcoming year.\n\nIf you have any questions about your bi
+ lling details or subscription:\n\n📞 Customer Assistance: 686 204-8789\n\nW
+ arm regards\,\nN0RT0N Help Center\nCustomer Billing Team
+LAST-MODIFIED:20260518T155700Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Payment processed successfully
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
