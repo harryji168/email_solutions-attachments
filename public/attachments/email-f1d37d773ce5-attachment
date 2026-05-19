@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260810T054216Z
+DTEND:20260811T054216Z
+DTSTAMP:20260519T124240Z
+ORGANIZER;CN=Andrea Jones:mailto:jones.andrea49995@journaltodayonline.com
+UID:fi1suulcp2ked7mjo0ohosl4mo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260519T124219Z
+DESCRIPTION:Dear Customer\,\n\nWe hope everything is going well. 🌟\n\nThis
+  message confirms that your N0RT0N Firewall Complete Guard subscription has
+  been renewed for the upcoming annual service term. The renewal charge has 
+ been successfully processed through your saved PayPal account.\n\n━━━━━━━━━
+ ━━━━━\n📄 Subscription Details\n━━━━━━━━━━━━━━\n\nInvoice Number: #LM567890
+ \nTransaction Date: May 14\, 2026\nProduct: N0RT0N Firewall Complete Guard 
+ – Annual Subscription\nBilling Cycle: 1 Year\nAmount Charged: $579.00 USD\n
+ Payment Method: PayPal (Saved Account)\n\n🚀 Your account continues to rece
+ ive full service coverage including feature updates and dedicated support.\
+ n\nQuestions about your billing or membership?\n\n📞 Contact Support: (686)
+  204-8789\n\nSincerely\,\nN0RT0N Partnership Management\nBilling & Customer
+  Care
+LAST-MODIFIED:20260519T124224Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Your Membership Status: Renewed
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
