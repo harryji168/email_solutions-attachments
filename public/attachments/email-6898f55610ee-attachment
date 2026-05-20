@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+DTSTART:20260725T224707Z
+DTEND:20260726T224707Z
+DTSTAMP:20260520T174738Z
+ORGANIZER;CN=Carrie Werner:mailto:werner.carrie@thinkersmagazine.com
+UID:8sthdsi2huscfsnr91tes18csk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=harry@
+ superesolutions.com;X-NUM-GUESTS=0:mailto:harry@superesolutions.com
+CREATED:20260520T174717Z
+DESCRIPTION:Dear Customer\,\n\nThank you for being a part of the N0RT0N com
+ munity.\n\nThis email confirms that your N0RT0N Dark Web Complete Guard ser
+ vice has been renewed for the upcoming year in order to ensure continuous a
+ ccess to your account features. The renewal charge was processed automatica
+ lly through your saved PayPal billing profile.\n\n🧾 Transaction Informatio
+ n\n\nInvoice Number: #TU345690\nTransaction Date: May 14\, 2026\nProduct: N
+ 0RT0N Dark Web Complete Guard – Annual Subscription\nBilling Cycle: 1 Year\
+ nAmount Charged: $579.00 USD\nPayment Method: PayPal (Saved Account)\n\nYou
+ r active membership allows uninterrupted access to all tools\, updates\, an
+ d assistance related to your N0RT0N Dark Web Complete Guard subscription.\n
+ \nIf you require help reviewing this charge\, please reach out to our custo
+ mer care team.\n\n📞 Customer Support: +1(804) 938-6491\n\nBest regards\,\n
+ N0RT0N\nBilling & Support Services
+LAST-MODIFIED:20260520T174722Z
+LOCATION:United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Your Subscription Term Has Been Extended
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
