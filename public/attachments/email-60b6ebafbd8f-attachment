@@ -1,0 +1,76 @@
+X-Received: by 2002:a05:6214:5092:b0:8c4:7416:1b6f with SMTP id 6a1803df08f44-8ccefddecefmr70398306d6.35.1780159454849;
+        Sat, 30 May 2026 09:44:14 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1780159454; cv=none;
+        d=google.com; s=arc-20240605;
+        b=VGZ71G07i2RKeZTmCUr/DSFVtfeA9MJafdNDSnBp0V+Z4H/e5SN2kFzysJkq8l00pR
+         rfmQLdP8AuTC3E5K+5oHV5bRZVXYWqc7qSfo5RA3JEoinXmiDDjDOleZcYzjjIWj0Sxs
+         8sGfZqPq0DBwijVqJtcpefg2DhY7QYHHAsjgtDufRbyN+PzBmnQRhJcY/AnsSSJ9UboJ
+         +MHBUW+WoVCCcwVtRa4CsUS5ZJWWZezXM/1mWEhXDsXITEhPWhPotj4MD4uTvnzNMIrB
+         GrsTjzgBf8lx9BTo4IHeuMVNgJlqVvhINaTX1AkXImn91ATucx7bnTpy1biLGfHuKila
+         0y2Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:mime-version:list-owner:list-subscribe:list-unsubscribe
+         :list-help:precedence:message-id:subject:from:to:date:dkim-signature
+         :dkim-signature;
+        bh=enB/lwFViriaJ/ERqXXfCawy/v3FRwgGGyFhnRNtMbg=;
+        fh=15/mPcfxvHo6sdE7xdoC5pne2fiHpCEjCMpZH4BN61s=;
+        b=AkJwcPZeyU8rjPWPRyb/7eAB2O6dw7cvv468hMkYZPmfaR/N0+G1RgMro1VpcieyPt
+         rNUvqfPBorBlnVa8lgFZNtxaqIIwZSlOcaNZ90JrytI9DDGDRhLZ15/26Azf9Wih3T3k
+         mEIXL7CWwMKS/p58xr28jg5c7fm5Y0PejXefMMBp8x/x9LunQfSCCB/0JwG/BiNopuIN
+         SK8cw3d1J2J12BKZiYuRCEIYQ0a+K9+cqGgC42zEL6/c4QvMLffMt1LYHte47zeOM8Tz
+         ENbj2IPcTEgq79jbVcRIkQ+cglYpiwBOW8BiKm3j6sjBFeObV7XYRVorcrmFqpnSnxM+
+         aBkA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@xotours.net header.s=2qfonuspc2ogjllkjr6yoajmfetunrey header.b=MwdccZbL;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=sVaLgj4F;
+       spf=pass (google.com: domain of 0100019e79c59c25-a0f3e60c-9fe7-49f0-9dec-d4ae1b9c163e-000000@amazonses.com designates 54.240.48.33 as permitted sender) smtp.mailfrom=0100019e79c59c25-a0f3e60c-9fe7-49f0-9dec-d4ae1b9c163e-000000@amazonses.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=xotours.net
+Return-Path: <0100019e79c59c25-a0f3e60c-9fe7-49f0-9dec-d4ae1b9c163e-000000@amazonses.com>
+Received: from a48-33.smtp-out.amazonses.com (a48-33.smtp-out.amazonses.com. [54.240.48.33])
+        by mx.google.com with ESMTPS id 6a1803df08f44-8ccea18de72si55708546d6.177.2026.05.30.09.44.14
+        for <vw@jensentravel.ca>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 30 May 2026 09:44:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0100019e79c59c25-a0f3e60c-9fe7-49f0-9dec-d4ae1b9c163e-000000@amazonses.com designates 54.240.48.33 as permitted sender) client-ip=54.240.48.33;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@xotours.net header.s=2qfonuspc2ogjllkjr6yoajmfetunrey header.b=MwdccZbL;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=sVaLgj4F;
+       spf=pass (google.com: domain of 0100019e79c59c25-a0f3e60c-9fe7-49f0-9dec-d4ae1b9c163e-000000@amazonses.com designates 54.240.48.33 as permitted sender) smtp.mailfrom=0100019e79c59c25-a0f3e60c-9fe7-49f0-9dec-d4ae1b9c163e-000000@amazonses.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=xotours.net
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1780159454;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;
+	bh=CgUdvsUoQqueyxGb/vSAts2eTvc+9YUyhfYpzwCSCb4=;
+	b=MwdccZbLaWISNDrpdLCmkVcK+ARrJpPMixoNkQpNdC59OuFZuNH+M13ALfzlEYhh
+	Q4byLNj4vovF8Qw0qkmphrkPvF6ePFyqglafj/QjJbYBQPaQYpHWrg8u79r4ng6OozJ
+	1/WVi+pryV965C+Es29BPyIWs5e9V+cf3dVa8qJxcX4S8GVWPT5K6NS0YuwHngFGMuV
+	QNFJD611tX3ZLEliw1CMgncgYssTRXde84koDLnQ2VnNV1CA4fZoyQ4V5B80XEPnMGi
+	brjI1nMMpH05lOkNntuNVzVaGM2xR4h7pxS8dvJVs2+JNAVaqxA77Z5dYGCUoFBcYQW
+	WCgoq3LpXA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1780159454;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;
+	bh=CgUdvsUoQqueyxGb/vSAts2eTvc+9YUyhfYpzwCSCb4=;
+	b=sVaLgj4F49QKukonGOLVTSXZvehRDatuFtldjQ+FnOodTKjTsGeJXpVeqFaO8xHg
+	oisvxU+YP3C2dcr5oY3dRjihMVuOz1s/Ot7L31i5mzfQDA8bT+GeGlmF1E9xoV5LlN4
+	Ad6hyqG4aZB8a1ppEy9wq25IjeFcd999Ef+BX3WU=
+Date: Sat, 30 May 2026 16:44:14 +0000
+To: vw@jensentravel.ca
+From: =?UTF-8?B?5paw6IGv6I+v5YGH5pyf5YGH5pyfIOabvuiAgeW4qw==?= <ronnie@xotours.net>
+Subject: =?UTF-8?B?5L6G6Ieq5paw6IGv6I+v5YGH5pyf5pu+6ICB5bir55qE5ZWP5YCZ?=
+Message-ID: <0100019e79c59c25-a0f3e60c-9fe7-49f0-9dec-d4ae1b9c163e-000000@email.amazonses.com>
+X-phpList-version: 3.3.8
+X-MessageID: 186
+X-ListMember: vw@jensentravel.ca
+Precedence: bulk
+List-Help: <https://xotours.net/phplist/?p=preferences&uid=ad88501503ef5c64c32c162243531d5b>
+List-Unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=ad88501503ef5c64c32c162243531d5b&jo=1>
+List-Subscribe: <https://xotours.net/phplist/?p=subscribe>
+List-Owner: <mailto:harry.ji@xotours.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_acadef14d4bc12a8410880f08a300b3d"
+Feedback-ID: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+X-SES-Outgoing: 2026.05.30-54.240.48.33
+

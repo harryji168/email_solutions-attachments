@@ -1,0 +1,21 @@
+Return-path: <harry@superesolutions.com>
+Received: from [127.0.0.1] (helo=localhost)
+	by server1.supere.tech with esmtpa (Exim 4.96.2)
+	(envelope-from <harry@superesolutions.com>)
+	id 1wTKoe-005wED-1b
+	for yvraccount@xotours.net;
+	Sat, 30 May 2026 07:37:32 -0700
+MIME-Version: 1.0
+Date: Sat, 30 May 2026 07:37:32 -0700
+From: harry@superesolutions.com
+To: Yvraccount <yvraccount@xotours.net>
+Subject: Re: June 2026 Invoice from Super E-Solutions
+In-Reply-To: <24B9AE6C-29E7-4E3D-9D0B-E05720477E98@xotours.net>
+References: <eaf327345a5b522f42d385397dc42164@superesolutions.com>
+ <24B9AE6C-29E7-4E3D-9D0B-E05720477E98@xotours.net>
+Message-ID: <326deec7d2345f84c7aa359610aae32d@superesolutions.com>
+X-Sender: harry@superesolutions.com
+Content-Type: multipart/mixed;
+ boundary="=_019f072280bde4cf9e626f9764b3db59"
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
