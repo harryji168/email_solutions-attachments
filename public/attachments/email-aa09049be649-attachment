@@ -1,0 +1,535 @@
+Received: from SJ0PR13CA0106.namprd13.prod.outlook.com (2603:10b6:a03:2c5::21)
+ by SEZPR06MB7022.apcprd06.prod.outlook.com (2603:1096:101:1f2::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.71.15; Sat, 30 May
+ 2026 23:10:58 +0000
+Received: from SJ1PEPF00001CEA.namprd03.prod.outlook.com
+ (2603:10b6:a03:2c5:cafe::80) by SJ0PR13CA0106.outlook.office365.com
+ (2603:10b6:a03:2c5::21) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.92.7 via Frontend Transport; Sat, 30
+ May 2026 23:10:57 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.8.50)
+ smtp.mailfrom=amazonses.com; dkim=pass (signature was verified)
+ header.d=xotours.net;dkim=pass (signature was verified)
+ header.d=amazonses.com;dmarc=pass action=none
+ header.from=xotours.net;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of amazonses.com designates
+ 54.240.8.50 as permitted sender) receiver=protection.outlook.com;
+ client-ip=54.240.8.50; helo=a8-50.smtp-out.amazonses.com; pr=C
+Received: from a8-50.smtp-out.amazonses.com (54.240.8.50) by
+ SJ1PEPF00001CEA.mail.protection.outlook.com (10.167.242.26) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.92.5 via
+ Frontend Transport; Sat, 30 May 2026 23:10:57 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:F3AE9F3186CDEAD8B68F1C9DECDEE9D9BA7626DE269F947CA676F218E98F60E6;UpperCasedChecksum:685457D3F4B30A21A645FCAAEF67F4BFDE4EE73052D29BD8A0EBCDBBA06CC8B4;SizeAsReceived:2120;Count:19
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1780182656;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;
+	bh=se8+1U9u66k3HgWc/5hiXxgL2EgWv7ZUZGgrHZENrb0=;
+	b=F3Auhx+fTdOcyqe43cEhYOKtH6vBZQkWmYJSD03WzqeemORHe34BxUVDKGkUt65P
+	bz9pb2JCQMFtsJiDEzfldjcTYO18j5XGRn1HgXAhbNoUKgDvQ4/aPBm6HyoZxciVfE2
+	FCLykhzEtblFO5ymg4grnZxlDlU86ew1C1FFNzQg0p1ILuNfHZGylz48+TmdcbrUnI7
+	LH5Wy5fUEIINC9k+tCeNxVmbBUVEOzpulHVNpPsr8emkbnNvx3mpBA2uZkY973ssO3+
+	KYHjbhZfKB+i97WUH2RsVGjruf2UtMOpIEDRCG7QdwmAX14pJr0QNZYfi3uENGEIuAw
+	Zvt6wMyJhQ==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1780182656;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;
+	bh=se8+1U9u66k3HgWc/5hiXxgL2EgWv7ZUZGgrHZENrb0=;
+	b=mp3OKN4ol904sdZPxjbQAJv7IRipYAvRxsCaTyRLQEeGhtYxMXpPkH5iEYwUhMP3
+	9kroBxEUGyIVNaXTolZrog5zNM2DJP7jhnbfcJ+fcJ/skL8Pii/jA2BxokKqd4i8cSG
+	oX7wMPU5MNQKKh6b14xrR2s7nk30Yu8KgydxQkN0=
+Date: Sat, 30 May 2026 23:10:56 +0000
+To: VIVENQIAN-18@HOTMAIL.COM
+From: =?UTF-8?B?5paw6IGv6I+v5YGH5pyf5YGH5pyfIOabvuiAgeW4qw==?= <ronnie@xotours.net>
+Subject: =?UTF-8?B?5L6G6Ieq5paw6IGv6I+v5YGH5pyf5pu+6ICB5bir55qE5ZWP5YCZ?=
+Message-ID: <0100019e7b27a4db-480016cd-cde8-4596-8577-a2e6583ae005-000000@email.amazonses.com>
+X-phpList-version: 3.3.8
+X-MessageID: 186
+X-ListMember: VIVENQIAN-18@HOTMAIL.COM
+Precedence: bulk
+List-Help: <https://xotours.net/phplist/?p=preferences&uid=37c759ae8735dd8a9c984ef1ec007700>
+List-Unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=37c759ae8735dd8a9c984ef1ec007700&jo=1>
+List-Subscribe: <https://xotours.net/phplist/?p=subscribe>
+List-Owner: <mailto:harry.ji@xotours.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_c546c2bf7cc1e78aeaa5a8776d236aba"
+Feedback-ID: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+X-SES-Outgoing: 2026.05.30-54.240.8.50
+X-IncomingHeaderCount: 19
+Return-Path:
+ 0100019e7b27a4db-480016cd-cde8-4596-8577-a2e6583ae005-000000@amazonses.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SJ1PEPF00001CEA:EE_|SEZPR06MB7022:EE_
+X-MS-UserLastLogonTime: 5/29/2026 5:36:41 AM
+X-MS-Office365-Filtering-Correlation-Id: 2fc31886-cc8a-488b-9680-08debea0b500
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 54.240.8.50
+X-SID-PRA: RONNIE@XOTOURS.NET
+X-SID-Result: PASS
+X-Microsoft-Antispam:
+ BCL:0;ARA:1444111002|94000799012|54080799006|2700799033|16002599021|32060799003|970799063|36140799009|2120399003|58200799025|9400799043|5139299004|10300799038|13020799009|1290799033|35120799006|47200799027|34130799006|9000799056|1680799066|3069299007|7099299003|1380799030|1370799030|1360799030|1602099012|3412199025|440099028|1122599022|4302099013|5090599003|30041999003|2406899039;
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?LuRIHpSD3EDEiSwM7P5aGpNAFkz/4b0bfFJjIiz7DOaijSd5oiJNMkSM/GeD?=
+ =?us-ascii?Q?MmBa0/CJKr3iL02/Z8+o3eltcXHB1RIgHkAovpFIa20cwghIJWvczlog7r8O?=
+ =?us-ascii?Q?meGcT88LZslfevLoMe/72Ab1eSycXI/pD7wNHXbrGQVMdi4rA7i06P56NJ8d?=
+ =?us-ascii?Q?4ej1VpGSyJ2XrU7Tk3glOJM4LbwqWTLAQC8IWU2f0vNEIruUsMXELBJj8zc3?=
+ =?us-ascii?Q?TOqsVZPThWGleLk5CXXychCw10/I/0ruI9piQ4j2H/OHPla/NXo2xkduI2qT?=
+ =?us-ascii?Q?64NtfCTrGrdQkB4bhtTeVCSXJwujd36qtlf/vIu95ItQVogwWxn/w8/Vi9KD?=
+ =?us-ascii?Q?/qHDjIso0gH1mIxIc6VpZ+ih5y7qTxlm5ZRBz58AgwDfykxHHC2GvNNtpXcx?=
+ =?us-ascii?Q?WrcGnAlQSWLHvbuGRd3bvwLlkOqwLtvdLMLWskkmd5VmyN+ZjXnVB8dMAcVX?=
+ =?us-ascii?Q?c5yFNkNqcU/lApWrOQWxJd4/NnHLE2KhyXHoYQQ/taWrgvtAfIm/iLkkTq6f?=
+ =?us-ascii?Q?XyFj30UKJq2jMLtsRnxgECNmfupaKML3iYtukIKSKe3cZViMej+Et706Gq2l?=
+ =?us-ascii?Q?ERRaLDdxqwTf2D51f570SGEaZ2aK3+qiF++7a/OTQFLx34AUNefY6XU0xjvx?=
+ =?us-ascii?Q?pthQssrrIXIzTiCRzl2tlIiZiV5hQ5cVTok/qsDDxdlIkFfcJksM60au3Vb5?=
+ =?us-ascii?Q?YL78Qj7/hJ0G/v3LhVXmRq/uaJ2D9AKtDPr+h98ADj4GitoH4BMzI3NkA0e2?=
+ =?us-ascii?Q?aXoozLuLUNRocgn6wEgUE3XehSxNX7hh2go/N22016fYxhOvBYu1DQYSI2Ou?=
+ =?us-ascii?Q?6L438Si+c2rTAzObG1dlUyt3EaauKV/7hA3kZl2nUoc1uWTE+iVedTdXHX6R?=
+ =?us-ascii?Q?rmM4SPR8lcO7hJ+iuSnV7vFCNZA7GCq0Nc6ulo6/zRIaTnEHok/eTJ0B3ojI?=
+ =?us-ascii?Q?Cy9A8tObKPcew5UGRNtjCk4fY2bjDiPKEPL1nNHQNwRyXVAGzdjpWn7/s/86?=
+ =?us-ascii?Q?9LrXMaQHg05H2pXyp+QHhpljBmmHhtsYLDvc6PlWWpoTz52dh4D8soXwD0Px?=
+ =?us-ascii?Q?H6BaBCOBpQi5yZozBeetnZSkoLqdWBMC36Eku9RcEZEeCD6L0vAPdwSHPU3i?=
+ =?us-ascii?Q?s78urNCZV5Gr3AAbRj1RyiiiNpJ7ozVlpszv67JXPFU0dGFMfNyC+Mv1p6r4?=
+ =?us-ascii?Q?T/AUb90QTVMFTM5NG4M9wnsfGP+0i4bT13c/Hjqjw+Rh/kqxBbCbyLfvnrYX?=
+ =?us-ascii?Q?J3Vi/iXx6ULTMpRmIPHm2ioufxCqwcWxDwjNIFbaR7cP8cMFINH8nU99uViE?=
+ =?us-ascii?Q?IpXNHqHkl2FYNEfJfoC/cnVNKZiny2aWwvhmOlOPIVFSZjug+fs/Oqhq3UXn?=
+ =?us-ascii?Q?VgZCYzJm7LFmGqnvGFvnGy9LQf/wTP47O8u7shxoNo0TwgmsbsnIERE0NvGV?=
+ =?us-ascii?Q?ULeWrIELK1y7+NscYCdjyUl4XG8Q/Z9Id3gNrVgvqiefMxFh7Ojz9rvFpnMM?=
+ =?us-ascii?Q?xXOxe5V+eAQjFywF07m1mqvm/QJX0DlLiWvgZ6V2DMtcn4OZxpc38A5uJ1qn?=
+ =?us-ascii?Q?ctRCj+Dr2rYay1ZcHna1zgLvQtX8fx58i8Q6KaxcE9WKoQIxn82XIwdbQGZN?=
+ =?us-ascii?Q?52qSqA7HDqBTV2RtfFV4zg9J0Rps7gXaQLDOLAl7nGpwmBfCyU54G7Qm1bu8?=
+ =?us-ascii?Q?Bph62luCJbbGLAs2fkDPBFgPHby6QUZ71HEqxLJk8tWlJ7bsXPiYuginLJez?=
+ =?us-ascii?Q?6IpsA/Zq/TtjUllo+umpnqUpNvaSSTE5mWGznSnUQZFN8cHXOzUSRupex8nw?=
+ =?us-ascii?Q?x0R4K6bd+/Mr+f/4ZxDd1buPKaojo/XT5jVqk0g7qqNslEeJmwBDFkUaTOX4?=
+ =?us-ascii?Q?cTPlXqOfu2CA5uBxrkHHwsf3ZZnNa5XbdkXGk0xjyrzUPonAgoxzAorkAmoL?=
+ =?us-ascii?Q?kDD2QINkSuy16k3eCzwz891k+oDCqv9WnkYOXGsFpk0rdtA1hKBcL1Q9ejEg?=
+ =?us-ascii?Q?1G6xTJHpArQftLuC+hBEy9jDBb7NFj8L9DUGXZOvg10zrA8sfX+TDA6J1UYB?=
+ =?us-ascii?Q?AoaXPHFvaCI0FJHZmsYwMe15wHKdgN12ryVfXrOS1QZRnv7W3Zbda8gpQnOr?=
+ =?us-ascii?Q?SCOWkUSMo6lxhv+6NciqdwcxfJEYioLJq6AxxYiUzJMUmY5nSfSVAP7ge3JD?=
+ =?us-ascii?Q?fyJiZCQutTw+e2FnSahKExA7/X5hEk6wvKNuSS2y1vSO2vrwIOWEpPZydTI?=
+ =?us-ascii?Q?=3D?=
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 May 2026 23:10:57.0684
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2fc31886-cc8a-488b-9680-08debea0b500
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ SJ1PEPF00001CEA.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEZPR06MB7022
+
+--b1_c546c2bf7cc1e78aeaa5a8776d236aba
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =E5=90=84=E4=BD=8D=E6=9C=8B=E5=8F=8B=E5=A4=A7=E5=AE=B6=E5=A5=BD=EF=BD=
+=9E
+
+ =E9=80=99=E5=85=A9=E5=A4=A9=E5=B7=B2=E7=B6=93=E5=AD=B8=E6=A0=A1=E9=99=
+=B8=E7=BA=8C=E6=94=BE=E6=9A=91=E5=81=87=E4=BA=86~~
+=E7=9B=B8=E4=BF=A1=E5=BE=88=E5=A4=9A=E5=AE=B6=E9=95=B7=E9=96=8B=E5=A7=8B=
+=E5=AE=89=E6=8E=92=E5=AD=A9=E5=AD=90=E5=80=91=E6=9A=91=E5=81=87=E7=9A=84=
+=E6=97=85=E9=81=8A=E4=BA=86=EF=BD=9E=EF=BD=9E=E6=96=B0=E8=81=AF=E8=8F=AF=
+=E5=81=87=E6=9C=9F=E5=9C=A8=E6=9A=91=E5=81=87=E7=82=BA=E6=82=A8=E7=89=B9=
+=E5=88=A5=E5=AE=89=E6=8E=92=E4=BA=86=E5=8A=A0=E6=8B=BF=E5=A4=A7=E6=B4=9B=
+=E7=A3=AF=E5=B1=B1=E8=84=88=EF=BC=8C=E9=82=84=E6=9C=89=E5=8A=A0=E6=8B=BF=
+=E5=A4=A7=E6=9D=B1=E5=B2=B8=E7=9A=84=E6=84=9B=E5=BE=B7=E8=8F=AF=E7=8E=8B=
+=E5=AD=90=E5=B3=B6=EF=BC=88=E5=85=B6=E4=B8=AD=E8=A1=8C=E7=A8=8B=E5=85=A7=
+=E5=B7=B2=E7=B6=93=E5=8C=85=E6=8B=AC=E7=B2=BE=E5=BD=A9=E7=9A=84=E5=8A=A0=
+=E6=9D=B1=E4=BA=94=E5=A4=A9=E9=81=8A=EF=BC=89=EF=BD=9E=EF=BD=9E
+
+ =E9=82=84=E6=9C=89=E6=9C=80=E6=96=B0=E6=9C=80=E6=A3=92=E7=9A=849/03 =
+=E5=87=BA=E7=99=BC=E7=9A=84=E9=A6=AC=E4=BE=86=E8=A5=BF=E4=BA=9E+=E5=B7=
+=B4=E5=8E=98=E5=B3=B6 =E8=B6=85=E7=B4=9A=E8=B1=AA=E8=8F=AF10
+=E5=A4=A9=E9=81=8A
+
+https://www.youtube.com/watch?v=3DJBAc_LCS2mk
+
+ =E6=8E=A5=E8=91=97=E4=B9=9D=E6=9C=88=E4=BB=BD=E7=BE=8E=E9=BA=97=E7=9A=
+=84=E7=A7=8B=E5=A4=A9=E6=9C=80=E9=81=A9=E5=90=88=E6=AD=90=E6=B4=B2=E7=9A=
+=84=E6=97=85=E9=81=8A=EF=BD=9E=E6=88=91=E5=80=91=E7=89=B9=E5=88=A5=E5=AE=
+=89=E6=8E=92=E4=BA=86=EF=BD=9E
+
+ 9=E6=9C=8814=E5=87=BA=E7=99=BC=E7=9A=84=E7=91=9E=E5=A3=AB=E7=81=AB=
+=E8=BB=8A=E4=B9=8B=E6=97=85=EF=BD=9E
+
+ 9=E6=9C=8822=E5=8C=97=E6=AC=A7=E5=9B=9B=E5=9C=8B=E3=80=8C=E8=8A=AC=
+=E8=98=AD=E3=80=81=E7=91=9E=E5=85=B8=E3=80=81=E6=8C=AA=E5=A8=81=E3=80=81=
+=E4=B8=B9=E9=BA=A5=E3=80=81=E9=9B=99=E5=B3=BD=E7=81=A3=E3=80=81=E9=9B=99=
+=E9=83=B5=E8=BC=AA=E5=8D=81=E5=A4=A9=E7=B2=BE=E5=BD=A9=E9=81=8A=EF=BD=9E
+
+ 9=E6=9C=8830
+=E5=87=BA=E7=99=BC=E7=9A=84=EF=BC=88=E6=88=90=E9=83=BD=E5=88=97=E8=BB=8A=
+=E3=80=81=E7=86=8A=E8=B2=93=E8=99=9F=E5=88=86=E5=B0=88=E5=88=97=E7=81=AB=
+=E8=BB=8A=EF=BC=89=E5=8D=97=E5=8C=97=E7=96=86=E8=B6=85=E7=B4=9A=E8=B1=AA=
+=E8=8F=AF15
+=E5=A4=A9=E9=81=8A=EF=BD=9E=EF=BD=9E
+
+ 2026=E6=96=B0=E8=81=AF=E8=8F=AF=E6=97=85=E9=81=8A=E8=A1=8C=E7=A8=8B=
+=E4=B8=80=E8=A6=BD=E8=A1=A8
+
+ 2026-8=E6=9C=88=E4=BB=BD-2027 4=E6=9C=88=E4=BB=BD =E5=8A=A0=E6=8B=BF=
+=E5=A4=A7 =E9=BB=83=E5=88=80=E9=8E=AE=E5=8C=97=E6=A5=B5=E5=85=89=EF=BC=
+=88=E5=A4=A9=E5=A4=A9=E5=87=BA=E7=99=BC=EF=BC=89
+
+ 2026 =E5=8F=B0=E7=81=A3=E7=92=B0=E5=B3=B65=E5=A4=A9=E9=81=8A=EF=BC=88=
+=E5=85=A8=E5=B9=B4=E6=AF=8F=E9=80=B1=E4=B8=80=E5=8F=B0=E7=81=A3=E5=87=BA=
+=E7=99=BC=EF=BC=89
+
+ 2026 =E6=BE=B3=E6=B4=B2=E5=A2=A8=E7=88=BE=E6=9C=AC=E6=82=89=E5=B0=BC8=
+=E5=A4=A97=E6=99=9A=E7=B2=BE=E5=BD=A9=E9=81=8A=EF=BC=88=E6=AF=8F=E9=80=
+=B1=E4=BA=94=E6=8A=B5=E9=81=94=EF=BC=89
+
+ 2026
+=E6=96=B0=E8=A5=BF=E8=98=AD=E5=8D=97=E5=B3=B67=E5=A4=A96=E6=99=9A=E4=BC=
+=91=E9=96=92=E4=B9=8B=E6=97=85=EF=BC=88=E6=AF=8F=E9=80=B1=E4=B8=80=E3=80=
+=81=E4=BA=94=E6=8A=B5=E9=81=94=E5=9F=BA=E7=9D=A3=E5=9F=8E=EF=BC=89
+
+ 2026 5=E6=9C=88=E8=87=B39=E6=9C=88 =E6=9A=91=E5=81=87 =E6=BA=AB=E5=93=
+=A5=E8=8F=AF=E3=80=81=E6=B4=9B=E7=A3=AF=E5=B1=B1=E8=84=886=E6=88=967=
+=E6=97=A5=E9=81=8A
+
+ 2026 5=E6=9C=88=E8=87=B310=E6=9C=88 =E6=9A=91=E5=81=87 =E5=8A=A0=E6=9D=
+=B1=E5=90=8D=E5=9F=8E5=E6=88=966=E6=97=A5=E8=B1=AA=E8=8F=AF=E9=81=8A
+
+ 2026 5=E6=9C=88=E8=87=B310=E6=9C=88 =E6=9A=91=E5=81=87 =E6=84=9B=E5=BE=
+=B7=E8=8F=AF=E7=8E=8B=E5=AD=90=E5=B3=B69=E6=88=9610=E6=97=A5
+
+ 2026
+6=E6=9C=8813=E6=97=A5=E8=87=B36=E6=9C=8825=E6=97=A5=E3=80=8E=E6=96=B0=
+=E6=9D=B1=E6=96=B9=E5=BF=AB=E8=BB=8A=E3=80=8F-=E5=8D=97=E5=8C=97=E7=96=
+=86=E6=8E=A2=E7=A7=98=E8=A5=BF=E5=9F=9F13=E6=97=A5=E4=B9=8B=E6=97=85=
+=E3=80=8E=E6=96=B0=E8=A1=8C=E7=A8=8B=E3=80=8F
+
+ 2026 7=E6=9C=8826=E6=97=A5=E8=87=B38=E6=9C=887=E6=97=A5 =E5=9C=9F=E8=80=
+=B3=E5=85=B6=E6=B5=AA=E6=BC=AB=E4=B9=8B=E6=97=8513=E5=A4=A9
+
+ 2026 9=E6=9C=883=E6=97=A5=E8=87=B312=E6=97=A5
+=E9=A6=AC=E4=BE=86=E8=A5=BF=E4=BA=9E=E3=80=81=E5=8D=B0=E5=BA=A6=E5=B0=BC=
+=E8=A5=BF=E4=BA=9E=E3=80=8E=E5=B7=B4=E9=87=8C=E5=B3=B6=E3=80=8F10=E5=A4=
+=A9=E8=B1=AA=E8=8F=AF=E4=B9=8B=E6=97=85=E3=80=8AAM1300
+DJ=E5=B0=87=E5=B8=B6=E6=82=A8=E9=96=8B=E5=95=9F=E4=B8=80=E6=AE=B5=E7=B2=
+=BE=E5=BD=A9=E4=B9=8B=E6=97=85=EF=BC=81=E3=80=8B=E3=80=8E=E6=96=B0=E8=A1=
+=8C=E7=A8=8B=E3=80=8F
+
+ 2026 9=E6=9C=8814=E6=97=A5=E8=87=B39=E6=9C=8823=E6=97=A5 =E7=91=9E=
+=E5=A3=AB10=E5=A4=A9=E7=81=AB=E8=BB=8A=E4=B9=8B=E6=97=85
+
+ 2026 9=E6=9C=8822=E6=97=A5=E8=87=B310=E6=9C=881=E6=97=A5
+=E5=8C=97=E6=AD=90=E5=9B=9B=E5=9C=8B=E3=80=8E=E8=8A=AC=E8=98=AD=E3=80=81=
+=E7=91=9E=E5=85=B8=E3=80=81=E6=8C=AA=E5=A8=81=E3=80=81=E4=B8=B9=E9=BA=A5=
+=E3=80=8F=E9=9B=99=E5=B3=BD=E7=81=A3&=E9=9B=99=E9=81=8A=E8=BC=AA10=E5=A4=
+=A9
+
+ =E2=98=85=E7=91=9E=E5=A3=AB=E5=86=8D=E5=8A=A0=E4=B8=8A=E5=8C=97=E6=AD=
+=90=E5=9B=9B=E5=9C=8B=EF=BC=8C=E9=80=A3=E8=91=97=E4=B8=80=E8=B5=B7=E7=8E=
+=A9=EF=BC=8C=E4=B8=80=E5=BC=B5=E5=9C=8B=E9=9A=9B=E6=A9=9F=E7=A5=A8=E7=8E=
+=A9=E5=88=B0=E5=BA=95=EF=BC=8C=E7=9C=81=E6=99=82=E5=8F=88=E7=9C=81=E9=8C=
+=A2=EF=BC=81
+
+ 2026
+9=E6=9C=8830=E6=97=A5=E8=87=B310=E6=9C=8814=E6=97=A5=EF=BC=88=E6=88=90=
+=E9=83=BD-=E7=86=8A=E8=B2=93=E8=99=9F=E5=B0=88=E5=88=97=E7=81=AB=E8=BB=
+=8A=EF=BC=89=E5=8D=97=E5=8C=97=E7=96=86=E6=A5=93=E7=B4=85=E5=B0=88=E5=88=
+=97=E5=96=80=E7=B4=8D=E6=96=AF=E7=A6=BE=E6=9C=A8=E3=80=81=E5=96=80=E4=BB=
+=80=E6=97=85=E6=8B=8D+=E7=9B=A4=E9=BE=8D=E5=8F=A4=E9=81=9315=E5=A4=A9=
+=E3=80=8E=E6=96=B0=E8=A1=8C=E7=A8=8B=E3=80=8F
+
+ 2026 10=E6=9C=887=E6=97=A5=E8=87=B310=E6=9C=8813=E6=97=A5
+=E5=8F=B0=E7=81=A3=E9=9B=99=E5=8D=81=E5=9C=8B=E6=85=B6=E6=AD=A1=E6=A8=827=
+=E5=A4=A9=E9=81=8A=E3=80=8E=E5=85=A8=E7=A8=8B=E4=BA=94=E6=98=9F=E9=85=92=
+=E5=BA=97=E3=80=8F
+
+ 2026 10=E6=9C=8813=E6=97=A5=E8=87=B310=E6=9C=8822=E6=97=A5
+=E8=B6=8A=E5=8D=97=E8=83=A1=E5=BF=97=E6=98=8E+=E5=AF=8C=E5=9C=8B=E5=B3=
+=B6=E3=80=81=E6=B2=B3=E5=85=A7(=E4=B8=8B=E9=BE=8D=E7=81=A3)=E8=B6=85=
+=E7=B4=9A=E8=B1=AA=E8=8F=AF=E7=B2=BE=E5=BD=A910=E6=97=A5=E9=81=8A
+
+ 2026 10=E6=9C=8823=E6=97=A5=E8=87=B310=E6=9C=8831=E6=97=A5 =E4=B8=80=
+=E5=B9=B4=E4=B8=80=E5=BA=A6 =E9=84=AD=E5=B7=9E
+=E9=96=8B=E5=B0=81=E3=80=90=E8=B3=9E=E8=8F=8A=E5=B1=95=E3=80=919=E6=97=
+=A57=E6=99=9A=EF=BD=9E=E3=80=8E=E5=AD=A3=E7=AF=80=E7=B2=BE=E9=81=B8=
+=E3=80=8F=E3=80=8E=E6=96=B0=E8=A1=8C=E7=A8=8B=E3=80=8F
+
+ 2026 10=E6=9C=8825=E6=97=A5=E8=87=B311=E6=9C=886=E6=97=A5 =E5=9C=9F=
+=E8=80=B3=E5=85=B613=E5=A4=A9=E6=B5=AA=E6=BC=AB=E4=B9=8B=E6=97=85
+
+ 2026 11=E6=9C=887=E6=97=A5=E8=87=B311=E6=9C=8817=E6=97=A5 =E5=9F=83=
+=E5=8F=8A&=E5=B0=BC=E7=BE=85=E6=B2=B3=E9=83=B5=E8=BC=AA11=E5=A4=A99=
+=E6=99=9A=E3=80=8E=E6=96=B0=E8=A1=8C=E7=A8=8B=E3=80=8F
+
+ 2026 11=E6=9C=8822=E6=97=A5=E8=87=B312=E6=9C=881=E6=97=A5 =E8=A5=BF=
+=E7=8F=AD=E7=89=99=EF=BC=8A=E8=91=A1=E8=90=84=E7=89=9910=E5=A4=A9=E6=B7=
+=B1=E5=BA=A6=E9=81=8A
+
+ 2026 11=E6=9C=8830=E6=97=A5=E8=87=B312=E6=9C=889=E6=97=A5 =E5=8C=97=
+=E9=9D=9E =E6=91=A9=E6=B4=9B=E5=93=A510=E5=A4=A9=E9=81=8A=E5=85=A8=E8=A6=
+=BD
+
+ =E7=A5=9D=E5=A4=A7=E5=AE=B6=E5=B9=B3=E5=AE=89=E5=96=9C=E6=A8=82=EF=BC=
+=81
+
+ =E6=9B=BE=E8=80=81=E5=B8=AB =E6=95=AC=E4=B8=8A
+
+ =E6=AD=A1=E8=BF=8E=E5=A4=A7=E5=AE=B6=E4=B8=8A=E6=96=B0=E8=81=AF=E8=8F=
+=AF=E5=81=87=E6=9C=9F=E7=9A=84=E7=B6=B2=E7=AB=99 https://www.xotours.net
+=E7=9C=8B=E7=9C=8B=E6=9B=B4=E5=A4=9A=E7=9A=84=E8=A1=8C=E7=A8=8B=EF=BD=9E
+
+ =E4=B9=9F=E5=8F=AF=E4=BB=A5=E5=8A=A0=E6=88=91=E7=9A=84 WeChat ID : ronniec=
+hen823
+
+ Line ID : ronniechen
+
+ =E8=81=AF=E7=B5=A1=E9=9B=BB=E8=A9=B1 626-618-0918 =E6=88=96 1-800-978-1788=
+ USA
+
+ XO TOURS 5546 Rosemead Blvd #101, Temple City, CA 91780
+
+ =E5=85=A8=E7=BE=8E=E5=85=8D=E8=B2=BB=E9=9B=BB=E8=A9=B1=EF=BC=9A1-800-978-1=
+788
+
+ 1-626-618-0918
+
+ =E5=8A=A0=E6=8B=BF=E5=A4=A7=E9=9B=BB=E8=A9=B1=EF=BC=9A604-738-6188
+
+ website: https://www.xotours.net
+
+
+
+
+
+
+--b1_c546c2bf7cc1e78aeaa5a8776d236aba
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>=0A        <meta content=3D"text/html;charset=3DUTF-8" http-equ=
+iv=3D"Content-Type">=0A        <meta content=3D"width=3Ddevice-width"/>=0A =
+       <title></title></head><body><table align=3D"center" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td>
+=09=09=09<p><span style=3D"font-size:22px;"><strong>=E5=90=84=E4=BD=8D=
+=E6=9C=8B=E5=8F=8B=E5=A4=A7=E5=AE=B6=E5=A5=BD=EF=BD=9E</strong></span></p>
+
+=09=09=09<p>&nbsp;</p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>=E9=80=99=E5=85=A9=
+=E5=A4=A9=E5=B7=B2=E7=B6=93=E5=AD=B8=E6=A0=A1=E9=99=B8=E7=BA=8C=E6=94=BE=
+=E6=9A=91=E5=81=87=E4=BA=86~~ =E7=9B=B8=E4=BF=A1=E5=BE=88=E5=A4=9A=E5=AE=
+=B6=E9=95=B7=E9=96=8B=E5=A7=8B=E5=AE=89=E6=8E=92=E5=AD=A9=E5=AD=90=E5=80=
+=91=E6=9A=91=E5=81=87=E7=9A=84=E6=97=85=E9=81=8A=E4=BA=86=EF=BD=9E=EF=BD=
+=9E=E6=96=B0=E8=81=AF=E8=8F=AF=E5=81=87=E6=9C=9F=E5=9C=A8=E6=9A=91=E5=81=
+=87=E7=82=BA=E6=82=A8=E7=89=B9=E5=88=A5=E5=AE=89=E6=8E=92=E4=BA=86=E5=8A=
+=A0=E6=8B=BF=E5=A4=A7=E6=B4=9B=E7=A3=AF=E5=B1=B1=E8=84=88=EF=BC=8C=E9=82=
+=84=E6=9C=89=E5=8A=A0=E6=8B=BF=E5=A4=A7=E6=9D=B1=E5=B2=B8=E7=9A=84=E6=84=
+=9B=E5=BE=B7=E8=8F=AF=E7=8E=8B=E5=AD=90=E5=B3=B6=EF=BC=88=E5=85=B6=E4=B8=
+=AD=E8=A1=8C=E7=A8=8B=E5=85=A7=E5=B7=B2=E7=B6=93=E5=8C=85=E6=8B=AC=E7=B2=
+=BE=E5=BD=A9=E7=9A=84=E5=8A=A0=E6=9D=B1=E4=BA=94=E5=A4=A9=E9=81=8A=EF=BC=
+=89=EF=BD=9E=EF=BD=9E<br />
+=09=09=09=E9=82=84=E6=9C=89=E6=9C=80=E6=96=B0=E6=9C=80=E6=A3=92=E7=9A=849/0=
+3 =E5=87=BA=E7=99=BC=E7=9A=84=E9=A6=AC=E4=BE=86=E8=A5=BF=E4=BA=9E+=E5=B7=
+=B4=E5=8E=98=E5=B3=B6 =E8=B6=85=E7=B4=9A=E8=B1=AA=E8=8F=AF10 =E5=A4=A9=
+=E9=81=8A</strong></span></p>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+
+<p><a href=3D"https://www.youtube.com/watch?v=3DJBAc_LCS2mk" target=3D"_bla=
+nk"><img alt=3D"https://www.youtube.com/watch?v=3DJBAc_LCS2mk" src=3D"https=
+://xotours.net/uploadimages/image/Screenshot%2005-29-2026%2022.04.29.png" s=
+tyle=3D"width: 80%; " /><br />
+<span style=3D"font-size:20px;">https://www.youtube.com/watch?v=3DJBAc_LCS2=
+mk</span></a></p>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td>
+=09=09=09<p><span style=3D"font-size:22px;"><strong>=E6=8E=A5=E8=91=97=
+=E4=B9=9D=E6=9C=88=E4=BB=BD=E7=BE=8E=E9=BA=97=E7=9A=84=E7=A7=8B=E5=A4=A9=
+=E6=9C=80=E9=81=A9=E5=90=88=E6=AD=90=E6=B4=B2=E7=9A=84=E6=97=85=E9=81=8A=
+=EF=BD=9E=E6=88=91=E5=80=91=E7=89=B9=E5=88=A5=E5=AE=89=E6=8E=92=E4=BA=86=
+=EF=BD=9E</strong><br />
+=09=09=09<strong>9=E6=9C=8814=E5=87=BA=E7=99=BC=E7=9A=84=E7=91=9E=E5=A3=
+=AB=E7=81=AB=E8=BB=8A=E4=B9=8B=E6=97=85=EF=BD=9E</strong><br />
+=09=09=09<strong>9=E6=9C=8822=E5=8C=97=E6=AC=A7=E5=9B=9B=E5=9C=8B=E3=80=
+=8C=E8=8A=AC=E8=98=AD=E3=80=81=E7=91=9E=E5=85=B8=E3=80=81=E6=8C=AA=E5=A8=
+=81=E3=80=81=E4=B8=B9=E9=BA=A5=E3=80=81=E9=9B=99=E5=B3=BD=E7=81=A3=E3=80=
+=81=E9=9B=99=E9=83=B5=E8=BC=AA=E5=8D=81=E5=A4=A9=E7=B2=BE=E5=BD=A9=E9=81=
+=8A=EF=BD=9E</strong><br />
+=09=09=09<strong>9=E6=9C=8830 =E5=87=BA=E7=99=BC=E7=9A=84=EF=BC=88=E6=88=
+=90=E9=83=BD=E5=88=97=E8=BB=8A=E3=80=81=E7=86=8A=E8=B2=93=E8=99=9F=E5=88=
+=86=E5=B0=88=E5=88=97=E7=81=AB=E8=BB=8A=EF=BC=89=E5=8D=97=E5=8C=97=E7=96=
+=86=E8=B6=85=E7=B4=9A=E8=B1=AA=E8=8F=AF15 =E5=A4=A9=E9=81=8A=EF=BD=9E=
+=EF=BD=9E</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026=E6=96=B0=E8=81=
+=AF=E8=8F=AF=E6=97=85=E9=81=8A=E8=A1=8C=E7=A8=8B=E4=B8=80=E8=A6=BD=E8=A1=
+=A8</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026-8=E6=9C=88=
+=E4=BB=BD-2027 4=E6=9C=88=E4=BB=BD =E5=8A=A0=E6=8B=BF=E5=A4=A7 =E9=BB=83=
+=E5=88=80=E9=8E=AE=E5=8C=97=E6=A5=B5=E5=85=89=EF=BC=88=E5=A4=A9=E5=A4=A9=
+=E5=87=BA=E7=99=BC=EF=BC=89</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 =E5=8F=B0=E7=81=
+=A3=E7=92=B0=E5=B3=B65=E5=A4=A9=E9=81=8A=EF=BC=88=E5=85=A8=E5=B9=B4=
+=E6=AF=8F=E9=80=B1=E4=B8=80=E5=8F=B0=E7=81=A3=E5=87=BA=E7=99=BC=EF=BC=89</s=
+trong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 =E6=BE=B3=E6=B4=
+=B2=E5=A2=A8=E7=88=BE=E6=9C=AC=E6=82=89=E5=B0=BC8=E5=A4=A97=E6=99=9A=
+=E7=B2=BE=E5=BD=A9=E9=81=8A=EF=BC=88=E6=AF=8F=E9=80=B1=E4=BA=94=E6=8A=B5=
+=E9=81=94=EF=BC=89</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 =E6=96=B0=E8=A5=
+=BF=E8=98=AD=E5=8D=97=E5=B3=B67=E5=A4=A96=E6=99=9A=E4=BC=91=E9=96=92=
+=E4=B9=8B=E6=97=85=EF=BC=88=E6=AF=8F=E9=80=B1=E4=B8=80=E3=80=81=E4=BA=94=
+=E6=8A=B5=E9=81=94=E5=9F=BA=E7=9D=A3=E5=9F=8E=EF=BC=89</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 5=E6=9C=88=
+=E8=87=B39=E6=9C=88 =E6=9A=91=E5=81=87 =E6=BA=AB=E5=93=A5=E8=8F=AF=E3=80=
+=81=E6=B4=9B=E7=A3=AF=E5=B1=B1=E8=84=886=E6=88=967=E6=97=A5=E9=81=8A</stron=
+g></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 5=E6=9C=88=
+=E8=87=B310=E6=9C=88 =E6=9A=91=E5=81=87 =E5=8A=A0=E6=9D=B1=E5=90=8D=
+=E5=9F=8E5=E6=88=966=E6=97=A5=E8=B1=AA=E8=8F=AF=E9=81=8A</strong></span></p=
+>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 5=E6=9C=88=
+=E8=87=B310=E6=9C=88 =E6=9A=91=E5=81=87 =E6=84=9B=E5=BE=B7=E8=8F=AF=
+=E7=8E=8B=E5=AD=90=E5=B3=B69=E6=88=9610=E6=97=A5</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 6=E6=9C=8813=
+=E6=97=A5=E8=87=B36=E6=9C=8825=E6=97=A5=E3=80=8E=E6=96=B0=E6=9D=B1=E6=96=
+=B9=E5=BF=AB=E8=BB=8A=E3=80=8F-=E5=8D=97=E5=8C=97=E7=96=86=E6=8E=A2=
+=E7=A7=98=E8=A5=BF=E5=9F=9F13=E6=97=A5=E4=B9=8B=E6=97=85=E3=80=8E=E6=96=
+=B0=E8=A1=8C=E7=A8=8B=E3=80=8F</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 7=E6=9C=8826=
+=E6=97=A5=E8=87=B38=E6=9C=887=E6=97=A5 =E5=9C=9F=E8=80=B3=E5=85=B6=E6=B5=
+=AA=E6=BC=AB=E4=B9=8B=E6=97=8513=E5=A4=A9</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 9=E6=9C=883=
+=E6=97=A5=E8=87=B312=E6=97=A5 =E9=A6=AC=E4=BE=86=E8=A5=BF=E4=BA=9E=E3=80=
+=81=E5=8D=B0=E5=BA=A6=E5=B0=BC=E8=A5=BF=E4=BA=9E=E3=80=8E=E5=B7=B4=E9=87=
+=8C=E5=B3=B6=E3=80=8F10=E5=A4=A9=E8=B1=AA=E8=8F=AF=E4=B9=8B=E6=97=85=
+=E3=80=8AAM1300 DJ=E5=B0=87=E5=B8=B6=E6=82=A8=E9=96=8B=E5=95=9F=E4=B8=80=
+=E6=AE=B5=E7=B2=BE=E5=BD=A9=E4=B9=8B=E6=97=85=EF=BC=81=E3=80=8B=E3=80=8E=
+=E6=96=B0=E8=A1=8C=E7=A8=8B=E3=80=8F</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 9=E6=9C=8814=
+=E6=97=A5=E8=87=B39=E6=9C=8823=E6=97=A5 =E7=91=9E=E5=A3=AB10=E5=A4=A9=
+=E7=81=AB=E8=BB=8A=E4=B9=8B=E6=97=85</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 9=E6=9C=8822=
+=E6=97=A5=E8=87=B310=E6=9C=881=E6=97=A5 =E5=8C=97=E6=AD=90=E5=9B=9B=
+=E5=9C=8B=E3=80=8E=E8=8A=AC=E8=98=AD=E3=80=81=E7=91=9E=E5=85=B8=E3=80=81=
+=E6=8C=AA=E5=A8=81=E3=80=81=E4=B8=B9=E9=BA=A5=E3=80=8F=E9=9B=99=E5=B3=BD=
+=E7=81=A3&amp;=E9=9B=99=E9=81=8A=E8=BC=AA10=E5=A4=A9</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>=E2=98=85=E7=91=9E=
+=E5=A3=AB=E5=86=8D=E5=8A=A0=E4=B8=8A=E5=8C=97=E6=AD=90=E5=9B=9B=E5=9C=8B=
+=EF=BC=8C=E9=80=A3=E8=91=97=E4=B8=80=E8=B5=B7=E7=8E=A9=EF=BC=8C=E4=B8=80=
+=E5=BC=B5=E5=9C=8B=E9=9A=9B=E6=A9=9F=E7=A5=A8=E7=8E=A9=E5=88=B0=E5=BA=95=
+=EF=BC=8C=E7=9C=81=E6=99=82=E5=8F=88=E7=9C=81=E9=8C=A2=EF=BC=81</strong></s=
+pan></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 9=E6=9C=8830=
+=E6=97=A5=E8=87=B310=E6=9C=8814=E6=97=A5=EF=BC=88=E6=88=90=E9=83=BD-=
+=E7=86=8A=E8=B2=93=E8=99=9F=E5=B0=88=E5=88=97=E7=81=AB=E8=BB=8A=EF=BC=89=
+=E5=8D=97=E5=8C=97=E7=96=86=E6=A5=93=E7=B4=85=E5=B0=88=E5=88=97=E5=96=80=
+=E7=B4=8D=E6=96=AF=E7=A6=BE=E6=9C=A8=E3=80=81=E5=96=80=E4=BB=80=E6=97=85=
+=E6=8B=8D+=E7=9B=A4=E9=BE=8D=E5=8F=A4=E9=81=9315=E5=A4=A9=E3=80=8E=E6=96=
+=B0=E8=A1=8C=E7=A8=8B=E3=80=8F</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 10=E6=9C=887=
+=E6=97=A5=E8=87=B310=E6=9C=8813=E6=97=A5 =E5=8F=B0=E7=81=A3=E9=9B=99=
+=E5=8D=81=E5=9C=8B=E6=85=B6=E6=AD=A1=E6=A8=827=E5=A4=A9=E9=81=8A=E3=80=
+=8E=E5=85=A8=E7=A8=8B=E4=BA=94=E6=98=9F=E9=85=92=E5=BA=97=E3=80=8F</strong>=
+</span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 10=E6=9C=8813=
+=E6=97=A5=E8=87=B310=E6=9C=8822=E6=97=A5 =E8=B6=8A=E5=8D=97=E8=83=A1=
+=E5=BF=97=E6=98=8E+=E5=AF=8C=E5=9C=8B=E5=B3=B6=E3=80=81=E6=B2=B3=E5=85=
+=A7(=E4=B8=8B=E9=BE=8D=E7=81=A3)=E8=B6=85=E7=B4=9A=E8=B1=AA=E8=8F=AF=
+=E7=B2=BE=E5=BD=A910=E6=97=A5=E9=81=8A</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 10=E6=9C=8823=
+=E6=97=A5=E8=87=B310=E6=9C=8831=E6=97=A5 =E4=B8=80=E5=B9=B4=E4=B8=80=
+=E5=BA=A6 =E9=84=AD=E5=B7=9E =E9=96=8B=E5=B0=81=E3=80=90=E8=B3=9E=E8=8F=
+=8A=E5=B1=95=E3=80=919=E6=97=A57=E6=99=9A=EF=BD=9E=E3=80=8E=E5=AD=A3=
+=E7=AF=80=E7=B2=BE=E9=81=B8=E3=80=8F=E3=80=8E=E6=96=B0=E8=A1=8C=E7=A8=8B=
+=E3=80=8F</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 10=E6=9C=8825=
+=E6=97=A5=E8=87=B311=E6=9C=886=E6=97=A5 =E5=9C=9F=E8=80=B3=E5=85=B613=
+=E5=A4=A9=E6=B5=AA=E6=BC=AB=E4=B9=8B=E6=97=85</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 11=E6=9C=887=
+=E6=97=A5=E8=87=B311=E6=9C=8817=E6=97=A5 =E5=9F=83=E5=8F=8A&amp;=E5=B0=
+=BC=E7=BE=85=E6=B2=B3=E9=83=B5=E8=BC=AA11=E5=A4=A99=E6=99=9A=E3=80=8E=
+=E6=96=B0=E8=A1=8C=E7=A8=8B=E3=80=8F</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 11=E6=9C=8822=
+=E6=97=A5=E8=87=B312=E6=9C=881=E6=97=A5 =E8=A5=BF=E7=8F=AD=E7=89=99=
+=EF=BC=8A=E8=91=A1=E8=90=84=E7=89=9910=E5=A4=A9=E6=B7=B1=E5=BA=A6=E9=81=
+=8A</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>2026 11=E6=9C=8830=
+=E6=97=A5=E8=87=B312=E6=9C=889=E6=97=A5 =E5=8C=97=E9=9D=9E =E6=91=A9=
+=E6=B4=9B=E5=93=A510=E5=A4=A9=E9=81=8A=E5=85=A8=E8=A6=BD</strong></span></p=
+>
+
+=09=09=09<p>&nbsp;</p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>=E7=A5=9D=E5=A4=A7=
+=E5=AE=B6=E5=B9=B3=E5=AE=89=E5=96=9C=E6=A8=82=EF=BC=81</strong></span></p>
+
+=09=09=09<p>&nbsp;</p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>=E6=9B=BE=E8=80=81=
+=E5=B8=AB =E6=95=AC=E4=B8=8A</strong><br />
+=09=09=09<strong>=E6=AD=A1=E8=BF=8E=E5=A4=A7=E5=AE=B6=E4=B8=8A=E6=96=B0=
+=E8=81=AF=E8=8F=AF=E5=81=87=E6=9C=9F=E7=9A=84=E7=B6=B2=E7=AB=99 <a href=3D"=
+https://www.xotours.net" target=3D"_blank">www.xotours.net</a> =E7=9C=8B=
+=E7=9C=8B=E6=9B=B4=E5=A4=9A=E7=9A=84=E8=A1=8C=E7=A8=8B=EF=BD=9E</strong><br=
+ />
+=09=09=09<strong>=E4=B9=9F=E5=8F=AF=E4=BB=A5=E5=8A=A0=E6=88=91=E7=9A=84 WeC=
+hat ID : ronniechen823</strong><br />
+=09=09=09<strong>Line ID : ronniechen</strong></span></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>=E8=81=AF=E7=B5=A1=
+=E9=9B=BB=E8=A9=B1 626-618-0918 =E6=88=96 1-800-978-1788 USA</strong></span=
+></p>
+
+=09=09=09<p><span style=3D"font-size:22px;"><strong>XO TOURS 5546 Rosemead =
+Blvd #101, Temple City, CA 91780<br />
+=09=09=09=E5=85=A8=E7=BE=8E=E5=85=8D=E8=B2=BB=E9=9B=BB=E8=A9=B1=EF=BC=9A1-8=
+00-978-1788<br />
+=09=09=091-626-618-0918<br />
+=09=09=09=E5=8A=A0=E6=8B=BF=E5=A4=A7=E9=9B=BB=E8=A9=B1=EF=BC=9A604-738-6188=
+<br />
+=09=09=09website: <a href=3D"https://www.xotours.net" target=3D"_blank">www=
+.xotours.net</a></strong></span></p>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+=0A<img src=3D"http://xotours.net/phplist/ut.php?u=3D37c759ae8735dd8a9c984e=
+f1ec007700&amp;m=3D186" width=3D"1" height=3D"1" border=3D"0" alt=3D"" /></=
+body></html>
+
+
+--b1_c546c2bf7cc1e78aeaa5a8776d236aba--

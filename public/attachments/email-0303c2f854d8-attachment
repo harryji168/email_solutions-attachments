@@ -1,0 +1,472 @@
+Return-Path: <0100019e7b2aa775-e00abf8f-07d4-43c4-abc7-68aa3487ed44-000000@amazonses.com>
+Received: from pps.filterd (m0276272.ppops.net [127.0.0.1])
+	by mx0a-003b4c01.pphosted.com (8.18.1.11/8.18.1.11) with ESMTP id 64UN9Eqh2660263
+	for <TCUI@INCOMM.COM>; Sat, 30 May 2026 19:14:33 -0400
+Authentication-Results: ppops.net;
+	spf=fail smtp.mailfrom=0100019e7b2aa775-e00abf8f-07d4-43c4-abc7-68aa3487ed44-000000@amazonses.com;
+	dkim=fail header.s=2qfonuspc2ogjllkjr6yoajmfetunrey header.d=xotours.net;
+	dkim=fail header.s=224i4yxa5dv7c2xz3womw6peuasteono header.d=amazonses.com;
+	dmarc=fail header.from=xotours.net
+Received: from byapr05cu005.outbound.protection.outlook.com (mail-westusazlp17010004.outbound.protection.outlook.com [40.93.1.4])
+	by mx0a-003b4c01.pphosted.com (PPS) with ESMTPS id 4efsx70nsn-1
+	(version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NOT)
+	for <TCUI@INCOMM.COM>; Sat, 30 May 2026 19:14:32 -0400 (EDT)
+Received: from BN0PR04CA0156.namprd04.prod.outlook.com (2603:10b6:408:eb::11)
+ by EAYPR20MB994979.namprd20.prod.outlook.com (2603:10b6:303:2d7::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.71.15; Sat, 30 May
+ 2026 23:14:28 +0000
+Received: from BN2PEPF00004FBB.namprd04.prod.outlook.com
+ (2603:10b6:408:eb:cafe::1a) by BN0PR04CA0156.outlook.office365.com
+ (2603:10b6:408:eb::11) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.71.16 via Frontend Transport; Sat, 30
+ May 2026 23:14:28 +0000
+Received-SPF: Fail (protection.outlook.com: domain of amazonses.com does not
+ designate 205.220.179.165 as permitted sender)
+ receiver=protection.outlook.com; client-ip=205.220.179.165;
+ helo=mx0b-003b4c01.pphosted.com;
+Received: from mx0b-003b4c01.pphosted.com (205.220.179.165) by
+ BN2PEPF00004FBB.mail.protection.outlook.com (10.167.243.181) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.92.5 via
+ Frontend Transport; Sat, 30 May 2026 23:14:27 +0000
+Received: from pps.filterd (m0276273.ppops.net [127.0.0.1])
+	by mx0a-003b4c01.pphosted.com (8.18.1.11/8.18.1.11) with ESMTP id 64UN5o0Z826770
+	for <TCUI@INCOMM.COM>; Sat, 30 May 2026 19:14:27 -0400
+Authentication-Results-Original: ppops.net;	spf=fail
+ smtp.mailfrom=0100019e7b2aa775-e00abf8f-07d4-43c4-abc7-68aa3487ed44-000000@amazonses.com;
+	dkim=fail header.d=xotours.net header.s=2qfonuspc2ogjllkjr6yoajmfetunrey;
+	dkim=fail header.d=amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono;
+	dmarc=fail header.from=xotours.net
+Received: from ph7pr06cu001.outbound.protection.outlook.com (mail-westus3azlp17010097.outbound.protection.outlook.com [40.93.23.97])
+	by mx0a-003b4c01.pphosted.com (PPS) with ESMTPS id 4efvskrj3v-1
+	(version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NOT)
+	for <TCUI@INCOMM.COM>; Sat, 30 May 2026 19:14:26 -0400 (EDT)
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=fail;
+ b=QeF+9HIJoWTqnnPqBooU67y38YGWClt87Yh1KkBEfclttFIdRpnmHjhcEnYjNpYFOi8P90hK5nY37nuLYQSXVyETEqCx1BrOtAd8bIikqTMIgqMEKMfSNTupIa5pnjuid7ZqE69sLkheUQO4K6YPS2+d5kygPDeaojGd50m3NFHvs/JjvrJgNrgwqja4vEwEKNgtE7Xn9UlTH1EjQ5yka9WUqkqws0qT57AQ1ip78/kuvswh0EyHmlpRx8l1Qkvcj4GcU7o9qaZK2AGaX3ZWB748wwhE1BJLPZlwCZTgyKS7mQxbLX/Q1IRcjxVKl0+ourmI2extBfQNhIZiuYHxgg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Kbr8mv7FBVXPEELwjncdLTX5/bXmyiK7MsZbXIVhm0s=;
+ b=bqy7h4NHSIbOuWN5MlFQSEzlGr64VQy9Da23zvnmOW264nvP0sXRg2HMtDWNcYDLRVKhj+epeGE/2mtbzStW38FTApDA6At8GoQCgCOZ9l8coY6K5t9IB13kDjVS0WS63ZAQFZXfJAlAsGNM366DfEYs5ENUL2hBWV49D57/Iu0bigE+AHS76I+kDF4NTiBm33joxy8YG6V/LF+mVu7G76zDCPRjtN2HjZY0MHqISFAw30+G/M25tvLK+59hyyiHO78A/Vl5GqEcdO9UIWTof7zd7WAJhDqp+dkwIFLTl/wWgQDI28of84ZTMfCPvpqA9f8D3EdVFL6lNtjtaJoD6w==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=fail (sender ip is
+ 205.220.179.165) smtp.rcpttodomain=incomm.com smtp.mailfrom=amazonses.com;
+ dmarc=fail (p=quarantine sp=quarantine pct=100) action=quarantine
+ header.from=xotours.net; dkim=fail (body hash did not verify)
+ header.d=xotours.net; dkim=fail (body hash did not verify)
+ header.d=amazonses.com; arc=fail (47)
+Received: from SJ0PR05CA0086.namprd05.prod.outlook.com (2603:10b6:a03:332::31)
+ by SJ2PR20MB5971.namprd20.prod.outlook.com (2603:10b6:a03:4c3::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.71.15; Sat, 30 May
+ 2026 23:14:22 +0000
+Received: from SJ1PEPF000023CB.namprd02.prod.outlook.com
+ (2603:10b6:a03:332:cafe::7) by SJ0PR05CA0086.outlook.office365.com
+ (2603:10b6:a03:332::31) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.92.5 via Frontend Transport; Sat, 30
+ May 2026 23:14:22 +0000
+Received-SPF: Fail (protection.outlook.com: domain of amazonses.com does not
+ designate 205.220.179.165 as permitted sender)
+ receiver=protection.outlook.com; client-ip=205.220.179.165;
+ helo=mx0b-003b4c01.pphosted.com;
+Received: from mx0b-003b4c01.pphosted.com (205.220.179.165) by
+ SJ1PEPF000023CB.mail.protection.outlook.com (10.167.244.5) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.92.5 via
+ Frontend Transport; Sat, 30 May 2026 23:14:21 +0000
+Received: from pps.filterd (m0276273.ppops.net [127.0.0.1])
+	by mx0a-003b4c01.pphosted.com (8.18.1.11/8.18.1.11) with ESMTP id 64UNEKMx840754;
+	Sat, 30 May 2026 19:14:20 -0400
+Authentication-Results-Original: ppops.net;	spf=fail
+ smtp.mailfrom=0100019e7b2aa775-e00abf8f-07d4-43c4-abc7-68aa3487ed44-000000@amazonses.com;
+	dkim=fail header.d=xotours.net header.s=2qfonuspc2ogjllkjr6yoajmfetunrey;
+	dkim=fail header.d=amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono;
+	dmarc=fail header.from=xotours.net
+Received: from byapr05cu005.outbound.protection.outlook.com (mail-westusazlp17010001.outbound.protection.outlook.com [40.93.1.1])
+	by mx0a-003b4c01.pphosted.com (PPS) with ESMTPS id 4efvskrj3u-1
+	(version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NOT)
+	for <TCUI@INCOMM.COM>; Sat, 30 May 2026 19:14:20 -0400 (EDT)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=YHfnhMn5t/dj+HBHcrkhwmovsmKgouXGJJhRPjonfk7yDv+1CGjKY62AX/dykjyoJnciwoo4waVqngdCokSyP0qEyjZZMoJKrUfOzVTvub4rh9cOSETiUpajD7KjBIdLkApVff/S7qNMLwxkrpvRRg3ititv30VcV/FN599heoc7kAJVFOG6QC/DhTXnKcII5kTci3IjpIaR1hjkXd5kNTDaH4svV3CeGeq46tbuAU6Q7gRsR5nCGo2WDRReNBsivljxWL8RPs+CQRU/Edghp89Q2zdAbts3elS21jbMWT4cNtncreIfN5g8X0lUW08qBto3aqIZPtIvXaVJoraTWQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=mIwN24aiY0Kduhpf+Isub0FUyP/1ppnT8l8JH9GKRNU=;
+ b=wsAseiRuX3qoJ2Wsb7pBeLcNlsO/2vAqDvOd6LUu5QoFrfjNonREqkfPAY7zjnDsENuC+nCBflZa8c5wAEPFbUURXnfeP9WI/1FmxPT34zP2GYEix5SbljKNMtz6YsYODI/NqqsuNxBeeCMVnqIZ88SVtNroINE4n0DqedJddqntEfM7dRix551fXr4QszL+9ELaZIKqo2+OhIQU+GIl4Tej3yasJeejB/I3goKUEI8n71EfigbXNBN5stdI1TBQCBXnnKmDsjwUQNcx1nbgmvS/kEedssGvvTnCAfhQh8kVAgVUT6StJYW9QxIMjxQvBSuGu00GuHKibBfa5yGS6Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=fail (sender ip is
+ 205.220.179.165) smtp.rcpttodomain=incomm.com smtp.mailfrom=amazonses.com;
+ dmarc=fail (p=quarantine sp=quarantine pct=100) action=quarantine
+ header.from=xotours.net; dkim=fail (body hash did not verify)
+ header.d=xotours.net; dkim=fail (body hash did not verify)
+ header.d=amazonses.com; arc=none (0)
+Received: from BY3PR04CA0006.namprd04.prod.outlook.com (2603:10b6:a03:217::11)
+ by CH9PR20MB7809.namprd20.prod.outlook.com (2603:10b6:610:2e3::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.71.15; Sat, 30 May
+ 2026 23:14:16 +0000
+Received: from MWH0EPF000C6194.namprd02.prod.outlook.com
+ (2603:10b6:a03:217:cafe::4f) by BY3PR04CA0006.outlook.office365.com
+ (2603:10b6:a03:217::11) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.71.17 via Frontend Transport; Sat, 30
+ May 2026 23:14:16 +0000
+Received-SPF: Fail (protection.outlook.com: domain of amazonses.com does not
+ designate 205.220.179.165 as permitted sender)
+ receiver=protection.outlook.com; client-ip=205.220.179.165;
+ helo=mx0b-003b4c01.pphosted.com;
+Received: from mx0b-003b4c01.pphosted.com (205.220.179.165) by
+ MWH0EPF000C6194.mail.protection.outlook.com (10.167.249.104) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.92.5 via
+ Frontend Transport; Sat, 30 May 2026 23:14:15 +0000
+Received: from pps.filterd (m0282100.ppops.net [127.0.0.1])
+	by mx0a-003b4c01.pphosted.com (8.18.1.11/8.18.1.11) with ESMTP id 64UN79UC2121517
+	for <TCUI@INCOMM.COM>; Sat, 30 May 2026 19:14:14 -0400
+Authentication-Results-Original: ppops.net;	spf=pass
+ smtp.mailfrom=0100019e7b2aa775-e00abf8f-07d4-43c4-abc7-68aa3487ed44-000000@amazonses.com;
+	dkim=pass header.d=xotours.net header.s=2qfonuspc2ogjllkjr6yoajmfetunrey;
+	dkim=pass header.d=amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono;
+	dmarc=pass header.from=xotours.net
+Received: from a48-33.smtp-out.amazonses.com (a48-33.smtp-out.amazonses.com [54.240.48.33])
+	by mx0a-003b4c01.pphosted.com (PPS) with ESMTPS id 4efu0d0mv7-1
+	(version=TLSv1.3 cipher=TLS_AES_128_GCM_SHA256 bits=128 verify=NOT)
+	for <TCUI@INCOMM.COM>; Sat, 30 May 2026 19:14:14 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1780182853;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;
+	bh=HIx4+QOqrkDvldN5OVBi647aR0RlQa9ZfWROmhfs5dQ=;
+	b=EBc2EB7CZcObUiRvMFXIL24m4odsWVuctHk3HUHf3ymfk3UhhKtG1rIqCrb7QjxV
+	JBtooPV700Ccpw2ZUlWv54uyx3TGURxmByHI7M6tCABTHueP+SztB2anmqwVrFlItng
+	vbi9/dovUhYoYOOAZFKJpSFBVzIegqAykKeivxz6aLfs5yMmdl0TMu8zYWpF38u7FVi
+	DzsGuP+w4q59j6OPe3ZXQGTbHC6Wu/OporlLRxhr2pvFGugjdJH6cLgoLaYvCi57oey
+	1c9HXbCI62Cdac29CFfNAE8+8IXNZwkpil8XgRZRWgxI2oNb+L0KL8JJHOIiVM/e1Y7
+	ihrcqeOKGw==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1780182853;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;
+	bh=HIx4+QOqrkDvldN5OVBi647aR0RlQa9ZfWROmhfs5dQ=;
+	b=D+S7+bLmeeDfJTl5X7Yi/FVKEWzmZlFYFm3Pmtp4MXt3vbWeKTEgQj0TbdgTLOf7
+	nR0v4baxEzdzuLVFVMwHOczpkPzwykjFGjhzMAOD3MhMjW3wkIqgwjQMvHdnHUAvP81
+	tKMJi8flM0SYaOX+n0KJbSLUrwRAVu9BhaAZr7bI=
+Date: Sat, 30 May 2026 23:14:13 +0000
+To: TCUI@INCOMM.COM
+From: =?UTF-8?B?5paw6IGv6I+v5YGH5pyf5YGH5pyfIOabvuiAgeW4qw==?= <ronnie@xotours.net>
+Subject: =?UTF-8?B?5L6G6Ieq5paw6IGv6I+v5YGH5pyf5pu+6ICB5bir55qE5ZWP5YCZ?=
+Message-ID: <0100019e7b2aa775-e00abf8f-07d4-43c4-abc7-68aa3487ed44-000000@email.amazonses.com>
+X-phpList-version: 3.3.8
+X-MessageID: 186
+X-ListMember: TCUI@INCOMM.COM
+Precedence: bulk
+List-Help: <https://xotours.net/phplist/?p=preferences&uid=7efdfb0f2a340696c92074a590b9aa8f>
+List-Unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=7efdfb0f2a340696c92074a590b9aa8f&jo=1>
+List-Subscribe: <https://xotours.net/phplist/?p=subscribe>
+List-Owner: <mailto:harry.ji@xotours.net>
+Content-Type: multipart/alternative;
+	boundary="b1_242627c341f516a59f8c02dc75b9e7dd"
+Feedback-ID: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+X-SES-Outgoing: 2026.05.30-54.240.48.33
+X-Proofpoint-Virus-Version: vendor=nai engine=6900 definitions=11802
+ signatures=596817
+X-Proofpoint-Spam-Details: rule=inbound_audit_lowpriority policy=inbound_audit
+ score=0 malwarescore=0 lowpriorityscore=99 suspectscore=0 clxscore=218
+ priorityscore=0 impostorscore=0 spamscore=0 phishscore=0
+ unknownsenderscore=20 bulkscore=99 adultscore=0 classifier=bulk authscore=0
+ authtc= authcc=promotion route=inbound adjust=0 reason=mlx scancount=1
+ engine=8.22.0-2605210000 definitions=main-2605300251 domainage_hfrom=7371
+X-Proofpoint-Tag: lowpriority
+x-pps-junk: 1
+X-EOPAttributedMessage: 2
+X-EOPTenantAttributedMessage: d08e5403-b1c9-4dbf-af91-bab966a84dea:2
+X-MS-TrafficTypeDiagnostic:
+	MWH0EPF000C6194:EE_|CH9PR20MB7809:EE_|SJ1PEPF000023CB:EE_|SJ2PR20MB5971:EE_|BN2PEPF00004FBB:EE_|EAYPR20MB994979:EE_
+X-MS-Office365-Filtering-Correlation-Id: c16d79f5-ac22-41a3-6ccf-08debea13231
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:205.220.179.165;CTRY:US;LANG:zh-tw;SCL:5;SRV:;IPV:CAL;SFV:SKS;H:mx0b-003b4c01.pphosted.com;PTR:mx0b-003b4c01.pphosted.com;CAT:SPM;SFS:(13230040)(704162211799003)(69100299015)(7049299003)(3109299003)(7149299003)(4022899009)(82310400026)(1032899013)(32142699015)(8096899003)(4076899003)(2066899003)(21082099003)(16102099003)(18002099003)(19002099003)(55112099003)(13003099007)(5052999003)(4133799003)(3113699003)(4113699003)(56012099006)(5063699009)(11063799006);DIR:INB;
+X-Microsoft-Antispam-Untrusted:
+ BCL:0;ARA:13230040|704162211799003|69100299015|7049299003|3109299003|7149299003|4022899009|82310400026|1032899013|32142699015|8096899003|4076899003|2066899003|21082099003|16102099003|18002099003|19002099003|55112099003|13003099007|5052999003|4133799003|3113699003|4113699003|56012099006|5063699009|11063799006;
+X-Microsoft-Antispam-Message-Info-Original:
+ =?us-ascii?Q?IAQca1y82mbesjSPu8bPaKW2LoOyd4VPoKuWiUK+BZVrBDF6ZlteT+KkCexq?=
+ =?us-ascii?Q?VAyTkCh1RY0NAH4UyKKqBiU/A/bHnQYtJUWwI1fIg0PM2pHaa02ANuBOR2me?=
+ =?us-ascii?Q?LCOsS1HxVh5Goe1YcUu8imBfIIFvUKzR6xwScfy06kNTh7WBOc2kUIfykHBv?=
+ =?us-ascii?Q?BHuC0dy1y7buBmiYivoI4aHbRN2sLtVVlBGOoQrp6mHIejhrg94qllxH8C7f?=
+ =?us-ascii?Q?7jS8QlEiAmY3L7ANr8dm09TP9oqj2bkVJ+tNOZWdXKamwMNCB9HW2glEvgUm?=
+ =?us-ascii?Q?pMK6AyPPPkqva0Q4yWsy1wEnO3K0FaPGbvAAixViUAUOolu/hEzljaa3U+SV?=
+ =?us-ascii?Q?QOwZGxVDF+BAYV3rAOAOniAkYCrrsaSSb+q2WpLf3QZgEanr/s1rtzJJOuEv?=
+ =?us-ascii?Q?KLUYRbAZSuVXgBEiJsQNP/snNczt1l8NXGrGF0axhoz+0J3rA60sWqRqqk7Q?=
+ =?us-ascii?Q?CT+cHiaa2KrdRKHyBrWR2LkZfVAx4do/c0jvNrnZ4T12D812E0ATlmq2aN0J?=
+ =?us-ascii?Q?hU/8kdoqUchfCklsA8pkS7t30X/Mf5cT4bLZF6pDkLBAKA7XsTFji78cgAxF?=
+ =?us-ascii?Q?q6+qpua2nZckRV4r/X8yfaX8wslpisAF7wgB0557pJTMY6clCkFowOxp9zx9?=
+ =?us-ascii?Q?AAFQUp7zXH1PzX8hRyoqjGOfq1+XGS1tl6LOUllFkdcZpf0nXPpx5JmZquQc?=
+ =?us-ascii?Q?AvhtvsNTNDVxTyoR3vyn3+uRC0orh8LJLyRu/Xce/x1CFK8NxA12ke0Qkais?=
+ =?us-ascii?Q?7xCcYSfNm1A/38cHp6agWPQZ5KufIomRq6yZjYHgt1U1jZc7yjZQFzUf/RSZ?=
+ =?us-ascii?Q?cBz7T4bPLFS+HXnz9E/vFtwGtS11GuUrTNZyokuUtchbpWMEsHsXkEmUv23d?=
+ =?us-ascii?Q?F1x+jJC5+ebI5UN/x0tQcxmwBjc9D9C2m+Lxz+iL0IGlWCpKnJDd1C3e2ZaG?=
+ =?us-ascii?Q?UgnWzXb90DrWH4CojXGXkhhnrTTiFr1xHafjB6Sb3enkHL/4UVNAA4LKs5gz?=
+ =?us-ascii?Q?Rb//5ANiiUk/HA3KEN/DcIZD1QIyCIU/reWgrT4xkXw0/2cZIMUgkpWLewRu?=
+ =?us-ascii?Q?zOAQwyncOxDbeA8F6fGGT7goC8q3A96xPuq/Hs6qVJ1BOxlNnU+TJMiYQaSn?=
+ =?us-ascii?Q?fbq6QrDyd2kpox2IcNqoP1rbkD1T5CHpCaJOm4FVoeuWzKZue9WtthSVjrlX?=
+ =?us-ascii?Q?2xSU5KJBPGVKvul+nXI5oa5Pp/2vWEr+knThCdrbe/dynz3uK3vslPJQdxNv?=
+ =?us-ascii?Q?inq1LJQQj+yVQyTe9xuZE5yPEcATg/KmKAKO+yFfY9PBADyPRND+lFqfn14U?=
+ =?us-ascii?Q?zLHhmu2gehqLm2C14ASqz4XoizCqxrrwRcl7p2UHMOENLTAYPTk5qqPWpDcB?=
+ =?us-ascii?Q?9bPWtFaTd/oiBApAwIswIFucTojFAVZz5r+S2NDue7OVThzf9QAHqY6GOfhw?=
+ =?us-ascii?Q?7omX5r9FBa0QkYeZtn0wYempOA8XWMO08xr6nDPt6kYFIMT9gFXm9CHwgBc4?=
+ =?us-ascii?Q?YyR8sgSXl4kzgudLMttodpvYeMk6d3HbDiKC15TagSGhtmuIc6PcsM0uiZSr?=
+ =?us-ascii?Q?Nejy0Yt0xib+a75au44q8CKqFTgT06n7l+oZjDFIFlesA6Hr2rnRy2QT50DF?=
+ =?us-ascii?Q?+AK+J0ee0Y+Cu/jgy40sDiVwajQvRPAW85oBPLo8HpSkMmaH44h2QXG4BWgz?=
+ =?us-ascii?Q?qJh9CZg9dw5y+M+ClPQlCGXy4QRC82mBUCzGBkUOcc+6CdbzjXB5vXm0kYEN?=
+ =?us-ascii?Q?RcwpyHgym3AJGksKMsSLyU5ht7WapSAvPcdPRpEM25mIgj2mJ4y/33s3AsNx?=
+ =?us-ascii?Q?qxz1uWr6Mu3B+PqxXiOekknaA7lCJ9K5lfFd65/6nWIbUMk7ZT7OEHfjLVxJ?=
+ =?us-ascii?Q?9p//02Fu/oZDNdt+QKTZP005d9dPQXoz5AeTarM8lhOE6YtYg5FP5yTBep1S?=
+ =?us-ascii?Q?zrfRWeUyUakNCuj8JKOutQbDRidHC8lR83/351/OzJb7g0/7m2YBBSkDmrmh?=
+ =?us-ascii?Q?ANS00KFR57ijyppN6WxX/ZrJQGElX6+pPUa9jkKrbIpOP+HAEj/TxkfceSGb?=
+ =?us-ascii?Q?2/8/KqvOVfqRGj82SehrY5tCg8iglcU3MlHuhRVhvbn6Jaw6cuUujadP8jZz?=
+ =?us-ascii?Q?ZsunecOnaUrTyLVFci6ND51u2pZTok0/14hI0Zbew530nlT4btQne6ZYWWuW?=
+ =?us-ascii?Q?KBpc48ayOexpd8F7Fv5cfYZmrqUFjarkcEFRv0vXgiiIUSVjdFCREnXkc8l6?=
+ =?us-ascii?Q?4zdccDBNMFbPOlge5tJocFfEBFr1FJkSAHyP5LLqkhg0f7Cqp4h5cy+M7JSF?=
+ =?us-ascii?Q?mZVl+98NjYlay7w/EAr6Rq9jKlmvUAyRcqGwXM4BS6wF+9r349f+YVf2KY4s?=
+ =?us-ascii?Q?FTqrMPRWlXTzBuVNArKpGyC0mnhfnnGBnWXJue5j60Q65rMgwpMhd0lEzUrr?=
+ =?us-ascii?Q?vzkcZnaTPbzqTOKmh3V+ISuR7mgUdo3XH6IwNPCf1nNZZOh5uMDO+f4i4m0L?=
+ =?us-ascii?Q?JbqB8TnQoRryoGudD6vgOAyHFpVSjXP1XvT6gMapY1v4T3brViU6GpQnZ5nW?=
+ =?us-ascii?Q?5DUb+WXJKmsaArCn+G6NkQf1N2WZHWspTJyGcWJZg6E7IPSxBssC2Ly2+VxT?=
+ =?us-ascii?Q?jE7gi8z70/ZsyNhT4q7SEqppmB5QFFG3npuf6GCGbNnztIwYvfw3Zm6/ewRu?=
+ =?us-ascii?Q?sWC5x0jbabp/22BkhzxUiTqOxXShQTWZcI0GvaBytIAMWux4YL8emAX4URKY?=
+ =?us-ascii?Q?bu02ojSAMQJFOskBtnUhjOxctoG9ZPuUp8GTFGBkFtnC5EEuq2AldMItv2jV?=
+ =?us-ascii?Q?f/JSCT8guWVqCb7yuB/ISGcsn/W/iNfdwil8zhIYweU+Z9rdrXFB5hJWmgm2?=
+ =?us-ascii?Q?auYLFwMmgJllVr+t7sXbHuKc5FSwwWnvq2JR+zwPcBH/IFEMz3b53n0S4CFy?=
+ =?us-ascii?Q?F2F4+1jtDNNWV5U7ihcoKi1p+bi2cXDNaFx/QtGIYrjoCU5EWlVVMLy/jwiu?=
+ =?us-ascii?Q?S546m2nG/2G+mF1mdWUuhB7tPDh95ESi8NpDlN/IPuC8ft/fWpbJoqc6wOIl?=
+ =?us-ascii?Q?E3HBU9pqRe0P7O6BTM/Hve75Lqs5IEKMBJB/JZYIBzcax9Fk2xIII5RqbWk6?=
+ =?us-ascii?Q?1oyNoLty3OteLVcWGnBUPcJru+P6a6aBm8ZpyjARhesiE2KqEWVgTgiQgSvd?=
+ =?us-ascii?Q?7JLMdRExH7PewYDNkuzH1QAMf/O9ZDbZk8xvI2bpisoASEdRruPgJntxFPlH?=
+ =?us-ascii?Q?SHMXHKFc9eYyCHeVdS39?=
+X-ExternalRecipientOutboundConnectors: d08e5403-b1c9-4dbf-af91-bab966a84dea
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH9PR20MB7809
+X-Proofpoint-Virus-Version: vendor=nai engine=6900 definitions=11802
+ signatures=596817
+X-Proofpoint-Spam-Details: rule=inbound_audit_lowpriority policy=inbound_audit
+ score=0 adultscore=0 clxscore=20 lowpriorityscore=99 spamscore=0
+ suspectscore=0 priorityscore=111 impostorscore=0 bulkscore=99 malwarescore=0
+ phishscore=0 unknownsenderscore=20 classifier=bulk authscore=0 authtc=
+ authcc=promotion route=internal adjust=0 reason=mlx scancount=1
+ engine=8.22.0-2605210000 definitions=main-2605300251 domainage_hfrom=7371
+X-Proofpoint-Tag: lowpriority
+x-pps-junk: 1
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ SJ1PEPF000023CB.namprd02.prod.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ 603238b2-74e2-46d3-c934-08debea12b23
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:205.220.179.165;CTRY:US;LANG:zh-tw;SCL:5;SRV:;IPV:CAL;SFV:SKS;H:mx0b-003b4c01.pphosted.com;PTR:mx0b-003b4c01.pphosted.com;CAT:SPM;SFS:(13230040)(4022899009)(69100299015)(3109299003)(35042699022)(82310400026)(7149299003)(1032899013)(32142699015)(7049299003)(5052999003)(4113699003)(3113699003)(13003099007)(56012099006)(11063799006)(5063699009)(4133799003)(21082099003)(19002099003)(18002099003)(16102099003)(2066899003)(4076899003)(8096899003)(55112099003);DIR:INB;
+X-Microsoft-Antispam-Untrusted:
+ BCL:0;ARA:13230040|4022899009|69100299015|3109299003|35042699022|82310400026|7149299003|1032899013|32142699015|7049299003|5052999003|4113699003|3113699003|13003099007|56012099006|11063799006|5063699009|4133799003|21082099003|19002099003|18002099003|16102099003|2066899003|4076899003|8096899003|55112099003;
+X-Microsoft-Antispam-Message-Info-Original:
+ =?us-ascii?Q?i9rZzo5CD05eBvsf/b99wZx8DLBXFYQ2Oh3qYG+1sB/CmZi7tyrJbRbG5rgG?=
+ =?us-ascii?Q?F96UTKY+Z/B1R3sQcxOjukBEOr+NE82aDOPGvYUs5y2TgHE8Kn9qwr+kd97u?=
+ =?us-ascii?Q?ICzGZpmhnYR7ZLVWGhu20P3F7h8gMSmDXuXDo9EbL2PejqJTiZz5rip1Lk38?=
+ =?us-ascii?Q?x2lTb7gDko08TKVbvFJQV+kra4SOp2sMwRF39mTdOCjarucUEqpgNMDv/Z/b?=
+ =?us-ascii?Q?JQ0lmpLwt7/15LSpRfUnGEpJIglyQhKT23bmAh3XBA5vHaVdlveIH4C4k+Dn?=
+ =?us-ascii?Q?yRObtInXcCDE7XU34EsIQP95KS9KyGTU+1w8h1yN362wIdaOVS3a0A64iwS0?=
+ =?us-ascii?Q?RHObVm7GtYQQ0XgyDgnRri/9oWLINxwfvMwMsa5MSMGYaXGv9ZBvS1iytRa4?=
+ =?us-ascii?Q?NufnCa8BefByaEXwzJ6djoDLcM3xPgs/DFiYgq9Vhk2U8e1Ee1xsW0DLDjPo?=
+ =?us-ascii?Q?O12lOtIrBgsTMyb/pzHzboFTprkzdZKMafKSwLtchvd3DYz/EW1nzxnEKwq+?=
+ =?us-ascii?Q?zKwkbOOfDATSAdqWWdRsg55WcuEiCp3qe0eTkNRKyb9+lt+c/6OpsYo4U0Y1?=
+ =?us-ascii?Q?mHkWzE+bnwXvmHJIa9Jkg9B23xkvOkvRGwdJfWFLxpKyJMCQAna+C/7zHfOI?=
+ =?us-ascii?Q?eBVu/HcuUBTbtvBhnNA8euUTFZlh0lhUt04JGFi5oxSR/pFdD5zbFQSiwma0?=
+ =?us-ascii?Q?1GTV7vlQhzseG6wCOZSF6hlp+Saap2THZala7ARHzcdmbQsxBECa+/CrFzFF?=
+ =?us-ascii?Q?aOvZmsr4J3K7Ohsdog3nZ4zjyzYlhatkGHekN/x2atBUYoAbRQ5Maz+jIRPa?=
+ =?us-ascii?Q?tRGKlt5pF6/M0fPbZbuZhkkXYaZADFB3j7sIPP+XwrDqY465ZNV/0Ne68X7t?=
+ =?us-ascii?Q?regjls42CRBRrhFE4liJzcMofHtCxviG3HEvpy1e8aSnlPD6/fHfTWiokeVR?=
+ =?us-ascii?Q?B9OQtmG1+xC5jNsGeyRm8t753Hzp13LKqzIefVM2xTDJjC38BPZmFW9GU+6m?=
+ =?us-ascii?Q?/UD3RFa2ZVUWxetC+x8w9ldFIH9TeiBSEaghfZyXALfA/cLK6/iKgcfgyQpQ?=
+ =?us-ascii?Q?ZqAgAkVyCQKcW2EPAKcGFj2Wu81hmmSLAdXruTKrG3C+4lNbQ5x7l7sjMXMn?=
+ =?us-ascii?Q?XT3KLyvA6LP3g/r0EV7pBUatcyxoMfvUaGJyChvboWM4wYPessZl2qKmwWgs?=
+ =?us-ascii?Q?D/O7wav1LgVHz4uKcTrivFs8AqEVLqlRDH1AbzGBkBr6s6aOeuj0MuhniMWG?=
+ =?us-ascii?Q?QjanlznyBdgw12+rE/pBKMVY0cq7DvCKMW0FyZWBRTd8pFcgGKrJBQMUW/P5?=
+ =?us-ascii?Q?eBmZR00KjPbj/tW0j5BejBMqbqrXDf7hNAR3+ab6DpqYkbvxwLMMHKiUqerW?=
+ =?us-ascii?Q?EyFpIC42Oj7cBWuHzUMGEWoZJUcF2V0t0k5ftcnWgCD/of9P//fAtWE/hDxU?=
+ =?us-ascii?Q?SI6UMN83byqVoIXjgWeM2uwb+qqqvjhP2yhcqilXzfCQGiKmU0tBLRbb1ZAm?=
+ =?us-ascii?Q?Z4cpXVnw727Tf6ZuMXOlriPn0hWXP7VUNd8Vsrh192zlaYiFbLjNHnnP0vIB?=
+ =?us-ascii?Q?8cXZH4dJUhX9cqUA9fSvoyrsvq3mNmggpQUrSqxOTIk3e18kmkEJWXmbV4ul?=
+ =?us-ascii?Q?SkQutSnkM0yuwCWvp6Sv8CtXHl+lTbs4E39/Azk+Nmq1JfAmqQ2s3/8h953b?=
+ =?us-ascii?Q?GE61GYLFlb/fv+eqBUJ/FKyiRbk5Yk9O/1rOEkTdoYqO/Grd9zK2cvizX9yY?=
+ =?us-ascii?Q?KQb9DFFqAaCyTL9U4POTd5SC1XhVnfhQXi0rU1C/b0UiVsm59Ha4en8+Jq28?=
+ =?us-ascii?Q?YxFwhSmnh65Kaplq2t4RTDPyJivY78EnSy51N8IqzX2cpQ4bg3+D9ZTGVTPO?=
+ =?us-ascii?Q?xaUg6UpAq9l2UF3JZls8k971940pt0RKAceEgdxAChKUUv5JJPXvLsJL4v6o?=
+ =?us-ascii?Q?DORAYl55mRVYJlLn315zhkSuFdlzOBXB7pMFwNT/ipi9U9udVid2Ekufktmn?=
+ =?us-ascii?Q?clkMUVAxBbCeaLULJdPpH57DzYt7ljvYyUMX22b9joNZQTNJ4i7Mde+RUpcm?=
+ =?us-ascii?Q?LZLUwwb1K511PvDJlEswYmBlGQsdp17AqknyEmvxbWYOeIHEiS95nfpanIGs?=
+ =?us-ascii?Q?8KykkYYZls5QZrSDuCfWzHp1IveXxQspscWS96KrtF85tpvKimuNiFYT5S7Z?=
+ =?us-ascii?Q?0mq4WD+T1RMqBMKvNweRtRHSjfeQsQ9UlQsfxruvKwZUiQUNmmzDJ1cMGGb0?=
+ =?us-ascii?Q?dcMZsoO47YziW+4RjfeY/mUF1vRLEUtFDSrVsUsiwYS5PzriR9KooX7BBEnC?=
+ =?us-ascii?Q?vSbTwvTUxm4Cr5qU7xwNWlSEOud09csNo5j6VNP9o1zcVEjRhIrTZP+1BztU?=
+ =?us-ascii?Q?xXOajFVwxjWoEZSRiHEoB4+dJ65Ts0+7emNzRsa9lrtahzLFim+Xw35WyVTp?=
+ =?us-ascii?Q?yhiPHoieKp8b0CYo5svWDPRkagIsQ6fDAXQUdkdjMZk1pUn5VAwxTf4189cJ?=
+ =?us-ascii?Q?gFKwCEiPWTWQfg+n4my+GziEEhmZN4JErKOBbEyAcNgVieLuCIsMCmtUVFPQ?=
+ =?us-ascii?Q?m1WWIkMTLnL03K+uby9ALygJzWK1FkYAtFQla2AGk0KoGTk8XoODsgdW28Y/?=
+ =?us-ascii?Q?d4JNAKR7Y4PYva+Hxfz2xm66ZbCLGX1rT/fGtw09+KSNHmc5DBSM8brkUikH?=
+ =?us-ascii?Q?6qkYp9dTf3D9TwMaWg7uaGFYsXcHytZaa9boqlXLOz8e2hYc+zNciokrJmAQ?=
+ =?us-ascii?Q?q0JE574zRMW1L+oqiCKFA/3L13uuL6ycT+X/sjfSBEmd2ScytxzFx/h4krXR?=
+ =?us-ascii?Q?wEVb/g4MIgQcRd+skkZZ5ZTNEy/b8HgpCyVrUvbBAzn6gSI3iOXKy9rYcaJ5?=
+ =?us-ascii?Q?nfDWke7V2NpOVjV71LEgaD4unnuJ83c4vKXVESCsFKtkJszufRjUayz6DaU5?=
+ =?us-ascii?Q?Ad97qeLHm8lkWwQkKCaxQCqG4tRZIJD3IkOBFyI8LBqo3dOIq9/HF2hKXuqb?=
+ =?us-ascii?Q?5HbppJWLm2WssnjmBl2/JVtmlwmzHXxDEKXphpoVKDFLXAMxR6d7qKCnVbmv?=
+ =?us-ascii?Q?j1FNLU7cd6lOl2s1797WD1CLp2s1sJEhBpxz6HrlZeOSd47Wr4qpU3Z8yWqM?=
+ =?us-ascii?Q?tbIKKAp9yvDGiDicH52xLPzFzcGBTtEWcSMELv1iLAif34hFzp+SEZ1dr3gx?=
+ =?us-ascii?Q?gzYUFTb71kRz5li1FHZ2RuD9d+i+cYS2IiXd8XxZ3a3MA5dDt0oUikgOt5bL?=
+ =?us-ascii?Q?dwaIA3ccArkPPAQAhCIMD0SPIaXK9tqVSNSHzV8PS0QsKeiGMkShhpIQ1GCJ?=
+ =?us-ascii?Q?Fxt26NfmkwWSFIzlP74LhXT9?=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ2PR20MB5971
+X-Proofpoint-Virus-Version: vendor=nai engine=6900 definitions=11802
+ signatures=596817
+X-Proofpoint-Spam-Details: rule=inbound_audit_lowpriority policy=inbound_audit
+ score=0 adultscore=0 clxscore=20 lowpriorityscore=99 spamscore=0
+ suspectscore=0 priorityscore=118 impostorscore=0 bulkscore=99 malwarescore=0
+ phishscore=0 unknownsenderscore=20 classifier=bulk authscore=0 authtc=
+ authcc=promotion route=internal adjust=0 reason=mlx scancount=1
+ engine=8.22.0-2605210000 definitions=main-2605300251 domainage_hfrom=7371
+X-Proofpoint-Tag: lowpriority
+x-pps-junk: 1
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ BN2PEPF00004FBB.namprd04.prod.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+	6a5cb655-0593-4782-0f2a-08debea12ee7
+X-Forefront-Antispam-Report:
+	CIP:205.220.179.165;CTRY:US;LANG:zh-tw;SCL:5;SRV:;IPV:CAL;SFV:SKS;H:mx0b-003b4c01.pphosted.com;PTR:mx0b-003b4c01.pphosted.com;CAT:SPM;SFS:(13230040)(69100299015)(7049299003)(3109299003)(82310400026)(32142699015)(1032899013)(35042699022)(7149299003)(4022899009)(5052999003)(55112099003)(2066899003)(8096899003)(4076899003)(13003099007)(4133799003)(19002099003)(18002099003)(21082099003)(16102099003)(56012099006)(5063699009)(4113699003)(11063799006)(3113699003);DIR:INB;
+X-Microsoft-Antispam:
+	BCL:0;ARA:13230040|69100299015|7049299003|3109299003|82310400026|32142699015|1032899013|35042699022|7149299003|4022899009|5052999003|55112099003|2066899003|8096899003|4076899003|13003099007|4133799003|19002099003|18002099003|21082099003|16102099003|56012099006|5063699009|4113699003|11063799006|3113699003;
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bjlYYnY1d2pFRVRSM0RnOE1zOFk0cjh0dk9Yc1ovaGNDa0RKSjBxSU40aG41?=
+ =?utf-8?B?QXFjOSt6VHpVa2prUUJLcnd5NGhRdnhCUEh4T2RiTXFjM3dNd2FjKzVZZDBN?=
+ =?utf-8?B?M1JzRTRWa3U2dmVPbWFFVFN2ZHNYY2hnd0tXRWhWbW51RnRsYm83QlpiTUVO?=
+ =?utf-8?B?Y0I0TStJeFJnWkQrSmJ3elY3b1lwRW0zL1NtU015WXN6RmlEOGFCK1JYcVFz?=
+ =?utf-8?B?MCtSbEsyYThsY1hQVDZFM01qb1o5cjUxSXJYRWhFRmw4K3IwM2p4YXI1djhq?=
+ =?utf-8?B?SlBnelFxZmtSMkgyMXZlM0lIa0RFVXR2WmloaEwxaDRPNEowRXorc0JMS0tS?=
+ =?utf-8?B?WThGWitKTmxqb1AvaTVReURNYy8xNFpUNFpKUzMyanMzbVNGR0ZvQ3BFQ1My?=
+ =?utf-8?B?Mmwzc1JmWjNabTVDWDNrUG5LRkRGQXNzYW9rRENJY1JJWjFsY1hVZEQyYm1N?=
+ =?utf-8?B?L0NxbkF1M0Q4NERrUEdEblpVdkorTFc4UjF3SEhMeUZwOWdBaU9iVDdQSnJn?=
+ =?utf-8?B?Y0J1OS93TzJvTlVKZjh3MzNmak1KSUExVDF0ODIrcDl6cGl6RHlNVUxDN3g3?=
+ =?utf-8?B?UHI5QUtEVEVVVndhN2ZNT2lXbjB5RXV4dlJ5amdEdFpsOVRQMy9MenhIOFB2?=
+ =?utf-8?B?UWJpMjRjVUkrYkhObEFZVC83VS9TUFBNZWx4ZlJhN3N3Q3JyUENtZ25HQ3NP?=
+ =?utf-8?B?QnFDRmVyeTdtaXgrTndWRUxqWC9YVytxMmNFKzM4UDRPU282OHdlbktkZ1l3?=
+ =?utf-8?B?cUVrUVFtMkNqc2xTbldER0hQV3p3RGtQeUJUMW04Z2VrT2hyZ0g2d00xdHMx?=
+ =?utf-8?B?MTFJTEdZL1kzQ0F6clROSE1NVDlYY0hNYkpSS3RtMisvb3QvQytxdmk0RVQ5?=
+ =?utf-8?B?WURsTHQyOWdCMk5McEc2V0NlYUtMRmxieERpeUs5THpCZGlmUDg1djlaNll3?=
+ =?utf-8?B?V3BKOEx1RDdncTdEWjlRTzNBR0VFUU9sdW1EYjBob3Q2MkoyVXp5dFp3ZnMy?=
+ =?utf-8?B?b0cvWHhFRERKR1hoSlpHVmFPRUpNR01DVE9LVzJrdVNxOVc3UTAvRlVYSkFF?=
+ =?utf-8?B?c3lIRUtVWmluRUpERGx0cE9XWlB3YjNyMDh1TUVhbUdDMzFELy82c3crQ3ZP?=
+ =?utf-8?B?NlA0REhCL1lNbFVQaTFkbTl5YmYrTUxaZ3EyK1BSSHlpRkNkeDc5OFVod2o0?=
+ =?utf-8?B?aGVRcHJ6RVFiQWYvNWxBbEp4eHUvcjBLOVZnM0pnbkRJbVd3YU0wRjVMR2NF?=
+ =?utf-8?B?Uml0eExsQzc3MDdiSFM1ZGZsTWNwaThpUUVFLy9Zc1lWZHhyWUpLSE1wbVBw?=
+ =?utf-8?B?Rk9uVWdwODRXcXVDZG4zT3U0R05senhHTHVXRnBLS29NVHNXM0paSERzUTdC?=
+ =?utf-8?B?VVpkajgyckNJa3UyNllUa0pxU3NESWxlY3BPNUZZazBQK08xSDRRVGloQU9t?=
+ =?utf-8?B?dFNyNlJVNW1jREV1Z1dUaWNhQ0lMR2tpMnhzbnlJTUgyVmxxQ0FoS3BRYjEr?=
+ =?utf-8?B?b0xQbFNuK2FSZHJITElWcDBocEdEVEgrbXU2cU4xWU9qRzBkejcwWXJySUow?=
+ =?utf-8?B?azFiNGJFQUdZRHdmdytRRmtBQmNGRHd4UVJVRW9mMEFWRXlYNjVUaGE2RG9q?=
+ =?utf-8?B?ZlNZeTI0alF6ZVJNWXMwblQxNGNvM3psTi9SZEJtSXhXVW9HbHoyRXVZY3BT?=
+ =?utf-8?B?cVcxdzZ3NnlwNktxeW5MOHhHOGVLNEZnWFdlSVJxVHpjZEpqYnV2dHBPNVN1?=
+ =?utf-8?B?bjhqVDlSWXd2d1NVdGp1RGduNXdzZ0tOQ3doUFhtVzFtODdVYXVEWkkyM3RN?=
+ =?utf-8?B?UWpUaUZTSWoyR0dFbkM3bC9HLzRFRjh2SVdsbm0yNGRRYmQxTzh6M3hIWHJm?=
+ =?utf-8?B?NTYvemswWFlUSXN6THZwWXp1bi9yMWF2NS9OTlBCeDMxMFd6U3FGQmZRb3Mr?=
+ =?utf-8?B?Z1pOdDduMnBmenVvYTcxZHd1MThVUVdWVnhxV1hlcURvWkJEeUNpM21RNVpI?=
+ =?utf-8?B?MHprclh1SndZSW04enZxOE9YcG5HOHlLYVpFZU14MTVEUVNwNTVpRmVhU0N0?=
+ =?utf-8?B?Y3lGeGlyY09mbXhVUURvYlQyM0RPYVJ4MXBFRDFQOGJNemtVeWM1K3d1N3Nz?=
+ =?utf-8?B?bzhscHRCRVc5YkdMUjQvOGRMWlJYWUNvNDN4NENFMHZtYm9mWkNhSGZReEV2?=
+ =?utf-8?B?dUZObHBKSVBwVWg3U2wzRjh6VURla3B1RlFSSStVWk5jMFBnOVZuSDMwS1Nw?=
+ =?utf-8?B?WVpwUUdyV0NhcVpETjF3cmZMOE9HOUMrQU9nWEZJQjZGb0pUWHBITjRwSEFt?=
+ =?utf-8?B?L1kvbm9aeG96Y0U3Vmpkc2srcmNtM2JEb0JEN1VDZzdwVzBHNGRRUGVGZUtz?=
+ =?utf-8?B?cis5QnJjS0tpMnRPUy9Uc1RoU1pJd2xranYrc3JWWWtzUzJPbTFCT1B2c2dH?=
+ =?utf-8?B?L0FNVko0elRjTGRMdTg3V2M4RXdNQldidUkremVPb1lpUGxvakxTUTkzVnc3?=
+ =?utf-8?B?cSt1M2I5L05YcE1OUHAya1J5S1IvWTJtczR4QTRib2E0RG9oVGpSQkxoVkRN?=
+ =?utf-8?B?SW15cnVlK2dlSHQ3UFdIUVBHUXl2RXBCdXI4cVZFNGJmMzhzblNLNlNLL25n?=
+ =?utf-8?B?SmU3QSt3YkZCd0YvenNHYmxucm5Xejd4bVN6Q3ZoZStkVzhMbExwSnQ1Z3VY?=
+ =?utf-8?B?bzVFbmRvN3lMVE5UQ0U5MDdWUG5aaGxyQ2pUb3BZc3AyUSt4VWprdm9PbHlN?=
+ =?utf-8?B?SDh2TUljTlAza2htZ205ajNEWlYvR1pQYTNqbTV0Tm45WDlPWExxZEp2T1dB?=
+ =?utf-8?B?aW9pRVlWK1huY3VGUEIyOC9vaWdNR3VGeU9ES1ozYXNmTG42MUZQSys5Ti9x?=
+ =?utf-8?B?VlpLeCtiVVlTbUpLbGFnM0M5MlVGbkRRam1LWGFqWGJCVG9EUXdyc1h3SDVR?=
+ =?utf-8?B?VnBkcks1ejFldHlBcEloSkZGalpSWDhwQ3pYOG5rd0pYY0pNcFN1eStDdnV2?=
+ =?utf-8?B?Q29ZTHFmKzc4WXEvMkhzaFAxWTdEczJQWjZIVE5BU1JESVUycHJ5Vks2M1Nw?=
+ =?utf-8?B?ZVo3S3N3ZklWMjI2aW9MdmN6OXpCNlBKV3o2ekEzNnB1TFE5V2pYZEVVeUNu?=
+ =?utf-8?B?QmJZeERzM0ljMmNJN09tcjlabnNlamI1S21xSzJraXI3QVVZWUwzektZL0w2?=
+ =?utf-8?B?dEtLSlRoVGhXWjlEWHozZEdZVFpiRzJyN3JJTzNKUE12ZDZiZzZRb2V2dFNO?=
+ =?utf-8?B?UmhBc1lFQUI4NFJQQ1U1Y01Bak5vbWpwOVN1Sk1tNTljL1hUMDh0bEk0VE15?=
+ =?utf-8?B?bHBoeXhmcTJ5c2Y3R2ZNWFVIZ2hqRkJIeWxHVjVyVDlhVXlhMmNGNzhxZGFG?=
+ =?utf-8?B?a3VoY3dQZkhOUVdWTWw1aHVNVWZvZ3ZsUStSOG9hR0s1dDFucXo5d2R5RjJu?=
+ =?utf-8?B?N3NPeHBULzN4d3dEbjUxRXByZ29YK3liVVRHVUhuZlE2ak5tNXdmWFNUVFhV?=
+ =?utf-8?B?eWZ2QitybkJvWlpFM2FiOWM4TmFrT0QrejdhMlJ4N2hmR1Zyb0FOME1JZGY0?=
+ =?utf-8?B?ZWZVQ3NQaXBBMmUrV0pUNjdDbFk1b2JZZFdnNjF3Zm14QkpwMmYvelpnQmdM?=
+ =?utf-8?B?Zjd2Mk80R0UxZFhIOW1TaGZFK01kVWE3cXlTcDYwalVvdmZhRklqZDdyYUpJ?=
+ =?utf-8?B?K0pCdkY5WTR1SUlVOURvVzlycldvaUJ0TUwxcVJHcjBjMktqaUVMTjc2eGdy?=
+ =?utf-8?B?Zm1qWTRiTzJpcVRJcFFqWk1oaERxa0paWUxVZ1g2aEx2TWFqWm0vdTVIVFV4?=
+ =?utf-8?B?eUJWem0wOG9EUk9kdEE0aDJJckFBbG1ndlJhWllocVBmaWtSbnVIeTdQWGxP?=
+ =?utf-8?B?bWViTERJemNSY0ViaEU1SW5DSGV4VUoxdytGOTgzMG1jcTcxWGc0Wm1PM0l1?=
+ =?utf-8?B?a3BXSzhUM2ZWempSNXpkMUZEUDZrYXBJR1VhTDJtRzF0Y0NGcFpKNkRZdmtr?=
+ =?utf-8?B?c2VOcXV6RmNRT1Y3cFNxeGNDOHpXUVJjMUgwTUUvNGRHVm9MOE1xLzUvbGgz?=
+ =?utf-8?B?am1GTjR5WlBCSlhCcXdmTnNZd25Hd2JucjV4enNVT1F2UkFmSlBBV2NQWkRH?=
+ =?utf-8?B?WDVmbHlEanRwN255dzJ6bFlJS3l5bWVBcTU4djdkaEFxTUtxZi9MaTFZYkNl?=
+ =?utf-8?B?V1BjSkVrLzRyMGg5VXB0cUNicDdBS1NaR3ROa0d3b1FlbFlWNTNPQ1l5VWI4?=
+ =?utf-8?B?MlhZWi9KNzNEbS8xVC9GR3hveFVhSk5KSyswYWhiNnJiMVQzbkpxUXgxaWRY?=
+ =?utf-8?B?azgreStkOVRmR2R3U0E3WUJobWVubUZobnl0dis5K1hXeGgzbm01S2N4T01B?=
+ =?utf-8?B?eGNEQ05Hb29HaU9xTHRwQ2dROWRKaWZrTUplTHhNN05nWkppbzJ0ZnRnMklG?=
+ =?utf-8?B?aTBCL0EwdEtHNHhwYjlYRVFCWjU2TWJQY1Q1SUllVnl3Q2hHcUo2R3ZPbHlE?=
+ =?utf-8?B?Zz09?=
+X-OriginatorOrg: incomm.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 May 2026 23:14:27.3078
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: c16d79f5-ac22-41a3-6ccf-08debea13231
+X-MS-Exchange-CrossTenant-Id: d08e5403-b1c9-4dbf-af91-bab966a84dea
+X-MS-Exchange-CrossTenant-AuthSource:
+	BN2PEPF00004FBB.namprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: EAYPR20MB994979
+X-CLX-Shades: MLX
+X-CLX-Response: 1TFkXHxoRCkx6Fx0aEQpZRBdiTnxBH2tmQEAbWREKWFgXZVlwR2VzZRMZHQE
+ RCnhOF25dHh9nb2loE3BDEQp5TBdteBpdXxpQEmZhHhEKQ0gXBxMTEQpDWRcHGB8RCkNJFxoEGh
+ oaEQpZTRdnZnIRCl9ZFxgTHBEKX00XZ2ZyEQpZSRcHHhhxGwYHEh53BhsZGwYTHkIfBhoGEhgGG
+ RpxGxAadwYaBhoGGgYaBhoGGnEaEBp3BhoRClleF2hjeREKSUYXQ0RJRUdHdUJFWV5PThEKSUcX
+ eE9NEQpDThd7aH9CG3AHaEFhYmZQQFJtcn0bB1pTfFsZTFxARVp6axEKWFwXHwQaBB4YGgUbGgQ
+ bGxoEGxkeBBkZEBseGh8aEQpeWRdCf3h6UBEKTVwXGxweEQpMWhdobU1reREKTEYXY2tjTWtrEQ
+ pCTxdkY0dOHUh5U1hNSxEKQ1oXHhoEExkEGwQeEQpCXhcbEQpCRhd6ZFlna3laYmVrQxEKQkcXZ
+ mBYQEJDYFteWF8RCkJcFxoRCkJFF2xrQF1aXUIdRVkdEQpCThduXR4fZ29paBNwQxEKQkwXZVlw
+ R2VzZRMZHQERCkJsF2JicEcTUFkaa2RlEQpCQBdgTRxnfHpfYX9vRxEKQlgXa1lcQVAbbEdtXh0
+ RClpYFxwRCnlDF2BNHGd8el9hf29HEQpZSxcdGR0bEQpwaBdpGmNvXU4ffxphTRAHGRoRCnBoF2
+ FaWlllbUgaY3BYEAcZGhEKcGgXZkQbR0NSZVNSGkEQBxkaEQpwaBdgcHNbG0YYR0VnHhASHREKc
+ GgXZGBNGk0TBURvYG8QBxkaEQpwaBdsTmhHaXJ8SHByGhATHhEKcGgXYkwdflNuSRhZXGkQBxka
+ EQpwaBdrZBloH3hscnJbYBAHGRoRCnB9F2F6TnJccEdNZlJ7EAcZGhEKcH0XaGVje1t5RGNychM
+ QBxkaEQpwfRd6fnxdTUgcQhwfYhAHGRoRCnB9F28BUH4FG0RJUhxyEAcZGhEKcH0XaEdjE1BEbW
+ 8SXEAQBxkaEQpwfRdmEhlya29dExl9UhAHGRoRCnB/F21kaU5tAU1Fe0xAEBIaEQpwXxdseUBTR
+ HllUkloWxAdExEKcH8XYWZvWxpnZEJIHVsQGxodEQpwXxdjYhJQSGN4H3xCfRATHBEKcH8XYFBf
+ GFJITWgaG1oQBxkaEQpwXxdtHV1cZWJIYmRNGxAHGRoRCnB/F214BV9QE2Nje3sBEAcZGhEKcF8
+ Xa19PQ2lDGH1SaXsQBxkaEQpwbBdiRWZDYmdfQktlQRAHGRoRCnBDF2lvXRJuS0lhW0B9EBMYEQ
+ ptfhcaEQpYTRdLESA=
+X-Proofpoint-ORIG-GUID: QBUh1Z-BkKHLzjxGXW1-pyVq3fvjopPA
+X-Authority-Analysis: v=2.4 cv=asCCzyZV c=1 sm=1 tr=0 ts=6a1b6f58 cx=c_pps
+ a=kQK/LXr/8KEJHOgidPY3ZQ==:117 a=eBmKILpOkt4HZmERM9sHZQ==:17
+ a=6eWqkTHjU83fiwn7nKZWdM+Sl24=:19 a=WTr6ha9oEM+QYbTYjQSBuCpPaCo=:19
+ a=NGcC8JguVDcA:10 a=Hgn-wnRn1-cA:10 a=5KLPUuaC_9wA:10 a=M51BFTxLslgA:10
+ a=3b11hVZ4Tx0A:10 a=YFHz6ByJM4cA:10 a=ZKS8Kw3IVw4A:10 a=SKaEv8EmnvEA:10
+ a=Yb0-n4YeEQoA:10 a=JyWEw40TUO5AK6tc77iI:22 a=_ByixHgY2O0moGzvLlSE:22
+ a=GuABdxtqc6tk-4thtgU3:22 a=vnREMb7VAAAA:8 a=T8hLot1VAAAA:8
+ a=cdhPzuQZXmksiB4fIzsA:9 a=QEXdDO2ut3YA:10 a=G9ipW_tjA4Oi6_B2WLkA:9
+ a=l9hOU95L_IIS7UZp:21 a=_W_S_7VecoQA:10 a=593wvan6E_spRY2Hg2HZ:22
+ a=rfIrITQWpbe_cgyZtBlT:22 a=Ru97nHiPDtp4odn3vKgu:22 a=zXiGQnQDKnAcNbPgrF13:22
+ a=SdinTAY7Zb9a_dpSS1nE:22 cc=prm
+X-Proofpoint-GUID: QBUh1Z-BkKHLzjxGXW1-pyVq3fvjopPA
+X-Proofpoint-Spam-Details-Enc: AW1haW4tMjYwNTMwMDI1MSBTYWx0ZWRfXxmvW//bEroO8
+ 9E4LlDythm6phgV3H9ILhI3WFPilRhtu+CoooxHYYBiCD0d/9p7QjAISW0jRxv+tiDYKlCVIUls
+ /SCLmcSNNxo7nf1FfZRCPS94zhMJC5IMiYlWltlXMF1G6uKWx5tCL4Sic+SzYjoXy37BuDKEtsb
+ IKOp1LNVwiE9MgE/bMl39MHhzFvg16MfnH3huOPlcI1knQ6LgfYvZndBOlVSkGm8qzAu1ZGHmjx
+ NTKQ1Nj1o8kq/cMVD9eY5amWTaxPl3p4Ak7WYDztIvvKyIEzhD+Ds6rO/yKna0TNr9BxBs1CiJL
+ Gk865hidCOMqN2MfX/AB6nrWwjoo83B5MXS4MjTkhvoCAsv0CSGwTxuXghWS+m0L/SuYg3YxIOj
+ 7QdcuviJifxFfmeHHe6THuN7W/DoJcFMrLY26oNDYMAmTGN0antCWEKzOlDXUGsWNIj5S/gDFlw
+ hgIcbQ44Pwkod89T5TQCjmmm/eqlXhVJzgyDEVXW8zfmBy54rSiCm8B4ijgFjiO2tB+CO6jW+cG
+ vnrv2p6I5jteFHvlwPgqpGr4j5idE=
+MIME-Version: 1.0
+X-Proofpoint-Virus-Version: vendor=nai engine=6900 definitions=11802
+ signatures=596817
+X-Proofpoint-Spam-Details: rule=inbound_audit_lowpriority policy=inbound_audit
+ score=0 lowpriorityscore=99 bulkscore=99 suspectscore=0 phishscore=0
+ unknownsenderscore=20 impostorscore=0 malwarescore=0 priorityscore=70
+ clxscore=50 adultscore=0 spamscore=0 classifier=bulk authscore=0 authtc=
+ authcc=promotion route=internal adjust=0 reason=mlx scancount=1
+ engine=8.22.0-2605210000 definitions=main-2605300251 domainage_hfrom=7371
+X-Proofpoint-Tag: lowpriority
+x-pps-junk: 1

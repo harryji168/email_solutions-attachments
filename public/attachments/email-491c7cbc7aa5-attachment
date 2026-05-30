@@ -1,0 +1,51 @@
+Return-Path: <0100019e7a799773-3e8da84a-2896-4d19-8921-58cd27f6e397-000000@amazonses.com>
+Authentication-Results: mail.stevens.ca;
+	spf=pass (stevens.ca: domain of 0100019e7a799773-3e8da84a-2896-4d19-8921-58cd27f6e397-000000@amazonses.com designates 54.240.8.19 as permitted sender) smtp.mailfrom=0100019e7a799773-3e8da84a-2896-4d19-8921-58cd27f6e397-000000@amazonses.com;
+	dkim=pass header.i=@amazonses.com
+	dkim=pass header.i=@xotours.net;
+	dmarc=pass header.from=xotours.net;
+Received: from a8-19.smtp-out.amazonses.com (a8-19.smtp-out.amazonses.com [54.240.8.19])
+	by MAIL.stevens.ca  with ESMTPS id 64UK0nUp021720-64UK0nUr021720
+	(version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NO)
+	for <BRANDI.TAN@STEVENS.CA>; Sat, 30 May 2026 16:00:50 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1780171249;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;
+	bh=6kwcDdpaLIc+EtoGJxWP9d6qAiSIPSjrTrZh8FEAWiA=;
+	b=MZMVDvGlbxvDeAwh/Xa1lu3qoAJ10ZOTaRqI4lZqyDL2apWxfyDRgsTnISwUC9aQ
+	vopHb6pIEkBzuAPlvacn+XJ9CQ0yeh7jy01aOrUpHBt2QwAvX87uUFzyNBW3I60Unzi
+	kOXCUYHtUr0sJK5cnhcW20vRF3JnZ+ZwM8QCnL6bJZp1fTJR+HsZ4YreROhtt//aDw1
+	5YBMnBZxf+9n4MDII07lheAK284FPk2lAKxUXVljsj7mmdzfXmqfrIAUA4Ono2V4hye
+	ehnVYydFL5taPn2CYVrMLl+g9bRG+zF+c8s4ZPUx0CuBchK1hxijPdnggjIwL9DHzDp
+	0V+iv2CF3Q==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1780171249;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;
+	bh=6kwcDdpaLIc+EtoGJxWP9d6qAiSIPSjrTrZh8FEAWiA=;
+	b=MwZwNIWbyv1YIBhAsYtWszJc6TFuPPb+nsPGN4PV6nS4xA1dxr7U81v+zr5w9hiv
+	S9CsHKv7aEbFvNK+r95DecdDSm0N4mN5AQ9hLDlbQPcN6obWGWHEVwk+pmyPDsOSiHp
+	aTdsMGpUgDuS8i1M087zhu/+XiW3reDfDF1+U/jA=
+Date: Sat, 30 May 2026 20:00:49 +0000
+To: BRANDI.TAN@STEVENS.CA
+From: =?UTF-8?B?5paw6IGv6I+v5YGH5pyf5YGH5pyfIOabvuiAgeW4qw==?= <ronnie@xotours.net>
+Subject: =?UTF-8?B?5L6G6Ieq5paw6IGv6I+v5YGH5pyf5pu+6ICB5bir55qE5ZWP5YCZ?=
+Message-ID: <0100019e7a799773-3e8da84a-2896-4d19-8921-58cd27f6e397-000000@email.amazonses.com>
+X-phpList-version: 3.3.8
+X-MessageID: 186
+X-ListMember: BRANDI.TAN@STEVENS.CA
+Precedence: bulk
+List-Help: <https://xotours.net/phplist/?p=preferences&uid=d733e85be6bfa3a633178118979a744a>
+List-Unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=d733e85be6bfa3a633178118979a744a&jo=1>
+List-Subscribe: <https://xotours.net/phplist/?p=subscribe>
+List-Owner: <mailto:harry.ji@xotours.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_ddbf0317f97c656adee83093788d68e0"
+Feedback-ID: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+X-SES-Outgoing: 2026.05.30-54.240.8.19
+X-FEAS-SPF: spf-result=pass, ip=54.240.8.19, helo=a8-19.smtp-out.amazonses.com, mailFrom=0100019e7a799773-3e8da84a-2896-4d19-8921-58cd27f6e397-000000@amazonses.com
+X-FEAS-DKIM: Valid
+X-FEAS-Client-IP: 54.240.8.19
+X-FE-Last-Public-Client-IP: 54.240.8.19
+X-FE-Envelope-From: 0100019e7a799773-3e8da84a-2896-4d19-8921-58cd27f6e397-000000@amazonses.com
+X-FE-Policy-ID: 13:14:0:SYSTEM
