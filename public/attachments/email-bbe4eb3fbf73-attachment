@@ -1,0 +1,33 @@
+To: ADELAWONG@YAHOO.COM
+From: ronnie@xotours.net
+Subject: =?UTF-8?B?UmU6IOS+huiHquaWsOiBr+iPr+WBh+acn+abvuiAgeW4q+eahOWVj+WAmQ==?=
+date: Sat, 30 May 2026 23:08:18 +0000
+mime-version: 1.0
+boundary: b1_edffe0d2bd0d6e258533943a9c82158a
+content-length: 19231
+x-apparently-to: adelawong@yahoo.com; Sat, 30 May 2026 23:08:19 +0000
+return-path: <0100019e7b253d01-b9535773-4cbf-4467-b21a-1ec801623e00-000000@amazonses.com>
+x-messageid: 186
+type: multipart
+precedence: bulk
+list-subscribe: <https://xotours.net/phplist/?p=subscribe>
+list-help: <https://xotours.net/phplist/?p=preferences&uid=16ad65ce79ffabf5d8e19c4649de3c9a>
+received-spf: pass (domain of amazonses.com designates 54.240.48.24 as permitted sender)
+subtype: alternative
+message-id: <0100019e7b253d01-b9535773-4cbf-4467-b21a-1ec801623e00-000000@email.amazonses.com>
+from: "æ°è¯è¯åæåæ æ¾èå¸«" <ronnie@xotours.net>
+content-type: multipart/alternative;	boundary="b1_edffe0d2bd0d6e258533943a9c82158a"
+authentication-results: mta.yahoo.com; dkim=pass header.i=@xotours.net header.s=2qfonuspc2ogjllkjr6yoajmfetunrey arc_overridden_status=NOT_OVERRIDDEN; dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono arc_overridden_status=NOT_OVERRIDDEN; spf=pass smtp.mailfrom=amazonses.com arc_overridden_status=NOT_OVERRIDDEN; dmarc=pass(p=QUARANTINE) header.from=xotours.net arc_overridden_status=NOT_OVERRIDDEN;
+dkim-signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1780182498;	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;	bh=QBrp2r4Flt1Ghg43/jjMDR7ASUNZ1yMxEoVrnGXqZ6c=;	b=ZSepqqZdgIxvv9U6nVmbyaQ9xjgm8CGJ2QEc3VZY+u+7HI0f8PmIztPo6gXnE3gk	EMkuX2M//FM850ZYZf0olNhHbeGMXFz4Gf8+w8T8pfZCjnjVG2IT2SH7Qyweqek0QAC	iGRBPDIwSPV2/SUKAyHS1p0qH4yZDExysET7+8u5PsFHnn8xFIqU2qbDAT8+V+ariZq	x9zINRHLMoZsaui2qfnC+60FMySCBF2eSBRWg2xz7Hlkf3ogh1Esckp41EwCrGRjsRB	GLlaTzUsmR5GFuWIeer1twuuUL+7aOsDjYHJ12GAMCaT8zzoenDfxFwSPoI16UHQtKE	OUSoVAyqPA==,v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1780182498;	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;	bh=QBrp2r4Flt1Ghg43/jjMDR7ASUNZ1yMxEoVrnGXqZ6c=;	b=row+yXM17d++DrDAibQSIVM4C7T6B150ssTu1Zh5IbvReB08sGWlYlGAqfCKj4tO	mXcCjpKqodWG9k/BHD1KzPYW8okWXxgjU4PHZg0tlmPxsBKRKRme9oo+BxqvoyL14Wz	zussRYXtxGG9PBOw21I+8eq6nAcoiyADLCFP7zpo=
+list-owner: <mailto:harry.ji@xotours.net>
+list-unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=16ad65ce79ffabf5d8e19c4649de3c9a&jo=1>
+x-ymailisg: raFcNnkWLDsC7SMLMyekW47gEo0.1j9SbHDMSE.XRWj3XRWk hUDFgx6fB6eypuIA3g9OPyN40qph2SnICHOanXuo7xv3lS9f7kKx0o5dI34l UMhe_SQNGhl9vBCca5ZsmDov0SJ6xy_0PqqBKVktNTOLki_bqYvfnAqV1Z8o 041kilM7ap3h5YhxG4FC.k86QADZtb8b7mBikAxtUDj7qfwKDPqnpkmfJT8P .NzWIVNAUbtpEVQC08odZv7.sx8mEyOu6dETNlpi39RUqThQVaGjYdPiaMj. C3Fmt9gXSdREBc9pdt6U07_tfZYpiF6tZYhyn4f2Orq5ja_DGntN1D6zHY.v 254aUebtuVkqHeihM3E3vu93qTNJyAxUMwx9jVEa9WjdHyLA7ongMsn5HSzQ O5DrfN.JmUPlDfe_XB88XcJZ_2ZaXEEpptvj0iwBHDZLxnHLa09VfLA5oMK0 KNTOHhthgZN7k6xw.zdLL_e096aLA0lESITalhQ6f174isUGY6OgPfhd4ZlE S15ZB1REQ5oE2SIkBySxF5bsLC1sq31GQ7meR_lDt_qI3ERUmIYOWQ9XhOEl wszY3ouzVozu9VN.DCGctBc5q2cQUkGRTspJikvL1ogIaxzo6ZWkPvrYVhDy f7CJmwYO.KdqwsV_UzfEG1uFPe6uMS8BrNs5W_AwyiKATSFVc7ss4hxIR_ao nLXGzlCeFnf7IppTxotzJpUPueQmsvAQY62LZddj51fEM_PKuemM0ak7KCPX YFCruGToJQFPaLaC.3N9ifJvewUfkqnFDzIZh9MwR71rwvgcQyxdROURMX1. hrmGUQbAk0BXgg0zUZAUhSFXTkN9YWvt3CnnNAb16W7AeEoOPxfAwoHpOmra z.NkRQxqSfEI6nvQqE0g8GRWX3ffPFWU3lZrwVRgy6VDUjrMAhs4d34VNMeH tS0bTej37refF83x2NaETMb2j6zWqWFc.GQwNVYPPJgshei97_2BTZ9jr1Nc WFE4p3i0un4dhOcZt_yONixiE1KKtz0AE3d6Erpmtk1.EKjhKCR6SJ6VeemV .OsTw2cq4tjg.EPbxAOGZU3epaVINFi2aruTh_jZ2hIlFwTxUVRtIhwbfjBK RDwr8LSTn1lmPJocywAmbJcTtuVT3fcfWjM31E1V3aDyvRpWbFj3HraIpCQ4 YF1Y46COXBdb.l4_2Yj4gN0ylAIJ_A--
+received: from 127.0.0.1 by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com pod-id atlas--production-gq1-b84fcd9d-85hw4.gq1.yahoo.com with HTTP; Sat, 30 May 2026 23:08:19 +0000,from 54.240.48.24 (EHLO a48-24.smtp-out.amazonses.com) by 10.227.15.135 with SMTPs (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256); Sat, 30 May 2026 23:08:19 +0000
+x-originating-ip: [54.240.48.24]
+x-listmember: ADELAWONG@YAHOO.COM
+x-phplist-version: 3.3.8
+size: 19231
+x-ses-outgoing: 2026.05.30-54.240.48.24
+feedback-id: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+to: ADELAWONG@YAHOO.COM
+
