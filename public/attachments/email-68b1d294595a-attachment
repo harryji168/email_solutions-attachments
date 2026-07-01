@@ -1,0 +1,81 @@
+To: felixshlin@yahoo.ca
+From: ronnie@xotours.net
+Subject: =?UTF-8?B?UmU6IOS+huiHquaWsOiBr+iPr+WBh+acn+abvuiAgeW4q+eahOWVj+WAmQ==?=
+date: Wed, 1 Jul 2026 00:15:10 +0000
+mime-version: 1.0
+boundary: b1_44b2d9d60142bc65a9a66c76ed9f4375
+content-length: 29600
+x-apparently-to: felixshlin@yahoo.ca; Wed, 1 Jul 2026 00:15:11 +0000
+return-path: <0100019f1b079809-aa6b906b-2e7c-4797-9698-10e1c4c02754-000000@amazonses.com>
+x-messageid: 187
+type: multipart
+precedence: bulk
+list-subscribe: <https://xotours.net/phplist/?p=subscribe>
+list-help: <https://xotours.net/phplist/?p=preferences&uid=fb6ae1aceb8455e3366241e1aaebd13d>
+received-spf: pass (domain of amazonses.com designates 54.240.8.190 as
+ permitted sender)
+subtype: alternative
+message-id: <0100019f1b079809-aa6b906b-2e7c-4797-9698-10e1c4c02754-000000@email.amazonses.com>
+from: "æ°è¯è¯åæåæ æ¾èå¸«" <ronnie@xotours.net>
+content-type: multipart/alternative;
+	boundary="b1_44b2d9d60142bc65a9a66c76ed9f4375"
+authentication-results: mta.yahoo.com; dkim=pass header.i=@xotours.net
+ header.s=2qfonuspc2ogjllkjr6yoajmfetunrey
+ arc_overridden_status=NOT_OVERRIDDEN; dkim=pass header.i=@amazonses.com
+ header.s=224i4yxa5dv7c2xz3womw6peuasteono
+ arc_overridden_status=NOT_OVERRIDDEN; spf=pass smtp.mailfrom=amazonses.com
+ arc_overridden_status=NOT_OVERRIDDEN; dmarc=pass(p=QUARANTINE)
+ header.from=xotours.net arc_overridden_status=NOT_OVERRIDDEN;
+dkim-signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1782864910;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;
+	bh=CAjKHNDv1hgzHQ7ohhEa+18YUMBFUQ2G6zLIx/1bGiA=;
+	b=I3/ZQkMG6vNduai6ImU+e7Eq1wxKWv2AkRozQapT3qC409XHfYOi0HYVaKqDF3Gc
+	hRlGF02aF76baANyTjaZJej7IbH8muyFvnwME/unRfRVGtprVHepX1lz2OnWcJkbCc0
+	ZMU5Lrj0o9fkLCAuMpP6HizRMspBRGmshMDES5oR4ubOESrKeS57Ujw/dYmIBeL7+ij
+	WZc4yrFuOGTmTbdaRLQEXdKAlGfC/f6Q2RXULhu8vOUyHnxS3rDDBy/v5Lme+Z45RGJ
+	Jl4Dp2JWCfbJrFG1Q88AdzqlLiuPTf+igbAHrYjKtBfwAi0wLrEvUMO/st3R2aaMaXe
+	UdrkwkrOeg==,v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1782864910;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;
+	bh=CAjKHNDv1hgzHQ7ohhEa+18YUMBFUQ2G6zLIx/1bGiA=;
+	b=ki51iyIZja9GDpRMLStAAIc8YB69MEtBtFCnD8OBYW8GXTWhSwbYpGNmq/ieclYE
+	Gj02cJ0UGIZDoPGBMcvRijPuj7cvJFgFdIugIR+rPHzFMnDyxOFEO167pe7EdtQMZzA
+	kh6hEpvt/LCIwGyos9ZoFKMcIBmTLAWEEMJw+PJo=
+list-owner: <mailto:harry.ji@xotours.net>
+list-unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=fb6ae1aceb8455e3366241e1aaebd13d&jo=1>
+x-ymailisg: _Y37KoUWLDvo1ZcXR9WlYUI34Bc3HL6M0tWstZ8D2Awim1jd
+ YDikRHjSXVYJgOXCrs2a3.Yc4m7ZJ1WAwDbtaGh8xVAhxz4Aq7HSjZ5u15MP
+ .J7lUE4jflSnDrLu8MJjeMQbqdZT5jgtL1C9jb30.9T5ZqesUEz6jINSj4Kk
+ HTDzUB24QmhDinC3J44zFeLCHcv.F8324DN.p7MpFEw9SfxhqXEaJUv29Mkj
+ drzNXq0SbtSKEW3d6ya0mdP3PLRQNfSD7LNpKsjjM42Iq_EcUe.gEV23CxVV
+ NL5MQMgaJBXfTMpqM8UI56CVVQOzrSBKI4iXaL7h_zkriscY85qoR9Vxdtnu
+ KvvY5vxgBV9.4N7mNxUpNngkI2TW_YPK3hE3wEpPuvkme1CYTuirrm9BNpLf
+ nT3pZgNPVrLUXuwh2QtJQ_9IjFAAlJYZzCKmIzffCNf9kQIn93vtOtmjFe_l
+ wGVMQ83.WEJZBttsk_wodLUnt1L7N05MrekuzdWzlQ6Q4qB.EyQ_TsYDnkbC
+ SOl7zaB_sa4S_TxfSH3ZcR9zTXnWhrgpyRS53sP1vVqH7bbF7j8QIJZ9eUcw
+ WlKGjkPHHquWHQfwIN_32AZT7p1it8x_Xx05iDNUyOyAnaXUIIsYsq8bwNIY
+ 7q5EalWSz6UTV6WZgDgAokUyoxNqH8_sXem10sEaoGZvlqH9KFZ.EHJ0yC7S
+ J4lY7.K11jHZ8s8zXmoc5I1PsTknfj4oF_BC5y0ZaLJlzWxuL12LSWG3TMbV
+ W9LKdG3sUFgGifRwkFHhhcBuRZxaIH8DcxakuvUVpRc2pSAprMncrx1n5xB7
+ klkUuMzHyxIpkj4.O7XCrmhiufJVf_QHN4HaWl6GAAe8VgQ_H09wKAaC0Zbf
+ 9c4TgVLybobdPr7vjuRNPbiHZeKy4KH4W9Qdspzbpe3eIyuYcd.qR3yvwRSw
+ z35iMt5XXRgFm8oeBU_8TxNW2hpX7aMqyNuWx0..s8FkbdOG.frwXlNx4WO5
+ 08kspNLZetb4F1ede6LFUuDdQya4xh.yph3DZAfihzxfOU8LeUcPRKXBe3.c
+ _3.DDlYl4q5ZTMBfAnJtn6m.ut0DJiGin39O.wkbAmr8L1lYD5SMJ6y4hJ8_
+ TbfpbCVT.tTElHbrcUmaHdCatxn1OxohsvqV3_t2cfdD4TPRvG7sVr3g2kkQ
+ 4iQJOpC1GMIuD8WN346kYkY-
+received: from 127.0.0.1 by
+ atlas-production.v2-mail-prod1-gq1.omega.yahoo.com pod-id
+ atlas--production-gq1-8cdff965d-ss59k.gq1.yahoo.com with HTTP; Wed, 1 Jul
+ 2026 00:15:11 +0000,from 54.240.8.190 (EHLO a8-190.smtp-out.amazonses.com)
+ by 10.215.174.32 with SMTPs (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 01 Jul 2026 00:15:11 +0000
+x-originating-ip: [54.240.8.190]
+x-listmember: felixshlin@yahoo.ca
+x-phplist-version: 3.3.8
+size: 29600
+x-ses-outgoing: 2026.07.01-54.240.8.190
+feedback-id: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+to: felixshlin@yahoo.ca
+

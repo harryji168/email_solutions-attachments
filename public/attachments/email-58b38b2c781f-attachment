@@ -1,0 +1,10 @@
+Feedback-Type: abuse
+User-Agent: mail.qq.com
+Version: 1
+Original-Mail-From: <0100019f1ad7f564-1fa94eb6-c5d9-4ce4-9594-7d9983acf0d1-000000@amazonses.com>
+Arrival-Date: Wed, 01 Jul 2026 07:23:09 +0800
+Source-IP: 54.240.8.190
+Authentication-Results: mx.qq.com;
+	dkim=pass header.d=xotours.net;
+	spf=pass smtp.mailfrom=0100019f1ad7f564-1fa94eb6-c5d9-4ce4-9594-7d9983acf0d1-000000@amazonses.com
+Original-Rcpt-To: <627182083@qq.com>

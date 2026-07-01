@@ -1,0 +1,79 @@
+To: BINGSHI@YAHOO.COM
+From: ronnie@xotours.net
+Subject: =?UTF-8?B?UmU6IOS+huiHquaWsOiBr+iPr+WBh+acn+abvuiAgeW4q+eahOWVj+WAmQ==?=
+date: Tue, 30 Jun 2026 23:08:52 +0000
+mime-version: 1.0
+boundary: b1_573485a3ac40f074007675e39fba7bf6
+content-length: 29600
+x-apparently-to: bingshi@yahoo.com; Tue, 30 Jun 2026 23:08:52 +0000
+return-path: <0100019f1acae3df-0bb6affe-4f82-4d28-bf8c-fa1760e20b54-000000@amazonses.com>
+x-messageid: 187
+type: multipart
+precedence: bulk
+list-subscribe: <https://xotours.net/phplist/?p=subscribe>
+list-help: <https://xotours.net/phplist/?p=preferences&uid=50ee3f85db10ba1857b2e7d0b0823ec4>
+received-spf: pass (domain of amazonses.com designates 54.240.48.38 as
+ permitted sender)
+subtype: alternative
+message-id: <0100019f1acae3df-0bb6affe-4f82-4d28-bf8c-fa1760e20b54-000000@email.amazonses.com>
+from: "æ°è¯è¯åæåæ æ¾èå¸«" <ronnie@xotours.net>
+content-type: multipart/alternative;
+	boundary="b1_573485a3ac40f074007675e39fba7bf6"
+authentication-results: mta.yahoo.com; dkim=pass header.i=@xotours.net
+ header.s=2qfonuspc2ogjllkjr6yoajmfetunrey
+ arc_overridden_status=NOT_OVERRIDDEN; dkim=pass header.i=@amazonses.com
+ header.s=224i4yxa5dv7c2xz3womw6peuasteono
+ arc_overridden_status=NOT_OVERRIDDEN; spf=pass smtp.mailfrom=amazonses.com
+ arc_overridden_status=NOT_OVERRIDDEN; dmarc=pass(p=QUARANTINE)
+ header.from=xotours.net arc_overridden_status=NOT_OVERRIDDEN;
+dkim-signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1782860932;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;
+	bh=HgMe9j5G7w/s+YwM06CYzRZsr2bm4ca5XB/sm9xdWJs=;
+	b=IDJSJlQiadqbqivMGe7g1FNEDjrL17yi7I2Bwa8Mrk4Jl2jRnvvshWN+8r6xR+Mn
+	24W7bnYK8O76M7jrug8BewFpnBzpQUXspUydURdLxt/JehBHZO/lB3UOb/rc+LqIu6o
+	IDwmoGFZFhVbUn3K150Pm1hynh2CRqzjmujPSxd1kbe9Kk7TV/kZB0cTMOw5dI+SFff
+	AqM8p+fG2p8KZ2mL6Q+C1pAVMmGPfy2qRp8lMkZ5Y7CXO/buO0TCY+ZoeXmYbnxfyPx
+	3poWp2XwO9Gi3hiY6SguF07MBogljMcXi3Ia+HYYdHSs+141+/ZAJIE/yfaeN1QLNKA
+	ftOelL59VQ==,v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1782860932;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;
+	bh=HgMe9j5G7w/s+YwM06CYzRZsr2bm4ca5XB/sm9xdWJs=;
+	b=cVXGXrVlycOQLH31encHnCWq71ALZ8oWlFhsv2L/YybmfgKMAio2+MyvlpfSjyJQ
+	Ao3h1yumIYA4C40uWUsEJnVzSJwor+eRBX04gkJIqfOMEfUf1zOw9pbjEzXf7UgavkL
+	Bcutkj/qFfbCfGBk3ibGXpCV7CzpvSSg8nLc+vqg=
+list-owner: <mailto:harry.ji@xotours.net>
+list-unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=50ee3f85db10ba1857b2e7d0b0823ec4&jo=1>
+x-ymailisg: tN4UIgcWLDu12VZ_10X8a6n_8_CHhiceoT.rfJvX3UgLQIzJ
+ O1pTQD9pc5QA55G5IqDTf7oLms_sqvq8JQ9JiRy4ox9ccgiW9AsoTG59wj9e
+ j1rW9vx5Aya79pUPmUfdgwigbdGIv4CdT_.Agk6RIDg1pZXtFHc4MOLkPJT1
+ xMOvKHHpojAPk3nvzM1XkemHtTz.f7E8jhmshpKOf9dzQzIEJGEeqSyRKLMs
+ xeNwRliMKFYuFjs7g.JB_QWgBNc_s9tZp.9wi9jE8vgaxIsWHIYEa.HzRjic
+ oKzpQtQUTlpTFKTdB.6FAF8CC5luMhbYgrqgvkmMqpcpo9v_Fxb_pNhv0ySE
+ Zy8f6XkE0QILsIAe2VCyZ_o8aiQ17i.NP2Pf2KeSzYXo3AhXZdHpOu_K85Su
+ ssqwTgyHNTeubtqKxjL1Vrex6E_mXCCHdKXffDFtizIKHgzxqtD4HS7663Ff
+ XUVyFSvA3uvzLK9DMjZgXnBHQBB8yHoPW5hz0K8i9EDKVmpGYXVheOwfHS_j
+ b0kTCPDYosjCMtJbi4cPGXL5vKs16qw1DwsHs788f8E_etquB6.auCQW.W7g
+ cEPGg0ucHVlC1W4JCbQRaPfWD0Nd9U8JMr89t5UEsBAv4Sb66r3n24OOKlr_
+ GGcBDlX9sywMDx6d7FY3HeD_uOrvQ7eSWJsznDCz8d9sE5IisCtqsw9aL5xD
+ d9BLeYmP0APJsIGN1H83_YVuk98pj9vWnNWgxkPsjHkmLBLKPnP60Bn4Z0na
+ r0TiXoKhMTAwmwHhuE_KGaeNRIIDGVFfPX7rIGqTzCrWZUHXUOp6d.yq69Bw
+ H6tYUBozVvgIX57PkuYJGjTJc9222_5HcZD4aY.uM89fxfF72JUt578ZdPbp
+ n21kELCEdIfAEhyZBmXuGyhkhPw3ODxuEW1FxsdZRwT2iPmC3cxtGJuETZj5
+ 6EF7q4tAhLk.sCkUgPoPiPxXXy0PAvhJB9P4vB4WcbedsMzPEPiCp8Ip0AjC
+ XWKh5j.D0ZY2OKx5HEcr6FAOrxvLd6Hex_cTWgh9wk0o3DURvt6xgVBEDFDh
+ FSN.QFuV2AzDVgyCFlSRswRD10ab7PAm_.lIf9EELpMF_RK3C05812Na0Wky
+ yhIGyC87qs3b7qBltohLPuzbvigFMHrCNfpEHDO1Fr241mzCZFLAuDBC_wb_
+ KAy3.TKUDWcSmzvfYp8N3tfs3Zh1YxPk3PQ2
+received: from 10.226.26.18 by atlas301.free.mail.ne1.yahoo.com pod-id NONE
+ with HTTPS; Tue, 30 Jun 2026 23:08:52 +0000,from 54.240.48.38 (EHLO
+ a48-38.smtp-out.amazonses.com) by 10.226.26.18 with SMTPs (version=TLS1_3
+ cipher=TLS_AES_128_GCM_SHA256); Tue, 30 Jun 2026 23:08:52 +0000
+x-originating-ip: [54.240.48.38]
+x-listmember: BINGSHI@YAHOO.COM
+x-phplist-version: 3.3.8
+size: 29600
+x-ses-outgoing: 2026.06.30-54.240.48.38
+feedback-id: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+to: BINGSHI@YAHOO.COM
+
