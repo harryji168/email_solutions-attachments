@@ -1,0 +1,56 @@
+Return-Path: <0100019f39cdc6fd-eff70a2b-cb66-45dc-aee5-361a8c1d4fbf-000000@amazonses.com>
+Received: from msx-cmsr9.hinet.net ([10.199.218.29])
+	by msx-smtp-cmx.hinet.net (8.15.2/8.15.2) with ESMTP id 666NeSF2010986
+	for <hcchen@ms1.hinet.net>; Tue, 7 Jul 2026 07:40:28 +0800
+Received: from a48-23.smtp-out.amazonses.com (a48-23.smtp-out.amazonses.com [54.240.48.23])
+	by msx-cmsr9.hinet.net (8.15.2/8.14.2) with ESMTPS id 666NeGmN614954
+	(version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NO)
+	for <HCCHEN@MS1.HINET.NET>; Tue, 7 Jul 2026 07:40:18 +0800
+Authentication-Results: msx-cmsr9.hinet.net; dmarc=fail (p=quarantine dis=none) header.from=xotours.net
+Authentication-Results: msx-cmsr9.hinet.net; spf=pass smtp.mailfrom=amazonses.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1783381215;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;
+	bh=SxqJmcYMov1NlDuwiz6GotmdauI8Nt8nPLzhenQufGA=;
+	b=RbzCzSFbXOUTt8WMSYCbEcYTPcYJv5qyNPxHfWA6IdGOWXKx4mMcbpYJ6Bw82q9u
+	TNFrLepk98QIwW4qcERh7aSV6q3KiDsvUKlZPQN0IxS0Se8UGK1yN2ITWB1/zE5njC0
+	RIlZyetPcJM7Uk7Kn4pCy+eQJucPkyx2GLXc77ApPXov3rXUi8GlNgSgrb94Z4IoNmC
+	EUQLlN79QZm9rc+DKpwlWCKwsjOpZUuWpnKeINOqOBGvUzhy6OI89IjEakwfuBd7xkQ
+	fyjFF3cH4zmucgx/0r8pnZ+aReooyHxr0EOaKtwcG+yDDCHOE+SPoOEJHOe4Ag72SMh
+	+U3rD0wfxg==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1783381215;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;
+	bh=SxqJmcYMov1NlDuwiz6GotmdauI8Nt8nPLzhenQufGA=;
+	b=K7Spzxqa5M+9E5dBMfjWeQn0E9aZ8eWnfEP1mkmw32ABFDD00hnNB8Qoz3c4oItM
+	7C3qxkxJrhjRFlZRhn/nzlij3yXfqS+A1y2/QeUz/+HD7Yl7+1DzTWJeSI6Rf8dPEWJ
+	ObYpqo6ek1RjsRzeokYDw4dVOFIIgKm7KVh/xbQQ=
+Date: Mon, 6 Jul 2026 23:40:14 +0000
+To: HCCHEN@MS1.HINET.NET
+From: =?UTF-8?B?5paw6IGv6I+v5YGH5pyf5YGH5pyfIOabvuiAgeW4qw==?= <ronnie@xotours.net>
+Subject: =?UTF-8?B?4pyoIOWlvea2iOaBr++8geWNg+i8iembo+mAou+8geWNg+W5tOeahOetiQ==?=
+ =?UTF-8?B?5b6F77yM5Y+q54K65LuK55Sf6YCZ5LiA5qyh77yBICDkuJbnlYznm4Pms5U=?=
+ =?UTF-8?B?6ICB6LuN5ZyY54ax6KGA5Y+s5Zaa77yB4pyo?=
+Message-ID: <0100019f39cdc6fd-eff70a2b-cb66-45dc-aee5-361a8c1d4fbf-000000@email.amazonses.com>
+X-phpList-version: 3.3.8
+X-MessageID: 188
+X-ListMember: HCCHEN@MS1.HINET.NET
+Precedence: bulk
+List-Help: <https://xotours.net/phplist/?p=preferences&uid=de80edf8055b5727a795ec1134233501>
+List-Unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=de80edf8055b5727a795ec1134233501&jo=1>
+List-Subscribe: <https://xotours.net/phplist/?p=subscribe>
+List-Owner: <mailto:harry.ji@xotours.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_a65f51e2781e86adfa85f7b7f01a2b06"
+Feedback-ID: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+X-SES-Outgoing: 2026.07.06-54.240.48.23
+X-CMAE-Score: 0
+X-CMAE-Analysis: v=2.4 cv=LvwxyWdc c=1 sm=1 tr=0 ts=6a4c3cec
+	a=X+0ciJiFxF+CMF8ipVfy1w==:117 a=RAioF0-LDSMA:10 a=Hgn-wnRn1-cA:10
+	a=5KLPUuaC_9wA:10 a=M51BFTxLslgA:10 a=3b11hVZ4Tx0A:10 a=YFHz6ByJM4cA:10
+	a=ZKS8Kw3IVw4A:10 a=SKaEv8EmnvEA:10 a=Yb0-n4YeEQoA:10
+	a=r77TgQKjGQsHNAKrUKIA:9 a=jJrOw3FHAAAA:8 a=T8hLot1VAAAA:8
+	a=jOK2hbgB6_JAwcihhN0A:9 a=QEXdDO2ut3YA:10 a=hd2KOZ1qAAAA:20
+	a=3SDdY1H9RergZC-YrZsA:9 a=CPqWb7BsUb3gju-5:21 a=_W_S_7VecoQA:10
+	a=VzF5YhUR-OUA:10 a=zXiGQnQDKnAcNbPgrF13:22 a=SdinTAY7Zb9a_dpSS1nE:22
