@@ -1,0 +1,81 @@
+To: KEVINPHAN777@YAHOO.CA
+From: ronnie@xotours.net
+Subject: =?UTF-8?B?UmU6IOKavSDkuJbntIDniK3orbA=?= =?UTF-8?B?77yB5Z+D5Y+K56We57Sa6YCy55CD56uf54S26KKr5ZC5?= =?UTF-8?B?5o6J77yf5pu+6ICB5bir5o+Q6YaS77ya55yL55CD55WZ?= =?UTF-8?B?6YG65oa+77yM5Lq655Sf5Y+v5Y2D6JCs5Yil55WZ4oCm?=
+date: Mon, 13 Jul 2026 23:04:55 +0000
+mime-version: 1.0
+boundary: b1_bbf0df23473700a99659eaaf84dd601b
+content-length: 30201
+x-apparently-to: kevinphan777@yahoo.ca; Mon, 13 Jul 2026 23:04:56 +0000
+return-path: <0100019f5db9f431-412d6969-a132-4e8b-b7bd-cd8814597445-000000@amazonses.com>
+x-messageid: 189
+type: multipart
+precedence: bulk
+list-subscribe: <https://xotours.net/phplist/?p=subscribe>
+list-help: <https://xotours.net/phplist/?p=preferences&uid=55d16e3ced3ee2271a6f79a182f72bf4>
+received-spf: pass (domain of amazonses.com designates 54.240.48.23 as
+ permitted sender)
+subtype: alternative
+message-id: <0100019f5db9f431-412d6969-a132-4e8b-b7bd-cd8814597445-000000@email.amazonses.com>
+from: "æ°è¯è¯åæåæ æ¾èå¸«" <ronnie@xotours.net>
+content-type: multipart/alternative;
+	boundary="b1_bbf0df23473700a99659eaaf84dd601b"
+authentication-results: mta.yahoo.com; dkim=pass header.i=@xotours.net
+ header.s=2qfonuspc2ogjllkjr6yoajmfetunrey
+ arc_overridden_status=NOT_OVERRIDDEN; dkim=pass header.i=@amazonses.com
+ header.s=224i4yxa5dv7c2xz3womw6peuasteono
+ arc_overridden_status=NOT_OVERRIDDEN; spf=pass smtp.mailfrom=amazonses.com
+ arc_overridden_status=NOT_OVERRIDDEN; dmarc=pass(p=QUARANTINE)
+ header.from=xotours.net arc_overridden_status=NOT_OVERRIDDEN;
+dkim-signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1783983895;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;
+	bh=X6JWLwExYmDYxjD1hcYA8+VeifjCafsaT85xhRVi6NY=;
+	b=PwdasXqgD7XWmF5HOpGRUv1DU5hm1+VjdmnZm9/F72F8+KFbA3Y0/YHpXDMokbVe
+	TDQYolBh2lWxmrp9O6yGqgxVM1Uj5DtO/i92Ykq94RiXvo3kUWCOH9XE4HfCrA1/Pd5
+	l87kTv9SkgAfGJAURK+eT9RJHclBpdAGDdtLlIoNSLVnoPhZB+xylWYB2Qp3/OoFVPs
+	A4bmV1bgneZU6ezOx9GcmkBxunIqmH5D8VQney2imEmfUfXxesIcUPHbbs2Mnd9IVxt
+	5Flr9pgDy96OfCihFbzyS0BQTa01X8tO2bY20VQPELN02bgdFUedbIe9oVOUS5XAWIn
+	8svuvzn6lw==,v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1783983895;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;
+	bh=X6JWLwExYmDYxjD1hcYA8+VeifjCafsaT85xhRVi6NY=;
+	b=H5lvYHy2rBT+0ai3F3p2KzIRRLj8GxvOJ+/koHQOf82XfZtj3XEizq19OS8rBLPX
+	kM35mZjgRPniB4hT/HYQihOM7YlFBxnaCVH9LzAF9y/R+US5nL5XX9nXbp4YgeSXPAy
+	ueJhsT0VSn4ba5sRtxrXhEROz5ZdYiKYiGPXl9BM=
+list-owner: <mailto:harry.ji@xotours.net>
+list-unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=55d16e3ced3ee2271a6f79a182f72bf4&jo=1>
+x-ymailisg: YN_ULr8WLDuzESc1KkJsnNoOHLRdhAhjWW0ySHAjoIIwXQKg
+ A29qb7._ld68J5GCAi05HKxQnNmNlXL10gJ65gBgcT67vykQRCeNLgV3jeZA
+ Tighk0u4rKrqPj.F5uslY7MLOch9lB5OzbM0f4ccY6PfKJo5hwplivwL6E3L
+ S9lLPWs9ZBmbb8aFRm8G7xZDkY9nKhgkiyy7eK72DglKhUd32NmA9qWvTt0p
+ KHdLZoD0j2yBSfuz9_GrJMrgRG5NjNF4DjYMA_vqbs1vpkhk1kFeUt15vDql
+ IlP9YzO4fn.JW2aZ3l6nKySRBZSGti7CH8qGwLE6enay46P6Kk0AmAw32XvV
+ g8ExQDSROtalwnvEqDqkJdu1cgPIzfu5IRbslFxfj55uZHa6MF4J8wf5XmBQ
+ 5N4ZqNXM5kf1cqSydt9qKMnt2t7zuF_w5.oTZPAxb4E4p_funkvmlD0ObUtl
+ XscymWZ3IQB8PeSUwkVFl9Uk5bQw9UkaPIeM6zjP6M0cAm5cTSMPhzCO1tpf
+ SCgHYB.fj_X6i3ENiBwdsLpbulZVRQDReOmiF4gnYbhWgVIHycDjri4Ts96_
+ RyPRs7.SqhfU344e3Igilwvr21RzwzNkGehAR9MJr4dCsvZF6Vf7WA9oNlt8
+ Yd_AjTkqbde5tzbRKg4Poe.ecbySHDvRyiiKU8GwKVvEj8wvUlwic8zKO9DC
+ nxVdhhbXMwybZUWQ9XeVKnREvtc6mF5Ex3qpYFwlkRi1LiuB5uchZ2nh5CyK
+ hCqmCvKGs2OUNU5qoSXMjwkBjT6uEkCWBw2zXLZfaZrzm2DOtEEIFC9j5qL_
+ kp5hgFVJjYj.xcyLUxRGnznctQ92OSAi5DFq3pwM_hNQjsji_CS5Mkf0BSiP
+ H49kLGyB06cRYgmxs3BtTn1.K7C4GYWQXFnnUevWmz6tjDwf0EnuZtjvCv4I
+ AwSyCq_UcpoFexmZEouxX071lp_nB5UJI9bwv6gsx_L4QSAX6T5EbIR8atIU
+ ycfEQAMzXuACW1po943vEgIC_Z6QY6qrMYyqXNAYZkCLadIUtiqQpvo6hD32
+ O_qWRuyl7I5FmdBRwFVpXj4PeCBsJhQ9myr.4RwhJO3gIR4_U3LJbDe_KifS
+ 4AW6M_iQnRS.58fsV7rKKKY4NEX_rIJiK0jq8DuzXPBSsg7n6h6qfE7IwgiD
+ 5pmgyFGF.FbSpLoL4E4r51WpR3EexLAEqD1a7HE-
+received: from 127.0.0.1 by
+ atlas-production.v2-mail-prod1-bf1.omega.yahoo.com pod-id
+ atlas--production-bf1-5f788674bd-6tq7m.bf1.yahoo.com with HTTP; Mon, 13 Jul
+ 2026 23:04:56 +0000,from 54.240.48.23 (EHLO a48-23.smtp-out.amazonses.com)
+ by 10.197.40.136 with SMTPs (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 13 Jul 2026 23:04:56 +0000
+x-originating-ip: [54.240.48.23]
+x-listmember: KEVINPHAN777@YAHOO.CA
+x-phplist-version: 3.3.8
+size: 30201
+x-ses-outgoing: 2026.07.13-54.240.48.23
+feedback-id: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+to: KEVINPHAN777@YAHOO.CA
+
