@@ -1,0 +1,81 @@
+To: funbuckles@yahoo.com
+From: ronnie@xotours.net
+Subject: =?UTF-8?B?UmU6IOKavSDkuJbntIDniK3orbA=?= =?UTF-8?B?77yB5Z+D5Y+K56We57Sa6YCy55CD56uf54S26KKr5ZC5?= =?UTF-8?B?5o6J77yf5pu+6ICB5bir5o+Q6YaS77ya55yL55CD55WZ?= =?UTF-8?B?6YG65oa+77yM5Lq655Sf5Y+v5Y2D6JCs5Yil55WZ4oCm?=
+date: Mon, 13 Jul 2026 23:30:39 +0000
+mime-version: 1.0
+boundary: b1_448f02eb468c982f5cef874a7f5639ae
+content-length: 30201
+x-apparently-to: funbuckles@yahoo.com; Mon, 13 Jul 2026 23:30:40 +0000
+return-path: <0100019f5dd18170-dc31bb47-b43e-43af-85ad-2e8bc3df6397-000000@amazonses.com>
+x-messageid: 189
+type: multipart
+precedence: bulk
+list-subscribe: <https://xotours.net/phplist/?p=subscribe>
+list-help: <https://xotours.net/phplist/?p=preferences&uid=8e63488dfdade0ce91f9d1419981c2a4>
+received-spf: pass (domain of amazonses.com designates 54.240.48.24 as
+ permitted sender)
+subtype: alternative
+message-id: <0100019f5dd18170-dc31bb47-b43e-43af-85ad-2e8bc3df6397-000000@email.amazonses.com>
+from: "æ°è¯è¯åæåæ æ¾èå¸«" <ronnie@xotours.net>
+content-type: multipart/alternative;
+	boundary="b1_448f02eb468c982f5cef874a7f5639ae"
+authentication-results: mta.yahoo.com; dkim=pass header.i=@xotours.net
+ header.s=2qfonuspc2ogjllkjr6yoajmfetunrey
+ arc_overridden_status=NOT_OVERRIDDEN; dkim=pass header.i=@amazonses.com
+ header.s=224i4yxa5dv7c2xz3womw6peuasteono
+ arc_overridden_status=NOT_OVERRIDDEN; spf=pass smtp.mailfrom=amazonses.com
+ arc_overridden_status=NOT_OVERRIDDEN; dmarc=pass(p=QUARANTINE)
+ header.from=xotours.net arc_overridden_status=NOT_OVERRIDDEN;
+dkim-signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2qfonuspc2ogjllkjr6yoajmfetunrey; d=xotours.net; t=1783985439;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type;
+	bh=iCQMveOuzJPheBRb9rtaASbv6e4w3f2rApfI61i9Kbw=;
+	b=H/kRaDzc6u5483dQTwtaTsjDZblqhtp/OORplOgKvtBVxnmsaGsoSNbtSGJiANAx
+	6kQn+FKe//aPgPnldqkVoTaF/+L6zxTskQ3d7ssbyp+qJoqp76ax6pHLM8hF9WN0G3G
+	pw9S8gXJyF3XSnjg/cjV48wbchtVnrdo0rrDARXgTjy4Rhr0+bmjeolk4D+qYQVO/Nb
+	0HiztwDAtC281cieJpuzy+FsRv73Ch2uYyEAb1/JRR+9pVol89ay6w4Ky978kw9/MMx
+	TJuw2y05HETiQ8xNYaLIGir/9lEAkeQqwrrnd+ueditbbdqFoPuNKLejoN2veU6TiDM
+	s0owkAn4Lg==,v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1783985439;
+	h=Date:To:From:Subject:Message-ID:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:MIME-Version:Content-Type:Feedback-ID;
+	bh=iCQMveOuzJPheBRb9rtaASbv6e4w3f2rApfI61i9Kbw=;
+	b=a9VHInDe4Ok3Nkrqz05xLFedEnN2Ms+vYmPxzxF0Ib2J99O2LNu/jbVn/GmA7cFo
+	Q5VF7Vq4dd6aDuA71TA6Gbo0f+thggTHjCIubSBrRY7bPh8Q26Sykb0LqRKzaZsy1vd
+	Giv2IvJtAEgFDlKN7M84/sLh9J67cvoQVnmfA9bk=
+list-owner: <mailto:harry.ji@xotours.net>
+list-unsubscribe: <https://xotours.net/phplist/?p=unsubscribe&uid=8e63488dfdade0ce91f9d1419981c2a4&jo=1>
+x-ymailisg: zUyoNM0WLDvbj4m_xlMVh_c34jaauiYNKLJRafFjGukEkXnQ
+ n6mZ.1.i_Hg0WVrEA51nce94TZx8YasXqPTWsp1pym3oyFPKH9kjkJ.dAQnB
+ M5J38mQAEyeA4ZDkNhXwFy_F3JEAaPdrgjb.f_cFlRZVFH6mKCeHvbmJIDg1
+ CD1sUCYN_EmsbopUl3ciKVVNL6Li2NVpYUM851Llkqu.rWxWW3cwLShJ0hhY
+ 7lvDMK9wKyVb48zwFpoxVFNXLjbMWWiL.k7mNEjl2_ib8KLjhwbMUPwSqNig
+ R7y1Yki4f9rtraT8kA7ZlgBFmyUGLNobrozzJnPX7CF_8zI.LfN44JuduLIT
+ I5XTS0lpB0AruQq3nMjC3Q4yfYGbK_eqyClIpXCQAtKOeL9JHvjwPkv3mmPa
+ hDYmx6E4x.mjIe7W2E8gVbrdx.pGpB1jeFuXa5Do558Pj3BnKxj4nCzzAobB
+ JvPMqJi1DstrQU8Y5PxJDXKRQlHXPx.0DNCHvBWggalkI0fB5Ufs3jd2yWUg
+ jBQa6BWngjpXCFBpj2IpS1RTm7Of2itTV6q_YdppZOlrwZZKcQKQwHQZ.L.x
+ h6NizkdrT4R.Lf._27VC2xCgmotVZ3oVhZVn08vXOl93TC3ucrT8kIvh4HM.
+ mfKg4XiK9tZCjqkczEtFoQJJ9NIPr_CYhxnaOBXJFCodVk8jqN_pSsimDw5p
+ gfk9Bld1wfR68wsdU6EEwJ9RLMW2Fdqz3HUaanQNXGnWrwxDPitWAgu_O16l
+ Jk4EIKrFcvFdKzmvwdyZhhhKI7yoeTqWiruze2TexE4Qju8fqaQYrBPQFiuJ
+ BpU19NwPi0yQuinUjBKfKq3USw_w3LUWwVPYyS9lQFLlphZ.A0tyhg5B6pwk
+ YSjl7Fk4CyFFg3laUp2OWbCiiIXFfmg7c.Uw2ThFIpAUjYuJTOjSZxw1f.mx
+ RSJVV9tY.1YPiE4jV_BZlq1iXVv2AiyD0LxCLIQweqUajMHNvTOUiNg956NL
+ Hgz0c44rv0JH3u.JbESxgnQgBmZfPBAVD7Df1BX80itVcmynpf.K4.pf9cqu
+ fe5YHERBvtTeuQCxyarQQRt5EDnzUSieYswfapwFApPPlEqxG2JlyFUh_n80
+ cpg1Xe7JVJxiZaOa3BHnjHcnTSEM43LQtwJPDeMRx6UewhRNImFTNyhWzOYp
+ AFRepl_3oXSeSuPNF5QEJe27TWKst8SNFIev3nFb
+received: from 127.0.0.1 by
+ atlas-production.v2-mail-prod1-bf1.omega.yahoo.com pod-id
+ atlas--production-bf1-5f788674bd-ch28j.bf1.yahoo.com with HTTP; Mon, 13 Jul
+ 2026 23:30:39 +0000,from 54.240.48.24 (EHLO a48-24.smtp-out.amazonses.com)
+ by 10.196.216.84 with SMTPs (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 13 Jul 2026 23:30:39 +0000
+x-originating-ip: [54.240.48.24]
+x-listmember: funbuckles@yahoo.com
+x-phplist-version: 3.3.8
+size: 30201
+x-ses-outgoing: 2026.07.13-54.240.48.24
+feedback-id: ::1.us-east-1.4994uOgyNCWVXKngPoksqvXm2OkUBMCEyN4JbCjSXzQ=:AmazonSES
+to: funbuckles@yahoo.com
+
