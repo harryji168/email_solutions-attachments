@@ -1,0 +1,5 @@
+Reporting-MTA: dns; server1.supere.tech
+
+Action: failed
+Final-Recipient: rfc822;eliza@mlicanada.com
+Status: 5.0.0

@@ -1,0 +1,27 @@
+Return-path: <order@mlicanada.com>
+Received: from d50-92-253-36.bchsia.telus.net ([50.92.253.36] helo=mli002)
+	by server1.supere.tech with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <order@mlicanada.com>)
+	id 1wjmh7-00AHX1-0Y;
+	Tue, 14 Jul 2026 16:37:45 -0700
+From: <order@mlicanada.com>
+To: "'Box and Lid'" <gm@boxandlid.com>,
+	<eliza@mlicanada.com>
+Cc: <boxandlid1@gmail.com>,
+	<jinwu@mlicanada.com>
+References: <01ef01dd13b8$b786adf0$269409d0$@mlicanada.com> <CANp7AkGoTNjCDfPBgr+Wsbs3cfMPvv5AO4DrqPO=LDv-O-SmvA@mail.gmail.com> <CANp7AkH9RG-ShwEndMY6o3arsFGAUKBo5u+67MA4EjwSwU7nUw@mail.gmail.com>
+In-Reply-To: <CANp7AkH9RG-ShwEndMY6o3arsFGAUKBo5u+67MA4EjwSwU7nUw@mail.gmail.com>
+Subject: RE: Special Pricing for TS24 - 3-Skid Order
+Date: Tue, 14 Jul 2026 16:37:44 -0700
+Message-ID: <0bb301dd13e9$c56bffc0$5043ff40$@mlicanada.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0BB4_01DD13AF.190F71B0"
+X-Mailer: Microsoft Outlook 16.0
+Content-Language: en-ca
+Thread-Index: AQH/v/hTi15aOPQeldGo+VsDVbAz2wIWoUuyAyPRAl+1/n4Z8A==
+X-Antivirus: AVG (VPS 260714-6, 7/14/2026), Outbound message
+X-Antivirus-Status: Clean
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
