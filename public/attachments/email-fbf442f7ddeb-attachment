@@ -1,0 +1,718 @@
+<!doctype html>
+<html ⚡4email data-css-strict lang=en>
+<head>
+<title>Reach more potential customers</title>
+<meta charset=utf-8>
+<meta name=format-detection content=telephone=no>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<script async custom-element=amp-form src=https://cdn.ampproject.org/v0/amp-form-0.1.js></script>
+<script async custom-template=amp-mustache src=https://cdn.ampproject.org/v0/amp-mustache-0.2.js></script>
+<style amp4email-boilerplate>body{visibility:hidden}</style>
+<style amp-custom type=text/css>.desk_show{display:table}
+.displaytable{
+display:none;
+}
+.desk_center_mob_left{text-align:center;}
+.hero_heading_mob{ font-size: 48px;
+line-height: 58px;letter-spacing:-0.5px;}
+.width_604{width:604px;}
+.w_100_d_720{width:720px;}
+.center_align{
+text-align:center;
+}
+.dsa_mobile_padding{
+padding-left:55px;
+padding-right:55px;
+}
+.w_590_m_100{width:590px;}
+.desktop_only{display:table}
+.desktop_only_new{display:table-cell;}
+.mob_show{display:none}
+.mobile_only{display:none}
+.mobile_only_new{display:none}
+.campaign_text_mob{
+font-size:16px;
+line-height:24px ;
+}
+.hero_para_desk{padding: 20px 46px 0px 46px;}
+.padding_dsa_para{padding-right:0px;padding-bottom:0px;padding-left:0px;}
+.bottom_padding_header{padding-bottom:20px;}
+@media only screen and (max-width:900px) {
+.tab_width{
+width:100%;
+}
+.desk_center_mob_left{
+text-align:left;
+}
+.bottom_padding_header{padding-bottom:8px;}
+.pad_top_mob{padding-top:10px;}
+.hero_para_mobile{padding:0px 20px;}
+.mobile_box_padding{
+padding:0px 10px;
+}
+.padding_dsa_para{padding-right:50px;padding-bottom:0px;padding-left:50px;}
+.w_590_m_100{width:100%;}
+.w_100_d_720{width:100%;}
+.displaytable{
+display:table;
+}
+.desktop_only {
+display: none ;
+}
+.mobile_only {
+height: auto ;
+overflow: visible ;
+display: block ;
+}
+.desk_show{display:none;}
+.mob_show{display:table;}
+.mob_fix{width:100%;}
+.desk_only_orphan{white-space: normal;}
+.footer_outer_pad {padding:0px 0px 0px 0px;}
+.footer_main_pad {padding:20px 0px 0px 0px;}
+.footer_main_pad_em{padding:0px 28px 43px 28px;}
+.footer_legal{text-align:left;}
+.foot_mob_logo{text-align:left;}
+.dark_mode_img_only {display: none ;}
+.alignment {text-align:left;}
+.saco_mob{padding:30px 28px 40px 28px;}
+.saco_header_style{font-size:28px; line-height: 34px; padding:8px 0px 11px 0px;}
+.light_mode_img_only {
+display: block ;
+}
+.mob_word_break{word-break:break-all ;}
+.mb_break{word-break:break-word;white-space:nowrap;}
+}
+/* Media query for centering the proof*/
+@media screen and (min-width: 812px) and (max-width: 812px),
+screen and (min-width: 736px) and (max-width: 736px),
+screen and (min-width: 667px) and (max-width: 667px),
+screen and (min-width: 568px) and (max-width: 568px),
+screen and (min-width: 414px) and (max-width: 414px),
+screen and (min-width: 375px) and (max-width: 375px),
+screen and (min-width: 320px) and (max-width: 320px) {
+.body {
+min-width: 100vw ;
+}
+}
+@media only screen and (max-width:950px){
+.mob_fix{
+width: 100% ;
+}
+.w100{
+width: 100% ;
+}
+.w85{
+width: 85% ;
+}
+.hero_table_padding{ padding: 0 40px;}
+.mob_width210 td{
+padding-left: 11px ;
+}
+.mobile_text_left{
+text-align: left ;
+padding-right: 0px;
+padding-left: 0px;
+}
+.mod1_padding{
+padding: 0px 30px 26px 30px ;
+height: 0px ;
+}
+.hero_pad_mob{padding:0px 10px;}
+.hero_heading_mob{font-size:40px;line-height:1.2;letter-spacing:-0.4px;}
+}
+.box_padd_bottom{
+padding-bottom:15px;
+}
+@media only screen and (max-width:951px){
+.desk_show{display:none;}
+.mob_show{display:table;}
+.mob_show{display:table ;}
+.mobile_only{
+display:block;
+}
+.left{
+text-align: left ;
+}
+.mob_fix{
+width: 100% ;
+}
+.banner_head, .body_content, .dashboard_button{
+padding: 0px 28px 0px 28px ;
+}
+.main_head {
+font-size: 40px ;
+color: #202124;
+padding: 30px 0px 16px 0px ;
+line-height: 48px ;
+width:100% ;
+}
+.sub_head, .body_content tr td {
+font-size: 16px;
+color: #3C4043;
+}
+.mobile_text_left{
+text-align: left ;
+padding-right: 0px;
+padding-left: 0px;
+}
+.padding_header_para_m{padding: 12px 8px 26px 8px ;font-size: 16px ;line-height: 24px ; text-align: left ;}
+.desk_center_mob_left{
+text-align:left;
+}
+}
+@media screen and (max-width:768px){
+.hero_mob-pad{
+padding-bottom:26px ;
+}
+.dsa_mobile_padding{ padding: 10px 34px;}
+}
+</style>
+</head>
+<body class=dark_background style="margin:0px; padding:0px; min-width:100%;">
+<table class=tab_width role=presentation align=center cellpadding=0 cellspacing=0 style="margin:0 auto;padding:0;">
+<tr>
+<td align=center style="padding:0px; text-align: left; background: #ffffff;">
+<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">Review your estimate and adjust your budget in one click.</div>
+</td>
+</tr>
+<div style="font-size: 0px; line-height: 0px;height: 0px;width: 0px;max-width: 0px;max-height:0px;display:none;overflow:hidden;">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;</div>
+<tr>
+<td class=dark_background align=center style="padding:0px 0px 0px 0px;text-align:center; font-size:0; border: 1px solid transparent;">
+<!-- Main-Table---start -->
+<table align=center role=presentation class="mob_fix bg_color" bgcolor=#ffffff width=720 cellpadding=0 cellspacing=0 style=background-color:#ffffff; dir="">
+<tr>
+<td style="padding-left:20px;padding-right:20px;padding-top:18px;padding-bottom:20px;font-size: 16px;font-family: Google sans, Roboto, Open Sans, arial,sans-serif; line-height: 20px; color:#5f6368;text-align:left; display:none;">
+Review your estimate and adjust your budget in one click.
+</td>
+</tr>
+<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&nbsp;&nbsp;&nbsp;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;</div>
+<!-- Main-Table---end -->
+</table>
+<!--Main-Table-2---start-->
+<tr>
+<td>
+<table align=center role=presentation class=w_100_d_720 bgcolor=#ffffff width=720 cellpadding=0 cellspacing=0 style=background-color:#ffffff; dir="">
+<tr>
+<td>
+<table class=desk_show role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td style="border-bottom:1px solid #CCCFD2;">
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left class="">
+<tr>
+<td style=padding-top:22px;padding-right:10px;padding-bottom:15px;padding-left:52px;>
+<amp-img class="desktop_only mb_w" src=https://www.gstatic.com/gumdrop/files/ads-google-logo-transparent-w256px-h62px-2x.png style="max-width: 128px; width: 128px; height: auto; display: block; border:0;" width=128 height=31 aria-hidden=true alt="" layout=responsive class=m0></amp-img>
+</td>
+</tr>
+</table>
+<table role=presentation width=auto cellpadding=0 cellspacing=0 border=0 align=right class="">
+<tr>
+<td align=right class="" style=padding-top:13px;>
+<table role=presentation class="" cellpadding=0 cellspacing=0 border=0 width=100% dir=ltr>
+<tr>
+<td role=text class="" style="font-size:14px; line-height:21px; font-weight:400; color:#202124; text-align:left; font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-top:4px;padding-right:12px;padding-bottom:1px; direction:ltr;">
+Your Customer ID:
+<strong class="" style=font-weight:400;>
+<a aria-hidden=true class=forApple_header style="color:#202124; text-decoration: none;" target=_blank><span dir=ltr style="color:#202124; text-decoration:none; color:#202124;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">203-536-3486</span></a>
+</strong>
+</td>
+<td align=right class="" style=padding-right:40px;>
+<a class=width48 href=https://c.gle/AKMee0eYhHBDuzdZs7ciO_jt5wYOD_WDccBQVC56K1DODeeP7nX-ddkCDzqLXqBiyYL9Wb9NbdztZhxicqjCJg2-cpn3fBsiBc-y9YS9fQ4gL4IDqTeA4HS2RdMWuHcqihVkhw36 target=_blank style="text-decoration: none; width:48px; height:48px;">
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/merchant-center-sign-in-11y-transparent-w192px-h192px-2x.png width=48 height=48 style=width:48px alt="Sign In" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if !mso]><!-->
+<table class="mob_show desktop_mob_none mob_fix" role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style="direction:ltr; margin:0; border-bottom: 1px solid #CCCFD2;">
+<tbody>
+<tr>
+<td>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center class="">
+<tbody>
+<tr>
+<td style="padding-top:20px; padding-left:0px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/ads-google-logo-transparent-w256px-h62px-2x.png width=143 style="width:143px; max-width:143px; margin: auto;" alt="" height=31></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table role=presentation width=auto cellpadding=0 cellspacing=0 border=0 align=center class="">
+<tr>
+<td align=right class=pad_cust_top style=padding-top:12px;padding-bottom:15px;>
+<table role=presentation class="" cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr>
+<td role=text class="" style="font-size:14px; line-height:21px; font-weight:400; color:#202124; text-align:right; font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-left:10px; direction:ltr;">Your Customer ID:
+<strong class=forApple_header style=font-weight:400;>
+<a aria-hidden=true class=forApple_header style="color:#202124; text-decoration: none;" target=_blank><span dir=ltr style="color:#202124; text-decoration:none; color:#202124;"><span class=text_para_color style="color:#202124; white-space:nowrap; text-decoration:none; color:#202124; font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">203-536-3486</span></span></a>
+</strong>
+</td>
+<td align=right class="" style="padding-right:10px; padding-bottom:6px; padding-left:14px;">
+<a href=https://c.gle/AKMee0eYhHBDuzdZs7ciO_jt5wYOD_WDccBQVC56K1DODeeP7nX-ddkCDzqLXqBiyYL9Wb9NbdztZhxicqjCJg2-cpn3fBsiBc-y9YS9fQ4gL4IDqTeA4HS2RdMWuHcqihVkhw36 target=_blank style="text-decoration: none;">
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/google-ads-blue-user-transparent-w100px-h100px-2x.png width=20 height=20 style=width:20px alt="Sign In" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--<![endif]-->
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tbody>
+<tr>
+<td style=padding-top:14px;width:212px; width=212 align=center class=bottom_padding_header>
+<amp-img layout=responsive src=https://www.gstatic.com/gumdrop/files/adwords-expand-and-grow-bnsnew-transparent-w432px-h164px-2x.gif width=199px height=74px style=width:212px></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td align=center valign=top>
+<table role=presentation width=649 cellpadding=0 cellspacing=0 border=0 style="" class="mob_fix hero_pad_mob ">
+<tr>
+<td class=hero_heading_mob style="font-weight:700; color:#202124; text-align:center; font-family:'Google Sans', Roboto, Arial, Helvetica, sans-serif; padding-left:9px; direction:ltr;">
+<span class="" style=color:#1E8E3E>You can get +16240.0 Conversions</span> with the right budget<sup style="font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:24px;line-height:25px;;">1</sup>
+</td>
+</tr>
+<tr>
+<td class="hero_para_desk pad_top_mob hero_para_mobile" style="font-size:16px; line-height:24px; font-weight:400; color:#3C4043; text-align:center; font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; direction:ltr; ">
+More customers are interested in your offerings, but your campaign "歐洲/瑞士/台灣" is limited by your current budget. Adjust your budget to C$990 per day with just one click, so more Conversions won't <span style="white-space: nowrap;">slip away.</span>
+</td>
+</tr>
+<tr>
+<td>
+<table class=desktop_only role=presentation align=center>
+<tr>
+<td>
+<form id=form_1 method=post action-xhr=https://voltr.corp.google.com/v1/processAction class="user-valid amp-form-submit-success" on=submit-success:form_2_success.show,form_2_submitting.hide;submit-error:form_2_fail.show,form_2_submitting.hide>
+<div id=type_1><table role=presentation align=center width="" cellpadding=0 cellspacing=0 border=0 style=width:px;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table class=w_590_m_100 role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td style="text-align: center;padding-top: 24px;padding-bottom: 17px;">
+<button name=request type=submit class="user-valid valid" style="font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 500;background-color:#1A73E8;padding:12px 28px;border-radius:28px;border:0px;color:#ffffff;line-height: 24px;cursor: pointer;direction:ltr;" value=CjoSOEFSdmNJcWh1RmQwVFJsL3c3Vi8zWnd1MjBvZTNtSGpUT29qSkFnM3BYdTBJckd1YzM0bnNYWmM9EAYaNEFYaUI2bHQ0VEZtb0lMZ3c5c3ZBdkdJbzZXYzBFcmJOOWlPVjg2TUlIK2tveHJHekJBPT0o9sqi8YY0QhQKEnZvbHRyLWNhbXBhaWduLWFnamC4ncnTBnIxCg5idWRnZXRfcmFpc2luZxIUYnVkZ2V0X3JhaXNpbmdfaW5wdXQaCTk5MDAwMDAwMIIBHQoHCgWA54jYAxoLMjQwOTI5MjQzMzgiA0NBRCgCigGSAgoIMjAzODY4ODASCTg5NzMyMDA1NSoiChRleHRlcm5hbF9jdXN0b21lcl9pZBIKMjAzNTM2MzQ4NiolCg1jYW1wYWlnbl9uYW1lEhTmrZDmtLIv55Ge5aOrL+WPsOeBoyoYChFuZXdfZGFpbHlfYXZlcmFnZRIDOTkwKg4KDG1lZXRpbmdfbGluayoXCgdrc19mbGFnEgxub3QgZWxpZ2libGUqGgoUYmlsbGluZ19jb3VudHJ5X2NvZGUSAkNBKhAKCXVzZXJfdHlwZRIDc3NnKj0KCGN0YV9saW5rEjFodHRwczovL2Fkcy5nb29nbGUuY29tL2F3L292ZXJ2aWV3P29jaWQ9ODk3MzIwMDU1OAA= on=tap:type_1.hide,type_2.hide,form_2_submitting.show;>
+Apply new budget
+</button>
+</td>
+</tr>
+<tr><td dir=ltr style="padding-right: px; padding-left: px; padding-bottom: 30px;color:#3C4043;text-align:center;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;direction:ltr;">
+Clicking "Apply new budget" will automatically update <span style="white-space: nowrap;">it –</span> adjust or undo this change in your <a href=https://c.gle/AKMee0cgOfkcNIaczEPpSOOyFXP5PfQU5eAkuaIZ9PbCKpPMaMM0IPETP6_6dWW7TT4KnSQ5tHGvanjkgduCmABSMMj4qQZKnFBos6kXEp71HRTr55QYlTRIMZm1VTkiY3nWdPvvJx7KkaV_-zycGynY2rjoVHsmUL0KG4uJvmiOeulXMauWh8ixWEXlnw target=_blank style="text-decoration:underline; color:#1A73E8; " class="">account</a>.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></div>
+<div submitting=""><table role=presentation align=center width=688 cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table class=w_590_m_100 role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style="">
+<tr>
+<td style="padding-top: 17px;">
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;max-width:291px;margin:auto;>
+<tr>
+<td width=40 style="padding-bottom: 2px;width:30px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-amp-loading-icon-desk-transparent-w60px-h60px-2x.png width=30px height=30px /></td>
+<td width=16 style="width: 16px;"></td>
+<td dir=ltr style="color:#1A73E8;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;direction:ltr;">We're applying this update.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr><td dir=ltr style="color:#3C4043;text-align: center;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;padding-bottom: 21px;padding-top: 17px;direction:ltr;">
+Adjust or undo this change in your <a href=https://c.gle/AKMee0cgOfkcNIaczEPpSOOyFXP5PfQU5eAkuaIZ9PbCKpPMaMM0IPETP6_6dWW7TT4KnSQ5tHGvanjkgduCmABSMMj4qQZKnFBos6kXEp71HRTr55QYlTRIMZm1VTkiY3nWdPvvJx7KkaV_-zycGynY2rjoVHsmUL0KG4uJvmiOeulXMauWh8ixWEXlnw target=_blank style="text-decoration:underline; color:#1A73E8; " class="">account</a>.
+</td></tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/AKMee0cq7x4hITTARsj1jLwdFSRnRoWxwbSZ4gGVgDH6aUbdxrqTBWiVjC2IxGyh53Ot8KLdhRTS6f82YYJs33Tuqg53_41CJhvnqzjdrIfr4UFWwCEzFS7n6RykvZ8tr1q2AkuVDaznmfiOiRvM_H99vKgRRk_zId_A8D-UrRqQojnpcnURNE09Hba4ePfPzduhJHmTSFCY3A width=3px height=1px />
+</td></tr>
+</table></div>
+<div submit-success><template type=amp-mustache>
+<table role=presentation align=center width=688 cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table class=w_590_m_100 role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style="">
+<tr>
+<td style="padding-top: 16px;padding-right:11px;padding-bottom:19px;">
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;max-width:324px;margin:auto;>
+<tr>
+<td width=40 style="padding-bottom: 5px;width:40px;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-amp-success-icon-desk-transparent-w60px-h58px-2x.png width=27 height=26 /></td>
+<td width=16 style="width: 16px;"></td>
+<td dir=ltr style="color:#1A73E8;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;width: 292px;direction:ltr;padding-bottom:15px">Nice! This update has been applied. <br class="desktop_only ">To undo it, <a href=https://c.gle/AKMee0fvD8-YB2eOY6aMCkWiA2aNAs8yoALgpT8YYypJ5Pi-vooKbaPbut1euWtp_PseB1b5OlZ5pqubP8KrRHX70gaNjQmxQ61eeZbBDdSNa2S7NZQQm1FPOtUdWWnzo1DfJ0NVK1JtqKvvMkyP_J4x-w target=_blank style="text-decoration:underline; color:#1A73E8; " class="">sign in to your account</a>.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/AKMee0cRwNMYqBlrn0O2DKf7jfTJWR-52gQ73r5eRWNfDaqE-2i3DZR1DbZZwtcLTPhUWMEWwlil4MqMTHcRa47aZD7jUHyMvTMd-vDQnFX1bTVmgVYxgBDiyyxrM8hLrdPe-HN7EsKw9o62Wk3_J--CKyqJL8sukQI-Km1pFLjfsjJd8dnwWT_2VmQrbRZhwCQG6ZK71v1j_g width=3px height=1px />
+</td></tr>
+</table></template></div>
+<div submit-error><table role=presentation align=center width=688 cellpadding=0 cellspacing=0 border=0 style=width:688px;>
+<tr>
+<td dir=ltr style=direction:ltr;>
+<table class=w_590_m_100 role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style="max-width:328px; width:328px; margin:auto;">
+<tr>
+<td style="padding-top: 16px;padding-bottom: 19px;">
+<table role=presentation align=center width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td width=40 style="padding-bottom: 4px;width:35px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-amp-error-icon-desk-transparent-w60px-h60px-2x.png width=35px height=35px /></td>
+<td width=16 style=width:16px;></td>
+<td dir=ltr style="color:#1A73E8;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;width: 400px;direction:ltr;">Sorry, we couldn't apply this update. <br class="desktop_only "><a href=https://c.gle/AKMee0fQmk5KigmZq5NzPb96ejpD1xVD2qZ8w4ZwUvcoYOml2rSkRCQXKXfB1I6S3cFoUaQK-M_NnXNzytoHxS7W7bLLESj9_OxKV93Pcq6W48wWYQxpWlAQsTcVyt7r5XN-jt4KJcyMDZLrX_7tQtCYnLryjL0l94cLatXHplXRizdz03aVjYnWaesPcJrxHAWsyg target=_blank style="text-decoration:underline; color:#1A73E8; " class="">Enable it in your account</a> instead.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/AKMee0fmqxmrn63Gg9dAj9MnAqRSj-AdthmGM_sA5W0fZ7-EqcwFgRDFO150qfN7SlCVTqC1O4dbYuShDnjJgtT_pae5YNOFSn-OiGLJ1OfykAdCqmhwDE23x9wXUqbl8zxsMvkIXWEDCeG5Ok7qZmym3ukoQ_3724VTXFEkLHSLUS48HQA6wPSbHrqd5EJX3y86e4QN7ihK7g width=3px height=1px />
+</td></tr>
+</table></div>
+</form>
+</td>
+</tr>
+</table>
+<table class="displaytable pad_top_mob" role=presentation align=center width=100%>
+<tr>
+<td style="padding:0 17px;">
+<form id=form_3 method=post action-xhr=https://voltr.corp.google.com/v1/processAction class="user-valid amp-form-submit-success" on=submit-success:form_4_success.show,form_4_submitting.hide;submit-error:form_4_fail.show,form_4_submitting.hide>
+<div id=type_3>
+<table role=presentation width="" cellpadding=0 cellspacing=0 border=0 style=width:100%;margin:auto;>
+<tr>
+<td dir=ltr align=center style="padding-bottom: 15px; text-align:center; padding-left:28px; padding-right:28px;direction:ltr;">
+<button name=request type=submit class="user-valid valid" style="font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 500;background-color:#1A73E8;padding:14px 25px;border-radius:28px;border:0px;color:#ffffff;line-height: 24px;cursor: pointer;" value=CjoSOEFSdmNJcWh1RmQwVFJsL3c3Vi8zWnd1MjBvZTNtSGpUT29qSkFnM3BYdTBJckd1YzM0bnNYWmM9EAYaNEFYaUI2bHQ0VEZtb0lMZ3c5c3ZBdkdJbzZXYzBFcmJOOWlPVjg2TUlIK2tveHJHekJBPT0o9sqi8YY0QhQKEnZvbHRyLWNhbXBhaWduLWFnamC4ncnTBnIxCg5idWRnZXRfcmFpc2luZxIUYnVkZ2V0X3JhaXNpbmdfaW5wdXQaCTk5MDAwMDAwMIIBHQoHCgWA54jYAxoLMjQwOTI5MjQzMzgiA0NBRCgCigGSAgoIMjAzODY4ODASCTg5NzMyMDA1NSoiChRleHRlcm5hbF9jdXN0b21lcl9pZBIKMjAzNTM2MzQ4NiolCg1jYW1wYWlnbl9uYW1lEhTmrZDmtLIv55Ge5aOrL+WPsOeBoyoYChFuZXdfZGFpbHlfYXZlcmFnZRIDOTkwKg4KDG1lZXRpbmdfbGluayoXCgdrc19mbGFnEgxub3QgZWxpZ2libGUqGgoUYmlsbGluZ19jb3VudHJ5X2NvZGUSAkNBKhAKCXVzZXJfdHlwZRIDc3NnKj0KCGN0YV9saW5rEjFodHRwczovL2Fkcy5nb29nbGUuY29tL2F3L292ZXJ2aWV3P29jaWQ9ODk3MzIwMDU1OAA= on=tap:type_3.hide,type_4.hide,form_4_submitting.show;>
+Apply new budget
+</button>
+</td>
+</tr>
+<tr><td style="padding-right: 28px;padding-left:28px;padding-bottom: 28px;color:#3C4043;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 10px;text-align:center;font-weight:400;line-height:15px;direction:ltr;">
+Clicking "Apply new budget" will automatically update <span style="white-space: nowrap;">it –</span> adjust or undo this change in your <a href=https://c.gle/AKMee0cgOfkcNIaczEPpSOOyFXP5PfQU5eAkuaIZ9PbCKpPMaMM0IPETP6_6dWW7TT4KnSQ5tHGvanjkgduCmABSMMj4qQZKnFBos6kXEp71HRTr55QYlTRIMZm1VTkiY3nWdPvvJx7KkaV_-zycGynY2rjoVHsmUL0KG4uJvmiOeulXMauWh8ixWEXlnw target=_blank style="text-decoration:underline; color:#1A73E8; " class="">account</a>.
+</td>
+</tr>
+</table>
+</div>
+<div submitting="">
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=300 align=center style="max-width:328px; width:328px;">
+<tr>
+<td dir=ltr style=padding-left:15px;padding-right:15px;direction:ltr;>
+<table role=presentation width=290 align=center cellpadding=0 cellspacing=0 border=0 style=max-width:328px;>
+<tr>
+<td width=40 style="width:40px;padding-bottom: 3px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-amp-loading-icon-desk-transparent-w60px-h60px-2x.png width=30px height=30px /></td>
+<td width=16 style="width: 16px;"></td>
+<td style="color:#1A73E8;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;width: 237px;text-align:left;direction:ltr;">We're applying this update.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td style="padding-top: 10px;padding-right: 28px;padding-left: 28px;padding-bottom: 27px;color:#3C4043;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 10px;font-weight: 400;line-height: 15px;direction:ltr;text-align:center;">
+Adjust or undo this change in your <a href=https://c.gle/AKMee0cgOfkcNIaczEPpSOOyFXP5PfQU5eAkuaIZ9PbCKpPMaMM0IPETP6_6dWW7TT4KnSQ5tHGvanjkgduCmABSMMj4qQZKnFBos6kXEp71HRTr55QYlTRIMZm1VTkiY3nWdPvvJx7KkaV_-zycGynY2rjoVHsmUL0KG4uJvmiOeulXMauWh8ixWEXlnw target=_blank style="text-decoration:underline; color:#1A73E8; " class="">account</a>.
+</td>
+</tr>
+</table></td></tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/AKMee0cq7x4hITTARsj1jLwdFSRnRoWxwbSZ4gGVgDH6aUbdxrqTBWiVjC2IxGyh53Ot8KLdhRTS6f82YYJs33Tuqg53_41CJhvnqzjdrIfr4UFWwCEzFS7n6RykvZ8tr1q2AkuVDaznmfiOiRvM_H99vKgRRk_zId_A8D-UrRqQojnpcnURNE09Hba4ePfPzduhJHmTSFCY3A width=3px height=1px />
+</td></tr>
+</table>
+</div>
+<div submit-success><template type=amp-mustache>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=300 align=center style=max-width:328px;>
+<tr>
+<td style=padding-left:15px;padding-right:15px;padding-bottom:20px;>
+<table align=center role=presentation width=auto cellpadding=0 cellspacing=0 border=0 style=width:auto;>
+<tr>
+<td width=40 style="padding-bottom: 7px;width:40px;text-align:right;"><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-amp-success-icon-desk-transparent-w60px-h58px-2x.png width=27px height=26px /></td>
+<td width=16 style="width: 16px;"></td>
+<td style="color:#1A73E8;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;direction:ltr;">Nice! This update has been applied. <br class="desktop_only ">To undo it, <a href=https://c.gle/AKMee0fvD8-YB2eOY6aMCkWiA2aNAs8yoALgpT8YYypJ5Pi-vooKbaPbut1euWtp_PseB1b5OlZ5pqubP8KrRHX70gaNjQmxQ61eeZbBDdSNa2S7NZQQm1FPOtUdWWnzo1DfJ0NVK1JtqKvvMkyP_J4x-w target=_blank style="text-decoration:underline; color:#1A73E8; " class="">sign in to your account</a>.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/AKMee0cRwNMYqBlrn0O2DKf7jfTJWR-52gQ73r5eRWNfDaqE-2i3DZR1DbZZwtcLTPhUWMEWwlil4MqMTHcRa47aZD7jUHyMvTMd-vDQnFX1bTVmgVYxgBDiyyxrM8hLrdPe-HN7EsKw9o62Wk3_J--CKyqJL8sukQI-Km1pFLjfsjJd8dnwWT_2VmQrbRZhwCQG6ZK71v1j_g width=3px height=1px />
+</td></tr>
+</table>
+</template></div>
+<div submit-error><table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td dir=ltr class="" style=padding-top:0px;padding-left:0px;padding-right:0px;vertical-align:top;direction:ltr;>
+<table role=presentation cellspacing=0 cellpadding=0 width=300 align=center style=max-width:328px>
+<tr>
+<td style=padding-left:15px;padding-right:15px;padding-bottom:20px;>
+<table align=center role=presentation width=auto cellpadding=0 cellspacing=0 border=0 style=width:auto;>
+<tr>
+<td width=40 style=width:40px;text-align:right;><amp-img src=https://www.gstatic.com/gumdrop/files/adwords-amp-error-icon-desk-transparent-w60px-h60px-2x.png width=35px height=35px /></td>
+<td width=16 style="width: 16px;"></td>
+<td style="color:#1A73E8;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 16px;font-weight: 400;line-height: 23px;direction:ltr;">Sorry, we couldn't apply this update. <br class="desktop_only "><a href=https://c.gle/AKMee0fQmk5KigmZq5NzPb96ejpD1xVD2qZ8w4ZwUvcoYOml2rSkRCQXKXfB1I6S3cFoUaQK-M_NnXNzytoHxS7W7bLLESj9_OxKV93Pcq6W48wWYQxpWlAQsTcVyt7r5XN-jt4KJcyMDZLrX_7tQtCYnLryjL0l94cLatXHplXRizdz03aVjYnWaesPcJrxHAWsyg target=_blank style="text-decoration:underline; color:#1A73E8; " class="">Enable it in your account</a> instead.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td></tr>
+<tr>
+<td align=center width=3 height=1 style="height:1px; line-height:1px; width:3px;">
+<amp-img src=https://c.gle/AKMee0fmqxmrn63Gg9dAj9MnAqRSj-AdthmGM_sA5W0fZ7-EqcwFgRDFO150qfN7SlCVTqC1O4dbYuShDnjJgtT_pae5YNOFSn-OiGLJ1OfykAdCqmhwDE23x9wXUqbl8zxsMvkIXWEDCeG5Ok7qZmym3ukoQ_3724VTXFEkLHSLUS48HQA6wPSbHrqd5EJX3y86e4QN7ihK7g width=3px height=1px />
+</td></tr>
+</table>
+</div>
+</form>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<tr>
+<td>
+<table align=center class="hero_table_padding mob_fix" style="border-radius: 16px ;" role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td class="desk_show center_align">
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td align=center valign=top>
+<table align=center role=presentation width=604 cellpadding=0 cellspacing=0 border=0 class=width_604 style="">
+<tr>
+<td>
+<table role=presentation width=291 cellpadding=0 cellspacing=0 border=0 style="width:291px; border: 1px solid #202124; border-radius: 11px;">
+<tr>
+<td>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style="width:100%; background-color: #E8EAED; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+<tr>
+<td style="font-size:12px; line-height:14px; font-weight:500; color:#5F6368; text-align:center;font-family: 'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; direction:ltr; padding: 7px 0px 7px 0px;letter-spacing:1.2px;">CURRENT BUDGET</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-size:50px; line-height:35px; font-weight:700; color:#80868B; text-align:center;font-family:'Google Sans', Roboto, Arial, Helvetica, sans-serif; direction:ltr;padding-top:24px;">16240.0</td>
+</tr>
+<tr>
+<td style="font-size:16px; line-height:22px; font-weight:400; color:#3C4043; text-align:center;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-top: 10px; padding-bottom: 5px;direction:ltr;height:auto;">Conversions <br class="desktop_only ">last week</td>
+</tr>
+<tr>
+<td style="font-size:36px; line-height:25px; font-weight:700; color:#80868B; text-align:center;font-family:'Google Sans', Roboto, Arial, Helvetica, sans-serif; direction:ltr;padding-top:20px;">C$330</td>
+</tr>
+<tr>
+<td style="font-size:16px; line-height:22px; font-weight:400; color:#3C4043; text-align:center;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; direction:ltr; padding-top: 10px; padding-bottom: 24px;">daily average</td>
+</tr>
+</table>
+</td>
+<td style="padding-left: 18px">
+<table role=presentation width=291 cellpadding=0 cellspacing=0 border=0 style="width:291px; border: 1px solid #202124; border-radius: 11px;">
+<tr>
+<td>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style="width:100%; background-color: #34A853; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+<tr>
+<td style="font-size:12px; line-height:14px; font-weight:500; color:#FFFFFF; text-align:center; font-family: 'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; direction:ltr; padding: 7px 0px 7px 0px;letter-spacing:1.2px;">RECOMMENDED</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-size:50px; line-height:35px; font-weight:700; color:#1E8E3E; text-align:center;font-family:'Google Sans', Roboto, Arial, Helvetica, sans-serif; padding-top:24px ;direction:ltr">16240.0</td>
+</tr>
+<tr>
+<td style="font-size:16px; line-height:22px; font-weight:400; color:#3C4043; text-align:center;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-top: 10px; padding-bottom: 5px; direction:ltr;height:auto;">additional weekly <br class="desktop_only ">Conversions<!--[if gte mso 9]><sup style="font-size:14px;line-height:22px;"><![endif]--><!--[if !mso]><!-- --><sup style="font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:10px;line-height:15px;;"><!--<![endif]-->1</sup></td>
+</tr>
+<tr>
+<td style="font-size:36px; line-height:25px; font-weight:700; color:#1E8E3E; text-align:center;font-family:'Google Sans', Roboto, Arial, Helvetica, sans-serif; direction:ltr;padding-top:20px;">C$990</td>
+</tr>
+<tr>
+<td style="font-size:16px; line-height:22px; font-weight:400; color:#3C4043; text-align:center;font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding-top: 10px; padding-bottom: 24px;direction:ltr;">daily average</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="mob_show mob_fix center_align">
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style=width:100%;>
+<tr>
+<td align=center valign=top>
+<table align=center role=presentation width=604 cellpadding=0 cellspacing=0 border=0 style="" class=mob_fix>
+<tr>
+<td>
+<table role=presentation width=auto cellpadding=0 cellspacing=0 border=0 style=" border: 1px solid #202124; border-radius: 11px;" class="mob_fix box_padd_bottom">
+<tr>
+<td>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style="width:100%; background-color: #E8EAED; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+<tr>
+<td style="font-size:12px; line-height:14px; font-weight:500; color:#5F6368; text-align:center;font-family: 'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; direction:ltr; padding: 7px 0px 7px 0px;">CURRENT BUDGET</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-size:50px; line-height:35px; font-weight:700; color:#80868B; text-align:center;font-family: 'Google Sans', Roboto, Arial, Helvetica, sans-serif; direction:ltr;padding-top:24px;">16240.0</td>
+</tr>
+<tr>
+<td style="font-size:16px; line-height:22px; font-weight:400; color:#3C4043; text-align:center;font-family: 'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; direction:ltr; padding: 10px 55px 5px 55px; ">Conversions <br class="desktop_only ">last week</td>
+</tr>
+<tr>
+<td style="font-size:36px; line-height:25px; font-weight:700; color:#80868B; text-align:center;font-family: 'Google Sans', Roboto, Arial, Helvetica, sans-serif; direction:ltr;padding-top:20px;">C$330</td>
+</tr>
+<tr>
+<td style="font-size:16px; line-height:22px; font-weight:400; color:#3C4043; text-align:center;font-family: 'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; direction:ltr; padding-top: 10px; padding-bottom: 24px;">daily average</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 26px;">
+<table role=presentation width=auto cellpadding=0 cellspacing=0 border=0 style=" border: 1px solid #202124; border-radius: 11px;" class="mob_fix box_padd_bottom">
+<tr>
+<td>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0 style="width:100%; background-color: #34A853; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+<tr>
+<td style="font-size:12px; line-height:14px; font-weight:500; color:#FFFFFF; text-align:center; font-family: 'Google Sans Text', Google sans, Roboto, Open Sans, arial,sans-serif; direction:ltr; padding: 7px 0px 7px 0px;">RECOMMENDED</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-size:50px; line-height:35px; font-weight:700; color:#1E8E3E; text-align:center;font-family: 'Google Sans', Roboto, Arial, Helvetica, sans-serif; direction:ltr;padding-top:24px;">16240.0</td>
+</tr>
+<tr>
+<td style="font-size:16px; line-height:22px; font-weight:400; color:#3C4043; text-align:center;font-family: 'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; direction:ltr;padding: 10px 55px 5px 55px; ">additional weekly <br class="desktop_only ">Conversions<!--[if gte mso 9]><sup style="font-size:14px;line-height:22px;"><![endif]--><!--[if !mso]><!-- --><sup style="font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:10px;line-height:15px;;"><!--<![endif]-->1</sup></td>
+</tr>
+<tr>
+<td style="font-size:36px; line-height:25px; font-weight:700; color:#1E8E3E; text-align:center;font-family: 'Google Sans', Roboto, Arial, Helvetica, sans-serif; direction:ltr;padding-top:20px;">C$990</td>
+</tr>
+<tr>
+<td style="font-size:16px; line-height:22px; font-weight:400; color:#3C4043; text-align:center;font-family: 'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; direction:ltr;padding-bottom:24px; padding-top: 10px;">daily average</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center class="mobile_text_left mobile_box_padding mobile_cta_left padding_btm_dsa_noRec module_2_alignleft left mob_pd" style="font-size:0px; padding:26px 25px; padding-right:0px;padding-bottom:27px;padding-left:3px;word-break:break-word;vertical-align: middle;">
+<table align=center border=0 cellpadding=0 cellspacing=0 role=presentation style="border-collapse:collapse;border-spacing:0px;width: auto; " dir=ltr class=mob_width210>
+<tbody>
+<tr>
+<td valign=middle class=mob_padd_epty style="vertical-align: middle; font-size: 0; padding-left: 11px">
+<a style="font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;font-weight:500;line-height:24px;letter-spacing: 0.25px;text-align:center;color:#1A73E8; text-decoration:none;" href=https://c.gle/AKMee0fMx6kTC76Gy6vUnDTZufXhU4-U_yR1jngxKv4zzimnYhRD09d7BI6Gv76TE9B9LdXvBGxNq-3kv6a8tpo4pq0L0nu84k7wxCpdxbqRexm-zUW9DcdRGBhIyQ5-jaXazctW9jdTQ7wHLXx7lcCO_zPSsIojr0tpMLxQx9_hGEZkU0xQXRy1TVlshOnE3S4veIc class=dark_span target=_blank><!--[if mso]><font face="Arial,sans-serif"><![endif]-->See recommendation</a>
+</td>
+<!--[if !mso]><!-- -->
+<td align=center valign=middle width=48 height=48 style="vertical-align: middle; font-size: 0; width:48px; height:48px; line-height:38px;">
+<!--<![endif]-->
+<!--[if gte mso 9]>
+<td align="center" valign="middle" width="48" height="48" style="vertical-align: middle; font-size: 0; width:48px; height:48px; line-height:24px;">
+<![endif]-->
+<a style="color:#1A73E8; text-decoration:none; vertical-align:middle; line-height:38px;" href=https://c.gle/AKMee0fMx6kTC76Gy6vUnDTZufXhU4-U_yR1jngxKv4zzimnYhRD09d7BI6Gv76TE9B9LdXvBGxNq-3kv6a8tpo4pq0L0nu84k7wxCpdxbqRexm-zUW9DcdRGBhIyQ5-jaXazctW9jdTQ7wHLXx7lcCO_zPSsIojr0tpMLxQx9_hGEZkU0xQXRy1TVlshOnE3S4veIc target=_blank>
+<amp-img alt="See recommendation" src=https://www.gstatic.com/gumdrop/files/merchant-center-arrow-transparent-w36px-h37px-2x.png style="display: block; vertical-align: middle; padding-top: 0px;" width=18px height=18px /></a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width=720 border=0 cellspacing=0 cellpadding=0 role=presentation align=center class="mob_fix w_100_d_720"><tr>
+<td style="background-color: #F8F9FA;" class="mainbg dark_background_dsa_foot">
+<table width=590 border=0 cellspacing=0 cellpadding=0 role=presentation class="w85 w_590_m_100" align=center>
+<tr>
+<!--[if mso]>
+<td align="center" style="padding: 30px 7px 35px 0px;" class="pad_top_footer">
+<![endif]--><!--[if !mso]><!-->
+<td align=center style="padding: 30px 7px 35px 0px;" class=pad_top_footer>
+<!--<![endif]-->
+<table width=590 border=0 cellspacing=0 cellpadding=0 role=presentation class=w100 align=center>
+<tr>
+<td style="padding-bottom: 10px; font-size:10px; line-height: 15px; font-weight:400; color:#3C4043; font-family:'Google Sans Text', Google sans, Roboto, Open Sans, arial,sans-serif; direction:ltr;" class=" foottext dark_text foot_mbtm mob_pd_budget disclaimer_para desk_center_mob_left"><sup style="font-family:'Google Sans Text','Google Sans', Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:7px;line-height:6px;;">1</sup>Results not guaranteed. This metric was generated up to 48 hours ago. Check your <span style="white-space: nowrap;">Google Ads</span> account for live data.</td>
+</tr>
+<tr>
+<td style="padding: 0 0 21px; font-size:10px; line-height: 15px; font-weight:400; color:#3C4043; font-family:'Google Sans Text', Google sans, Roboto, Open Sans, arial,sans-serif; direction:ltr;" class="desk_center_mob_left foottext dark_text foot_mbtm foot_opt_sec budget_mob_pad">This email was sent to <a href=mailto:superesolutions@gmail.com target=_blank style="text-decoration:none; color:#1A73E8; " class="">superesolutions@gmail.com</a> to share occasional <span style="white-space: nowrap;">Google Ads</span> account performance suggestions. If you don't want to receive such emails in the future, please unsubscribe <a href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/AKMee0edo57c3fLWZzGGbmPgDry_u2tvKD8zxw2ByiFp5NFcJXH5lcICDFx2QNPFJKgaYu8tezaLBPsiHzV-wKWJKInlr989BmJACbsX-Iz7q-8xxYWSA5Jd1VZ0NraVLFsUvE6QKRBosutgrJ9u-8f6oBT5GjvTGoRVemCy80jyj8KESxav4-w7UnnDCgJ4JKmhEVz2MKLgKdiKJnaT3tR2Hf13WCRHaFQBHydo85Y2uWKUXEjVh6Rz8G7qHF8swJs?utm_source=gm&utm_medium=email&auto=true target=_blank style="text-decoration:none; color:#1A73E8; " class="">here</a>. You can also change your preferences on your account's Notification Settings page by logging into <a href=https://c.gle/AKMee0dSnB3w-KkYv5AVWf5xOJ6qYmKw70uezSn_stRhO-X5FXHtkjjKkNXLi2OW8JVPjlM8bsOTqW3cOcKjtydTCqS3_tjzAjuj2_XD2Tcy9C7AxNeBoq7JaZ-nbqI9pACJKVrb71M4nQ2eZmytDNOtNw target=_blank style="text-decoration:none; color:#1A73E8; white-space: nowrap; color:#1A73E8;" class="">https://ads.google.com/aw/emailsubscriptions/users</a></td>
+</tr>
+<tr>
+<td style="margin: 0; " class=desk_center_mob_left>
+<table style="margin: 0; width:100% " border=0 cellpadding=0 cellspacing=0 role=presentation style=border-collapse:collapse;border-spacing:0px;>
+<tbody>
+<tr>
+<td style="width:74px;max-width: 74px ;min-width: 74px ;" class="desk_center_mob_left mob_foot_logo">
+<amp-img class="light_mode_img_only footer_img_width brand_mob_block" src=https://www.gstatic.com/gumdrop/files/adwords-google-logo-tm-light-transparent-w148px-h47px-2x.png width=74px height=24px alt="" style=" display:inline-block; outline:none; text-decoration:none;width:74px;" />
+<!--[if mso]><!--> <amp-img class="dark_mode_img_only footer_img_width" src=https://www.gstatic.com/gumdrop/files/adwords-google-logo-tm-dark-transparent-w148px-h47px-2x.png width=74px height=24px alt="" style=" display:none; outline:none; text-decoration:none;width:74px;" /><!--<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 10px 0px 0px 0px; font-size:10px; line-height: 15px; font-weight:400; color:#3C4043; font-family:Google Sans Text, Google sans, Roboto, Open Sans, arial, sans-serif; direction:ltr;" class="desk_center_mob_left foottext mtop_h2 dark_text">
+<span style="font-size:inherit; color:inherit; font-weight:inherit; line-height:inherit; font-family:inherit;">Google LLC<br />1600 Amphitheatre Parkway,<br />Mountain View, CA 94043</span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</td>
+</tr>
+</table>
+<div style="width: auto; line-height:0px; font-size: 0px; height:0px; overflow: hidden;display:none; "><amp-img alt="" height=1 src=https://notifications.google.com/g/img/AKMee0eKx2ucDWGulcaouWFbVg5HPVmzbiOWapkGARK4tuy6I71fC0SvPyGYG6kxDeg4HCarP2MBos2XgMhhvlltZi1gduCms338zjlixKsspg7iGSfBewWSfO3Q5fo5cN9pKd4TNA.gif width=3></div>
+</body>
+</html>
