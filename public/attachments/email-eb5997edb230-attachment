@@ -1,0 +1,172 @@
+X-Received: by 2002:a05:6a00:3e22:b0:839:dd77:3501 with SMTP id d2e1a72fcca58-83f33c33546mr16845879b3a.1.1779146229555;
+        Mon, 18 May 2026 16:17:09 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1779146229; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=NLS2HFZ++Xdij4Rz4NeyncXSy1Mzumodqt9h4er6wVLRQrc4NOHgk9wGPFBJydOKcu
+         Jnw88y631xhH6Z7FwuQNtl2T1XxnxhWWXqAMvCIi29QJC2dcZnX+/KUlhbPDH2pj7nbX
+         VIfrpI2n0hl6ny0+9DLqe1cHxrPvNofFRFdxyL2euxcco8P0meSxfZscSTHBjF87+/oz
+         X+PY9pUQkh2d1En12THXblgqQ4nAUrEoKFIgrnJGKudxZ9UIPIWiTzEdxTtThb/ucdT6
+         5iztPWp+/OGhelIUwj/1qL3Js+ScVfYEYpkwhj1Y08QvBDWAet4XoUQnMUE7pQlyC9/l
+         AMLA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:msip_labels:content-language:accept-language
+         :in-reply-to:references:message-id:date:thread-index:thread-topic
+         :subject:to:from:dkim-signature;
+        bh=gSRmCvTOv9wdVcK0BJKiQTpfK+gI9D6V2WNDbA3ySKE=;
+        fh=aBtfKFMsrxiI1Ik4WSE/g/dzKDZurg+rvlPdt2wnX6w=;
+        b=V1m9SuQ1GN0pAQKQ+HLdi6NJVSXiqrLieojrxA//WQXrY2wHSUqxhImHzOVfZgsehJ
+         aRt0ZN9cYYzyyUdEZxYMsDDTZ9b77axZmQoVCH0nxeDfEgzrsvnx95Uj19eDYC1mb41N
+         xJJZ/1o56xIw7s4cQgMefqhjSEVjxTj1Cpz6C+2XjCe77zLaU80wHi5x51EnnqCk3Pmn
+         FnrWxVRKkA7NIsYElZrjGjCOvsRzdxVPMH3M2iYQuwRXmYaxySlkvzY6QXp4umRUlGb+
+         LRq5o9RHCz9Gj6uc92CwTmAJICK3jWSprhiB+daLbynxYGnMX1k7dsGFAX06giFMVTB1
+         QPXg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@hotmail.com header.s=selector1 header.b=YwE8cOma;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of jiharry@hotmail.com designates 52.103.7.20 as permitted sender) smtp.mailfrom=jiharry@hotmail.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=hotmail.com
+Return-Path: <jiharry@hotmail.com>
+Received: from CY7PR03CU001.outbound.protection.outlook.com (mail-westcentralusazolkn19010020.outbound.protection.outlook.com. [52.103.7.20])
+        by mx.google.com with ESMTPS id d2e1a72fcca58-83f19faad31si34910778b3a.220.2026.05.18.16.17.09
+        for <legal-support@google.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 18 May 2026 16:17:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jiharry@hotmail.com designates 52.103.7.20 as permitted sender) client-ip=52.103.7.20;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@hotmail.com header.s=selector1 header.b=YwE8cOma;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of jiharry@hotmail.com designates 52.103.7.20 as permitted sender) smtp.mailfrom=jiharry@hotmail.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=hotmail.com
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=Dl/7Ox05N6YH+7DD2ARpfwcDAZzcZjq2FNOvjzt9bUAeovUotTfooCIiOhlQUnyX5PUVEcq3cjBKwd5wsUg7sbyotMIsJOXDEl2In31OsJjZeDCIMBhzypJtGY7QZQyA9wC83mJkCk1wsTBc+AvX5HLytihoFk0NCf/dxJGOzcV1HHZQ18pR1d0T1xn8Ijn9vITITD/CjaheZEkVzX/1eUMMVn5gHfaBgZlSs82LH2eMG28maB2D/BMjYgozHF/rZw2kFgt7eX/g3eiuQykQIQyj23d2spdCF6R2MkHQqyywkm3MoK3VhS4tNgrGry3G6TIZES6x+rNsbjn+z3LwFg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=gSRmCvTOv9wdVcK0BJKiQTpfK+gI9D6V2WNDbA3ySKE=;
+ b=XMaa7reXxjueYL1JwNTMUtTV6YlpLfkLsS/luNAZi9brjbdOzTglrKIYk9zS6DQqRmug8mcCvvmuDjdxT/kOTp8UMFQd3pyQuZkquwz7VQ+pUR/z2WOnkQCZt7Sr0mzjBM3yYQCErjU9Gsfq/P68zXSrwaLHA8b5+Rp7wJd25ZU+CJ0Forxv/qabVYAOpBxFQ4LjPiP4EQsHZyj8dNZrbggHcJOGeECI1cm2+xpCPV9lONke/JHAIrunesQK+gxxIG0VPknwJi5pOAmZGHf9BI1Hosku8EHKowIODsh9siAuMsFv7aybAtGT51/bHvbU2FB3j/FRQXTHNVTzM202xw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=gSRmCvTOv9wdVcK0BJKiQTpfK+gI9D6V2WNDbA3ySKE=;
+ b=YwE8cOma8qER3Ps2ncnmHrT5cvFNlEY8/hTIV2vh8N+YlpHL6/BGkFCjWx3UoflC3V77xqDMP0NYCq2XIT6grqHM97Bvqi1dK5AbRPo5dQ0bHnwdLnYTKW9T0KRZMJN0fpZbmsJCZD8nO2EGpDrFxCDbNlf0hu58P2cfj6cKa+ntieoT08XY4l+Jjom89udf6Mw9EMaCT9QfWqfWrbaoOuqHURhpfgCGTSMXPz/q32TFZSaHIetFeGGxQwVtvTO4YLx74Du4U3qRIcyF1ftjdCfoUC+kdABJEipoHqW7rBSFotlVYynX3jSB8rN14eWqey7+l0DO4Pik1lxjboEehQ==
+Received: from DS7P220MB0855.NAMP220.PROD.OUTLOOK.COM (2603:10b6:8:82::15) by
+ DM8P220MB0439.NAMP220.PROD.OUTLOOK.COM (2603:10b6:8:39::8) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.21.25.24; Mon, 18 May 2026 23:17:05 +0000
+Received: from DS7P220MB0855.NAMP220.PROD.OUTLOOK.COM
+ ([fe80::c889:25a1:9a37:6758]) by DS7P220MB0855.NAMP220.PROD.OUTLOOK.COM
+ ([fe80::c889:25a1:9a37:6758%6]) with mapi id 15.21.0025.012; Mon, 18 May 2026
+ 23:17:05 +0000
+From: harry Ji <jiharry@hotmail.com>
+To: "legal-support@google.com" <legal-support@google.com>
+Subject: Fw: Urgent: Trademark Infringement and Brand Impersonation in Google
+ Ads - XO Tours (xotours.net)
+Thread-Topic: Urgent: Trademark Infringement and Brand Impersonation in Google
+ Ads - XO Tours (xotours.net)
+Thread-Index: AQHc5uM6mfgTWVBdPEOOUjtHEysGDLYUVOyfgAAWA88=
+Date: Mon, 18 May 2026 23:17:05 +0000
+Message-ID:
+ <DS7P220MB08551F3E12B4001F7472FE0DBC032@DS7P220MB0855.NAMP220.PROD.OUTLOOK.COM>
+References:
+ <DS7P220MB0855D4E5403E108B8806077ABC032@DS7P220MB0855.NAMP220.PROD.OUTLOOK.COM>
+ <DS7P220MB08552867EF9C9AF796E26984BC032@DS7P220MB0855.NAMP220.PROD.OUTLOOK.COM>
+In-Reply-To:
+ <DS7P220MB08552867EF9C9AF796E26984BC032@DS7P220MB0855.NAMP220.PROD.OUTLOOK.COM>
+Accept-Language: en-CA, en-US
+Content-Language: en-CA
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DS7P220MB0855:EE_|DM8P220MB0439:EE_
+x-ms-office365-filtering-correlation-id: b25ef85f-2672-4312-a1c0-08deb533938d
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|39105399006|37011999003|25031999004|15030799006|6092099016|24071999003|55001999006|24021099003|15080799012|19110799012|8062599012|8060799015|41001999006|21061999006|31061999003|30051999003|20031999006|440099028|3412199025|102099032|35041999009|40105399003;
+x-microsoft-antispam-message-info:
+ =?iso-2022-jp?B?T0s1K1JrVlRSRXpBUDJmMS8zSUdBMjUzNVlXcklGWndUbDVZckxRMUhO?=
+ =?iso-2022-jp?B?WUxpaW1RZDJNZXJUYXAranc1cnhrcGViZzBDUStWc3Q0bVRQdHZJWkww?=
+ =?iso-2022-jp?B?QW1EbEIwM3BLM2NnQXUzbE8yOHl5bmVjdmxVVVB2MXN1MDAxSkEzOWxQ?=
+ =?iso-2022-jp?B?TEFEemdaeVBWSFhOYnluOGlzNkZEZHN3ZGZKVHp5Z0lraWt4K0sxNUtx?=
+ =?iso-2022-jp?B?Y1hGemJGcXRrbER5RFRVQ2pUSms4OXJoZ3E1SDMvMHhuVkZLUWFhZkIr?=
+ =?iso-2022-jp?B?eFhJRGpYV2NoMHRBUmppRjZoRUlraXArTmRMUFJvNnVhTU0wa29ya3hN?=
+ =?iso-2022-jp?B?eWpDd2dESHB4aHBXeFFsNTlrUkxZelZnOWFkRy9FYzAyOGZ2NEhTVHFE?=
+ =?iso-2022-jp?B?aU9pbzE3b1NVang3ejlnZHArZStoYTJNV0RtdG5ZVnVITFVxYWR1L0pP?=
+ =?iso-2022-jp?B?aUE4QUNLMi8yeWgxWGk0b002NmtqTDZIejE2Mk9IYWhHNElraVdzZVRv?=
+ =?iso-2022-jp?B?T1dCMXpOQ0pXU2VWbEZJYlVKTW1JZlQ0UDdNVnJMS0xiTC9kaTRwUyt5?=
+ =?iso-2022-jp?B?eU8xMW1PYXh4T0ZxdXFINzhzT3FVVFY3Ym8wVGc4Y1NKL016V3ZXbkZU?=
+ =?iso-2022-jp?B?VWFWUVZtTDY5RjRKUTZlRkdiNzJ3N1MxeS9yZVkvWTFlSzMydG5wRm1D?=
+ =?iso-2022-jp?B?YnNMZElBb1BjSk55TmRjTEFMSVh3MW95YUVjdjBKcWtPL2NoV2tndDd4?=
+ =?iso-2022-jp?B?ZW8zSzg3Q0kxK2RFUkZ3eEs1S0VrMUl6RjdjUEgvKzd2SCtwUVdnMW44?=
+ =?iso-2022-jp?B?LzJFOWNsYUxDSWgyWkR0enRrd0NXbldROTdlekh6ejVrZGtNS0c5Q0Jy?=
+ =?iso-2022-jp?B?RFB1Z21RdWY2YkEwV1RsQm1PMlNhcXR2d0ppSXR0azhvVWFzdWVFY054?=
+ =?iso-2022-jp?B?NThVeU9Ld3hvUUZTVDFJZ1N2TnI1ZUI3NEsyMkRXSjhIanFaejhwMUVZ?=
+ =?iso-2022-jp?B?RWdQYkNjd1JqOXd3a0lvYm0rTDU3bFJaOTVwM3pIWTlXdUZNejZubUZW?=
+ =?iso-2022-jp?B?VXVvM2VLNTl2TmVKRkJqL3BML2N5bGhZM25yZDFEeTBNMkdoTiszVzQy?=
+ =?iso-2022-jp?B?eEFzMWZUWVFMVXIrZlFtbWpmYWgrRFdTQjVST3hnMlYvTzIyelAyTjVF?=
+ =?iso-2022-jp?B?VHJFKzMwcGZYcnoxQU1JS2pjV2VyUDBrU2N2UWczWDllMjNiSThsbml0?=
+ =?iso-2022-jp?B?ZGZDWnl0NFR6b2N1VUNrUjg2Y2lWbHYvNXBZQnJqelY5Tk5JTHVxa2ZX?=
+ =?iso-2022-jp?B?cWp6QzdHeGpXVUFlelorTXVCbklxSGhncXVxK1FEVTYxdkphaWhKQkJO?=
+ =?iso-2022-jp?B?WjlxY01zNEtvNmFDbHJsYzk4WlBxeG5zUmFOYXltVzVnOWVPdmJJbkN0?=
+ =?iso-2022-jp?B?bUY2N3NhcmZ0K2dJbVh4dy9XdXZoT3pFUktPQXJ5aWxDWDJzVW1iOVdv?=
+ =?iso-2022-jp?B?dUV6dDBoamFyaGJhNmtpWmZzakdPU3Q4R2J0Ump2US9SdlY1NGh0bmYv?=
+ =?iso-2022-jp?B?RHlWaWZvVFM3NFpsbW9VcE9qTmgrSWdxN0V6NERrT1d6eVowb1NqMDRI?=
+ =?iso-2022-jp?B?T29yZk1lRHdwUmVNdUM0T3FIVjRmU0xLQWM4M2xOdXZWMUs2Z0NDT3Bv?=
+ =?iso-2022-jp?B?elhyR0pOT3BSSUFJT1ZwTXdkeEY4ZzlDR1FUQm9SbUZleGhtcERuTUNM?=
+ =?iso-2022-jp?B?ODJpSFc5SGwwLzkwcGYvQS9heVAxaHI1ZndrNDZxOXRvRmlLanJ6b2Iv?=
+ =?iso-2022-jp?B?b2todTZGaFpMN3plSmJyb2lWVEpScy91eTZmQlpMeUlKaWhXbHZscmpk?=
+ =?iso-2022-jp?B?Z1Z3cEdqdmJzRUduU090TVMvRUc0PQ==?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-2022-jp?B?a09wZGtyL095cEpycm9TZjFyVzZtNnl4Zk5EN252VzZNOTNDQkd6QjlS?=
+ =?iso-2022-jp?B?U2p2dEVkanRKN1pHbUVRTExBZ2VuR09QTlNTaktjekZRdFQwUU8rSERj?=
+ =?iso-2022-jp?B?cTU2TlhJdFJMS29HZStKMzZXSkNpaEszbDVwVWNNSUhWOFR3T3JERVV1?=
+ =?iso-2022-jp?B?bFM3OFNKeE9JdEpVWDJtZ2JCa0RVd1NyTlFWK01WclhDc09GbW9DWE1V?=
+ =?iso-2022-jp?B?YnZVTnUyQUhhbS9BTlUrZkswK1FlV1IvUXIrMjFuTzNRNHpYUVdaTmpC?=
+ =?iso-2022-jp?B?Y2Vxa3pHRExEWVRZRzhjMWY3R2dhVUNpbklTNFZpNVFPQWwzeVJ5eFlB?=
+ =?iso-2022-jp?B?SEhCN0NSRGNIam5JSThMWHNoMTdvYWtOWXd1U09DRE1KOWVTU2l6c1pz?=
+ =?iso-2022-jp?B?M3V3R3VYcVdRVUM1ZjRDcFVCYW9LTEVLR0ZzSHg0M1FrNDNidmtBMWhG?=
+ =?iso-2022-jp?B?QjVwQ3FSeWoxcU40NGxOUjdla2EycHU5VndUS1JDa0pPc2lZU212ZE1E?=
+ =?iso-2022-jp?B?MHJqWUlGdDZvU3dObWhYb2xQTmZheFZFem9FenpUUERzL1VQV1Z0U1p6?=
+ =?iso-2022-jp?B?c3hFZmdJQnVKNmFrbDUvanBYR080V2J0OVVwdTFWeGpDNEVLbi9nTVhM?=
+ =?iso-2022-jp?B?eTdvUWtKZEJidDljTVBCMkxJTEU1dE1tcWpXYlZZRTdZTzllZUM2Z2NM?=
+ =?iso-2022-jp?B?eDRqb2QyN25QblRUYTZGU01HVFlhZnBNTVFoQXQrMlVBOVdzWFNrMnYy?=
+ =?iso-2022-jp?B?Zk5leUlvU1orL1l1blZpRCtNS0dWekNhQmFSQW1yWWxjSUo1YlNqejNN?=
+ =?iso-2022-jp?B?VHdQM09Hc2RxYmxrODZ6Wm1RcC9XZjZYc3ArS1p1dXVCUDh2c0h1SUZT?=
+ =?iso-2022-jp?B?d3dQclRObC9JNDYvdEcveWdWUklVN0FZM01IQXVWYVp6QUZCN2NTNDA4?=
+ =?iso-2022-jp?B?NThodlZNalg0bjM1ajc5cjJEZWdNUGw4KzgvRWVrNzVXMTk3WHVJS0Nt?=
+ =?iso-2022-jp?B?aXZCZkJNVXJjMmxIZmtHOUVJSHRNUHdwdnhSYmZoMkt2YnVFeFRVY2x1?=
+ =?iso-2022-jp?B?enFGVk5JbWFQMGd2WUFUQWozejlGQktrNkZMZ1I0V01ZSGZ5bGU1byt3?=
+ =?iso-2022-jp?B?QVJ1TEQwYTlVNzVpVWpORGVOVEZxRVVOWDVNSGI3SEczN21lVTlXeHZh?=
+ =?iso-2022-jp?B?UloyNzlzandWWmxxZEh3emRsWHVRaFJWRXJ5bnZ5YTBTS1haczFhK000?=
+ =?iso-2022-jp?B?UnBCTWk2SldMTnBUVzgzNTg5NVhlOE5jODhlMTRGYTBFSFJ2T2t1am85?=
+ =?iso-2022-jp?B?TExWdzNnYjhIN0wzRGlCdGZQM00yZjllanAyNyt2b2ZNTHBCeDJzV0Rs?=
+ =?iso-2022-jp?B?ZlRZL3pHQnFwQTlEUXk4ejN4dzBEQzhlTDVFOFBBZmdzenRGdlFCT0xO?=
+ =?iso-2022-jp?B?TlJ5enNXUm52VHpRd1IwUjFWbGhWQWw3UXk5UXBXLzNJa242MnZPSGFJ?=
+ =?iso-2022-jp?B?NW9hVUNXNHVOcUdhZTFzcUdCbTRvWjRRQWowYjdtRXB5eTFKQXNQcnVR?=
+ =?iso-2022-jp?B?SFRReFdUR21jZVZFbkc5elFJMSthQVp0UWI3UklrbUYyMndGampoWnVi?=
+ =?iso-2022-jp?B?WWFPa3Awc2EvQlp3VjVOM3l5b053ejN4QzdqM21lNDIyUlc4V0s3eXdj?=
+ =?iso-2022-jp?B?ZWRVelRDbTJrRkU3REoycThIZ0ZEVDdhdmZhREk0MVpra3lhWmVqbGor?=
+ =?iso-2022-jp?B?emJ2NFJackxFa2VsL3JYZ0ZweUlodlkyR0Z1MCtlTFJsYWZWUFlhU1Vv?=
+ =?iso-2022-jp?B?UE9WUGpyTHhpRWxab3A0dmlXZzg3V2lBL1B0cUxyeEs0YmpCYlN4M0cy?=
+ =?iso-2022-jp?B?cisvTnkwdzlNekxtMnhENlpPZEZrYXdKdmhzNlhIK1JQcnd3R25RSXM5?=
+ =?iso-2022-jp?B?NGtFODBPZUNwS2ltcVdXd29oa2JRQUNtOTRmWmRwT3BBeE5zOExoUzdI?=
+ =?iso-2022-jp?B?MD0=?=
+Content-Type: multipart/mixed;
+	boundary="_004_DS7P220MB08551F3E12B4001F7472FE0DBC032DS7P220MB0855NAMP_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-9412-4-msonline-outlook-df853.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DS7P220MB0855.NAMP220.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: b25ef85f-2672-4312-a1c0-08deb533938d
+X-MS-Exchange-CrossTenant-originalarrivaltime: 18 May 2026 23:17:05.6406
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM8P220MB0439
+

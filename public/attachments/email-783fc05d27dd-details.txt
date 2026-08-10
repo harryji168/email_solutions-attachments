@@ -1,0 +1,7 @@
+Reporting-MTA: dns; server1.supere.tech
+
+Action: failed
+Final-Recipient: rfc822;ken.cheng@tntsupermarket.com
+Status: 5.0.0
+Remote-MTA: dns; mxa-00217d01.gslb.pphosted.com
+Diagnostic-Code: smtp; 550 5.7.1 An unusual amount of content policy violations originating from your account has been detected (JFE050005)
