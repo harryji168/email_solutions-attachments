@@ -1,0 +1,1702 @@
+<!doctype html>
+<html ⚡4email data-css-strict lang=en>
+<head>
+<title>Monthly performance report</title>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<script async custom-element=amp-form src=https://cdn.ampproject.org/v0/amp-form-0.1.js></script>
+<script async custom-element=amp-list src=https://cdn.ampproject.org/v0/amp-list-0.1.js></script>
+<script async custom-template=amp-mustache src=https://cdn.ampproject.org/v0/amp-mustache-0.2.js></script>
+<script async custom-element=amp-bind src=https://cdn.ampproject.org/v0/amp-bind-0.1.js></script>
+<meta charset=utf-8>
+<style amp4email-boilerplate>
+body {
+visibility: hidden
+}
+</style>
+<style amp-custom>
+.MC_ENABLE_GOOGLE_CUSTOMER_REVIEWS_ADDON{
+background-image: url("https://c.gle/ACT4xYzYucP8HlsZid29USvnh_ZLsx5FX0FsiFUvsXB638-K56B41YTuqv0n2-0ytdtMtdpDDvgOUtiIoQNvYJK_01_WZo1d_tcRCBoBQuyoIm4A66rkTH6tFBCjpkLEz-fJrAk2V6yWROHicm_6emJDJ9bPJNWj8kX4xUAFtbCnPQd8ZvT-4QdNgK2zI6Vn7B5dSrLh5WBaOKXd8bKLXUInE6KCP87XqwsJWA");
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.ENABLE_AUTOMATIC_IMAGE_IMPROVEMENT{
+background-image: url("https://c.gle/ACT4xYyM4MBMUcJ41mvgVtXQlamE4lZNVrF7j4FWCLGMdqBfEwuH2ADJA1W1MokxtMzqVy6Vs0bpUgIvAszmRlDMj_xPXIqGqTIdSCxOO7W9JdiNsADp-0EnhgWUkvZomr29Tvq9eI05ZOus9KNKEtN-0KmODibIreD43v8x3SSE9TeDRnpbjaXcFLEbQIqSC3gJMDtT8iCQMcoiVMuGN8RdQMWggKU");
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+.ENABLE_PROMOTIONS_ADDON{
+background-image: url("https://c.gle/ACT4xYwBsfZhXjv8q0pdUC7KQ_bUw0M5G43cgdQUvochMYB9DV38QIDMkzNB-RUHQhq8Scae1SPCOeECXbJid27aENvMLCQHdb_XWz7oj5amEhRwCQUagy4YyFmDTJ-GvybjPYcFHCEjMaNnd_44vMlidoZ_S-e2aRZMwv4ZLG1DfpQgzdOnLlbJ7bxdg18TND7UL4GtHYz8GZDN");
+background-size: 1px;
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+button{
+padding: 0px;
+margin: 0px;
+background: none;
+border: none;
+cursor: pointer;
+}
+#mainlist > div:last-child {
+position: relative;
+display: initial;
+}
+#mainlist{
+position: relative;
+display: initial;
+}
+.rec_div{
+position: relative;
+display: initial;
+}
+.rec_dnone{
+display:none;
+}
+div {
+outline: none;
+}
+body {
+font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 12px;
+color: #000000;
+}
+.appleLinks a {
+color: #000000;
+text-decoration: none;
+}
+strong {
+font-weight: bold;
+}
+em {
+font-style: italic;
+}
+.yshortcuts a span {
+color: inherit;
+border-bottom: none;
+}
+html {
+}
+.ReadMsgBody {
+width: 100%;
+}
+.ExternalClass {
+width: 100%;
+}
+.ExternalClass * {
+line-height: 100%
+}
+td {
+}
+.mob-hide {
+display: none;
+}
+div, p, a, li, td {
+}
+td {
+text-decoration: none;
+}
+.primary_cta{
+background-color: #1A73E8;
+padding: 13px 24px 11px;
+color: #ffffff;
+}
+.primary_cta_other{
+background-color: #1A73E8;
+color: #ffffff;
+}
+.secondary_cta{
+background-color: #FFFFFF;
+padding: 13px 24px 11px;
+color: #1A73E8;
+}
+.secondary_cta_other{
+background-color: #FFFFFF;
+color: #1A73E8;
+border: 1px solid #1A73E8;
+}
+@media only screen and (min-width: 950px){
+.footer_pd{padding: 0px 50px;}
+.pd0{padding-top:27px; padding-bottom:27px; padding-left: 50px; padding-right: 50px;}
+.mc_fs14{font-size: 12px; line-height: 18px;}
+.fs10ln15{font-size: 16px; line-height: 25px;}
+.fs20ln30{font-size: 24px; line-height: 36px;}
+.pdl5{padding-left: 10px}
+.matric_fs24{font-size: 32px; line-height: 40px;}
+.width72{width: 80px}
+.ht6{height: 12px}
+.reco-contentDescription, reco-contentTitle{padding-right: 25px}
+}
+@media only screen and (max-width: 950px){
+.width480{ width: 380px}
+.width420{ width: 330px}
+.dblock{ display: block; }
+.dnone{ display: none; }
+.tleft{ text-align: left}
+.width2{width: 2px}
+.width72{width: 26px}
+.width48{width: 48px}
+.ht16{height: 16px; width: 1px}
+.tcenter{ text-align: center; }
+.mauto{margin: 0 auto;}
+.ht26{height: 26px}
+.width272{width: 272px}
+.ht62{height: 62px}
+.width100{width: 100%}
+.pd0{padding: 0px}
+.reco-ht8{height: 8px;}
+.logo_pd{padding: 16px 25px; border-bottom: 1px solid #DADCE0;}
+.mc_pd{padding: 9px 25px}
+.ht9{height: 9px;}
+.footer_pd{padding: 0px 25px}
+.mc_fs14{font-size: 14px; line-height: 21px;}
+.fs10ln15{font-size: 10px; line-height: 15px;}
+.fs20ln30{font-size: 18px; line-height: 27px;}
+.ht21{height: 21px;}
+.ht6{height: 6px}
+.pd22{padding: 22px 0 29px 0;}
+.pdl5{padding-left: 5px}
+.w328{width: 325px;}
+.w65{width: 65px;}
+.w78{width: 78px;}
+.wd328{width: 328px;}
+.wd400{width: 330px}
+.wd100{width: 100px}
+.wd108{width: 108px}
+.wd65{width: 65px;}
+.matric_fs24{font-size: 24px; line-height: 36px;}
+}
+.reco-contentPanel, .reco-imagePanel, .reco--mobile-only {}
+@media all and (max-width: 950px) {
+.reco-contentPanel {
+width: 330px;
+}
+.reco-contentPanel, .reco-imagePanel, .reco--mobile-stack {
+display: block;
+}
+.reco, .reco-container, .reco--can-shrink {
+width: 330px;
+}
+.reco--desktop-only {
+display: none;
+}
+.reco--mobile-only {
+display: block;
+}
+}
+@media all and (max-width: 950px) {
+.reco-contentDescription, .reco-imagePanel, .reco-ctaContainer, .reco-contentImpactMessage, .reco-contentTitle { padding-right: 0px; }
+.reco-contentImpact{padding-top: 20px;}
+.reco-contentTitle{ padding-top: 5px; }
+.reco-icon{ padding-top: 5px; }
+.reco-ctaContainer{padding-bottom: 17px;}
+}
+.default_color{color: #188038;}
+.ISSUES_CATEGORY{color: #9E6C00;}
+.CRITICAL_ISSUES_CATEGORY{color: #C5221F;}
+h1, h2, h3{margin: 0px;}
+</style>
+</head>
+<body style="margin: 0 auto; padding:0px;">
+<!--[if !mso]><!-->
+<p aria-hidden=true style="padding-top:0; font-size:0px; line-height:0px; margin:0px; display: none;" align=center>See your performance on Google and ways to improve‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ ‍ </p>
+<!--<![endif]-->
+<table role=presentation align=center cellpadding=0 cellspacing=0 border=0 width=100%>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table role=presentation align=center cellpadding=0 cellspacing=0 border=0 width=800 class=width480>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=100%>
+<tbody>
+<tr>
+<td align=center valign=top style="border-bottom: 1px solid #DADCE0;" class=pd0>
+<table role=presentation cellpadding=0 cellspacing=0 align=center width=100%>
+<tbody>
+<tr>
+<td align=left valign=middle class="dblock logo_pd">
+<table role=presentation cellpadding=0 cellspacing=0 width=255>
+<tbody>
+<!-- MC Logo Start -->
+<tr>
+<td aria-hidden=true align=left valign=top>
+<a style=text-decoration:none>
+<amp-img src=https://gstatic.com/growthlab/api/h67S2tWpzbsjLVgvd8dv0kVelpK37srHXKjuL9JL.png width=228 height=26 style=display:block;></amp-img>
+</a>
+</td>
+</tr>
+<!-- MC Logo Start -->
+</tbody>
+</table>
+</td>
+<td align=left valign=middle class=dnone>
+<table role=presentation cellpadding=0 cellspacing=0 align=left width=10>
+<tbody>
+<tr>
+<td align=left valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=10 height=1 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=right valign=middle class="dblock tleft mc_pd">
+<table role=presentation cellpadding=0 cellspacing=0 width=100%>
+<tbody>
+<tr>
+<td align=right valign=top class=tleft>
+<table role=presentation cellpadding=0 cellspacing=0 class=width100>
+<tbody>
+<!-- MC Id Content Start -->
+<tr>
+<td align=left valign=middle style="font-weight: 400; color: #5f6368; font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; " class=mc_fs14>
+Your customer ID: <a target=_blank style="color: #5F6368; text-decoration: none;">5081118152</a>
+</td>
+<td align=left valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=5 height=1 style="display: block;"></amp-img>
+</td>
+<td align=right valign=middle aria-hidden=true>
+<amp-img src=https://gstatic.com/growthlab/api/57t1a4lX12335lghPvQ24nwqmWMpV6wpcigusm43.png width=20 height=20 style="display: block;"></amp-img>
+</td>
+</tr>
+<!-- MC Id Content Start -->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=48 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=700 class=width420>
+<tbody>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 700; color: #202124;">
+<h1 style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 700; color: #202124;">
+Your business performance for August 2026
+</h1>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=10 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=30 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 27px; font-weight: 500; color: #202124;">
+<h3 style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 27px; font-weight: 500; color: #202124;">
+How your products performed (organic &amp; ads)
+</h3>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=24 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left width=132 class=wd108>
+<tbody>
+<tr>
+<td align=left valign=middle>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; letter-spacing: 0.25px; font-weight: 500; color: #5F6368;">
+Clicks
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 400; color: #5F6368;" class=pdt21_stat_1>
+46
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; letter-spacing: 0.25px; font-weight: 500; color: #5F6368;">
+No change*
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=132 class=width2>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=132 height=1 layout=responsive class=width2 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left width=132 class=wd108>
+<tbody>
+<tr>
+<td align=left valign=middle>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; letter-spacing: 0.25px; font-weight: 500; color: #5F6368;">
+Impressions
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 400; color: #5F6368;" class=pdt21_stat_2>
+3.56K
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; letter-spacing: 0.25px; font-weight: 500; color: #5F6368;">
+No change*
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=center valign=middle class=width2>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center width=132 class=width2>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=132 height=1 layout=responsive class=width2 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left width=132 class=wd108>
+<tbody>
+<tr>
+<td align=left valign=middle>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; letter-spacing: 0.25px; font-weight: 500; color: #5F6368;">
+CTR
+</td>
+</tr>
+<tr>
+<td dir=ltr align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 400; color: #5F6368;" class=pdt21_stat_3>
+1.3%
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; letter-spacing: 0.25px; font-weight: 500; color: #5F6368;">
+No change*
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=38 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left class=cta_width_outlook>
+<tbody>
+<tr>
+<td class=primary_cta_other align=center valign=top style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;font-weight: 500; border-radius: 24px;letter-spacing: 0.25px;">
+<a class="out_primary_cta primary_cta" href=https://c.gle/ACT4xYxOhzTW7rKCrgJmcPRkVmVNeBRFyyCr3v70Z-RzHK1acjNEyr01OkKh6YIG8Ob003M0z5FL7BntY71Qrwl1BMbVUReJqPO6x0y_xnC2_fm5aZbhmRW41gLuaV7DTLGsV56Od5wUeAO4DSMSJg8Fae6mobjZq3br6r4LgXRgYyhJWtaiKNKM27hYSInaWLIFYCbx21eb2DqAyiGoCKE0CnL31XZV-rFIbJSGEGwAokpPj0oFwAw target=_blank style="text-decoration: none; border-radius: 24px;display: block;">Manage campaigns</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=10 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=23 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; font-weight: 400; color: #5F6368; letter-spacing: 0.25px;">
+*Compared to July 2026
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=40 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left class=cta_width_outlook>
+<tbody>
+<tr>
+<td class=secondary_cta_other align=center valign=top style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;font-weight: 500; border-radius: 24px;letter-spacing: 0.25px;">
+<a class="out_secondary_cta secondary_cta" href=https://c.gle/ACT4xYwEYBlQXR3SOFBQQZqwhD7ZGNGaekRxxV0_2eVjbXRIJu-FAntGQvU3x2PpvmrYQY45vKbupf9A8Laja71zWp9BtNAQloxhuNdqBphzoggbt_v2r7TT3T7FUt5kWpnRSNF700YqhxjZOfRh_4p82wDhUcIV26gG_p0NKujs0h-MEXhBozfK5mHyS2nJozhCKlNZUu4Sd2qbH56F1wX-SB8ynrgxCYHpq5QkFWk5yf4Ab-RsL1LUjH26Cs-1TlTmoenFC_jrS-Fx_-KVqMLuG7jO_QJMIKtF2oKGHonToRQWYoxc6SkwJEwFJ4348j0ayiNUjXpUl6-_w-UdZ46wQles0jEc0sKsNXVU target=_blank style="text-decoration: none; border-radius: 24px;display: block;">See performance</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle style="border-bottom: 1px solid #DADCE0;">
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=41 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=39 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 27px; font-weight: 500; color: #202124;">
+<h3 style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 27px; font-weight: 500; color: #202124;">
+Product status
+</h3>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=24 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=top class=dblock>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left width=138>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; font-weight: 500; color: #5F6368;letter-spacing: 0.25px;">
+Not approved
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 400; color: #C5221F;" class=pdt21_status_1>
+0
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=46 height=1 layout=responsive class=width48 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left width=138>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; font-weight: 500; color: #5F6368;letter-spacing: 0.25px;">
+Limited
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 400; color: #E37400;" class=pdt21_status_2>
+0
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top class=dblock>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=46 height=1 layout=responsive class=ht16 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top class=dblock>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left width=138>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; font-weight: 500; color: #5F6368;letter-spacing: 0.25px;">
+Approved
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 400; color: #188038;" class=pdt21_status_3>
+0
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=46 height=1 layout=responsive class=width48 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left width=138>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; font-weight: 500; color: #5F6368;letter-spacing: 0.25px;">
+Under review
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 400; color: #5F6368;" class=pdt21_status_4>
+0
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=40 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left class=cta_width_outlook>
+<tbody>
+<tr>
+<td align=center valign=top class=secondary_cta_other style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; color: #ffffff; font-weight: 500; border-radius: 24px;letter-spacing: 0.25px;">
+<a class="out_secondary_cta secondary_cta" href=https://c.gle/ACT4xYxZTF1Db1SeY5ElrAJO5vyF9Q84oQfwC4ZXpl-63VuCo1lfXOk9-M0pP7-V7MEmXWh7R_-DToancHSXRd9AwNHW_O37SrPqO0h8FdnAOXeUgt1RoFBDAG6YYzI8tajmE6LbIMCyxcVelUAPUpSKDl_WKBfO1JMSt5W2S-cVb0AuUyFk_2RtpTUsdKuTD8D7B37XT-yP target=_blank style="text-decoration: none;border-radius: 24px;display: block;">View products</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="border-bottom: 1px solid #DADCE0;">
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=38 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<template type=amp-mustache id=submit_success_template>
+<div>
+<div style="border-bottom: 1px solid #DADCE0; padding-top:40px; padding-bottom:40px;">
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=left valign=middle width=90 aria-hidden=true>
+<amp-img src=https://www.gstatic.com/merchants/tasks/dismiss_feedback_success.png width=70 height=70 style="display: block;"></amp-img>
+</td>
+<td class="rec-outlook-contentTitle reco-contentTitle" align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px; line-height: 24px; color:#5F6368; font-weight: 400;">
+{{{HtmlFeedbackMessage}}}
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</template>
+<template type=amp-mustache id=submit_error_template>
+<div>
+<div style="border-bottom: 1px solid #DADCE0; padding-top:40px; padding-bottom:40px;">
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=left valign=middle width=90 aria-hidden=true>
+<amp-img src=https://www.gstatic.com/merchants/tasks/card_illustration/resolve_error_state.png width=70 height=70 style="display: block;"></amp-img>
+</td>
+<td class="rec-outlook-contentTitle reco-contentTitle" align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:16px; line-height: 24px; color:#5F6368; font-weight: 400;">
+Something went wrong
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</template>
+<tr>
+<td>
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=center valign=top style="display: block;">
+<amp-list id=mainlist single-item items=. layout=container src=https://business.google.com/amp/mc/listrecommendations?auth_token=AXoYLJocQr4QZiANJctQ2yEX3YF0XqUJXlMxNyKbs8_bcqTK_q7bO_mndbBME2Mo0ltY4-lAWLZfJeBR-hZTe8S3gstSu83nVpcsmqIgr-SsKKny3J0c4Xx_NoVa106T style=height:auto; noloading>
+<div placeholder>
+<table role=presentation cellpadding=0 cellspacing=0 border=0>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=40 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/merchant-center-3-dots-amp-loader-transparent-w240px-h240px-2x.gif width=78 height=78 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=40 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<table role=presentation cellpadding=0 cellspacing=0 border=0>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="display:initial; position: relative;">
+<template type=amp-mustache>
+{{#items}}
+{{#IsFirstRecommendation}}
+<div>
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=41 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 28px; line-height: 36px; font-weight: 400; color: #202124;">
+<h2 style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 28px; line-height: 36px; font-weight: 400; color: #202124;">
+Improve your performance in September 2026
+</h2>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=8 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+{{/IsFirstRecommendation}}
+{{#UseBarChartSnippet}}
+{{#IsOneClickRecommendation}}
+{{/IsOneClickRecommendation}}
+{{^IsOneClickRecommendation}}
+<form method=get action-xhr=https://c.gle/ACT4xYxrfcSnnkdW9tOv8UzKee4BrFGDEg2Hp0SdoDxj1zjCbdH9wxKSZgOGevU4yxO5w_k90jEywqVehAjwRFpuneHOTth5qqA_X9LeGjXruPFOwhhsg_jsHbRuDA3oN2LIBw id=report-gamma-click></form>
+<form method=post action-xhr=https://business.google.com/amp/mc/reportrecommendationclick?auth_token=AXoYLJoPqVvHi30Mma_cedPeMmzBmulCU8QGK_ldgrfrXs--r94RUiDzBbioiztPRXEQi3K7yCGBSwkABKWss5kVp7VkqH4t0OM1wZzIGF4tvVuIdPaz8r4BEDtfYgTB id=report-recommendation-click>
+<input type=hidden name=RecommendationType value={{RecommendationType}}>
+</form>
+<div>
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=center valign=top style=padding-top:40px>
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td class=reco-contentPanel width=514 align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td align="" valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td aria-hidden=true class="reco-contentImpactIcon reco-icon" valign=top style="padding-right: 8px">
+<amp-img src={{GuidanceCategoryIconUrl}} width=28 height=28 style="display: block;"></amp-img>
+</td>
+<td class="rec-outlook-contentTitle reco-contentTitle" align=left valign=top style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:18px; line-height: 27px; color:#3C4043; font-weight: 400;">
+<h3 style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:18px; line-height: 27px; color:#3C4043; font-weight: 400;">
+{{Title}}
+</h3>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align=center valign=top>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=12 style="display: block;" class=reco-ht8></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left class=reco-contentDescription style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; color:#3C4043; letter-spacing: 0.25px;">
+<span style=font-weight:500;>{{ImpactMessage}}</span> {{Description}}
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align=center valign=top class=reco--desktop-only>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=16 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table class=reco-contentPanel role=presentation cellpadding=0 cellspacing=0 width=588>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=588 class=reco-contentPanel>
+<tr>
+<td aria-hidden=true align=left valign=top width={{InsightSignal1Value}}% bgcolor=#8AB4F8>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=8 style="display: block;"></amp-img>
+</td>
+<td aria-hidden=true align=left valign=top width=2>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=8 style="display: block;"></amp-img>
+</td>
+<td aria-hidden=true align=left valign=top width={{InsightSignal2Value}}% bgcolor=#4285F4>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=8 style="display: block;"></amp-img>
+</td>
+<td aria-hidden=true align=left valign=top width=2>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=8 style="display: block;"></amp-img>
+</td>
+<td aria-hidden=true align=left valign=top width={{InsightSignal3Value}}% bgcolor=#1967D2>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=8 style="display: block;"></amp-img>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align=center valign=top>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=4 style="display: block;" class=reco-ht8></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table class=reco-contentPanel role=presentation cellpadding=0 cellspacing=0 width=588>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=588 class=reco-contentPanel>
+<tr>
+<td align=left valign=middle width=12>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=middle width=12 bgcolor=#8AB4F8>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=12 height=12 style="display: block;"></amp-img>
+</td>
+</tr>
+</table>
+</td>
+<td aria-hidden=true align=left valign=middle width=4>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 style="display: block;"></amp-img>
+</td>
+<td align=left class="reco-contentDescription reco-fs12" style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; color:#3C4043; letter-spacing: 0.2px;" valign=middle>
+{{InsightSignal1Text}}
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align=left valign=middle>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=4 style="display: block;" class=reco-ht4></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=588>
+<tr>
+<td align=left valign=middle width=12>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=middle width=12 bgcolor=#4285F4>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=12 height=12 style="display: block;"></amp-img>
+</td>
+</tr>
+</table>
+</td>
+<td aria-hidden=true align=left valign=middle width=4>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 style="display: block;"></amp-img>
+</td>
+<td align=left class="reco-contentDescription reco-fs12" style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; color:#3C4043; letter-spacing: 0.2px;" valign=middle>
+{{InsightSignal2Text}}
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align=left valign=middle>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=4 style="display: block;" class=reco-ht4></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=588>
+<tr>
+<td align=left valign=middle width=12>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td aria-hidden=true align=left valign=middle width=12 bgcolor=#1967D2>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=12 height=12 style="display: block;"></amp-img>
+</td>
+</tr>
+</table>
+</td>
+<td aria-hidden=true align=left valign=middle width=4>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 style="display: block;"></amp-img>
+</td>
+<td align=left class="reco-contentDescription reco-fs12" style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; color:#3C4043; letter-spacing: 0.2px;" valign=middle>
+{{InsightSignal3Text}}
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align="" valign=top>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=26 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 width=588 class=reco-contentPanel>
+<tr>
+<td align=left class=reco-block style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; color:#1A73E8; letter-spacing: 0.25px; font-weight: 500;" valign=top>
+<a href={{CtaUrl}} target=_blank style="color:#1A73E8;text-decoration:none; font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; text-decoration: none;">{{CtaText}}
+</a>
+</td>
+<td aria-hidden=true align=left valign=top width=25 class=reco-block>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=1 style="display: block;" class=reco-ht20></amp-img>
+</td>
+<td align=left class=reco-block style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; color:#1A73E8; letter-spacing: 0.25px; font-weight: 500;" valign=top>
+<a href={{SecondaryCtaUrl}} target=_blank style="color:#1A73E8;text-decoration:none; font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; text-decoration: none;">{{SecondaryCtaText}}
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="border-bottom: 1px solid #DADCE0;">
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=20 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+{{/IsOneClickRecommendation}}
+{{/UseBarChartSnippet}}
+{{^UseBarChartSnippet}}
+{{#IsOneClickRecommendation}}
+<form method=post action-xhr=https://business.google.com/amp/mc/oneclickresolution?auth_token=AXoYLJqkIDQicEAisv85wTHDZ0ie2397XI3m9lT7wBrnE9vUuLvM1B-V1qYeaKogicHlWhjezONRj3JWa1K8Xj7O72NUMbprpTnYA4HfE6_k1cMUxB0RLFygaKGFjuUv on="submit-success:AMP.setState({ {{RecommendationType}}_{{RecommendationType}}: true})">
+<input type=hidden name=RecommendationType value={{RecommendationType}}>
+<div [class]="{{RecommendationType}}_{{RecommendationType}} == true ? &#39;{{RecommendationType}}&#39; : &#39;&#39;" class="">
+<table [class]={{RecommendationType}} cellpadding=0 cellspacing=0 class="" role=presentation>
+<tbody>
+<tr>
+<td align=center valign=top>
+<table cellspacing=0 class="reco reco-Standard" role=presentation width=690>
+<tbody>
+<tr>
+<td align=center valign=top style=padding-top:40px>
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td class=reco-contentPanel width=514 align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td aria-hidden=true class="reco-contentImpactIcon reco-icon" valign=top style="padding-right: 8px">
+<amp-img src={{GuidanceCategoryIconUrl}} width=28 height=28 style="display: block;"></amp-img>
+</td>
+<td class="rec-outlook-contentTitle reco-contentTitle" align=left valign=top style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:18px; line-height: 28px; color:#202124; font-weight: 500;">
+<h3 style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:18px; line-height: 28px; color:#202124; font-weight: 500;">
+{{Title}}
+</h3>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align=center valign=top>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=8 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left class=reco-contentDescription style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; color:#5F6368;">
+{{Description}} <a href={{LearnMoreUrl}} style="color:#1a73e8; text-decoration: underline;">{{LearnMoreText}}</a>
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align=center valign=top class=reco--desktop-only>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=12 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table class=reco-contentImpact role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td class="{{GuidanceCategory}} default_color" align=left valign=middle style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; font-weight: 400; padding-right: 10px">
+{{ImpactMessage}}
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=top style="padding-top: 12px;">
+<table class=reco-cta-table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td valign=middle>
+<button on="tap:AMP.setState({ {{RecommendationType}}: &#39;rec_dnone&#39; })" type=submit>
+<table class=reco-cta-table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=14 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td class="reco-cta reco-cta-link outbor" align=left valign=middle style="color:#1A73E8; text-decoration:none; font-size:14px; font-weight:500; line-height: 21px; display:block; font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">{{CtaText}}
+</td>
+</tr>
+<tr>
+<td align=center valign=top aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=13 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="reco-imagePanel reco--desktop-only" aria-hidden=true width=152 align=right valign=top style="padding-top: 0px">
+<a aria-hidden=true style="text-decoration: none; width: 152; display: block;">
+<amp-img src={{ImageUrl}} width=152 height=152 style="display: block;"></amp-img>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="border-bottom: 1px solid #DADCE0;">
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=20 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div submit-success template=submit_success_template></div>
+<div submit-error template=submit_error_template></div>
+<div submitting>
+<table role=presentation cellpadding=0 cellspacing=0 border=0>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=40 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/merchant-center-3-dots-amp-loader-transparent-w240px-h240px-2x.gif width=78 height=78 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=40 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</form>
+{{/IsOneClickRecommendation}}
+{{^IsOneClickRecommendation}}
+<form method=get action-xhr=https://c.gle/ACT4xYxrfcSnnkdW9tOv8UzKee4BrFGDEg2Hp0SdoDxj1zjCbdH9wxKSZgOGevU4yxO5w_k90jEywqVehAjwRFpuneHOTth5qqA_X9LeGjXruPFOwhhsg_jsHbRuDA3oN2LIBw id=report-gamma-click></form>
+<form method=post action-xhr=https://business.google.com/amp/mc/reportrecommendationclick?auth_token=AXoYLJoPqVvHi30Mma_cedPeMmzBmulCU8QGK_ldgrfrXs--r94RUiDzBbioiztPRXEQi3K7yCGBSwkABKWss5kVp7VkqH4t0OM1wZzIGF4tvVuIdPaz8r4BEDtfYgTB id=report-recommendation-click>
+<input type=hidden name=RecommendationType value={{RecommendationType}}>
+</form>
+<div>
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=center valign=top style=padding-top:40px>
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td class=reco-contentPanel width=514 align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td align="" valign=top>
+<table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td aria-hidden=true class="reco-contentImpactIcon reco-icon" valign=top style="padding-right: 8px">
+<amp-img src={{GuidanceCategoryIconUrl}} width=28 height=28 style="display: block;"></amp-img>
+</td>
+<td class="rec-outlook-contentTitle reco-contentTitle" align=left valign=top style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:18px; line-height: 28px; color:#202124; font-weight: 500;">
+<h3 style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:18px; line-height: 28px; color:#202124; font-weight: 500;">
+{{Title}}
+</h3>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align=center valign=top>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=8 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left class=reco-contentDescription style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; color:#5F6368;">
+{{Description}} <a href={{LearnMoreUrl}} style="color:#1a73e8; text-decoration: underline;">{{LearnMoreText}}</a>
+</td>
+</tr>
+<tr>
+<td aria-hidden=true align=center valign=top class=reco--desktop-only>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=12 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align="" valign=top>
+<table class=reco-contentImpact role=presentation cellpadding=0 cellspacing=0>
+<tr>
+<td class="{{GuidanceCategory}} default_color" align=left valign=middle style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height: 21px; font-weight: 400; padding-right: 10px">
+{{ImpactMessage}}
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=top style="padding-top: 12px;">
+<table class=reco-cta-table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td valign=middle>
+<button on=tap:report-gamma-click.submit,report-recommendation-click.submit type=submit>
+<table class=reco-cta-table role=presentation cellpadding=0 cellspacing=0>
+<tbody>
+<tr>
+<td align=center valign=top aria-hidden=true>
+<a href={{CtaUrl}} target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=14 style="display: block;"></amp-img>
+</a>
+</td>
+</tr>
+<tr>
+<td class=reco-cta align=left valign=middle>
+<a class="reco-cta-link outbor4" href={{CtaUrl}} target=_blank style="color:#1A73E8; text-decoration:none; font-size:14px; font-weight:500; line-height: 21px; display:block; font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;">{{CtaText}}</a>
+</td>
+</tr>
+<tr>
+<td align=center valign=top aria-hidden=true>
+<a href={{CtaUrl}} target=_blank>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=13 style="display: block;"></amp-img>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="reco-imagePanel reco--desktop-only" aria-hidden=true width=152 align=right valign=top style="padding-top: 0px">
+<a aria-hidden=true style="text-decoration: none; width: 152; display: block;">
+<amp-img src={{ImageUrl}} width=152 height=152 style="display: block;"></amp-img>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle style="border-bottom: 1px solid #DADCE0;">
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=20 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+{{/IsOneClickRecommendation}}
+{{/UseBarChartSnippet}}
+{{#IsLastRecommendation}}
+<div>
+<table class="reco reco-Standard" role=presentation cellspacing=0 cellpadding=0 width=690 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=40 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; font-weight: 400; color: #5F6368; letter-spacing: 0.25px;">
+See <a href=https://c.gle/ACT4xYwlSP7xutSy1TnGjD6GiX54oaYtfr2qeyFf_3rg_aK_fDJyOxKKeOtlKnxcTohFkmj0kdNRxcjipYCdUj6b20rkOQeP1nqgL1jKaZoo_9YE2OBo0KnEEyougEZf4zVPJf9zrKOnMQ1rVsG04CDqoym_gyrlj2SmjwKgsYipfB6YgOZcHEWpz3ylKNNNDSktgA target=_blank style="color: #1A73E8; text-decoration: underline;">more recommendations</a> in Merchant Center.
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+{{/IsLastRecommendation}}
+{{/items}}
+{{^items}}
+<div style="display:initial; position: relative;">
+<table role=presentation cellpadding=0 cellspacing=0 border=0>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=40 style="display: block;"></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=40 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left width=392 class=width420>
+<tbody>
+<!--[if !mso]><!-->
+<tr>
+<td align=center valign=top class=dblock style="display: none;">
+<table role=presentation cellpadding=0 cellspacing=0 border=0>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<a><amp-img src=https://gstatic.com/growthlab/api/UrpTlCiLYwfvN0EEBhEiYxrN7CGtfbWhQk7rqhbl.png width=250 height=160 style="display: block;"></amp-img></a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle class=dblock style="display: none;">
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=24 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--<![endif]-->
+<tr>
+<td align=left valign=middle class=tcenter>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 class=mauto>
+<tbody>
+<tr>
+<td class=tcenter align=left valign=middle style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 22px; line-height: 33px; font-weight: 400; color: #5F6368;">
+<h3 style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 22px; line-height: 33px; font-weight: 400; color: #5F6368;" class=tcenter>
+Do you want to improve the performance of your products?
+</h3>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=14 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle class=tcenter>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 class=mauto>
+<tbody>
+<tr>
+<td class=tcenter align=left valign=middle style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; font-weight: 400; color: #5F6368; letter-spacing: 0.2px;">
+Enter into your Merchant Center account to discover updated recommendations to keep growing your business.
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=24 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle class=tcenter>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 class=mauto>
+<tbody>
+<tr>
+<td align=left valign=middle style="font-family: Google Sans, Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; font-weight: 500; color: #1A73E8; letter-spacing: 0.25px;">
+<a href=https://c.gle/ACT4xYyLZDq2vCVZj_bkIUAxwTxvfNJ_IyT1VEms8L_4qDwAUpQtOrniSvIUJUD738dNBWPbignEuaH4O3xyia9gO34gjkqlCvVbAdCRQirxprdNXjaHZf45NhQucS86WcARvPg9Izlp5H3QxKBt5eAFc8y6d5lJnLjMOO94QpdGI6mxdWDMAIQe8SghjSNCkXd2wA target=_blank style="color: #1A73E8; text-decoration: none;">Visit Merchant Center</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top class=dnone>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=48 height=1 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=top class=dnone>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=left>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<a><amp-img src=https://gstatic.com/growthlab/api/UrpTlCiLYwfvN0EEBhEiYxrN7CGtfbWhQk7rqhbl.png width=250 height=160 style="display: block;"></amp-img></a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+{{/items}}
+</template>
+</div>
+</amp-list>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr> <tr>
+<td align=center valign=middle>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 align=center>
+<tbody>
+<tr>
+<td align=center valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=48 style="display: block;"></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=center valign=top>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 width=100% style="background-color: #F8F9FA;">
+<tbody>
+<tr>
+<td align=center valign=top class=footer_pd>
+<table role=presentation cellpadding=0 cellspacing=0 border=0 width=100%>
+<tbody>
+<tr>
+<td align=left valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=30 style=display:block;></amp-img>
+</td>
+</tr>
+<tr>
+<td align=center valign=top>
+<table role=presentation width=100% cellpadding=0 cellspacing=0 border=0>
+<tbody>
+<tr>
+<td align=left valign=middle width=102>
+<table role=presentation cellspacing=0 cellpadding=0 width=88>
+<tbody>
+<tr>
+<td aria-hidden=true align=center valign=top>
+<amp-img aria-hidden=true src=https://www.gstatic.com/growthlab/api/gym0fMyvhWdp0K46NUzXeVcV8QeTj2sBjvLpemN9.png width=87 height=28 alt="" title=Google style=display:block;></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=middle width=24 style="border-left: 1px solid #5F6368;">
+<table role=presentation cellspacing=0 cellpadding=0 border=0>
+<tbody>
+<tr>
+<td align=left valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=24 height=1 style=display:block;></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=left valign=middle>
+<table role=presentation cellspacing=0 cellpadding=0 border=0>
+<tbody>
+<tr>
+<td style="font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; line-height:15px; color:#5F6368;" align=left dir=ltr><a target=_blank style="color:#5F6368; text-decoration:none;">© 2026 Google LLC <br aria-hidden=true>1600 Amphitheatre Parkway,<br aria-hidden=true>Mountain View, CA 94043</a><br aria-hidden=true><a href=https://c.gle/ACT4xYzfMDgLVVXOxyvOmsk-_tzzaykyA_b1dSRU0eb4X7OHhLcUIwRvnps66L9nQZGIu4UF-os7dacDEUKj0N7Pj2rawJQWrAlBDTw6JZSWrMUFDMA_Xh0kTrAloPb4WLH0BvJY4jRucPFyrWM style="color: #5F6368; text-decoration: underline;" target=_blank>www.google.com</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=left valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=30 style=display:block;></amp-img>
+</td>
+</tr>
+<tr>
+<td align=left valign=top style="color: #5F6368; font-family: Google Sans Text, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; line-height:15px;">You have received this email because you opted to receive reporting updates from Google Merchant Center. If you do not wish to receive such emails in the future, you can unsubscribe <a href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/ACT4xYznxKeGx6L-5R0Avhsu0uzB6MvxSicrUZk9nk7KG4fJxMaUUOtiP8dE_BSv0udLle0vJrlgRhRUNDXF566xx9gDm9RHBtcp-NlIh35jZ2fBTKCLx_x6ToQ7uUvqUkAxwP2qIQblXm4W-mzxjGn94-rRKMBFVxzHZHnaSdIdnlUPkGR3E-cZ8yTgJ36G99HG7wBEEFVqqJ8_WqrQWeD85Eli9Or9sWtm4tzY8zelayb4rxj96ZLmfWTX2XH9ZkiQzNCkykc9w-ibmFsNDbUXhzZlTkcFxryZX6-z97NQ?utm_source=gm&amp;utm_medium=email&amp;auto=true target=_blank style="color:#1967D2; text-decoration:underline">here</a><span aria-hidden=true>.</span></td>
+</tr>
+<tr>
+<td align=left valign=middle aria-hidden=true>
+<amp-img src=https://www.gstatic.com/gumdrop/files/spacer-11.gif width=1 height=30 style=display:block;></amp-img>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<amp-img alt="" height=1 width=3 src=https://notifications.google.com/g/img/ACT4xYxZX2WdPErkShmFGMvIvm3bo1FS4-APtNIFNC4MAo_d6mSYoEEkkUe_yk9lGWaCCoa7xkKrLnHHRCVLKFYdZXHXexcrH6hrNM0pLLV_wuu47xiyWPtgCECmm6SscFAZAo13cg.gif></body>
+</html>
