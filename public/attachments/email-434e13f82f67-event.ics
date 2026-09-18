@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Zoho Corporation//Zoho Calendar-EU//EN
+VERSION:2.0
+X-WR-TIMEZONE:null
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=4SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Your Billing Has Been Confirmed
+DESCRIPTION:   GEEK SQUAD INVOICE \n   Order Number: ORDER-48392\n Invoice ID: INV-99821\n Invoice Date: September 10, 2026 \n   Hello,\n Thank you for choosing our service. This invoice provides a summary of your current service plan and the associated charges. \n   Service Information\n Your service plan is active. Please review the invoice details below and contact our official support channel if you have questions about this invoice.   If this wasn't you, please reach out immediately at +1 828-280-3269 \n \n     Service  Unit Price  Qty  Total  \n    Security Plan - 3 Year  $399.98  1  $399.98  \n     Payment Method: Auto-Debit (Auto-renewal enabled) \n   Renewal Information: Please review your account's subscription settings for renewal and cancellation information. \n     Subtotal:   $399.98  \n   Tax:   $0.00  \n   Total:    $399.98   \n    Need help? at +1 813-300-3395\n Please use the official support contact information associated with your account. \n    © 2026 Your GEEK SQUAD. All Rights Reserved. \n  Customer Support: +1 828-280-3269 \n  \n
+X-ALT-DESC;FMTTYPE=text/html:<div style="font-family:&quot;Segoe UI&quot;, Arial, sans-serif; font-size:14px; max-width:600px; margin:0 auto; padding:20px; line-height:1.6; color:rgb(34, 34, 34)">  <h1 style="color:rgb(245, 169, 0); margin-top:0; font-size:22px; border-bottom:2px solid rgb(208, 208, 208); padding-bottom:10px"> GEEK SQUAD INVOICE </h1>  <p style="margin-bottom:15px"> <strong style="display:inline-block; width:110px">Order Number:</strong> ORDER-48392<br/> <strong style="display:inline-block; width:110px">Invoice ID:</strong> INV-99821<br/> <strong style="display:inline-block; width:110px">Invoice Date:</strong> September 10, 2026 </p>  <p> Hello,<br/> Thank you for choosing our service. This invoice provides a summary of your current service plan and the associated charges. </p>  <div style="background-color:rgb(255, 248, 229); border:1px solid rgb(234, 210, 138); padding:12px; border-radius:5px; margin:18px 0"> <strong>Service Information</strong><br/> Your service plan is active. Please review the invoice details below and contact our official support channel if you have questions about this invoice.      <p style="margin:15px 0; color:rgb(204, 0, 0); font-weight:bold">       If this wasn't you, please reach out immediately at +1 828-280-3269     </p> </div>  <table width="100%" cellpadding="8" style="border-collapse:collapse; margin:20px 0; border:1px solid rgb(204, 204, 204)"> <thead> <tr style="background-color:rgb(245, 169, 0); color:rgb(255, 255, 255)"> <th align="left">Service</th> <th align="right">Unit Price</th> <th align="center">Qty</th> <th align="right">Total</th> </tr> </thead> <tbody> <tr> <td style="border-top:1px solid rgb(204, 204, 204)">Security Plan - 3 Year</td> <td align="right" style="border-top:1px solid rgb(204, 204, 204)">$399.98</td> <td align="center" style="border-top:1px solid rgb(204, 204, 204)">1</td> <td align="right" style="border-top:1px solid rgb(204, 204, 204)">$399.98</td> </tr> </tbody> </table>  <p> <strong>Payment Method:</strong> Auto-Debit (Auto-renewal enabled) </p>  <div style="background-color:rgb(241, 248, 251); border:1px solid rgb(189, 224, 246); padding:12px; border-radius:5px; margin-top:20px"> <strong>Renewal Information:</strong> Please review your account's subscription settings for renewal and cancellation information. </div>  <table width="100%" cellpadding="8" style="border-collapse:collapse; margin:20px 0; border:1px solid rgb(204, 204, 204)"> <tbody><tr> <td width="70%" style="border-right:1px solid rgb(204, 204, 204)"> <strong>Subtotal:</strong> </td> <td align="right">$399.98</td> </tr> <tr> <td style="border-top:1px solid rgb(204, 204, 204); border-right:1px solid rgb(204, 204, 204)"> <strong>Tax:</strong> </td> <td align="right" style="border-top:1px solid rgb(204, 204, 204)">$0.00</td> </tr> <tr> <td style="border-top:1px solid rgb(204, 204, 204); border-right:1px solid rgb(204, 204, 204)"> <strong>Total:</strong> </td> <td align="right" style="border-top:1px solid rgb(204, 204, 204)"> <strong>$399.98</strong> </td> </tr> </tbody></table>  <p style="margin-top:20px"> <strong>Need help? at +1 813-300-3395</strong><br/> Please use the official support contact information associated with your account. </p>   <div> © 2026 Your GEEK SQUAD. All Rights Reserved. </div> <div style="margin-top:5px"> Customer Support: +1 828-280-3269 </div>  </div>
+DTSTART;TZID=Europe/London:20260910T200000
+DTEND;TZID=Europe/London:20260910T203000
+LOCATION:
+UID:e9a20c7fa877477ab1e06047697ac448@zoho.eu
+IMPORTANT:0
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:0
+CREATED:20260910T185223Z
+LAST-MODIFIED:20260910T185223Z
+DTSTAMP:20260910T185225Z
+ORGANIZER;CN=Eric Olsen:MAILTO:ghywmzia65.27llsspg@zohomail.eu
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;PARTSTAT=NEEDS-ACTION:MAILTO:harry@superesolutions.com
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION;RELATED=START:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

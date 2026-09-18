@@ -1,0 +1,440 @@
+<!-- Universal snippet start -->
+<!-- Universal snippet end --><!-- content snippet start -->
+<!-- content snippet end -->
+<!doctype html>
+<html ⚡4email data-css-strict lang=en>
+<head>
+<meta charset=utf-8>
+<script async src=https://cdn.ampproject.org/v0.js></script>
+<script async custom-element=amp-list src=https://cdn.ampproject.org/v0/amp-list-0.1.js></script>
+<script async custom-template=amp-mustache src=https://cdn.ampproject.org/v0/amp-mustache-0.2.js></script>
+<script async custom-element=amp-bind src=https://cdn.ampproject.org/v0/amp-bind-0.1.js></script>
+<style amp4email-boilerplate>body{visibility:hidden}</style>
+<style amp-custom>
+#mainlist div[role=list] {
+position: relative;
+display: initial;
+}
+div {
+outline: none;
+}
+.show {
+display: block;
+}
+.hide {
+display: none;
+}
+.bg-1 {
+background-image: url('https://www.gstatic.com/gumdrop/files/gmb-1-star-filled-outline-transparent-w398-h62-2x.png');
+}
+.bg-2 {
+background-image: url('https://www.gstatic.com/gumdrop/files/gmb-2-star-filled-outline-transparent-w398-h62-2x.png');
+}
+.bg-3 {
+background-image: url('https://www.gstatic.com/gumdrop/files/gmb-3-star-filled-outline-transparent-w398-h62-2x.png');
+}
+.bg-4 {
+background-image: url('https://www.gstatic.com/gumdrop/files/gmb-4-star-filled-outline-transparent-w398-h62-2x.png');
+}
+.bg-5 {
+background-image: url('https://www.gstatic.com/gumdrop/files/gmb-5-star1-transparent-w398-h62-2x.png');
+}
+.pad-logo{display: flex; justify-content: space-between;}
+@media (min-width: 601px) {
+.head-font
+{
+font-size: 38px;
+line-height: 46px;
+}
+.top-star-pad
+{
+padding: 66px 0px 0px 0px;
+}
+.mob-hide
+{
+display: block;
+}
+.mob-show
+{
+display: none;
+}
+.pad-heading {
+padding: 0px 52px 38px;
+}
+.text_center
+{
+text-align: left ;
+}
+.pad-rev-1 {
+padding: 0px 0px 0 65px;
+}
+.pad-t-16
+{padding-top: 18px;}
+.pad-l-60-65
+{
+padding-left: 15px;
+}
+.pad-logo {
+padding: 18px 50px 0px 50px;
+}
+.wid-70 {
+width: 116px;
+}
+.pad-new-rev {
+padding: 17px 50px 0;
+}
+.pad-new-rev-main {
+padding: 0 0 0 132px;
+}
+.flex-col {
+flex-direction: row;
+}
+.flex-col-foot {
+flex-direction: row;
+}
+.foot-pad-t-b
+{
+padding-top:40px;
+padding-bottom:120px;
+}
+.pad-help-para {
+padding: 0;
+}
+.pad-new-rev-para {
+padding: 18px 44px 18px 0;
+}
+.pad-new-rev-cta {
+padding: 0px 44px 0 0;
+}
+}
+@media (max-width: 600px) {
+.head-font
+{
+font-size: 38px;
+line-height: 46px;
+}
+.top-star-pad
+{
+padding: 66px 0px 0px 0px;
+}
+.mob-hide
+{
+display: block;
+}
+.mob-show
+{
+display: none;
+}
+.pad-heading {
+padding: 0px 20px 26px;
+}
+.text_center
+{
+text-align: center ;
+}
+.pad-rev-1 {
+padding: 0px 0px 0 65px;
+}
+.pad-t-16
+{padding-top: 16px;}
+.pad-l-60-65
+{
+padding-left: 15px;
+}
+.pad-logo {
+padding: 18px 20px 0px 20px;
+}
+.wid-70 {
+width: 70px;
+}
+.pad-new-rev {
+padding: 17px 20px 0;
+}
+.pad-new-rev-main {
+padding: 0 0 0 20px;
+}
+.flex-col {
+flex-direction: column;
+align-items: center;
+}
+.flex-col-foot {
+flex-direction: row;
+}
+.foot-pad-t-b
+{
+padding-top:40px;
+padding-bottom:120px;
+}
+.pad-help-para {
+padding: 0 20px;
+}
+.pad-new-rev-para {
+padding: 18px 20px 18px 0;
+}
+.pad-new-rev-cta {
+padding: 0px 20px 0 0;
+}
+.disp-flex-j {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
+@media (min-width: 481px) {
+.bprofile-logo{width: 200px}
+.card-margin {
+margin: 24px auto 0;
+}
+.card1-margin {
+margin: 0 auto;
+max-width: 500px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.f-16-l-24
+{
+font-size: 14px;
+line-height: 21px;
+}
+.para2_pad
+{
+padding-top: 32px;
+padding-bottom: 28px;
+}
+.wid-500
+{
+max-width: 500px;
+}
+.help-pad-bot
+{
+padding-bottom: 48px;
+}
+.card-internal
+{
+max-width: 420px;
+margin: 0px 40px 0px 40px
+}
+.footer-text
+{
+width:320px;
+}
+.address-logo{
+width:154px;
+}
+}
+@media (max-width: 480px) {
+.bprofile-logo{width: 180px}
+.pad-rev-1 {
+padding: 0px 0px 0 60px;
+}
+.pad-t-16
+{padding-top: 16px;}
+.pad-l-60-65
+{
+padding-left: 10px;
+}
+.head-font
+{
+font-size: 32px;
+line-height: 40px;
+}
+.top-star-pad
+{
+padding: 58px 0px 0px 0px;
+}
+.mob-hide
+{
+display: none;
+}
+.mob-show
+{
+display: block;
+}
+.pad-logo {
+padding: 18px 20px 0px 20px;
+}
+.card-margin {
+margin: 24px 20px 0;
+}
+.card1-margin {
+margin: 0 auto;
+max-width: 400px;
+padding-top: 20px ;
+padding-bottom: 12px;
+}
+.f-16-l-24
+{
+font-size: 16px;
+line-height: 24px;
+}
+.para2_pad
+{
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.wid-500
+{
+max-width: 400px;
+}
+.help-pad-bot
+{
+padding-bottom: 34px;
+}
+.card-internal
+{
+max-width: 360px;
+margin: 0px 20px 0px 20px
+}
+.flex-col-foot {
+flex-direction: column;
+align-items: center;
+}
+.foot-pad-t-b
+{
+padding-top:36px;
+padding-bottom:64px;
+}
+.footer-text
+{
+width:100%;
+}
+.address-logo{
+width:100%;
+padding-top:28px;
+}
+}
+</style>
+</head>
+<body style="background-color: #ffffff; margin: 0 auto;">
+<div style="max-width: 850px; margin: 0 auto;">
+<!-- Logo Starts -->
+<div class=pad-logo>
+<div class=bprofile-logo style="background-image: url(&#39;https://www.gstatic.com/gumdrop/files/gmb-en-gb-transparent-w334px-h38px-2x.png&#39;); background-size: contain; background-repeat: no-repeat; height: 20px;"></div>
+<div>
+<amp-img src=https://www.gstatic.com/gumdrop/files/gmb-top-logo-transparent-w150-h48-2x.png width=75 height=24></amp-img>
+</div>
+</div>
+<!-- Logo Ends -->
+<div style="margin: 0 auto; text-align: center;">
+<div class=top-star-pad>
+<a href=https://business.google.com/n/12349657309969268718/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pJMFFqaHFTbWhJZWpocFgwOTRhVGxGU0haM1NWRRAB?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYz-m8iifZnxQAaNMrThQOAT2EhEjd4G2AtVMqor2buslx5TrweLrciKaCV4SAGcPlCjBM_BZ47hobHA_7STA0ZgV8CfTSHp24KIELx_SIxRzrWvAWNrE4vGop-Efbaur8v6 target=_blank style=text-decoration:none;><amp-img class=mob-hide src=https://www.gstatic.com/gumdrop/files/gmb-5-star1-transparent-w398-h62-2x.png alt="Star Rating" width=200 height=31 style="margin: 0 auto;"></amp-img></a>
+<a href=https://business.google.com/n/12349657309969268718/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pJMFFqaHFTbWhJZWpocFgwOTRhVGxGU0haM1NWRRAB?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYz-m8iifZnxQAaNMrThQOAT2EhEjd4G2AtVMqor2buslx5TrweLrciKaCV4SAGcPlCjBM_BZ47hobHA_7STA0ZgV8CfTSHp24KIELx_SIxRzrWvAWNrE4vGop-Efbaur8v6 target=_blank style=text-decoration:none;><amp-img class=mob-show src=https://www.gstatic.com/gumdrop/files/gmb-5-star1-transparent-w398-h62-2x.png alt="Star Rating" width=180 height=28 style="margin: 0 auto;"></amp-img></a>
+</div>
+<div style="padding: 8px 0 0 0;">
+<a href=https://business.google.com/n/12349657309969268718/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pJMFFqaHFTbWhJZWpocFgwOTRhVGxGU0haM1NWRRAB?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYz-m8iifZnxQAaNMrThQOAT2EhEjd4G2AtVMqor2buslx5TrweLrciKaCV4SAGcPlCjBM_BZ47hobHA_7STA0ZgV8CfTSHp24KIELx_SIxRzrWvAWNrE4vGop-Efbaur8v6 target=_blank style=text-decoration:none;><amp-img src=https://www.gstatic.com/gumdrop/files/gmb-migration-transparent-w726-h298-2x.png width=363 height=149 style="display: block; margin: 0 auto;"></a></amp-img>
+</div>
+<div style="max-width: 600px; margin: 0 auto; padding-left: 20px; padding-right: 20px; ">
+<div class=pad-heading>
+<p class=head-font style="margin: 0; font-family: Google sans, Roboto, Helvetica, Arial, sans-serif; color:#606368;">Great job, you got a new<br>5-star review</p>
+</div>
+<div class=wid-500 style="padding-bottom: 24px; margin: 0 auto;">
+<div style="margin: 0 auto; display: inline-block;">
+<a href=https://business.google.com/n/12349657309969268718/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pJMFFqaHFTbWhJZWpocFgwOTRhVGxGU0haM1NWRRAB?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYy83sAkL5Hqx_QLUCVSrcx4jUBwi36Sr9n0E8CegWpGKI8QnBdGlX5vWUQ2bJQgdGrVkFLzxzAKAxqgUt413_YWjXQWJSSX8WnPOSTS9JKY3Fvci7uHZu8PiLI2wHmq-TJy style="display:block; text-decoration:none; border-bottom:6px solid transparent; border-right:46px solid transparent; border-left:46px solid transparent; text-align: center; white-space: nowrap; " target=_blank></a>
+<a href=https://business.google.com/n/12349657309969268718/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pJMFFqaHFTbWhJZWpocFgwOTRhVGxGU0haM1NWRRAB?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYy83sAkL5Hqx_QLUCVSrcx4jUBwi36Sr9n0E8CegWpGKI8QnBdGlX5vWUQ2bJQgdGrVkFLzxzAKAxqgUt413_YWjXQWJSSX8WnPOSTS9JKY3Fvci7uHZu8PiLI2wHmq-TJy style=" background-color:#1A73E8; display:block; border-radius:2px; color:#FFFFFF; text-decoration:none; font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height:21px; font-weight:500; border-top:8px solid #1A73E8; border-right:46px solid #1A73E8; border-bottom:8px solid #1A73E8; border-left:46px solid #1A73E8; text-align: center; white-space: nowrap; letter-spacing: 0.5px; " target=_blank title="">Read review</a>
+<a href=https://business.google.com/n/12349657309969268718/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pJMFFqaHFTbWhJZWpocFgwOTRhVGxGU0haM1NWRRAB?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYy83sAkL5Hqx_QLUCVSrcx4jUBwi36Sr9n0E8CegWpGKI8QnBdGlX5vWUQ2bJQgdGrVkFLzxzAKAxqgUt413_YWjXQWJSSX8WnPOSTS9JKY3Fvci7uHZu8PiLI2wHmq-TJy style="display:block; text-decoration:none; border-bottom:6px solid transparent; border-right:46px solid transparent; border-left:46px solid transparent; text-align: center; white-space: nowrap; " target=_blank></a>
+</div>
+</div>
+<div class=card1-margin style="background-color: #ffffff; border: 1px solid #DADCE0; text-align: left; border-radius: 6px;">
+<div class=card-internal>
+<div style="display: flex; flex-direction: row;">
+<div>
+<div style="border-radius: 25px; display: flex; justify-content: flex-end;">
+<amp-img src=https://lh3.googleusercontent.com/a-/ALV-UjXF6aheBNXzxNBAUnFkFOyT8dA9QHLwwCl1wM0kjVtCDKAoMLmZ=s110-a-no-cc width=50 height=50 style="display: block; border-radius: 25px;"></amp-img>
+</div>
+</div>
+<div class=pad-l-60-65>
+<div style="padding-bottom: 16px">
+<p style="margin: 0; font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; color:#515354; line-height:24px; font-weight: 500;">Susan Zhang</p>
+</div>
+<div style="padding-bottom: 18px;">
+<amp-img src=https://www.gstatic.com/gumdrop/files/gmb-5-star-filled-transparent-w288-h48-2x.png alt="Star Rating" title="Star Rating" width=92 height=15 style="display: block;"></amp-img>
+</div>
+</div>
+</div>
+<div class=pad-rev-1>
+<p style="margin: 0; font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; color:#515354; line-height:24px;"><em><span style="color: #9B9B9B;">This user only left a rating</span></em></p>
+</div>
+<div class="pad-rev-1 pad-t-16">
+<p style="margin: 0; font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; color:#515354; line-height:21px; "><a href=https://business.google.com/n/12349657309969268718/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pJMFFqaHFTbWhJZWpocFgwOTRhVGxGU0haM1NWRRAB?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYxBNmhCAiczMfqZlvrjXqcSnMAA-IwiNKYZZfzu2WsssWCGGlc6fsc_TWGgSqbX_uaqDwcVA0i10_E2rswhHntACJFrCi3mbzO6H_pwbhtfeUcoBfihb25GDQFFrCUv_A style="color: #1A73E8; text-decoration: none;" target=_blank>Reply to review</a></p>
+</div>
+</div>
+</div>
+<div class=wid-500 style="margin: 0 auto;">
+<p class=f-16-l-24 style="margin: 0; text-align: left; font-family: Roboto, Helvetica, Arial, sans-serif; color:#606368; padding-top:30px; ">Replying to customer reviews helps build trust. We&#39;ll let Susan know when you&#39;ve replied.</p>
+</div>
+<div style="display: block;">
+<amp-list id=mainlist src=https://business.google.com/l/14710229518007181248/dynamicmail/relatedreviews?auth_token=AKi97USiwGEq1F2KanabvSoCQvv8W1jnC5iMwFzEjueHAf8oyLk8eSPULWn3a3pJGjK9ANlFADvbRctvR80p2KIqp8ft8VVriUeB1CwPcy9fttgoYOX52v6tKLWG_FoMip1gTz7tp_c8USjSj4CTfhRwiw8MfamHyqXRwZ0MGbRy3SqPqg&amp;review_id=Ci9DQUlRQUNvZENodHljRjlvT2pJMFFqaHFTbWhJZWpocFgwOTRhVGxGU0haM1NWRRAB&amp;link_to_bp=true&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYyGwvoagksgAmAwGIOFKqZA2t87kyLU2CXeLQiUuvpIGNMppN1u2J2nVQ-KNnkpUFCNwSeL70Me9hcsNnENB21R5QX0PpeASlyo1eddWsW5a5tupttnBaPV items=RelatedReviews layout=responsive height=1 width=100 style="height: auto;">
+<template type=amp-mustache>
+<div style="display: block;">
+<div class=wid-500 style="margin: 0 auto;">
+<p class="f-16-l-24 para2_pad" style="margin: 0; text-align: left; font-family: Roboto, Helvetica, Arial, sans-serif; color:#606368;">Here’s a review that you haven’t responded to yet:</p>
+</div>
+<div class=card1-margin style="background-color: #ffffff; border: 1px solid #DADCE0; text-align: left; border-radius: 6px;">
+<div class=card-internal>
+<div style="display: flex; flex-direction: row;">
+<div>
+<div style="border-radius: 25px; display: flex; justify-content: flex-end;">
+<amp-img src={{ReviewerPhoto}} width=50 height=50 style="display: block; border-radius: 25px;"></amp-img>
+</div>
+</div>
+<div class=pad-l-60-65>
+<div style="padding-bottom: 16px">
+<p style="margin: 0; font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; color:#515354; line-height:24px; font-weight: 500;">{{ReviewAuthor}}</p>
+</div>
+<div style="padding-bottom: 18px;">
+<div [class]="{{ReviewRating}} == 5 ? &#39;bg-5&#39; : ( {{ReviewRating}} == 4 ? &#39;bg-4&#39; : ( {{ReviewRating}} == 3 ? &#39;bg-3&#39; : ( {{ReviewRating}} == 2 ? &#39;bg-2&#39; : &#39;bg-1&#39;)))" class=bg-1 style="width: 92px; height: 15px; background-size: 100% 100%;">
+</div>
+</div>
+</div>
+</div>
+<div class=pad-rev-1>
+<p style="margin: 0; font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; color:#515354; line-height:24px;">{{ReviewSnippet}}</p>
+</div>
+<div class=pad-rev-1 style="padding-top: 18px;">
+<a href={{ReviewUrl}} style="margin: 0; font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; color:#4285F4; line-height:25px; text-decoration: none;" target=_blank title="">Reply to review</a>
+</div>
+</div>
+</div>
+</div>
+</template>
+</amp-list>
+</div>
+<div class=para2_pad style="padding-top: 0px;"></div>
+<div style="margin: 0 auto; display: inline-block;">
+<a href=https://business.google.com/n/12349657309969268718/reviews?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYxD4_90pyJKoWk9s2mm4-dsd3VOJWJfauY60dQiUnIM1V2SYNTTHYARxhyTSOpv1yIafdvNdpKpbKiVvOrGFcZRqyKyKo-zWO16PIefvPuIaB7LE2TlB411Ik_e8AxZNgZAEQeL-g style="display:block; text-decoration:none; border-bottom:6px solid transparent; border-right:18px solid transparent; border-left:18px solid transparent; text-align: center; white-space: nowrap; " target=_blank></a>
+<div style="margin: 0 auto; border-radius:2px; background-color:#ffffff; color:#1A73E8; text-align: center; vertical-align: middle; border: 1px solid #AFC0CF;">
+<a href=https://business.google.com/n/12349657309969268718/reviews?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYxD4_90pyJKoWk9s2mm4-dsd3VOJWJfauY60dQiUnIM1V2SYNTTHYARxhyTSOpv1yIafdvNdpKpbKiVvOrGFcZRqyKyKo-zWO16PIefvPuIaB7LE2TlB411Ik_e8AxZNgZAEQeL-g style="display:block; border-radius:2px; color:#1A73E8; text-decoration:none; font-family:Google Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:14px; line-height:21px; font-weight:500; border-top:8px solid transparent; border-right:18px solid transparent; border-bottom:8px solid transparent; border-left:18px solid transparent; text-align: center; white-space: nowrap; letter-spacing: 0.5px;" target=_blank>See all reviews</a>
+</div>
+<a href=https://business.google.com/n/12349657309969268718/reviews?fid=9805029938667543593&amp;trk=https%3A%2F%2Fc.gle%2FACT4xYxD4_90pyJKoWk9s2mm4-dsd3VOJWJfauY60dQiUnIM1V2SYNTTHYARxhyTSOpv1yIafdvNdpKpbKiVvOrGFcZRqyKyKo-zWO16PIefvPuIaB7LE2TlB411Ik_e8AxZNgZAEQeL-g style="display:block; text-decoration:none; border-bottom:6px solid transparent; border-right:18px solid transparent; border-left:18px solid transparent; text-align: center; white-space: nowrap; " target=_blank></a>
+</div>
+<div class="wid-500 help-pad-bot" style="display: flex; margin: 0 auto; padding-top: 40px;">
+<div>
+<amp-img src=https://www.gstatic.com/gumdrop/files/hat-blue-w50-h42.png width=27 height=23 style="display: block;"></amp-img>
+</div>
+<div>
+<p style="margin: 0; text-align: left; font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px; color:#606368; line-height:24px; padding-left: 15px;">Visit the <a href=https://c.gle/ACT4xYxz0yFjMAq3xi3VI7sIQnZpejNB7uWMr36Y9NlLXlkZADC0oQ_E-K_MJh3oxw0PDKwEeCGAR6y3_GZnkTm7IoVumU4aieuTvlax6Ve0WJ9h5_zXDPMqxGXKmUGwZcINxY6HrKBDkvy14HYtS5mLJ8waZItN2UMSYA0pGMIPWGehLvzGUbw target=_blank style="text-decoration:none; color:#1A73E8;">Help Center</a> to learn more.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Starts -->
+<div style="background-color: #DADCE0;">
+<div class=foot-pad-t-b style="padding-top:40px; display: flex;">
+<div dir=rtl class="flex-col-foot pad-help-para" style="margin: 0 auto; display:flex; max-width:500px;">
+<div dir=ltr class=footer-text>
+<p style="margin: 0; color:#515354; font-family:Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; line-height:14px; letter-spacing: 0.2px; text-align: left;">This email was sent to you because you indicated that you’d like to receive updates about reviews of your Business Profile. If you don&#39;t want to receive such emails in the future, please unsubscribe <a href=https://myaccount.google.com/communication-preferences/unsubscribe/gt/ACT4xYxzJ_cexBfUu72Q-jOM1J5oPZ2yzQR-Mh_4ctn_DmVPg-5weni4dRn3bRuhDZwJpoypMe9JugXN0IpYdChIdE_HMnGsPUq0A3Np9ylosiPtEwXcFthBj4EANNEMl5nPhb_amE488XlbLBwynJSLpdwxlJcnbLDp68pYTtug6KAQJRL-azvtGuqBFwaR-22Ch3aCsCerCXkwfzEHzmJPK8f4mkYcSH_pjCy3jnGBJh4tP8Ks3ArwPA-b7BhD0Gg85DFcmzXePxU?utm_source=gm&amp;utm_medium=email&amp;auto=true style="color:#1967D2; display:inline-block; text-decoration:none">here</a><span aria-hidden=true>.</span></p>
+</div>
+<div dir=ltr class=mob-hide style=padding-right:28px;>
+<div style="width:1px; height:80px; background-color:#515354;"></div>
+</div>
+<div dir=ltr class=address-logo style=padding-left:3px;>
+<amp-img src=https://www.gstatic.com/gumdrop/files/googlelogo-tm-dark.png width=85 height=27 style="display: block;"></amp-img>
+<p style="margin: 0; font-family:Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-size:10px; line-height:15px; color:#515354; text-align: left; padding-top: 6px;">© 2026 Google LLC <br>1600 Amphitheatre Parkway,<br>Mountain View, CA 94043</a></p>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Ends -->
+</div>
+<amp-img alt="" height=1 width=3 src=https://notifications.google.com/g/img/ACT4xYz9-M7p33TaVaSqGQb0qfQzDYrHjJ6vpMOnsxc9jfszdIoaXmIzlmhzon1p5R2ex-accE08Jl7vI44uvStAdtxjV79ILUL5BFdKM-5yWKSJYLdVPo1_H9AP7d7I5DaNI4dD9g.gif></body>
+</html>
