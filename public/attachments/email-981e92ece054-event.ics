@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Zoho Corporation//Zoho Calendar-EU//EN
+VERSION:2.0
+X-WR-TIMEZONE:null
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=4SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Confirmation of Your $297.98 Payment
+DESCRIPTION:   GEEK SQUAD SERVICE INVOICE\n   Order Number: PP-CB48392Z\n Invoice ID: INV-99821SP\n Date: June 05, 2026 \n  Hi there,\nYour GEEK SQUAD SERVICE subscription has been successfully renewed. You are now protected with the latest security updates and tools.\n   If this wasn't you, please reach out immediately at +1 843-446-5763 \n     Product  Unit Price  Quantity  Total  \n    Internet Security Plan - 3 Year  $297.98  1  $297.98  \n    Payment: Auto-Debit (Auto-renewal enabled)\n   Note: Your plan will automatically renew in 3 years unless canceled 24 hours prior to renewal. \n    Subtotal:  $297.98  \n  Tax (0%):  $0.00  \n  Total Due:  $297.98  \n    © 2026 Geek Squad. All Rights Reserved. \n  Help Desk: +1 843-446-5763\n\n\n
+X-ALT-DESC;FMTTYPE=text/html:  <div style="font-family:&quot;Segoe UI&quot;, Arial, sans-serif; font-size:14px; max-width:600px; margin:0 auto; padding:20px; line-height:1.6; color:rgb(34, 34, 34)">          <h1 style="color:rgb(255, 187, 0); margin-top:0; font-size:22px; border-bottom:2px solid rgb(208, 208, 208); padding-bottom:10px">GEEK SQUAD SERVICE INVOICE</h1>           <p style="margin-bottom:15px">       <strong style="display:inline-block; width:110px">Order Number:</strong> PP-CB48392Z<br/>       <strong style="display:inline-block; width:110px">Invoice ID:</strong> INV-99821SP<br/>       <strong style="display:inline-block; width:110px">Date:</strong> June 05, 2026     </p>           <p>Hi there,<br/>Your GEEK SQUAD SERVICE subscription has been successfully renewed. You are now protected with the latest security updates and tools.</p>           <p style="margin:15px 0; color:rgb(204, 0, 0); font-weight:bold">       If this wasn't you, please reach out immediately at +1 843-446-5763     </p>           <table width="100%" cellpadding="8" style="border-collapse:collapse; margin:20px 0; border:1px solid rgb(204, 204, 204)">       <thead>         <tr style="background-color:rgb(255, 187, 0); color:rgb(255, 255, 255)">           <th align="left">Product</th>           <th align="right">Unit Price</th>           <th align="center">Quantity</th>           <th align="right">Total</th>         </tr>       </thead>       <tbody>         <tr>           <td style="border-top:1px solid rgb(204, 204, 204)">Internet Security Plan - 3 Year</td>           <td align="right" style="border-top:1px solid rgb(204, 204, 204)">$297.98</td>           <td align="center" style="border-top:1px solid rgb(204, 204, 204)">1</td>           <td align="right" style="border-top:1px solid rgb(204, 204, 204)">$297.98</td>         </tr>       </tbody>     </table>           <p><strong>Payment:</strong> Auto-Debit (Auto-renewal enabled)</p>           <div style="background-color:rgb(241, 248, 251); border:1px solid rgb(189, 224, 246); padding:12px; border-radius:5px; margin-top:20px">       <strong>Note:</strong> Your plan will automatically renew in 3 years unless canceled 24 hours prior to renewal.     </div>           <table width="100%" cellpadding="8" style="border-collapse:collapse; margin:20px 0; border:1px solid rgb(204, 204, 204)">       <tbody><tr>         <td width="70%" style="border-right:1px solid rgb(204, 204, 204)"><strong>Subtotal:</strong></td>         <td align="right">$297.98</td>       </tr>       <tr>         <td style="border-top:1px solid rgb(204, 204, 204); border-right:1px solid rgb(204, 204, 204)"><strong>Tax (0%):</strong></td>         <td align="right" style="border-top:1px solid rgb(204, 204, 204)">$0.00</td>       </tr>       <tr>         <td style="border-top:1px solid rgb(204, 204, 204); border-right:1px solid rgb(204, 204, 204)"><strong>Total Due:</strong></td>         <td align="right" style="border-top:1px solid rgb(204, 204, 204)"><strong>$297.98</strong></td>       </tr>     </tbody></table>                   <div class="copy">                 © 2026 <span>Geek Squad</span>. All Rights Reserved.             </div>             <div class="footer-addr">                 Help Desk: <strong>+1 843-446-5763</strong><br/></div></div>
+DTSTART;TZID=Europe/London:20261013T190000
+DTEND;TZID=Europe/London:20261013T193000
+LOCATION:
+UID:382480ecce74436e9824a128677ab33a@zoho.eu
+IMPORTANT:0
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+PRIORITY:0
+CREATED:20261013T174003Z
+LAST-MODIFIED:20261013T174003Z
+DTSTAMP:20261013T174004Z
+ORGANIZER;CN=Erik:MAILTO:eriwens@zohomail.eu
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;PARTSTAT=NEEDS-ACTION:MAILTO:harry@superesolutions.com
+BEGIN:VALARM
+ACTION:EMAIL
+TRIGGER;VALUE=DURATION;RELATED=START:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
