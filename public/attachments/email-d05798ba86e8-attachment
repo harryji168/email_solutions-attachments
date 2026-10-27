@@ -1,0 +1,17 @@
+Return-Path: <postmaster@sesols.com>
+Received: by mail6.sesols.com (Postfix, from userid 0)
+	id 9DECC4AAC5; Fri, 23 Oct 2026 19:14:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sesols.com; s=mail6;
+	t=1792808100;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc; bh=s14J+iztnrytnRYzb7lhFG/jS/vrxWJnnahfijFMnco=;
+	b=hE6co3n43uDZ7qfvT1psnC6bca7LwII6C3w7mwUouheVRHqoKl9nR/rQXvN3ND8HHrKCm2
+	uUzRVazEUJ//UD7qO5BIkXntKQ9Va+LJ7QF3UXh3Bvcyi+XJ7YoTGjffpw5Mkk/tUfM5y6
+	WBRqk4q6GfCxuT9C78wV00TZPfd202E=
+From: postmaster@sesols.com
+To: info@ccttf.org
+Subject: s
+Message-ID: <sig1792808099716935941@sesols.com>
+Date: Fri, 23 Oct 2026 19:14:59 -0700
+
+x
